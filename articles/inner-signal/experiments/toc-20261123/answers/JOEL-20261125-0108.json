@@ -1,0 +1,984 @@
+{
+ "page": "inner-signal-toc-20261124-b",
+ "saved": "2026-11-25T01:08:54.930Z",
+ "picks": {
+  "S011": "own",
+  "S015": "own",
+  "S034": "fable",
+  "S037": "fable",
+  "S038": "pick",
+  "S057": "own",
+  "S093": "fable",
+  "S122": "own",
+  "S162": "own"
+ },
+ "own": {
+  "S011": "Undo Accidental Affirmations",
+  "S015": "You're Better Than The Pros",
+  "S057": "Understand the Meaning",
+  "S122": "Breathe, Relax & Flow",
+  "S162": "Reparenting Therapy"
+ },
+ "answers": {
+  "Your answer 5": "that's right",
+  "Your answer 10: the merge": "good",
+  "Your answer 7: the general rule": "ok",
+  "Your answer 11: daydreaming": "ok. i'm still curious if we could improve the organization of the guide in general or if you think it's already optimal now the way it is",
+  "Your answers 2 and 8: what goes": "ok",
+  "Your S122 note: Systema": "i changed heading to Breathe, Relax & Flow",
+  "What the readers of the proposal still found": "i already forgot what answeres 4 and 9 were for but it sounds like we should rethink the heading at least. make sure the organization makes sense. \n\ndaily life should not be when to get outside help\nwouldn't find a hypnotist go under when to get outside help?  take it to the council should be under self trust and guidance yeah, and it was explained by the sentence just prior to it in the guide that's published. \nno trance inner contact shouldn't be in the induction library i guess, and i'd put that above the inductions, makes sense to do that preliminarily, not sure it actually should just be an appendix but also not sure about all these things being in the appendix but we had decided at some point that would help to make the main guide smaller"
+ },
+ "comment": "",
+ "at": {
+  "p:S034": 1795563130855,
+  "p:S037": 1795563159269,
+  "p:S038": 1795563397032,
+  "o:S057": 1795563553917,
+  "p:S057": 1795563553917,
+  "p:S093": 1795563661371,
+  "p:S122": 1795568927446,
+  "o:S122": 1795568927446,
+  "p:S162": 1795566800379,
+  "o:S162": 1795566800379,
+  "q:Your answer 5": 1795566822691,
+  "q:Your answer 10: the merge": 1795568510340,
+  "q:Your answer 7: the general rule": 1795568516584,
+  "q:Your answer 11: daydreaming": 1795568556557,
+  "q:Your answers 2 and 8: what goes": 1795568574567,
+  "q:Your S122 note: Systema": 1795568608554,
+  "q:What the readers of the proposal still found": 1795568797554
+ },
+ "headings": {
+  "S001": "How to Use This Huge Guide",
+  "S002": "(goes)",
+  "S003": "Introduction",
+  "S004": "Quick Start: Do This First",
+  "S005": "Do You Think in Words?",
+  "S006": "What I Mean by Hypnosis",
+  "S007": "Protection From Hypnotists",
+  "S008": "The Most Extreme Example",
+  "S009": "Keep Your Adult in Charge",
+  "S010": "Affirmations Done Right",
+  "S011": "Undo Accidental Affirmations",
+  "S012": "Hypnosis Evidence",
+  "S013": "What It's For, and Not For",
+  "S014": "Forget Left Brain/Right Brain",
+  "S015": "You're Better Than The Pros",
+  "S016": "A Useful Map of the Mind",
+  "S017": "Start From the Whole",
+  "S018": "The Inner Adult’s Three Jobs",
+  "S019": "No Adult Yet? Borrow One",
+  "S020": "Child Speaks, You Steer",
+  "S021": "Love First, Trust Later",
+  "S022": "Instead of Blame",
+  "S023": "Inner Child Practices",
+  "S024": "The Two-Hand Practice",
+  "S025": "The Nurturer",
+  "S026": "The Protector",
+  "S027": "The Guide",
+  "S028": "Working With Your Guards",
+  "S029": "Your Inherited Parent Script",
+  "S030": "When to Stop Scanning",
+  "S031": "Reparenting in Hypnosis",
+  "S032": "Don't Rush the Repair",
+  "S033": "Play & Rest, Adult Present",
+  "S034": "Other-Hand Dialogue",
+  "S035": "Is “Your Voice” Really Yours?",
+  "S036": "Belong and Stay Yourself",
+  "S037": "De-Hypnosis: Wake Up",
+  "S038": "Are You Being Influenced?",
+  "S039": "Soft Words, Less Choice",
+  "S040": "Induction: Gather and Soften",
+  "S041": "Simple Beats Confusing",
+  "S042": "Before You Begin",
+  "S043": "Sober Induction: 3–5 Min",
+  "S044": "Already Trancey?",
+  "S045": "Mind Keeps Drifting Off?",
+  "S046": "Make Hypnosis More Alert",
+  "S047": "Sleep Induction",
+  "S048": "Fractionation: In and Out",
+  "S049": "Deepening, if Useful",
+  "S050": "Trance Depth Check",
+  "S051": "A Shortcut Back In",
+  "S052": "Turn It Off or Keep It",
+  "S053": "Come All the Way Back",
+  "S054": "The Actual Inner Meeting",
+  "S055": "Let the Response Guide You",
+  "S056": "Finding Your Own Words",
+  "S057": "Understand the Meaning",
+  "S058": "Invitation Feels Wrong?",
+  "S059": "Look at the Situation Too",
+  "S060": "Feels Like Too Much?",
+  "S061": "Urge to Move?",
+  "S062": "Offer the Care They Want",
+  "S063": "Finish Without a Revelation",
+  "S064": "If Your Mind Objects",
+  "S065": "The 15-Minute Daily Practice",
+  "S066": "The Weekly Deeper Practice",
+  "S067": "Capacity Before Content",
+  "S068": "Troubleshooting",
+  "S069": "Nothing Happens?",
+  "S070": "\"It Feels Fake\"",
+  "S071": "Subconscious Is Silent?",
+  "S072": "Inner Child Won’t Appear?",
+  "S073": "Getting Anxious?",
+  "S074": "Dissociating or Unreal?",
+  "S075": "Feeling Grandiose?",
+  "S076": "Too Analytical?",
+  "S077": "Too Blissful or Diffuse?",
+  "S078": "Want Hidden Truth Now?",
+  "S079": "Keep Daydreaming?",
+  "S080": "Stuck in Spiritual Bypass?",
+  "S081": "Endless Processing?",
+  "S082": "Life Not Changing?",
+  "S083": "What Not to Do",
+  "S084": "When to Get Outside Help",
+  "S085": "Do These With a Clinician",
+  "S086": "Daily Life Is the Feedback",
+  "S087": "Closing",
+  "S088": "Try It in the Inner Signal App",
+  "S089": "Survey and Consultation",
+  "S090": "(goes)",
+  "S091": "A: Asking the Subconscious",
+  "S092": "Core Prompts",
+  "S093": "Appendix B: Ethical NLP",
+  "S094": "The Four Layers",
+  "S095": "Milton Model: Soft Words",
+  "S096": "1. Pacing and Leading",
+  "S097": "2. Awareness Verbs",
+  "S098": "3. Presuppositions",
+  "S099": "4. Cause-Effect Bridges",
+  "S100": "5. Embedded Invitations",
+  "S101": "6. Ethical Double Binds",
+  "S102": "7. Questions as Requests",
+  "S103": "8. Tag Questions",
+  "S104": "9. Nominalizations",
+  "S105": "10. The Meta Model",
+  "S106": "Sensory, State & Strategy",
+  "S107": "Edit the Image or Sound",
+  "S108": "Anchoring: A Way Back",
+  "S109": "Synchronicity as a Bell",
+  "S110": "Installing the Cue",
+  "S111": "When to Turn It Off",
+  "S112": "Reframing Without Lying",
+  "S113": "Four Perceptual Positions",
+  "S114": "Future Pacing: Test It",
+  "S115": "The Swish, Softened",
+  "S116": "Parts Integration",
+  "S117": "What I Won’t Use NLP For",
+  "S118": "The Whole NLP Sequence",
+  "S119": "C: The De-Hypnosis Checklist",
+  "S120": "(goes)",
+  "S121": "D: Anxiety, Body First",
+  "S122": "Breathe, Relax & Flow",
+  "S123": "EFT Tapping",
+  "S124": "Somatic Experiencing",
+  "S125": "Gendlin Focusing",
+  "S126": "Calm the Body Directly",
+  "S127": "Inner Child Love",
+  "S128": "Anxiety Script",
+  "S129": "E: Is Daydreaming Helping?",
+  "S130": "F: Self-Trust and Guidance",
+  "S131": "Find a Hypnotist Who Fits",
+  "S132": "An Oracle Isn’t an Order",
+  "S133": "Take It to the Council",
+  "S134": "Forgiving Without Bypass",
+  "S135": "Forgiving Yourself",
+  "S136": "G: Altered States",
+  "S137": "Stabilize, Then Interpret",
+  "S138": "H: Demons, Jinn & Presences",
+  "S139": "Start With Basic Safety",
+  "S140": "Warmth or Distance?",
+  "S141": "Should You Fight It?",
+  "S142": "Compassion, Door Closed",
+  "S143": "Could It Be Psychosis?",
+  "S144": "(goes)",
+  "S145": "Cosmic-Download Test",
+  "S146": "Skip the Entity Hobby",
+  "S147": "(goes)",
+  "S148": "I: An Induction Library",
+  "S149": "1. Stretch and Release",
+  "S150": "2. Supported Floating",
+  "S151": "3. Breath or Pulse Rhythm",
+  "S152": "4. Unwinding Object",
+  "S153": "5. Sensory Journey",
+  "S154": "6. Gradual Wave",
+  "S155": "7. Care Workshop",
+  "S156": "8. Resource Embodiment",
+  "S157": "9. No-Trance Inner Contact",
+  "S158": "J: Sources & Further Reading",
+  "S159": "Learning, Entry & Return",
+  "S160": "Indirect Language & Cues",
+  "S161": "Body Awareness & Contact",
+  "S162": "Reparenting Therapy",
+  "S163": "Inner Speech",
+  "S164": "Memory & Practitioners"
+ },
+ "changed": [
+  {
+   "id": "S001",
+   "was": "How to use this very large guide",
+   "now": "How to Use This Huge Guide"
+  },
+  {
+   "id": "S002",
+   "was": "The table of contents is hiding on the left",
+   "now": "(goes)"
+  },
+  {
+   "id": "S004",
+   "was": "Quick start: do this first",
+   "now": "Quick Start: Do This First"
+  },
+  {
+   "id": "S005",
+   "was": "Do you usually think in words?",
+   "now": "Do You Think in Words?"
+  },
+  {
+   "id": "S006",
+   "was": "What I mean by hypnosis",
+   "now": "What I Mean by Hypnosis"
+  },
+  {
+   "id": "S007",
+   "was": "Protecting Yourself from Hypnotists",
+   "now": "Protection From Hypnotists"
+  },
+  {
+   "id": "S009",
+   "was": "Keep the Adult Part of Yourself in Charge",
+   "now": "Keep Your Adult in Charge"
+  },
+  {
+   "id": "S011",
+   "was": "Reversing Accidental Affirmations",
+   "now": "Undo Accidental Affirmations"
+  },
+  {
+   "id": "S013",
+   "was": "What to Use Self-Hypnosis For, and What Not To",
+   "now": "What It's For, and Not For"
+  },
+  {
+   "id": "S014",
+   "was": "Forget the left-brain/right-brain cartoon",
+   "now": "Forget Left Brain/Right Brain"
+  },
+  {
+   "id": "S015",
+   "was": "Why doing it myself worked better for me",
+   "now": "You're Better Than The Pros"
+  },
+  {
+   "id": "S016",
+   "was": "A useful map of the mind",
+   "now": "A Useful Map of the Mind"
+  },
+  {
+   "id": "S017",
+   "was": "Sometimes start with the whole",
+   "now": "Start From the Whole"
+  },
+  {
+   "id": "S018",
+   "was": "The inner child, the guards, and the inner adult’s three jobs",
+   "now": "The Inner Adult’s Three Jobs"
+  },
+  {
+   "id": "S019",
+   "was": "When the adult role is not available yet",
+   "now": "No Adult Yet? Borrow One"
+  },
+  {
+   "id": "S020",
+   "was": "Let the child speak while you define the goal",
+   "now": "Child Speaks, You Steer"
+  },
+  {
+   "id": "S021",
+   "was": "Love doesn’t have to wait for trust",
+   "now": "Love First, Trust Later"
+  },
+  {
+   "id": "S022",
+   "was": "Instead of blame",
+   "now": "Instead of Blame"
+  },
+  {
+   "id": "S023",
+   "was": "Working with your inner child",
+   "now": "Inner Child Practices"
+  },
+  {
+   "id": "S024",
+   "was": "The two-hand practice",
+   "now": "The Two-Hand Practice"
+  },
+  {
+   "id": "S028",
+   "was": "Working with your guards",
+   "now": "Working With Your Guards"
+  },
+  {
+   "id": "S029",
+   "was": "Your inherited parent script",
+   "now": "Your Inherited Parent Script"
+  },
+  {
+   "id": "S030",
+   "was": "Protection that knows when to stop scanning",
+   "now": "When to Stop Scanning"
+  },
+  {
+   "id": "S031",
+   "was": "Inner child reparenting",
+   "now": "Reparenting in Hypnosis"
+  },
+  {
+   "id": "S032",
+   "was": "Don’t rush the repair",
+   "now": "Don't Rush the Repair"
+  },
+  {
+   "id": "S033",
+   "was": "Play and rest still need an adult present",
+   "now": "Play & Rest, Adult Present"
+  },
+  {
+   "id": "S034",
+   "was": "Non-dominant hand dialogue",
+   "now": "Other-Hand Dialogue"
+  },
+  {
+   "id": "S035",
+   "was": "When “your voice” is everybody else’s voice",
+   "now": "Is “Your Voice” Really Yours?"
+  },
+  {
+   "id": "S036",
+   "was": "Belonging without betraying yourself",
+   "now": "Belong and Stay Yourself"
+  },
+  {
+   "id": "S037",
+   "was": "De-hypnosis: wake up inside the influence",
+   "now": "De-Hypnosis: Wake Up"
+  },
+  {
+   "id": "S038",
+   "was": "If you sense you are being influenced",
+   "now": "Are You Being Influenced?"
+  },
+  {
+   "id": "S039",
+   "was": "Soft language can still take away choice",
+   "now": "Soft Words, Less Choice"
+  },
+  {
+   "id": "S040",
+   "was": "Induction: gathering and softening attention",
+   "now": "Induction: Gather and Soften"
+  },
+  {
+   "id": "S041",
+   "was": "Overly Confusing Isn't Automatically Good",
+   "now": "Simple Beats Confusing"
+  },
+  {
+   "id": "S042",
+   "was": "Before you begin",
+   "now": "Before You Begin"
+  },
+  {
+   "id": "S043",
+   "was": "Sober induction: 3–5 minutes",
+   "now": "Sober Induction: 3–5 Min"
+  },
+  {
+   "id": "S044",
+   "was": "When you’re already trancey",
+   "now": "Already Trancey?"
+  },
+  {
+   "id": "S045",
+   "was": "Stay awake when your mind likes to escape",
+   "now": "Mind Keeps Drifting Off?"
+  },
+  {
+   "id": "S046",
+   "was": "Make the hypnosis more alert",
+   "now": "Make Hypnosis More Alert"
+  },
+  {
+   "id": "S047",
+   "was": "Sleep induction",
+   "now": "Sleep Induction"
+  },
+  {
+   "id": "S048",
+   "was": "Optional fractionation: practice coming back",
+   "now": "Fractionation: In and Out"
+  },
+  {
+   "id": "S049",
+   "was": "Deepening, if useful",
+   "now": "Deepening, if Useful"
+  },
+  {
+   "id": "S050",
+   "was": "Optional trance depth check",
+   "now": "Trance Depth Check"
+  },
+  {
+   "id": "S051",
+   "was": "A shortcut back into hypnosis",
+   "now": "A Shortcut Back In"
+  },
+  {
+   "id": "S052",
+   "was": "Turning the shortcut off, or keeping it",
+   "now": "Turn It Off or Keep It"
+  },
+  {
+   "id": "S053",
+   "was": "Come all the way back",
+   "now": "Come All the Way Back"
+  },
+  {
+   "id": "S054",
+   "was": "The actual inner meeting",
+   "now": "The Actual Inner Meeting"
+  },
+  {
+   "id": "S055",
+   "was": "Let the next response guide you",
+   "now": "Let the Response Guide You"
+  },
+  {
+   "id": "S056",
+   "was": "Finding your own words",
+   "now": "Finding Your Own Words"
+  },
+  {
+   "id": "S057",
+   "was": "Notice, meaning, and your thoughts on the meaning",
+   "now": "Understand the Meaning"
+  },
+  {
+   "id": "S058",
+   "was": "Let the response change the invitation",
+   "now": "Invitation Feels Wrong?"
+  },
+  {
+   "id": "S059",
+   "was": "Look at the situation too",
+   "now": "Look at the Situation Too"
+  },
+  {
+   "id": "S060",
+   "was": "Change the amount of contact",
+   "now": "Feels Like Too Much?"
+  },
+  {
+   "id": "S061",
+   "was": "If you feel an urge to move",
+   "now": "Urge to Move?"
+  },
+  {
+   "id": "S062",
+   "was": "Offer the care that is actually wanted",
+   "now": "Offer the Care They Want"
+  },
+  {
+   "id": "S063",
+   "was": "Finish without forcing a revelation",
+   "now": "Finish Without a Revelation"
+  },
+  {
+   "id": "S064",
+   "was": "Throughout the exercise",
+   "now": "If Your Mind Objects"
+  },
+  {
+   "id": "S065",
+   "was": "The 15-minute daily practice",
+   "now": "The 15-Minute Daily Practice"
+  },
+  {
+   "id": "S066",
+   "was": "The weekly deeper practice",
+   "now": "The Weekly Deeper Practice"
+  },
+  {
+   "id": "S067",
+   "was": "Capacity before content",
+   "now": "Capacity Before Content"
+  },
+  {
+   "id": "S069",
+   "was": "Nothing happens",
+   "now": "Nothing Happens?"
+  },
+  {
+   "id": "S070",
+   "was": "\"It feels fake\"",
+   "now": "\"It Feels Fake\""
+  },
+  {
+   "id": "S071",
+   "was": "The subconscious will not answer",
+   "now": "Subconscious Is Silent?"
+  },
+  {
+   "id": "S072",
+   "was": "The inner child will not appear",
+   "now": "Inner Child Won’t Appear?"
+  },
+  {
+   "id": "S073",
+   "was": "You get anxious",
+   "now": "Getting Anxious?"
+  },
+  {
+   "id": "S074",
+   "was": "You dissociate or feel unreal",
+   "now": "Dissociating or Unreal?"
+  },
+  {
+   "id": "S075",
+   "was": "You become grandiose",
+   "now": "Feeling Grandiose?"
+  },
+  {
+   "id": "S076",
+   "was": "You become too analytical",
+   "now": "Too Analytical?"
+  },
+  {
+   "id": "S077",
+   "was": "You become too blissful or diffuse",
+   "now": "Too Blissful or Diffuse?"
+  },
+  {
+   "id": "S078",
+   "was": "You want the hidden truth immediately",
+   "now": "Want Hidden Truth Now?"
+  },
+  {
+   "id": "S079",
+   "was": "You keep daydreaming",
+   "now": "Keep Daydreaming?"
+  },
+  {
+   "id": "S080",
+   "was": "You get stuck in spiritual bypass",
+   "now": "Stuck in Spiritual Bypass?"
+  },
+  {
+   "id": "S081",
+   "was": "You get stuck in endless processing",
+   "now": "Endless Processing?"
+  },
+  {
+   "id": "S082",
+   "was": "You keep using hypnosis but not changing life",
+   "now": "Life Not Changing?"
+  },
+  {
+   "id": "S083",
+   "was": "What not to do",
+   "now": "What Not to Do"
+  },
+  {
+   "id": "S084",
+   "was": "When this needs more support than a guide can provide",
+   "now": "When to Get Outside Help"
+  },
+  {
+   "id": "S085",
+   "was": "Methods to explore with a trained person present",
+   "now": "Do These With a Clinician"
+  },
+  {
+   "id": "S086",
+   "was": "Your functioning in ordinary life is the feedback",
+   "now": "Daily Life Is the Feedback"
+  },
+  {
+   "id": "S088",
+   "was": "Try it in the Inner Signal app",
+   "now": "Try It in the Inner Signal App"
+  },
+  {
+   "id": "S089",
+   "was": "Survey and consultation",
+   "now": "Survey and Consultation"
+  },
+  {
+   "id": "S090",
+   "was": "Appendices",
+   "now": "(goes)"
+  },
+  {
+   "id": "S091",
+   "was": "Appendix A: How to ask the subconscious a useful question",
+   "now": "A: Asking the Subconscious"
+  },
+  {
+   "id": "S092",
+   "was": "Core prompts",
+   "now": "Core Prompts"
+  },
+  {
+   "id": "S093",
+   "was": "Appendix B: NLP without turning yourself into a sales seminar",
+   "now": "Appendix B: Ethical NLP"
+  },
+  {
+   "id": "S094",
+   "was": "The four NLP layers",
+   "now": "The Four Layers"
+  },
+  {
+   "id": "S095",
+   "was": "The Milton Model, minus the covert sales seminar",
+   "now": "Milton Model: Soft Words"
+  },
+  {
+   "id": "S096",
+   "was": "Pattern 1: Pacing and leading — truth before suggestion",
+   "now": "1. Pacing and Leading"
+  },
+  {
+   "id": "S097",
+   "was": "Pattern 2: Awareness verbs",
+   "now": "2. Awareness Verbs"
+  },
+  {
+   "id": "S098",
+   "was": "Pattern 3: Presuppositions",
+   "now": "3. Presuppositions"
+  },
+  {
+   "id": "S099",
+   "was": "Pattern 4: Gentle cause-effect bridges",
+   "now": "4. Cause-Effect Bridges"
+  },
+  {
+   "id": "S100",
+   "was": "Pattern 5: Embedded invitations",
+   "now": "5. Embedded Invitations"
+  },
+  {
+   "id": "S101",
+   "was": "Pattern 6: Ethical double binds",
+   "now": "6. Ethical Double Binds"
+  },
+  {
+   "id": "S102",
+   "was": "Pattern 7: Conversational postulates",
+   "now": "7. Questions as Requests"
+  },
+  {
+   "id": "S103",
+   "was": "Pattern 8: Tag questions",
+   "now": "8. Tag Questions"
+  },
+  {
+   "id": "S104",
+   "was": "Pattern 9: Nominalizations",
+   "now": "9. Nominalizations"
+  },
+  {
+   "id": "S105",
+   "was": "Pattern 10: Meta Model questions — the de-hypnosis tool",
+   "now": "10. The Meta Model"
+  },
+  {
+   "id": "S106",
+   "was": "Sensory, state, and strategy tools",
+   "now": "Sensory, State & Strategy"
+  },
+  {
+   "id": "S107",
+   "was": "Submodalities — editing the form, not denying the truth",
+   "now": "Edit the Image or Sound"
+  },
+  {
+   "id": "S108",
+   "was": "Anchoring — giving the body a doorway back",
+   "now": "Anchoring: A Way Back"
+  },
+  {
+   "id": "S109",
+   "was": "Using synchronicity as your own wake-up bell",
+   "now": "Synchronicity as a Bell"
+  },
+  {
+   "id": "S110",
+   "was": "Installing the synchronicity cue",
+   "now": "Installing the Cue"
+  },
+  {
+   "id": "S111",
+   "was": "False positives, and turning the cue off",
+   "now": "When to Turn It Off"
+  },
+  {
+   "id": "S112",
+   "was": "Reframing — changing the meaning without lying",
+   "now": "Reframing Without Lying"
+  },
+  {
+   "id": "S113",
+   "was": "Perceptual positions — self, other, witness, universal heart",
+   "now": "Four Perceptual Positions"
+  },
+  {
+   "id": "S114",
+   "was": "Future pacing — let the future test the insight",
+   "now": "Future Pacing: Test It"
+  },
+  {
+   "id": "S115",
+   "was": "The Swish, softened",
+   "now": "The Swish, Softened"
+  },
+  {
+   "id": "S116",
+   "was": "Parts integration, without pretending the conflict is solved",
+   "now": "Parts Integration"
+  },
+  {
+   "id": "S117",
+   "was": "What I will not use NLP for",
+   "now": "What I Won’t Use NLP For"
+  },
+  {
+   "id": "S118",
+   "was": "Running the whole NLP sequence",
+   "now": "The Whole NLP Sequence"
+  },
+  {
+   "id": "S119",
+   "was": "Appendix C: The extended de-hypnosis checklist",
+   "now": "C: The De-Hypnosis Checklist"
+  },
+  {
+   "id": "S120",
+   "was": "Hypnosis-specific audit",
+   "now": "(goes)"
+  },
+  {
+   "id": "S121",
+   "was": "Appendix D: Anxiety — body first",
+   "now": "D: Anxiety, Body First"
+  },
+  {
+   "id": "S122",
+   "was": "Reduced breathing / Buteyko-style breathing",
+   "now": "Breathe, Relax & Flow"
+  },
+  {
+   "id": "S123",
+   "was": "EFT tapping",
+   "now": "EFT Tapping"
+  },
+  {
+   "id": "S126",
+   "was": "Body supports",
+   "now": "Calm the Body Directly"
+  },
+  {
+   "id": "S127",
+   "was": "Inner child love",
+   "now": "Inner Child Love"
+  },
+  {
+   "id": "S128",
+   "was": "Anxiety script",
+   "now": "Anxiety Script"
+  },
+  {
+   "id": "S129",
+   "was": "Appendix E: Is the daydream helping or replacing your life?",
+   "now": "E: Is Daydreaming Helping?"
+  },
+  {
+   "id": "S130",
+   "was": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+   "now": "F: Self-Trust and Guidance"
+  },
+  {
+   "id": "S131",
+   "was": "Finding a hypnotist who can work with you",
+   "now": "Find a Hypnotist Who Fits"
+  },
+  {
+   "id": "S132",
+   "was": "When the subconscious speaks like an oracle",
+   "now": "An Oracle Isn’t an Order"
+  },
+  {
+   "id": "S133",
+   "was": "The council — internal first, then outward",
+   "now": "Take It to the Council"
+  },
+  {
+   "id": "S134",
+   "was": "Forgiveness without bypass",
+   "now": "Forgiving Without Bypass"
+  },
+  {
+   "id": "S135",
+   "was": "Forgiving yourself",
+   "now": "Forgiving Yourself"
+  },
+  {
+   "id": "S136",
+   "was": "Appendix G: Altered states",
+   "now": "G: Altered States"
+  },
+  {
+   "id": "S137",
+   "was": "Stabilize before you interpret",
+   "now": "Stabilize, Then Interpret"
+  },
+  {
+   "id": "S138",
+   "was": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”",
+   "now": "H: Demons, Jinn & Presences"
+  },
+  {
+   "id": "S139",
+   "was": "Start with the room, the body, and basic safety",
+   "now": "Start With Basic Safety"
+  },
+  {
+   "id": "S140",
+   "was": "A response check, not a verdict about what it is",
+   "now": "Warmth or Distance?"
+  },
+  {
+   "id": "S141",
+   "was": "Do not fight from fear",
+   "now": "Should You Fight It?"
+  },
+  {
+   "id": "S142",
+   "was": "A bodily boundary: compassion present, door closed",
+   "now": "Compassion, Door Closed"
+  },
+  {
+   "id": "S143",
+   "was": "If it might be psychosis or destabilization",
+   "now": "Could It Be Psychosis?"
+  },
+  {
+   "id": "S144",
+   "was": "The General Rule",
+   "now": "(goes)"
+  },
+  {
+   "id": "S145",
+   "was": "The cosmic-download humility test",
+   "now": "Cosmic-Download Test"
+  },
+  {
+   "id": "S146",
+   "was": "Don’t become an entity hobbyist",
+   "now": "Skip the Entity Hobby"
+  },
+  {
+   "id": "S147",
+   "was": "Appendix I: Sleep hypnosis",
+   "now": "(goes)"
+  },
+  {
+   "id": "S148",
+   "was": "Appendix J: A practical induction library",
+   "now": "I: An Induction Library"
+  },
+  {
+   "id": "S149",
+   "was": "1. Stretch and release",
+   "now": "1. Stretch and Release"
+  },
+  {
+   "id": "S150",
+   "was": "2. Supported floating",
+   "now": "2. Supported Floating"
+  },
+  {
+   "id": "S151",
+   "was": "3. Rhythmic breath or pulse",
+   "now": "3. Breath or Pulse Rhythm"
+  },
+  {
+   "id": "S152",
+   "was": "4. Unwinding object",
+   "now": "4. Unwinding Object"
+  },
+  {
+   "id": "S153",
+   "was": "5. Sensory journey",
+   "now": "5. Sensory Journey"
+  },
+  {
+   "id": "S154",
+   "was": "6. Gradual wave",
+   "now": "6. Gradual Wave"
+  },
+  {
+   "id": "S155",
+   "was": "7. Care workshop",
+   "now": "7. Care Workshop"
+  },
+  {
+   "id": "S156",
+   "was": "8. Resource embodiment",
+   "now": "8. Resource Embodiment"
+  },
+  {
+   "id": "S157",
+   "was": "9. No-trance inner contact",
+   "now": "9. No-Trance Inner Contact"
+  },
+  {
+   "id": "S158",
+   "was": "Appendix K: Sources and further reading",
+   "now": "J: Sources & Further Reading"
+  },
+  {
+   "id": "S159",
+   "was": "Learning, entering, and returning",
+   "now": "Learning, Entry & Return"
+  },
+  {
+   "id": "S160",
+   "was": "Indirect language and re-entry cues",
+   "now": "Indirect Language & Cues"
+  },
+  {
+   "id": "S161",
+   "was": "Body awareness and changing the amount of contact",
+   "now": "Body Awareness & Contact"
+  },
+  {
+   "id": "S162",
+   "was": "Inner-child care and adult capacities",
+   "now": "Reparenting Therapy"
+  },
+  {
+   "id": "S163",
+   "was": "Inner speech and putting experience into words",
+   "now": "Inner Speech"
+  },
+  {
+   "id": "S164",
+   "was": "Memory, support, and choosing a practitioner",
+   "now": "Memory & Practitioners"
+  }
+ ]
+}
