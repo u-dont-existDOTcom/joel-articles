@@ -260,3 +260,41 @@ The game has it: "How deep?" on the setup screen, three steps (Warm, Deep, Unfil
 4. The site is deployed through Coolify with his go-ahead, and the live page is compared with the build.
 5. Not run: the love-honestly repository's container gate, which needs Docker (none in the workspace).
 
+## His message of 2026-11-25 17:20 UTC: v0.7.1 and v0.8.0
+
+"200 cards is too much for me to read can you just tell me if any of them look like i should check? i already checked
+the cards that were in the game before more were added so that gives you a reference point for what i approve", "can we
+make spiritual practice personal instead of optional?" and "i tried to biuld the game but build button did nothing (one
+phone)". The round's record: [r44](../r44/README.md).
+
+### Built: v0.7.1 and v0.8.0, candidates in [the same draft pull request](https://github.com/u-dont-existDOTcom/love-honestly/pull/2)
+
+| What he said | What was done |
+|---|---|
+| The build button did nothing | v0.7.1: a chat app shows the file in a frame that blocks form submission, where the button's form never sent "submit". The tap starts the game itself now ("Join the game" too). Shown failing in the v0.7.0 file and working in the new one, in such a frame |
+| Spiritual Practice personal instead of optional | v0.7.1: its chip reads "Personal" and it begins ticked, as Attraction & Polarity does. The other reading (the chip only) was named to him |
+| Tell me which cards to check | All 204 read against the cards he approved and against the guide. [Four put to him](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/TO-CHECK.md); [what became of each item](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/FATES.md) |
+| (the cards he need not check) | v0.8.0: 27 Warm cards and 92 plainer lines on 62 older cards built in; 131 cards, 36 Warm; every topic has at least two Warm cards |
+
+[What changed in v0.8.0](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.8.0/CHANGES.md) · [what changed in v0.7.1](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.7.1/CHANGES.md). The
+v0.8.0 file went to him in chat (SHA-256 a657f853...), and as a private page of the session's account.
+
+### With him
+
+1. W03, the Warm card whose "why" has his "sex dolls" line: in on all routes, in but off "Getting closer" (my pick), or out.
+2. Where "On my own" goes: a fifth route, or the first question "Who is playing? Two of us / Just me" (my pick).
+3. The screen one person sees before the first card: my pick is as written.
+4. The seven labels one person chooses from: my pick is as written.
+
+If he says nothing on 2 to 4, the one-person route is built with my picks.
+
+### Still to do, each with his word
+
+1. The one-person route as a new version (an interface change: the design repository's skill first): his answers or my
+   picks; the 41 cards turned toward one person, taking the plainer line where v0.8.0 changed the couples' line; the 14
+   new cards; the 15 steps; then one-person wording for the Warm cards, and the seven older "why" lines.
+2. His OK on a version; then the pull request is merged.
+3. The innerself site vendors the approved file (its `PRODUCT.md` then says that the list of played cards is kept in the
+   browser too), and is deployed through Coolify with his go-ahead; the live page is compared with the build.
+4. Not run: the love-honestly repository's container gate, which needs Docker.
+

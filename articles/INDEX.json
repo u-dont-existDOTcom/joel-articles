@@ -7935,7 +7935,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/r40/CARD-GAME.md",
-          "sha256": "b1facbf39e4cb0159dd66892e7617ee43eb22c410298179a3ac04d7697aeb356",
+          "sha256": "28c28fc243ad96c4906026634cce16ba63dd3dbcbd347b6b9abf517c824da18c",
           "role": "humanization_working_record"
         },
         {
@@ -9216,6 +9216,11 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r43/README.md",
           "sha256": "0672bcee00741e52b592b274d745340e8912ce288181b1197131f6085639ce49",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r44/README.md",
+          "sha256": "0733828c593cff66bd85ad5f317d3166f71fc44a876079a26829c3a890a6d063",
           "role": "humanization_working_record"
         }
       ]
