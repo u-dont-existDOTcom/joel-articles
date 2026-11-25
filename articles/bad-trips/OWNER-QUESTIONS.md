@@ -11,7 +11,6 @@ Answer under an item's number in a message.
 ## Your tasks
 
 - Round 59's two cards (above).
-- Write access for the chat that did turns 68 and 69: its permission check declined it, so both turns are in that chat as a Git bundle and not on GitHub yet ([promise 1](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/PROMISES.md)). A yes there, or the bundle given to another session, puts them on GitHub.
 - To start the Substack system lane, paste into a new chat: "Read https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/proposals/2026-11-20-substack-system-HANDOFF.md and start the Substack system lane from it."
 
 ## Decisions on record
