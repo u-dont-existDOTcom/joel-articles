@@ -90,3 +90,34 @@ Each heading with how many reads called it hard, how the sidebar shows it, and o
 ## The proposal and his page (2026-11-24)
 
 His 15 answers to Fable's notes ([his answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-0104.md)) set the structure: five headings go, three change level, four groups move ([STRUCTURE.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/STRUCTURE.json)). The proposal is Fable's names with 19 of mine ([PROPOSAL-PICK2.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/PROPOSAL-PICK2.json)); every heading the readers marked, and every repeat, has a fate ([FATES-PICK2.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/FATES-PICK2.json)). The proposal's readers above scored it with the key mapped to where the merged and dropped sections' text goes ([EXPECTED-PICK.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/EXPECTED-PICK.json)). The text changes his answers call for ([TEXT-CHANGES.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json)) and the 35 links ([LINK-PLAN.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/LINK-PLAN.json)) are on his page: https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk
+
+## The final contents (2026-11-25)
+
+His picks, all of them, and his answers at the bottom of the page came at 01:24 UTC ([his record and how each answer is read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-0108.md)). [The contents that goes in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/FINAL-CONTENTS.md): 159 headings (5 go), none cut off. From his answers: "Find a Hypnotist Who Fits" moves under "When to Get Outside Help"; "Daily Life Is the Feedback" becomes an h1 of its own; "No-Trance Inner Contact" leaves the induction library for a place of its own right before "Induction: Gather and Soften"; "The Inner Adult's Three Jobs" becomes "Become a Trustworthy Adult" ([STRUCTURE-FINAL.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/STRUCTURE-FINAL.json)).
+
+Two readers who had seen nothing read it against the same 64 situations ([key](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/EXPECTED-FINAL.json)):
+
+| Read | Contents | Right on first try (of 64) | Near | Wrong | Guessed | Found in two tries |
+|---|---|---|---|---|---|---|
+| [READ-FINAL-1](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-FINAL-1.md) | the final contents (sidebar) | 61 | 1 | 2 | 21 | 63 |
+| [READ-FINAL-2](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-FINAL-2.md) | the final contents (sidebar) | 60 | 1 | 3 | 22 | 62 |
+
+The post as it is scored 54 and 56 in the sidebar, the proposal on his page 56 and 58. Every heading a final reader called hard has a fate ([FATES-FINAL.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/FATES-FINAL.json)); the contents check had not been reading this run's hard lines, because the reads are Markdown and it looked for text files (fixed in [tools/humanization/toc_check.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/toc_check.py)).
+
+### His question: could the organization still be better?
+
+It finds 60 or 61 of 64 on the first look now, so the names are about done. What both final readers still tripped on is place, in three spots, each put to him as a yes or no:
+
+1. **"Let the Response Guide You" as an h2**, so that it and the eight steps after it sit under "The Actual Inner Meeting". Its own text says "Read through these sections first, and then ... try the inner meeting". Both final readers, and seven of the earlier ones, expected them there. At h2 the heading only just fits (200 of 205px).
+2. **"When to Stop Scanning" right after "The Protector"**, not after "The Guide". Both readers asked "scanning what?"; with the Protector on the line above, the heading needs no other word (his own rule 12), and the section opens "Do you want to embody your Protector?".
+3. **A pointer from "Protection From Hypnotists" to "Find a Hypnotist Who Fits"**. A reader about to play a stranger's recording (situation 9) looks in the first and nowhere else, and the questions to ask are in the second since the audit merged there. One linked sentence, checked in its section before it goes in.
+
+Left as it is: the thirteen top-level headings before the map of the mind. Grouping them means a new level above them, which pushes every heading under it one level in, where 12px less room cuts headings that fit today.
+
+### The new section he asked for (past life regression and ancestral trauma)
+
+His words for it did not arrive (the message ends "I'd say:"). Where it could go, once they do:
+
+- **Appendix G, after "Stabilize, Then Interpret"**, if it is about how to hold what comes up (an experience that feels like another life or an ancestor's, taken as meaningful without being taken as history). My pick: that appendix is where the guide says to settle first and interpret later, and the main guide stays the size he wanted.
+- **After "Do These With a Clinician"**, if it says to do regression of this kind with a trained person: that section already covers trauma-focused regression, and says "hypnosis is not a way of knowing what did or did not happen to you".
+- A heading that fits either place as an h2: "Past Lives & Ancestors" ("Past Lives & Ancestral Trauma" is cut off there).

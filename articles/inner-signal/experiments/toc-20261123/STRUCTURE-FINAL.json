@@ -1,0 +1,95 @@
+{
+ "dropped": {
+  "S002": [
+   "S001",
+   "answer 1: its two sentences end \"How to Use This Huge Guide\""
+  ],
+  "S090": [
+   null,
+   "answer 2: the heading and its note go; \"How to Use This Huge Guide\" already says the appendices are extra tools"
+  ],
+  "S120": [
+   "S131",
+   "answer 10: merged into \"Find a Hypnotist Who Fits\" in Appendix F"
+  ],
+  "S144": [
+   "S143",
+   "answer 7: cut to one sentence at the end of \"Could It Be Psychosis?\", linking to \"Daily Life Is the Feedback\""
+  ],
+  "S147": [
+   "S047",
+   "answer 8: the sleep appendix goes; \"Sleep Induction\" already gives the same Nimja playlist"
+  ]
+ },
+ "level": {
+  "S009": [
+   2,
+   "answer 5: S009 only; it now sits under S008"
+  ],
+  "S028": [
+   1,
+   "answer 4: the guards get an h1 of their own, with the parent script under it"
+  ],
+  "S064": [
+   2,
+   "answer 6: moved up and made an h2"
+  ],
+  "S086": [
+   1,
+   "2026-11-25: \"daily life should not be when to get outside help\": an h1 of its own, where it stands, between the outside-help sections and the Closing"
+  ],
+  "S157": [
+   1,
+   "2026-11-25: out of the induction library, an h1 of its own above the inductions"
+  ]
+ },
+ "moves": [
+  [
+   [
+    "S025",
+    "S026",
+    "S027",
+    "S030"
+   ],
+   "S018",
+   "answer 4: the three jobs and the Protector drill go under \"The Inner Adult’s Three Jobs\", right after its own text"
+  ],
+  [
+   [
+    "S134",
+    "S135"
+   ],
+   "S022",
+   "answer 9: forgiveness goes next to \"Love First, Trust Later\" and \"Instead of Blame\""
+  ],
+  [
+   [
+    "S028",
+    "S029"
+   ],
+   "S135",
+   "answer 4: the guards and the parent script, as their own h1, after the three jobs"
+  ],
+  [
+   [
+    "S064"
+   ],
+   "S055",
+   "answer 6: right after the own text of \"Let the Response Guide You\", before \"Finding Your Own Words\""
+  ],
+  [
+   [
+    "S131"
+   ],
+   "S085",
+   "2026-11-25: \"wouldn't find a hypnotist go under when to get outside help?\": after \"Do These With a Clinician\", with the audit merged in (answer 10)"
+  ],
+  [
+   [
+    "S157"
+   ],
+   "S039",
+   "2026-11-25: \"no trance inner contact shouldn't be in the induction library i guess, and i'd put that above the inductions, makes sense to do that preliminarily\": right before \"Induction: Gather and Soften\""
+  ]
+ ]
+}

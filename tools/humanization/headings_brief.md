@@ -76,6 +76,16 @@ misses below before it goes to him.
    Helps" under "Active Seizure"), but it must still say what it holds without it: "Some Need More Caution" under the
    remedies said nothing of what needs it.
 
+12. **Read each heading with the lines above and below it** (lesson toc-2026-11-25a; Joel, 2026-11-25 01:24 UTC:
+   "sometimes the headings above or below could give context to this one we're choosing"). The sidebar never shows a
+   heading alone, so a heading that reads two ways by itself can be the right one when a neighbour settles it. He took
+   "De-Hypnosis: Wake Up" over "Wake Up Inside the Influence" because the next line, "Are You Being Influenced?", says
+   what you wake up from ("now we don't think you're waking up from a dream"). So before changing a heading because a
+   word in it is unclear alone (rule 5), or because a reader called it hard, read it in its place: if the line before
+   or after supplies the missing word, the shorter heading can stay, and its fate names that neighbour. It holds the
+   other way too: a heading that leans on a neighbour is read again whenever that neighbour is renamed, moved or
+   dropped. Rule 11 is the mirror of this one.
+
 ## Before the contents goes to him
 
 - Every reader of a contents writes its hardest headings into its read file ("HARD: line number | why"), and marks any
