@@ -293,17 +293,28 @@ with his OK and no email.
   changed. Lessons romance-2026-11-25a (the page tool's "Pending" button, fixed) and b (a rewording brief says that
   nothing is removed; every batch is read beside its originals).
 
+- 2026-11-25 (17:20 UTC, `humanize/fix-20261107/r44/`): his message on the game ("200 cards is too much for me to read
+  can you just tell me if any of them look like i should check? ...", "can we make spiritual practice personal instead of
+  optional?", "i tried to biuld the game but build button did nothing (one phone)"). The button: a chat app shows the
+  file in a frame that blocks form submission, where the form never sent "submit"; fixed in v0.7.1 (the tap starts the
+  game), which also makes Spiritual Practice a personal topic that begins ticked. The 204 card texts: all read against
+  the cards he approved and against the guide; four put to him (one Warm card with his "sex dolls" line, three points of
+  the one-person route's design), three lines corrected before they went in. v0.8.0 built as a candidate on v0.7.1: 27
+  Warm cards and 92 plainer lines on 62 older cards (131 cards, 36 Warm); 30 deck checks with six deliberate breakages
+  caught, and 59 browser checks. Both files went to him. Nothing in the article changed. Lessons romance-2026-11-25c (a
+  file he opens from the chat is tested in the frame he opens it in) and d (a batch for his approval is read for him
+  first).
+
 ## Next step
 
-His answers on the game's card texts ([the page he answers on](https://claude.ai/artifact/Eo9nhyRepPM9ti2fSGo78P), [the same
-on GitHub](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/CARDS.md)) and
-his word on the game's v0.7.0 (`r40/CARD-GAME.md`, "Still to do"): then the approved texts go into the next version with
-the one-person route, its pull request is merged, the innerself site vendors the new file, and the site is deployed with
-his go-ahead. From now on, a turn that changes the article checks the cards that name the changed section
-(`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted again for his whole-article check (not
-before: "no point checking the drafts until we are done"), then his post updated with his OK (no email): 366's link to
-Esther Perel's post, the reel embedded after 149, his new opening's video and links, the typography swap and the
-"Updated" date; he deletes the two drafts.
+His word on [the four items put to him](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/TO-CHECK.md)
+and on the game's v0.8.0 (`r40/CARD-GAME.md`, "Still to do"; `r44/README.md`). Then the one-person route is built as the
+next version (with his answers, or my picks where he says nothing), the version he approves is merged, the innerself
+site vendors the file, and the site is deployed with his go-ahead. From now on, a turn that changes the article checks
+the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted
+again for his whole-article check (not before: "no point checking the drafts until we are done"), then his post updated
+with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, his new opening's video and
+links, the typography swap and the "Updated" date; he deletes the two drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
