@@ -21,8 +21,9 @@ guide, 15 in the bad trips guide): lower case; every character that is not a let
 is dropped, so "Alone at 3 a.m." gives alone-at-3-am, "Therapy or Escapism?" therapy-or-escapism, and an emoji nothing;
 spaces become hyphens, a run of hyphens becomes one, and none is left at either end.
 
-Checked on a rendered page so far: ? : , . + straight and curly double quotes, emoji, hyphens and digits. Not checked yet:
-apostrophes, accented letters, "&", brackets, "!" and two headings with the same words. A heading with any of those is
+Checked on a rendered page so far: ? : , . + straight and curly double quotes, emoji, hyphens and digits, and since
+2026-11-25 (the Self-Hypnosis post) the straight apostrophe and the en dash, both dropped, and "&", which becomes "and".
+Not checked yet: accented letters, brackets and two headings with the same words. A heading with any of those is
 marked UNCHECKED: open the post, read that heading's anchor (its link in the contents sidebar), and add it to
 tests/test_section_links.py when it is known.
 
@@ -56,7 +57,7 @@ import unicodedata
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from section_refs import plain  # noqa: E402
 
-CHECKED_DROPPED = set('?:,.+"“”!’')
+CHECKED_DROPPED = set('?:,.+"“”!’\'–')   # the straight apostrophe and the en dash: the Self-Hypnosis post, 2026-11-25
 # Read 2026-11-21 from all 149 anchored headings of the inner child guide as rendered
 # (articles/inner-child-therapy/experiments/t140-moves/live_anchors.txt): "&" reads "and", an accented letter keeps
 # its plain letter ("Céline" -> "celine"), and "!" and "’" go like the other punctuation.

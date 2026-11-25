@@ -34,12 +34,12 @@
         "what": "r03, 2026-09-11: 24 edits synced against the inner child guide as it was on 2026-09-11 (articles/inner-signal/source/inner-child-owner-20260911.md)",
         "in_the_live_post": "checked 2026-11-24 against the live post of 2026-11-23: none of r03's wording is in it (one of its edits only changed dashes); 4 short passages still read as they did before r03, and the other 19 have been reworded since, so whether their content came over needs a read"
       },
-      "next": "write in the carry-overs listed in articles/inner-signal/experiments/toc-20261123/QUESTIONS-20261125.md from his own sentences in the source, check each in its section, show him on the marking page, and put them in with the contents lane's one editor transaction; then set last_brought_in_line",
+      "next": "his answers on the marking page (articles/inner-signal/experiments/toc-20261123/review/CARDS.md): ten additions made of his inner child guide's sentences (C11 as a question: it read AI in its section twice) and four places where the two guides differ (C03, C06, C08, C18); then one small editor transaction, and last_brought_in_line is set",
       "compared": {
         "when": "2026-11-25",
         "with": "the live inner child guide of 2026-11-24 22:39 UTC (post 189761959)",
         "found": "33 differences of substance (2 high, 16 medium, 15 low): articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.md",
-        "brought_in": "none yet"
+        "brought_in": "2026-11-25 12:00 UTC, with the contents edit: the adult-hat pointer now names \"Borrowed Adulthood\" (his answer 8 a), linked. The rest waits on the marking page. The passages the two guides share are in articles/DEPENDS.json, read against both live posts (articles/<id>/LIVE-SECTIONS.json)"
       }
     },
     {
@@ -66,12 +66,12 @@
       },
       "last_brought_in_line": null,
       "note": "the repository's copy of the somatic guide (articles/somatic-therapies/master.html) is older than the live post: the live post has a Systema section that the copy has no heading for",
-      "next": "his answer to question 7 (breathing), then the two carry-overs (the closing step of the tracking exercise, choosing a gentle massage) with the inner child ones",
+      "next": "his answers on the marking page: the breathing paragraph for his answer 7 b (card Q7b) and the two additions (M05, M06); then the same small editor transaction",
       "compared": {
         "when": "2026-11-25",
         "with": "the live somatic guide of 2026-11-21 19:14 UTC (post 201523223)",
         "found": "17 differences of substance (2 high, 5 medium, 10 low): articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.md; the two high ones are the two guides' different breathing instructions (question 7 to him)",
-        "brought_in": "none yet"
+        "brought_in": "2026-11-25 12:00 UTC, with the contents edit: \"for paid subscribers\" after \"a free intro session\" (his answer 9), and the Systema sentences with their link to the somatic guide's section. The rest waits on the marking page"
       }
     },
     {
