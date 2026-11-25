@@ -168,6 +168,27 @@ def links_check(cat):
     return out
 
 
+def notice_lines(root='.'):
+    """One line for each post whose catalog still has links to its own sections in the form that loads the page again
+    (lesson toc-2026-11-25c). lane_push.py prints them at every push, so the lane that owns the post sees it; it never
+    refuses. A post that has none gives no line."""
+    out = []
+    for f in sorted(pathlib.Path(root).glob('articles/*/SECTION-LINKS.json')):
+        try:
+            cat = json.loads(f.read_text(encoding='utf-8'))
+            n = sum(1 for _, why in links_check(cat) if 'loads the whole page again' in why)
+        except Exception as e:      # a catalog this can't read is that lane's to mend; say so and go on
+            out.append('%s: not read (%s)' % (f.parent.name, str(e)[:80]))
+            continue
+        if n:
+            out.append('%s: %d links to sections of the same post are in the form that loads the whole page again when a '
+                       'reader clicks (.../i/<post id>/<slug>); inside the post a link is "#§<slug>". List them: python3 '
+                       'tools/humanization/section_links.py links %s ; in a live post, tools/humanization/'
+                       'same_post_links.js changes them in the editor (lesson toc-2026-11-25c)'
+                       % (f.parent.name, n, f.as_posix()))
+    return out
+
+
 def rename(cat, key, new_text):
     """Give a heading new words and its new anchor; return [(link, old_href, new_href)] for every link to change."""
     h = _heading(cat, key)

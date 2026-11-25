@@ -35,6 +35,12 @@ reads the registry as it was at the ref too, so a passage is listed even when it
 the same change. It reads the same files as `check`, so an article whose "texts" entry names a saved copy of the live
 post is compared in that copy, not in its master.
 
+What Joel changes on Substack himself never reaches those saved copies, so a job on GitHub looks once a day
+(.github/workflows/depends-watch.yml, scripts/watch_live_posts.py; Joel, 2026-11-25 16:14 UTC: "for the registry, yes
+you can add the github job"). It fetches each post "texts" names, makes its sections in memory
+(tools/humanization/live_sections.py) and runs `check` on them through `Texts(given=...)`; a registered passage that
+is no longer in a live post goes into an issue with every place that depends on it. `list` says so on the page.
+
   python3 tools/humanization/depends.py check                          # every point; exit 1 if anything changed
   python3 tools/humanization/depends.py check --article inner-signal   # only the points that touch one article
   python3 tools/humanization/depends.py check --text inner-signal=work/LIVE-BODY.html
@@ -65,6 +71,8 @@ REPO = pathlib.Path(__file__).resolve().parents[2]
 REGISTRY = 'articles/DEPENDS.json'
 PAGE = 'articles/DEPENDS.md'
 GIT = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/main/'
+WATCH = '.github/workflows/depends-watch.yml'     # the daily job that runs scripts/watch_live_posts.py
+WATCH_LABEL = 'depends-watch'                     # the label of the issues it opens
 RELATIONS = ('same words', 'own words', 'pointer', 'differs')
 STATES = ('in line', 'behind', 'his to settle', 'left as it is')
 
@@ -272,13 +280,23 @@ def _git_show(root, ref, path):
 
 
 class Texts:
-    """Each article's text, read once: from the working copy, or as it was at a git ref."""
+    """Each article's text, read once: from the working copy, or as it was at a git ref.
 
-    def __init__(self, reg, root=REPO, overrides=None, ref=None):
+    given holds texts that are already in hand, {article: Text}, and catalogs their section-link catalogs,
+    {article: catalog or None}; an article in neither is read from its file as before. scripts/watch_live_posts.py
+    gives each live post as it has just fetched it, so `check` looks in the post and not in the saved copy. A given
+    text of None is an article that could not be had; why says so ({article: reason})."""
+
+    def __init__(self, reg, root=REPO, overrides=None, ref=None, given=None, catalogs=None, why=None):
         self.reg, self.root, self.overrides, self.ref = reg, pathlib.Path(root), overrides or {}, ref
-        self.why, self.broken, self._texts, self._catalogs = {}, set(), {}, {}
+        self.why, self.broken = dict(why or {}), set()
+        self._texts, self._catalogs = dict(given or {}), dict(catalogs or {})
+        self._given, self._given_catalogs = set(self._texts), set(self._catalogs)
 
     def source(self, article):
+        if article in self._given:
+            text = self._texts[article]
+            return (text.path, 'given') if text is not None else (None, self.why.get(article, 'no text for it'))
         return text_source(self.reg, self.root, article, self.overrides)
 
     def _raw(self, path):
@@ -312,10 +330,20 @@ class Texts:
                 self._catalogs[article] = None
         return self._catalogs[article]
 
+    def catalog_name(self, article):
+        """What a given catalog is called in a finding (the text it was made from), or None for the article's file."""
+        text = self._texts.get(article) if article in self._given_catalogs else None
+        return text.path if text is not None else None
+
 
 def _catalog(texts, article):
     get = getattr(texts, 'catalog', None)
     return get(article) if get else None
+
+
+def _catalog_name(texts, article):
+    name = getattr(texts, 'catalog_name', None)
+    return name(article) if name else None
 
 
 def _why(texts, article):
@@ -364,6 +392,7 @@ def check(reg, texts, article=None):
         home, uses = p['home'], p.get('uses', [])
         if _is_link(p):
             t, cat = texts.get(home['article']), _catalog(texts, home['article'])
+            given = _catalog_name(texts, home['article'])        # a catalog made from the text itself, not the file
             anchors = {h.get('anchor'): h.get('text') for h in (cat or {}).get('headings', [])}
             problems = []
             if t is None:
@@ -374,13 +403,13 @@ def check(reg, texts, article=None):
                     problems.append('"%s" is not a heading in %s%s' % (
                         home['heading'], t.path,
                         ' (the catalog still has it, so this text may be behind the post)'
-                        if home.get('anchor') in anchors else ''))
+                        if home.get('anchor') in anchors and not given else ''))
             if cat is not None and home.get('anchor') not in anchors:
-                problems.append('no heading in articles/%s/SECTION-LINKS.json has the anchor "%s"'
-                                % (home['article'], home.get('anchor')))
+                problems.append('no heading in %s has the anchor "%s"'
+                                % (given or 'articles/%s/SECTION-LINKS.json' % home['article'], home.get('anchor')))
             elif cat is not None and plain(anchors[home['anchor']] or '') != plain(home['heading']):
-                problems.append('the catalog has the anchor "%s" under the heading "%s"'
-                                % (home['anchor'], anchors[home['anchor']]))
+                problems.append('%s has the anchor "%s" under the heading "%s"'
+                                % (given or 'the catalog', home['anchor'], anchors[home['anchor']]))
             if problems:
                 findings.append(_finding(p, 'home', home, '; '.join(problems), uses, 'link to it'))
             for u in uses:
@@ -465,6 +494,24 @@ def finding_lines(f, since=None):
                                       'link to it': 'these link to it', 'it links to': 'it links to'}[f['tie']])
     out += ['    %s' % _where(x, link and f['side'] == 'home') for x in f['partners']] or ['    (none registered)']
     return out
+
+
+def finding_md(f, texts):
+    """A finding as Markdown lines, for an issue or a page Joel reads: the point, the place that changed, and each
+    place to re-read. A section is a link to the post where its article's catalog knows the heading."""
+    link, root = f['kind'] == 'link', getattr(texts, 'root', REPO)
+    out = ['**%s** %s' % (f['id'], f['what']), '',
+           '- Changed: %s' % _side_md(texts, f['place'], link and f['side'] == 'use', f['place'].get('article'))]
+    if f['problem'] != 'changed':
+        out.append('  - %s' % _linked(root, f['problem']))
+    out.append('- %s, to re-read:' % {'depend on it': 'These depend on it', 'it depends on': 'It depends on this',
+                                      'link to it': 'These link to it', 'it links to': 'It links to this'}[f['tie']])
+    for x in f['partners']:
+        state = '; '.join(v for v in (x.get('relation'), x.get('state') or _linked(root, x.get('note')),
+                                      x.get('as_of')) if v)
+        out.append('  - %s%s' % (_side_md(texts, x, link and f['side'] == 'home', x.get('article')),
+                                 ' (%s)' % state if state else ''))
+    return out + ([] if f['partners'] else ['  - (none registered)'])
 
 
 def changed(reg, root=REPO, base='origin/main', article=None, registry_path=None):
@@ -600,6 +647,20 @@ def _side_md(texts, place, link, with_article=None):
     return ('%s, %s' % (with_article, s)) if with_article else s
 
 
+def watch_note(reg):
+    """The page's paragraph on the daily job (Joel, 2026-11-25 16:14 UTC: "for the registry, yes you can add the
+    github job"). The page carries it only where the job's file is in the repository."""
+    n = len(reg.get('texts') or {})
+    return ('**Checked every day.** Once a day a job on GitHub ([the daily check](%s%s)) reads %s on Substack and '
+            'looks for every passage on this page. When one has changed, for instance because you edited a post on '
+            'Substack yourself, it opens [an issue on GitHub](%s/issues?q=label%%3A%s) (a note in this repository\'s '
+            'Issues list) that names the passage and every other place that depends on it, so those can be read '
+            'again. While the same change stands it does not write again. If it cannot read a post, it says so in '
+            'an issue of its own.'
+            % (GIT, WATCH, 'the %s' % _n(n, 'live post') if n else 'the live posts', GIT.split('/blob/')[0],
+               WATCH_LABEL))
+
+
 def page(reg, article=None, root=REPO):
     """The Markdown page for Joel: for each article, what other posts take from it and what it takes from others."""
     texts = Texts(reg, root)
@@ -634,6 +695,8 @@ def page(reg, article=None, root=REPO):
             'stays, with at most a link to the home. For a link, the note on where the link stands.', '',
             '%s: %s%s, and %s.' % (_n(len(points), 'point'), _n(sum(states.values()), 'passage pair'),
                                    ' (%s)' % tally if tally else '', _n(n_links, 'section link')), '']
+    if (pathlib.Path(root) / WATCH).exists():
+        out += [watch_note(reg), '']
     order = []
     for p, u in pairs:
         for a in (p['home']['article'], u['article']):

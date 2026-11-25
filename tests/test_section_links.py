@@ -170,6 +170,27 @@ class Catalog(unittest.TestCase):
                                          'href': 'https://x.substack.com/i/1/therapy-or-escapism'}])
         self.assertEqual(sl.links_check(cat), [])
 
+    def test_every_push_names_the_posts_with_links_that_reload(self):
+        # lane_push.py prints these lines, so the lane that owns a post sees them (Joel, 2026-11-25 16:14 UTC: "on
+        # there would be fixing the anchor links for the other guides")
+        import json, pathlib, tempfile
+        post = {'base': 'https://x.substack.com', 'id': '1'}
+        heads = [{'level': 2, 'text': 'Noticing Counts', 'anchor': 'noticing-counts'}]
+        old = {'post': post, 'headings': heads, 'links': [{'in': 'A', 'text': 'here',
+                                                           'href': 'https://x.substack.com/i/1/noticing-counts'}]}
+        new = {'post': post, 'headings': heads, 'links': [{'in': 'A', 'text': 'here', 'href': '#§noticing-counts'}]}
+        with tempfile.TemporaryDirectory() as d:
+            for name, cat in (('old-form', old), ('fixed', new)):
+                f = pathlib.Path(d, 'articles', name)
+                f.mkdir(parents=True)
+                (f / 'SECTION-LINKS.json').write_text(json.dumps(cat), encoding='utf-8')
+            (pathlib.Path(d, 'articles', 'broken')).mkdir()
+            pathlib.Path(d, 'articles', 'broken', 'SECTION-LINKS.json').write_text('{not json', encoding='utf-8')
+            lines = sl.notice_lines(d)
+        self.assertEqual(len(lines), 2)
+        self.assertTrue(lines[0].startswith('broken: not read'))
+        self.assertTrue(lines[1].startswith('old-form: 1 links to sections of the same post'))
+
 
 if __name__ == '__main__':
     unittest.main()

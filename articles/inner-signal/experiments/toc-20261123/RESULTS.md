@@ -167,3 +167,24 @@ The Medium windows in C09 and C10 are his text of before this lane; with the thr
 ## The registry of passages that depend on each other (his point 10)
 
 "make sure we have a common reference point for the things that are common ... or some way to know when one thing changes that another thing is dependent on in same article or diff article": [articles/DEPENDS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/DEPENDS.md) lists 53 points (50 pairs of passages that say the same thing in two places, 3 links), each with its quote in both places, read against each article's live text (`articles/<id>/LIVE-SECTIONS.json`). [depends.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/depends.py) `check` says which quotes no longer match; every push prints the points a changed file touches. Proposed, not built: a daily job on GitHub that fetches the live posts and opens an issue when a registered passage changed on Substack.
+
+## The second edit (2026-11-25, 16:28 UTC)
+
+He answered the marking page at 16:00 UTC and wrote at 16:14 UTC ([his answers and how each is read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1600.md)): 12 cards approved, 6 answered in his own words, his new section revised by him, and the two names for question 4. All of it went into the post in one change at 16:28 UTC, without an email: [what went in and the five section checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/APPLIED.md) (all Human Written; four are one window, High; "Don't Rush the Repair" has every sentence High and seven one-word Medium windows, "etc." and his step letters). The live post's text is [AFTER2.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/AFTER2.md) word for word; 160 headings; 39 links to its own sections, none dead.
+
+- **"always carry the links"** (his comment on C12): the two source posts were read for links inside all twelve carried texts. Two had one: "warmlines" and "Rolfing". Both are in the post. Lesson toc-2026-11-25f; [carried_links.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/carried_links.py).
+- **The registry after the edit:** `depends.py check` named 8 points whose words had changed in this post; each now has its new words and state (18 in line, 10 left as he means them, 12 behind, 10 his to settle; 0 changed).
+- **What the catch-up still owes (lesson toc-2026-11-25h):** the 12 "behind" are smaller additions from the other two guides that were never drafted, and the 10 "his to settle" are smaller differences that were never put to him. They are listed in [articles/DEPENDS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/DEPENDS.md) and are promise 17 on [the promises list](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/work/toc-long-articles-20261122/PROMISES.md): a second, shorter marking page.
+
+## The other guides' section links (2026-11-25, 16:33 UTC)
+
+"fixing thea nchor links for the other guides" (his message of 16:14 UTC). Thirteen of his posts (the ones this repository names) were read from the live site at 16:31 UTC for links to their own sections:
+
+| Post | Links to its own sections | Now |
+|---|---|---|
+| [Inner child guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) | 24, all in the form that loads the page again | all 24 are `#§slug` since 16:33 UTC; none dead; a click scrolls; no word changed; subtitle date Nov 25 |
+| [Nirvāna guide](https://ibogaqueen.substack.com/p/what-if-everything-is-already-perfect-bdc) | 13 | `#§slug` since 11:34 UTC |
+| [Self-Hypnosis guide](https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including) | 39 | `#§slug` since 12:00 UTC |
+| Romance, somatic, neuro de-armoring, gut, Hearthwork, Where's Utopia, polycrisis, Loveyhuasca, Zeocharge, and [bad trips](https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself) | none | nothing to fix in the live posts |
+
+The bad trips guide's 42 section links are in the guide its lane is still writing, not in the post. They are in the old form in [its catalog](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/SECTION-LINKS.json); every push now prints a line naming them (`section_links.notice_lines` in `lane_push.py`), and it is promise 2 until that guide is in its post with links that scroll.

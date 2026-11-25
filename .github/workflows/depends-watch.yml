@@ -1,0 +1,73 @@
+name: Shared passages watch
+
+# Joel, 2026-11-25 11:18 UTC: "some way to know when one thing changes that another thing is dependent on in same
+# article or diff article." The registry articles/DEPENDS.json (tools/humanization/depends.py) does that for a lane's
+# own edits. Nothing noticed when he edits a post on Substack himself. His yes to this job, 2026-11-25 16:14 UTC:
+# "for the registry, yes you can add the github job".
+#
+# Once a day it fetches the live posts the registry names (Substack's public post API, no key), builds each post's
+# sections in memory and looks for every registered passage and heading in them: scripts/watch_live_posts.py.
+#   - A registered passage changed: one open issue labelled depends-watch, with the report (what changed, and every
+#     other place that depends on it). While one is open, a new report goes under it as a comment, and only when the
+#     list of changed passages is another one than the last posted.
+#   - A post could not be fetched (Substack may refuse GitHub's runners): the job fails, and one open issue labelled
+#     depends-watch-fetch says which post and since when. It is brought up to date each day, never opened twice, and
+#     closed the first day every post can be read again.
+#   - Nothing registered changed: nothing is posted.
+# It writes nothing to the repository: the lane refreshes articles/<id>/LIVE-SECTIONS.json itself. It reads no code
+# from a pull request: a schedule runs on the default branch only.
+#
+# 05:23 UTC: off the hour, when GitHub starts scheduled jobs late or drops them, and early morning in Dakar (05:23)
+# and Kampala (08:23), so what he changed the day or the night before is reported before his day starts.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: depends-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Fetch the live posts and look for every registered passage
+        id: watch
+        run: |
+          set +e
+          python scripts/watch_live_posts.py --root . --report "$RUNNER_TEMP/depends-watch.md" --json > "$RUNNER_TEMP/depends-watch.json"
+          code=$?
+          set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ -s "$RUNNER_TEMP/depends-watch.md" ]; then cat "$RUNNER_TEMP/depends-watch.md" >> "$GITHUB_STEP_SUMMARY"; fi
+          case "$code" in
+            0) echo "nothing registered changed" ;;
+            1) echo "::notice::a registered passage changed in a live post: see the open issue labelled depends-watch" ;;
+            2) echo "::warning::a live post could not be fetched; the last step fails the job" ;;
+            *) echo "::error::scripts/watch_live_posts.py failed (exit $code): nothing was compared"; exit 1 ;;
+          esac
+
+      - name: Open, update or close the issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python scripts/watch_live_posts.py --issues-from "$RUNNER_TEMP/depends-watch.json" --run-url "$RUN_URL"
+
+      - name: Fail when a post could not be fetched
+        if: steps.watch.outputs.code == '2'
+        run: |
+          echo "::error::a live post could not be fetched (see this run's summary for which, and the HTTP status); the open issue labelled depends-watch-fetch says since when"
+          exit 1
