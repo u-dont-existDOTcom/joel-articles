@@ -1,0 +1,386 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-catchup-20261125",
+ "title": "Self-Hypnosis Guide, 25 November: from your other guides, and your new section",
+ "git_file": "articles/inner-signal/experiments/toc-20261123/review/REVIEW.html",
+ "article": {
+  "file": "articles/inner-signal/experiments/toc-20261123/review/ARTICLE.md",
+  "sha256": "e146e2961ccd4bee97356b78db915a06dfc5cc512e691ab1b68d1a07eb18af3f"
+ },
+ "built": "2026-11-25T12:34:41Z",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-25T16:00:39.017Z",
+ "counts": {
+  "approved": 12,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 6
+ },
+ "items": [
+  {
+   "id": "C05",
+   "type": "otherguide",
+   "title": "The Higher Self’s wisdom, “that can be followed mechanically”",
+   "where": "Start From the Whole, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. And I don’t think the Higher Self has any specific wisdom that can be followed mechanically. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference.",
+   "comment": "",
+   "my_version": "Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. And I don’t think the Higher Self has any specific wisdom that can be followed mechanically. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference.",
+   "before": "Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. And I don’t think the Higher Self has any specific wisdom. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:35:40.838Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-25T15:40:58.069Z"
+    },
+    {
+     "from": "revise",
+     "to": "approved",
+     "at": "2026-11-25T15:41:07.476Z"
+    }
+   ],
+   "updated": "2026-11-25T15:41:07.476Z"
+  },
+  {
+   "id": "C06",
+   "type": "differs",
+   "title": "Sort out which part it is, or not spend long on naming?",
+   "where": "Start From the Whole, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "This section is for a reader who already splits into too many parts, and it ends by giving them seven questions for sorting: “When something specific comes up, that’s the time to sort out what it is.” The inner child guide now says ([“Which thoughts to talk to”](https://ibogaqueen.substack.com/i/189761959/which-thoughts-to-talk-to)): “I wouldn’t spend long deciding what to call each part you meet.” And in [“Start With What Shows Up”](https://ibogaqueen.substack.com/i/189761959/start-with-what-shows-up): “Before you decide where it’s coming from, ask it what it’s trying to stop, or what it wants.” Bring this paragraph in line with that, or is the sorting how you mean it in this guide?",
+   "your_version": "",
+   "comment": "the first sentence here should say, \"Once you feel comfortable in your wholeness, then you can investigate parts with a gentle curiosity. \"",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-25T15:42:18.382Z"
+  },
+  {
+   "id": "C08",
+   "type": "differs",
+   "title": "The Guide: someone you ask, or a job you do?",
+   "where": "The Guide, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Here the reader asks the Guide for direction, as if it were someone else: “Ask them for help with directing your life.” In the inner child guide ([“The Inner Guide”](https://ibogaqueen.substack.com/i/189761959/the-inner-guide)) the Guide is a job you do: “As the Guide, you choose what your little one learns and what it gets to experience, and you hold standards, the way a good parent would.” Make the Guide a job the reader does here too, or is asking an inner figure how you mean it for hypnosis?",
+   "your_version": "",
+   "comment": "its own way",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-25T15:42:52.512Z"
+  },
+  {
+   "id": "C03",
+   "type": "differs",
+   "title": "What takes warmth: not hitting back, or their trust?",
+   "where": "Love First, Trust Later, P3",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Here: “Just not hitting back is enough to start being the adult, even if it isn't enough yet for them to trust you. Even that takes some warmth, and if you don't have any yet, borrow some from someone who's been good to you, or from an adult you imagine.” So here even not hitting back takes warmth. In the inner child guide ([“If Love Isn’t Coming Yet”](https://ibogaqueen.substack.com/i/189761959/if-love-isnt-coming-yet)) you can stop judging with no love coming yet: “That’s enough to start being the adult, even if it isn’t enough yet for them to trust you. That takes warmth, and if there isn’t any yet, borrow some.” There it is their trust that takes warmth. Bring this guide in line with that, or do you mean it its own way here?",
+   "your_version": "",
+   "comment": "in line",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-25T15:43:28.661Z"
+  },
+  {
+   "id": "C17",
+   "type": "otherguide",
+   "title": "You don’t have to forgive first",
+   "where": "Forgiving Without Bypass, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "We cannot force forgiveness on ourselves. It has to come from a place of understanding, otherwise it can be bypassing. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it. Our boundary with them is crucial to maintain, especially after forgiveness which can tend to weaken it. One day we may find that we have forgiven them for not knowing better, just like Jesus did on the Cross.",
+   "before": "We cannot force forgiveness on ourselves. It has to come from a place of understanding, otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it. Our boundary with them is crucial to maintain, especially after forgiveness which can tend to weaken it. One day we may find that we have forgiven them for not knowing better, just like Jesus did on the Cross.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:44:00.224Z"
+    }
+   ],
+   "updated": "2026-11-25T15:44:00.224Z"
+  },
+  {
+   "id": "C10",
+   "type": "otherguide",
+   "title": "Let a stray thought go",
+   "where": "Working With Your Guards, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Use parts language here too, if it helps. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. Still, notice it, and then look at what might be going on. Let a stray thought go as just thinking. A worry that just keeps asking to be reassured can go the same way, unless it’s your inner child asking.",
+   "before": "Use parts language here too, if it helps. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. Still, notice it, and then look at what might be going on.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:44:14.368Z"
+    }
+   ],
+   "updated": "2026-11-25T15:44:14.368Z"
+  },
+  {
+   "id": "C09",
+   "type": "otherguide",
+   "title": "A critical voice may be trying to protect you",
+   "where": "Your Inherited Parent Script, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry or complain. You might be hearing, \"Don't be needy! Don't embarrass us! And don't be independent.\" So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”.\n\nKeep in mind that while a critical voice might be that inherited parent script, or any outside influence with no concern for your welfare, it could also be trying to protect you from rejection or failure. It may be pointing to a real problem, but in a cruel way. Stay curious about the critical voice’s motivations, and open to any kernels of truth it points out, without accepting its insults and cruelty.",
+   "before": "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry or complain. You might be hearing, \"Don't be needy! Don't embarrass us! And don't be independent.\" So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:44:28.591Z"
+    }
+   ],
+   "updated": "2026-11-25T15:44:28.591Z"
+  },
+  {
+   "id": "C04",
+   "type": "otherguide",
+   "title": "“Just meet it with love” becomes “listen to it and be patient”",
+   "where": "The Two-Hand Practice, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Gently breathe in lots of love and begin to send that love from your heart down to your inner child as you breathe out, noticing what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, listen to it and be patient. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.",
+   "before": "Gently breathe in lots of love and begin to send that love from your heart down to your inner child as you breathe out, noticing what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:45:14.013Z"
+    }
+   ],
+   "updated": "2026-11-25T15:45:14.013Z"
+  },
+  {
+   "id": "C12",
+   "type": "otherguide",
+   "title": "If being alone was the hurt, call someone first",
+   "where": "Don't Rush the Repair, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "i had warmlines linked in the inner child guide tho make sure it's still linked  right? always carry the links",
+   "my_version": "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. If being alone was a big part of what hurt during your childhood, I’d call somebody now, mess and all, since reaching toward people is part of taking care of your little one too. Even if you don’t have someone you know who wants to listen, there are warmlines for this (not hotlines unless it’s an emergency). Check how much grown-up you is really in the room first. Can you take a moment before you react? When you decide something, do you follow through? If you answered \"No,\" because right now you’re mostly still stuck identifying as the frightened little boo, hold off on the deeper conversation. Do what makes you feel adult before you try to talk to little you.",
+   "before": "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really in the room first. Can you take a moment before you react? When you decide something, do you follow through? If you answered \"No,\" because right now you’re mostly still stuck identifying as the frightened little boo, hold off on the deeper conversation. Do what makes you feel adult before you try to talk to little you.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:45:44.805Z"
+    }
+   ],
+   "updated": "2026-11-25T15:46:14.201Z"
+  },
+  {
+   "id": "C11",
+   "type": "otherguide",
+   "title": "The ritual sentence reads AI here, twice",
+   "where": "Don't Rush the Repair, P11",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The sentence from your inner child guide ([“Is It Helping?”](https://ibogaqueen.substack.com/i/189761959/is-it-helping), its last sentence) that would go here, after step G: “If these exercises start feeling like a ritual you have to complete before you’re allowed to live, stop there.” I can’t find AI tells in this sentence, and “allowed to live” reads like you, but it doesn’t pass in this section. Leave it out, since step G says something close, or tell me how you’d say it here?",
+   "your_version": "",
+   "comment": "leave it out",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-25T15:50:13.077Z"
+  },
+  {
+   "id": "C13",
+   "type": "otherguide",
+   "title": "Don’t invent a child’s voice",
+   "where": "Inner Child Won’t Appear?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If you can tell there is a guard in the way, talk to it. You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”. If you don’t hear a little kid talking in your head, don’t invent one. Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes. Work on developing a sense of who you are and reparent yourself as best you can.",
+   "before": "If you can tell there is a guard in the way, talk to it. You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”. Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes. Work on developing a sense of who you are and reparent yourself as best you can.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:50:19.828Z"
+    }
+   ],
+   "updated": "2026-11-25T15:50:19.828Z"
+  },
+  {
+   "id": "N001-Q",
+   "type": "newsection",
+   "title": "Your new section says something different",
+   "where": "Do These With a Clinician, P1",
+   "advice": "ask",
+   "status": "pending",
+   "question": "Does this sentence stay as it is once your new section is in? The new section (card N001, in Appendix G after “Stabilize, Then Interpret”) says of age regression: “And you don't necessarily need to have a professional do this either.” The choices are on that card; if you answer there, leave this one empty.",
+   "your_version": "",
+   "comment": "",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": ""
+  },
+  {
+   "id": "Q7b",
+   "type": "youranswer",
+   "title": "Breathing the somatic guide’s way: the whole paragraph",
+   "where": "Breathe, Relax & Flow, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked.) By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer. Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more. If you feel bad, dizzy, or panicky, or have medical issues, stop.",
+   "comment": "",
+   "my_version": "Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked.) By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer. Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more. If you feel bad, dizzy, or panicky, or have medical issues, stop.",
+   "before": "Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more. If you feel bad, dizzy, or panicky, or have medical issues, stop.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-25T15:51:39.250Z"
+    },
+    {
+     "from": "revise",
+     "to": "approved",
+     "at": "2026-11-25T15:51:54.386Z"
+    }
+   ],
+   "updated": "2026-11-25T15:51:54.386Z"
+  },
+  {
+   "id": "M05",
+   "type": "otherguide",
+   "title": "Titration, pendulation and orientation",
+   "where": "Somatic Experiencing, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail. SE’s founder, Peter Levine, uses the concepts of titration (going from the shallow end of the pool slowly deeper), pendulation (going in and out of the deep end to learn safety there), and orientation (coming out of the pool, drying off, noticing you’re safe).",
+   "before": "If you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:52:18.826Z"
+    }
+   ],
+   "updated": "2026-11-25T15:52:18.826Z"
+  },
+  {
+   "id": "M06",
+   "type": "otherguide",
+   "title": "Massage styles, from forceful to gentle",
+   "where": "Calm the Body Directly, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) Some massage therapies are super aggressive, like Rolfing, some are fairly aggressive still like Deep Tissue, some are medium-aggressive, like Thai massage, and some, like Swedish Massage, are quite gentle. Choose the level that feels right for you. You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.",
+   "before": "Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:53:11.882Z"
+    }
+   ],
+   "updated": "2026-11-25T15:53:11.882Z"
+  },
+  {
+   "id": "C16",
+   "type": "otherguide",
+   "title": "A test for counsel that turns into handing your power over",
+   "where": "Take It to the Council, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "On the other hand, it is possible to give your power away. Seeking counsel can slide into abdicating to an authority figure without you noticing. They can know things you don’t and still be wrong for you to follow too much. The test is whether the relationship makes you more grounded, truthful, and free.",
+   "before": "On the other hand, it is possible to give your power away. Seeking counsel can slide into abdicating to an authority figure without you noticing.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:53:30.641Z"
+    }
+   ],
+   "updated": "2026-11-25T15:53:30.641Z"
+  },
+  {
+   "id": "C02",
+   "type": "otherguide",
+   "title": "If it goes badly: the signs not to try the same thing again",
+   "where": "G: Altered States, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). If you don’t have them in you yet, borrow them from someone steady, as long as they won’t take advantage of that to try to run your trip for you.\n\nIf you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don’t try again until you understand what would make it safe.",
+   "before": "I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). If you don’t have them in you yet, borrow them from someone steady, as long as they won’t take advantage of that to try to run your trip for you.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T15:53:42.305Z"
+    }
+   ],
+   "updated": "2026-11-25T15:53:42.305Z"
+  },
+  {
+   "id": "N001",
+   "type": "newsection",
+   "title": "Past Life & Ancestral Trauma: your new section, in Appendix G",
+   "where": "above the heading \"H: Demons, Jinn & Presences\"",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "## Past Life & Ancestral Trauma\n\nOne of the hottest and weirdest topics when it comes to hypnosis is past life regression. I've spoken to many people who told me that their trauma in this life came from a past life. Well, I also have some past life memories. I remember being a brontosaurus and I remember getting eaten by a T-Rex, and yes it was traumatic. But I'd still go for the inner child reparenting rather than the Brontosaurus reparenting because I highly suspect that what's mainly affecting me is something that happened to my inner child in this life (either when I was actually a child or after). According to the Buddha, our past lives are endless, so that would put us on quite the healing treadmill if we have to deal with all the past life trauma now. On the other hand, it could be an excellent therapeutic proxy, perhaps, if it feels too difficult to access the trauma in this life.\n\nAncestral trauma is another thing a lot of people are now talking about healing. That part is a bit harder to understand because it could mean the trauma that is passed down from generations, which is what everyone is healing essentially even if it's not named that way, or it might mean they are actually trying to heal their ancestors' trauma for their ancestors. If that's the case then I'd say the main validity there is as a loving-kindness practice and another therapeutic proxy technique.\n\nOne doorway into either of these would be to do an age regression hypnosis, and just keep going back farther and farther until before you were in your mother's belly. \n\nAnd you don't necessarily need to have a professional do this either. While age regression to childhood traumas can sometimes be too scary without a professional therapist there to help you, it's often easier to face things from past lives or ancestral stuff, because that's not \"you\" from this life.  A professional hypnotist who focuses on past life regressions doesn't have some kind of magic that you lack. In fact, they might be more confused than you, or confuse you, and they usually aren't trauma-informed the way I'd expect someone to be who focuses on childhood trauma. I have one friend, T., who went to a hypnotist to get a past-life regression. He was secretly recording the session so I heard all of it. He was trying to make it work and he felt like he was maybe really remembering his past life as a pirate.\n\nThe hypnotist was very much convinced it was real. But afterwards, T. told me he thinks he was just making it all up. My guess is most people tend to err the other way, thinking they weren't making it up. Personally, I don't think it matters if it was a real past life or not unless you're trying to prove it for some other reason, like academic research into past lives. I have [more info about rebirth in my nibbana guide](https://ibogaqueen.substack.com/i/209400477/who-gets-reborn).",
+   "comment": "",
+   "my_version": "## Past Life & Ancestral Trauma\n\nOne of the hottest and weirdest topics when it comes to hypnosis is past life regression. I've spoken to many people who told me that their trauma in this life came from a past life. Well, I also have some past life memories. I remember being a brontosaurus and I remember getting eaten by a T-Rex, and yes it was traumatic. But I'd still go for the inner child reparenting rather than the Brontosaurus reparenting because I highly suspect that what's mainly affecting me is something that happened to my inner child in this life (either when I was actually a child or after). According to the Buddha, our past lives are endless, so that would put us on quite the healing treadmill if we have to deal with all the past life trauma now. On the other hand, it could be an excellent therapeutic proxy, perhaps, if it feels too difficult to access the trauma in this life.\n\nAncestral trauma is another thing a lot of people are now talking about healing. That part is a bit harder to understand because it could mean the trauma that is passed down from generations, which is what everyone is healing essentially even if it's not named that way, or it might mean they are actually trying to heal their ancestors' trauma for their ancestors. If that's the case then I'd say the main validity there is as a loving-kindness practice and another therapeutic proxy technique.\n\nOne doorway into either of these would be to do an age regression hypnosis, and just keep going back farther and farther until before you were in your mother's belly.\n\nAnd you don't necessarily need to have a professional do this either. They don't have some kind of magic that you lack. In fact, they might be more confused than you, or confuse you. I have one friend, T., who went to a hypnotist to get a past-life regression. He was secretly recording the session so I heard all of it. He was trying to make it work and he felt like he was maybe really remembering his past life as a pirate.\n\nThe hypnotist was very much convinced it was real. But afterwards, T. told me he thinks he was just making it all up. My guess is most people tend to err the other way, thinking they weren't making it up. Personally, I don't think it matters if it was a real past life or not unless you're trying to prove it for some other reason, like academic research into past lives. I have [more info about rebirth in my nibbana guide](https://ibogaqueen.substack.com/i/209400477/who-gets-reborn).",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-25T15:55:13.432Z"
+    }
+   ],
+   "updated": "2026-11-25T15:57:49.695Z"
+  },
+  {
+   "id": "C18",
+   "type": "differs",
+   "title": "Who the three jobs come from",
+   "where": "Reparenting Therapy, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The sources note says who the three jobs are not from, and stops there: “The sequence for doing this with borrowed adulthood and the arrangement of 3 functions of adulthood, etc, is not from these authors, however.” The inner child guide now credits them ([“My Framework’s Roots”](https://ibogaqueen.substack.com/i/189761959/my-frameworks-roots)): “My inner child reparenting framework developed through the teachers and collaborators credited below and my own practice.” Under [“Teachers and Resources”](https://ibogaqueen.substack.com/i/189761959/teachers-and-resources) it names Daja’s work for the Nurturer and Protector, and Key for adding the Guide. Credit them here too, or leave this note as it is?",
+   "your_version": "",
+   "comment": "i'd say \"The sequence for doing this reparenting therapy is not from these authors, however.\" and link reparenting therapy to innerchild.u-dont-exist.com",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-25T16:00:32.461Z"
+  }
+ ]
+}

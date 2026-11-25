@@ -6,6 +6,8 @@
 // It refuses to dispatch unless the editor's blocks are the live post's blocks (count, and each text block's hash), every
 // edit and link is found exactly once, and the headings after the change are ops.expected_headings in order. The report
 // lists the text that goes and the text that is new, so nothing but the planned changes goes in.
+// The second edit of 2026-11-25 (apply_plan2.py, EDITOR-OPS2.json) uses the same function; it adds one heading that the
+// post didn't have, which the order gives as {h: [level, text]} with no block number.
 window.__applyContents = (OPS, opt) => {
   const ed = document.querySelector('.ProseMirror').editor;
   const st = ed.state, S = st.schema, tr = st.tr, rep = {errors: [], inline: []};
@@ -53,6 +55,8 @@ window.__applyContents = (OPS, opt) => {
   const cur = []; tr.doc.forEach(n => cur.push(n));
   const nodes = OPS.order.map(x => {
     if (x.p) return S.nodes.paragraph.create(null, x.p.filter(([t]) => t).map(([t, href]) => href ? S.text(t, [linkMark(href)]) : S.text(t)));
+    // a heading that is new to the post (no block of its own): {h: [level, text]}, with the schema's defaults for the rest
+    if (x.i === undefined && x.h) return S.nodes.heading.create({level: x.h[0]}, S.text(x.h[1]));
     const n = cur[x.i];
     if (!x.h) return n;
     if (n.type.name !== 'heading') { rep.errors.push('block ' + x.i + ' is not a heading'); return n; }
