@@ -647,10 +647,27 @@ def _side_md(texts, place, link, with_article=None):
     return ('%s, %s' % (with_article, s)) if with_article else s
 
 
-def watch_note(reg):
+def watch_is_daily(root=REPO):
+    """Whether the job's file has a schedule that is not commented out (it was switched off on 2026-11-25, when
+    Substack refused GitHub's servers)."""
+    f = pathlib.Path(root) / WATCH
+    return f.exists() and re.search(r'^\s*schedule:\s*$', f.read_text(encoding='utf-8'), flags=re.M) is not None
+
+
+def watch_note(reg, root=REPO):
     """The page's paragraph on the daily job (Joel, 2026-11-25 16:14 UTC: "for the registry, yes you can add the
-    github job"). The page carries it only where the job's file is in the repository."""
+    github job"). The page carries it only where the job's file is in the repository, and says "every day" only while
+    the job has a schedule."""
     n = len(reg.get('texts') or {})
+    if not watch_is_daily(root):
+        return ('**Not checked by itself yet.** A job on GitHub ([the check](%s%s)) can read %s on Substack and look '
+                'for every passage on this page, and open [an issue on GitHub](%s/issues?q=label%%3A%s) that names a '
+                'changed passage and every other place that depends on it. But Substack refuses GitHub\'s servers '
+                '(tried on 2026-11-25), so the job does not run by itself. The same check runs from a computer '
+                'Substack answers: `python3 scripts/watch_live_posts.py`. Until it has such a place to run every '
+                'day, a lane runs it before it edits a post.'
+                % (GIT, WATCH, 'the %s' % _n(n, 'live post') if n else 'the live posts', GIT.split('/blob/')[0],
+                   WATCH_LABEL))
     return ('**Checked every day.** Once a day a job on GitHub ([the daily check](%s%s)) reads %s on Substack and '
             'looks for every passage on this page. When one has changed, for instance because you edited a post on '
             'Substack yourself, it opens [an issue on GitHub](%s/issues?q=label%%3A%s) (a note in this repository\'s '
@@ -696,7 +713,7 @@ def page(reg, article=None, root=REPO):
             '%s: %s%s, and %s.' % (_n(len(points), 'point'), _n(sum(states.values()), 'passage pair'),
                                    ' (%s)' % tally if tally else '', _n(n_links, 'section link')), '']
     if (pathlib.Path(root) / WATCH).exists():
-        out += [watch_note(reg), '']
+        out += [watch_note(reg, root), '']
     order = []
     for p, u in pairs:
         for a in (p['home']['article'], u['article']):

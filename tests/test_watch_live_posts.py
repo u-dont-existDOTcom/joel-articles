@@ -618,7 +618,7 @@ class DependsHook(Fixture):
         reg = D.load(self.root)
         self.assertNotIn('Checked every day', D.page(reg, root=self.root))
         (self.root / '.github' / 'workflows').mkdir(parents=True)
-        self.write(D.WATCH, 'name: x\n')
+        self.write(D.WATCH, 'name: x\non:\n  schedule:\n    - cron: "23 5 * * *"\n')
         page = D.page(reg, root=self.root)
         self.assertIn('**Checked every day.** Once a day a job on GitHub ([the daily check](%s%s)) reads the 2 live '
                       'posts on Substack and looks for every passage on this page.' % (D.GIT, D.WATCH), page)
@@ -628,12 +628,23 @@ class DependsHook(Fixture):
         self.assertLess(page.index('3 points:'), page.index('**Checked every day.**'))
         self.assertLess(page.index('**Checked every day.**'), page.index('## '))
 
+    def test_the_page_does_not_say_every_day_while_the_schedule_is_off(self):
+        # 2026-11-25: Substack answered GitHub's servers with HTTP 403, so the schedule was commented out
+        reg = D.load(self.root)
+        (self.root / '.github' / 'workflows').mkdir(parents=True)
+        self.write(D.WATCH, 'name: x\non:\n  #   schedule:\n  #     - cron: "23 5 * * *"\n  workflow_dispatch:\n')
+        self.assertFalse(D.watch_is_daily(self.root))
+        page = D.page(reg, root=self.root)
+        self.assertNotIn('Checked every day', page)
+        self.assertIn('**Not checked by itself yet.**', page)
+        self.assertIn('python3 scripts/watch_live_posts.py', page)
+
     def test_the_real_page_says_it(self):
         if not ((REPO / D.WATCH).exists() and (REPO / D.PAGE).exists()):
             self.skipTest('no daily job or no page in this checkout')
         self.assertTrue(D.watch_note(D.load(REPO)) in (REPO / D.PAGE).read_text(encoding='utf-8'),
-                        'articles/DEPENDS.md has no "Checked every day" paragraph: make the page again '
-                        '(python3 tools/humanization/depends.py list --write)')
+                        'articles/DEPENDS.md does not have the paragraph on the check as it stands: make the page '
+                        'again (python3 tools/humanization/depends.py list --write)')
 
 
 class Workflow(unittest.TestCase):
@@ -656,7 +667,11 @@ class Workflow(unittest.TestCase):
         return [r.strip() for r in rows if r.strip()]
 
     def test_daily_and_by_hand_only(self):
-        on = self.block('on')
+        on = [r for r in self.block('on') if not r.startswith('#')]
+        if not D.watch_is_daily(REPO):          # the schedule is off: by hand only, and the file says how to turn it on
+            self.assertEqual(on, ['workflow_dispatch:'])
+            self.assertRegex(self.text, r'#\s+schedule:\n\s*#\s+- cron: "\d+ \d+ \* \* \*"')
+            return
         self.assertEqual([r for r in on if not r.startswith('- cron')], ['schedule:', 'workflow_dispatch:'])
         crons = [r for r in on if r.startswith('- cron')]
         self.assertEqual(len(crons), 1)
