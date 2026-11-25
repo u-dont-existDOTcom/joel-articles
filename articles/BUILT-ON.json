@@ -87,11 +87,11 @@
         "how_found": "the deck itself; on 2026-11-24 a fresh reader read all 95 cards of v0.5.4 against the article (articles/romance/humanize/fix-20261107/r42/game-audit/AUDIT.json), and every card's section names were compared with the article's headings"
       },
       "last_brought_in_line": {
-        "what": "v0.6.0, built 2026-11-24 against the article as fixed through r41 (17 new cards, 19 cards' \"why\" or section line corrected); a candidate until he approves it (articles/romance/humanize/fix-20261107/r40/CARD-GAME.md)",
-        "live": "v0.5.4 is what his site serves until v0.6.0 is approved, vendored into the innerself site and deployed"
+        "what": "v0.8.0, built 2026-11-25 against the article as fixed through r41 (nothing in the article has changed since): 27 Warm cards and 92 plainer questions and follow-ups, on top of v0.6.0 (17 new cards, 19 cards' \"why\" or section line corrected), v0.7.0 and v0.7.1 (how the game works); a candidate until he approves it (articles/romance/humanize/fix-20261107/r40/CARD-GAME.md, r44/README.md)",
+        "live": "v0.5.4 is what his site serves until a version is approved, vendored into the innerself site and deployed"
       },
       "how_changes_carry": "it is a game, so Pangram's rules don't apply: when the article gains or changes a point, a renamed section or a cut line, the cards that draw on it are checked; new or changed card texts go to him to approve; a new version is then built by the love-honestly repository's rule (versions/<version>/) and deployed only with his OK",
-      "next": "his word on v0.6.0; after that, each romance turn that changes the article checks the cards that name the changed section"
+      "next": "his word on the four items put to him on 2026-11-25 and on the version; the one-person route; after that, each romance turn that changes the article checks the cards that name the changed section"
     }
   ]
 }

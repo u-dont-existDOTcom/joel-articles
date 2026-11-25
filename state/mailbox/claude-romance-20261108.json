@@ -701,6 +701,53 @@
     }
    ],
    "recorded_utc": "2026-11-25T01:28Z"
+  },
+  {
+   "turn": "2026-11-25T17:20Z",
+   "lines_of_work": [
+    "the romance article and its card game (Love, Honestly)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles: 6 items, each already in the ledger; suggested-fixes/love-honestly: 1 item (mailbox every turn), adopted on the game's version branch; suggested-fixes/innerself: 1 item (mailbox every turn), waiting for that repository's next change"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "joel-articles: nothing new on this lane's pull requests (532 merged at 02:10 UTC); the nine open pull requests and issue 539's two comments belong to other lanes; love-honestly: its draft pull request 2 has no comments or reviews and no open issue. NOT READ: innerself (a private repository this session was not given access to; GitHub answered 403; nothing in it is changed before he approves a version); it is read at the start of the turn that vendors the approved game file into it, when the repository is attached"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note ~/claude-acceptance-transfer/handoffs/romance-article.md is as the last turn left it (read through Desktop Commander)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 17:20 UTC: 200 cards is too much to read, tell him which to check; make Spiritual Practice personal, not optional; the Build button did nothing on one phone"
+    }
+   ],
+   "items": [
+    {
+     "item": "the Build button did nothing",
+     "outcome": "found (a chat app's file frame blocks form submission), fixed in the game's v0.7.1 this turn, shown failing before and working after in such a frame; both files sent to him"
+    },
+    {
+     "item": "Spiritual Practice personal instead of optional",
+     "outcome": "done in v0.7.1 this turn (chip reads Personal, begins ticked); the other reading named to him"
+    },
+    {
+     "item": "which of the 204 card texts to check",
+     "outcome": "all read this turn against the cards he approved and the guide; four put to him (TO-CHECK.md in love-honestly); the rest built into v0.8.0 or held for the one-person route; each item's fate recorded"
+    },
+    {
+     "item": "innerself lane item 2026-10-31-mailbox-every-turn",
+     "outcome": "next step unchanged: adopted in the pull request that vendors the approved game file into innerself"
+    }
+   ],
+   "recorded_utc": "2026-11-25T17:52Z"
   }
  ]
 }
