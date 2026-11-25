@@ -29,6 +29,11 @@ Who checks it:
   python3 tools/humanization/keep_as_is.py check ARTICLE.md        # kept words all there, no meant cut back
   python3 tools/humanization/keep_as_is.py is-kept ARTICLE.md "words"   # exit 0 if the words are kept (or a meant cut)
   python3 tools/humanization/keep_as_is.py list ARTICLE.md
+  python3 tools/humanization/keep_as_is.py try ARTICLE.md OLD.txt NEW.txt   # before a rewrite of OLD is checked in Pangram:
+                                                # every kept quote OLD holds is still in NEW, and no meant cut is in NEW
+                                                # (lesson bad-trips-2026-11-25o: I joined his kept line "A gut-driven
+                                                # mental hell is often mistaken as shadow work." to the sentence before it,
+                                                # paid for the check, and only the article-wide check after applying caught it)
 """
 import argparse
 import json
@@ -104,6 +109,15 @@ def back(md, led):
     return [e for e in led.get('cuts', []) if norm(e['quote']) in text]
 
 
+def try_problems(old, new, led):
+    """What a rewrite NEW of the passage OLD breaks: [(kind, entry)] with kind 'GONE' for a kept quote OLD holds that NEW
+    lacks, 'BACK' for a meant cut that NEW contains. Run before the rewrite's Pangram check (lesson bad-trips-2026-11-25o)."""
+    o, n = norm(old), norm(new)
+    out = [('GONE', e) for e in led.get('keep', []) if e.get('kind') != 'placement' and norm(e['quote']) in o and norm(e['quote']) not in n]
+    out += [('BACK', e) for e in led.get('cuts', []) if norm(e['quote']) in n]
+    return out
+
+
 def kept(words, led):
     """The entries (kept words or meant cuts) that WORDS fall inside or cover: before flagging WORDS, check this."""
     w = norm(words)
@@ -170,8 +184,22 @@ def main(argv=None):
     k = sub.add_parser('is-kept')
     k.add_argument('article')
     k.add_argument('words')
+    t = sub.add_parser('try')
+    t.add_argument('article')
+    t.add_argument('old')
+    t.add_argument('new')
     a = ap.parse_args(argv)
     led = load(a.article)
+    if a.cmd == 'try':
+        probs = try_problems(pathlib.Path(a.old).read_text(encoding='utf-8'), pathlib.Path(a.new).read_text(encoding='utf-8'), led)
+        for kind, e in probs:
+            if kind == 'GONE':
+                print('GONE %s: "%s" is in the text this replaces and not in the rewrite; it stays word for word (%s, %s)'
+                      % (e['id'], e['quote'], e['where'], e['what']))
+            else:
+                print('BACK %s: "%s" is in the rewrite, though Joel cut it on purpose (%s)' % (e['id'], e['quote'], e['where']))
+        print('rewrite: %d kept quote(s) gone, %d meant cut(s) back' % (sum(k == 'GONE' for k, _ in probs), sum(k == 'BACK' for k, _ in probs)))
+        return 1 if probs else 0
     if a.cmd == 'list':
         for part in ('keep', 'cuts'):
             for e in led.get(part, []):

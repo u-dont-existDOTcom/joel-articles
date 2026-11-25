@@ -2739,6 +2739,37 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-25T01:31Z"
+  },
+  {
+   "turn": "2026-11-25T17:43Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ on its default branch (fetched 2026-11-25 17:44 UTC, unchanged since 2026-11-24 22:30), all six already in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md and OWNER-QUESTIONS.md on main: last changed by this lane's turn 67 (cee0112e); no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    },
+    {
+     "place": "repo",
+     "status": "unreachable",
+     "failed": "the GitHub API is still not enabled for this session (attaching the repository with push and API access was declined by the permission check on 2026-11-25 01:25 and Joel has not yet said to allow it); git reads work: main moved to 99298c31 (the contents lane's pull requests 540 and 541), nothing of this lane's files changed there",
+     "retry": "this turn, if Joel allows the attach when asked; else next turn first thing"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-25T17:45Z"
   }
  ]
 }

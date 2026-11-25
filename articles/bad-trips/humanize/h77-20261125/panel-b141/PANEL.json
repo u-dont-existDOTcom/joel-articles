@@ -1,0 +1,33 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mind is going crazy because the gut or brain is going crazy belongs in a different branch from a mainly emotional crisis.",
+  "A gut-driven mental hell is often mistaken as shadow work."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is built as a thesis sentence followed by a neatly balanced coda, with a long seven-item list in the middle, and the voice stays impersonal and expository from start to finish, which reads as a polished summary rather than a lived account."
+  ],
+  "sonnet": [
+   "The paragraph is two sentences built the same way: a long list that ends in a verdict, then a short punchy line that restates it. It has no first-person voice, no named person or moment, and no concrete detail, so it reads like a polished guide entry."
+  ]
+ },
+ "human_clean": []
+}

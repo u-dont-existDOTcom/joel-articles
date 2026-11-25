@@ -1,0 +1,118 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r59",
+ "title": "Bad Trips Guide, Round 59",
+ "intro": [
+  "Round 59 (2026-11-25). Your charcoal and poison control paragraphs are in, word for word, and the two read [Human High in one window](https://www.pangram.com/history/7b62fe4a-c50a-4bbc-9c3b-1fcf7448e3a6). The link to the remedy entry is back on \"Activated charcoal\", and the review's link is on \"The usual advice\", since the hour is what that review says. What I got wrong is [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-25-1743-bad-trips.md): I kept a model's advice from your post (ask poison control about charcoal) as if it were yours, and I wrote a rule measured on pure, fast drugs into a guide about plant medicines. [Each point of your answer and where it went](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r58/RESULTS-R58.md).",
+  "Two more paragraphs now read Human High by themselves, both in My Acute Rescue Remedies and both in the guide ([every check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h77-20261125/RESULTS.md)). In \"Nausea, heat, exhaustion ...\" four words changed (\"all get read as spiritual signs\" for \"all become spiritual content\"): Low, then Medium, then [High](https://www.pangram.com/history/6058dbfc-dc05-444e-b564-51b72e8acc74). The gut-driven paragraph is card 2.",
+  "After these the work goes down [the list of what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h77-20261125/LEFT.md), starting with the gut tools."
+ ],
+ "git_file": "articles/bad-trips/review/r59/REVIEW-R59.html",
+ "article": {
+  "file": "articles/bad-trips/review/r59/PAGE-R59.md",
+  "sha256": "784fa51d48c025ed79e411d8052b3aae644d1d861da6ee4004f41bbd5f14a71c"
+ },
+ "built": "2026-11-25",
+ "whole": {
+  "file": "articles/bad-trips/review/r59/PAGE-R59.md",
+  "sha256": "784fa51d48c025ed79e411d8052b3aae644d1d861da6ee4004f41bbd5f14a71c"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r59/REVIEW-R59.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r59/REVIEW-R59.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "quiz": {
+   "label": "Quiz",
+   "about": "my reading of my own sentences, written before any Pangram check, for you to score (your suggestion of 2026-11-21)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "POISON-LINE",
+   "type": "question",
+   "advice": "ask",
+   "title": "1. Swallowed Too Much?: one clause of your poison control paragraph",
+   "whose": "his own: the paragraph from his round-58 answer; the two sentences I suggest are mine",
+   "question": "Your paragraph is in as you wrote it. One clause I'd say differently: \"even if they often can't give actionable advice for liability reasons\". What you told me is one case, about charcoal (\"poison control said they aren't allowed to tell them to take charcoal\"), and your next sentence says they do help with first aid instructions. [Poison Control's own page](https://www.poison.org/articles/2017-jun/activated-charcoal) says of charcoal that \"it is not recommended to use these products at home to treat a poisoning\", so anyone who asks them about it will hear what the person you know heard. This version says that, with the link on \"they aren't allowed to tell anyone to take it\", and reads [Human High, 74 words in one window](https://www.pangram.com/history/9afb6a77-e533-49d1-8f65-b20306e090ca) on its first check:\n\"If you're unsure about the interactions between the drugs taken, it could be helpful to check with AI & Poison Control. They might have important info, especially if the drugs are well-known. They can also help you with standard first aid instructions. But I wouldn't ask Poison Control about charcoal. Someone I know did, and came away very confused after being told they aren't allowed to tell anyone to take it.\"\n(a) leave yours as it is; (b) this one; or your own words.",
+   "why": "your clause says more than your case shows (\"often\", \"for liability reasons\"), and the reader who does ask about charcoal is not told what will happen",
+   "stays": "your paragraph, which is in the guide now",
+   "advice_note": "(b); fairly sure. It keeps your three sentences word for word and adds only what happened to the person you know",
+   "spans": [
+    {
+     "block": 115,
+     "start": 0,
+     "end": 323
+    }
+   ]
+  },
+  {
+   "id": "GUT-SIGNS",
+   "type": "question",
+   "advice": "ask",
+   "title": "2. My Acute Rescue Remedies: two things a reader in the moment couldn't tell",
+   "whose": "the post's paragraph, drafted by a model, with your own last line kept word for word (\"A gut-driven mental hell is often mistaken as shadow work.\")",
+   "question": "This paragraph is in and reads [Human High, 75 words in one window](https://www.pangram.com/history/8f7d99cd-1a1e-4b29-b0e5-0b1e1659c02a); your post's read [AI, High](https://www.pangram.com/history/a378ba15-aee0-4b83-9ca8-702971cc31c6). Every sign is kept, and \"a different branch\" is now \"the remedies below\" and \"the shadow work further down\". Two things a fresh reader, sitting with a friend who has diarrhea and says their mind is going crazy, couldn't get from it, and only you know the answers:\n2.1 What would a friend actually see when someone has \"loss of bodily control\" or \"neurological disorganization\"?\n2.2 Diarrhea and nausea are common on a psychedelic anyway. How do you tell a gut-driven mental hell from a mainly emotional crisis while it is happening?\nA line or two from you on either and I'll put it in; or (a) leave the paragraph as it is.",
+   "why": "the section holds no answer to either, and a guess from me would be a model's advice in your guide again",
+   "stays": "the paragraph as it now reads",
+   "advice_note": "your answer to 2.2, even one sentence: it is the question the whole section turns on",
+   "spans": [
+    {
+     "block": 142,
+     "start": 0,
+     "end": 412
+    }
+   ]
+  }
+ ]
+}
