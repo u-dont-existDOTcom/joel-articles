@@ -293,12 +293,36 @@ class Fetch(unittest.TestCase):
         self.assertEqual(opener.requests[0].full_url, 'https://ibogaqueen.substack.com/api/v1/posts/by-id/202810155')
 
     def test_a_refusal_is_final_and_keeps_its_status(self):
-        opener, naps = Opener(http_error(403, 'Forbidden')), []
+        opener, naps = Opener(http_error(404, 'Not Found')), []
         with self.assertRaises(LS.FetchError) as e:
             LS.fetch_post(4242, urlopen=opener, sleep=naps.append)
-        self.assertEqual((e.exception.status, str(e.exception)), (403, 'HTTP 403 Forbidden'))
+        self.assertEqual((e.exception.status, str(e.exception)), (404, 'HTTP 404 Not Found'))
         self.assertEqual(e.exception.url, 'https://ibogaqueen.substack.com/api/v1/posts/by-id/4242')
         self.assertEqual((len(opener.requests), naps), (1, []))
+
+    def test_when_the_publications_address_refuses_substacks_own_is_tried(self):
+        # the daily job's first run on GitHub, 2026-11-25: HTTP 403 for all four posts from ibogaqueen.substack.com
+        opener = Opener(http_error(403, 'Forbidden'), Response(self.raw(answer())))
+        post = LS.fetch_post(4242, urlopen=opener, sleep=lambda s: None)
+        self.assertIn('body_html', post)
+        self.assertEqual([r.full_url for r in opener.requests],
+                         ['https://ibogaqueen.substack.com/api/v1/posts/by-id/4242',
+                          'https://substack.com/api/v1/posts/by-id/4242'])
+
+    def test_when_every_address_refuses_the_first_refusal_is_raised_and_says_what_else_was_tried(self):
+        opener = Opener(http_error(403, 'Forbidden'), http_error(403, 'Forbidden'))
+        with self.assertRaises(LS.FetchError) as e:
+            LS.fetch_post(4242, urlopen=opener, sleep=lambda s: None)
+        self.assertEqual(e.exception.status, 403)
+        self.assertEqual(e.exception.url, 'https://ibogaqueen.substack.com/api/v1/posts/by-id/4242')
+        self.assertEqual(str(e.exception), 'HTTP 403 Forbidden (also tried https://substack.com: HTTP 403 Forbidden)')
+        self.assertEqual(len(opener.requests), 2)
+
+    def test_no_other_address_is_tried_when_none_is_given(self):
+        opener = Opener(http_error(403, 'Forbidden'))
+        with self.assertRaises(LS.FetchError):
+            LS.fetch_post(4242, urlopen=opener, sleep=lambda s: None, elsewhere=())
+        self.assertEqual(len(opener.requests), 1)
 
     def test_a_busy_server_and_a_dropped_line_are_tried_again(self):
         opener, naps = Opener(http_error(503, 'Service Unavailable'), urllib.error.URLError('timed out'),
