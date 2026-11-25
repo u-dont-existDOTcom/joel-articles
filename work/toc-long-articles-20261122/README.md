@@ -89,10 +89,14 @@ the second edit (`articles/inner-signal/LIVE-SECTIONS.json`, `SECTION-LINKS.json
 
 Next step for the lane, in order (each is a promise on the list):
 
-1. **The daily watcher's first run on GitHub** (promise 3): start `depends-watch` by hand
-   (`gh workflow run depends-watch.yml`, from the laptop if the cloud shell can't), read the run, and fix or report
-   what it shows. If Substack refuses GitHub's machines, the job says so in one issue; then the fetch moves to a
-   place that can reach Substack and the job only compares.
+1. **Run the watcher from the laptop at the start of every turn** (promise 3), before any edit of a post:
+   `python3 scripts/watch_live_posts.py` in a fresh clone on his laptop (Desktop Commander; the cloud shell and
+   GitHub's servers both get refused by Substack: HTTP 403 on 2026-11-25, at ibogaqueen.substack.com and at
+   substack.com, runs 45659968509 and 45661315269). Exit 1 names the registered passages he changed on Substack and
+   what depends on them: read those before editing. The job's daily schedule is commented out in
+   `.github/workflows/depends-watch.yml` so it can't fail every day; it runs by hand. If he says yes to a daily
+   timer on his laptop, that is a systemd user timer (Persistent=true) running the script and
+   `--issues-from` with his `gh`; it is his machine's standing configuration, so it needs his yes.
 2. **The rest of the catch-up** (promise 17): 12 smaller additions and 10 smaller differences between this guide and
    the two it is built on, listed as "behind" and "his to settle" in
    [articles/DEPENDS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/DEPENDS.md). Draft the

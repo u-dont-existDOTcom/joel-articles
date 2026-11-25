@@ -21,8 +21,14 @@ name: Shared passages watch
 # and Kampala (08:23), so what he changed the day or the night before is reported before his day starts.
 
 on:
-  schedule:
-    - cron: "23 5 * * *"
+  # THE DAILY SCHEDULE IS OFF (2026-11-25). Substack answers GitHub's servers with HTTP 403, at the publication's
+  # address and at substack.com (runs 45659968509 and 45661315269 of this job; issue 539), so a scheduled run could
+  # only fail every day. The same check runs wherever Substack answers, his laptop for one:
+  #   python3 scripts/watch_live_posts.py
+  # (run there on 2026-11-25: nothing registered changed). Until the check has such a place to run by itself, this
+  # job starts by hand only ("Run workflow"). To switch the daily run back on, put these two lines under "on:":
+  #   schedule:
+  #     - cron: "23 5 * * *"
   workflow_dispatch:
 
 permissions:

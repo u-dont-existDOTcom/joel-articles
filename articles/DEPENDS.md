@@ -11,7 +11,7 @@ Each row is one pair: a passage where a point has its home, and a passage in ano
 
 53 points: 50 passage pairs (18 in line, 12 behind, 10 his to settle, 10 left as it is), and 3 section links.
 
-**Checked every day.** Once a day a job on GitHub ([the daily check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/.github/workflows/depends-watch.yml)) reads the 4 live posts on Substack and looks for every passage on this page. When one has changed, for instance because you edited a post on Substack yourself, it opens [an issue on GitHub](https://github.com/u-dont-existDOTcom/joel-articles/issues?q=label%3Adepends-watch) (a note in this repository's Issues list) that names the passage and every other place that depends on it, so those can be read again. While the same change stands it does not write again. If it cannot read a post, it says so in an issue of its own.
+**Not checked by itself yet.** A job on GitHub ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/.github/workflows/depends-watch.yml)) can read the 4 live posts on Substack and look for every passage on this page, and open [an issue on GitHub](https://github.com/u-dont-existDOTcom/joel-articles/issues?q=label%3Adepends-watch) that names a changed passage and every other place that depends on it. But Substack refuses GitHub's servers (tried on 2026-11-25), so the job does not run by itself. The same check runs from a computer Substack answers: `python3 scripts/watch_live_posts.py`. Until it has such a place to run every day, a lane runs it before it edits a post.
 
 ## Inner Child Therapy (inner-child-therapy)
 
