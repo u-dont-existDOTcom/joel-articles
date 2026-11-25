@@ -35,9 +35,34 @@ Every section with a sentence of mine or a merge in it, checked by itself before
 
 ## Held back, on the marking page
 
-[The cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/review/CARDS.md): twelve additions from his inner child and somatic guides, four places where this guide and the inner child guide differ, his new section "Past Life & Ancestral Trauma" with the one question it raises, and the breathing paragraph for his answer 7 b. None of these is in the post.
+[The cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/review/CARDS.md): twelve additions from his inner child and somatic guides, four places where this guide and the inner child guide differ, his new section "Past Life & Ancestral Trauma" with the one question it raises, and the breathing paragraph for his answer 7 b. None of these was in the post after the first edit. He answered the page at 16:00 UTC, and they went in at 16:28 UTC: the next section.
 
-## Headings
+## The second edit, 16:28 UTC: his marking-page answers and his two names
+
+His answers on the marking page (exported 16:00 UTC) and his message of 16:14 UTC ([how each is read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1600.md)) went in as one change in the editor ([apply_plan2.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/apply_plan2.py), [PLAN2.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/PLAN2.json)), updated without an email. The subtitle keeps "Last update: Nov 25, 2026, v. 7.0".
+
+Checked afterwards on the live post ([its body](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/LIVE-BODY-20261125-after2.html)): its text is [AFTER2.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/AFTER2.md) word for word; 160 headings; the three new anchors exist; all 39 links to its own sections land, and the one that was retargeted scrolls without loading the page again.
+
+- **Two groups renamed (question 4):** "The Inner Adult’s Three Jobs" is now [Become a Trustworthy Adult](https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including#§become-a-trustworthy-adult); "Inner Child Practices" is [Working With Your Inner Child](https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including#§working-with-your-inner-child) again. The one sentence that names the second ("the two-hand practice in ...") and its link follow.
+- **Eleven additions from his other guides, as he approved them:** C02, C04, C05, C09, C10, C12, C13, C16, C17, M05, M06. Two are new paragraphs (C02 in "G: Altered States", C09 in "Your Inherited Parent Script"). C11 stays out ("leave it out").
+- **Two links carried with their sentences** (his comment on C12: "always carry the links"): "warmlines" to https://www.warmline.org/ as in the inner child guide, and "Rolfing" to the video the somatic guide links.
+- **The breathing paragraph** of "Breathe, Relax & Flow", the somatic guide's way (his answer 7 b, card Q7b approved).
+- **His new section,** [Past Life & Ancestral Trauma](https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including#§past-life-and-ancestral-trauma), as he revised it on the page: an h2 in Appendix G, above "H: Demons, Jinn & Presences", five paragraphs, with his link to "Who Gets Reborn?" in the Nirvāna guide. His revision settles the question the card raised, so "Do These With a Clinician" stays as it is.
+- **Three sentences from his comments:** the last paragraph of "Start From the Whole" now opens "Once you feel comfortable in your wholeness, then you can investigate parts with a gentle curiosity." (C06); "Even that takes some warmth" is "That takes warmth", as in the inner child guide (C03, "in line"); the sources note ends "The sequence for doing this reparenting therapy is not from these authors, however.", with "reparenting therapy" linked to http://innerchild.u-dont-exist.com/ (C18).
+- **C08** ("its own way"): nothing changes.
+- **Blocks:** 713 became 721. **Headings:** 159 became 160.
+
+Sections checked as they went in (Pangram 4.1, web app); the eight other additions were checked in their sections before the page went out ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md), "The marking page"):
+
+| Section | Check |
+|---|---|
+| Start From the Whole (C05 and his C06 sentence) | [Human Written, 1 window, High, 376 words](https://www.pangram.com/history/ad3d3467-a3cf-4713-bca8-9d8589cf26d0) |
+| Love First, Trust Later (C03) | [Human Written, 1 window, High, 324 words](https://www.pangram.com/history/6c0644d8-304b-4b51-b664-414f98ccbc0e) |
+| Don't Rush the Repair (C12, without C11) | [Human Written, 473 words](https://www.pangram.com/history/ae2e4e3d-61d6-49a5-bab2-8d3e2166a7ab): every sentence High; seven one-word windows read Medium, "etc." and the step letters B. to G. |
+| Reparenting Therapy (his C18 sentence) | [Human Written, 1 window, High, 183 words](https://www.pangram.com/history/c50f809c-82c9-45bf-afc4-d18da359437a) |
+| Past Life & Ancestral Trauma (his revision) | [Human Written, 1 window, High, 521 words](https://www.pangram.com/history/329626a3-8f12-40a3-95ee-b27eaf6c685b) |
+
+## Headings (the first edit; the second renamed S018 and S023 as said above)
 
 | Section | His heading before | Now | Whose |
 |---|---|---|---|

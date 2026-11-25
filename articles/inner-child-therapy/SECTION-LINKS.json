@@ -4,7 +4,7 @@
   "id": "189761959",
   "title": "Joel's inner child guide"
  },
- "source": "Built 2026-11-20 by experiments/t133-links/build_catalog.py from turn 132 as published at 17:06 UTC: its headings (publish/probe132.js) and the 22 section links it added (publish/PLAN.json). Not yet in it: the one section link the post had before turn 132, and Joel's changes after 17:06 UTC other than those applied below with section_links.py rename. Added from his message of 2026-11-20 22:32 UTC (not yet read from the post): his new heading \"Killing the Old You\" and its link to \"Compassionate Exit?\". S092's rename to \"Altered States & Meditating Intensely\", announced then, is in the post since (turn 140). Turn 140, 2026-11-21: question 117's moves (S075 gone; S076 and S077 after S047 as h3 and h4; S078 after S028 as h3), the level of S013k, and his renames of S092, S102 and S105, and his own moves since 20 November (Killing the Old You under This Precious Human Life; What to Do With a Peak before Prepare for Altered States Now; Life's a trip also under it; Confused After Trips? before Who Counts as Trusted), all checked against the live post's headings at 13:35 UTC (experiments/t140-moves/). Every anchor was checked against the rendered post on 2026-11-21 (experiments/t140-moves/live_anchors.txt, 149 anchored headings): five were wrong, because Substack reads \"&\" as \"and\" and keeps an accented letter's plain letter, and section_links.py now does the same.",
+ "source": "Built 2026-11-20 by experiments/t133-links/build_catalog.py from turn 132 as published at 17:06 UTC: its headings (publish/probe132.js) and the 22 section links it added (publish/PLAN.json). Not yet in it: the one section link the post had before turn 132, and Joel's changes after 17:06 UTC other than those applied below with section_links.py rename. Added from his message of 2026-11-20 22:32 UTC (not yet read from the post): his new heading \"Killing the Old You\" and its link to \"Compassionate Exit?\". S092's rename to \"Altered States & Meditating Intensely\", announced then, is in the post since (turn 140). Turn 140, 2026-11-21: question 117's moves (S075 gone; S076 and S077 after S047 as h3 and h4; S078 after S028 as h3), the level of S013k, and his renames of S092, S102 and S105, and his own moves since 20 November (Killing the Old You under This Precious Human Life; What to Do With a Peak before Prepare for Altered States Now; Life's a trip also under it; Confused After Trips? before Who Counts as Trusted), all checked against the live post's headings at 13:35 UTC (experiments/t140-moves/). Every anchor was checked against the rendered post on 2026-11-21 (experiments/t140-moves/live_anchors.txt, 149 anchored headings): five were wrong, because Substack reads \"&\" as \"and\" and keeps an accented letter's plain letter, and section_links.py now does the same. Section links to this post's own sections: on 2026-11-25 at 16:33 UTC the contents lane changed all 24 in the live post from the /i/189761959/<slug> form, which loads the whole page again, to \"#§<slug>\", which scrolls (Joel, 16:14 UTC: \"fixing the anchor links for the other guides\"; lesson toc-2026-11-25c; tools/humanization/same_post_links.js; no word of the post changed, its subtitle date became Nov 25). The 23 hrefs listed here follow.",
  "headings": [
   {
    "id": "S001",
@@ -913,139 +913,139 @@
    "in": "S013",
    "text": "Noticing Counts",
    "target": "S022",
-   "href": "https://ibogaqueen.substack.com/i/189761959/noticing-counts"
+   "href": "#§noticing-counts"
   },
   {
    "in": "S031",
    "text": "the Chicken and Egg problem",
    "target": "S003",
-   "href": "https://ibogaqueen.substack.com/i/189761959/chicken-and-egg-problem"
+   "href": "#§chicken-and-egg-problem"
   },
   {
    "in": "S031",
    "text": "the Mr. Rogers reframing trick",
    "target": "S028",
-   "href": "https://ibogaqueen.substack.com/i/189761959/reframe-the-critic"
+   "href": "#§reframe-the-critic"
   },
   {
    "in": "S041",
    "text": "the next section after the foundational guidance",
    "target": "S049",
-   "href": "https://ibogaqueen.substack.com/i/189761959/toward-divine-love"
+   "href": "#§toward-divine-love"
   },
   {
    "in": "S046",
    "text": "Use Hindsight to Re-do Traumatic Memories In A Healthier Way",
    "target": "S076",
-   "href": "https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories"
+   "href": "#§re-do-trauma-memories"
   },
   {
    "in": "S059",
    "text": "“Noticing Counts”",
    "target": "S022",
-   "href": "https://ibogaqueen.substack.com/i/189761959/noticing-counts"
+   "href": "#§noticing-counts"
   },
   {
    "in": "S070",
    "text": "we get deeper into that further on",
    "target": "S114",
-   "href": "https://ibogaqueen.substack.com/i/189761959/keeping-your-own-ground"
+   "href": "#§keeping-your-own-ground"
   },
   {
    "in": "S076",
    "text": "Borrow Hindsight",
    "target": "S046",
-   "href": "https://ibogaqueen.substack.com/i/189761959/borrow-hindsight"
+   "href": "#§borrow-hindsight"
   },
   {
    "in": "S081",
    "text": "“Belonging Bargains”",
    "target": "S115",
-   "href": "https://ibogaqueen.substack.com/i/189761959/belonging-bargains"
+   "href": "#§belonging-bargains"
   },
   {
    "in": "S084x",
    "text": "If You Want to Kill Yourself",
    "target": "S013",
-   "href": "https://ibogaqueen.substack.com/i/189761959/if-you-want-to-kill-yourself"
+   "href": "#§if-you-want-to-kill-yourself"
   },
   {
    "in": "S094",
    "text": "“Therapy or Escapism?”",
    "target": "S093",
-   "href": "https://ibogaqueen.substack.com/i/189761959/therapy-or-escapism"
+   "href": "#§therapy-or-escapism"
   },
   {
    "in": "S095",
    "text": "In the previous section",
    "target": "S093",
-   "href": "https://ibogaqueen.substack.com/i/189761959/therapy-or-escapism"
+   "href": "#§therapy-or-escapism"
   },
   {
    "in": "S097",
    "text": "Ask God for a Loan",
    "target": "S050",
-   "href": "https://ibogaqueen.substack.com/i/189761959/ask-god-for-a-loan"
+   "href": "#§ask-god-for-a-loan"
   },
   {
    "in": "S096",
    "text": "borrowed adulthood",
    "target": "S018",
-   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood"
+   "href": "#§borrowed-adulthood"
   },
   {
    "in": "S128",
    "text": "the borrowed adulthood practice",
    "target": "S018",
-   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood"
+   "href": "#§borrowed-adulthood"
   },
   {
    "in": "S130",
    "text": "in the Appendix",
    "target": "S147",
-   "href": "https://ibogaqueen.substack.com/i/189761959/similar-therapies"
+   "href": "#§similar-therapies"
   },
   {
    "in": "S131",
    "text": "Internal Family Systems (IFS)",
    "target": "S149",
-   "href": "https://ibogaqueen.substack.com/i/189761959/internal-family-systems"
+   "href": "#§internal-family-systems"
   },
   {
    "in": "S131",
    "text": "Schema Therapy",
    "target": "S148",
-   "href": "https://ibogaqueen.substack.com/i/189761959/schema-therapy"
+   "href": "#§schema-therapy"
   },
   {
    "in": "S145",
    "text": "“Your Loan is PRE-APPROVED!”",
    "target": "S050",
-   "href": "https://ibogaqueen.substack.com/i/189761959/ask-god-for-a-loan"
+   "href": "#§ask-god-for-a-loan"
   },
   {
    "in": "S148",
    "text": "Your Loan is PRE-APPROVED!",
    "target": "S050",
-   "href": "https://ibogaqueen.substack.com/i/189761959/ask-god-for-a-loan"
+   "href": "#§ask-god-for-a-loan"
   },
   {
    "in": "S148",
    "text": "the next section",
    "target": "S149",
-   "href": "https://ibogaqueen.substack.com/i/189761959/internal-family-systems"
+   "href": "#§internal-family-systems"
   },
   {
    "in": "S148",
    "text": "borrowed adulthood",
    "target": "S018",
-   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood"
+   "href": "#§borrowed-adulthood"
   },
   {
    "in": "S013k",
    "text": "As mentioned before",
    "target": "S084x",
-   "href": "https://ibogaqueen.substack.com/i/189761959/compassionate-exit",
+   "href": "#§compassionate-exit",
    "note": "added by Joel himself (his message of 2026-11-20 22:32 UTC)"
   }
  ],

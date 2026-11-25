@@ -43364,7 +43364,7 @@
         },
         {
           "path": "articles/inner-child-therapy/SECTION-LINKS.json",
-          "sha256": "caf26000a35ca7cefef6373b64d92adad3104ba10da00713d2d5ce9bc2c20978",
+          "sha256": "3ee0c024fbe538b002a1cfc5d58037f860a28422e537c6b06905f8b7632949ef",
           "role": "humanization_working_record"
         },
         {
@@ -43934,7 +43934,7 @@
         },
         {
           "path": "articles/inner-child-therapy/LIVE-SECTIONS.json",
-          "sha256": "a8307b297a4f31efa7f68a4b214a6308b2615458a5e4705982c0146d9906797b",
+          "sha256": "1cb88e746d1ac553b6378ae6eda2e7563079c2fe9a1a90f216b71582a31a58e8",
           "role": "humanization_working_record"
         }
       ]
@@ -74523,7 +74523,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/RESULTS.md",
-          "sha256": "e04dd36aef1b4da82ad9f22e8106517340755c5d9da64aee2cabf65a26eba329",
+          "sha256": "b53d25c712082e6fdc5612cd249c581a642f812c41bfd9958af0568c0107be48",
           "role": "detector_experiment_result"
         },
         {
@@ -74718,7 +74718,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json",
-          "sha256": "05bc81ecf9945ce90f1e00a80244131ebf40fcc4587dce70b0e2cf212d8e7be2",
+          "sha256": "8ae47c710c5f745872f12ebaf437092c161e2eaaff54b934ba9e6bc0a0d3a001",
           "role": "humanization_working_record"
         },
         {
@@ -75238,17 +75238,17 @@
         },
         {
           "path": "articles/inner-signal/LIVE-SECTIONS.json",
-          "sha256": "ae99718d9b206a347073070d72d23181d2bc3a5ea4727583ec086afcc8f18776",
+          "sha256": "b50bac55babf70053613faa16fc69c1d0ca841a8e0217fcf9bf14bc14d00b517",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/SECTION-LINKS.json",
-          "sha256": "4e918afcb6774b635428e0e5f9a2d6719a04795727eeba0aadd61ed5ffdd9ae7",
+          "sha256": "4c09598424fec84538fc9eaf20ba8849e325977c58b71854322d156971eed386",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/APPLIED.md",
-          "sha256": "29d356c12d5043ae1d8a67482dfc1a159d2075f4e41738d6a9a1cc3601c18703",
+          "sha256": "834df390b3eaca062d1acb564ddfcfbc2557131844533bdaa7ef316342f20a8b",
           "role": "humanization_working_record"
         },
         {
@@ -75464,6 +75464,16 @@
         {
           "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/SPECS.json",
           "sha256": "9f8cf3e6ab728511e627734dcda53f1e47ce1703ffb0b08ebcb9d9e9272e84e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/LIVE-BODY-20261125-after2.html",
+          "sha256": "ae3dde04faf78105f8e7963ace3ecc4b2c69a430bdf920db441f15b15195002f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/catchup/LIVE-POST-META-inner-signal-20261125b.json",
+          "sha256": "41dd7fb8e6a363fc2331d90dd6f4e390a48e8a68d6962e0e5f574716ba26c049",
           "role": "humanization_working_record"
         }
       ]
