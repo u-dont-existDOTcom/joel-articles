@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-25",
+ "text_sha256": "3ac02ee370596a2f112affd69961ae1c02cac1cb4fb7b7b83bfc1901cc283266",
+ "text": "Serotonin syndrome can look like some of the emergencies above, since it can also bring on a seizure or dangerous overheating. But the rescue measures in those other branches do not necessarily treat it, so check for it too whenever they've had something that raises serotonin. That includes ayahuasca and other MAOI brews, MDMA, DXM cough syrup and many antidepressants, as well as other MAOIs, the painkiller tramadol, the antibiotic linezolid and some opioids. Too much of any one of them can bring on serotonin syndrome, and so can a medication that was just started or had its dose raised, but I'd suspect it most when two of them were combined.",
+ "section": "Serotonin Syndrome (SS)?",
+ "reader": "somebody sitting with a person who drank ayahuasca while taking an antidepressant, who is shaking and sweating, reading to find out whether this is serotonin syndrome and what to do",
+ "sentences": [
+  {
+   "s": "Serotonin syndrome can look like some of the emergencies above, since it can also bring on a seizure or dangerous overheating.",
+   "payoff": "they know serotonin syndrome can show up as a seizure or dangerous overheating, like the emergencies in the sections before",
+   "follows": "the sections above, each on one emergency"
+  },
+  {
+   "s": "But the rescue measures in those other branches do not necessarily treat it, so check for it too whenever they've had something that raises serotonin.",
+   "payoff": "they know those sections' rescue measures may not treat it, so they check for it whenever something that raises serotonin was taken",
+   "follows": "the emergencies above, just named",
+   "link": "But the rescue measures"
+  },
+  {
+   "s": "That includes ayahuasca and other MAOI brews, MDMA, DXM cough syrup and many antidepressants, as well as other MAOIs, the painkiller tramadol, the antibiotic linezolid and some opioids.",
+   "payoff": "they know which substances to ask about",
+   "follows": "something that raises serotonin, just said",
+   "link": "That includes"
+  },
+  {
+   "s": "Too much of any one of them can bring on serotonin syndrome, and so can a medication that was just started or had its dose raised, but I'd suspect it most when two of them were combined.",
+   "payoff": "they know the three ways it comes on, and that two of those substances together is the case to suspect most",
+   "follows": "the substances, just listed",
+   "link": "any one of them"
+  }
+ ],
+ "checked": [
+  {
+   "point": "serotonin syndrome overlaps with several symptoms above, and the rescue measures in the other branches do not necessarily treat it",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; fidelity key W035 holds \"do not\", \"serotonin\", \"branches\" and \"measures\". The symptoms are named with the words of his paragraph in Swallowed Too Much? (\"symptoms of serotonin toxicity, like seizure, dangerous overheating, tremor\"); tremor is left to How to Check for SS, where it is part of a pattern",
+   "still_needed": "yes: they check for serotonin syndrome too, and don't rely on the other sections' remedies alone",
+   "fate": "changed"
+  },
+  {
+   "point": "it can follow serotonergic medication changes, combinations, or excessive exposure",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn, where the three are category words; said here as what happened (too much of one, a medication just started or its dose raised, two combined)",
+   "still_needed": "yes: they ask what was taken, how much, and whether anything was started or combined",
+   "fate": "changed"
+  },
+  {
+   "point": "ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs and some opioids can contribute, especially in combinations",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; every substance stays; \"cough syrup\", \"the painkiller\" and \"the antibiotic\" are step 1's own glosses of the same three, brought up to their first mention",
+   "still_needed": "yes: they match what the person took against the list",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the opening paragraph of Serotonin Syndrome (SS)? (B130), after Swallowed Too Much? and before How to Check for SS",
+ "opens": {
+  "first_sentence": "Serotonin syndrome can look like some of the emergencies above, since it can also bring on a seizure or dangerous overheating.",
+  "why_reading": "it tells the friend when to suspect serotonin syndrome, before the checks and the steps that follow"
+ },
+ "same_point": "none within the opening: read the section from its heading to the next. Step 1 of Act Now on SS names the same substances again, each as something to stop; here they are what to ask about, so both stay (the remedy glosses, \"the painkiller tramadol\", \"the antibiotic linezolid\", \"DXM cough syrup\", are step 1's own words, brought up to the first mention)",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-ss-open.txt), on my first draft in its section (TEST-a1-ss-open.txt); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a1-ss-open.txt), on my first draft in its section (TEST-a1-ss-open.txt); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-ss-open.txt), on my first draft in its section (TEST-a1-ss-open.txt); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q2": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q3": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q4": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q5": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q6": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q7": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q8": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind",
+  "Q9": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-ss-open.txt, panel-b130/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-ss-open.txt); the his-fixes read of my first draft marked the substance list (a run of names); every substance is his post's and stays, built in two groups; its other marks are changed: the opening is two sentences with two symptoms, \"It\" is \"Serotonin syndrome\", and the change in a medication says what kind"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

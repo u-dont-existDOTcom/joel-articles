@@ -14,7 +14,7 @@
 
 - Breathing that gets slow and shallow, or any trouble breathing
 - Lips that turn blue or gray
-- A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) after they took too much or nobody knows how much, or one on a normal dose that goes past 5 minutes
+- A [seizure](#§active-seizure) after they took too much or nobody knows how much, or one on a normal dose that goes past 5 minutes
 - Collapsing, or not waking when you shake them and say their name
 - Getting harder to wake by the minute
 - A forehead that's dangerously hot to the touch, not just sweaty
@@ -23,19 +23,19 @@
 - Sudden weakness on one side of the body, or losing the ability to speak
 - Not being able to walk normally
 - Wetting or soiling themselves
-- The feeling that their brain is damaged, when they can't do [the brain checks](https://ibogaqueen.substack.com/i/170920118/my-brain-feels-damaged) or are quickly getting worse at them
-- [Chest pain](https://ibogaqueen.substack.com/i/170920118/chest-pain-and-injury) that's severe or getting worse, or that spreads into an arm or the jaw
+- The feeling that their brain is damaged, when they can't do [the brain checks](#§my-brain-feels-damaged) or are quickly getting worse at them
+- [Chest pain](#§chest-pain-and-injury) that's severe or getting worse, or that spreads into an arm or the jaw
 - Chest pain that came on with hard movement, or that comes with sweating or shortness of breath, or makes them feel faint
 - A serious injury, like uncontrolled bleeding or a possible head or spine injury
 - Vomiting that won't stop
 - Blood in their vomit or stool
 - Being badly dried out: not peeing for hours, or dizzy when they stand up
 - Bad stomach pain
-- [Concerning symptoms](https://ibogaqueen.substack.com/i/170920118/how-to-check-for-ss) after they took an MAOI, which keeps serotonin from breaking down (some older antidepressants, or the harmalas in ayahuasca and Syrian rue seeds), with something that raises serotonin, like MDMA or most antidepressants
+- [Concerning symptoms](#§how-to-check-for-ss) after they took an MAOI, which keeps serotonin from breaking down (some older antidepressants, or the harmalas in ayahuasca and Syrian rue seeds), with something that raises serotonin, like MDMA or most antidepressants
 
 Slow, shallow breathing and losing consciousness can indicate an opioid overdose, which wouldn't seem to make sense if they think they took MDMA, but in fact, opioids like fentanyl have turned up in pills sold as MDMA. Luckily, opioid overdoses are the easiest thing to treat. Naloxone reverses them safely, so if you have it, spray it into a nostril right away. But naloxone can wear off before the opioid does, so call medics even if it works to wake them up, and if their breathing slows again before help comes, give the second spray in the pack.
 
-[The remedies below](https://ibogaqueen.substack.com/i/170920118/medical-and-brain-rescue) can begin while help is being arranged.
+[The remedies below](#§medical-and-brain-rescue) can begin while help is being arranged.
 
 ## If Someone Might Get Hurt
 
@@ -43,7 +43,7 @@ You can sit through a lot with someone, but the moment you think they might hurt
 
 If for whatever reason you feel like this is more than you can handle, reach out.
 
-Use local emergency services (911 in the United States) for immediate danger, a medical emergency, a weapon, or a crime in progress. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Outside the United States, identify the local emergency number and [crisis line](https://ibogaqueen.substack.com/i/170920118/who-to-contact) before you ever need them.
+Use local emergency services (911 in the United States) for immediate danger, a medical emergency, a weapon, or a crime in progress. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Outside the United States, identify the local emergency number and [crisis line](#§who-to-contact) before you ever need them.
 
 ## Who to Contact
 
@@ -73,7 +73,7 @@ Save the relevant links and local numbers *before* you need them. Their hours an
 
 # Medical and Brain Rescue
 
-I'd [calm and stabilize the trip](https://ibogaqueen.substack.com/i/170920118/too-intense-stabilizers) right where they are, as long as none of the signs on the [Call medics list](https://ibogaqueen.substack.com/i/170920118/call-medics-for) above show up and I can keep them from getting hurt. Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.
+I'd [calm and stabilize the trip](#§too-intense-stabilizers) right where they are, as long as none of the signs on the [Call medics list](#§call-medics-for) above show up and I can keep them from getting hurt. Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.
 
 In an emergency room, a scared and psychotic-feeling person will often get a benzodiazepine. Don't count on it helping with psychosis, since in some people it brings on a paradoxical reaction, with more agitation or fear. Antipsychotics may work better for psychosis, but they carry their own risks and interactions. The staff also often have no idea what was taken, if anything, so if you do end up there, tell them.
 
@@ -91,8 +91,8 @@ While the DMSO is working, check for [stroke warning signs](https://www.stroke.o
 - Ask them to hold both arms out in front of them, and see if one drifts down.
 - If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.
 - Wetting or soiling themselves is another sign to watch for.
-- Watch for a [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure), and for vomiting that keeps coming back.
-- Ask about a really bad headache or [chest pain](https://ibogaqueen.substack.com/i/170920118/chest-pain-and-injury).
+- Watch for a [seizure](#§active-seizure), and for vomiting that keeps coming back.
+- Ask about a really bad headache or [chest pain](#§chest-pain-and-injury).
 
 When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.
 
@@ -100,10 +100,10 @@ I believe, based on [my experience and those of others I've heard from, as well 
 
 If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more. They can feel better on DMSO with a clot or a bleed still there. So if any of the checks above fail, call medics right away, before the window for treating a stroke closes.
 
-1. **[DMSO](https://ibogaqueen.substack.com/i/170920118/dmso) immediately. Smell humic acid; if that doesn't help, take a 5mg lick of it.** (See [humic acid evidence here](http://humicacid.u-dont-exist.com).) **Smell the [Metta NMT sniffer](https://ibogaqueen.substack.com/i/170920118/metta-sniffer-chill-love)** (described in [loveyhuasca guide](http://loveyhuasca.info)).
+1. **[DMSO](#§dmso) immediately. Smell humic acid; if that doesn't help, take a 5mg lick of it.** (See [humic acid evidence here](http://humicacid.u-dont-exist.com).) **Smell the [Metta NMT sniffer](#§metta-sniffer-chill-love)** (described in [loveyhuasca guide](http://loveyhuasca.info)).
 2. **Ask what the symptoms actually are while the DMSO is being used.** Do not manufacture reassurance from missing information.
-3. **If this is a psychedelic, use [*Ipomoea pes-caprae*](https://ibogaqueen.substack.com/i/170920118/beach-morning-glory) to stop the trip.** At this point safety matters more than preserving the experience.
-4. **If this is MDMA, move to magnesium chloride and [the broader electrolyte branch](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) instead.**
+3. **If this is a psychedelic, use [*Ipomoea pes-caprae*](#§beach-morning-glory) to stop the trip.** At this point safety matters more than preserving the experience.
+4. **If this is MDMA, move to magnesium chloride and [the broader electrolyte branch](#§mdma-magnesium-alarm) instead.**
 5. **Bring in medical help in parallel** for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.
 
 ## Active Seizure
@@ -129,9 +129,9 @@ If they have a rescue medicine for epilepsy seizures with them, give it as the l
 
 ### Seizure: What Else Helps
 
-Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I'd also try sniffing [humic/fulvic acid powder](https://ibogaqueen.substack.com/i/170920118/humic-acid-for-the-brain), although that's just a hunch based on the effects I notice so far.
+Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I'd also try sniffing [humic/fulvic acid powder](#§humic-acid-for-the-brain), although that's just a hunch based on the effects I notice so far.
 
-During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso) with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure ([just anecdotes](https://www.youtube.com/watch?v=RCxGSrUsB0Q)), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is [approved](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf) for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.
+During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical [DMSO](#§dmso) with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure ([just anecdotes](https://www.youtube.com/watch?v=RCxGSrUsB0Q)), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is [approved](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf) for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.
 
 As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a non-profit patients' association called ABRACE. They [testified in Congress](https://escriba.camara.leg.br/escriba-servicosweb/html/58445) that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w
 
@@ -151,15 +151,15 @@ Magnesium taken before the MDMA peak also makes the peak less euphoric for me, w
 
 My second wife had severe convulsions after an MDMA overdose. At the hospital, they figured out what caused that: her potassium was found to be critically low, and IV potassium was the only treatment they gave her. That experience is what leads me to treat serious MDMA toxicity as a broader electrolyte emergency, although magnesium is still the first and most useful supplement to give once the jaw tenses, since potassium gets depleted once magnesium runs low.
 
-Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. If they drink a lot of plain water, [even a single normal MDMA dose](https://pubmed.ncbi.nlm.nih.gov/39546312/) raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. Plain water is the risk because the drug keeps them from peeing out the extra, so it thins out the salt in their blood. Women are most at risk of this, based on the results we have: at [a rave in the Netherlands](https://pubmed.ncbi.nlm.nih.gov/23476039/), sodium was mildly low in 1 in 4 of the women on ecstasy vs only 3% of the men. [California's poison control](https://pubmed.ncbi.nlm.nih.gov/17084942/) found the same pattern in the MDMA cases it got, with women at four times the odds. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; while you wait for medics, if they're alert and not vomiting, give them something very salty instead, like strong broth). That has to be a lot of salt, more than a snack gives: [guidelines for hikers who drank too much water](https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html) use three or four bouillon cubes in half a cup of water. If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.
+Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. If they drink a lot of plain water, [even a single normal MDMA dose](https://pubmed.ncbi.nlm.nih.gov/39546312/) raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. Plain water is the risk because the drug keeps them from peeing out the extra, so it thins out the salt in their blood. Women are most at risk of this, based on the results we have: at [a rave in the Netherlands](https://pubmed.ncbi.nlm.nih.gov/23476039/), sodium was mildly low in 1 in 4 of the women on ecstasy vs only 3% of the men. [California's poison control](https://pubmed.ncbi.nlm.nih.gov/17084942/) found the same pattern in the MDMA cases it got, with women at four times the odds. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; while you wait for medics, if they're alert and not vomiting, give them something very salty instead, like strong broth). That has to be a lot of salt, more than a snack gives: [guidelines for hikers who drank too much water](https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html) use three or four bouillon cubes in half a cup of water. If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A [seizure](#§active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.
 
 That's why I'd tell everyone not to dance on MDMA at all, however good the music is, since dancing makes the heat and the sweat that drain their salt. And really, what's the point of MDMA if someone wants to dance? For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic. Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying "I NEED TO DANCE!" No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like. It's not like "I don't feel like dancing", it's like "I can barely move", couch lock. And in the same exact setting, the pills have gone both ways on me: some had me wanting to dance, and some left me in that couch lock. So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug. That might also be why women get low sodium far more often than men outside the lab, where what people take as "MDMA" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them. Then again, the lab dosed everyone by their weight, and at a festival a small woman takes the same pill as a big guy, so she's getting a lot more for her size.
 
-**People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA.** MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and [acute kidney injury](https://pubmed.ncbi.nlm.nih.gov/27917269/). Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.
+**People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA** which depletes it (and shifts other electrolytes dangerously), since MDMA can [injure the kidneys](https://pubmed.ncbi.nlm.nih.gov/27917269/) even more, not to mention potential muscle breakdown and overheating. However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse. I just wouldn't tell them to copy my gram-per-minute magnesium chloride dosing approach blindly, since that's a higher-risk situation where they should be taken to a hospital ASAP.
 
 ## Chest Pain and Injury
 
-[DMSO](https://ibogaqueen.substack.com/i/170920118/dmso) is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.
+[DMSO](#§dmso) is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.
 
 So far, the heart research on DMSO has only been in animals and lab dishes, and only as a prophylactic (preventative treatment). When they [gave it to rats for three days before a heart attack](https://pubmed.ncbi.nlm.nih.gov/19904216/), those rats lost about three quarters less heart muscle than the rats who didn't get DMSO. Most heart attacks come from a clot blocking an artery, so it's a good sign that DMSO also [slowed clotting, in mice](https://pubmed.ncbi.nlm.nih.gov/17000906/) and [in human platelets](https://pubmed.ncbi.nlm.nih.gov/20035720/) (the blood cells that start clots) in a dish.
 
@@ -169,22 +169,22 @@ For steady chest pain that's mild, I'd just use DMSO + magnesium chloride on the
 - Hard movement (like dancing or climbing) brought it on.
 - It spreads from the chest into an arm or the jaw.
 - Shortness of breath or sweating shows up also.
-- Any of the stroke signs from the [brain checks](https://ibogaqueen.substack.com/i/170920118/my-brain-feels-damaged) above show up, like slurred speech or a drooping face.
+- Any of the stroke signs from the [brain checks](#§my-brain-feels-damaged) above show up, like slurred speech or a drooping face.
 - They feel faint, or they collapse.
 
 Keep in mind that DMSO can also block pain signals, so even if the pain fades, it could still be worth having a medical checkup later.
 
 ## Swallowed Too Much?
 
-"Overdose" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing: are they suffering from [slow and shallow breathing](https://ibogaqueen.substack.com/i/170920118/call-medics-for) (respiratory depression, from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and agitation, signs of stimulant toxicity? Do you see symptoms of [serotonin toxicity](https://ibogaqueen.substack.com/i/170920118/how-to-check-for-ss), like seizure, dangerous overheating, tremor? Do they have vomiting or diarrhea beyond what they can handle? Some of these symptoms are also normal, like vomiting and diarrhea, which are helpful in undoing an overdose, up to a point. Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign.
+"Overdose" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing: are they suffering from [slow and shallow breathing](#§call-medics-for) (respiratory depression, from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and agitation, signs of stimulant toxicity? Do you see symptoms of [serotonin toxicity](#§how-to-check-for-ss), like seizure, dangerous overheating, tremor? Do they have vomiting or diarrhea beyond what they can handle? Some of these symptoms are also normal, like vomiting and diarrhea, which are helpful in undoing an overdose, up to a point. Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign.
 
-[Activated charcoal](https://ibogaqueen.substack.com/i/170920118/activated-charcoal) may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely. It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway. [Clinical review](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/).
+[Activated charcoal](#§activated-charcoal) is safe and can help with many drug overdoses (and toxins in the gut). It only helps with what binds to it, which leaves out alcohol and lithium among other things, and it can also adsorb medication they need. [The usual advice](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/) says it's only useful within an hour of the drug overdose, but that's not true for many plant medicines which can take hours to digest. Obviously don't give anything by mouth to someone who can't swallow, as they could aspirate it into their lungs and die. And don't give any fine powders to anyone directly, mix in water first to prevent choking.
 
-Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear. I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers. It is decision support, not first aid.
+If you're unsure about the interactions between the drugs taken, it could be helpful to check with AI & Poison Control. They might have important info, especially if the drugs are well-known, even if they often can't give actionable advice for liability reasons. They can also help you with standard first aid instructions.
 
 ## Serotonin Syndrome (SS)?
 
-Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations.
+Serotonin syndrome can look like some of the emergencies above, since it can also bring on a seizure or dangerous overheating. But the rescue measures in those other branches do not necessarily treat it, so check for it too whenever they've had something that raises serotonin. That includes ayahuasca and other MAOI brews (or any other MAOI), MDMA, DXM cough syrup and many antidepressants, as well as the antibiotic linezolid, the painkiller tramadol and some other opioids. Too much of any one of them can bring on serotonin syndrome, and so can a medication that was just started or had its dose raised, but I'd suspect it most when two of them were combined.
 
 ### How to Check for SS
 
@@ -205,9 +205,9 @@ So if you see any of these patterns, call medics.
 3. **When you call medics, ask for an ambulance**, since the person can get worse fast, with seizures or dangerous overheating. It may seem faster to drive them to the ER yourself, but don't: paramedics can start treating them right there, and if they have a seizure in your car, you can't help them and drive at the same time. And while you wait, call poison control if you don't know what was mixed, as they might be able to help you work that out, even if they can't treat serotonin syndrome.
 4. Since bodily overheating is the most dangerous part of serotonin syndrome, you should address their twitching and tense muscles that are making a lot of heat, while you wait for the ambulance. So **I'd get them somewhere cool**, take off their extra clothes, and set a fan blowing over cool damp cloths on their skin. If they still feel hot, put ice packs wrapped in cloth where they can absorb the most heat: at the neck, armpits and groin. Although a cold bath would cool them faster, they could slip under and breathe in water if they're confused, seizing, or very weak, so it's not advisable. And while you might think fever reducers like Tylenol or ibuprofen could work by reducing body heat in general, they don't work on the heat generated by muscles.
 5. Since they're already overstimulated, it helps to clear out the crowd and stop any arguing. While it's natural for people who are overstimulated to start pacing or exercising to "burn it off," the problem is that creates more body heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis). But if they feel a strong urge to keep moving (akathisia), I'd have them do some tapping (the Emotional Freedom Technique, fingers tapping the head), which can soothe that urge without the over-activity risk.
-6. Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink. If they still show the signs of low electrolytes from [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) above, they may need **more salt, potassium and magnesium than a normal electrolyte drink has**. Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want. That's the only way I'd give potassium, since too much pure potassium is dangerous for anyone. Their potassium could be running high as well as low, though: MDMA can drain it, but muscles breaking down into the blood push it up. So if they start vomiting or get diarrhea, I'd stop the chips, since too much potassium brings those on and the chips have to stop either way while they're being sick. Magnesium also runs low in many people with serotonin syndrome ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)). Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin. If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well. If they can stand the taste, they can also take magnesium chloride by mouth, especially with MDMA-related jaw tension or twitching (the amounts are in [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm), above).
-7. The ER doctors will want to know exactly what they took, so before the ambulance comes, **I'd gather their pill bottles and packages**. I'd also jot down how much of each they took and when, street drugs and supplements included. And if they have a seizure before the ambulance gets there, I'd do the first aid in [Active Seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) above, and keep track of how their breathing is doing afterward, as that's one of the main indicators of how dangerous the seizure is, according to [the CDC](https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html).
-8. Since a seizure is one of the main dangers while you wait, I'd use [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), which seems to help prevent them, going by people's reports rather than studies: at any sign of an overdose, have them smell it or rub a little on a clean patch of skin (with 30% water if the skin itches), then use a little more at a time, since some people react more strongly than others. You might also think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's unsafe with serotonin syndrome, since at that dose it can cause flushing and a drop in blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)). The other remedy I'd keep for a last resort, if nothing else is helping and no medics are coming, is [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler), since it makes trips, ayahuasca included, much less intense. The oil isn't the Syrian rue brew from step 1, which blocks MAO and is dangerous with MDMA for that reason, but nobody has studied the oil with MDMA either.
+6. Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink. If they still show the signs of low electrolytes from [MDMA: Magnesium Alarm](#§mdma-magnesium-alarm) above, they may need **more salt, potassium and magnesium than a normal electrolyte drink has**. Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want. That's the only way I'd give potassium, since too much pure potassium is dangerous for anyone. Their potassium could be running high as well as low, though: MDMA can drain it, but muscles breaking down into the blood push it up. So if they start vomiting or get diarrhea, I'd stop the chips, since too much potassium brings those on and the chips have to stop either way while they're being sick. Magnesium also runs low in many people with serotonin syndrome ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)). Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin. If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well. If they can stand the taste, they can also take magnesium chloride by mouth, especially with MDMA-related jaw tension or twitching (the amounts are in [MDMA: Magnesium Alarm](#§mdma-magnesium-alarm), above).
+7. The ER doctors will want to know exactly what they took, so before the ambulance comes, **I'd gather their pill bottles and packages**. I'd also jot down how much of each they took and when, street drugs and supplements included. And if they have a seizure before the ambulance gets there, I'd do the first aid in [Active Seizure](#§active-seizure) above, and keep track of how their breathing is doing afterward, as that's one of the main indicators of how dangerous the seizure is, according to [the CDC](https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html).
+8. Since a seizure is one of the main dangers while you wait, I'd use [DMSO](#§dmso), which seems to help prevent them, going by people's reports rather than studies: at any sign of an overdose, have them smell it or rub a little on a clean patch of skin (with 30% water if the skin itches), then use a little more at a time, since some people react more strongly than others. You might also think of [niacin](#§niacin-flushes-trips-out), which this guide uses for ending a trip, but it's unsafe with serotonin syndrome, since at that dose it can cause flushing and a drop in blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)). The other remedy I'd keep for a last resort, if nothing else is helping and no medics are coming, is [Syrian rue oil](#§syrian-rue-oil-gentler), since it makes trips, ayahuasca included, much less intense. The oil isn't the Syrian rue brew from step 1, which blocks MAO and is dangerous with MDMA for that reason, but nobody has studied the oil with MDMA either.
 
 ---
 
@@ -217,13 +217,13 @@ This hierarchy is for acute situations, including emergencies--not merely uncomf
 
 In general it's good to try all these things in very low, increasing doses before they are needed in crisis.
 
-Sometimes the mind isn't in a metaphysical crisis. The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly.
+Sometimes the mind isn't in a metaphysical crisis. The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all get read as spiritual signs very quickly.
 
 A horrible thought isn't automatically a revelation. The body may need quiet, water, cooling, warmth, rest, or a calmer room. The body is part of the spiritual field.
 
 The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.
 
-A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mind is going crazy because the gut or brain is going crazy belongs in a different branch from a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.
+If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, jaw tension, loss of bodily control or neurological disorganization, the mind may feel like it's going crazy because the gut or the brain is going crazy. Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.
 
 ---
 
@@ -247,7 +247,7 @@ These are the first things I would use, even preventively on the come-up, becaus
 
 When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts.
 
-Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](https://ibogaqueen.substack.com/i/170920118/activated-charcoal) to reduce gut histamine.
+Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine.
 
 Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
 
@@ -261,7 +261,7 @@ I also keep zeolite away from metal during preparation. Zeolite adsorbs metals, 
 
 Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point. It can also flatten or reduce a trip, so I don't treat charcoal and zeolite as interchangeable.
 
-When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant. When I want to preserve the trip while improving the gut feeling, I prefer [zeolite](https://ibogaqueen.substack.com/i/170920118/zeocharge-and-ferment).
+When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant. When I want to preserve the trip while improving the gut feeling, I prefer [zeolite](#§zeocharge-and-ferment).
 
 Charcoal can also adsorb medications somebody depends on. I would use it cautiously around necessary medicines and tell the medics if charcoal was taken.
 
@@ -269,7 +269,7 @@ Charcoal can also adsorb medications somebody depends on. I would use it cautiou
 
 ## Nausea Smoothers
 
-When [ozonated zeolite and ferment](https://ibogaqueen.substack.com/i/170920118/zeocharge-and-ferment) don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.
+When [ozonated zeolite and ferment](#§zeocharge-and-ferment) don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.
 
 ### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/), Brain Too
 
@@ -307,7 +307,7 @@ Mango leaf tea is super relaxing and very blissful, so brew some and smell it wh
 
 ### Lime or EOs for Calm
 
-If you don't have the [Metta NMT sniffer](https://ibogaqueen.substack.com/i/170920118/metta-sniffer-chill-love), just use AUTHENTIC natural calming essential oils to smell, like rose geranium, jasmine, lemon/lime oils. Most of these oils are fake on Amazon so buy only directly from trusted essential oil vendors. It should not smell like a perfume. Even just taking a lime and scratch & sniff the peel can be relaxing.
+If you don't have the [Metta NMT sniffer](#§metta-sniffer-chill-love), just use AUTHENTIC natural calming essential oils to smell, like rose geranium, jasmine, lemon/lime oils. Most of these oils are fake on Amazon so buy only directly from trusted essential oil vendors. It should not smell like a perfume. Even just taking a lime and scratch & sniff the peel can be relaxing.
 
 ### [**DMSO**](http://dmso.u-dont-exist.com/)
 
@@ -315,7 +315,7 @@ DMSO is another stabilizer I use when a trip becomes too intense and I don't wan
 
 In my experience, DMSO makes me alert, smarter, happier, healthier, and more relaxed, and pretty much everyone I've heard from on forums and in real life says the same thing. It also is one of the only things that can instantly turn a bad psychedelic trip good. When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes).
 
-It overlaps with [aged ozonated-charcoal water](https://ibogaqueen.substack.com/i/170920118/shungite-holy-water), but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.
+It overlaps with [aged ozonated-charcoal water](#§shungite-holy-water), but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.
 
 One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, and that included patients with severe anxiety, though it hasn't been tested (that I know of, yet) for PTSD. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.
 
@@ -336,7 +336,7 @@ Children's brains may be at risk from DMSO, though: it killed brain cells in mic
 
 **Contraindications:**
 
-- With seizures it can go either way: in animal studies it calmed one kind and, at some doses, made another kind worse (more on that in [Active Seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure)).
+- With seizures it can go either way: in animal studies it calmed one kind and, at some doses, made another kind worse (more on that in [Active Seizure](#§active-seizure)).
 - It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.
 - It may release histamine in some people. Use caution with MCAS.
 
@@ -398,13 +398,13 @@ A whole leaf can easily end the trip and, in my experience, may prevent tripping
 
 This was not only personal. I once gave beach morning glory to a woman experiencing nausea and dysphoria during a psychedelic state. I was rushing to help and may have given more than I would now. Within a couple of minutes she shifted from miserable to very happy. That helped convince me the effect wasn't limited to my body.
 
-I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains [a separate branch](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.
+I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains [a separate branch](#§mdma-magnesium-alarm) centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.
 
 ---
 
 ### Niacin "Flushes" Trips Out
 
-Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with [beach morning glory](https://ibogaqueen.substack.com/i/170920118/beach-morning-glory).
+Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with [beach morning glory](#§beach-morning-glory).
 
 I include it because most people don't have access to *Ipomoea pes-caprae*, although I supply it. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in *Niacin: The Real Story* by Abram Hoffer, M.D.
 
@@ -475,7 +475,7 @@ A useful order is **room → body → human → time → meaning**. Most people 
 
 **Smell**
 
-- Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see [Too Intense? Stabilizers](https://ibogaqueen.substack.com/i/170920118/too-intense-stabilizers)).
+- Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see [Too Intense? Stabilizers](#§too-intense-stabilizers)).
 
 **Breath**
 
@@ -771,7 +771,7 @@ And we could practice to see that spot on the floor without such a crude pointer
 
 ## Spiritual ≠ "Ass-Kicking"
 
-[The triage above](https://ibogaqueen.substack.com/i/170920118/when-to-get-outside-help) is meant to make trips useful. Some people believe they deserve suffering because of karma or self-hatred. Suffering by itself fixes nobody. Suffering that yields insight requires enough clarity of mind and heart to learn from it.
+[The triage above](#§when-to-get-outside-help) is meant to make trips useful. Some people believe they deserve suffering because of karma or self-hatred. Suffering by itself fixes nobody. Suffering that yields insight requires enough clarity of mind and heart to learn from it.
 
 This is one side of the difference between [spiritual bypassing](http://goenka.u-dont-exist.com) and [spiritual practice](http://nibbana.u-dont-exist.com):
 
@@ -812,11 +812,11 @@ When symptoms linger after a trip, people too often put everything into the "I'm
 - **Anxiety and fear:** with this pattern, it helps to first figure out what is providing the stimulation for the anxiety. CBT-style reality testing, checking the frightening thought against what's actually happening, is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with. In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).
 - **Sleep disturbance and nightmares:** I'd first ensure no more substances are being used, including "normal" ones like coffee, which some people become extra sensitive to after certain psychedelics (especially iboga). Pay attention to sleep hygiene, especially what you eat at what time, and what you might not be processing during the day which then grabs attention at night.
 - **Derealization and depersonalization (when the world, or you yourself, feel unreal):** Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and [Somatic Experiencing](http://somatic.u-dont-exist.com/), a therapy that works through body sensations.
-- **Visual distortions/Hallucinogen Persisting Perception Disorder (HPPD)-like symptoms:** These can be long-lasting, and people often end up just getting used to it, but it helps to reduce stress and avoid any further use of psychedelics. I'd also try [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), and other neuroprotective/restorative treatments.
+- **Visual distortions/Hallucinogen Persisting Perception Disorder (HPPD)-like symptoms:** These can be long-lasting, and people often end up just getting used to it, but it helps to reduce stress and avoid any further use of psychedelics. I'd also try [DMSO](#§dmso), [niacin](#§niacin-flushes-trips-out), and other neuroprotective/restorative treatments.
 - **Social disconnection and shame:** The biggest thing here is if you can find one or two trusted people who won't judge you. Get whatever it is off your chest. If you can't find someone like that, talk to a therapist. You'd be surprised how many people have gone through something like this and come out the other side realizing it wasn't what they made it out to be, myself included. Check [my guide on shame](http://shame.u-dont-exist.com/) for more info.
 - **Existential shock:** This one's pretty normal if someone has a deep journey, especially one they weren't prepared for. It helps to go back one step to focus on loving kindness and sending love to the inner child before getting lost in a philosophical ocean. Finding others who've been through a similar experience could be helpful, or harmful, depending on which rabbit hole it was you fell into. I find reading the Buddhist suttas supremely helpful.
-- **Paranoia or psychosis-like beliefs:** Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, [syrian rue OIL](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler), and niacin.
-- **Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs first, like [beach morning glory](https://ibogaqueen.substack.com/i/170920118/beach-morning-glory), Syrian rue oil or the [Metta NMT sniffer](https://ibogaqueen.substack.com/i/170920118/metta-sniffer-chill-love), and natural antipsychotics like DMSO and niacin.
+- **Paranoia or psychosis-like beliefs:** Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, [syrian rue OIL](#§syrian-rue-oil-gentler), and niacin.
+- **Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs first, like [beach morning glory](#§beach-morning-glory), Syrian rue oil or the [Metta NMT sniffer](#§metta-sniffer-chill-love), and natural antipsychotics like DMSO and niacin.
 
 ## Get Mental-Health Help If:
 

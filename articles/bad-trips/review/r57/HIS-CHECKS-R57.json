@@ -1,0 +1,159 @@
+{
+ "about": "His six Pangram checks of the kidney paragraph (B120) named in his round-57 comment (export of 2026-11-24 23:27 UTC), each read on 2026-11-25 from the page his link opens (the built-in browser, the page's own result: text, headline, and each window's label, confidence and words). Pangram 4.1, the web app, his account.",
+ "checks": [
+  {
+   "id": "f7c6b20c-3d0b-4ac0-b917-0b72ec00ab18",
+   "text": "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA which depletes it, since MDMA can cause acute kidney injury and muscle breakdown, on top of the overheating and dangerous electrolyte shifts it can cause. However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse. I just wouldn't tell them to copy my gram-per-minute approach blindly, since that's a higher-risk situation where they should get help sooner.",
+   "headline": "AI Detected",
+   "fraction_ai": 0.809,
+   "words": 110,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     60
+    ],
+    [
+     "Human",
+     "Low",
+     23
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     27
+    ]
+   ],
+   "changed": "from my try 4 of round 57's card (7afc3e5b): \"high, rapid magnesium dosing, because they may not clear excess magnesium out well\"; the second sentence tied to the first (\"taking the MDMA which depletes it\"); \"muscle breakdown\" for rhabdomyolysis; \"However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse\"; \"tell them\" and \"my gram-per-minute approach\"",
+   "his": "i tried many changes but nothing helped pangram until i tied the 2nd sentence to the first (mdma depletes magnesium). now it's 19% human",
+   "sha256": "a0821013eeec1a44e63e9c15c001a58e93ccbc4abf301ed82bb1d1c414a4ab1f",
+   "version": "4.1",
+   "link": "https://www.pangram.com/history/f7c6b20c-3d0b-4ac0-b917-0b72ec00ab18"
+  },
+  {
+   "id": "821fbea0-f1c3-496e-886c-cebfe6568efa",
+   "text": "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA which depletes it, since MDMA can injure the kidneys even more, not to mention potential muscle breakdown, overheating, and other dangerous electrolyte shifts.",
+   "headline": "Human Written",
+   "fraction_ai": 0.0,
+   "words": 58,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     24
+    ],
+    [
+     "Human",
+     "High",
+     34
+    ]
+   ],
+   "changed": "the first two sentences by themselves, the second now \"since MDMA can injure the kidneys even more, not to mention potential muscle breakdown, overheating, and other dangerous electrolyte shifts\"",
+   "his": "i split it in two. now the first part is all human so it must be the last part i'm thinking that needs fixing ... or possibly they need to connect better",
+   "sha256": "e12a9109d2f1c6c01707b80f56bfe26ebe288d5033cce349ef5089f197117366",
+   "version": "4.1",
+   "link": "https://www.pangram.com/history/821fbea0-f1c3-496e-886c-cebfe6568efa"
+  },
+  {
+   "id": "ec21476b-dc76-43fe-ab7a-db4abf097674",
+   "text": "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA which depletes it, since MDMA can injure the kidneys even more, not to mention potential muscle breakdown, overheating, and other dangerous electrolyte shifts. However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse. I just wouldn't tell them to copy my gram-per-minute magnesium chloride dosing approach blindly, since that's a higher-risk situation where they should get to a hospital ASAP.",
+   "headline": "AI Detected",
+   "fraction_ai": 0.425,
+   "words": 113,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     58
+    ],
+    [
+     "Human",
+     "High",
+     23
+    ],
+    [
+     "Human",
+     "Medium",
+     32
+    ]
+   ],
+   "changed": "the two halves back together, the second half with \"get to a hospital ASAP\" for \"get help sooner\" and \"my gram-per-minute magnesium chloride dosing approach\" (his check of that half alone is not among his links)",
+   "his": "ok now i made the 2nd part human by changing the generic \"get help sooner\" to \"get to a hospital ASAP.\" now when i put them back together, 2nd part stays human, first part switches to ai",
+   "sha256": "ec32a2bb4040187dab54990e127b4d4948947e6c71379ff34902daa667c2bec1",
+   "version": "4.1",
+   "link": "https://www.pangram.com/history/ec21476b-dc76-43fe-ab7a-db4abf097674"
+  },
+  {
+   "id": "67d5b425-da7c-420f-8187-80437662f0a1",
+   "text": "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA which depletes it, since MDMA can injure the kidneys even more, not to mention potential muscle breakdown, overheating, and dangerous electrolyte shifts. However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse. I just wouldn't tell them to copy my gram-per-minute magnesium chloride dosing approach blindly, since that's a higher-risk situation where they should get to a hospital ASAP.",
+   "headline": "Human Written",
+   "fraction_ai": 0.0,
+   "words": 112,
+   "windows": [
+    [
+     "Human",
+     "Low",
+     57
+    ],
+    [
+     "Human",
+     "High",
+     23
+    ],
+    [
+     "Human",
+     "Medium",
+     32
+    ]
+   ],
+   "changed": "\"other\" out of \"other dangerous electrolyte shifts\"",
+   "his": "ok that was my fault i guess bc i had changed dangerous electrolyte shifts to \"other dangerous electrolyte shifts\" since i was thinking magnesium is an electrolyte shift already. but at the end of that list it sounds like electrolyte shifts were part of the list which they were not, so now it's all hum, but first part low con and last part med conff",
+   "sha256": "647dfbcd1cbe5ef45ab623f9ea4121e32918b44dbfc85687cfae44eb359dcb52",
+   "version": "4.1",
+   "link": "https://www.pangram.com/history/67d5b425-da7c-420f-8187-80437662f0a1"
+  },
+  {
+   "id": "c004c98f-cfc0-4593-a280-102a2e5c8f74",
+   "text": "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA which depletes it (and shifts other electrolytes dangerously), since MDMA can injure the kidneys even more, not to mention potential muscle breakdown and overheating. However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse. I just wouldn't tell them to copy my gram-per-minute magnesium chloride dosing approach blindly, since that's a higher-risk situation where they should get to a hospital ASAP.",
+   "headline": "Human Written",
+   "fraction_ai": 0.0,
+   "words": 114,
+   "windows": [
+    [
+     "Human",
+     "High",
+     82
+    ],
+    [
+     "Human",
+     "Medium",
+     32
+    ]
+   ],
+   "changed": "the electrolyte shifts moved up beside the depletion they belong with: \"the MDMA which depletes it (and shifts other electrolytes dangerously)\"",
+   "his": "now i fixed it better, got the first part to high conf by moving the electrolyte shifts sooner so the reader sees everything together rather than split up",
+   "sha256": "193fc79b8cbb4fe0814958ff848aacc0424ca8e62c92acbedb91dcfed0488ae6",
+   "version": "4.1",
+   "link": "https://www.pangram.com/history/c004c98f-cfc0-4593-a280-102a2e5c8f74"
+  },
+  {
+   "id": "33a4d738-d566-44b0-9fd3-5e6194848e20",
+   "text": "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well. But they should be far more worried about taking the MDMA which depletes it (and shifts other electrolytes dangerously), since MDMA can injure the kidneys even more, not to mention potential muscle breakdown and overheating. However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse. I just wouldn't tell them to copy my gram-per-minute magnesium chloride dosing approach blindly, since that's a higher-risk situation where they should be taken to a hospital ASAP.",
+   "headline": "Human Written",
+   "fraction_ai": 0.0,
+   "words": 115,
+   "windows": [
+    [
+     "Human",
+     "High",
+     115
+    ]
+   ],
+   "changed": "\"should be taken to a hospital ASAP\" for \"should get to a hospital ASAP\"",
+   "his": "i clarified \"get\" to hospital since they need to be taken there, now it's all high conf",
+   "sha256": "a433ac5c45f0e2dcce4bce62b7b0b4904a8d630456d99997451824874bbbb98d",
+   "version": "4.1",
+   "link": "https://www.pangram.com/history/33a4d738-d566-44b0-9fd3-5e6194848e20"
+  }
+ ]
+}

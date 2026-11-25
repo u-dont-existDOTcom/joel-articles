@@ -51,7 +51,11 @@ def windows(result):
 
 
 def all_high(ws):
-    return bool(ws) and all(l == 'Human' and c == 'High' for l, c, _ in ws)
+    # a window's label is "Human" from the web app's reader and "Human Written" from the API (pangram_api.py); until
+    # 2026-11-25 this took only the first, so every text checked through the API failed the gate, Human High 118 in one
+    # window included (lesson bad-trips-2026-11-25e; lane_push.py's boundary gate had the same slip, lesson
+    # bad-trips-2026-11-24f)
+    return bool(ws) and all(l in ('Human', 'Human Written') and c == 'High' for l, c, _ in ws)
 
 
 def check(recs, paragraph, section_ok=None):

@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it.",
+  "It can follow serotonergic medication changes, combinations, or excessive exposure.",
+  "Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "Three sentences of similar length, each built as a claim, then a qualifier, then a list, give the paragraph an even, evenly hedged cadence and a neutral, impersonal voice with no first-person presence, and that uniformity reads generated."
+  ],
+  "sonnet": [
+   "The paragraph has three sentences of similar length and neutral register, with no first-person voice, no concrete example and no uneven rhythm. It reads like a compact reference entry written to be complete and safe, not like someone describing something they saw."
+  ]
+ },
+ "human_clean": []
+}

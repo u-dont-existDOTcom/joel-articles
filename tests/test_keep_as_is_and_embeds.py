@@ -42,6 +42,18 @@ class KeepAsIs(unittest.TestCase):
         self.assertEqual(K.back(ARTICLE, led), [])
         self.assertEqual(K.main(['check', str(self.d / 'a.md')]), 0)
 
+    def test_a_rewrite_that_drops_a_kept_quote_is_caught_before_its_check(self):
+        """lesson bad-trips-2026-11-25o: a kept line joined into another sentence is gone, though its words are mostly there."""
+        led = K.load(self.d / 'a.md')
+        old = 'A long list of signs belongs in a different branch. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), know the terrain.'
+        joined = 'A long list of signs is what the remedies are for, since as Lao Tsu might have said, know the terrain.'
+        self.assertEqual([(k, e['id']) for k, e in K.try_problems(old, joined, led)], [('GONE', 'K1')])
+        kept = 'A long list of signs is what the remedies are for. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), know the terrain.'
+        self.assertEqual(K.try_problems(old, kept, led), [])
+        self.assertEqual(K.try_problems('No kept words here.', 'Nor here.', led), [])   # a kept quote elsewhere in the article is not this rewrite's
+        (self.d / 'old.txt').write_text(old, encoding='utf-8'); (self.d / 'new.txt').write_text(joined, encoding='utf-8')
+        self.assertEqual(K.main(['try', str(self.d / 'a.md'), str(self.d / 'old.txt'), str(self.d / 'new.txt')]), 1)
+
     def test_quote_marks_and_links_dont_count(self):
         """His French quote marks turned English, or a link put on kept words, are still the kept words."""
         md = ARTICLE.replace('“What’s a ‘boundary’?”', '«\xa0What’s a ‘boundary’?\xa0»').replace('Art of War', '[Art of War](https://x.org)')

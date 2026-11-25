@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a; the twenty-ninth, from his fix of the bad trips guide's kidney paragraph, lesson bad-trips-2026-11-25b). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, and one from his Two Pillars fix, 2026-11-24). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, one from his Two Pillars fix, 2026-11-24, and one from his kidney paragraph, 2026-11-25). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -51,6 +51,9 @@ that still reads the first way.
    "the first and most useful early intervention" became "the first and most useful supplement to give", and "the other
    complications I have seen" became "the MDMA toxicity symptoms they get otherwise" (2026-11-24: "i changed intervention
    which is vague to more clear"; lessons bad-trips-2026-11-24o and p).
+   An act left generic is this way too: "where they should get help sooner" (what help, sooner than what?) became "where
+   they should get to a hospital ASAP", then "where they should be taken to a hospital ASAP", since someone in that state
+   has to be taken (2026-11-24: "changing the generic \"get help sooner\""; lesson bad-trips-2026-11-25c).
 5. **Opening on a rule or an authority, with the reader outside it.** He fixed "Clinicians often use the Hunter criteria"
    into "We can use the same Hunter criteria that clinicians use", "Get urgent help when somebody may harm themselves"
    into "the moment you think they might hurt themselves or anybody else, get urgent help", "Dim the lights. Lower the
@@ -116,6 +119,11 @@ that still reads the first way.
    second sentence to its first, which "flipped 2 human" (2026-11-24, lesson bad-trips-2026-11-24o); "And magnesium chloride
    is less likely to cause diarrhea ..." after his line about his own diarrhea took the last Medium window of that
    paragraph (lesson bad-trips-2026-11-24q).
+   A turn to a bigger worry is tied by what the two sentences share: after a sentence on magnesium and impaired kidneys,
+   "But they should be far more worried about the MDMA." stood alone through five rewordings of mine; his "But they should
+   be far more worried about taking the MDMA which depletes it" says what the MDMA has to do with the magnesium, and it
+   was the first change that moved the reading ("nothing helped pangram until i tied the 2nd sentence to the first";
+   lesson bad-trips-2026-11-25a). When the text holds nothing that joins the two, mark the turn and say what is missing.
 13. **Leaves the reader wondering why they're reading it.** A sentence or step that opens on what to do, or on a fact,
    before saying what in the situation calls for it. He opened the fluids step on why fluids come up at all, tied to the
    step before: my "Give fluids only if they're fully alert, able to swallow and not vomiting" became his "Overstimulating
@@ -264,6 +272,16 @@ that still reads the first way.
    become the most isolated."); the friend who knows both went next to the shared confidant's downside; the limit went
    last. Blind writers given this as the order got the section from AI to Human but not to High: they kept a list and a
    label, and couldn't add what only he could, the reason and the point from his experience (lesson romance-2026-11-24a).
+
+29. **A list item away from what it belongs with.** An item at the end of a list that is really about the thing before
+   the list, or a word like "other" with nothing nearby that it is other than. His "not to mention potential muscle
+   breakdown, overheating, and other dangerous electrolyte shifts", after "the MDMA which depletes it", read as if the
+   shifts were one more thing on the list; beside the depletion, "the MDMA which depletes it (and shifts other
+   electrolytes dangerously)", it read High: "so the reader sees everything together rather than split up"
+   (2026-11-24). In a list of substances, "other MAOIs" four items after "ayahuasca and other MAOI brews", and "some
+   opioids" apart from the opioid already named, read AI Low; "(or any other MAOI)" beside the brews and "the painkiller
+   tramadol and some other opioids" took the whole paragraph to High (lesson bad-trips-2026-11-25b). For each item, write
+   what it belongs with, and mark it if something stands between them.
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

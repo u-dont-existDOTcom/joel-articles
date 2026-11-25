@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-25",
+ "text_sha256": "796f0c15fe11ce7eb963d0d54da43cf821f8002f783f620a42a4ae27a6f9dda6",
+ "text": "This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.\n\nIn general it's good to try all these things in very low, increasing doses before they are needed in crisis.\n\nSometimes the mind isn't in a metaphysical crisis. The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all get read as spiritual content very quickly.",
+ "section": "My Acute Rescue Remedies",
+ "reader": "somebody sitting with a friend on a psychedelic who has diarrhea and nausea and says their mind is going crazy, deciding whether to talk them through it or to treat it",
+ "sentences": [
+  {
+   "s": "This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.",
+   "payoff": "they know the remedies are for acute trouble, emergencies included",
+   "follows": "the section's heading"
+  },
+  {
+   "s": "In general it's good to try all these things in very low, increasing doses before they are needed in crisis.",
+   "payoff": "they know to try each remedy in small, rising amounts before a crisis",
+   "follows": "the remedies the heading names",
+   "link": "none: his answer N-AN-Q1, word for word; a new step, how to get ready"
+  },
+  {
+   "s": "Sometimes the mind isn't in a metaphysical crisis.",
+   "payoff": "they know a crisis is not always about the mind",
+   "follows": "the acute situations just named",
+   "link": "the mind"
+  },
+  {
+   "s": "The body feels awful and the altered mind writes cosmic horror to explain it.",
+   "payoff": "they know the altered mind explains a body that feels awful as cosmic horror",
+   "follows": "the mind, just named",
+   "link": "The body"
+  },
+  {
+   "s": "Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all get read as spiritual content very quickly.",
+   "payoff": "they know which body states get read as spiritual",
+   "follows": "the body feeling awful, just said",
+   "link": "Nausea"
+  }
+ ],
+ "checked": [
+  {
+   "point": "nausea, heat, exhaustion, dehydration, overstimulation and sleep loss all become spiritual content very quickly",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; all six stay; \"become\" is \"get read as\", after the sentence that says the altered mind does the reading",
+   "still_needed": "yes: they check the body before they take a horrible thought as a message",
+   "fate": "changed"
+  },
+  {
+   "point": "the hierarchy is for acute situations; try the remedies in very low, increasing doses beforehand (his answer); a body that feels awful is explained by the altered mind as cosmic horror",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn and his answer N-AN-Q1; unchanged, Human High 56 by themselves (d9dea7a8)",
+   "still_needed": "yes: they know what the list is for and how to get ready for it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the first three paragraphs of My Acute Rescue Remedies (B139, his answer N-AN-Q1, B86), before B87",
+ "opens": {
+  "first_sentence": "This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.",
+  "why_reading": "it tells the reader what the remedies that follow are for, and that a body feeling awful gets read as a spiritual crisis"
+ },
+ "same_point": "none new: read the section from its heading to the next. B87 after it says what the body may need; this says what gets misread. Only three words of one sentence change",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-asis-rescue-sec.txt), on the text as it stands, TEST-asis-rescue-sec.txt; the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-asis-rescue-sec.txt), on the text as it stands, TEST-asis-rescue-sec.txt; the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-asis-rescue-sec.txt), on the text as it stands, TEST-asis-rescue-sec.txt; the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q2": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q3": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q4": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q5": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q6": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q7": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q8": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High",
+  "Q9": "PASS: the three fresh reads of the section as it stands (reads/*-asis-rescue-sec.txt) marked most of its sentences, but by themselves these three paragraphs read Human High 56 and Human Low 14 (d9dea7a8): only the list sentence fell short, so only it changes, by three words, as a near miss is fixed (lesson bad-trips-2026-11-19b). The read against his fixes called \"become spiritual content\" a label for what happens; the sentence before says who does it (the altered mind), so the things \"get read as\" it. Every other sentence stays as it reads High"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
