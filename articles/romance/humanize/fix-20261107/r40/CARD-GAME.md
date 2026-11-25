@@ -225,3 +225,38 @@ The game has it: "How deep?" on the setup screen, three steps (Warm, Deep, Unfil
    blocks was the new file byte for byte.
 3. The site is deployed through Coolify with his go-ahead, and the live page is compared with the build.
 4. Not run: the love-honestly repository's container gate, which needs Docker (none in the workspace).
+
+## His answer, and v0.7.0 (2026-11-25 01:23 UTC)
+
+"yes tick attraction and polarity from the start, and i approve all 6 of your ideas". The round's record:
+[r43](../r43/README.md).
+
+### Built: v0.7.0, a candidate on top of v0.6.0
+
+[Its change list](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.7.0/CHANGES.md), in [the same draft pull request](https://github.com/u-dont-existDOTcom/love-honestly/pull/2). The file went to him in chat (SHA-256 24849848...). No card changed.
+
+| What he asked for | In v0.7.0 |
+|---|---|
+| Tick Attraction & Polarity from the start | Done: ticked with the other eleven; a setup saved earlier gets it ticked once |
+| Idea 1: a line under "How deep?" | Done: "Warm cards are easy openers. Deep adds questions that take some courage. Unfiltered adds the ones that can hurt to answer." |
+| Idea 1: a batch of Warm cards | 28 written, with him for approval |
+| Idea 2: "A lighter one instead" | Done: swaps for a Warm card of the same topic, or of another ticked topic when the topic has none left |
+| Idea 3: remember played cards on the phone | Done: the cards played least are dealt first; "Forget them" empties the list |
+| Idea 4: a shared code for two phones | Done: a 12-character code; each person plays their own steps and they say their labels aloud; nothing is sent |
+| Idea 5: a route for one person | Design, 41 cards turned toward one person, 14 new cards and 15 steps written, with him for approval |
+| Idea 6: a plain-words pass | 92 lines on 62 of the 95 older cards, with him for approval |
+
+### With him: the card texts
+
+[The cards as a page on GitHub](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/CARDS.md) and [the page he answers on](https://claude.ai/artifact/Eo9nhyRepPM9ti2fSGo78P): 204 items in 7 groups, the last of them the lines of v0.6.0 he had not seen. Card texts are his to approve before they are built in, so none of them is in v0.7.0.
+
+### Still to do, each with his word
+
+1. His answers on the card texts; the approved ones go into the next version, with the one-person route.
+2. His OK on the version; then the pull request is merged.
+3. The innerself site vendors the new file (tried in a scratch copy on 2026-11-25 with v0.7.0: its build and test
+   passed, and the built page without the site's two inserted blocks was the file byte for byte). Its `PRODUCT.md` then
+   says that the list of played cards is kept in the browser too.
+4. The site is deployed through Coolify with his go-ahead, and the live page is compared with the build.
+5. Not run: the love-honestly repository's container gate, which needs Docker (none in the workspace).
+

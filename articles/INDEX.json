@@ -26,7 +26,7 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "dbdf6fbaf512cce18a817f485e7682d1c9297deb5221eeb82a8f4c0bcb30a893"
+          "sha256": "792436f2c94fdac4762cfbdbd866904edbf57cfc85ab66caccb191f741f95e6d"
         }
       },
       "review": {
@@ -7935,7 +7935,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/r40/CARD-GAME.md",
-          "sha256": "a5870975e7618fc3683c0703b9f2ebf7d4b376efce0a6734c2816e1a5d53956c",
+          "sha256": "b1facbf39e4cb0159dd66892e7617ee43eb22c410298179a3ac04d7697aeb356",
           "role": "humanization_working_record"
         },
         {
@@ -9211,6 +9211,11 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r42/game-audit/BRIEF.txt",
           "sha256": "a142a0c9a9babf221eb9db28475945adce3e9ff4b048c609b9716d7264a8f001",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r43/README.md",
+          "sha256": "0672bcee00741e52b592b274d745340e8912ce288181b1197131f6085639ce49",
           "role": "humanization_working_record"
         }
       ]

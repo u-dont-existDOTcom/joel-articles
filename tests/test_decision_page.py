@@ -30,9 +30,13 @@ class DecisionPage(unittest.TestCase):
         page = D.build(SPEC)
         self.assertTrue(page.startswith('<!doctype html>'))
         self.assertIn((ROOT / 'project-sources/review-form-controls.css').read_text(encoding='utf-8'), page)
-        for word in ('Approve', 'Revise', 'Reject', 'Pending', 'Copy JSON', 'Download JSON', 'Load the pasted JSON', 'Clear all'):
+        for word in ('Approve', 'Revise', 'Reject', 'Pending', 'Undo my answer', 'Copy JSON', 'Download JSON', 'Load the pasted JSON', 'Clear all'):
             self.assertIn(word, page)
         self.assertIn('prefers-color-scheme: dark', page)
+        # the fourth button undoes an answer and is hidden while there is none (it used to read "Pending", pressed, on every undecided item)
+        self.assertIn("pending: 'Undo my answer'", page)
+        self.assertIn("if (b.dataset.d === 'pending') b.hidden = r.status === 'pending';", page)
+        self.assertNotIn("pending: 'Pending'}", page)
         self.assertIn(':root[data-theme="dark"]', page)
 
     def test_the_data_parses_and_cannot_close_its_script(self):
