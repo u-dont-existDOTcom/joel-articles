@@ -57308,7 +57308,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
-          "sha256": "70a8e12cdfdd169385bf654872eb49612576bbd8971c3889f54d366f605afc51",
+          "sha256": "200ef0646a1ced1a3d36f603f967b3e0278f8ba9842b611009d11f1674887c02",
           "role": "humanization_working_record"
         },
         {
@@ -74988,7 +74988,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/apply_in_editor.js",
-          "sha256": "d17c4f51aa5df1e6841d0d8d81d1bed8213cb77bdc46b2bb7d652a2601480170",
+          "sha256": "f0021b311b72210ae8bc88d27702ff0514ca777712762c082d36daa96d901efd",
           "role": "humanization_working_record"
         },
         {
@@ -75399,6 +75399,71 @@
         {
           "path": "articles/inner-signal/experiments/toc-20261123/review/build_review.py",
           "sha256": "612edf29539439f66e09a3697f804f19eebe6d28d3ec31a63391bdb18d78907d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/AFTER2.md",
+          "sha256": "a25f4a3c12fce1156385830e499fb86c0f34a8306b1b8ab7da0e18a00bc11fc0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/EDITOR-OPS2.json",
+          "sha256": "d5c47579c1f01393a1d9c83b887da97db4b519e2a157b61383c5ab10710d33a1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/PLAN2.json",
+          "sha256": "96b48b3ffcb8740e89820d96b1fa119dba37011541c741075efe925a587ef12d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1600.json",
+          "sha256": "bf1046d6a63cf401138a2f12f6bbffa2c38ba9c8a4435846abc67d9e6b149a1c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1600.md",
+          "sha256": "4c8647783fdb8e7f78849ccde314235ad3c935f277af7e06b18dbfae8dcfb274",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/apply_plan2.py",
+          "sha256": "6df4b1ce34471818294d8cb1a0bc847f55316f14c512a2f1028a340e9ceefe5c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/IS-t2-N001.txt",
+          "sha256": "164698e26abc30ef2ce7158e6f3df7d373d30ee1124347acbc8494759f4b798c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/IS-t2-S017.txt",
+          "sha256": "9cca42b7e88082f58baf0fbdf46bdeb4b1031b8614c73db86c17e3cf78dffbdb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/IS-t2-S021.txt",
+          "sha256": "3bf7be3cd11d843ec748339404d28a8f05bc182ad859a581e33794f160cba938",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/IS-t2-S032.txt",
+          "sha256": "62e7b8dc6dfb9b5ecd62bc4c081c19007b2d39319e97ff8293e09c4f7cabb68a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/IS-t2-S162.txt",
+          "sha256": "784d617414047ec09fabee8eab0f1ea999d9a45388d5ab48a4c1aaad24d88acd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/RESULTS-20261125.json",
+          "sha256": "7ca488ef335468ddcc77d1b72fe74c4b949435fb79bcd0cc6376c5659542a5d8",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/t2/SPECS.json",
+          "sha256": "9f8cf3e6ab728511e627734dcda53f1e47ce1703ffb0b08ebcb9d9e9272e84e1",
           "role": "humanization_working_record"
         }
       ]

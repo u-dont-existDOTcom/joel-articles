@@ -1,0 +1,32 @@
+{
+ "IS-t2-S017": {
+  "file": "pangram/t2/IS-t2-S017.txt",
+  "section": "Start From the Whole",
+  "words": 360,
+  "sha256": "7834472a01b59d0b71c32af435664ed365ff0639dbca14be6947f95cfd342844"
+ },
+ "IS-t2-S021": {
+  "file": "pangram/t2/IS-t2-S021.txt",
+  "section": "Love First, Trust Later",
+  "words": 314,
+  "sha256": "3a9673e89e1abdc210f7e8da80540c8017996da8e345dd5e1cda05336ced4b99"
+ },
+ "IS-t2-S032": {
+  "file": "pangram/t2/IS-t2-S032.txt",
+  "section": "Don't Rush the Repair",
+  "words": 459,
+  "sha256": "137a9996136991e033e21b0aa4da2da29a674b99ab7c9347b3d9cfa413f106a1"
+ },
+ "IS-t2-S162": {
+  "file": "pangram/t2/IS-t2-S162.txt",
+  "section": "Reparenting Therapy",
+  "words": 178,
+  "sha256": "a81633de031b42602b78e7fa7f93d15b1b793d6a134796366e9e3b579785a24f"
+ },
+ "IS-t2-N001": {
+  "file": "pangram/t2/IS-t2-N001.txt",
+  "section": "Past Life & Ancestral Trauma",
+  "words": 501,
+  "sha256": "3d642149f45cf3b8122cae372f87f9c8f3d12fb7aa3cefd1e835c7daab382c50"
+ }
+}
