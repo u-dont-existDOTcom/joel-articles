@@ -6,7 +6,8 @@
   "kind": "his words, moved",
   "before": "(its own section) Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one.",
   "after": "The same two sentences, as the last paragraph of “How to Use This Huge Guide”, and its “Appendix K” becomes “Appendix J” (answer 8).",
-  "check": "S001 with them, in its section"
+  "check": "S001 with them, in its section",
+  "checked": "IS-toc-S001#278: Human Written, one window, High, 149 words (https://www.pangram.com/history/006aec02-02e2-49db-9e30-fdc4e6ed7c12)"
  },
  {
   "id": "T2",
@@ -64,7 +65,8 @@
    "“interview them a bit:” becomes “interview them a bit more:”, since your three lists now come first",
    "“After it’s over, check how well your critical thinking is working when you look back on how it went.” joins the start of your “Then afterwards” paragraph"
   ],
-  "check": "the merged section, in the web app (about 560 words)"
+  "check": "the merged section, in the web app (about 560 words)",
+  "checked": "IS-toc-S131#277: Human Written, one window, High, 594 words (https://www.pangram.com/history/04a480f5-25db-4a34-9593-8b53804cdac3)"
  },
  {
   "id": "T7",
@@ -72,12 +74,33 @@
   "section": "S122",
   "kind": "my sentences from his message",
   "before": "Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, stop.",
-  "after_added": "Try Systema's continuous breathing too: besides relaxing you, it can take you deeper into trance and flow states. This is the best video on it I've seen so far, and my somatic guide explains it more.",
+  "after_added": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more.",
   "links": {
    "the best video on it I've seen so far": "https://www.youtube.com/shorts/Nar2-nvomAk",
    "my somatic guide explains it more": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts"
   },
   "note": "his message: 'i'd also like to mention Systema continuous breathing where I talk about Buteyko breathing. It's explained more at somatic.u-dont-exist.com but it helps not just relaxing but getting into trance and flow states more deeply. You have that video already about Systema you can link.' The guide had no mention of Systema. The video is the one he named as the best (his rule for every mention of Systema); somatic.u-dont-exist.com is his somatic modalities post, linked at its Systema section.",
-  "check": "S122 with it, in its section"
+  "check": "S122 with it, in its section",
+  "after_added_before_20261125": "Try Systema's continuous breathing too: besides relaxing you, it can take you deeper into trance and flow states. This is the best video on it I've seen so far, and my somatic guide explains it more.",
+  "changed_20261125": "after a fresh reader's read against his_fixes_brief.md (reads/READ-NEW-SENTENCES-20261125.md): Systema is said to be a Russian martial art where it is first named, the sentence says what the breathing gives in his own words ('helps not just relaxing but getting into trance and flow states more deeply'), and 'This is' became 'You can learn it from'"
+ },
+ {
+  "id": "T8",
+  "answer": 8,
+  "section": "S001",
+  "kind": "his words, three cut",
+  "before": "what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions",
+  "after": "what to do if you experience the sensation of a hostile presence, influence, and more inductions",
+  "why": "the sleep appendix goes (answer 8), so the list of what the appendices cover no longer names it",
+  "check": "S001, with T1: IS-toc-S001#278, Human Written, one window, High"
+ },
+ {
+  "id": "P1",
+  "asked": "2026-11-25, question 3 of QUESTIONS-20261125.md",
+  "section": "S007",
+  "kind": "my sentence, pending his yes",
+  "after_added": "If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
+  "why": "both final readers looked in 'Protection From Hypnotists' for what to check before playing a stranger's recording (situation 9); the audit questions are in 'Find a Hypnotist Who Fits' since the merge",
+  "check": "S007 with it, in its section"
  }
 ]
