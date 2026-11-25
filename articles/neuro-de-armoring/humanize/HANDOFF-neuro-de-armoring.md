@@ -18,6 +18,45 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-25, after his message of 01:24 UTC ("the humanizing pass over what LEFT.md lists, starting with the warnings
+  at the top"): six of the section's eleven are in at Human High by themselves; three are teaching cards waiting on
+  him; two short ones are close; questions 66 to 69 wait on him.** HUMANIZED-SO-FAR.md is a65eaa1b
+  (`fix-20261108/x1125a/apply_x1125a.py`, then `apply_v10.py`; `APPLIED-X1125A.json`); his message:
+  `fix-20261108/joel-20261125-0124-message.txt`. Everything of the turn is in `fix-20261108/x1125a/`: the texts and why
+  each changed (`texts_x1125a.py`, versions 1 to 10), the fresh reads (`v1`, `v2`, `v5`), receipts (`v4` to `v10`), the
+  seven batches (`checks-1125a` to `g`, ledger #206 to #234), six tell panels, the comparison read (`read-1125a`,
+  `read-1125b`), the cards (`build_cards_x1125a.py`, `REVIEW-X1125A.*`), the view beside his post
+  (`make_in_context.py`). **In**: the section label as a block of its own; DMSO Safety (try 4, https://www.pangram.com/history/00c16a93-c037-4131-be4a-92e08639fcf8);
+  Electrolytes (try 2, https://www.pangram.com/history/107fdac9-c18d-4518-a639-09950f338556); the plant medicines (try 2,
+  https://www.pangram.com/history/1b3f5324-df31-4bd8-b823-a19e0a38a012); the Cognitive Warning's second paragraph (try 2,
+  https://www.pangram.com/history/67054583-220a-4f9f-94b8-f421bc4102b9); uridine (try 2, https://www.pangram.com/history/5cdcee71-8073-41fa-a770-6dc2950c0b10);
+  the 5-HTP rule sentence moved, unchanged, to the end of the 5-HTP paragraph; his Precautions paragraph read High as it
+  stands (#206). **Teaching cards (three tries each, lesson bad-trips-2026-11-24w)**: W-ISO, W-AGMINTRO, W-HTPTOP on
+  https://claude.ai/artifact/Fjp7rvxUptxhGUdHS1o3tX (slug 775a379e-3d1b-4d07-b5b9-c0c8c86edcc4, published from the
+  account this turn ran in, with db, user and downloads declared; his answers: `db_query` on collection "decisions"),
+  the same cards in Git: `x1125a/REVIEW-X1125A.md`. **Close, not in (pairs, each paragraph under 50 words)**: the
+  Cognitive Warning's first paragraph with the one after it reads Human Written, windows High, Medium, Low, Medium
+  (PAIR-COG-PROJ, 4 of 6 tries; version 9 of `cog`); The Rule with the Cognitive Warning after it reads Human Written,
+  Medium, High, and the warning Low (PAIR-RULE-COG, 1 of 6; version 4 of `rule`). Next for them: one change a try from
+  those texts; pair The Rule only with a neighbour that reads Human (never the Isolation Trap, which reads 100% AI
+  alone). **Questions 66 to 69** (OWNER-QUESTIONS.md): what I added to the six that went in; whether his iboga guide
+  lists medications; Epley or the paper's authors for "Illusion of Transparency"; three "how much?" places. The
+  questions page is published from this turn's account too: https://claude.ai/artifact/ByR6PgMNVAgYDTyGPeNa9N (slug
+  58dbe2b1-e3fe-4917-b586-b4837460b7a1; the older 8cWv5mbXY8y53RL1nhvzky and the old cards page are his other
+  account's and answer "not found" from this one; the Markdown is the master either way), and the section beside his
+  post: https://claude.ai/artifact/KvqajbN6mmHQWk5DKPJeGJ. **Lessons neuro-2026-11-25a to h**
+  (`docs/lessons/2026-11-25-0124-neuro.md`): a read's "what is this?" is not an order to gloss; a label or a pointer
+  inside the sentence it serves; one change a try; a stock pivot of mine can carry a pair; a short paragraph's
+  windows follow its neighbour; lint before the panel; the comparison read before the last check. **How the checks
+  ran**: the desktop app's browser pane is signed out of Pangram, so they ran in Claude in Chrome (his browser, signed
+  in), tab on https://www.pangram.com/dashboard, with `window.__run(name, items)` (it logs to `window[name]` and
+  returns nothing) and `window.__readIdx(items, pages)` from `tools/humanization/pangram_page_helpers.js`; a single
+  script call must stay under 45 seconds, and output with a URL's query characters in it is blocked, so results are
+  read as JSON in slices; `x1125a/save_gui.py` and `checks_x1125a.py record` write them into the ledger. LEFT.md: 141
+  paragraphs, 20 Human High by themselves, 66 below, 55 never checked as they stand. **Next: his three versions when
+  they come (each goes in as his, with its own check read back from his history), answers 66 to 69, the two pairs, then
+  the Introduction's two paragraphs and "Psychology is the Software; Biology is the Hardware." (7 left)**, by the same
+  pass: sense first, the comparison read before the last check, one paragraph a check. Dose figures stay out of replies.
 - **2026-11-24, after his message of 21:43 UTC ("62 a 63 a 64 a 65 a"): no question is open, every contradiction has its
   answer, and the humanizing of what is left starts next.** HUMANIZED-SO-FAR.md is 386bad86
   (`fix-20261108/x1124b/apply_x1124b.py`, `APPLIED-X1124B.json`); his message: `fix-20261108/joel-20261124-2143-message.txt`.

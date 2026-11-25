@@ -1,0 +1,9 @@
+MARKED:
+- S1: 19 — "excitement, novelty and the chase" is three category words, and the first covers the other two; his way keeps the ones that carry the point and gives one as a case from the reader's life.
+- S2: 8 — "do not isolate completely, because total social isolation locks ..." names the same thing twice in a row, the second time as a formal noun phrase (after "hole up alone" it is the third name in one sentence); his way would point back ("because that locks the armor in place").
+- S2: 9, 13 — "even if you've never had an addiction" says who the warning applies to in a clause hung on the end, and nothing says why addiction comes up at all; his way says who it applies to first, with the reason it might seem not to.
+- S3: 10, 12 — "It" could be the addiction just named, the isolation or the armor, and nothing says this is how the isolation locks the armor; his way names it with words already there ("Being alone raises ...") and says it is the how.
+- S3: 7 — the reason stops at "sensitizes your brain to glutamate" and puts off what that does to the reader ("explained below"), so the sentence doesn't yet say how the armor stays locked.
+- S4: 5, 12 — opens on a general truth with the reader outside it ("Humans are social animals"), and the "so" doesn't rest on it: being social animals gives "you need company", not "the calm kind"; the calm part rests on S1 and S3. His way starts from the reader's situation (you're cutting excitement and being alone raises your cortisol, so ...).
+- S4: 4 — "the calm kind of company" doesn't say what counts as calm company and what counts as the excitement they're cutting, which is the one line the reader has to draw.
+- S4: 21 — "anchors you" and "Oxytocinergic Anchoring" label what the oxytocin does without saying it (what it does to the cortisol and the armor just described).

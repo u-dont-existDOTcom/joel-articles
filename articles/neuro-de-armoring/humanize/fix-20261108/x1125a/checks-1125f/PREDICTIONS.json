@@ -1,0 +1,24 @@
+[
+ {
+  "key": "pair-cog-proj9",
+  "name": "The Cognitive Warning (42 words) with the paragraph after it, try 4: what \"this\" is",
+  "lineage": "neuro-de-armoring/PAIR-COG-PROJ",
+  "scope": "pair",
+  "words": 119,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "f090f6d38e1f1e93486a0217aafa660aa31cf3755b9178642ad8bea4114e22d7"
+ },
+ {
+  "key": "pair-rule-cog9",
+  "name": "The Rule (41 words) with the paragraph after it, the Cognitive Warning (42 words)",
+  "lineage": "neuro-de-armoring/PAIR-RULE-COG",
+  "scope": "pair",
+  "words": 83,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "see the ledger record",
+  "sha256": "057d547c1a002c22aa398c0aa48b5bddb8d5039194a4c46ee8990cd4084e6c92"
+ }
+]

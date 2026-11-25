@@ -1,0 +1,31 @@
+{
+ "pair-cog-proj9": {
+  "lineage": "neuro-de-armoring/PAIR-COG-PROJ",
+  "scope": "pair",
+  "name": "The Cognitive Warning (42 words) with the paragraph after it, try 4: what \"this\" is",
+  "text": "Cognitive Warning: As you de-armor, you will feel more naked and exposed than you're used to, and you'll assume everyone can see your anxiety, which they mostly can't (Dr. Nicholas Epley calls that assumption the \"Illusion of Transparency\" in his book Mindwise).\n\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.3,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/v9/PAIR-COG-PROJ9.receipt.json",
+  "humanized": "the sense-first pass of 2026-11-25: the paragraph as its earlier tries had it (two rounds of fresh reads, in its receipt), with one word that could point at two things made plain",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/panel-cogproj7/PANEL.md",
+  "tells": "\"Cognitive Warning:\"; the citation in brackets; the neighbour's first sentence, Low beside it",
+  "human_tells": "\"which they mostly can't\"; \"more naked and exposed than you're used to\"; his 62a words for the heart rate",
+  "diagnosis": "try 3 read Human Written, every window Human: the warning's sentence High, its citation Medium, the neighbour Low and Medium (it is High by itself). The near-miss rule: one small step from it. In the citation, \"calls this the Illusion of Transparency\", \"this\" could be the assuming or the fact just before it (that people mostly can't see it); it is the assuming, so it says \"that assumption\". Nothing else changes",
+  "decides": "whether the citation's window rises to High; the neighbour's windows beside it are the next steps",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"that assumption\" for \"this\""
+ },
+ "pair-rule-cog9": {
+  "lineage": "neuro-de-armoring/PAIR-RULE-COG",
+  "scope": "pair",
+  "name": "The Rule (41 words) with the paragraph after it, the Cognitive Warning (42 words)",
+  "text": "The Rule: Seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe. As tempting as \"Exciting Love\" is (romance, high-stakes drama), avoid it, since it spikes Phasic Dopamine and puts the armor right back up.\n\nCognitive Warning: As you de-armor, you will feel more naked and exposed than you're used to, and you'll assume everyone can see your anxiety, which they mostly can't (Dr. Nicholas Epley calls that assumption the \"Illusion of Transparency\" in his book Mindwise).",
+  "chance": 0.35,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/v9/PAIR-RULE-COG9.receipt.json",
+  "humanized": "the sense-first pass of 2026-11-25: the paragraph as its earlier tries had it (two rounds of fresh reads, in its receipt), with one word that could point at two things made plain",
+  "tells": "two labels in quotes with bracketed examples; \"spikes Phasic Dopamine\"; \"Cognitive Warning:\"",
+  "human_tells": "\"As tempting as ... is\"; \"puts the armor right back up\"; \"which they mostly can't\"",
+  "diagnosis": "the rule has been checked twice, both times beside the Isolation Trap, which read 100% AI alone each time, so neither check said anything about the rule. Its other neighbour, the Cognitive Warning, now reads Human High in its own sentence, so this is the first check of the rule beside a neighbour that reads Human",
+  "decides": "whether the rule itself reads Human; if it does at every window High, both short paragraphs can go in",
+  "first_fix": "payoff: what to seek comes first, then what to avoid and why; join: \"As tempting as ... is, avoid it, since\"; plain: \"touch that feels safe\"; \"puts the armor right back up\""
+ }
+}

@@ -1,8 +1,8 @@
 # Neuro de-armoring: what is left to humanize
 
-Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), 386bad86) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
+Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), a65eaa1b) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
 
-141 paragraphs of 8 words or more. Human High by itself: 14; under 50 words and inside a text that read Human High: 0; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 69; never checked as they stand: 58.
+141 paragraphs of 8 words or more. Human High by itself: 20; under 50 words and inside a text that read Human High: 0; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 66; never checked as they stand: 55.
 
 A paragraph listed here has no check of its present words that read Human High in every window. Paragraph numbers count the paragraphs of 8 words or more, from the top.
 
@@ -11,19 +11,13 @@ A paragraph listed here has no check of its present words that read Human High i
 - P1 (104 words) "When people tell me they have trauma, I generally recommend they follo…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P2 (57 words) "This protocol is partly theoretical and partly based on experience rep…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 
-## A Complete Guide to Bio-De-Armoring (11 left)
+## A Complete Guide to Bio-De-Armoring (5 left)
 
-- P3 (47 words) "⚠️ CRITICAL MEDICAL DISCLAIMER:DMSO Safety: You should use 99.9% Pharm…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P4 (12 words) "Electrolytes: Consult a doctor if you have kidney disease or heart con…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P5 (31 words) "Ethnobotanicals:Iboga and Psilocybin are illegal in many jurisdictions…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P6 (63 words) "Behavioral Warning (The Isolation Trap): While this protocol demands s…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P7 (28 words) "The Rule: Seek "Boring Love" (parallel play, reading next to someone, …": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P8 (29 words) "Cognitive Warning: As you de-armor, you will feel naked and exposed. Y…": inside a larger text: Human High, Human Medium, AI High, AI Low, AI Medium, AI Low, AI Medium, AI High … (125 windows) ([the check](https://www.pangram.com/history/72952f09-0e99-46d6-b89f-5fa574422584))
-- P9 (66 words) "The armored brain projects its own internal threat level onto neutral …": never checked as it stands
 - P11 (37 words) "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutri…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P12 (83 words) "Precautions/Side Effects: Do not use concurrently with opioids and/or …": never checked as it stands
-- P14 (94 words) "Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enh…": never checked as it stands
-- P15 (74 words) "Rule: do not take 5-HTP on the same day as a psychedelic trip, and do …": never checked as it stands
+- P14 (117 words) "Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enh…": never checked as it stands
 
 ## Psychology is the Software; Biology is the Hardware. (7 left)
 

@@ -1,0 +1,13 @@
+[
+ {
+  "key": "dmso3",
+  "name": "DMSO Safety, fixed for sense (third version)",
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "words": 155,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "see the ledger record",
+  "sha256": "74687d2f7c8573cd19cc802f01729f30fe10538658d82667e487e0af19068963"
+ }
+]

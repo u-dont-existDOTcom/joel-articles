@@ -1,0 +1,33 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Agmatine Warning (The Voltage Governor): Agmatine is optional in this protocol, and it's sold as a supplement, but it isn't a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine.",
+  "It's a neuromodulator that's here as a brake on NMDA/glutamate signaling, and since it also acts on imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance, it can interact with the drugs listed below."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "haiku": [
+   "Both sentences follow the same pattern: a stated status, a \"but\" or \"and since\" qualifier, a stacked list of clauses, and a hedged close, with the clauses balanced in length and parallel in form. There is no first-person stake, no case and no concrete consequence, so the paragraph reads as polished explanatory copy."
+  ],
+  "sonnet": [
+   "It is one long, grammatically smooth sentence chain with an even, explanatory rhythm and no friction, digression or first-person stance. It is built as a label, a category claim, a mechanism list and a pointer to the next section, like a template for a warning box."
+  ]
+ },
+ "human_clean": []
+}

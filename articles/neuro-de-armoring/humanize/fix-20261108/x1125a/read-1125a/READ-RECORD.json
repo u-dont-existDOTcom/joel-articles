@@ -1,0 +1,254 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1125a/read-1125a/REWRITE.md",
+ "coverage": [
+  "0068f417d3679af1",
+  "0f65f67721696015",
+  "0f70247d13a048a5",
+  "2565b73d6e2870de",
+  "309ef78634d1005d",
+  "3499494c38719009",
+  "35a6f2380728139b",
+  "401643625d7d9f8e",
+  "5725b4e2a3ab7011",
+  "605a5d0793ca8047",
+  "8a6c7ef46de6d8cc",
+  "b40ab8bd2ad4b56b",
+  "bcb8fc51c28bbef0",
+  "e84c7d7ce19f95d3"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "0f70247d13a048a5"
+   ],
+   "now": "Your lungs count too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that (there's more on all this in my full DMSO reference).",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "b40ab8bd2ad4b56b"
+   ],
+   "now": "So never combine Iboga with most medications (especially heart & psych meds), and if you take any, check it against my full iboga guide here first (the iboga microdosing protocol is here).",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "bcb8fc51c28bbef0"
+   ],
+   "now": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "bcb8fc51c28bbef0"
+   ],
+   "now": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.5",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "0f65f67721696015"
+   ],
+   "now": "Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) wit",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) wit",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.8",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) wit",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.9",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Not recommended for use in pregnancy or breast-feeding.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.10",
+   "severity": 3,
+   "kind": "lost",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.11",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.12",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "2565b73d6e2870de"
+   ],
+   "now": "I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.13",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "2565b73d6e2870de"
+   ],
+   "now": "I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.14",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "8a6c7ef46de6d8cc"
+   ],
+   "now": "Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks.",
+   "same_as_original": true
+  },
+  {
+   "id": "F1.15",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "8a6c7ef46de6d8cc"
+   ],
+   "now": "Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.16",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "8a6c7ef46de6d8cc"
+   ],
+   "now": "Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.17",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "5725b4e2a3ab7011"
+   ],
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting it, psychedelics can hit harder, visuals included.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.18",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "5725b4e2a3ab7011"
+   ],
+   "now": "So do not take UMP on the same day as a psychedelic trip, and on your first trip after starting it, assume your old psychedelic dose may now be too high and take less.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.19",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "5725b4e2a3ab7011"
+   ],
+   "now": "It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.4": [
+   "his",
+   "his answer 62a (fix-20261108/joel-20261124-2143-message.txt): the test reads \"back down to your usual resting rate, and under 90 BPM\" in its three places; which of the two decides is asked of him in OWNER-QUESTIONS.md (the questions of 2026-11-25)"
+  ],
+  "F1.6": [
+   "his",
+   "his own paragraph: his version of the precautions (card W-15, approved 2026-11-04, fix-20261104/cards/ANSWERS-20261104-1205.json, with the keys it drops on record in FIDELITY-KEYS.json owner_changes), his answer 34 and 63a's bracket (fix-20261108/joel-20261124-2143-message.txt); it read Human Written, one window, High as it stands this turn (ledger #206)"
+  ],
+  "F1.7": [
+   "his",
+   "his own paragraph: his version of the precautions (card W-15, approved 2026-11-04, fix-20261104/cards/ANSWERS-20261104-1205.json, with the keys it drops on record in FIDELITY-KEYS.json owner_changes), his answer 34 and 63a's bracket (fix-20261108/joel-20261124-2143-message.txt); it read Human Written, one window, High as it stands this turn (ledger #206)"
+  ],
+  "F1.8": [
+   "his",
+   "his own paragraph: his version of the precautions (card W-15, approved 2026-11-04, fix-20261104/cards/ANSWERS-20261104-1205.json, with the keys it drops on record in FIDELITY-KEYS.json owner_changes), his answer 34 and 63a's bracket (fix-20261108/joel-20261124-2143-message.txt); it read Human Written, one window, High as it stands this turn (ledger #206)"
+  ],
+  "F1.10": [
+   "his",
+   "his own paragraph: his version of the precautions (card W-15, approved 2026-11-04, fix-20261104/cards/ANSWERS-20261104-1205.json, with the keys it drops on record in FIDELITY-KEYS.json owner_changes), his answer 34 and 63a's bracket (fix-20261108/joel-20261124-2143-message.txt); it read Human Written, one window, High as it stands this turn (ledger #206)"
+  ],
+  "F1.14": [
+   "his",
+   "his answer 36a (fix-20261108/joel-20261123-2040-message.txt): 5-HTP is never combined with serotonin-raising drugs, so both review clauses go"
+  ],
+  "F1.15": [
+   "his",
+   "his answer 36a (fix-20261108/joel-20261123-2040-message.txt): 5-HTP is never used near ayahuasca/harmalas or iboga, so the review clause goes"
+  ],
+  "F1.16": [
+   "his",
+   "his answer 64a (fix-20261108/joel-20261124-2143-message.txt): the six lines say \"a psychedelic trip\""
+  ],
+  "F1.18": [
+   "kept",
+   "\"a psychedelic trip\" is his answer 64a. \"on your first trip after starting it ... take less\" for \"if sensitivity changes\": a reader finds out whether it changed only by tripping, and his own UMP section says when (\"you should not take the old high doses of your psychedelic at first, as it might hit you way harder than you expected\"); named to him as a change of mine in the turn's report and OWNER-QUESTIONS.md, with how much less as a question"
+  ],
+  "F1.19": [
+   "kept",
+   "the directions and the word \"benefits\" are his UMP section's: \"Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP\", and Scott's cravings \"fell hard\" within a day; the post's neutral \"may still change\" left the reader unable to tell a warning from a benefit (the needed read of version 1). Named to him as a change of mine in the turn's report"
+  ]
+ }
+}

@@ -1,0 +1,112 @@
+[
+ {
+  "key": "dmso4",
+  "name": "DMSO Safety, try 2: the item without the section label, the closing pointer saying what is there",
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "words": 160,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "1c43ecdb81eae9b16fc888249c839c537d225cfa87dc907070f32799afe0aa0f"
+ },
+ {
+  "key": "elec4",
+  "name": "Electrolytes, fixed for sense",
+  "lineage": "neuro-de-armoring/W-ELEC",
+  "scope": "paragraph",
+  "words": 65,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "df8d9f14006533b0520c41e30f0a44207a3124898859850e58d4fe5559296ea1"
+ },
+ {
+  "key": "ethno4",
+  "name": "Ethnobotanicals, fixed for sense",
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "words": 74,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "fc2dda4a579ea8131a1635d839b015832b1fd5eb3efd2a11887717f5be8006cf"
+ },
+ {
+  "key": "iso4",
+  "name": "The Isolation Trap, fixed for sense",
+  "lineage": "neuro-de-armoring/W-ISO",
+  "scope": "paragraph",
+  "words": 109,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "1b86a5f802f32c8d13737a3b1fb22ccb927f9f380fe48a5604f3c11f8b1c881a"
+ },
+ {
+  "key": "pair-iso-rule4",
+  "name": "The Rule (41 words) with its neighbour, the Isolation Trap",
+  "lineage": "neuro-de-armoring/PAIR-ISO-RULE",
+  "scope": "pair",
+  "words": 150,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "73c1f762522ba96bdb0d468e4ae1ccae83e9de33f0da821b078546b62935fce0"
+ },
+ {
+  "key": "proj4",
+  "name": "The Cognitive Warning's second paragraph (the rule and its heart-rate test)",
+  "lineage": "neuro-de-armoring/W-PROJ",
+  "scope": "paragraph",
+  "words": 80,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "41f2c7f178fe0670f648230a741f413f253f7e589620cd60c2a664ad9c2112d1"
+ },
+ {
+  "key": "pair-cog-proj4",
+  "name": "The Cognitive Warning (48 words) with its neighbour, the paragraph after it",
+  "lineage": "neuro-de-armoring/PAIR-COG-PROJ",
+  "scope": "pair",
+  "words": 128,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "ede3d767390be3d5b0ad8f682110f1385b5f135fbf527f89aa491a3a172e2807"
+ },
+ {
+  "key": "agm4",
+  "name": "The Agmatine Warning's first paragraph (what agmatine is)",
+  "lineage": "neuro-de-armoring/W-AGMINTRO",
+  "scope": "paragraph",
+  "words": 91,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "see the ledger record",
+  "sha256": "b1e185a04562c6f69f5d3f9191a056b5a70f6b2b126c611fb48c17b3221d3a34"
+ },
+ {
+  "key": "htp4",
+  "name": "The 5-HTP warning for psychedelic users, with its rule moved up into it",
+  "lineage": "neuro-de-armoring/W-HTPTOP",
+  "scope": "paragraph",
+  "words": 200,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "fc86816a8346e2d464c1989e6029be86579ee3e28645b1807d59199e403177db"
+ },
+ {
+  "key": "uri4",
+  "name": "The uridine half of the warning for psychedelic users",
+  "lineage": "neuro-de-armoring/W-URITOP",
+  "scope": "paragraph",
+  "words": 96,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "6de56e349be6ce003bef8ce054aadaa6fbe904d01636683ec70b05ef912e1a3a"
+ }
+]

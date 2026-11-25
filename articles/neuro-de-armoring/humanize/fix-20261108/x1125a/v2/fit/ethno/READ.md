@@ -1,0 +1,2 @@
+- S2: ANYWAY yes, mushrooms and iboga both act on my nervous system when nothing is wrong (that's why I'd take them), so "can affect your ... nervous system" doesn't tell me what iboga's danger is / CAN'T TELL - / FROM - / MISREAD -
+- S3: ANYWAY - / CAN'T TELL yes, I can't tell whether my own medication is one of the "most", how far apart counts as not combining, or whether I'm meant to leave out the iboga or come off the medication / FROM - / MISREAD -

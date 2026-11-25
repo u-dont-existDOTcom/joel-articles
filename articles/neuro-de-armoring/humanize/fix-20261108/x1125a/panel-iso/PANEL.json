@@ -1,0 +1,42 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Behavioral Warning (The Isolation Trap): This protocol demands starving your brain of \"Phasic\" Dopamine (excitement, novelty, the chase), and the easiest way to do that is to hole up alone, but do not isolate completely.",
+  "Total social isolation spikes cortisol, the chronic stress hormone, which makes your brain more sensitive to glutamate, and that locks the armor in place whether or not you've ever had an addiction.",
+  "We're social animals, so what you need is the calm kind of company, the kind that gives you oxytocin instead of a dopamine spike (the \"Oxytocinergic Anchoring\" the rule below is about)."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is evenly balanced, moving through warning, mechanism and prescription in sentences of similar length that each close on a tidy clause, so the rhythm feels built rather than found. Its voice is authoritative and generic, though the chained causes in the middle sentence (\"which makes your brain more sensitive to glutamate, and that locks the armor in place\") are a mechanism-first construction that a writer could produce as easily as a model."
+  ],
+  "sonnet": [
+   "The paragraph is one long, evenly paced run of comma-linked clauses that moves in a perfectly orderly sequence (instruction, mechanism, reassurance, alternative) with no digression, hesitation or concrete detail. Its voice is the impersonal, authoritative protocol-manual register with no first-person experience and no specific person or scene, and it is built like a callout box with a label, a rule and a cross-reference."
+  ]
+ },
+ "human_clean": [
+  "hole up alone",
+  "hole up alone"
+ ]
+}

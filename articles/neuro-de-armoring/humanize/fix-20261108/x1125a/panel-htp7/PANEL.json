@@ -1,0 +1,67 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repair, so don't use them as \"trip enhancers.\"",
+  "In practice they can quickly change how strongly psychedelics hit you, so don't count on your usual dose acting the way it used to.",
+  "5-HTP is also what your body makes serotonin out of, so taking it on top of anything else that raises serotonin is how people end up with serotonin syndrome, which can be deadly (see the 5-HTP section).",
+  "So never take it with any of these: SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St.",
+  "John's wort, SAM-e or L-tryptophan.",
+  "Rule: psychedelics act on serotonin too, so do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga, iboga microdoses included.",
+  "That's because ayahuasca's harmalas inhibit MAO-A, which amplifies the serotonin load, while ibogaine and noribogaine interact with serotonin transport themselves, on top of the serious cardiac and neurological risk iboga already carries."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "whole": {
+  "haiku": [
+   "The sentences sit in one even band of length, most joined by a tidy logical connector (so, because, that's because), and the paragraph closes on a balanced two-mechanism explanation, which reads like a generated safety summary. The voice is otherwise plain and rule-driven rather than personal, and no single item settles the question."
+  ],
+  "sonnet": [
+   "The paragraph is built as a warning template: purpose, hazard, exhaustive prohibition list, labelled rule, then a mechanism paragraph that justifies each exclusion. Every sentence is a complete, balanced, similarly weighted unit, and the voice is uniformly cautious and impersonal, with no first-person experience, no tangents and no uneven emphasis."
+  ]
+ },
+ "human_clean": [
+  "trip enhancers",
+  "anywhere near ayahuasca/harmalas or iboga",
+  "iboga microdoses included"
+ ]
+}

@@ -1,0 +1,35 @@
+[
+ {
+  "key": "ethno10",
+  "name": "The plant medicines, try 2: what \"any\" is",
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "words": 75,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "51b29adf0363a5e0a5c4e98b52a21f08abc43835ad3b556c867a2c6ac3fb7534"
+ },
+ {
+  "key": "uri10",
+  "name": "Uridine, try 2: what \"it\" is",
+  "lineage": "neuro-de-armoring/W-URITOP",
+  "scope": "paragraph",
+  "words": 96,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "b904523d2ed852eb94f0f58c4e8a142ef0368ebfee28e718292ba870f6d06fac"
+ },
+ {
+  "key": "dmso10",
+  "name": "DMSO Safety, try 4: what the lungs count as",
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "words": 148,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "7ffc5b604b520b07aeac011d2b6e43c2c61c96d3535972b881d5dbfb0ebbd524"
+ }
+]

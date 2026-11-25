@@ -1825,6 +1825,51 @@
     }
    ],
    "recorded_utc": "2026-11-24T21:58Z"
+  },
+  {
+   "turn": "2026-11-25T01:24Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all already in docs/suggested-fixes-ledger.md; no new item; UDA main at 3fce0320 (AGENTS.md and LESSON-INDEX.md read at the start of the turn from a clone, the repo being public)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main moved to 67dd2775 during the turn (romance 529 and 532, contents 530 and 531, all merged) and is merged into this branch, with the shared changes read: lessons romance-2026-11-25a and b and toc-2026-11-25a and b, decision_page.py's buttons, headings_brief rule 12, toc_check reading .md; open pull requests are the nine older ones (438, 309, 278, 244, 200, 199, 198, 197, 109), none changed since this lane's last turn; no issue opened or commented on since 2026-11-24 21:43 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no one else changed HANDOFF-neuro-de-armoring.md or OWNER-QUESTIONS.md since this lane's last commits (c097b83b, 7208eaf6)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (read at the end of the turn too)"
+    },
+    {
+     "place": "notes",
+     "status": "unreachable",
+     "failed": "the questions page 8cWv5mbXY8y53RL1nhvzky and the old cards page 9nENpt9AEJCB43a9Wy5jqn are published from his other account and answer 'not found' from this one, so the cards page's stored answers could not be read; nothing was open on it at the last turn",
+     "retry": "a turn from that account reads its store; this turn published the questions page and the new cards page from this account too (ByR6PgMNVAgYDTyGPeNa9N, Fjp7rvxUptxhGUdHS1o3tX), with the Markdown in Git as the master"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 01:24 UTC: the humanizing pass, starting with the warnings at the top",
+     "outcome": "done for the section as far as my tries go: six in at Human High, three teaching cards out to him the same turn, two short paragraphs close and mine to finish, questions 66 to 69 on his page"
+    },
+    {
+     "item": "main's shared changes",
+     "outcome": "read; none touches this lane's files or the tools this turn used"
+    }
+   ],
+   "recorded_utc": "2026-11-25T03:01Z"
   }
  ]
 }
