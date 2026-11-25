@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Behavioral Warning (The Isolation Trap): This protocol demands starving your brain of \"Phasic\" Dopamine (excitement, novelty, the chase), and the easiest way to do that is to hole up alone.",
+  "But do not isolate completely, because total social isolation spikes cortisol, the chronic stress hormone, and that sensitizes your brain to glutamate and locks the armor in place even if you've never had an addiction.",
+  "You still need people, since we're social animals, just in the calm ways the rule below describes (the \"Oxytocinergic Anchoring\")."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph has a warning-then-remedy build, with each sentence carrying one clean beat and the closing sentence tying back to the coined label. The label, the glosses and the signposting together make it read like a structured guide, not a personal essay, and its even sentence lengths add to that."
+  ],
+  "sonnet": [
+   "The paragraph is built as a compact warn, explain, reassure unit. Every sentence is smooth and balanced, with no rough edges or digressions, and the voice is that of an instructional explainer, not a person. Its coined capitalised terms and parenthetical glosses are densely packed for the length."
+  ]
+ },
+ "human_clean": []
+}

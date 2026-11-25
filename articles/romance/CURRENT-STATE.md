@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-24
+Updated: 2026-11-25
 
 ## Goal
 
@@ -283,14 +283,27 @@ with his OK and no email.
   (9 of 104). Six ideas went to him. `articles/BUILT-ON.json` now says the game is built on this article. The record:
   `humanize/fix-20261107/r42/README.md` and `r40/CARD-GAME.md`. Nothing in the article changed this round.
 
+- 2026-11-25 (01:23 UTC, `humanize/fix-20261107/r43/`): his answer on the game ("yes tick attraction and polarity from
+  the start, and i approve all 6 of your ideas"). "Love, Honestly" v0.7.0 built as a candidate on top of v0.6.0 (no card
+  changed): Attraction & Polarity ticked from the start, a line under "How deep?", "A lighter one instead", a memory of
+  played cards in the browser, two phones joined by a code; 30 engine checks (six deliberate breakages caught) and 42
+  browser checks pass; the file went to him. The three ideas that need card texts written and put to him on one page,
+  204 items: 28 Warm cards, a plain-words pass (92 lines on 62 older cards), a one-person route (its design, 41 cards
+  turned toward one person, 14 new cards, 15 steps), and the 9 changes of v0.6.0 he had not seen. Nothing in the article
+  changed. Lessons romance-2026-11-25a (the page tool's "Pending" button, fixed) and b (a rewording brief says that
+  nothing is removed; every batch is read beside its originals).
+
 ## Next step
 
-His word on the game's v0.6.0 (`r40/CARD-GAME.md`, "Still to do"): then its pull request is merged, the innerself site
-vendors the new file, and the site is deployed with his go-ahead. His pick among the six ideas, if any. From now on, a
-turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else
-is pending: the drafts pasted again for his whole-article check (not before: "no point checking the drafts until we are
-done"), then his post updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, his
-new opening's video and links, the typography swap and the "Updated" date; he deletes the two drafts.
+His answers on the game's card texts ([the page he answers on](https://claude.ai/artifact/Eo9nhyRepPM9ti2fSGo78P), [the same
+on GitHub](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/CARDS.md)) and
+his word on the game's v0.7.0 (`r40/CARD-GAME.md`, "Still to do"): then the approved texts go into the next version with
+the one-person route, its pull request is merged, the innerself site vendors the new file, and the site is deployed with
+his go-ahead. From now on, a turn that changes the article checks the cards that name the changed section
+(`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted again for his whole-article check (not
+before: "no point checking the drafts until we are done"), then his post updated with his OK (no email): 366's link to
+Esther Perel's post, the reel embedded after 149, his new opening's video and links, the typography swap and the
+"Updated" date; he deletes the two drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

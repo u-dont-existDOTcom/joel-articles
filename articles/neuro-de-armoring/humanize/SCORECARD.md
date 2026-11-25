@@ -15,7 +15,9 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
-| Pangram 4.1 (web app) | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
+| Pangram 4.1 (web app) | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
+| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 19 | 14 (74%) | 58% | 42% | 58% | 0.207 (base 0.244, 19) |
+| Pangram 4.1 (web app, his account, Claude in Chrome in his browser) | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
@@ -218,53 +220,103 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
-| the latest 100 | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
-| all | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
+| the latest 50 | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
+| the latest 100 | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
+| all | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 10 | 6 (60%) | 40% | 60% | 100% | 0.190 (base 0.240, 10) |
+| paragraph | 19 | 11 (58%) | 42% | 58% | 89% | 0.205 (base 0.244, 19) |
 | pair | 2 | 0 (0%) | 100% | 0% | 100% | 0.276 (base 0.000, 2) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.4 to 0.6 | 10 | 0.55 | 40% |
+| 0.4 to 0.6 | 18 | 0.52 | 44% |
 | 0.6 to 0.8 | 3 | 0.60 | 100% |
-| 0.8 to 1.0 | 2 | 0.82 | 100% |
+| 0.8 to 1.0 | 3 | 0.83 | 100% |
 
-## Misses since the ledger (19)
+## Pangram 4.1 (web app, his account, in the desktop app's browser pane)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 19 | 14 (74%) | 58% | 42% | 58% | 0.207 (base 0.244, 19) |
+| the latest 100 | 19 | 14 (74%) | 58% | 42% | 58% | 0.207 (base 0.244, 19) |
+| all | 19 | 14 (74%) | 58% | 42% | 58% | 0.207 (base 0.244, 19) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 19 | 14 (74%) | 58% | 42% | 58% | 0.207 (base 0.244, 19) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.2 to 0.4 | 2 | 0.30 | 50% |
+| 0.4 to 0.6 | 17 | 0.49 | 41% |
+| 0.6 to 0.8 | 4 | 0.60 | 100% |
+
+## Pangram 4.1 (web app, his account, Claude in Chrome in his browser)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
+| the latest 100 | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
+| all | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 22 | 18 (82%) | 45% | 55% | 55% | 0.155 (base 0.248, 22) |
+| pair | 7 | 4 (57%) | 71% | 29% | 14% | 0.256 (base 0.204, 7) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.2 to 0.4 | 11 | 0.27 | 18% |
+| 0.4 to 0.6 | 13 | 0.49 | 54% |
+| 0.6 to 0.8 | 6 | 0.65 | 100% |
+| 0.8 to 1.0 | 1 | 0.80 | 100% |
+
+## Misses since the ledger (35)
 
 | cause | misses |
 |---|---|
-| not explained yet | 16 |
+| not explained yet | 19 |
+| shape | 8 |
+| register | 2 |
+| context | 2 |
 | the panel's fixes worked better than I expected | 1 |
 | my changes to try 5's Medium and Low sentences read AI | 1 |
 | another family's writer changed the build | 1 |
+| ambiguity | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [b088](https://www.pangram.com/history/4079bcd3-65eb-43f8-97bb-ec8436fc5f19) | ND1104-B088, 3 | Human | AI or mixed | **not explained yet** |
-| [b088m](https://www.pangram.com/history/f645d894-6c91-41b3-841d-26ec0d79b093) | ND1104-B088m, 1 | AI | Human | **not explained yet** |
-| [b093](https://www.pangram.com/history/2be95f74-b2cf-45ec-a669-1807880af623) | ND1104-B093, 4 | AI | Human | **not explained yet** |
-| [b095](https://www.pangram.com/history/53b000ed-a200-44af-8eb7-051b992576a1) | ND1104-B095, 1 | AI | Human | **not explained yet** |
-| [778a81972c80](https://www.pangram.com/history/6e5452c4-3a59-480a-ae28-b9370928c6f5) | neuro-de-armoring/section-c-dynorphin, 1 | Human | AI or mixed | **not explained yet** |
-| [p1-P032](https://www.pangram.com/history/eeb2d730-ca9e-41ea-815e-6163350f8aee) | neuro-de-armoring/P032, 1 | AI | Human | **not explained yet** |
-| [p1-STRETCH-030-033](https://www.pangram.com/history/b1594a9f-6c90-4dcd-b117-68c50f21df5e) | neuro-de-armoring/STRETCH-030-033, 1 | AI | Human | **not explained yet** |
-| [r4-B042e](https://www.pangram.com/history/e06f6f0d-f215-4c45-8c5a-9b76a2f96120) | neuro-de-armoring/B042, 3 | AI | Human | **not explained yet** |
-| [sci-B038s](https://www.pangram.com/history/4c0e1a5b-51fe-4d93-854e-451a187daff3) | neuro-de-armoring/B038, 4 | Human | AI or mixed | **not explained yet** |
-| [B039h](https://www.pangram.com/history/60a9335d-05f1-4227-a6e4-9956415a2a71) | neuro-de-armoring/B039, 1 | Human | AI or mixed | **not explained yet** |
-| [PAIR-040-041](https://www.pangram.com/history/4312584e-a4de-471b-aaba-5459ffaa4cd9) | neuro-de-armoring/PAIR-040-041, 1 | Human | AI or mixed | **not explained yet** |
-| [B037h](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087) | neuro-de-armoring/B037, 2 | Human | AI or mixed | **not explained yet** |
-| [B038h2](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6) | neuro-de-armoring/B038, 5 | Human | AI or mixed | **not explained yet** |
-| [B039n](https://www.pangram.com/history/7768cb2f-aa9a-4ab2-b99e-7e14ac8379f9) | neuro-de-armoring/B039, 2 | Human | AI or mixed | **not explained yet** |
-| [PAIR-040-041n](https://www.pangram.com/history/ca20c43c-e69b-4360-a7e9-fb4941bbb23f) | neuro-de-armoring/PAIR-040-041, 2 | Human | AI or mixed | **not explained yet** |
+| [his48](https://www.pangram.com/history/49abe0e2-a937-4e4f-9fd6-abca06f2fd0c) | neuro-de-armoring/B048-his, 1 | Human | AI or mixed | **not explained yet** |
+| [sp54h](https://www.pangram.com/history/7ac6e89f-71ff-417d-ac17-b19577134de9) | neuro-de-armoring/B054-sc54, 2 | Human | AI or mixed | register |
+| [sp54c](https://www.pangram.com/history/5aadfad4-0e5b-4329-aaa8-0edd7994a054) | neuro-de-armoring/B054-sc54, 3 | Human | AI or mixed | register |
+| [w35h](https://www.pangram.com/history/e5176e60-7a61-4e7d-b207-2a59adff9392) | neuro-de-armoring/W35-weeks35, 2 | AI | Human | ambiguity |
+| [lma](https://www.pangram.com/history/50622455-2e3a-482e-ac66-0ae461f68592) | neuro-de-armoring/W-LMA, 1 | Human | AI or mixed | **not explained yet** |
+| [agm4](https://www.pangram.com/history/ce4e4e6a-64fb-467d-8750-2ed33891c429) | neuro-de-armoring/W-AGM, 2 | Human | AI or mixed | shape |
+| [lma5](https://www.pangram.com/history/f7a711fe-ad7c-40d4-be5a-5f2e3f60a684) | neuro-de-armoring/W-LMA, 3 | Human | AI or mixed | shape |
+| [bl-lma](https://www.pangram.com/history/b542fab2-ca5c-4288-a6be-b4525bfd9af3) | neuro-de-armoring/W-LMA-blind (replay x1124b), 1 | Human | AI or mixed | shape |
+| [dmso3](https://www.pangram.com/history/b6ae4d59-c6af-4d81-8b6c-82eca40299c1) | neuro-de-armoring/W-DMSO, 1 | AI | Human | shape |
+| [elec4](https://www.pangram.com/history/db02d981-2f00-4ec8-b1d0-7dce7f3e1b18) | neuro-de-armoring/W-ELEC, 1 | Human | AI or mixed | shape |
+| [iso4](https://www.pangram.com/history/2bef0402-3916-4f9c-b1cd-2678afe1b0fd) | neuro-de-armoring/W-ISO, 1 | Human | AI or mixed | shape |
+| [pair-cog-proj4](https://www.pangram.com/history/d3e4d207-f93b-4ba5-a7c1-d319c4de6074) | neuro-de-armoring/PAIR-COG-PROJ, 1 | Human | AI or mixed | context |
+| [elec7](https://www.pangram.com/history/107fdac9-c18d-4518-a639-09950f338556) | neuro-de-armoring/W-ELEC, 2 | AI | Human | shape |
+| [pair-cog-proj8](https://www.pangram.com/history/bda984c5-6d7a-4260-9134-7a1ac5800bbb) | neuro-de-armoring/PAIR-COG-PROJ, 3 | AI | Human | shape |
+| [pair-rule-cog9](https://www.pangram.com/history/d733d10c-8ca8-4761-8e03-4ad19be07015) | neuro-de-armoring/PAIR-RULE-COG, 1 | AI | Human | context |
 
 ## Lineages still open (tries used of the cap)
 
@@ -340,4 +392,15 @@ The latest:
 | neuro-de-armoring/B037 | paragraph | 2 of 6 | AI |
 | neuro-de-armoring/B039 | paragraph | 2 of 6 | Mixed |
 | neuro-de-armoring/PAIR-040-041 | pair | 2 of 6 | AI |
+| neuro-de-armoring/B048-his | paragraph | 1 of 6 | Mixed |
+| neuro-de-armoring/B054-sc54 | paragraph | 3 of 6 | Mixed |
+| neuro-de-armoring/W-LMA | paragraph | 5 of 6 | AI |
+| neuro-de-armoring/W-AGM | paragraph | 3 of 6 | AI |
+| neuro-de-armoring/W-LMA-blind (replay x1124b) | paragraph | 1 of 6 | AI |
+| neuro-de-armoring/W-AGM-blind (replay x1124b) | paragraph | 1 of 6 | Mixed |
+| neuro-de-armoring/W-ISO | paragraph | 3 of 6 | AI |
+| neuro-de-armoring/PAIR-ISO-RULE | pair | 2 of 6 | AI |
+| neuro-de-armoring/PAIR-COG-PROJ | pair | 4 of 6 | Mixed |
+| neuro-de-armoring/W-AGMINTRO | paragraph | 3 of 6 | AI |
+| neuro-de-armoring/W-HTPTOP | paragraph | 3 of 6 | AI |
 

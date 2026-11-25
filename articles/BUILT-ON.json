@@ -22,7 +22,10 @@
       "source": "inner-child-therapy",
       "built_on_it": "inner-signal",
       "names": "the inner child guide (innerchild.u-dont-exist.com) -> the Self-Hypnosis guide (hypnosis.u-dont-exist.com, post 202810155)",
-      "his_words": ["2026-11-20 23:40 UTC", "2026-11-24 21:05 UTC"],
+      "his_words": [
+        "2026-11-20 23:40 UTC",
+        "2026-11-24 21:05 UTC"
+      ],
       "sections": {
         "ids": "S017-S034, S070-S072, S113, S127, S130, S133-S136, S158, S162",
         "how_found": "a first list from the live post's headings and links (articles/inner-signal/experiments/toc-20261123/SECTIONS.json, live post of 2026-11-23) and the sections the September sync changed (articles/inner-signal/sync-r03/PATCHES-R03.json); the catch-up confirms it"
@@ -31,14 +34,22 @@
         "what": "r03, 2026-09-11: 24 edits synced against the inner child guide as it was on 2026-09-11 (articles/inner-signal/source/inner-child-owner-20260911.md)",
         "in_the_live_post": "checked 2026-11-24 against the live post of 2026-11-23: none of r03's wording is in it (one of its edits only changed dashes); 4 short passages still read as they did before r03, and the other 19 have been reworded since, so whether their content came over needs a read"
       },
-      "next": "the catch-up: compare these sections of the live post with the inner child guide as it is now, and bring the changes in before the post's next edit (the contents lane's one editor transaction)"
+      "next": "the rest of the catch-up (promise 17 in work/toc-long-articles-20261122/PROMISES.md): 8 smaller additions and 3 smaller differences still open against the inner child guide (articles/DEPENDS.md lists them as \"behind\" and \"his to settle\"), on a second marking page",
+      "compared": {
+        "when": "2026-11-25",
+        "with": "the live inner child guide of 2026-11-24 22:39 UTC (post 189761959)",
+        "found": "33 differences of substance (2 high, 16 medium, 15 low): articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.md",
+        "brought_in": "2026-11-25 16:28 UTC, the second edit: ten additions made of the inner child guide's sentences (his approvals on the marking page, links carried), C03 brought in line, C06, C08, C11 and C18 settled his way (articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1600.md). The first edit (12:00 UTC) made the adult-hat pointer name \"Borrowed Adulthood\". articles/DEPENDS.json is read against both live posts: 0 changed"
+      }
     },
     {
       "source": "inner-child-therapy",
       "built_on_it": "hearthwork",
       "registered": false,
       "names": "the inner child guide -> the Hearthwork guide (not registered in this repository yet)",
-      "his_words": ["2026-11-20 23:40 UTC"],
+      "his_words": [
+        "2026-11-20 23:40 UTC"
+      ],
       "last_brought_in_line": null,
       "next": "when the Hearthwork guide is registered, list its sections built on the inner child guide and when they were last brought in line"
     },
@@ -46,21 +57,31 @@
       "source": "somatic-therapies",
       "built_on_it": "inner-signal",
       "names": "the somatic guide (somatic.u-dont-exist.com, post 201523223) -> the Self-Hypnosis guide",
-      "his_words": ["2026-11-24 21:05 UTC"],
+      "his_words": [
+        "2026-11-24 21:05 UTC"
+      ],
       "sections": {
         "ids": "S121-S126, S149-S151",
         "how_found": "a first list from the live post's headings and links (Appendix D's body-first methods, which name the somatic guide's practices, and the breath and body inductions); the catch-up confirms it"
       },
       "last_brought_in_line": null,
       "note": "the repository's copy of the somatic guide (articles/somatic-therapies/master.html) is older than the live post: the live post has a Systema section that the copy has no heading for",
-      "next": "the catch-up, with the inner child one: the live somatic post first, then these sections"
+      "next": "the rest of the catch-up (promise 17): 4 smaller additions and 7 smaller differences still open against the somatic guide, on the same second marking page",
+      "compared": {
+        "when": "2026-11-25",
+        "with": "the live somatic guide of 2026-11-21 19:14 UTC (post 201523223)",
+        "found": "17 differences of substance (2 high, 5 medium, 10 low): articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.md; the two high ones are the two guides' different breathing instructions (question 7 to him)",
+        "brought_in": "2026-11-25 16:28 UTC, the second edit: the breathing paragraph the somatic guide's way (his answer 7 b), the sentence on titration, pendulation and orientation, and the massage sentences with \"Rolfing\" linked. The first edit (12:00 UTC) added \"for paid subscribers\" and the Systema sentences"
+      }
     },
     {
       "source": "romance",
       "built_on_it": "love-honestly",
       "registered": false,
       "names": "the romance guide (Romance Advice I Wish My Parents Taught Me) -> his couples card game \"Love, Honestly\" (an app, not a post: the repository u-dont-existDOTcom/love-honestly; live as the /love-honestly/ page of his innerself site)",
-      "his_words": ["2026-11-24 16:23 UTC"],
+      "his_words": [
+        "2026-11-24 16:23 UTC"
+      ],
       "sections": {
         "ids": "every card names the article section it draws on (its \"Article source\" line)",
         "how_found": "the deck itself; on 2026-11-24 a fresh reader read all 95 cards of v0.5.4 against the article (articles/romance/humanize/fix-20261107/r42/game-audit/AUDIT.json), and every card's section names were compared with the article's headings"

@@ -75,30 +75,44 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    contents work starts from the live post, as Nirvāna's did). Step 2 done the same day, on the live post (165 sections,
    164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
-Next step: for the Self-Hypnosis guide, the rest of his answers on the picks page (https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk,
-published 2026-11-24 01:23 UTC; his picks up to S034 are in, `answers/JOEL-20261124-1418.md`, and only those count of
-the record he pasted at 14:18; the page stopped taking his clicks and was fixed at 14:26 UTC, lesson toc-2026-11-24a;
-its record, `articles/inner-signal/experiments/toc-20261123/RESULTS.md`, last section). The record he pasted at 21:05
-UTC came from the TEST copy (https://claude.ai/artifact/SaNBVtX4AyqYV7mRaJTvHA holds my test clicks,
-S001 "now", S042 and S043 own words, and now only points to his page); his own page still holds S011 and S015 in his
-words. **Nothing of his needs redoing** (his question of 21:35 UTC; `answers/JOEL-20261124-2135.md`): a heading
-left on the proposal is not stored, both records show the proposals from S035 on, and he carries on from where he
-stopped (S122) on his page, or says he is done with the headings. The page was republished at 21:49 UTC so that his
-answers are merged with the saved ones, never replaced (lesson toc-2026-11-24c; it has its own store name now).
-His 15 answers on Fable's notes set the structure (2026-11-24 01:04 UTC: `answers/JOEL-20261124-0104.md`, STRUCTURE.json):
-five headings go, three change level, four groups move, the audit merges into Appendix F, appendices take letters only.
-His 21:05 note on S122 adds Systema's continuous breathing beside Buteyko breathing: text change T7 (two linked
-sentences, the Systema video and the somatic guide's Systema section). S122's heading stays "Breathe Less (Buteyko)",
-the title in what he sent (21:35 UTC: "i already gave a title at s122 check what i sent you"); my "Buteyko & Systema"
-of 21:09 is withdrawn, and the page's note on T7 asks nothing.
-**Before the edit, the catch-up with the posts it is built on** (lesson toc-2026-11-24b, `articles/BUILT-ON.json`): he
-said on 2026-11-20 that the hypnosis guide is built on the inner child guide, and on 2026-11-24 21:05 that it is built
-on the somatic guide too, and the September sync (r03) never reached the live post. Compare S017-S034, S070-S072, S113,
-S127, S130, S133-S136, S158 and S162 with the live inner child guide, and S121-S126 and S149-S151 with the live somatic
-guide; each change goes in through this post's humanization rules (checked by itself, in only at Human High) or to him,
-in the same editor transaction as the contents.
-When his picks come: check each text change in its section in the web app (TEXT-CHANGES.json: S001 with S002's lines,
-S143 with the general-rule sentence, S079 with its pointer, the merged S131, T7 in S122), then apply everything in one editor
-transaction (renames, levels, moves, drops, the merge, the 35 links of LINK-PLAN.json with anchors from the final
-headings, the catch-up's changes, as Nirvāna's apply_in_editor.js did), then the whole post the free way in parts (his extension, temporary
-drafts' secret links) for the moved sections.
+**What this lane still owes him is in [PROMISES.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/work/toc-long-articles-20261122/PROMISES.md)** (his ask of 2026-11-25 16:14 UTC). Read it
+at the start of a turn and again before the reply; a promise goes on it the turn it is made.
+
+**The Self-Hypnosis contents is in the post, in two edits on 2026-11-25** (12:00:39 and 16:28 UTC):
+[what went in, the section checks, every heading before and now](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/APPLIED.md). His picks
+([01:08](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-0108.md)), his answers to the nine questions
+([11:18](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1118.md)), his marking-page answers and the two names for question 4
+([16:00 and 16:14](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1600.md)). 160 headings, none cut off; 39 links to its own sections,
+written `#§slug` so they scroll (lesson toc-2026-11-25c). The inner child guide's 24 and the Nirvāna guide's 13 scroll
+too. The post's live text, link catalog and the registry of shared passages are read from the post as it is after
+the second edit (`articles/inner-signal/LIVE-SECTIONS.json`, `SECTION-LINKS.json`, `articles/DEPENDS.json`: 0 changed).
+
+Next step for the lane, in order (each is a promise on the list):
+
+1. **Run the watcher from the laptop at the start of every turn** (promise 3), before any edit of a post:
+   `python3 scripts/watch_live_posts.py` in a fresh clone on his laptop (Desktop Commander; the cloud shell and
+   GitHub's servers both get refused by Substack: HTTP 403 on 2026-11-25, at ibogaqueen.substack.com and at
+   substack.com, runs 45659968509 and 45661315269). Exit 1 names the registered passages he changed on Substack and
+   what depends on them: read those before editing. The job's daily schedule is commented out in
+   `.github/workflows/depends-watch.yml` so it can't fail every day; it runs by hand. If he says yes to a daily
+   timer on his laptop, that is a systemd user timer (Persistent=true) running the script and
+   `--issues-from` with his `gh`; it is his machine's standing configuration, so it needs his yes.
+2. **The rest of the catch-up** (promise 17): 12 smaller additions and 10 smaller differences between this guide and
+   the two it is built on, listed as "behind" and "his to settle" in
+   [articles/DEPENDS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/DEPENDS.md). Draft the
+   additions from his own sentences, read each source sentence's links with `tools/humanization/carried_links.py`
+   (lesson toc-2026-11-25f), check each in its section, and put all 22 on a second marking page built the way
+   `review/build_review.py` builds the first. Then one small editor edit
+   (`apply_plan2.py` is the pattern: base = the live body, `apply_in_editor.js`, then
+   `tools/humanization/substack_update.js`), the live post fetched from the laptop, `live_sections.py`,
+   `depends.py check`, and `last_brought_in_line` set in `articles/BUILT-ON.json`.
+3. **"EFT Tapping" and "Gendlin Focusing"**, which read AI by themselves, and the five Medium windows of his
+   (promises 6 and 7), in the same pass as 2 where they touch the same sections.
+4. **The whole post, the free way** (promise 5): his extension, or in parts on his word.
+5. **The bad trips guide's 42 section links** (promise 2) are that lane's files; read its live post each turn until
+   the guide is in with links that scroll.
+
+Pangram is signed in in the desktop app's browser pane (478 credits left on 2026-11-25, after the second edit's
+checks; a check costs 1 credit per 100 words).
+
+Then Escuelitas, Romance (the romance lane is active: it does the edit).

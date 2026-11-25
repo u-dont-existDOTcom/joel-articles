@@ -1,0 +1,38 @@
+{
+ "S143": {
+  "file": "pangram/SEC-S143-after.txt",
+  "his": "pangram/receipts/HIS-S143.txt",
+  "words": 155,
+  "sha": "9a8e253a5bb72316f61bf3644b9cb97f5a3ea7c3868c32ed72d34d9bf567c912"
+ },
+ "S077-S080": {
+  "file": "pangram/SEC-S077-S080-after.txt",
+  "his": "pangram/receipts/HIS-S077-S080.txt",
+  "words": 281,
+  "sha": "0f58abc2cecbc2fdea05948225deb0efbf8726277fae87b95b5c4572db4be528"
+ },
+ "S122": {
+  "file": "pangram/SEC-S122-after.txt",
+  "his": "pangram/receipts/HIS-S122.txt",
+  "words": 168,
+  "sha": "d5d013a6ce0590faf150e65b7e579b8dca5e30b0789ec75b90e08103b075df5b"
+ },
+ "S123-S125": {
+  "file": "pangram/SEC-S123-S125-after.txt",
+  "his": "pangram/receipts/HIS-S123-S125.txt",
+  "words": 268,
+  "sha": "a5b34a6633fe66543d6e21ddfd3d6c8493578582ea6777a2561e28dbe977be6a"
+ },
+ "S019": {
+  "file": "pangram/SEC-S019-after.txt",
+  "his": "pangram/receipts/HIS-S019.txt",
+  "words": 453,
+  "sha": "11791c3ba42e85f96308f9204273b36b1697e895f65fac2204e2b3f50d2ec354"
+ },
+ "S007": {
+  "file": "pangram/SEC-S007-after.txt",
+  "his": "pangram/receipts/HIS-S007.txt",
+  "words": 206,
+  "sha": "dfa0c36ba3567abdfd7befce104a0b2ee264e19ce9b0f6f4ac904760874b9a98"
+ }
+}

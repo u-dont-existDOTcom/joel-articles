@@ -1,0 +1,1 @@
+- S2: ANYWAY yes, on my feet in a room, talking, my pulse sits above my resting rate even when nothing is wrong, so "back down to your usual resting rate" can't tell fear from standing up / CAN'T TELL yes, two bars: at 84 with a resting rate of 68 I can't tell whether I pass, and "at least until" doesn't say whether a calm pulse means I can trust my read / FROM - / MISREAD -

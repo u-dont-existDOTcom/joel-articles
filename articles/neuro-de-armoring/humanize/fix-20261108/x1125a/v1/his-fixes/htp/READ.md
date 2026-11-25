@@ -1,0 +1,12 @@
+MARKED:
+- S1: 4, 10 — "can change your brain's sensitivity quickly" doesn't say sensitivity to what or in which direction, and to someone who trips it reads as a reason to use them; his way would say what happens (the trip can hit harder than they planned for) so the don't has its reason. "in practice" adds nothing.
+- S1: 7 — uridine is named beside 5-HTP and then no sentence gives it a rule (S2 to S5 are all 5-HTP); his way would say what the reader does about uridine.
+- S2: 12 — nothing ties it to S1: S1 warned about both supplements and "sensitivity", and S2 starts on 5-HTP and serotonin as if it were a new point; his way would say in its opening words that this is the 5-HTP half of the warning.
+- S2: 4 — "serotonin syndrome" stands with nothing to say what it is, and the reader is sent to another section; his way says in a few words what a term means where it first comes up.
+- S3: 1 — thirteen class and drug names in a row with nothing to say what any of them is; his way would give them in groups a reader knows from their own life, each with what it is.
+- S3: 4, 16 — "other serotonin-raising stacks": what counts as a "stack" isn't said, and it says S2's "anything else that raises serotonin" again.
+- S4: 1, 2 — two cases and two mechanisms in one 47-word sentence, built as a mirrored pair ("around ayahuasca, because ..., and around iboga, because ...") with an explained term in the same slot of each half; his way would give each case its own sentence, built differently.
+- S4: 4, 21 — "Be especially conservative" doesn't say what to do, and "amplify the serotonin load", "interact with serotonin transport" and "serious cardiac and neurological risk" are labels; his way would say the thing (serotonin builds up, iboga is already hard on the heart).
+- S4: 7 — "and noribogaine (what your body turns ibogaine into)" gives the reader nothing to do.
+- S5: 4, 15 — "anywhere near" gives no number of days where the first half gives one ("the same day"), so the reader can't tell when taking it is safe again; his way would say what counts.
+- S5: 16, 17 — it gives S4's instruction a second time and at another strength ("be especially conservative around" there, "do not use it anywhere near" here); his way would say it once, as the do-not, with its reasons beside it.

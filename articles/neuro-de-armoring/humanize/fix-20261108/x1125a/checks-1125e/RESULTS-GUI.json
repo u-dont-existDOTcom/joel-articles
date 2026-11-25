@@ -1,0 +1,101 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, Claude in Chrome in his browser)",
+ "results": {
+  "iso8": {
+   "uuid": "11c50d40-e436-4393-be4f-522934cc9c33",
+   "at": "2026-11-24T21:38:27.714953-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 87,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     87,
+     "Behavioral Warning (The Isolation Trap): This protocol demands starving your brain of \"Phasic\" Dopamine (excitement, novelty, the chase), and the easiest way to do that is to hole up alone. But do not isolate completely, because total social isolation spikes cortisol, the chronic stress hormone, and that sensitizes your brain to glutamate and locks the armor in place even if you've never had an addiction. You still need the \"Oxytocinergic Anchoring\" of having people around you, as long as it's the calm kind of company."
+    ]
+   ]
+  },
+  "agm8": {
+   "uuid": "2829fcb4-fcf2-4f52-b75d-70268695285b",
+   "at": "2026-11-24T21:38:37.808434-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 69,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     69,
+     "Agmatine Warning (The Voltage Governor): Agmatine is optional in this protocol, and although it's sold as a supplement, it's a neuromodulator, here as a brake on NMDA/glutamate signaling. It can interact with a lot more medications than a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine would, since it also acts on imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance."
+    ]
+   ]
+  },
+  "htp8": {
+   "uuid": "b0b8ebed-8061-4fc0-a1b3-f37c57705130",
+   "at": "2026-11-24T21:38:48.386301-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 179,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     83,
+     "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repair, so don't use them as \"trip enhancers.\" But they can quickly change how strongly psychedelics hit you, so don't count on your usual dose acting the way it used to. 5-HTP is also what your body makes serotonin out of, and serotonin syndrome, which can be deadly, usually comes from mixing it casually with anything else that raises serotonin (see the 5-HTP section)."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     19,
+     "So never take it with any of these: SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     8,
+     "John's wort, SAM-e or L-tryptophan."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     69,
+     "Rule: psychedelics act on serotonin too, so do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga, iboga microdoses included. Ayahuasca's harmalas are MAOIs themselves (they inhibit MAO-A, which amplifies the serotonin load), and ibogaine and noribogaine interact with serotonin transport, on top of the serious cardiac and neurological risk iboga already carries."
+    ]
+   ]
+  },
+  "pair-cog-proj8": {
+   "uuid": "bda984c5-6d7a-4260-9134-7a1ac5800bbb",
+   "at": "2026-11-24T21:38:59.891222-05:00",
+   "headline": "Human Written",
+   "ai": 5.815693384647602e-06,
+   "words": 123,
+   "windows": [
+    [
+     "Human",
+     "High",
+     33,
+     "Cognitive Warning: As you de-armor, you will feel more naked and exposed than you're used to, and you'll assume everyone can see your anxiety, which they mostly can't (Dr."
+    ],
+    [
+     "Human",
+     "Medium",
+     12,
+     "Nicholas Epley calls this the \"Illusion of Transparency\" in his book Mindwise)."
+    ],
+    [
+     "Human",
+     "Low",
+     28,
+     "Your armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves."
+    ],
+    [
+     "Human",
+     "Medium",
+     50,
+     "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below)."
+    ]
+   ]
+  }
+ }
+}

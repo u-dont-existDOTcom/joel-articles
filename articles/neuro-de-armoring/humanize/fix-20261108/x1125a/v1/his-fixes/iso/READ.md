@@ -1,0 +1,12 @@
+MARKED:
+- S1: 5 — "This protocol demands starving the brain" opens on the protocol's rule with the reader outside it ("the brain", not yours); his way would start from the reader doing it.
+- S1: 14 — "do not isolate completely" is a flat don't, with no word on why someone cutting out excitement would end up alone; his way says first why a person would want to, then the problem.
+- S1: 19 — "excitement, novelty and the chase" is three category words in a row; his way keeps the ones that carry the point and gives one a case from life.
+- S2: 1 — one sentence carries the whole chain (isolation, cortisol, glutamate sensitivity, locked armor) plus two glosses and a limit on the end; his way gives each step its own clause with what happens.
+- S2: 11 — it opens on the mechanism (cortisol, glutamate) and only reaches what the reader gets (the armor stays locked) near the end; his way puts that first, then how.
+- S2: 9 — "even if you've never had an addiction" says who this applies to in a clause hung on the finding, and nothing before it in the paragraph mentions addiction; his way says first whether it bears on the reader.
+- S3: 5, 7 — "Humans are social animals" opens on a general truth with the reader outside it and gives them nothing to use, and the sentence ends on a label ("Oxytocinergic Anchoring") instead of what to do; his way would open on the reader and end on the act.
+- S3: 4 — "healthy social relationships" doesn't say what counts, when excitement, novelty and the chase are what's being cut; his way spells out which company is meant.
+- S3: 16 — "you still need healthy social relationships" says S1's "do not isolate completely" again the other way round; his way says it once, with the do ahead of the don't (27).
+- S3: 12 — the "so" rests on "Humans are social animals", not on S2; nothing says how oxytocin answers the cortisol and locked armor S2 just described.
+- S3: 2 — "oxytocin, the bonding hormone" is built like S2's "cortisol, the chronic stress hormone" and S1's "Dopamine, the bursts you get from ...": a term with its gloss in the same slot each time; his way builds each one differently.

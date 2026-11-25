@@ -1,0 +1,42 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Agmatine Warning (The Voltage Governor): Agmatine is optional in this protocol, and it's sold as a supplement, but don't think of it as a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine.",
+  "It's a neuromodulator, and it works on a lot at once: NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and the reward and tolerance you get from opioids.",
+  "So it can clash with the drugs that work on those same systems, which is what the precautions below are for."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph follows a planned three-beat build of caveat, mechanism, and consequence, closed by a neat tie-off line, with sentences of similar medium length and one short punch in the middle. The voice is even and neutral, with no first-person experience or hesitation, which makes the whole read as generated even where individual phrases do not."
+  ],
+  "sonnet": [
+   "The paragraph is built as a neat sequence: label, hedge (\"optional\"), reclassification, list of mechanisms, consequence, pointer forward. Every sentence is similar in length and carries a single job. The voice is even and instructional, with no personal stake, anecdote, or odd detail."
+  ]
+ },
+ "human_clean": [
+  "Agmatine is optional in this protocol, and it's sold as a supplement",
+  "Agmatine is optional in this protocol, and it's sold as a supplement, but"
+ ]
+}

@@ -1,0 +1,1 @@
+- S2: ANYWAY - / CAN'T TELL - / FROM - / MISREAD yes, "opioid reward/tolerance" is the one item I recognise, and read quickly it sounds as if agmatine acts like an opioid or builds tolerance itself; the line doesn't say it changes how opioids act on someone who takes them.

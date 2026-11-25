@@ -1,0 +1,2 @@
+MARKED:
+- S2: 4, 10 — "ACE inhibitors and ARBs" names two kinds of drug without saying what they are ("ARBs" is never spelled out), so a patient can't match them to the pills they take; and "so can the blood pressure drugs ..." is a statement that is really an instruction for anyone on them, heart condition or not. His way would say what the drugs are inside the sentence, and say the act (if you take one, ask a doctor first too).

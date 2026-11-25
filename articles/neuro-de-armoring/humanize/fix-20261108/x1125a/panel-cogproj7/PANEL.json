@@ -1,0 +1,43 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Cognitive Warning: As you de-armor, you will feel more naked and exposed than you're used to, and you'll assume everyone can see your anxiety, when really they notice far less of it than you think (Dr.",
+  "Nicholas Epley calls this the \"Illusion of Transparency\" in his book Mindwise).",
+  "Your armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves.",
+  "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below)."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  4
+ ],
+ "whole": {
+  "haiku": [
+   "Both halves run long, clause-chained sentences joined by \"so,\" \"since,\" and \"when really,\" and the second-person \"you/your\" appears almost every line, so the rhythm and address feel evenly generated and protocol-shaped. The labeled callout and the cross-referenced section make the whole read like a templated how-to, even though the voice itself is sometimes conversational."
+  ],
+  "sonnet": [
+   "The paragraph is built as two evenly weighted sentences, each following the same pattern of a feeling, then a correction, then an instruction. The voice is uniformly instructional and confident, with no digressions, no personal stake and no rough edges. Its length and smoothness are even, and it has no concrete image or specific person in it."
+  ]
+ },
+ "human_clean": []
+}

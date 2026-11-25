@@ -6,7 +6,8 @@
   "kind": "his words, moved",
   "before": "(its own section) Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one.",
   "after": "The same two sentences, as the last paragraph of “How to Use This Huge Guide”, and its “Appendix K” becomes “Appendix J” (answer 8).",
-  "check": "S001 with them, in its section"
+  "check": "S001 with them, in its section",
+  "checked": "IS-toc-S001#278: Human Written, one window, High, 149 words (https://www.pangram.com/history/006aec02-02e2-49db-9e30-fdc4e6ed7c12)"
  },
  {
   "id": "T2",
@@ -64,7 +65,8 @@
    "“interview them a bit:” becomes “interview them a bit more:”, since your three lists now come first",
    "“After it’s over, check how well your critical thinking is working when you look back on how it went.” joins the start of your “Then afterwards” paragraph"
   ],
-  "check": "the merged section, in the web app (about 560 words)"
+  "check": "the merged section, in the web app (about 560 words)",
+  "checked": "IS-toc-S131#277: Human Written, one window, High, 594 words (https://www.pangram.com/history/04a480f5-25db-4a34-9593-8b53804cdac3)"
  },
  {
   "id": "T7",
@@ -72,12 +74,151 @@
   "section": "S122",
   "kind": "my sentences from his message",
   "before": "Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, stop.",
-  "after_added": "Try Systema's continuous breathing too: besides relaxing you, it can take you deeper into trance and flow states. This is the best video on it I've seen so far, and my somatic guide explains it more.",
+  "after_added": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more.",
   "links": {
    "the best video on it I've seen so far": "https://www.youtube.com/shorts/Nar2-nvomAk",
    "my somatic guide explains it more": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts"
   },
   "note": "his message: 'i'd also like to mention Systema continuous breathing where I talk about Buteyko breathing. It's explained more at somatic.u-dont-exist.com but it helps not just relaxing but getting into trance and flow states more deeply. You have that video already about Systema you can link.' The guide had no mention of Systema. The video is the one he named as the best (his rule for every mention of Systema); somatic.u-dont-exist.com is his somatic modalities post, linked at its Systema section.",
-  "check": "S122 with it, in its section"
+  "check": "S122 with it, in its section",
+  "after_added_before_20261125": "Try Systema's continuous breathing too: besides relaxing you, it can take you deeper into trance and flow states. This is the best video on it I've seen so far, and my somatic guide explains it more.",
+  "changed_20261125": "after a fresh reader's read against his_fixes_brief.md (reads/READ-NEW-SENTENCES-20261125.md): Systema is said to be a Russian martial art where it is first named, the sentence says what the breathing gives in his own words ('helps not just relaxing but getting into trance and flow states more deeply'), and 'This is' became 'You can learn it from'"
+ },
+ {
+  "id": "T8",
+  "answer": 8,
+  "section": "S001",
+  "kind": "his words, three cut",
+  "before": "what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions",
+  "after": "what to do if you experience the sensation of a hostile presence, influence, and more inductions",
+  "why": "the sleep appendix goes (answer 8), so the list of what the appendices cover no longer names it",
+  "check": "S001, with T1: IS-toc-S001#278, Human Written, one window, High"
+ },
+ {
+  "id": "P1",
+  "asked": "2026-11-25, question 3 of QUESTIONS-20261125.md",
+  "section": "S007",
+  "kind": "my sentence; his yes of 2026-11-25 11:18 UTC (question 3)",
+  "after_added": "If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
+  "why": "both final readers looked in 'Protection From Hypnotists' for what to check before playing a stranger's recording (situation 9); the audit questions are in 'Find a Hypnotist Who Fits' since the merge",
+  "check": "S007 with it, in its section",
+  "in_post": "2026-11-25 12:00 UTC",
+  "read": "Human Written, 1 window, High (IS-toc-S007#285)"
+ },
+ {
+  "id": "Q8",
+  "asked": "2026-11-25, question 8 of QUESTIONS-20261125.md; his answer \"8 a\"",
+  "section": "S019",
+  "kind": "pointer changed",
+  "before": "The longer version of this exercise can be found in my Inner Child Self-Love Reparenting Guide.",
+  "after": "There is more on borrowed adulthood in my Inner Child Self-Love Reparenting Guide.",
+  "link": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+  "why": "the inner child guide no longer has the adult hat exercise; it has \"Borrowed Adulthood\"",
+  "in_post": "2026-11-25 12:00 UTC",
+  "read": "Human Written, 1 window, High (IS-toc-S019#284)"
+ },
+ {
+  "id": "Q9",
+  "asked": "2026-11-25, question 9; his answer \"9 yes\"",
+  "section": "S124",
+  "kind": "three words added",
+  "before": "or even a free intro session, please see",
+  "after": "or even a free intro session for paid subscribers, please see",
+  "why": "the somatic guide gives one free session to paid subscribers",
+  "in_post": "2026-11-25 12:00 UTC",
+  "read": "the section with its two neighbours reads AI with the words (IS-toc-S123-S125#283) and without them (IS-toc-S123-S125-live#288)"
+ },
+ {
+  "id": "Q7b",
+  "asked": "2026-11-25, question 7; his answer \"7 b\"",
+  "section": "S122",
+  "kind": "paragraph approved on the marking page (card Q7b)",
+  "after_file": "pangram/SEC-S122-7b-after.txt",
+  "why": "a one-sentence swap left \"Only pause if that's comfortable.\" hanging and two air-hunger sentences reading the other way (reads/READ-NEW-SENTENCES-20261125.md)",
+  "read": "Human Written, 1 window, High (IS-toc-S122-7b#286)",
+  "in_post": "2026-11-25 16:28 UTC"
+ },
+ {
+  "id": "N001",
+  "asked": "his section of 2026-11-25 11:18 UTC, \"Past LIfe & Ancestral Trauma\"",
+  "section": "new, in Appendix G after \"Stabilize, Then Interpret\"",
+  "kind": "his own text, revised by him on the marking page at 15:57 UTC",
+  "after_file": "pangram/t2/IS-t2-N001.txt",
+  "why": "his revision of the fourth paragraph settles the question the card raised against \"Do These With a Clinician\"",
+  "read": "Human Written, 1 window, High, 521 words (IS-t2-N001#306)",
+  "in_post": "2026-11-25 16:28 UTC"
+ },
+ {
+  "id": "Q4",
+  "asked": "question 4, shown with the outline on 2026-11-25 12:41 UTC; his answer of 16:14 UTC: \"ok you can use Become a Trustworthy Adult and Working With Your Inner Child\"",
+  "kind": "two headings renamed, and the one sentence that names the second",
+  "before": [
+   "The Inner Adult’s Three Jobs",
+   "Inner Child Practices",
+   "(the two-hand practice in Inner Child Practices)"
+  ],
+  "after": [
+   "Become a Trustworthy Adult",
+   "Working With Your Inner Child",
+   "(the two-hand practice in Working With Your Inner Child)"
+  ],
+  "in_post": "2026-11-25 16:28 UTC"
+ },
+ {
+  "id": "C06",
+  "asked": "card C06; his comment of 15:42 UTC",
+  "section": "S017",
+  "kind": "his sentence, in place of one of his",
+  "before": "When something specific comes up, that’s the time to sort out what it is.",
+  "after": "Once you feel comfortable in your wholeness, then you can investigate parts with a gentle curiosity.",
+  "why": "\"the first sentence here should say, ...\" read as: it replaces the first sentence of the paragraph the card sat under; told to him in the reply in case he meant both to stay",
+  "in_post": "2026-11-25 16:28 UTC",
+  "read": "Human Written, 1 window, High (IS-t2-S017#303)"
+ },
+ {
+  "id": "C03",
+  "asked": "card C03; his answer of 15:43 UTC: \"in line\"",
+  "section": "S021",
+  "kind": "three words, to the inner child guide's wording",
+  "before": "Even that takes some warmth, and if you don't have any yet",
+  "after": "That takes warmth, and if you don't have any yet",
+  "why": "in the inner child guide it is their trust that takes warmth",
+  "in_post": "2026-11-25 16:28 UTC",
+  "read": "Human Written, 1 window, High (IS-t2-S021#304)"
+ },
+ {
+  "id": "C18",
+  "asked": "card C18; his comment of 16:00 UTC",
+  "section": "S162",
+  "kind": "his sentence, in place of one of his",
+  "before": "The sequence for doing this with borrowed adulthood and the arrangement of 3 functions of adulthood, etc, is not from these authors, however.",
+  "after": "The sequence for doing this reparenting therapy is not from these authors, however.",
+  "link": "\"reparenting therapy\" to http://innerchild.u-dont-exist.com/ (the address the old sentence had on \"the arrangement of 3 functions of adulthood\")",
+  "in_post": "2026-11-25 16:28 UTC",
+  "read": "Human Written, 1 window, High (IS-t2-S162#305)"
+ },
+ {
+  "id": "CARDS",
+  "asked": "the marking page of 2026-11-25; approved by him between 15:35 and 15:53 UTC",
+  "kind": "eleven additions from his inner child and somatic guides, each as the card showed it",
+  "cards": [
+   "C02",
+   "C04",
+   "C05",
+   "C09",
+   "C10",
+   "C12",
+   "C13",
+   "C16",
+   "C17",
+   "M05",
+   "M06"
+  ],
+  "links_carried": {
+   "C12": "\"warmlines\" to https://www.warmline.org/",
+   "M06": "\"Rolfing\" to https://www.youtube.com/watch?v=mIvVfqTIQgA"
+  },
+  "before_after": "answers/JOEL-20261125-1600.json has each paragraph before and after; PLAN2.json has the edits",
+  "in_post": "2026-11-25 16:28 UTC"
  }
 ]

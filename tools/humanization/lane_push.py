@@ -675,6 +675,18 @@ def main(argv=None):
         print(r.stderr.strip()[-1500:])
     for line in built_on_lines(a.article):
         print('BUILT ON: ' + line)
+    try:   # passages other posts take from the ones this push changed (articles/DEPENDS.json; a notice, never a refusal)
+        import depends
+        for line in depends.notice_lines(base='origin/main'):
+            print('DEPENDS: ' + line)
+    except Exception as e:   # the notice must never stop a push
+        print('DEPENDS: not read (%s)' % str(e)[:200])
+    try:   # links inside a post to its own sections that still load the page again (toc-2026-11-25c; a notice only)
+        import section_links
+        for line in section_links.notice_lines('.'):
+            print('SECTION LINKS: ' + line)
+    except Exception as e:
+        print('SECTION LINKS: not read (%s)' % str(e)[:200])
     if a.pr:
         print('pull request', pull_request(a.pr, a.pr_body))
     print(mergeable())

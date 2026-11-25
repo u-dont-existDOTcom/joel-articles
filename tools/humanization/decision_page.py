@@ -31,6 +31,12 @@ The page is one self-contained HTML file: no network, decisions kept in the brow
 and in the JSON the owner copies or downloads. Downloads work when the file is opened from disk; inside a hosted viewer
 that blocks them, Copy JSON and the JSON box still work. An import is refused unless its review_id and source_sha256 are
 this page's, and ids it doesn't know are reported, never guessed.
+
+An undecided item shows three buttons, Approve, Revise and Reject. Once it has an answer, a fourth, "Undo my answer",
+takes it back to pending. Until 2026-11-25 the fourth button was labelled "Pending" and showed, pressed, on every
+undecided item, where a click did nothing: what Joel had asked to have fixed durably on the marking page on 2026-11-11
+("'not approved yet' doesn't work as a button"; suggestion_review.py 1.11) and had not been carried over to this page.
+A button names what it does and shows only when it can do it.
 """
 import argparse
 import html
@@ -136,7 +142,7 @@ JS = r'''
 const src = JSON.parse(document.getElementById('review-data').textContent);
 const KEY = 'review-' + src.review_id + '-' + src.source_sha256.slice(0, 12);
 const LABEL = {pending: 'Pending', approved: 'Approved', needs_revision: 'Revise', rejected: 'Rejected'};
-const BUTTON = {approved: 'Approve', needs_revision: 'Revise', rejected: 'Reject', pending: 'Pending'};
+const BUTTON = {approved: 'Approve', needs_revision: 'Revise', rejected: 'Reject', pending: 'Undo my answer'};
 const groups = new Map(src.groups.map(g => [g.id, g]));
 const ids = new Set(src.items.map(x => x.id));
 let state = {decisions: {}};
@@ -186,7 +192,7 @@ function card(item) {
     ch.append(b);
   }
   const ta = el('textarea'); ta.id = 'note-' + item.id; ta.setAttribute('aria-label', 'Your note on ' + item.id);
-  ta.placeholder = 'Your note (kept with any decision, Pending included)';
+  ta.placeholder = 'Your note (kept whether or not you have decided yet)';
   ta.value = rec(item.id).note || '';
   ta.addEventListener('input', () => setNote(item.id, ta.value));
   dec.append(ch, ta); c.append(dec);
@@ -220,7 +226,10 @@ function refresh() {
     counts[r.status] = (counts[r.status] || 0) + 1;
     c.dataset.status = r.status;
     const pill = c.querySelector('.pill'); pill.textContent = LABEL[r.status]; pill.className = 'pill ' + r.status;
-    for (const b of c.querySelectorAll('.choices button')) b.setAttribute('aria-pressed', String(b.dataset.d === r.status));
+    for (const b of c.querySelectorAll('.choices button')) {
+      b.setAttribute('aria-pressed', String(b.dataset.d !== 'pending' && b.dataset.d === r.status));  // undoing is an action, never a pressed state
+      if (b.dataset.d === 'pending') b.hidden = r.status === 'pending';  // shown only when there is an answer to undo
+    }
     const ok = matches(item, q) && (!fg || item.group === fg) && (!fs || r.status === fs) && (!fn || (r.note || '').trim());
     c.hidden = !ok; if (ok) shown++;
   }

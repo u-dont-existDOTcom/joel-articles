@@ -1,0 +1,163 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-25",
+ "text_sha256": "75e9f8c1ada1f1233ccb457e9eb052adc268213b3a91c341da78f4f88b5c4886",
+ "text": "Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more. If you feel bad, dizzy, or panicky, or have medical issues, stop.",
+ "section": "Breathe, Relax & Flow (Appendix D: Anxiety, Body First)",
+ "reader": "Someone who is anxious right now, often because a session stirred something up, and has been sent to Appendix D to calm the body first, before the inner child or any inquiry: they may be over-breathing or close to panic, and want something to do with their breath in the next minute.",
+ "sentences": [
+  {
+   "s": "Try breathing less.",
+   "his": true
+  },
+  {
+   "s": "(There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked.",
+   "his": true
+  },
+  {
+   "s": "However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.)",
+   "his": true
+  },
+  {
+   "s": "Breathe in small amounts through your nose and let it out quietly, through your nose too.",
+   "his": true
+  },
+  {
+   "s": "Only pause if that's comfortable.",
+   "his": true
+  },
+  {
+   "s": "Can you make your breathing very quiet?",
+   "his": true
+  },
+  {
+   "s": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply.",
+   "payoff": "They have a second way of breathing to try besides breathing less, and they know what it is for before they go and learn it: it relaxes them, which is why they are in this appendix, and it takes them deeper into trance and flow, which is what the rest of the guide is teaching them. 'A Russian martial art' tells them what Systema is, so the name isn't a blank.",
+   "follows": "It comes right after his question \"Can you make your breathing very quiet?\" closes the first way of breathing, and adds a second way of breathing to the same job before his stop line; it opens \"Try the continuous breathing\" as the section opened \"Try breathing less\", and the \"too\" after the bracket says it is in addition.",
+   "link": "Try the continuous breathing"
+  },
+  {
+   "s": "You can learn it from the best video on it I've seen so far, and my somatic guide explains it more.",
+   "payoff": "The text doesn't say how the breathing goes, so this is how they get to do it at all: a short video, the one the author calls the best he has seen on it, and his somatic guide's Systema section for reading more. They watch the video before they try it.",
+   "follows": "The sentence before told them to try the breathing and what it helps with; this answers the next thing they ask, how to do it. 'it' is the continuous breathing, as in 'it helps' just before.",
+   "link": "You can learn it"
+  },
+  {
+   "s": "If you feel bad, dizzy, or panicky, or have medical issues, stop.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "Systema is a Russian martial art",
+   "found": "Wikipedia's article 'Systema' opens by calling it a Russian martial art (https://en.wikipedia.org/wiki/Systema, opened 2026-11-25). The article says nothing about its breathing. The author's somatic guide calls it a martial art in the heading of its Systema section.",
+   "still_needed": "yes: they place the unfamiliar name at once (a martial art, so a body practice with its own way of breathing) and read on, where without the bracket 'Systema' would stop them",
+   "fate": "kept"
+  },
+  {
+   "point": "it helps not just with relaxing, but with getting into trance and flow states more deeply",
+   "found": "The author's own words for it, 2026-11-24 21:05 UTC (answers/JOEL-20261124-2105.md): 'it helps not just relaxing but getting into trance and flow states more deeply'. His bad trips guide says the same of it ('excellent for entering a flow state'). No study was looked for; it is his experience, said as his.",
+   "still_needed": "yes: they decide from it whether the breathing is worth learning: it relaxes, which is what they came for, and it deepens trance and flow, which is what the guide's practice needs once they are calmer",
+   "fate": "kept"
+  },
+  {
+   "point": "the best video on it I've seen so far",
+   "found": "The author, 2026-11-20 22:40 UTC (articles/bad-trips/OWNER-EDITS.json): 'best systema breathing vid i have seen so far: https://www.youtube.com/shorts/Nar2-nvomAk', the link TEXT-CHANGES.json (T7) puts on these words. The video itself was not opened in this read.",
+   "still_needed": "yes: they open the video to learn how the breathing goes before trying it, since the text gives its name and what it does but not the steps",
+   "fate": "kept"
+  },
+  {
+   "point": "my somatic guide explains it more",
+   "found": "His somatic guide as it stood on 2026-11-25 (catchup/SOMATIC-LIVE-20261125.md) has the section the link goes to, 'Systema: circular breathing & compassionate, relaxing martial arts'. Its text says what Systema is and why relaxing through the breath works (the parasympathetic nervous system; connecting breath with muscles and fascia so there is no tension bottleneck) and then shows videos. It calls the breathing 'circular' where this guide says 'continuous' (his romance article has 'continuous/circular Systema breathing', articles/romance/humanize/fix-20261107/whole/FIXED.md), and its text gives no steps for the breathing. 'It's explained more at somatic.u-dont-exist.com' is the author's own statement (2026-11-24 21:05 UTC).",
+   "still_needed": "yes: they go there when they want to know what Systema is and why breathing this way relaxes more deeply, which the one line here doesn't say; for the steps they have the video",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Inside his breathing-less paragraph, after \"Can you make your breathing very quiet?\" and before his stop line (\"If you feel bad, dizzy, or panicky, or have medical issues, stop.\"), so the stop line is the last thing said and covers both ways of breathing (a fresh reader on 2026-11-25 marked that as a paragraph of their own after it, the two sentences left the stop line covering only breathing less). It is where he asked for it (\"where I talk about Buteyko breathing\"), with the other breathing and ahead of the methods that are not breathing. Its \"too\" points to \"Try breathing less\", the first way; \"it\" in both sentences is the continuous breathing.",
+ "opens": {
+  "first_sentence": "Try breathing less.",
+  "why_reading": "'Try breathing less.' gives the anxious reader, who was told one line up to work with the body first, the first thing to do with it, in three words; the bracket straight after says whose case it is (breathing too much, or panicked). They know what they get here: something to do with their breath now."
+ },
+ "same_point": "none: read the section from its heading to the next (the breathing-less paragraph and this one) for Systema, continuous breathing, the video and the somatic guide's Systema section; none is said there, and AFTER.md names Systema nowhere else. 'please see my somatic guide' comes again two sections down, for somatic experiencing, which is a different part of that guide and a different link.",
+ "needed": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/needed_read_brief.md with the section, its heading and what it is for: the reader is anxious now and is about to calm their body with their breath",
+  "needs": {
+   "S1": "the first thing to do: breathe less",
+   "S2-S3": "whose case it is (breathing too much, panicked) and how far not to take it (no holding the breath to air hunger)",
+   "S4-S6": "how to do it (pursed lips slow the out-breath, no bigger in-breath) and what they will feel (a slight hunger for air, then calmer)",
+   "S7-S8": "how gently to do it (a pause only if comfortable; quiet breathing). S7 means: pause after the out-breath; the sentence it followed is gone, so the act it implies is no longer said (see the read against his fixes)",
+   "S9": "when to stop",
+   "S10": "a second way of breathing to try, and what it is good for, so they can decide whether to learn it",
+   "S11": "where to learn it, since the text doesn't say how it goes. The second half (the somatic guide) is for reading about Systema and why it relaxes, not for doing the breathing now"
+  },
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/his_fixes_brief.md and the text one sentence a line (what it is for: calming the body with the breath, now). The author's own sentences were read as the text around the two new ones and are not marked, except two (S6, S7) whose reading changed when the sentence between the bracket and them was swapped for his somatic guide's three, at his instruction (answer 7 b).",
+  "marked": [
+   {
+    "s": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply.",
+    "difference": "3: 'not just with relaxing, but with getting into trance ...' has the 'not X but Y' shape; said straight it would be 'it helps with relaxing, and with getting into trance and flow states more deeply'."
+   },
+   {
+    "s": "Only pause if that's comfortable.",
+    "difference": "10 and 25, made by the swap and not by his sentence: 'pause' came after 'let it out quietly, through your nose too' and meant a pause after the out-breath. That sentence was replaced, so after 'you'll feel much calmer' the text has not said what is paused, and a quick reader can take it as pausing the exercise."
+   },
+   {
+    "s": "That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer.",
+    "difference": "17, made by the swap: three sentences up, the bracket says 'please don't hold your breath until you are air hungry, which can make you more anxious in the short term'; this says a slight oxygen hunger feels anxious for 20 seconds and then you feel much calmer. Both can hold (holding the breath; a slight hunger from slower out-breaths), but the text doesn't say how, so one reads as taking back the other."
+   }
+  ],
+  "kept": {
+   "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply.": "These are the author's own words for what the breathing gives, from his instruction of 2026-11-24 21:05 UTC ('it helps not just relaxing but getting into trance and flow states more deeply'). The turn adds to relaxing, it doesn't correct it, and the second half is what the 'Flow' in his heading rests on.",
+   "Only pause if that's comfortable.": "His own sentence, unchanged, and not the editor's to reword without him, so it stays in this text and goes to the editor as a question for him: what is paused? The reader's guess, from his earlier text, is the breath after breathing out ('Only pause after the out-breath if that's comfortable.').",
+   "That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer.": "His own sentence, word for word from his somatic guide, placed here by his answer 7 b ('the somatic guide's way here too'); the bracket is his too. Whether the bracket's caution stays as it is beside this sentence is his to say, so both stay and it goes to the editor as a question for him."
+  }
+ },
+ "fit": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/fit_read_brief.md. WHAT IT IS: the first tool in an appendix on anxiety in a self-hypnosis guide, for a reader told to calm the body first. YOUR MOMENT: I am anxious now, maybe breathing too fast, and I want something to do with my breath in the next minute.",
+  "marked": [
+   {
+    "s": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply.",
+    "found": "CAN'T TELL yes: it tells me to try the continuous breathing, and nothing here says what that is or how it goes, so I can't do it now; the next sentence sends me to a video. ANYWAY - / FROM - / MISREAD -"
+   },
+   {
+    "s": "Only pause if that's comfortable.",
+    "found": "CAN'T TELL yes: pause what? The sentence before is about feeling calmer after 20 seconds; I can't tell whether to pause my breath or the exercise. ANYWAY - / FROM - / MISREAD -"
+   },
+   {
+    "s": "That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer.",
+    "found": "MISREAD yes: I was just asked not to get air hungry because it makes me more anxious, and now a slight oxygen hunger is what I should feel, anxious at first and then calmer; read fast, the two sound opposite. ANYWAY - / CAN'T TELL - / FROM -"
+   }
+  ],
+  "kept": {
+   "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply.": "It fits as a mention: the next sentence says where they learn it before they try it, which is how the author handles it in his bad trips guide ('It helps to watch a video on how to do it prior though'), and he asked here for a mention with the links. The editor can't say how the breathing goes without guessing; a clause on what it is would be his.",
+   "Only pause if that's comfortable.": "His own sentence, unchanged; what it paused went with the sentence his answer 7 b replaced. It stays until he says, and goes to the editor as a question for him.",
+   "That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer.": "His own sentence, word for word, here by his answer 7 b, beside his own bracket. They can both be true, and which words would say so is his to choose; it goes to the editor as a question for him."
+  }
+ },
+ "questions": {
+  "Q1": "PASS, for the editor's two sentences: S10 opens on what to do ('Try the continuous breathing ... too') and gives what it is for straight after the colon, in the same sentence; S11 opens on what the reader gets ('You can learn it') before the means (the video, the guide). Systema is explained where it is first named ('a Russian martial art'), not in a later sentence.",
+  "Q2": "PASS: 'Try the continuous breathing' has its purpose in the reader's terms in the same sentence (relaxing; getting into trance and flow states more deeply), and both sentences are things the reader does ('Try', 'You can learn it').",
+  "Q3": "PASS: one named practice ('the continuous breathing from Systema'), one video ('the best video on it I've seen so far', a link) and one place for more ('my somatic guide', a link to its Systema section); the states are named ('trance and flow states'), not 'altered states'.",
+  "Q4": "PASS: 'Systema' is glossed where it is first used; 'it' in both sentences is the continuous breathing; 'trance' is the guide's own subject and 'flow' is in the section's heading. 'Continuous breathing' is the practice's name: the text says what it does for the reader and leaves how it goes to the video, as the author asked (a mention with the links). Noted for the editor and not failed: the linked section of his somatic guide calls the same breathing 'circular'.",
+  "Q5": "PASS, for the editor's two sentences: S10's 'too' turns on 'Try breathing less', the first way of breathing; its 'it helps' is the continuous breathing just named; S11's 'learn it' answers what S10 leaves open, how to do it. Outside them, and reported to the editor, not judged here: the author's 'Only pause if that's comfortable.' followed 'let it out quietly, through your nose too', which his answer 7 b replaced, so 'pause' no longer has the out-breath before it.",
+  "Q6": "PASS: the first way of breathing is finished, with when to stop, before the second starts; inside the new paragraph: what to try and why, then where to learn it, then where to read more.",
+  "Q7": "PASS: relaxing is this reader's case (anxious, body first); 'getting into trance and flow states more deeply' is what the same reader is using the guide for once they are calmer, and is the 'Flow' of the author's heading; the video is how they would do the breathing at all.",
+  "Q8": "PASS: the section holds two ways of breathing, and continuous breathing is put with the breathing ('Try ... too'), ahead of the tapping, tracking and focusing sections. One thing to weigh, said in placement: the stop line sits with the first way only.",
+  "Q9": "PASS: S10 is one instruction and its reason; S11 is two short clauses joined by 'and' (where to learn it, where it is explained more); the relation words are there ('too', 'not just ... but', 'from', 'and')."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: Breathe, Relax & Flow of the live post, and his somatic guide's Breathwork section"
+}

@@ -1,0 +1,32 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, Claude in Chrome in his browser)",
+ "results": {
+  "dmso3": {
+   "uuid": "b6ae4d59-c6af-4d81-8b6c-82eca40299c1",
+   "at": "2026-11-24T21:01:29.006885-05:00",
+   "headline": "Human Written",
+   "ai": 1.9755603538696223e-14,
+   "words": 161,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     16,
+     "⚠️ CRITICAL MEDICAL DISCLAIMER:DMSO Safety: This protocol has you smell DMSO for anxiety and brain fog"
+    ],
+    [
+     "Human",
+     "High",
+     135,
+     ". It's a solvent that goes straight through your skin and lungs into your blood, and the thing to watch is what it carries in with it, whether that's something in the bottle or something on you. So you should use 99.9% Pharmaceutical Grade DMSO, ideally in a glass bottle, since it can leach chemicals out of some plastics. It's sold on Amazon and other sites (I've never had a bad batch). Before using it, wash any lotions or other products off your hands and nose. Your lungs count too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that"
+    ],
+    [
+     "Human",
+     "Medium",
+     10,
+     ". My full DMSO reference has more on all of this"
+    ]
+   ]
+  }
+ }
+}

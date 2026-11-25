@@ -1,0 +1,44 @@
+{
+ "ethno10": {
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "name": "The plant medicines, try 2: what \"any\" is",
+  "text": "Ethnobotanicals: The plant medicines in this protocol are iboga (an African root bark) and psilocybin mushrooms. Both are illegal in many jurisdictions and carry risks, and iboga's are the serious ones, since it can be dangerous for your heart and nervous system. So never combine Iboga with most medications (especially heart & psych meds), and if you take any medication, check it against my full iboga guide here first (the iboga microdosing protocol is here).",
+  "chance": 0.7,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/v10/ETHNO10.receipt.json",
+  "humanized": "the paragraph as it is in the article (Human High by itself this turn), with one word a fresh comparison reader could take two ways made plain (read-1125a/READER-1.md)",
+  "tells": "\"illegal in many jurisdictions and carry risks\"; the two links in one sentence",
+  "human_tells": "his \"(especially heart & psych meds)\"; \"my full iboga guide here\"",
+  "diagnosis": "try 1 read Human Written, one window, High, and is in the article. The comparison read (F1.2) found that \"if you take any, check it\" can mean any medication or any iboga. It is any medication, so it says so. One word",
+  "decides": "whether the plainer version goes in: only at every window High again; otherwise the article keeps the version it has",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"if you take any medication, check it\""
+ },
+ "uri10": {
+  "lineage": "neuro-de-armoring/W-URITOP",
+  "scope": "paragraph",
+  "name": "Uridine, try 2: what \"it\" is",
+  "text": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit harder, visuals included. So do not take UMP on the same day as a psychedelic trip, and on your first trip after starting it, assume your old psychedelic dose may now be too high and take less. It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+  "chance": 0.7,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/v10/URI10.receipt.json",
+  "humanized": "the paragraph as it is in the article (Human High by itself this turn), with one word a fresh comparison reader could take two ways made plain (read-1125a/READER-1.md)",
+  "tells": "\"so its caution is a different one\"; \"which are the benefits you're hoping for\"",
+  "human_tells": "his \"experience like Scott's below\"; \"I don't have studies on it\"",
+  "diagnosis": "try 1 read Human Written, one window, High, and is in the article. The comparison read (F1.17) found that \"it\" changes from the caution (\"it comes from\", \"studies on it\") to uridine (\"starting it\"). The third says \"uridine\". One word",
+  "decides": "whether the plainer version goes in: only at every window High again; otherwise the article keeps the version it has",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"within a day of starting uridine\""
+ },
+ "dmso10": {
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "name": "DMSO Safety, try 4: what the lungs count as",
+  "text": "DMSO Safety: This protocol has you smell DMSO for anxiety and brain fog. It's a solvent that goes straight through your skin and lungs into your blood, and it can carry in whatever else is in the bottle or on your skin. So you should use 99.9% Pharmaceutical Grade DMSO, ideally in a glass bottle, since it can leach chemicals out of some plastics. It's sold on Amazon and other sites (I've never had a bad batch). Before using it, wash any lotions or other products off your hands and nose. Your lungs need to be clean too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that (there's more on all this in my full DMSO reference).",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/v10/DMSO10.receipt.json",
+  "humanized": "the paragraph as it is in the article (Human High by itself this turn), with one word a fresh comparison reader could take two ways made plain (read-1125a/READER-1.md)",
+  "tells": "the spec sentence \"99.9% Pharmaceutical Grade DMSO, ideally in a glass bottle\"; two \"since\" reasons",
+  "human_tells": "his \"(I've never had a bad batch)\"; \"breathe in only a little at a time\"",
+  "diagnosis": "try 3 read Human Written, one window, High, and is in the article. The comparison read (F1.1) found that \"Your lungs count too\" doesn't say what they count as, after a sentence about washing products off hands and nose. The post's word is \"clean\" (\"Ensure hands, lungs, and nose are clean\"), so it says \"Your lungs need to be clean too\". Four words",
+  "decides": "whether the plainer version goes in: only at every window High again; otherwise the article keeps the version it has",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"Your lungs need to be clean too\""
+ }
+}

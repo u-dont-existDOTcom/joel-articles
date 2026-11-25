@@ -1,0 +1,3 @@
+MARKED:
+- S1: 1, 2 — the brackets pack four pathway names into a run of noun phrases with nothing on what each means for the reader, in a sentence that already carries five other ideas, and "a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine" makes one comparison twice in one shape; his way would keep the one comparison that answers "it's sold as a supplement" and give each system its own clause with what it means for the reader (the kind of drug it clashes with).
+- S2: 10 — "if you take it" could be agmatine or the drug just named ("any drug that works on the same systems"); his way would say "if you take agmatine".

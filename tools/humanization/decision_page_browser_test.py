@@ -65,6 +65,14 @@ def run(page_path, timeout_ms=20000):
                   '%d fields, lowest %.2f%s' % (c['count'], c['minContrast'], (', failing: %s' % c['bad'][:3]) if c['bad'] else ''))
             bg = page.evaluate("getComputedStyle(document.body).backgroundColor")
             check('%s: the page has its own background' % scheme, bg not in ('rgba(0, 0, 0, 0)', 'transparent'), bg)
+            undo = '#d-%s-pending' % first
+            before = page.locator(undo).is_hidden() and page.evaluate("[...document.querySelectorAll('.choices button[aria-pressed=true]')].length") == 0
+            page.click('#d-%s-approved' % first)
+            shown = page.locator(undo).is_visible() and page.inner_text(undo) == 'Undo my answer'
+            page.click(undo)
+            undone = page.evaluate("document.getElementById('item-%s').dataset.status" % first) == 'pending' and page.locator(undo).is_hidden()
+            check('%s: an undecided item shows no pressed button; "Undo my answer" appears with an answer, takes it back and goes again' % scheme,
+                  before and shown and undone, 'before %s, shown %s, undone %s' % (before, shown, undone))
             page.click('#d-%s-approved' % first)
             if second != first:
                 page.click('#d-%s-needs_revision' % second)

@@ -1,0 +1,90 @@
+[
+ {
+  "key": "dmso6",
+  "name": "DMSO Safety, try 3: the mirrored pair said plainly, the pointer inside the last sentence",
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "words": 145,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "see the ledger record",
+  "sha256": "51bb43af10ab90fbd837366f9b64b027601fa6e505450be411cf3343270195b4"
+ },
+ {
+  "key": "iso6",
+  "name": "The Isolation Trap, try 2: the article's own glosses only",
+  "lineage": "neuro-de-armoring/W-ISO",
+  "scope": "paragraph",
+  "words": 99,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "96454c2fbc118af7696c17dc6f56e97bc4af83d926b457385dffc8b1bd4aead8"
+ },
+ {
+  "key": "pair-iso-rule6",
+  "name": "The Rule (41 words) with the Isolation Trap's second try",
+  "lineage": "neuro-de-armoring/PAIR-ISO-RULE",
+  "scope": "pair",
+  "words": 140,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "see the ledger record",
+  "sha256": "817221e86e55769b624e5aac1eb0674b100b84bd51f5489f38e6f69488c52410"
+ },
+ {
+  "key": "agm6",
+  "name": "The Agmatine Warning's first paragraph, try 2: three sentences, one idea each",
+  "lineage": "neuro-de-armoring/W-AGMINTRO",
+  "scope": "paragraph",
+  "words": 82,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "see the ledger record",
+  "sha256": "cb82c0143af07bf3580e2e063918f86f9f4d6a060e4e0fa40df48c9b458e366f"
+ },
+ {
+  "key": "elec7",
+  "name": "Electrolytes, try 2: a small step, the bracket of name endings out",
+  "lineage": "neuro-de-armoring/W-ELEC",
+  "scope": "paragraph",
+  "words": 60,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "ea8bfbf8cb550a0d0472187b65f3ad7cc03df1a88020f2053918e6ac30bfa7e9"
+ },
+ {
+  "key": "proj7",
+  "name": "The Cognitive Warning's second paragraph, try 2: a small step",
+  "lineage": "neuro-de-armoring/W-PROJ",
+  "scope": "paragraph",
+  "words": 77,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "8292eed8d3f0d7d5168dc482efeda06b7843fa8b4d370804145c58d6e80d5ddd"
+ },
+ {
+  "key": "pair-cog-proj7",
+  "name": "The Cognitive Warning (48 words) with its neighbour's small step",
+  "lineage": "neuro-de-armoring/PAIR-COG-PROJ",
+  "scope": "pair",
+  "words": 125,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "4ea3b35b0426936cfe41a7e9f95b4483a8446a1323ade4c01988a1d8b8e931c3"
+ },
+ {
+  "key": "htp7",
+  "name": "The 5-HTP warning, try 2: a small step, my glosses out",
+  "lineage": "neuro-de-armoring/W-HTPTOP",
+  "scope": "paragraph",
+  "words": 172,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "2a8b08f4c009d13f421721dff9bfe7ec33120ef819ea95c7551ebd77485ddab9"
+ }
+]

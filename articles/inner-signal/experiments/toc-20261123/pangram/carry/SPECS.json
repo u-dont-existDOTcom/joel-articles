@@ -1,0 +1,144 @@
+{
+ "IS-carry-S136-C02": {
+  "file": "pangram/carry/IS-carry-S136-C02.txt",
+  "section_id": "S136",
+  "section": "G: Altered States",
+  "items": [
+   "C02"
+  ],
+  "words": 420,
+  "sha256": "2a4ddb723bf8f4c28004546852ef9050a12722324fca2bba5c88b2f32023b7c3"
+ },
+ "IS-carry-S024-C04": {
+  "file": "pangram/carry/IS-carry-S024-C04.txt",
+  "section_id": "S024",
+  "section": "The Two-Hand Practice",
+  "items": [
+   "C04"
+  ],
+  "words": 250,
+  "sha256": "42169967fa0cc944ecb601c04307ed786928b04c304a931589f28b12c2fff781"
+ },
+ "IS-carry-S017-C05": {
+  "file": "pangram/carry/IS-carry-S017-C05.txt",
+  "section_id": "S017",
+  "section": "Start From the Whole",
+  "items": [
+   "C05"
+  ],
+  "words": 358,
+  "sha256": "9772fae382e914001b73771a594d41f11a4007061ca89637303b5b14c47ec722"
+ },
+ "IS-carry-S029-C09": {
+  "file": "pangram/carry/IS-carry-S029-C09.txt",
+  "section_id": "S029",
+  "section": "Your Inherited Parent Script",
+  "items": [
+   "C09"
+  ],
+  "words": 200,
+  "sha256": "6f68c18bee260b18f790a10a62e689bb94423b3aa8ca401e1a918fef0941cd69"
+ },
+ "IS-carry-S028-C10": {
+  "file": "pangram/carry/IS-carry-S028-C10.txt",
+  "section_id": "S028",
+  "section": "Working With Your Guards",
+  "items": [
+   "C10"
+  ],
+  "words": 488,
+  "sha256": "e8e5f3af23402b47a7c6c031de1eb6313cce91bcf3ecd85ebe6e0057e8668279"
+ },
+ "IS-carry-S032-C11-C12": {
+  "file": "pangram/carry/IS-carry-S032-C11-C12.txt",
+  "section_id": "S032",
+  "section": "Don't Rush the Repair",
+  "items": [
+   "C11",
+   "C12"
+  ],
+  "words": 478,
+  "sha256": "262ff762acdd90a103faf70d664ca4b57412caed5da364a81f077383b92d4d9f"
+ },
+ "IS-carry-S072-C13": {
+  "file": "pangram/carry/IS-carry-S072-C13.txt",
+  "section_id": "S072",
+  "section": "Inner Child Won’t Appear?",
+  "items": [
+   "C13"
+  ],
+  "words": 118,
+  "sha256": "a4d8c4eae6bf87e8030dd05c1d32c50b7bff8f1796132d54372df3d606f06d28"
+ },
+ "IS-carry-S133-C16": {
+  "file": "pangram/carry/IS-carry-S133-C16.txt",
+  "section_id": "S133",
+  "section": "Take It to the Council",
+  "items": [
+   "C16"
+  ],
+  "words": 208,
+  "sha256": "de035bc8a3aa2124bf28a4c1c7b9a8be4843c8c6921d6d9984619a1192a239a4"
+ },
+ "IS-carry-S134-C17": {
+  "file": "pangram/carry/IS-carry-S134-C17.txt",
+  "section_id": "S134",
+  "section": "Forgiving Without Bypass",
+  "items": [
+   "C17"
+  ],
+  "words": 177,
+  "sha256": "caafaa2fa3ed91609b9661d0de7df0a8c7313ff2af9d188f6b3c787020759c4a"
+ },
+ "IS-carry-S124-M05": {
+  "file": "pangram/carry/IS-carry-S124-M05.txt",
+  "section_id": "S124",
+  "section": "Somatic Experiencing",
+  "items": [
+   "M05"
+  ],
+  "words": 117,
+  "sha256": "4cd98ad0db911f4712091b87af928827543100d4b129af96f5323f49c0cc9b0e"
+ },
+ "IS-carry-S126-M06": {
+  "file": "pangram/carry/IS-carry-S126-M06.txt",
+  "section_id": "S126",
+  "section": "Calm the Body Directly",
+  "items": [
+   "M06"
+  ],
+  "words": 230,
+  "sha256": "524c3a1740125bb21370787a1b6929f5ff050f6036eee6a7c8e581030740d1c2"
+ },
+ "IS-carry-S032-C11b-P": {
+  "file": "pangram/carry/IS-carry-S032-C11b-P.txt",
+  "section_id": "S032",
+  "section": "Don't Rush the Repair, closing paragraph alone",
+  "items": [
+   "C11"
+  ],
+  "words": 85,
+  "sha256": "ec0f2f5ca99f4935bb90bcaa38eb5cb6382b3c5bd8e13a732bc36d0e70cb4515"
+ },
+ "IS-carry-S032-C11b-C12": {
+  "file": "pangram/carry/IS-carry-S032-C11b-C12.txt",
+  "section_id": "S032",
+  "section": "Don't Rush the Repair, C11 in the closing paragraph",
+  "items": [
+   "C11",
+   "C12"
+  ],
+  "words": 478,
+  "sha256": "134c91dd3c5054d9d45227561a5b2e5610041a9cd9a94abdc7f1b242c1f82d42"
+ },
+ "IS-carry-S032-C12b-P": {
+  "file": "pangram/carry/IS-carry-S032-C12b-P.txt",
+  "section_id": "S032",
+  "section": "Don't Rush the Repair, step A alone with C12 at its end",
+  "items": [
+   "C12"
+  ],
+  "words": 139,
+  "sha256": "7bc189ed3a735ecfb11f2f0dfc334073e7716661b134dafbb96089a086872d57"
+ }
+}

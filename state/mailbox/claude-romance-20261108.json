@@ -657,6 +657,50 @@
     }
    ],
    "recorded_utc": "2026-11-24T21:37Z"
+  },
+  {
+   "turn": "2026-11-25T01:23Z",
+   "lines_of_work": [
+    "romance article",
+    "card game Love, Honestly"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles: 6 items, each already in the ledger; suggested-fixes/love-honestly: 1 item (mailbox every turn), adopted on the game's version branch; suggested-fixes/innerself: 1 item (mailbox every turn), waiting for that repository's next change"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "joel-articles: nothing new on this lane's pull requests (529 merged at 22:14 UTC); the nine other open pull requests belong to other lanes; love-honestly: its draft pull request 2 has no comments or reviews; innerself: no open pull requests or issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note ~/claude-acceptance-transfer/handoffs/romance-article.md is as the last turn left it"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 01:23 UTC: tick Attraction & Polarity from the start; he approves all six ideas for the game"
+    }
+   ],
+   "items": [
+    {
+     "item": "Attraction & Polarity ticked from the start",
+     "outcome": "goes into the game's next version this turn"
+    },
+    {
+     "item": "the six ideas approved",
+     "outcome": "interface ideas built into the next version this turn; card texts (Warm batch, one-person route, plain-words pass) written and put to him for approval, as his repository's rule requires before cards are built in"
+    },
+    {
+     "item": "innerself lane item 2026-10-31-mailbox-every-turn",
+     "outcome": "next step: adopted in the same pull request that vendors the new game file into innerself, once he approves a version"
+    }
+   ],
+   "recorded_utc": "2026-11-25T01:28Z"
   }
  ]
 }

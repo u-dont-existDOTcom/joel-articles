@@ -156,6 +156,96 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-24T21:53Z"
+  },
+  {
+   "turn": "2026-11-25T01:24Z",
+   "lines_of_work": [
+    "contents of the very long posts: Self-Hypnosis guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "9 open pull requests, the newest change of 2026-11-15, none addressed to this lane; no issue changed since 2026-11-24 21:00 UTC; no comment on pull request 525"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note toc-long-articles.md reads as this lane left it at 2026-11-24 21:55 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-25T01:28Z"
+  },
+  {
+   "turn": "2026-11-25T11:18Z",
+   "lines_of_work": [
+    "contents of the very long posts: Self-Hypnosis guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "open pull requests unchanged since 2026-11-15; pull requests 530 and 531 (this lane) and 532, 533 (romance, neuro) merged; no new issue or comment for this lane"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note reads as this lane left it on 2026-11-25"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "five GitHub notices about pull requests 530 and 531 read at 02:01 UTC (checks passed, merged); none queued now"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-25T11:21Z"
+  },
+  {
+   "turn": "2026-11-25T16:14Z",
+   "lines_of_work": [
+    "contents of the very long posts: Self-Hypnosis guide, his marking-page answers and question 4; the watcher job; the promises list"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ (fetched again; universal-dev-architecture unchanged at 3fce032), all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 534, 535, 536 (this lane) merged; nothing newer than 12:38 UTC; no new issue; newest comment in the repository is of 2026-10-25"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note was last written by this lane at 12:39 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "eight GitHub notices about pull requests 534 to 536 read at 12:41 UTC (subscribed, checks passed, merged); none since"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-25T16:16Z"
   }
  ]
 }

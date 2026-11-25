@@ -1,0 +1,1794 @@
+{
+ "from": "PROPOSAL-FINAL.json, STRUCTURE-FINAL.json, TEXT-CHANGES.json, LINK-PLAN.json",
+ "pointer_sentence": false,
+ "sections": [
+  {
+   "id": "S001",
+   "heading": "How to Use This Huge Guide",
+   "level": 1,
+   "was": "How to use this very large guide",
+   "was_level": 1
+  },
+  {
+   "id": "S003",
+   "heading": "Introduction",
+   "level": 1,
+   "was": "Introduction",
+   "was_level": 1
+  },
+  {
+   "id": "S004",
+   "heading": "Quick Start: Do This First",
+   "level": 1,
+   "was": "Quick start: do this first",
+   "was_level": 1
+  },
+  {
+   "id": "S005",
+   "heading": "Do You Think in Words?",
+   "level": 2,
+   "was": "Do you usually think in words?",
+   "was_level": 2
+  },
+  {
+   "id": "S006",
+   "heading": "What I Mean by Hypnosis",
+   "level": 1,
+   "was": "What I mean by hypnosis",
+   "was_level": 1
+  },
+  {
+   "id": "S007",
+   "heading": "Protection From Hypnotists",
+   "level": 1,
+   "was": "Protecting Yourself from Hypnotists",
+   "was_level": 1
+  },
+  {
+   "id": "S008",
+   "heading": "The Most Extreme Example",
+   "level": 1,
+   "was": "The Most Extreme Example",
+   "was_level": 1
+  },
+  {
+   "id": "S009",
+   "heading": "Keep Your Adult in Charge",
+   "level": 2,
+   "was": "Keep the Adult Part of Yourself in Charge",
+   "was_level": 1
+  },
+  {
+   "id": "S010",
+   "heading": "Affirmations Done Right",
+   "level": 1,
+   "was": "Affirmations Done Right",
+   "was_level": 1
+  },
+  {
+   "id": "S011",
+   "heading": "Undo Accidental Affirmations",
+   "level": 1,
+   "was": "Reversing Accidental Affirmations",
+   "was_level": 1
+  },
+  {
+   "id": "S012",
+   "heading": "Hypnosis Evidence",
+   "level": 1,
+   "was": "Hypnosis Evidence",
+   "was_level": 1
+  },
+  {
+   "id": "S013",
+   "heading": "What It's For, and Not For",
+   "level": 1,
+   "was": "What to Use Self-Hypnosis For, and What Not To",
+   "was_level": 1
+  },
+  {
+   "id": "S014",
+   "heading": "Forget Left Brain/Right Brain",
+   "level": 1,
+   "was": "Forget the left-brain/right-brain cartoon",
+   "was_level": 1
+  },
+  {
+   "id": "S015",
+   "heading": "You're Better Than the Pros",
+   "level": 1,
+   "was": "Why doing it myself worked better for me",
+   "was_level": 1
+  },
+  {
+   "id": "S016",
+   "heading": "A Useful Map of the Mind",
+   "level": 1,
+   "was": "A useful map of the mind",
+   "was_level": 1
+  },
+  {
+   "id": "S017",
+   "heading": "Start From the Whole",
+   "level": 2,
+   "was": "Sometimes start with the whole",
+   "was_level": 2
+  },
+  {
+   "id": "S018",
+   "heading": "The Inner Adult’s Three Jobs",
+   "level": 1,
+   "was": "The inner child, the guards, and the inner adult’s three jobs",
+   "was_level": 1
+  },
+  {
+   "id": "S025",
+   "heading": "The Nurturer",
+   "level": 2,
+   "was": "The Nurturer",
+   "was_level": 2
+  },
+  {
+   "id": "S026",
+   "heading": "The Protector",
+   "level": 2,
+   "was": "The Protector",
+   "was_level": 2
+  },
+  {
+   "id": "S030",
+   "heading": "When to Stop Scanning",
+   "level": 2,
+   "was": "Protection that knows when to stop scanning",
+   "was_level": 2
+  },
+  {
+   "id": "S027",
+   "heading": "The Guide",
+   "level": 2,
+   "was": "The Guide",
+   "was_level": 2
+  },
+  {
+   "id": "S019",
+   "heading": "No Adult Yet? Borrow One",
+   "level": 2,
+   "was": "When the adult role is not available yet",
+   "was_level": 2
+  },
+  {
+   "id": "S020",
+   "heading": "Child Speaks, You Steer",
+   "level": 2,
+   "was": "Let the child speak while you define the goal",
+   "was_level": 2
+  },
+  {
+   "id": "S021",
+   "heading": "Love First, Trust Later",
+   "level": 2,
+   "was": "Love doesn’t have to wait for trust",
+   "was_level": 2
+  },
+  {
+   "id": "S022",
+   "heading": "Instead of Blame",
+   "level": 2,
+   "was": "Instead of blame",
+   "was_level": 2
+  },
+  {
+   "id": "S134",
+   "heading": "Forgiving Without Bypass",
+   "level": 2,
+   "was": "Forgiveness without bypass",
+   "was_level": 2
+  },
+  {
+   "id": "S135",
+   "heading": "Forgiving Yourself",
+   "level": 2,
+   "was": "Forgiving yourself",
+   "was_level": 2
+  },
+  {
+   "id": "S028",
+   "heading": "Working With Your Guards",
+   "level": 1,
+   "was": "Working with your guards",
+   "was_level": 2
+  },
+  {
+   "id": "S029",
+   "heading": "Your Inherited Parent Script",
+   "level": 2,
+   "was": "Your inherited parent script",
+   "was_level": 2
+  },
+  {
+   "id": "S023",
+   "heading": "Inner Child Practices",
+   "level": 1,
+   "was": "Working with your inner child",
+   "was_level": 1
+  },
+  {
+   "id": "S024",
+   "heading": "The Two-Hand Practice",
+   "level": 2,
+   "was": "The two-hand practice",
+   "was_level": 2
+  },
+  {
+   "id": "S031",
+   "heading": "Reparenting in Hypnosis",
+   "level": 2,
+   "was": "Inner child reparenting",
+   "was_level": 2
+  },
+  {
+   "id": "S032",
+   "heading": "Don't Rush the Repair",
+   "level": 2,
+   "was": "Don’t rush the repair",
+   "was_level": 2
+  },
+  {
+   "id": "S033",
+   "heading": "Play & Rest, Adult Present",
+   "level": 2,
+   "was": "Play and rest still need an adult present",
+   "was_level": 2
+  },
+  {
+   "id": "S034",
+   "heading": "Other-Hand Dialogue",
+   "level": 2,
+   "was": "Non-dominant hand dialogue",
+   "was_level": 2
+  },
+  {
+   "id": "S035",
+   "heading": "Is “Your Voice” Really Yours?",
+   "level": 1,
+   "was": "When “your voice” is everybody else’s voice",
+   "was_level": 1
+  },
+  {
+   "id": "S036",
+   "heading": "Belong and Stay Yourself",
+   "level": 2,
+   "was": "Belonging without betraying yourself",
+   "was_level": 2
+  },
+  {
+   "id": "S037",
+   "heading": "De-Hypnosis: Wake Up",
+   "level": 1,
+   "was": "De-hypnosis: wake up inside the influence",
+   "was_level": 1
+  },
+  {
+   "id": "S038",
+   "heading": "Are You Being Influenced?",
+   "level": 2,
+   "was": "If you sense you are being influenced",
+   "was_level": 2
+  },
+  {
+   "id": "S039",
+   "heading": "Soft Words, Less Choice",
+   "level": 2,
+   "was": "Soft language can still take away choice",
+   "was_level": 2
+  },
+  {
+   "id": "S157",
+   "heading": "No-Trance Inner Contact",
+   "level": 1,
+   "was": "9. No-trance inner contact",
+   "was_level": 2
+  },
+  {
+   "id": "S040",
+   "heading": "Induction: Gather and Soften",
+   "level": 1,
+   "was": "Induction: gathering and softening attention",
+   "was_level": 1
+  },
+  {
+   "id": "S041",
+   "heading": "Simple Beats Confusing",
+   "level": 2,
+   "was": "Overly Confusing Isn't Automatically Good",
+   "was_level": 2
+  },
+  {
+   "id": "S042",
+   "heading": "Before You Begin",
+   "level": 2,
+   "was": "Before you begin",
+   "was_level": 2
+  },
+  {
+   "id": "S043",
+   "heading": "Sober Induction: 3–5 Min",
+   "level": 2,
+   "was": "Sober induction: 3–5 minutes",
+   "was_level": 2
+  },
+  {
+   "id": "S044",
+   "heading": "Already Trancey?",
+   "level": 2,
+   "was": "When you’re already trancey",
+   "was_level": 2
+  },
+  {
+   "id": "S045",
+   "heading": "Mind Keeps Drifting Off?",
+   "level": 2,
+   "was": "Stay awake when your mind likes to escape",
+   "was_level": 2
+  },
+  {
+   "id": "S046",
+   "heading": "Make Hypnosis More Alert",
+   "level": 2,
+   "was": "Make the hypnosis more alert",
+   "was_level": 2
+  },
+  {
+   "id": "S047",
+   "heading": "Sleep Induction",
+   "level": 2,
+   "was": "Sleep induction",
+   "was_level": 2
+  },
+  {
+   "id": "S048",
+   "heading": "Fractionation: In and Out",
+   "level": 2,
+   "was": "Optional fractionation: practice coming back",
+   "was_level": 2
+  },
+  {
+   "id": "S049",
+   "heading": "Deepening, if Useful",
+   "level": 2,
+   "was": "Deepening, if useful",
+   "was_level": 2
+  },
+  {
+   "id": "S050",
+   "heading": "Trance Depth Check",
+   "level": 2,
+   "was": "Optional trance depth check",
+   "was_level": 2
+  },
+  {
+   "id": "S051",
+   "heading": "A Shortcut Back In",
+   "level": 2,
+   "was": "A shortcut back into hypnosis",
+   "was_level": 2
+  },
+  {
+   "id": "S052",
+   "heading": "Turn It Off or Keep It",
+   "level": 3,
+   "was": "Turning the shortcut off, or keeping it",
+   "was_level": 3
+  },
+  {
+   "id": "S053",
+   "heading": "Come All the Way Back",
+   "level": 1,
+   "was": "Come all the way back",
+   "was_level": 1
+  },
+  {
+   "id": "S054",
+   "heading": "The Actual Inner Meeting",
+   "level": 1,
+   "was": "The actual inner meeting",
+   "was_level": 1
+  },
+  {
+   "id": "S055",
+   "heading": "Let the Response Guide You",
+   "level": 2,
+   "was": "Let the next response guide you",
+   "was_level": 1
+  },
+  {
+   "id": "S064",
+   "heading": "If Your Mind Objects",
+   "level": 2,
+   "was": "Throughout the exercise",
+   "was_level": 3
+  },
+  {
+   "id": "S056",
+   "heading": "Finding Your Own Words",
+   "level": 2,
+   "was": "Finding your own words",
+   "was_level": 2
+  },
+  {
+   "id": "S057",
+   "heading": "Understand the Meaning",
+   "level": 3,
+   "was": "Notice, meaning, and your thoughts on the meaning",
+   "was_level": 3
+  },
+  {
+   "id": "S058",
+   "heading": "Invitation Feels Wrong?",
+   "level": 2,
+   "was": "Let the response change the invitation",
+   "was_level": 2
+  },
+  {
+   "id": "S059",
+   "heading": "Look at the Situation Too",
+   "level": 2,
+   "was": "Look at the situation too",
+   "was_level": 2
+  },
+  {
+   "id": "S060",
+   "heading": "Feels Like Too Much?",
+   "level": 2,
+   "was": "Change the amount of contact",
+   "was_level": 2
+  },
+  {
+   "id": "S061",
+   "heading": "Urge to Move?",
+   "level": 3,
+   "was": "If you feel an urge to move",
+   "was_level": 3
+  },
+  {
+   "id": "S062",
+   "heading": "Offer the Care They Want",
+   "level": 2,
+   "was": "Offer the care that is actually wanted",
+   "was_level": 2
+  },
+  {
+   "id": "S063",
+   "heading": "Finish Without a Revelation",
+   "level": 2,
+   "was": "Finish without forcing a revelation",
+   "was_level": 2
+  },
+  {
+   "id": "S065",
+   "heading": "The 15-Minute Daily Practice",
+   "level": 1,
+   "was": "The 15-minute daily practice",
+   "was_level": 1
+  },
+  {
+   "id": "S066",
+   "heading": "The Weekly Deeper Practice",
+   "level": 1,
+   "was": "The weekly deeper practice",
+   "was_level": 1
+  },
+  {
+   "id": "S067",
+   "heading": "Capacity Before Content",
+   "level": 1,
+   "was": "Capacity before content",
+   "was_level": 1
+  },
+  {
+   "id": "S068",
+   "heading": "Troubleshooting",
+   "level": 1,
+   "was": "Troubleshooting",
+   "was_level": 1
+  },
+  {
+   "id": "S069",
+   "heading": "Nothing Happens?",
+   "level": 2,
+   "was": "Nothing happens",
+   "was_level": 2
+  },
+  {
+   "id": "S070",
+   "heading": "\"It Feels Fake\"",
+   "level": 2,
+   "was": "\"It feels fake\"",
+   "was_level": 2
+  },
+  {
+   "id": "S071",
+   "heading": "Subconscious Is Silent?",
+   "level": 2,
+   "was": "The subconscious will not answer",
+   "was_level": 2
+  },
+  {
+   "id": "S072",
+   "heading": "Inner Child Won’t Appear?",
+   "level": 2,
+   "was": "The inner child will not appear",
+   "was_level": 2
+  },
+  {
+   "id": "S073",
+   "heading": "Getting Anxious?",
+   "level": 2,
+   "was": "You get anxious",
+   "was_level": 2
+  },
+  {
+   "id": "S074",
+   "heading": "Dissociating or Unreal?",
+   "level": 2,
+   "was": "You dissociate or feel unreal",
+   "was_level": 2
+  },
+  {
+   "id": "S075",
+   "heading": "Feeling Grandiose?",
+   "level": 2,
+   "was": "You become grandiose",
+   "was_level": 2
+  },
+  {
+   "id": "S076",
+   "heading": "Too Analytical?",
+   "level": 2,
+   "was": "You become too analytical",
+   "was_level": 2
+  },
+  {
+   "id": "S077",
+   "heading": "Too Blissful or Diffuse?",
+   "level": 2,
+   "was": "You become too blissful or diffuse",
+   "was_level": 2
+  },
+  {
+   "id": "S078",
+   "heading": "Want Hidden Truth Now?",
+   "level": 2,
+   "was": "You want the hidden truth immediately",
+   "was_level": 2
+  },
+  {
+   "id": "S079",
+   "heading": "Keep Daydreaming?",
+   "level": 2,
+   "was": "You keep daydreaming",
+   "was_level": 2
+  },
+  {
+   "id": "S080",
+   "heading": "Stuck in Spiritual Bypass?",
+   "level": 2,
+   "was": "You get stuck in spiritual bypass",
+   "was_level": 2
+  },
+  {
+   "id": "S081",
+   "heading": "Endless Processing?",
+   "level": 2,
+   "was": "You get stuck in endless processing",
+   "was_level": 2
+  },
+  {
+   "id": "S082",
+   "heading": "Life Not Changing?",
+   "level": 2,
+   "was": "You keep using hypnosis but not changing life",
+   "was_level": 2
+  },
+  {
+   "id": "S083",
+   "heading": "What Not to Do",
+   "level": 1,
+   "was": "What not to do",
+   "was_level": 1
+  },
+  {
+   "id": "S084",
+   "heading": "When to Get Outside Help",
+   "level": 1,
+   "was": "When this needs more support than a guide can provide",
+   "was_level": 1
+  },
+  {
+   "id": "S085",
+   "heading": "Do These With a Clinician",
+   "level": 2,
+   "was": "Methods to explore with a trained person present",
+   "was_level": 2
+  },
+  {
+   "id": "S131",
+   "heading": "Find a Hypnotist Who Fits",
+   "level": 2,
+   "was": "Finding a hypnotist who can work with you",
+   "was_level": 2
+  },
+  {
+   "id": "S086",
+   "heading": "Daily Life Is the Feedback",
+   "level": 1,
+   "was": "Your functioning in ordinary life is the feedback",
+   "was_level": 2
+  },
+  {
+   "id": "S087",
+   "heading": "Closing",
+   "level": 1,
+   "was": "Closing",
+   "was_level": 1
+  },
+  {
+   "id": "S088",
+   "heading": "Try It in the Inner Signal App",
+   "level": 1,
+   "was": "Try it in the Inner Signal app",
+   "was_level": 1
+  },
+  {
+   "id": "S089",
+   "heading": "Survey and Consultation",
+   "level": 2,
+   "was": "Survey and consultation",
+   "was_level": 2
+  },
+  {
+   "id": "S091",
+   "heading": "A: Asking the Subconscious",
+   "level": 1,
+   "was": "Appendix A: How to ask the subconscious a useful question",
+   "was_level": 1
+  },
+  {
+   "id": "S092",
+   "heading": "Core Prompts",
+   "level": 2,
+   "was": "Core prompts",
+   "was_level": 2
+  },
+  {
+   "id": "S093",
+   "heading": "B: Ethical NLP",
+   "level": 1,
+   "was": "Appendix B: NLP without turning yourself into a sales seminar",
+   "was_level": 1
+  },
+  {
+   "id": "S094",
+   "heading": "The Four Layers",
+   "level": 2,
+   "was": "The four NLP layers",
+   "was_level": 2
+  },
+  {
+   "id": "S095",
+   "heading": "Milton Model: Soft Words",
+   "level": 2,
+   "was": "The Milton Model, minus the covert sales seminar",
+   "was_level": 2
+  },
+  {
+   "id": "S096",
+   "heading": "1. Pacing and Leading",
+   "level": 3,
+   "was": "Pattern 1: Pacing and leading — truth before suggestion",
+   "was_level": 3
+  },
+  {
+   "id": "S097",
+   "heading": "2. Awareness Verbs",
+   "level": 3,
+   "was": "Pattern 2: Awareness verbs",
+   "was_level": 3
+  },
+  {
+   "id": "S098",
+   "heading": "3. Presuppositions",
+   "level": 3,
+   "was": "Pattern 3: Presuppositions",
+   "was_level": 3
+  },
+  {
+   "id": "S099",
+   "heading": "4. Cause-Effect Bridges",
+   "level": 3,
+   "was": "Pattern 4: Gentle cause-effect bridges",
+   "was_level": 3
+  },
+  {
+   "id": "S100",
+   "heading": "5. Embedded Invitations",
+   "level": 3,
+   "was": "Pattern 5: Embedded invitations",
+   "was_level": 3
+  },
+  {
+   "id": "S101",
+   "heading": "6. Ethical Double Binds",
+   "level": 3,
+   "was": "Pattern 6: Ethical double binds",
+   "was_level": 3
+  },
+  {
+   "id": "S102",
+   "heading": "7. Questions as Requests",
+   "level": 3,
+   "was": "Pattern 7: Conversational postulates",
+   "was_level": 3
+  },
+  {
+   "id": "S103",
+   "heading": "8. Tag Questions",
+   "level": 3,
+   "was": "Pattern 8: Tag questions",
+   "was_level": 3
+  },
+  {
+   "id": "S104",
+   "heading": "9. Nominalizations",
+   "level": 3,
+   "was": "Pattern 9: Nominalizations",
+   "was_level": 3
+  },
+  {
+   "id": "S105",
+   "heading": "10. The Meta Model",
+   "level": 3,
+   "was": "Pattern 10: Meta Model questions — the de-hypnosis tool",
+   "was_level": 3
+  },
+  {
+   "id": "S106",
+   "heading": "Sensory, State & Strategy",
+   "level": 2,
+   "was": "Sensory, state, and strategy tools",
+   "was_level": 2
+  },
+  {
+   "id": "S107",
+   "heading": "Edit the Image or Sound",
+   "level": 3,
+   "was": "Submodalities — editing the form, not denying the truth",
+   "was_level": 3
+  },
+  {
+   "id": "S108",
+   "heading": "Anchoring: A Way Back",
+   "level": 3,
+   "was": "Anchoring — giving the body a doorway back",
+   "was_level": 3
+  },
+  {
+   "id": "S109",
+   "heading": "Synchronicity as a Bell",
+   "level": 3,
+   "was": "Using synchronicity as your own wake-up bell",
+   "was_level": 3
+  },
+  {
+   "id": "S110",
+   "heading": "Installing the Cue",
+   "level": 4,
+   "was": "Installing the synchronicity cue",
+   "was_level": 4
+  },
+  {
+   "id": "S111",
+   "heading": "When to Turn It Off",
+   "level": 4,
+   "was": "False positives, and turning the cue off",
+   "was_level": 4
+  },
+  {
+   "id": "S112",
+   "heading": "Reframing Without Lying",
+   "level": 3,
+   "was": "Reframing — changing the meaning without lying",
+   "was_level": 3
+  },
+  {
+   "id": "S113",
+   "heading": "Four Perceptual Positions",
+   "level": 3,
+   "was": "Perceptual positions — self, other, witness, universal heart",
+   "was_level": 3
+  },
+  {
+   "id": "S114",
+   "heading": "Future Pacing: Test It",
+   "level": 3,
+   "was": "Future pacing — let the future test the insight",
+   "was_level": 3
+  },
+  {
+   "id": "S115",
+   "heading": "The Swish, Softened",
+   "level": 3,
+   "was": "The Swish, softened",
+   "was_level": 3
+  },
+  {
+   "id": "S116",
+   "heading": "Parts Integration",
+   "level": 3,
+   "was": "Parts integration, without pretending the conflict is solved",
+   "was_level": 3
+  },
+  {
+   "id": "S117",
+   "heading": "What I Won’t Use NLP For",
+   "level": 2,
+   "was": "What I will not use NLP for",
+   "was_level": 2
+  },
+  {
+   "id": "S118",
+   "heading": "The Whole NLP Sequence",
+   "level": 2,
+   "was": "Running the whole NLP sequence",
+   "was_level": 2
+  },
+  {
+   "id": "S119",
+   "heading": "C: The De-Hypnosis Checklist",
+   "level": 1,
+   "was": "Appendix C: The extended de-hypnosis checklist",
+   "was_level": 1
+  },
+  {
+   "id": "S121",
+   "heading": "D: Anxiety, Body First",
+   "level": 1,
+   "was": "Appendix D: Anxiety — body first",
+   "was_level": 1
+  },
+  {
+   "id": "S122",
+   "heading": "Breathe, Relax & Flow",
+   "level": 2,
+   "was": "Reduced breathing / Buteyko-style breathing",
+   "was_level": 2
+  },
+  {
+   "id": "S123",
+   "heading": "EFT Tapping",
+   "level": 2,
+   "was": "EFT tapping",
+   "was_level": 2
+  },
+  {
+   "id": "S124",
+   "heading": "Somatic Experiencing",
+   "level": 2,
+   "was": "Somatic Experiencing",
+   "was_level": 2
+  },
+  {
+   "id": "S125",
+   "heading": "Gendlin Focusing",
+   "level": 2,
+   "was": "Gendlin Focusing",
+   "was_level": 2
+  },
+  {
+   "id": "S126",
+   "heading": "Calm the Body Directly",
+   "level": 2,
+   "was": "Body supports",
+   "was_level": 2
+  },
+  {
+   "id": "S127",
+   "heading": "Inner Child Love",
+   "level": 2,
+   "was": "Inner child love",
+   "was_level": 2
+  },
+  {
+   "id": "S128",
+   "heading": "Anxiety Script",
+   "level": 2,
+   "was": "Anxiety script",
+   "was_level": 2
+  },
+  {
+   "id": "S129",
+   "heading": "E: Is Daydreaming Helping?",
+   "level": 1,
+   "was": "Appendix E: Is the daydream helping or replacing your life?",
+   "was_level": 1
+  },
+  {
+   "id": "S130",
+   "heading": "F: Self-Trust and Guidance",
+   "level": 1,
+   "was": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+   "was_level": 1
+  },
+  {
+   "id": "S132",
+   "heading": "An Oracle Isn’t an Order",
+   "level": 2,
+   "was": "When the subconscious speaks like an oracle",
+   "was_level": 2
+  },
+  {
+   "id": "S133",
+   "heading": "Take It to the Council",
+   "level": 2,
+   "was": "The council — internal first, then outward",
+   "was_level": 2
+  },
+  {
+   "id": "S136",
+   "heading": "G: Altered States",
+   "level": 1,
+   "was": "Appendix G: Altered states",
+   "was_level": 1
+  },
+  {
+   "id": "S137",
+   "heading": "Stabilize, Then Interpret",
+   "level": 2,
+   "was": "Stabilize before you interpret",
+   "was_level": 2
+  },
+  {
+   "id": "S138",
+   "heading": "H: Demons, Jinn & Presences",
+   "level": 1,
+   "was": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”",
+   "was_level": 1
+  },
+  {
+   "id": "S139",
+   "heading": "Start With Basic Safety",
+   "level": 2,
+   "was": "Start with the room, the body, and basic safety",
+   "was_level": 2
+  },
+  {
+   "id": "S140",
+   "heading": "Warmth or Distance?",
+   "level": 2,
+   "was": "A response check, not a verdict about what it is",
+   "was_level": 2
+  },
+  {
+   "id": "S141",
+   "heading": "Should You Fight It?",
+   "level": 2,
+   "was": "Do not fight from fear",
+   "was_level": 2
+  },
+  {
+   "id": "S142",
+   "heading": "Compassion, Door Closed",
+   "level": 2,
+   "was": "A bodily boundary: compassion present, door closed",
+   "was_level": 2
+  },
+  {
+   "id": "S143",
+   "heading": "Could It Be Psychosis?",
+   "level": 2,
+   "was": "If it might be psychosis or destabilization",
+   "was_level": 2
+  },
+  {
+   "id": "S145",
+   "heading": "Cosmic-Download Test",
+   "level": 2,
+   "was": "The cosmic-download humility test",
+   "was_level": 2
+  },
+  {
+   "id": "S146",
+   "heading": "Skip the Entity Hobby",
+   "level": 2,
+   "was": "Don’t become an entity hobbyist",
+   "was_level": 2
+  },
+  {
+   "id": "S148",
+   "heading": "I: An Induction Library",
+   "level": 1,
+   "was": "Appendix J: A practical induction library",
+   "was_level": 1
+  },
+  {
+   "id": "S149",
+   "heading": "1. Stretch and Release",
+   "level": 2,
+   "was": "1. Stretch and release",
+   "was_level": 2
+  },
+  {
+   "id": "S150",
+   "heading": "2. Supported Floating",
+   "level": 2,
+   "was": "2. Supported floating",
+   "was_level": 2
+  },
+  {
+   "id": "S151",
+   "heading": "3. Breath or Pulse Rhythm",
+   "level": 2,
+   "was": "3. Rhythmic breath or pulse",
+   "was_level": 2
+  },
+  {
+   "id": "S152",
+   "heading": "4. Unwinding Object",
+   "level": 2,
+   "was": "4. Unwinding object",
+   "was_level": 2
+  },
+  {
+   "id": "S153",
+   "heading": "5. Sensory Journey",
+   "level": 2,
+   "was": "5. Sensory journey",
+   "was_level": 2
+  },
+  {
+   "id": "S154",
+   "heading": "6. Gradual Wave",
+   "level": 2,
+   "was": "6. Gradual wave",
+   "was_level": 2
+  },
+  {
+   "id": "S155",
+   "heading": "7. Care Workshop",
+   "level": 2,
+   "was": "7. Care workshop",
+   "was_level": 2
+  },
+  {
+   "id": "S156",
+   "heading": "8. Resource Embodiment",
+   "level": 2,
+   "was": "8. Resource embodiment",
+   "was_level": 2
+  },
+  {
+   "id": "S158",
+   "heading": "J: Sources & Further Reading",
+   "level": 1,
+   "was": "Appendix K: Sources and further reading",
+   "was_level": 1
+  },
+  {
+   "id": "S159",
+   "heading": "Learning, Entry & Return",
+   "level": 2,
+   "was": "Learning, entering, and returning",
+   "was_level": 2
+  },
+  {
+   "id": "S160",
+   "heading": "Indirect Language & Cues",
+   "level": 2,
+   "was": "Indirect language and re-entry cues",
+   "was_level": 2
+  },
+  {
+   "id": "S161",
+   "heading": "Body Awareness & Contact",
+   "level": 2,
+   "was": "Body awareness and changing the amount of contact",
+   "was_level": 2
+  },
+  {
+   "id": "S162",
+   "heading": "Reparenting Therapy",
+   "level": 2,
+   "was": "Inner-child care and adult capacities",
+   "was_level": 2
+  },
+  {
+   "id": "S163",
+   "heading": "Inner Speech",
+   "level": 2,
+   "was": "Inner speech and putting experience into words",
+   "was_level": 2
+  },
+  {
+   "id": "S164",
+   "heading": "Memory & Practitioners",
+   "level": 2,
+   "was": "Memory, support, and choosing a practitioner",
+   "was_level": 2
+  }
+ ],
+ "dropped": {
+  "S002": [
+   "S001",
+   "answer 1: its two sentences end \"How to Use This Huge Guide\""
+  ],
+  "S090": [
+   null,
+   "answer 2: the heading and its note go; \"How to Use This Huge Guide\" already says the appendices are extra tools"
+  ],
+  "S120": [
+   "S131",
+   "answer 10: merged into \"Find a Hypnotist Who Fits\" in Appendix F"
+  ],
+  "S144": [
+   "S143",
+   "answer 7: cut to one sentence at the end of \"Could It Be Psychosis?\", linking to \"Daily Life Is the Feedback\""
+  ],
+  "S147": [
+   "S047",
+   "answer 8: the sleep appendix goes; \"Sleep Induction\" already gives the same Nimja playlist"
+  ]
+ },
+ "moves": [
+  [
+   [
+    "S025",
+    "S026",
+    "S030",
+    "S027"
+   ],
+   "S018",
+   "answer 4: the three jobs and the Protector drill go under \"The Inner Adult’s Three Jobs\", right after its own text"
+  ],
+  [
+   [
+    "S134",
+    "S135"
+   ],
+   "S022",
+   "answer 9: forgiveness goes next to \"Love First, Trust Later\" and \"Instead of Blame\""
+  ],
+  [
+   [
+    "S028",
+    "S029"
+   ],
+   "S135",
+   "answer 4: the guards and the parent script, as their own h1, after the three jobs"
+  ],
+  [
+   [
+    "S064"
+   ],
+   "S055",
+   "answer 6: right after the own text of \"Let the Response Guide You\", before \"Finding Your Own Words\""
+  ],
+  [
+   [
+    "S131"
+   ],
+   "S085",
+   "2026-11-25: \"wouldn't find a hypnotist go under when to get outside help?\": after \"Do These With a Clinician\", with the audit merged in (answer 10)"
+  ],
+  [
+   [
+    "S157"
+   ],
+   "S039",
+   "2026-11-25: \"no trance inner contact shouldn't be in the induction library i guess, and i'd put that above the inductions, makes sense to do that preliminarily\": right before \"Induction: Gather and Soften\""
+  ]
+ ],
+ "levels": {
+  "S009": [
+   2,
+   "answer 5: S009 only; it now sits under S008"
+  ],
+  "S028": [
+   1,
+   "answer 4: the guards get an h1 of their own, with the parent script under it"
+  ],
+  "S064": [
+   2,
+   "answer 6: moved up and made an h2"
+  ],
+  "S055": [
+   2,
+   "2026-11-25 11:18, question 1 (\"yes\"): an h2 under \"The Actual Inner Meeting\", with the eight steps after it"
+  ],
+  "S086": [
+   1,
+   "2026-11-25: \"daily life should not be when to get outside help\": an h1 of its own, where it stands, between the outside-help sections and the Closing"
+  ],
+  "S157": [
+   1,
+   "2026-11-25: out of the induction library, an h1 of its own above the inductions"
+  ]
+ },
+ "edits": [
+  {
+   "id": "T8",
+   "in": "S001",
+   "from": "working with sleep, influence, and more inductions",
+   "to": "influence, and more inductions",
+   "why": "answer 8: the sleep appendix goes, so the list of what the appendices cover no longer names it"
+  },
+  {
+   "id": "T1",
+   "in": "S001",
+   "from": "All sources used are in Appendix K.",
+   "to": "All sources used are in Appendix J.",
+   "why": "answer 8: K becomes J"
+  },
+  {
+   "id": "T5",
+   "in": "S079",
+   "from": "What are you avoiding doing in the real world by doing this?”",
+   "to": "What are you avoiding doing in the real world by doing this?” For more on daydreaming, see Appendix E.",
+   "why": "answer 11: the pointer \"Getting Anxious?\" has for Appendix D"
+  },
+  {
+   "id": "T6a",
+   "in": "S120",
+   "from": "interview them a bit:",
+   "to": "interview them a bit more:",
+   "why": "answer 10: his three lists now come first"
+  },
+  {
+   "id": "T6b",
+   "in": "S120",
+   "from": " After it's over, check how well your critical thinking is working when you look back on how it went.",
+   "to": "",
+   "why": "answer 10: this sentence joins the start of his \"Then afterwards\" paragraph"
+  },
+  {
+   "id": "T6c",
+   "in": "S131",
+   "from": "Then afterwards, check in about what was actually done",
+   "to": "Then afterwards, check how well your critical thinking is working when you look back on how it went, and check in about what was actually done",
+   "why": "answer 10"
+  },
+  {
+   "id": "T7",
+   "in": "S122",
+   "from": "Can you make your breathing very quiet? If you feel bad",
+   "to": "Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more. If you feel bad",
+   "why": "his note of 2026-11-24 21:05 UTC: Systema's continuous breathing beside the Buteyko lines; inside his paragraph, before his stop line, so that line covers both (a fresh reader, 2026-11-25). His answer 7 b (the somatic guide's way of breathing less) is on the marking page, not in this edit: swapping the sentences left two of his that no longer fit"
+  },
+  {
+   "id": "Q8",
+   "in": "S019",
+   "from": "The longer version of this exercise can be found in my",
+   "to": "There is more on borrowed adulthood in my",
+   "why": "his answer of 2026-11-25 11:18 (\"8 a\"): the inner child guide no longer has the adult hat exercise; the sentence points to its \"Borrowed Adulthood\" section"
+  },
+  {
+   "id": "Q9",
+   "in": "S124",
+   "from": "or even a free intro session, please see",
+   "to": "or even a free intro session for paid subscribers, please see",
+   "why": "his answer of 2026-11-25 11:18 (\"9 yes\"): the somatic guide gives one free session to paid subscribers"
+  },
+  {
+   "id": "N04",
+   "in": "S001",
+   "from": "“Let the next response guide you” section",
+   "to": "“Let the Response Guide You” section",
+   "why": "answer 13"
+  },
+  {
+   "id": "N13",
+   "in": "S040",
+   "from": "\"Already trancey? Stabilize before dipping deeper.\"",
+   "to": "\"Already Trancey?\"",
+   "why": "answer 13"
+  },
+  {
+   "id": "N15",
+   "in": "S042",
+   "from": "after induction in Let the next response guide you.",
+   "to": "after induction in Let the Response Guide You.",
+   "why": "answer 13"
+  },
+  {
+   "id": "N16",
+   "in": "S042",
+   "from": "called \"When you're already trancey\"",
+   "to": "called \"Already Trancey?\"",
+   "why": "answer 13"
+  },
+  {
+   "id": "N17",
+   "in": "S042",
+   "from": "and the Come all the way back section",
+   "to": "and the Come All the Way Back section",
+   "why": "answer 13"
+  },
+  {
+   "id": "N19",
+   "in": "S063",
+   "from": "‘Come all the way back’ procedure",
+   "to": "‘Come All the Way Back’ procedure",
+   "why": "answer 13"
+  },
+  {
+   "id": "N20",
+   "in": "S065",
+   "from": "the cue from \"A shortcut back into hypnosis\"",
+   "to": "the cue from \"A Shortcut Back In\"",
+   "why": "answer 13"
+  },
+  {
+   "id": "N21",
+   "in": "S067",
+   "from": "(see “When this needs more support than a guide can provide”)",
+   "to": "(see “When to Get Outside Help”)",
+   "why": "answer 13"
+  },
+  {
+   "id": "N28",
+   "in": "S108",
+   "from": "See \"A shortcut back into hypnosis\" for a quick way back in.",
+   "to": "See \"A Shortcut Back In\" for a quick way back.",
+   "why": "answer 13; \"in\" goes so the sentence doesn't say \"back in\" twice"
+  },
+  {
+   "id": "N29",
+   "in": "S118",
+   "from": "(see “Come all the way back”)",
+   "to": "(see “Come All the Way Back”)",
+   "why": "answer 13"
+  },
+  {
+   "id": "N31",
+   "in": "S127",
+   "from": "(the two-hand practice in Working with your inner child)",
+   "to": "(the two-hand practice in Inner Child Practices)",
+   "why": "answer 13"
+  },
+  {
+   "id": "N32",
+   "in": "S130",
+   "from": "see “Using synchronicity as your own wake-up bell” in Appendix B",
+   "to": "see “Synchronicity as a Bell” in Appendix B",
+   "why": "answer 13"
+  }
+ ],
+ "new_paragraphs": [
+  {
+   "id": "T3",
+   "ends": "S143",
+   "text": "The general rule is the one in “Daily Life Is the Feedback”: if what you're doing is making you more paranoid, sleepless, grandiose, isolated or scared, or things feel more and more unreal, stop going deeper and get help.",
+   "why": "answer 7: \"The General Rule\" goes; this sentence keeps every warning sign of his"
+  },
+  {
+   "id": "P1",
+   "ends": "S007",
+   "text": "If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
+   "why": "question 3 of 2026-11-25 (\"yes\"): both final readers looked here for what to check before playing a stranger's recording"
+  }
+ ],
+ "links": [
+  {
+   "n": 1,
+   "in": "S001",
+   "find": "Quick start section",
+   "words": "Quick start section",
+   "to": "S004",
+   "heading": "Quick Start: Do This First",
+   "href": "#§quick-start-do-this-first",
+   "unchecked": ""
+  },
+  {
+   "n": 2,
+   "in": "S001",
+   "find": "one of the inductions",
+   "words": "one of the inductions",
+   "to": "S040",
+   "heading": "Induction: Gather and Soften",
+   "href": "#§induction-gather-and-soften",
+   "unchecked": ""
+  },
+  {
+   "n": 3,
+   "in": "S001",
+   "find": "the whole return sequence",
+   "words": "the whole return sequence",
+   "to": "S053",
+   "heading": "Come All the Way Back",
+   "href": "#§come-all-the-way-back",
+   "unchecked": ""
+  },
+  {
+   "n": 4,
+   "in": "S001",
+   "find": "n read the “Let the Response Guide You” section, f",
+   "words": "Let the Response Guide You",
+   "to": "S055",
+   "heading": "Let the Response Guide You",
+   "href": "#§let-the-response-guide-you",
+   "unchecked": ""
+  },
+  {
+   "n": 5,
+   "in": "S001",
+   "find": "tuff in the daily and weekly ",
+   "words": "daily",
+   "to": "S065",
+   "heading": "The 15-Minute Daily Practice",
+   "href": "#§the-15-minute-daily-practice",
+   "unchecked": ""
+  },
+  {
+   "n": 6,
+   "in": "S001",
+   "find": "e daily and weekly sections, t",
+   "words": "weekly",
+   "to": "S066",
+   "heading": "The Weekly Deeper Practice",
+   "href": "#§the-weekly-deeper-practice",
+   "unchecked": ""
+  },
+  {
+   "n": 7,
+   "in": "S001",
+   "find": "used are in Appendix J.",
+   "words": "Appendix J",
+   "to": "S158",
+   "heading": "J: Sources & Further Reading",
+   "href": "#§j-sources-and-further-reading",
+   "unchecked": ""
+  },
+  {
+   "n": 8,
+   "in": "S003",
+   "find": "e this with inner child reparenting (a clever s",
+   "words": "inner child reparenting",
+   "to": "S031",
+   "heading": "Reparenting in Hypnosis",
+   "href": "#§reparenting-in-hypnosis",
+   "unchecked": ""
+  },
+  {
+   "n": 9,
+   "in": "S004",
+   "find": "4) Wait; 5) Come all the way back. Not much n",
+   "words": "Come all the way back",
+   "to": "S053",
+   "heading": "Come All the Way Back",
+   "href": "#§come-all-the-way-back",
+   "unchecked": ""
+  },
+  {
+   "n": 10,
+   "in": "S024",
+   "find": "on too: the Sober induction below has i",
+   "words": "Sober induction",
+   "to": "S043",
+   "heading": "Sober Induction: 3–5 Min",
+   "href": "#§sober-induction-35-min",
+   "unchecked": [
+    "–"
+   ]
+  },
+  {
+   "n": 11,
+   "in": "S028",
+   "find": " Maybe it's your inherited parent script, or somethi",
+   "words": "your inherited parent script",
+   "to": "S029",
+   "heading": "Your Inherited Parent Script",
+   "href": "#§your-inherited-parent-script",
+   "unchecked": ""
+  },
+  {
+   "n": 12,
+   "in": "S035",
+   "find": "cause often your inherited parent script tells your ",
+   "words": "your inherited parent script",
+   "to": "S029",
+   "heading": "Your Inherited Parent Script",
+   "href": "#§your-inherited-parent-script",
+   "unchecked": ""
+  },
+  {
+   "n": 13,
+   "in": "S040",
+   "find": "traight to \"Already Trancey?\"",
+   "words": "Already Trancey?",
+   "to": "S044",
+   "heading": "Already Trancey?",
+   "href": "#§already-trancey",
+   "unchecked": ""
+  },
+  {
+   "n": 14,
+   "in": "S042",
+   "find": "an use, see Appendix B, or keep re",
+   "words": "Appendix B",
+   "to": "S093",
+   "heading": "B: Ethical NLP",
+   "href": "#§b-ethical-nlp",
+   "unchecked": ""
+  },
+  {
+   "n": 15,
+   "in": "S042",
+   "find": "nduction in Let the Response Guide You. Either way",
+   "words": "Let the Response Guide You",
+   "to": "S055",
+   "heading": "Let the Response Guide You",
+   "href": "#§let-the-response-guide-you",
+   "unchecked": ""
+  },
+  {
+   "n": 16,
+   "in": "S042",
+   "find": "low called \"Already Trancey?\" can be use",
+   "words": "Already Trancey?",
+   "to": "S044",
+   "heading": "Already Trancey?",
+   "href": "#§already-trancey",
+   "unchecked": ""
+  },
+  {
+   "n": 17,
+   "in": "S042",
+   "find": "on, and the Come All the Way Back section, wh",
+   "words": "Come All the Way Back",
+   "to": "S053",
+   "heading": "Come All the Way Back",
+   "href": "#§come-all-the-way-back",
+   "unchecked": ""
+  },
+  {
+   "n": 18,
+   "in": "S043",
+   "find": "contact, or the two-hand practice (above) or ",
+   "words": "the two-hand practice",
+   "to": "S024",
+   "heading": "The Two-Hand Practice",
+   "href": "#§the-two-hand-practice",
+   "unchecked": ""
+  },
+  {
+   "n": 19,
+   "in": "S063",
+   "find": "h, use the ‘Come All the Way Back’ procedure ",
+   "words": "Come All the Way Back",
+   "to": "S053",
+   "heading": "Come All the Way Back",
+   "href": "#§come-all-the-way-back",
+   "unchecked": ""
+  },
+  {
+   "n": 20,
+   "in": "S065",
+   "find": "e cue from \"A Shortcut Back In\" can shorte",
+   "words": "A Shortcut Back In",
+   "to": "S051",
+   "heading": "A Shortcut Back In",
+   "href": "#§a-shortcut-back-in",
+   "unchecked": ""
+  },
+  {
+   "n": 21,
+   "in": "S067",
+   "find": "When to Get Outside Help",
+   "words": "When to Get Outside Help",
+   "to": "S084",
+   "heading": "When to Get Outside Help",
+   "href": "#§when-to-get-outside-help",
+   "unchecked": ""
+  },
+  {
+   "n": 22,
+   "in": "S070",
+   "find": "uld also be your inherited parent script that you ar",
+   "words": "your inherited parent script",
+   "to": "S029",
+   "heading": "Your Inherited Parent Script",
+   "href": "#§your-inherited-parent-script",
+   "unchecked": ""
+  },
+  {
+   "n": 23,
+   "in": "S073",
+   "find": " toolbox in Appendix D.",
+   "words": "Appendix D",
+   "to": "S121",
+   "heading": "D: Anxiety, Body First",
+   "href": "#§d-anxiety-body-first",
+   "unchecked": ""
+  },
+  {
+   "n": 24,
+   "in": "S076",
+   "find": "exus, as in the two-hand practice, and say, “",
+   "words": "the two-hand practice",
+   "to": "S024",
+   "heading": "The Two-Hand Practice",
+   "href": "#§the-two-hand-practice",
+   "unchecked": ""
+  },
+  {
+   "n": 26,
+   "in": "S091",
+   "find": "the core prompts",
+   "words": "the core prompts",
+   "to": "S092",
+   "heading": "Core Prompts",
+   "href": "#§core-prompts",
+   "unchecked": ""
+  },
+  {
+   "n": 27,
+   "in": "S092",
+   "find": " The NLP in Appendix B below can h",
+   "words": "Appendix B",
+   "to": "S093",
+   "heading": "B: Ethical NLP",
+   "href": "#§b-ethical-nlp",
+   "unchecked": ""
+  },
+  {
+   "n": 28,
+   "in": "S108",
+   "find": "e one. See \"A Shortcut Back In\" for a quic",
+   "words": "A Shortcut Back In",
+   "to": "S051",
+   "heading": "A Shortcut Back In",
+   "href": "#§a-shortcut-back-in",
+   "unchecked": ""
+  },
+  {
+   "n": 29,
+   "in": "S118",
+   "find": "state (see “Come All the Way Back”), and go d",
+   "words": "Come All the Way Back",
+   "to": "S053",
+   "heading": "Come All the Way Back",
+   "href": "#§come-all-the-way-back",
+   "unchecked": ""
+  },
+  {
+   "n": 30,
+   "in": "S127",
+   "find": "lar plexus (the two-hand practice in Inner Ch",
+   "words": "the two-hand practice",
+   "to": "S024",
+   "heading": "The Two-Hand Practice",
+   "href": "#§the-two-hand-practice",
+   "unchecked": ""
+  },
+  {
+   "n": 31,
+   "in": "S127",
+   "find": "Inner Child Practices",
+   "words": "Inner Child Practices",
+   "to": "S023",
+   "heading": "Inner Child Practices",
+   "href": "#§inner-child-practices",
+   "unchecked": ""
+  },
+  {
+   "n": 32,
+   "in": "S130",
+   "find": "Synchronicity as a Bell",
+   "words": "Synchronicity as a Bell",
+   "to": "S109",
+   "heading": "Synchronicity as a Bell",
+   "href": "#§synchronicity-as-a-bell",
+   "unchecked": ""
+  },
+  {
+   "n": 33,
+   "in": "S132",
+   "find": "the council",
+   "words": "the council",
+   "to": "S133",
+   "heading": "Take It to the Council",
+   "href": "#§take-it-to-the-council",
+   "unchecked": ""
+  },
+  {
+   "n": 34,
+   "in": "S136",
+   "find": "the inner child reparenting section",
+   "words": "the inner child reparenting section",
+   "to": "S031",
+   "heading": "Reparenting in Hypnosis",
+   "href": "#§reparenting-in-hypnosis",
+   "unchecked": ""
+  },
+  {
+   "n": 25,
+   "in": "S079",
+   "find": "eaming, see Appendix E.",
+   "words": "Appendix E",
+   "to": "S129",
+   "heading": "E: Is Daydreaming Helping?",
+   "href": "#§e-is-daydreaming-helping",
+   "unchecked": ""
+  },
+  {
+   "n": 36,
+   "in": "S039",
+   "find": "appendix C",
+   "words": "appendix C",
+   "to": "S119",
+   "heading": "C: The De-Hypnosis Checklist",
+   "href": "#§c-the-de-hypnosis-checklist",
+   "unchecked": ""
+  },
+  {
+   "n": 37,
+   "in": "S148",
+   "find": "a no-trance inner contact",
+   "words": "a no-trance inner contact",
+   "to": "S157",
+   "heading": "No-Trance Inner Contact",
+   "href": "#§no-trance-inner-contact",
+   "unchecked": ""
+  },
+  {
+   "n": 38,
+   "in": "S130",
+   "find": "skilled outside support",
+   "words": "skilled outside support",
+   "to": "S131",
+   "heading": "Find a Hypnotist Who Fits",
+   "href": "#§find-a-hypnotist-who-fits",
+   "unchecked": ""
+  },
+  {
+   "n": 40,
+   "in": "S122",
+   "find": "the best video on it I've seen so far",
+   "words": "the best video on it I've seen so far",
+   "to": "https://www.youtube.com/shorts/Nar2-nvomAk",
+   "heading": "",
+   "href": "https://www.youtube.com/shorts/Nar2-nvomAk",
+   "unchecked": ""
+  },
+  {
+   "n": 41,
+   "in": "S122",
+   "find": "my somatic guide explains it more",
+   "words": "my somatic guide explains it more",
+   "to": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts",
+   "heading": "",
+   "href": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts",
+   "unchecked": ""
+  },
+  {
+   "n": 39,
+   "in": "S019",
+   "find": "thood in my Inner Child Self-Love Reparenting Guide.",
+   "words": "Inner Child Self-Love Reparenting Guide",
+   "to": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+   "heading": "",
+   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+   "unchecked": ""
+  }
+ ],
+ "blocks_removed": [
+  6,
+  420,
+  421,
+  556,
+  665,
+  666,
+  671,
+  672,
+  673
+ ]
+}

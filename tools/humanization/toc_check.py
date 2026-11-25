@@ -18,7 +18,7 @@ With --fates, it fails until every one of them has a fate: "changed: ..." or "ke
 own part of the parent's topic, "Active Seizure" > "What Else Helps", is a kept with that reason).
 
   python3 tools/humanization/toc_check.py CONTENTS.json [--reads DIR --name NAME] [--fates FATES.json]
-CONTENTS.json is [{"id", "level", "heading"}, ...] in order; DIR holds READ-<NAME>-<k>.txt (or HARD-<NAME>-<k>.txt) and
+CONTENTS.json is [{"id", "level", "heading"}, ...] in order; DIR holds READ-<NAME>-<k>.txt or .md (or HARD-<NAME>-<k>.txt) and
 LINES-<NAME>.json ([{"n", "id"}]) maps a read's line numbers to section ids.
 """
 import argparse, glob, json, os, re, sys
@@ -73,7 +73,8 @@ def hard(reads_dir, name):
         path = os.path.join(os.path.dirname(os.path.abspath(reads_dir)), 'LINES-%s.json' % name)
     lines = {x['n']: x['id'] for x in json.load(open(path, encoding='utf-8'))}
     out = {}
-    files = glob.glob(os.path.join(reads_dir, 'READ-%s-*.txt' % name)) + glob.glob(os.path.join(reads_dir, 'HARD-%s-*.txt' % name))
+    files = [f for ext in ('txt', 'md') for pre in ('READ', 'HARD')   # .md too: the Self-Hypnosis run's reads are Markdown,
+             for f in glob.glob(os.path.join(reads_dir, '%s-%s-*.%s' % (pre, name, ext)))]  # so none of its HARD lines was seen (2026-11-25)
     for f in sorted(files):
         for line in open(f, encoding='utf-8'):
             m = re.match(r'\s*HARD:\s*(\d+)\s*\|\s*(.*)$', line)

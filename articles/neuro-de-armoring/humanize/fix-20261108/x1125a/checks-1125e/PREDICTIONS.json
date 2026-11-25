@@ -1,0 +1,46 @@
+[
+ {
+  "key": "iso8",
+  "name": "The Isolation Trap, try 3: after the tell panel, my own closing sentence out",
+  "lineage": "neuro-de-armoring/W-ISO",
+  "scope": "paragraph",
+  "words": 85,
+  "call": "AI",
+  "chance": 0.2,
+  "why": "see the ledger record",
+  "sha256": "591bfc3bef80c1defc56195956b4ed8c363a655b5e82d499496e1e5e582f5a5f"
+ },
+ {
+  "key": "agm8",
+  "name": "The Agmatine Warning's first paragraph, try 3: after the tell panel, what it is first",
+  "lineage": "neuro-de-armoring/W-AGMINTRO",
+  "scope": "paragraph",
+  "words": 62,
+  "call": "AI",
+  "chance": 0.2,
+  "why": "see the ledger record",
+  "sha256": "76a70925b8426c62c199d0fdce113b9e30ef175139034869798bcf098ab3e14c"
+ },
+ {
+  "key": "htp8",
+  "name": "The 5-HTP warning, try 3: a small step, three sentences that read AI",
+  "lineage": "neuro-de-armoring/W-HTPTOP",
+  "scope": "paragraph",
+  "words": 168,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "c6f5844bc35fd996887b2c4020657221484814682348f78ea8385317c9b2193d"
+ },
+ {
+  "key": "pair-cog-proj8",
+  "name": "The Cognitive Warning (41 words) with its neighbour, try 3: the correction in four words",
+  "lineage": "neuro-de-armoring/PAIR-COG-PROJ",
+  "scope": "pair",
+  "words": 118,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "see the ledger record",
+  "sha256": "29720fdaf8d2c78de88ed8b8b47b56be56ce00644380097ce01862f7efe0b278"
+ }
+]

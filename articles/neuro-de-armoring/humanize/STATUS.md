@@ -1,5 +1,33 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-25, his message of 01:24 UTC: the warnings at the top, sense first, each checked by itself; six in at Human High, three teaching cards, two close
+
+His message word for word: `fix-20261108/joel-20261125-0124-message.txt`. **The mailbox first** ("2026-11-25 01:24"):
+UDA AGENTS.md and LESSON-INDEX read from a clone (main 3fce0320); six items in the UDA lane, all in the ledger; main
+67dd2775 merged (romance 529, 532; contents 530, 531), with its shared changes read; no new issues or comments; his
+other account's questions and cards pages can't be opened from this one (recorded as unreachable; both pages are
+published from this account too now); no notifications.
+
+- **In** (`fix-20261108/x1125a/apply_x1125a.py`, `apply_v10.py`, `APPLIED-X1125A.json`; HUMANIZED-SO-FAR.md 386bad86 to
+  a65eaa1b): the section label as its own block; DMSO Safety (#234, try 4), Electrolytes (#222, try 2), the plant
+  medicines (#232, try 2), the Cognitive Warning's second paragraph (#223, try 2), uridine (#233, try 2), each Human
+  Written, one window, High by itself; the 5-HTP rule sentence moved unchanged into the 5-HTP paragraph. His Precautions
+  paragraph as it stands: High (#206). Fidelity PASS, comparison gate PASS (`x1125a/read-1125a`, a fresh reader's 19
+  findings, 10 with a fate; `read-1125b`).
+- **Teaching cards, the same turn** (`x1125a/REVIEW-X1125A.md`, https://claude.ai/artifact/Fjp7rvxUptxhGUdHS1o3tX): the
+  Isolation Trap (W-ISO: #211, #219, #226, each 100% AI), what agmatine is (W-AGMINTRO: #215, #220, #227, each 100% AI),
+  the 5-HTP warning (W-HTPTOP: #216 84.9%, #225 67.2%, #228 100%), each after its tell panel (`x1125a/panel-*`).
+- **Close, not in**: the Cognitive Warning's first paragraph with the one after it (PAIR-COG-PROJ: #214 62.2% AI, #224
+  61.5% AI, #229 Human Written, #230 Mostly Human Written; windows High, Medium, Low, Medium) and The Rule with the
+  Cognitive Warning (PAIR-RULE-COG #231: Human Written; Medium, High, Low). The Rule's two pairs with the Isolation Trap
+  (#212, #221) read 100% AI and said nothing about the rule.
+- **Lessons neuro-2026-11-25a to h** (`docs/lessons/2026-11-25-0124-neuro.md`).
+- **What is left**: `LEFT.md`: 141 paragraphs, 20 Human High by themselves, 66 below, 55 never checked as they stand.
+- **Waiting on him**: the three cards; questions 66 to 69. Delegations: fresh Fable readers for the needed, his-fixes
+  and fit reads (three rounds) and the comparison read; Sonnet and Haiku for six tell panels. Predictions #206 to #234:
+  22 of 29 right (76%), Brier 0.179 against a base rate's 0.250; the seven misses are explained in the ledger (shape
+  five times, context twice).
+
 ## 2026-11-24, his message of 21:43 UTC: answers 62a to 65a in; his line Human High; the contradictions check closed; lessons of his two fixes and their blind test; what is left computed
 
 His message word for word: `fix-20261108/joel-20261124-2143-message.txt` ("62 a 63 a 64 a 65  a"). **The mailbox first**
