@@ -1,0 +1,128 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "abd62d3cc033085dddc652d8532ab3a4faad30279f279869722cce86b8149fdd",
+ "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed around people. You will assume everyone can see your anxiety. Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+ "section": "A Complete Guide to Bio-De-Armoring, the warnings at the top: the Cognitive Warning, its first paragraph with the one after it",
+ "reader": "an adult with trauma or an addiction who has read the short introduction and is reading the warnings before starting the protocol, who gets anxious around people",
+ "sentences": [
+  {
+   "s": "Cognitive Warning: As you de-armor, you will feel naked and exposed around people.",
+   "payoff": "they expect to feel exposed around people as the armor comes off",
+   "follows": "the next warning"
+  },
+  {
+   "s": "You will assume everyone can see your anxiety.",
+   "payoff": "they know they will think everyone can see their anxiety",
+   "follows": "it says the thought that comes with that feeling",
+   "link": "You will assume"
+  },
+  {
+   "s": "Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"",
+   "payoff": "they learn the thought is a known mistake with a name, and where to read about it",
+   "follows": "it names what the sentence before described",
+   "link": "calls this"
+  },
+  {
+   "s": "Your armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves.",
+   "payoff": "they learn the second way their read goes wrong: they will feel judged by people who are mostly thinking about themselves",
+   "follows": "it adds to the paragraph before, which said they will feel seen through",
+   "link": "also"
+  },
+  {
+   "s": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "payoff": "they distrust their read of a room during the protocol, at least until their heart rate is back down to their usual resting rate and under 90 BPM",
+   "follows": "it gives the rule both paragraphs lead to",
+   "link": "So during this protocol"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the feeling of being seen through is a known mistake",
+   "found": "people overestimate how much others can discern their internal states (Gilovich, Savitsky and Medvec 1998, https://pubmed.ncbi.nlm.nih.gov/9731312/); Epley's book Mindwise describes it",
+   "still_needed": "yes: they know the feeling has a name and misleads them",
+   "fate": "kept"
+  },
+  {
+   "point": "a racing heart means the reasoning brain is offline",
+   "found": "the article's section A and Scenario A (\"your Reasoning Brain is offline\")",
+   "still_needed": "yes: they know why the heart rate is the test",
+   "fate": "kept"
+  }
+ ],
+ "placement": "fifth of the warnings, where the post has it, with its second paragraph after it",
+ "opens": {
+  "first_sentence": "Cognitive Warning: As you de-armor, you will feel naked and exposed around people.",
+  "why_reading": "they learn they will feel seen through and judged, and that both feelings mislead them"
+ },
+ "same_point": "the post's Cognitive Warning: you will feel naked and exposed, you will assume everyone can see your anxiety, and Epley's Mindwise calls this the Illusion of Transparency; his 68a keeps the credit as it is",
+ "needed": {
+  "reader": "a fresh reader (Fable, 2026-11-26) given tools/humanization/needed_read_brief.md and only the text, one sentence a line, of the first draft (x1126a/v1/needed/cog/READ.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Fable, 2026-11-26) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line, of the first draft (x1126a/v1/his-fixes/cog/READ.md)",
+  "marked": [
+   {
+    "s": "Cognitive Warning: As you de-armor, you will feel naked and exposed.",
+    "difference": "4, 13, 21: a label for the thing; exposed to whom, when"
+   },
+   {
+    "s": "You will assume everyone can see your anxiety.",
+    "difference": "2, 8, 12: built like S1, two flat sentences with nothing joining them"
+   },
+   {
+    "s": "Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"",
+    "difference": "5, 7, 10, 11, 12, 13: opens on the authority; \"this\" could point at three things; the fact the reader needs (they can't see it as well as you think) is never said"
+   }
+  ],
+  "kept": {
+   "You will assume everyone can see your anxiety.": "the join read lower (step 2); steps 1 and 2 read lower in this pair (the clause saying people see much less of it: https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f; the join: https://www.pangram.com/history/bc3c7d3f-a85b-4bc1-824a-d57f827a4446), so this step changes only the one thing in the window that read Medium that a reader could take two ways, exposed to whom; the paragraph right after this one gives the reassurance (\"when they're mostly just thinking about themselves\")",
+   "Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"": "the term and the book are his credit (his 68a: credit Epley's book only); in the article Mindwise is an italic link to the book, which shows it is a book; steps 1 and 2 read lower in this pair (the clause saying people see much less of it: https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f; the join: https://www.pangram.com/history/bc3c7d3f-a85b-4bc1-824a-d57f827a4446), so this step changes only the one thing in the window that read Medium that a reader could take two ways, exposed to whom; the paragraph right after this one gives the reassurance (\"when they're mostly just thinking about themselves\")"
+  }
+ },
+ "fit": {
+  "reader": "a fresh reader (Fable, 2026-11-26) given tools/humanization/fit_read_brief.md and only the text, one sentence a line, of the first draft (x1126a/v1/fit/cog/READ.md)",
+  "marked": [
+   {
+    "s": "Cognitive Warning: As you de-armor, you will feel naked and exposed.",
+    "found": "ANYWAY; MISREAD: a danger with no reassurance"
+   },
+   {
+    "s": "You will assume everyone can see your anxiety.",
+    "found": "ANYWAY; CAN'T TELL whether people really see it; MISREAD: read fast, \"everyone will see your anxiety\""
+   },
+   {
+    "s": "Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"",
+    "found": "CAN'T TELL what the term means; FROM: a general finding; MISREAD: which way the illusion goes"
+   }
+  ],
+  "kept": {
+   "You will assume everyone can see your anxiety.": "\"assume\" says it is a thought, and S3 names it a known mistake; steps 1 and 2 read lower in this pair (the clause saying people see much less of it: https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f; the join: https://www.pangram.com/history/bc3c7d3f-a85b-4bc1-824a-d57f827a4446), so this step changes only the one thing in the window that read Medium that a reader could take two ways, exposed to whom; the paragraph right after this one gives the reassurance (\"when they're mostly just thinking about themselves\")",
+   "Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"": "the term and the book are his credit (his 68a: credit Epley's book only); in the article Mindwise is an italic link to the book, which shows it is a book; steps 1 and 2 read lower in this pair (the clause saying people see much less of it: https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f; the join: https://www.pangram.com/history/bc3c7d3f-a85b-4bc1-824a-d57f827a4446), so this step changes only the one thing in the window that read Medium that a reader could take two ways, exposed to whom; the paragraph right after this one gives the reassurance (\"when they're mostly just thinking about themselves\")"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

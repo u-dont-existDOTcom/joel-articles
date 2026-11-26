@@ -1,0 +1,46 @@
+[
+ {
+  "key": "agm-his",
+  "name": "His agmatine paragraph with his own \"receptors\" for \"tone\"",
+  "lineage": "neuro-de-armoring/W-AGMINTRO-his",
+  "scope": "paragraph",
+  "words": 81,
+  "call": "Human",
+  "chance": 0.85,
+  "why": "see the ledger record",
+  "sha256": "179d7790da907b87371b86f83db74030f6dc68d1d8cb6e188959f6ef90cea2ec"
+ },
+ {
+  "key": "blind-iso",
+  "name": "Blind test: the Isolation Trap rewritten from this turn's lessons alone",
+  "lineage": "neuro-de-armoring/W-ISO-blind (x1126a)",
+  "scope": "paragraph",
+  "words": 113,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "13045930210c8858cfcfd7ef13bfaaf2536af23ec5c243fbf67e5b4aeed55d48"
+ },
+ {
+  "key": "blind-agm",
+  "name": "Blind test: what agmatine is, rewritten from this turn's lessons alone",
+  "lineage": "neuro-de-armoring/W-AGMINTRO-blind (x1126a)",
+  "scope": "paragraph",
+  "words": 94,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "a4f4e9e24448b920e54e845dc37c99a9f1ae90d58e00d581ddcffa974f1007c6"
+ },
+ {
+  "key": "blind-htp",
+  "name": "Blind test: the 5-HTP warning, rewritten from this turn's lessons alone",
+  "lineage": "neuro-de-armoring/W-HTPTOP-blind (x1126a)",
+  "scope": "paragraph",
+  "words": 194,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "see the ledger record",
+  "sha256": "bbd918351115b6ca088c4c30cf16d4b271b1432d103529edf7407d30dc7e0357"
+ }
+]

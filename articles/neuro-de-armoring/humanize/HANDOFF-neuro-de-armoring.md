@@ -18,6 +18,25 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-26, after his message of 00:50 UTC (his three card versions, answers 66 to 69): every one of the eleven
+  warnings at the top is in at Human High; questions 70 and 71 wait on him.** HUMANIZED-SO-FAR.md is 812cebd2; his
+  message: `fix-20261108/joel-20261126-0050-message.txt`; everything of the turn is in `fix-20261108/x1126a/`: the texts
+  and why each changed (`texts_x1126a.py`: NEW, the small steps STEP, the Cognitive Warning's steps COG), receipts
+  (`build_receipts_x1126a.py`, all PASS), the fresh reads (`v1`), the blind test (`blind`), ten batches
+  (`checks-1126a` to `j`, ledger #235 to #252), four comparison reads and one record (`read-1126a` to `e`), his own
+  checks of W-ISO and W-HTPTOP (`HIS-CHECKS-20261126.json`). **In**: his three versions; the plant medicines
+  (https://www.pangram.com/history/c6b0ce3a-3677-45aa-bf26-0b425cb58b3f); The Rule (https://www.pangram.com/history/f981a309-164a-4f7d-a198-c470b773ebdc); uridine
+  (https://www.pangram.com/history/7aa023e7-18ad-4a29-94c6-ba32631be997); the Cognitive Warning with the paragraph after it
+  (https://www.pangram.com/history/aeb0115a-dadf-489b-a096-828677f55f06); his 69 and W-HTPTOP comment in the 5-HTP section, Scenario C and the
+  Shield. **Questions 70 and 71** (OWNER-QUESTIONS.md; the page https://claude.ai/artifact/ByR6PgMNVAgYDTyGPeNa9N, slug
+  58dbe2b1-e3fe-4917-b586-b4837460b7a1, version 1795658422-0bf8): "anywhere near iboga" at the top beside "fine the day
+  before" in the 5-HTP section; what I added this turn (lithium with psychedelics, the Cognitive Warning's "which they
+  mostly can't", "Dr." off). **Promises**: `articles/neuro-de-armoring/PROMISES.md`. **Lessons neuro-2026-11-26a to i**
+  (`docs/lessons/2026-11-26-0050-neuro.md`). **Next**: the warnings section checked as a section (the budget's one
+  section check), then the humanizing pass over what LEFT.md lists from the Introduction (P1, P2) and "Psychology is
+  the Software; Biology is the Hardware." (P16 to P23), each paragraph fixed for sense first (the three fresh reads),
+  then checked by itself, small steps from any try that reads Human. When his answers to 70 and 71 come, apply them
+  with a script beside `x1126a/apply_x1126a.py`; a change to the top 5-HTP warning (70b) is checked before it goes in.
 - **2026-11-25, after his message of 01:24 UTC ("the humanizing pass over what LEFT.md lists, starting with the warnings
   at the top"): six of the section's eleven are in at Human High by themselves; three are teaching cards waiting on
   him; two short ones are close; questions 66 to 69 wait on him.** HUMANIZED-SO-FAR.md is a65eaa1b

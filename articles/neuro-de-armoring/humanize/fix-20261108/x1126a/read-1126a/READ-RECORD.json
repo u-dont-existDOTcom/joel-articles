@@ -1,0 +1,285 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126a/REWRITE.md",
+ "coverage": [
+  "0f65f67721696015",
+  "14eca0a30f52ed69",
+  "1592cad570ab1239",
+  "249652197c3c9613",
+  "2565b73d6e2870de",
+  "309ef78634d1005d",
+  "35a6f2380728139b",
+  "401643625d7d9f8e",
+  "6e98eda241ae668f",
+  "800f55e3c71c04df",
+  "bcb8fc51c28bbef0",
+  "cab892af022e9c79",
+  "cc46eadcfc6fda85",
+  "e3991514dabb0410",
+  "e4ee0be58bc1dab8",
+  "e84c7d7ce19f95d3",
+  "f97417e536971389"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "249652197c3c9613"
+   ],
+   "now": "Your lungs need to be clean too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that (there's more on all this in my full DMSO reference).",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "e3991514dabb0410"
+   ],
+   "now": "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "1592cad570ab1239"
+   ],
+   "now": "\"Exciting Love\" (a new romance, high-stakes drama) spikes Phasic Dopamine and puts the armor right back up, so this may not be a good time to jump into it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "cc46eadcfc6fda85"
+   ],
+   "now": "People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.5",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this p",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this p",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "now": "Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.8",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "2565b73d6e2870de"
+   ],
+   "now": "I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.9",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "14eca0a30f52ed69"
+   ],
+   "now": "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repairing neural signaling, and they can quickly change how strongly psychedelics hit you, so don't mix everything together all at once.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.10",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "14eca0a30f52ed69"
+   ],
+   "now": "The following drugs are especially dangerous to take with 5-HTP: SSRIs, SNRIs, MAOIs (including ayahuasca), linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e or L-tryptophan.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.11",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "14eca0a30f52ed69"
+   ],
+   "now": "Do not use it anywhere near iboga, even when microdosing, because ibogaine and noribogaine in iboga interact with serotonin transport.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.12",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "cab892af022e9c79"
+   ],
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit harder, visuals included.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.13",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "now": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.14",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "now": "Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs a",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.15",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "now": "Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs a",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.16",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "now": "If you're doing psychedelics, be strict around ayahuasca, because of its harmala MAOI chemistry, and around iboga or ibogaine.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.17",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "now": "5-HTP is fine a day before either one, and a day after ayahuasca, but after iboga, wait a few days: a day is enough after a low dose, and after a flood dose people often wait weeks before taking anything psychoactive, mainly so they don't block iboga's after-effects.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.18",
+   "severity": 3,
+   "kind": "lost",
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "now": "5-HTP is fine a day before either one, and a day after ayahuasca, but after iboga, wait a few days: a day is enough after a low dose, and after a flood dose people often wait weeks before taking anything psychoactive, mainly so they don't block iboga's after-effects.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.19",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "f97417e536971389"
+   ],
+   "now": "Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "800f55e3c71c04df"
+   ],
+   "now": "5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "800f55e3c71c04df"
+   ],
+   "now": "Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.3": [
+   "his",
+   "his answer 66 on The Rule (\"just maybe not a good time to jump into it\"), his message of 2026-11-26 00:50 UTC (fix-20261108/joel-20261126-0050-message.txt); the sentence was rewritten since and read again in read-1126c"
+  ],
+  "F1.5": [
+   "his",
+   "his own precautions paragraph (card W-15, approved 2026-11-04, fix-20261104/cards/ANSWERS-20261104-1205.json), unchanged by this turn; this read saw it only as context beside the agmatine paragraph"
+  ],
+  "F1.7": [
+   "his",
+   "his own precautions paragraph (card W-15, approved 2026-11-04), unchanged by this turn"
+  ],
+  "F1.9": [
+   "his",
+   "his own version on card W-HTPTOP (fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json), with his comment: \"you had some redundancy and lack of connection again. i had to remove the part about iboga cardiac risk, that was not related\""
+  ],
+  "F1.11": [
+   "his",
+   "his own version on card W-HTPTOP (fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json): \"Do not use it anywhere near iboga, even when microdosing\"; the waits after iboga are in the 5-HTP section, his answer 69"
+  ],
+  "F1.12": [
+   "fixed",
+   "the uridine caution now comes first and the source after it (texts_x1126a.py NEW[\"uri\"]); read again in read-1126c"
+  ],
+  "F1.13": [
+   "his",
+   "his own paragraph (card E, fix-20261104/cards/ANSWERS-20261104-2234.json), with his answer 69 fitted; read again in read-1126c"
+  ],
+  "F1.16": [
+   "his",
+   "his comment on card W-HTPTOP (\"we should change the 5-HTP warning with psychedelics, it's not likely to be dangerous with them\"): the general same-day rule is out; read again in read-1126c"
+  ],
+  "F1.17": [
+   "fixed",
+   "the waits after iboga are ordered from the shortest up and the flood dose is glossed (NEW[\"ss\"]); read again in read-1126c"
+  ],
+  "F1.18": [
+   "his",
+   "his answer 69 gives the timing, and his answer 36a took the review clauses out of the article (fix-20261108/joel-20261123-2040-message.txt); read again in read-1126c"
+  ],
+  "F1.19": [
+   "his",
+   "his comment on card W-HTPTOP: 5-HTP with psychedelics is \"not likely to be dangerous\", so \"or a same-day psychedelic trip\" is out (KEEP-AS-IS.json C13)"
+  ],
+  "F2.2": [
+   "his",
+   "his comment on card W-HTPTOP, as for F1.19 (KEEP-AS-IS.json C13)"
+  ]
+ }
+}

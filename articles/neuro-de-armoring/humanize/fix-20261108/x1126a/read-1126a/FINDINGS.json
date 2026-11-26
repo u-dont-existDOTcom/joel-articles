@@ -1,0 +1,582 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 19,
+    "total_line": 19
+   },
+   "2": {
+    "parsed": 2,
+    "total_line": 2
+   }
+  },
+  "findings": 21,
+  "by_severity": {
+   "1": 9,
+   "2": 11,
+   "3": 1
+  },
+  "by_kind": {
+   "unclear": 6,
+   "lost": 12,
+   "vaguer": 3
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 17,
+  "paragraphs_hit": {
+   "1": 11,
+   "2": 7,
+   "3": 1
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "Your lungs need to be clean too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that (there's more on all this in my full DMSO reference).",
+   "published": "Ensure hands, lungs, and nose are clean before using.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The sentence chains five clauses and a parenthetical, so \"the first sign of that\" has to be traced back to the tar, and \"need to be clean too, so if you're a smoker, breathe in only a little\" leaves open whether a smoker should use it at all.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P2"
+   ],
+   "block_hashes": [
+    "249652197c3c9613"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove.",
+   "published": "Total social isolation spikes Cortisol, the chronic stress hormone, which sensitizes the brain to Glutamate and effectively locks the armor in place even without any addiction.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The point that isolation locks the armor in place \"even without any addiction\" is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    5
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P5"
+   ],
+   "block_hashes": [
+    "e3991514dabb0410"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    4
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "\"Exciting Love\" (a new romance, high-stakes drama) spikes Phasic Dopamine and puts the armor right back up, so this may not be a good time to jump into it.",
+   "published": "Avoid “Exciting Love” (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+   "kind": "vaguer",
+   "severity": 2,
+   "why": "Under \"The Rule\", \"Avoid\" has become \"this may not be a good time to jump into it\", and \"a new romance\" plus \"jump into it\" now speak only to starting something, not to an exciting romance or drama the reader is already in.",
+   "now_found": 1.0,
+   "now_blocks": [
+    6
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P6"
+   ],
+   "block_hashes": [
+    "1592cad570ab1239"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance.",
+   "published": "It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "PUBLISHED's hedged \"can affect\" has become the flat, stronger claim \"acts powerfully on\", the reverse of a strong claim becoming a hint.",
+   "now_found": 1.0,
+   "now_blocks": [
+    10
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P10"
+   ],
+   "block_hashes": [
+    "cc46eadcfc6fda85"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    8
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions.",
+   "published": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"(will reduce tolerance)\" doesn't say whose tolerance it means or why lower tolerance is a reason not to combine, and \"without having a physician competent to consider the likelihoods of problematic interactions\" is a stilted, harder stand-in for \"without clinician review\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions.",
+   "published": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "MAOIs, named in PUBLISHED, are no longer named and are covered only by the general \"anything that works on the brain\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+   "published": "Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "Bipolar disorder, unstable panic and active substance relapse risk have dropped out of the conditions that call for caution, and \"lower end blood pressure\" is an awkward stand-in for \"low blood pressure\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.8",
+   "part": 1,
+   "now": "I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first.",
+   "published": "Do not “push through” numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The point that numbness means agmatine is the wrong tool for that phase of the protocol is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    12
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P12"
+   ],
+   "block_hashes": [
+    "2565b73d6e2870de"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    10
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.9",
+   "part": 1,
+   "now": "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repairing neural signaling, and they can quickly change how strongly psychedelics hit you, so don't mix everything together all at once.",
+   "published": "Uridine & 5-HTP Warning for Psychedelic Users: These are not “trip enhancers.” They are repair-oriented levers that can change brain sensitivity quickly.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The point that these are not \"trip enhancers\" is gone, and \"they can quickly change how strongly psychedelics hit you, so don't mix everything together all at once\" never says what \"everything\" is and could even read as a hint that they boost a trip.",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P13"
+   ],
+   "block_hashes": [
+    "14eca0a30f52ed69"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    11
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.10",
+   "part": 1,
+   "now": "The following drugs are especially dangerous to take with 5-HTP: SSRIs, SNRIs, MAOIs (including ayahuasca), linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e or L-tryptophan.",
+   "published": "Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John’s wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The \"without clinician review\" condition is gone, so a reader on one of these drugs is no longer told that a clinician can review the combination.",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P13"
+   ],
+   "block_hashes": [
+    "14eca0a30f52ed69"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    11
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.11",
+   "part": 1,
+   "now": "Do not use it anywhere near iboga, even when microdosing, because ibogaine and noribogaine in iboga interact with serotonin transport.",
+   "published": "Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk. Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "Only the iboga part of PUBLISHED's rule survives here, so this warning no longer states the rule against 5-HTP on the same day as psychedelics, and it drops the medical-review exception and iboga's \"serious cardiac and neurological risk\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P13"
+   ],
+   "block_hashes": [
+    "14eca0a30f52ed69"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    11,
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.12",
+   "part": 1,
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit harder, visuals included.",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "The actual caution arrives only after a chain of four clauses, the two \"it\"s point to different things (the caution, then uridine's effect), and \"Scott's below\" names someone the reader hasn't met yet.",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (the warnings at the top), P14"
+   ],
+   "block_hashes": [
+    "cab892af022e9c79"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.13",
+   "part": 1,
+   "now": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs.",
+   "published": "Hard interaction rule: 5-HTP should not be mixed casually with serotonin-raising drugs or supplements. Case literature and clinical reviews warn about serotonin syndrome risk when 5-HTP is combined with antidepressants or MAOIs, and serotonin syndrome is most often a multi-drug / stack problem.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The \"Hard interaction rule\" is no longer stated as a rule, and PUBLISHED's general point that serotonin syndrome is most often a multi-drug stack problem now reads as a claim that serotonin syndrome usually comes from mixing 5-HTP.",
+   "now_found": 1.0,
+   "now_blocks": [
+    16
+   ],
+   "where": [
+    "The 5-HTP section: its interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    14
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.14",
+   "part": 1,
+   "now": "Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure!",
+   "published": "Case literature and clinical reviews warn about serotonin syndrome risk when 5-HTP is combined with antidepressants or MAOIs, and serotonin syndrome is most often a multi-drug / stack problem. See the dietary supplement interaction case report and the general serotonin-syndrome overview from MedlinePlus.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Reviews ... like this case report\" offers a case report as an example of a review, and \"the pressure\" is never explained, so a reader has to guess what the surgeons were relieving.",
+   "now_found": 1.0,
+   "now_blocks": [
+    16
+   ],
+   "where": [
+    "The 5-HTP section: its interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    14
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.15",
+   "part": 1,
+   "now": "Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure!",
+   "published": "See the dietary supplement interaction case report and the general serotonin-syndrome overview from MedlinePlus.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The pointer to MedlinePlus's general serotonin-syndrome overview is gone; only the case report is left.",
+   "now_found": 1.0,
+   "now_blocks": [
+    16
+   ],
+   "where": [
+    "The 5-HTP section: its interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    14
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.16",
+   "part": 1,
+   "now": "If you're doing psychedelics, be strict around ayahuasca, because of its harmala MAOI chemistry, and around iboga or ibogaine.",
+   "published": "For this readership: avoid 5-HTP on psychedelic days, and be especially strict around ayahuasca / harmala MAOI chemistry and iboga / ibogaine.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"Avoid 5-HTP on psychedelic days\" is gone, so the section now covers only ayahuasca and iboga and no longer tells a reader to keep 5-HTP off the day of any other psychedelic.",
+   "now_found": 1.0,
+   "now_blocks": [
+    16
+   ],
+   "where": [
+    "The 5-HTP section: its interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    14
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.17",
+   "part": 1,
+   "now": "5-HTP is fine a day before either one, and a day after ayahuasca, but after iboga, wait a few days: a day is enough after a low dose, and after a flood dose people often wait weeks before taking anything psychoactive, mainly so they don't block iboga's after-effects.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"Wait a few days\" is followed in the same sentence by \"a day is enough\" and \"weeks\", so the wait is unclear, \"flood dose\" is never explained, \"iboga's after-effects\" sounds like something a reader would want blocked, and \"fine a day before\" iboga clashes with the warning's \"Do not use it anywhere near iboga\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    16
+   ],
+   "where": [
+    "The 5-HTP section: its interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.18",
+   "part": 1,
+   "now": "5-HTP is fine a day before either one, and a day after ayahuasca, but after iboga, wait a few days: a day is enough after a low dose, and after a flood dose people often wait weeks before taking anything psychoactive, mainly so they don't block iboga's after-effects.",
+   "published": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed.",
+   "kind": "lost",
+   "severity": 3,
+   "why": "PUBLISHED said not to use 5-HTP anywhere near ayahuasca/harmalas or iboga unless the whole plan had been medically reviewed, while NOW says it is fine a day before either one and a day after ayahuasca, with no review.",
+   "now_found": 1.0,
+   "now_blocks": [
+    16
+   ],
+   "where": [
+    "The 5-HTP section: its interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "6e98eda241ae668f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.19",
+   "part": 1,
+   "now": "Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.",
+   "published": "Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"Same-day psychedelics\" has been dropped, so the line no longer warns against 5-HTP on the same day as any psychedelic it doesn't name.",
+   "now_found": 1.0,
+   "now_blocks": [
+    18
+   ],
+   "where": [
+    "Scenario C, the Void: the 5-HTP add-on, P1"
+   ],
+   "block_hashes": [
+    "f97417e536971389"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    16
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.1",
+   "part": 2,
+   "now": "5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning.",
+   "published": "5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nights, with optional P5P 10–20 mg in the morning.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "Raising the dose to 100 mg \"if that clearly helped\" reads backwards to many readers (why raise a dose that already works?), and after three trailing qualifiers it is unclear whether \"for as long as it benefits you\" and the P5P apply to both doses.",
+   "now_found": 1.0,
+   "now_blocks": [
+    20
+   ],
+   "where": [
+    "Part 3, the Shield: the 5-HTP trial line, P1"
+   ],
+   "block_hashes": [
+    "800f55e3c71c04df"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    18
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.2",
+   "part": 2,
+   "now": "Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.",
+   "published": "Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"Same-day psychedelics\" has been dropped, so the trial line no longer warns against 5-HTP on the same day as any psychedelic it doesn't name.",
+   "now_found": 1.0,
+   "now_blocks": [
+    20
+   ],
+   "where": [
+    "Part 3, the Shield: the 5-HTP trial line, P1"
+   ],
+   "block_hashes": [
+    "800f55e3c71c04df"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    18
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  }
+ ]
+}

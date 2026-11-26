@@ -1,0 +1,30 @@
+{
+ "rule2": {
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "name": "The Rule, with what not to jump into named (read-1126c F1.2)",
+  "text": "The Rule: Seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have.",
+  "chance": 0.75,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/RULE6.receipt.json",
+  "tells": "\"a new romance\" twice in two sentences",
+  "human_tells": "his post's words: \"Boring Love\", \"parallel play\", \"reading next to someone\", \"Exciting Love\", \"high-stakes drama\"; his 66: \"not a good time to jump into it\"",
+  "diagnosis": "try 1 read Human High (https://www.pangram.com/history/d59de519-9b7d-498a-8ca4-26f1667c60d9); the comparison read found \"either one\" could be read as the two kinds of love, so this names them (7% of the words)",
+  "decides": "whether the clearer Rule goes in; below High, try 1 stays and I tell him about the misreading",
+  "humanized": "try 1 kept word for word but \"either one\", which became \"a new romance or drama\", the plain words for what to hold off on",
+  "first_fix": "payoff: unchanged, each sentence still leads with its point; join: none; plain: \"either one\" became the two things it meant, \"a new romance or drama\""
+ },
+ "cog-c1": {
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "name": "The Cognitive Warning with one change: it now says people see much less of your anxiety than you think",
+  "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, but people see much less of it than you think. Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/COG-C1.receipt.json",
+  "tells": "\"You will feel naked and exposed. You will assume\" (two parallel short sentences, left for the next step)",
+  "human_tells": "his writing, the whole first paragraph but the new clause (the post's own)",
+  "diagnosis": "as it stands it read Human with its first 21 words at Medium (https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c); all three fresh reads found the paragraph never says that others see much less of the anxiety, which is what the warning is for; one change (10% of the words)",
+  "decides": "whether the Cognitive Warning reads Human High with the sentence it was missing; if not, the next step joins its first two sentences, his usual fix",
+  "humanized": "his paragraph kept word for word but one clause, the payoff the reads asked for, said plainly where the assumption is named (\"but people see much less of it than you think\")",
+  "first_fix": "payoff: S2 now says what the reader needs, that people see much less of the anxiety than they think, right where the assumption is named; join: S1 and S2 stay two sentences in this step, one change a try, and joining them is the next step if this one reads below High; plain: the new clause is plain words, and no odd paraphrase was in the changed sentence"
+ }
+}

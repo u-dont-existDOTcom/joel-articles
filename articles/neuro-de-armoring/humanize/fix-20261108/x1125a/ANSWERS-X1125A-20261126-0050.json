@@ -1,0 +1,86 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261125-x1125a",
+ "title": "Neuro De-Armoring Cards, 25 November: three warnings at the top, for you to teach me",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1125a/REVIEW-X1125A.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "a65eaa1b0c0807bb2087a17901f89c0e983c15311e9d652510360db29b2a2937"
+ },
+ "built": "2026-11-25T02:54:19Z",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-26T00:50:23.985Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 3,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "W-ISO",
+   "type": "teach",
+   "title": "The Isolation Trap: three tries, all AI",
+   "where": "A Complete Guide to Bio-De-Armoring, P5",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": " Behavioral Warning (The Isolation Trap): This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty. The easiest way for most folks to take a break from that is to hole up alone. But don't isolate completely, because that actually spikes cortisol, the chronic stress hormone. And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove. Calm company, like nature walk buddies, goes the other way, anchoring you via oxytocin, the bonding hormone. Good friends are ultimately more vital than any brain repair protocol.",
+   "comment": "why do you think hole up alone, but do not isolate completely, or locks the armor in place are human tells? in general, if AI wrote it, it can't be a human tell, right? fix that rule... you could make a human tell if you have a list of real human tells or if you're copying from human writing perhaps... \n\nlink phasic dopamine to \nhttps://www.sciencedirect.com/science/article/pii/S0959438825001059\n\nthe main issues in your version were lack of explanation, connection, clarity. now all high conf hum https://www.pangram.com/history/364ba0a6-ea20-4584-85e8-5d8ca2c733d0?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Behavioral Warning (The Isolation Trap): This protocol demands starving your brain of \"Phasic\" Dopamine (excitement, novelty, the chase), and the easiest way to do that is to hole up alone. But do not isolate completely, because total social isolation spikes cortisol, the chronic stress hormone, and that sensitizes your brain to glutamate and locks the armor in place even if you've never had an addiction. You still need the \"Oxytocinergic Anchoring\" of having people around you, as long as it's the calm kind of company.",
+   "before": "Behavioral Warning (The Isolation Trap): While this protocol demands starving the brain of \"Phasic\" Dopamine (excitement, novelty, the chase), do not isolate completely. Total social isolation spikes Cortisol, the chronic stress hormone, which sensitizes the brain to Glutamate and effectively locks the armor in place even without any addiction. You need the \"Oxytocinergic Anchoring\" of healthy social relationships, because humans are social animals.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-25T18:01:31.011Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-25T18:02:06.212Z"
+    }
+   ],
+   "updated": "2026-11-25T18:47:59.988Z"
+  },
+  {
+   "id": "W-AGMINTRO",
+   "type": "teach",
+   "title": "What agmatine is (the Agmatine Warning's first paragraph): three tries, all AI",
+   "where": "A Complete Guide to Bio-De-Armoring, P10",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Agmatine Warning  (The \"Voltage Regulator\"): Agmatine acts like a brake on NMDA/glutamate signaling, which is why we use it in this protocol. But we'll keep it as an optional add-on, since it can interact with a lot more medications than the protocol's safer nutrients would (magnesium, phosphatidylcholine, etc). People may think it's pretty safe, since it's  a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.",
+   "comment": "did you read this? I read the first sentence and didn't understand why it's optional, why a supplement is different from a neuromodulator, or why a brake on nmda would be related to any of that. \n\nso pangram was right to flag this for many reasons. also, \"tone\" was unclear. when i changed tone to receptors it flipped that section human. but i flipped it back to tone, because i wanted to show the main triggers for pangram, which as usual are just that it has to make sense and read well (not like \"why am i reading this now?\")\n\nhttps://www.pangram.com/history/75d40a7b-25a9-4eb1-9ab6-6635b66eff58?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Agmatine Warning (The Voltage Governor): Agmatine is optional in this protocol, and although it's sold as a supplement, it's a neuromodulator, here as a brake on NMDA/glutamate signaling. It can interact with a lot more medications than a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine would, since it also acts on imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.",
+   "before": "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-25T18:48:14.518Z"
+    }
+   ],
+   "updated": "2026-11-25T23:38:37.351Z"
+  },
+  {
+   "id": "W-HTPTOP",
+   "type": "teach",
+   "title": "The 5-HTP warning for psychedelic users: three tries, none Human",
+   "where": "A Complete Guide to Bio-De-Armoring, P13",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repairing neural signaling, and they can quickly change how strongly psychedelics hit you, so don't mix everything together all at once. Especially dangerous would be to take 5-HTP with anything else that raises serotonin levels, since 5-HTP is also what your body makes serotonin out of. That's how folks end up with serotonin syndrome, which can be deadly (see the 5-HTP section). The following drugs are especially dangerous to take with 5-HTP: SSRIs, SNRIs, MAOIs (including ayahuasca), linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e or L-tryptophan. Do not use it anywhere near iboga, even when microdosing, because ibogaine and noribogaine in iboga interact with serotonin transport.",
+   "comment": "you had some redundancy and lack of connection again. \n\ni had to remove the part about iboga cardiac risk, that was not related, and neurological risk is high doses in rats. it's high conf hum now: https://www.pangram.com/history/bc1f203e-34da-44e7-99db-6e4140130364?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nbtw we should change the 5-HTP warning with psychedelics, it's not likely to be dangerous with them, most people actually like the combo... i didn't mention that tho i just said don't mix everythign together all at once but we could clarify that perhaps to say 5-HTP might possibly be good to mix, but i'm not sure it's worth making that point. \n\nReports of combining **5-HTP with LSD, psilocybin mushrooms or DMT** vary considerably. The main effects worth distinguishing are:\n\n- Changes in psychedelic intensity and visuals.\n- Changes in emotional warmth, euphoria and anxiety.\n- Increased nausea or physical discomfort.\n- Changes in the afterglow or next-day mood.\n\nThere is very little controlled human research on these particular combinations. The distinction between ordinary DMT and DMT combined with MAO inhibitors (ayahuasca or changa) is especially important because 5-HTP combined with MAO inhibitors carries a substantially greater risk of serotonin toxicity.\n\n## **LSD**\n\nOne particularly informative first-person report, originally posted on Erowid and reproduced on Shroomery, describes:\n\n- Reduced come-up anxiety.\n- Slightly enhanced tactile sensitivity.\n- A consistently positive emotional experience.\n- A warmer, more relaxed comedown.\n- Less difficulty falling asleep.\n- No noticeable shortening of the trip or MDMA-like euphoria.\n\nThe author described the comedown as a “total warm and fuzzy comedown.” Alcohol was also consumed later, complicating the interpretation.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://www.shroomery.org\\&sz=32)\n\nShroomery Message Board+1\n\n\n\n## **Psilocybin mushrooms**\n\nA Shroomery contributor reported five positive mushroom experiences involving 5-HTP, characterized by greater emotional stability and less tendency to become trapped in negative thought loops.\n\nThe same contributor described another person whose mushroom-induced anxiety subsided after receiving 5-HTP, vitamin C and interpersonal reassurance. It is impossible to isolate which intervention helped.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://www.shroomery.org\\&sz=32)\n\nShroomery Message Board\n\n\n\nThere are also mentions of dulled mushroom experiences on Reddit, although the thread I found primarily contains secondhand accounts and speculation rather than detailed firsthand reports.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://www.reddit.com\\&sz=32)\n\nReddit\n\n\n\n## **DMT**\n\nDMT has the most interesting recurring pattern in the reports I found: **reduced visuals, sometimes accompanied by preserved or enhanced emotional effects.**\n\n| Source                        | Firsthand experience                                                                  |\n| ----------------------------- | ------------------------------------------------------------------------------------- |\n| DMT-Nexus, 2015               | Much weaker visuals, peaceful bodily sensations, longer-lasting bliss.                |\n| Another DMT-Nexus contributor | Greater euphoria and laughter.                                                        |\n| Reddit, 2019                  | Complete disappearance of visuals, with bodily sensations remaining.                  |\n| Shroomery, 2009               | Complete suppression of psychedelic effects.                                          |\n| Erowid, 2020                  | Powerful, profound but frightening breakthrough, also involving cannabis and alcohol. |\n\n[image](https://www.google.com/s2/favicons?domain=https://www.dmt-nexus.me\\&sz=32)\n\nWelcome to the DMT-Nexus+3\n\nImportantly, the first DMT-Nexus contributor subsequently reported several days of tremors, diarrhea, anxiety, paranoia, insomnia and lingering visual disturbances. They suspected serotonin toxicity, but this was not medically confirmed.\n\n## **Why might this happen?**\n\n5-HTP is converted into serotonin, whereas classical psychedelics primarily produce their characteristic effects by activating the serotonin 5-HT2A receptor.\n\nIncreasing endogenous serotonin could theoretically alter psychedelic experiences through:\n\n- Competition at serotonin receptors.\n- Activation of other serotonin receptors, including 5-HT1A, which can modulate psychedelic effects and anxiety.\n- Changes in receptor sensitivity following repeated supplementation.\n\nHowever, these remain hypotheses for this particular combination.\n\n## **Safety findings**\n\nI also found two concerning reports:\n\n- **LSD:** One person attributed an unusually intense, disorienting experience and persistent visual disturbances to the combination with 5-HTP.&#x20;\n\n  [image](https://www.google.com/s2/favicons?domain=https://www.shroomery.org\\&sz=32)\n\n  Shroomery Message Board\n\n- **DMT with Syrian rue:** A DMT-Nexus contributor reported severe panic, palpitations and confusion after adding 5-HTP while using harmala alkaloids.&#x20;\n\n  [image](https://www.google.com/s2/favicons?domain=https://forum.dmt-nexus.me\\&sz=32)\n\n  DMT-Nexus forum\n\n\n\nThere are medically documented cases of serotonin toxicity involving 5-HTP and an MAOI, as well as animal studies demonstrating potentially lethal toxicity from this combination. Avoid combining 5-HTP with harmalas, Syrian rue, ayahuasca or changa.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://www.mskcc.org\\&sz=32)\n\nMemorial Sloan Kettering Cancer Center+1\n\n\n\n## **Overall interpretation**\n\n| Effect                          | Anecdotal signal             |\n| ------------------------------- | ---------------------------- |\n| Emotional warmth                | Some positive reports        |\n| Reduced anxiety                 | Some positive reports        |\n| Increased euphoria              | Mixed                        |\n| Reduced DMT visuals             | Repeated independent reports |\n| Reduced mushroom visuals        | Weak evidence                |\n| Smoother comedown               | Some positive reports        |\n| Increased psychedelic intensity | Mixed                        |\n| Adverse psychological reactions | Documented anecdotes         |\n\nThe most intriguing possibility is that 5-HTP might partially dissociate the emotional and visual components of a psychedelic experience, particularly with DMT.\n\nHowever, the reports are too sparse and inconsistent to establish whether it reliably makes psychedelics more loving, less mentally challenging or more therapeutic. Nor do they establish the safety of these combinations.",
+   "my_version": "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repair, so don't use them as \"trip enhancers.\" In practice they can quickly change how strongly psychedelics hit you, so don't count on your usual dose acting the way it used to. 5-HTP is also what your body makes serotonin out of, so taking it on top of anything else that raises serotonin is how people end up with serotonin syndrome, which can be deadly (see [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p)). So never take it with any of these: SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e or L-tryptophan. Rule: psychedelics act on serotonin too, so do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga, iboga microdoses included. That's because ayahuasca's harmalas inhibit MAO-A, which amplifies the serotonin load, while ibogaine and noribogaine interact with serotonin transport themselves, on top of the serious cardiac and neurological risk iboga already carries.",
+   "before": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk. Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-25T23:38:49.073Z"
+    }
+   ],
+   "updated": "2026-11-26T00:50:15.911Z"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "about": "His own Pangram checks of his versions on cards W-ISO and W-HTPTOP (links in his card comments, cards export of 2026-11-26 00:50 UTC, fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json), read back from his history through the web app's API on 2026-11-26 by this lane: each check's text (its SHA-256), headline, and every window with its confidence. His W-AGMINTRO check was of \"tone\"; the paragraph that went in has his \"receptors\", which this lane checked (ledger, neuro-de-armoring/W-AGMINTRO-his#235).",
+ "detector": "Pangram 4.1 (web app, his account)",
+ "checks": [
+  {
+   "card": "W-ISO",
+   "uuid": "364ba0a6-ea20-4584-85e8-5d8ca2c733d0",
+   "at": "2026-11-25T13:46:25.882528-05:00",
+   "text_sha256": "f491dc52481d9c96c000bd61bfbc51e64e2b21ded91ef3eb3dc9120b764c9cfc",
+   "headline": "Human Written",
+   "ai": 2.752897196836185e-18,
+   "windows": [
+    [
+     "Human",
+     "High",
+     111
+    ]
+   ],
+   "note": "his check, linked in his card comment; the text he checked is the paragraph as it now stands in the article (links aside); his box held a leading space, left out here"
+  },
+  {
+   "card": "W-HTPTOP",
+   "uuid": "bc1f203e-34da-44e7-99db-6e4140130364",
+   "at": "2026-11-25T19:47:04.748111-05:00",
+   "text_sha256": "1ac8890e83c03c7fb19fa8b91d589377f671437b3fcbdd2982c53ce2b7522eaa",
+   "headline": "Human Written",
+   "ai": 2.8556220625396852e-40,
+   "windows": [
+    [
+     "Human",
+     "High",
+     134
+    ]
+   ],
+   "note": "his check, linked in his card comment; the text he checked is the paragraph as it now stands in the article (links aside)"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126c/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126c/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 540,
+   "original_words": 342,
+   "first": "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read)",
+   "last": "The 8-week timeline: the 5-HTP trial line",
+   "rewrite_blocks": [
+    0,
+    9
+   ],
+   "coverage": [
+    "bb5be8100a2a35f4",
+    "f6b9e69ff1f7a434",
+    "e0e0d0fd9d7954d7",
+    "9ecf832dcf8f92bc",
+    "f97417e536971389",
+    "800f55e3c71c04df"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+## A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read)
+
+Ethnobotanicals: The plant medicines in this protocol are iboga (an African root bark) and psilocybin mushrooms. Both are illegal in many jurisdictions and carry risks, and iboga can be dangerous for your heart. So never combine iboga with most medications (especially heart & psych meds). If you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full [iboga guide here](http://iboga.u-dont-exist.com/) lists some of them, and the iboga [microdosing protocol is here](http://ibogamicroprotocol.u-dont-exist.com/)). Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures when taken with psychedelics.
+
+The Rule: Seek "Boring Love", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, "Exciting Love", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into either one, though there's no need to leave the partner you have.
+
+Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one: within a day of starting it, psychedelics can hit some people a lot harder, visuals included, especially "hard heads" who usually need more than an average dose (I don't have studies on this, only experience like [Scott's](https://ibogaqueen.substack.com/i/181671197/dopamine-receptor-burnout-daws-pattern-uridine-monophosphate), whose story is further down). So do not take UMP on the same day as a psychedelic trip, and on your first trip once you're on it, start with a third of your old psychedelic dose. It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.
+
+## The 5-HTP section: the interaction paragraph
+
+[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine. Even so, 5-HTP is fine the day before either one, or the day after ayahuasca. After iboga, wait a day if it was a low dose and usually a few days otherwise, and after a flood dose (one big dose) people often wait weeks before taking anything psychoactive, mainly so they don't block the after-effects they took iboga for. While you're microdosing iboga, leave 5-HTP out altogether.
+
+## The Glutamate Shield: the 5-HTP line
+
+5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / poor sleep / TPH2 bottleneck. Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.
+
+## The 8-week timeline: the 5-HTP trial line
+
+5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.

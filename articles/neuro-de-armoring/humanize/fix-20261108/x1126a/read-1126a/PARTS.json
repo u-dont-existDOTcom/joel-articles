@@ -1,0 +1,49 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126a/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126a/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 1310,
+   "original_words": 676,
+   "first": "A Complete Guide to Bio-De-Armoring (the warnings at the top)",
+   "last": "Scenario C, the Void: the 5-HTP add-on",
+   "rewrite_blocks": [
+    0,
+    18
+   ],
+   "coverage": [
+    "401643625d7d9f8e",
+    "249652197c3c9613",
+    "309ef78634d1005d",
+    "e4ee0be58bc1dab8",
+    "e3991514dabb0410",
+    "1592cad570ab1239",
+    "35a6f2380728139b",
+    "bcb8fc51c28bbef0",
+    "0f65f67721696015",
+    "cc46eadcfc6fda85",
+    "e84c7d7ce19f95d3",
+    "2565b73d6e2870de",
+    "14eca0a30f52ed69",
+    "cab892af022e9c79",
+    "6e98eda241ae668f",
+    "f97417e536971389"
+   ]
+  },
+  {
+   "part": 2,
+   "rewrite_words": 65,
+   "original_words": 50,
+   "first": "Part 3, the Shield: the 5-HTP trial line",
+   "last": "Part 3, the Shield: the 5-HTP trial line",
+   "rewrite_blocks": [
+    19,
+    20
+   ],
+   "coverage": [
+    "800f55e3c71c04df"
+   ]
+  }
+ ]
+}

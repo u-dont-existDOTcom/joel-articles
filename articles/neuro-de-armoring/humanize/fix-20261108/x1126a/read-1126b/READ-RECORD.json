@@ -1,0 +1,123 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126b/REWRITE.md",
+ "coverage": [
+  "5263790ccc0394fd",
+  "660945369044c4af",
+  "88ea0bff49f90757"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "88ea0bff49f90757"
+   ],
+   "now": "Both are illegal in many jurisdictions and carry risks, and iboga's are the serious ones, since it can be dangerous for your heart.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "88ea0bff49f90757"
+   ],
+   "now": "So never combine iboga with most medications (especially heart & psych meds), and if you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full iboga guide here has more, and the iboga microdosing protocol is here). Ask it about the mushrooms too, since lit",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "5263790ccc0394fd"
+   ],
+   "now": "The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into one, though there's no need to leave the partner you have.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "5263790ccc0394fd"
+   ],
+   "now": "So this may not be a good time to jump into one, though there's no need to leave the partner you have.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.5",
+   "severity": 3,
+   "kind": "lost",
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.8",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "now": "So do not take UMP on the same day as a psychedelic trip, and on your first trip once you're on it, start with a third of your old psychedelic dose.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.9",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "now": "It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.3": [
+   "fixed",
+   "\"jump into one\" read as the romance only, so the sentence named both (read-1126c, then \"a new romance or drama\" after read-1126c F1.2)"
+  ],
+  "F1.4": [
+   "his",
+   "his answer 66: \"just maybe not a good time to jump into it\", his message of 2026-11-26 00:50 UTC (fix-20261108/joel-20261126-0050-message.txt)"
+  ],
+  "F1.5": [
+   "his",
+   "the 5-HTP rules are in his own W-HTPTOP paragraph right before this one (fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json); the same-day rule is out by his comment on that card, and the review clause by his answer 36a (fix-20261108/joel-20261123-2040-message.txt)"
+  ],
+  "F1.6": [
+   "not",
+   "an artifact of the excerpt: in the article his 5-HTP paragraph comes right before, so \"a different one\" points at its serotonin caution"
+  ],
+  "F1.8": [
+   "his",
+   "his answer 69: start with a third of the old psychedelic dose, his message of 2026-11-26 00:50 UTC (fix-20261108/joel-20261126-0050-message.txt)"
+  ]
+ }
+}

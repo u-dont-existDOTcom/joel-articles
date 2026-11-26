@@ -1,0 +1,24 @@
+[
+ {
+  "key": "rule2",
+  "name": "The Rule, with what not to jump into named (read-1126c F1.2)",
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "words": 72,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "aeb867afb436a31a2b2f6d62f9ae81a50129b336c375c14ac9227e0676c5adca"
+ },
+ {
+  "key": "cog-c1",
+  "name": "The Cognitive Warning with one change: it now says people see much less of your anxiety than you think",
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "words": 116,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "b57f363f0778ebd58c2c9b00a0e9c12540334f8f5af5ee657fe003e5541c0ad3"
+ }
+]

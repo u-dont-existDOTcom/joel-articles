@@ -1,0 +1,265 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 9,
+    "total_line": 9
+   }
+  },
+  "findings": 9,
+  "by_severity": {
+   "1": 4,
+   "2": 4,
+   "3": 1
+  },
+  "by_kind": {
+   "unclear": 4,
+   "lost": 4,
+   "vaguer": 1
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 3,
+  "paragraphs_hit": {
+   "1": 3,
+   "2": 2,
+   "3": 1
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "Both are illegal in many jurisdictions and carry risks, and iboga's are the serious ones, since it can be dangerous for your heart.",
+   "published": "Ethnobotanicals:Iboga and Psilocybin are illegal in many jurisdictions and carry risks.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"iboga's\" has to be read as \"iboga's risks\", and calling those \"the serious ones\" implies the mushrooms' risks aren't serious, which the lithium-and-seizures sentence two sentences later contradicts.",
+   "now_found": 1.0,
+   "now_blocks": [
+    1
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P1"
+   ],
+   "block_hashes": [
+    "88ea0bff49f90757"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "So never combine iboga with most medications (especially heart & psych meds), and if you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full iboga guide here has more, and the iboga microdosing protocol is here). Ask it about the mushrooms too, since lithium, for one, has been tied to seizures when taken with psychedelics.",
+   "published": "Never combine Iboga with most medications (especially heart & psych meds). See full iboga guide here, and microdosing protocol here.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The parenthetical about the guide and the protocol sits between \"an AI\" and \"Ask it\", so \"it\" first seems to point to the guide or the protocol, and \"has more\" doesn't say more of what.",
+   "now_found": 1.0,
+   "now_blocks": [
+    1
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P1"
+   ],
+   "block_hashes": [
+    "88ea0bff49f90757"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into one, though there's no need to leave the partner you have.",
+   "published": "Avoid “Exciting Love” (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "PUBLISHED said to avoid high-stakes drama as well as romance, but NOW only describes drama, and its one piece of advice (\"jump into one\") reads as being about a new romance, so the reader is no longer told to stay out of drama.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P2"
+   ],
+   "block_hashes": [
+    "5263790ccc0394fd"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    2
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "So this may not be a good time to jump into one, though there's no need to leave the partner you have.",
+   "published": "Avoid “Exciting Love” (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+   "kind": "vaguer",
+   "severity": 2,
+   "why": "In a paragraph still labeled \"The Rule\", PUBLISHED's flat \"Avoid\" has become \"this may not be a good time to jump into one\", a hint the reader can take or leave.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P2"
+   ],
+   "block_hashes": [
+    "5263790ccc0394fd"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    2
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\" who usually need more than an average dose.",
+   "published": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed.",
+   "kind": "lost",
+   "severity": 3,
+   "why": "NOW never mentions 5-HTP, so the rule against taking it on psychedelic days, or anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed, is gone from the warnings.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\" who usually need more than an average dose.",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "Nothing before this sentence in NOW gives a serotonin caution, so a reader can't tell what uridine's caution is \"a different one\" from, or why serotonin comes up at all.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting uridine, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\" who usually need more than an average dose.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "Scott is named in the warnings at the top before the reader has met him, so \"experience like Scott's below\" leaves them guessing who he is.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.8",
+   "part": 1,
+   "now": "So do not take UMP on the same day as a psychedelic trip, and on your first trip once you're on it, start with a third of your old psychedelic dose.",
+   "published": "Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "PUBLISHED's condition \"if sensitivity changes\" (the sign to watch for) is gone, and its hedged \"may now be too high\" has become a fixed \"start with a third\" for everyone's first trip on uridine, a number PUBLISHED never gave.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.9",
+   "part": 1,
+   "now": "It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "PUBLISHED listed changes in dreams and craving among uridine's cautions, with craving's direction left open, but NOW fixes craving as \"weaker\" and recasts both as benefits.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "660945369044c4af"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  }
+ ]
+}

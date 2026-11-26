@@ -1,0 +1,16 @@
+{
+ "cog-c2": {
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "name": "The Cognitive Warning with his usual fix alone: its first two sentences joined",
+  "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed, and you'll assume everyone can see your anxiety. Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.6,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/COG-C2.receipt.json",
+  "tells": "\"Dr. Nicholas Epley, Mindwise, calls this\" (the source as an appositive, his credit, kept)",
+  "human_tells": "his writing, the whole first paragraph (the post's own) but \"and you'll\"",
+  "diagnosis": "as it stands it read Human with its first 21 words at Medium (https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c); adding the sentence the reads asked for read lower (https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f), so this tries the join alone, two words",
+  "decides": "whether the join lifts the first window to High; if not, the paragraph stays his as it stands and the next try goes to what the Medium window holds",
+  "humanized": "his paragraph kept word for word but the join: \"You will assume\" became \", and you'll assume\", so the feeling and the thought that comes with it are one sentence, as he joins short sentences",
+  "first_fix": "payoff: unchanged, the sentence still leads with the feeling; join: S1 and S2 became one sentence; plain: no odd paraphrase in the changed sentence, the join adds \"and you'll\""
+ }
+}

@@ -1,8 +1,8 @@
 # Neuro de-armoring: what is left to humanize
 
-Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), a65eaa1b) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
+Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), 812cebd2) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
 
-141 paragraphs of 8 words or more. Human High by itself: 20; under 50 words and inside a text that read Human High: 0; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 66; never checked as they stand: 55.
+141 paragraphs of 8 words or more. Human High by itself: 24; under 50 words and inside a text that read Human High: 1; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 63; never checked as they stand: 53.
 
 A paragraph listed here has no check of its present words that read Human High in every window. Paragraph numbers count the paragraphs of 8 words or more, from the top.
 
@@ -11,19 +11,11 @@ A paragraph listed here has no check of its present words that read Human High i
 - P1 (104 words) "When people tell me they have trauma, I generally recommend they follo…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P2 (57 words) "This protocol is partly theoretical and partly based on experience rep…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 
-## A Complete Guide to Bio-De-Armoring (5 left)
-
-- P6 (63 words) "Behavioral Warning (The Isolation Trap): While this protocol demands s…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P7 (28 words) "The Rule: Seek "Boring Love" (parallel play, reading next to someone, …": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P8 (29 words) "Cognitive Warning: As you de-armor, you will feel naked and exposed. Y…": inside a larger text: Human High, Human Medium, AI High, AI Low, AI Medium, AI Low, AI Medium, AI High … (125 windows) ([the check](https://www.pangram.com/history/72952f09-0e99-46d6-b89f-5fa574422584))
-- P11 (37 words) "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutri…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P14 (117 words) "Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enh…": never checked as it stands
-
 ## Psychology is the Software; Biology is the Hardware. (7 left)
 
 - P16 (90 words) "Have you done years of CBT or EMDR and yet you still get triggered and…": never checked as it stands
 - P17 (44 words) "The "Underpinning" Principle Dr. Bruce Perry compares treating trauma …": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P18 (111 words) "Why does the brain build this armor? Psychologist Lindsay Gibson expla…": never checked as it stands
+- P18 (111 words) "Why does the brain build this armor? Psychologist Lindsay Gibson expla…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P19 (58 words) "We are operating on about one-sixteenth of the relational density our …": never checked as it stands
 - P21 (58 words) "Neurological De-Armoring is about fixing the underpinnings, not redeco…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P22 (54 words) "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
@@ -98,7 +90,7 @@ A paragraph listed here has no check of its present words that read Human High i
 - P68 (53 words) "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P subli…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P69 (141 words) "Start lower and do the trial with just 50mg 5-HTP at night for 2–3 nig…": never checked as it stands
 - P70 (101 words) "Side effects / stop signs: The most dangerous symptoms to watch out fo…": never checked as it stands
-- P71 (107 words) "Serotonin syndrome usually comes from mixing 5-HTP casually with anyth…": never checked as it stands
+- P71 (170 words) "Serotonin syndrome usually comes from mixing 5-HTP casually with anyth…": never checked as it stands
 
 ## Fixing ATP Signaling if Cortisol Isn't High (2 left)
 
@@ -116,7 +108,7 @@ A paragraph listed here has no check of its present words that read Human High i
 - P78 (9 words) "The Target: Aim for 4,700 mg of Potassium daily.…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P79 (16 words) "The Source: Food Only. (Supplements are limited to 99mg, and bigger do…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P80 (29 words) "The Strategy: Eat 2 large potatoes and 2 cups of greens every single d…": never checked as it stands
-- P81 (15 words) "If on Resilience Mode, Strategy B (Keto Diet): *See my Keto Adaptation…": never checked as it stands
+- P81 (15 words) "If on Resilience Mode, Strategy B (Keto Diet): See my Keto Adaptation …": never checked as it stands
 
 ## 2. The Glutamate Shield (Anxiety): (16 left)
 
@@ -135,7 +127,7 @@ A paragraph listed here has no check of its present words that read Human High i
 - P95 (123 words) "My experience and that of those I know and have read about, is that it…": never checked as it stands
 - P96 (26 words) "The Void Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A ge…": never checked as it stands
 - P97 (52 words) "Uridine Monophosphate: The more targeted option when the Void looks li…": never checked as it stands
-- P98 (37 words) "5-HTP: Not a dopamine tool. Use only when the parallel problem looks l…": never checked as it stands
+- P98 (33 words) "5-HTP: Not a dopamine tool. Use only when the parallel problem looks l…": never checked as it stands
 
 ## 3. The "Nuclear Option" (Ethnobotanical) (3 left)
 
@@ -187,7 +179,7 @@ A paragraph listed here has no check of its present words that read Human High i
 - P131 (60 words) "Protocol:Reduce or stop phosphatidylserine here. This phase is low-dri…": never checked as it stands
 - P132 (32 words) "Also stop agmatine here unless it is unmistakably helping acute glutam…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P133 (66 words) "UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning w…": never checked as it stands
-- P134 (69 words) "5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2…": never checked as it stands
+- P134 (65 words) "5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2…": never checked as it stands
 - P135 (42 words) "Hot showers for the numbness, with Scenario C's hot and cold routine a…": never checked as it stands
 - P136 (21 words) "Transition: Consider moving to Strategy B (Keto Diet) for long-term re…": never checked as it stands
 - P137 (11 words) "If Numb: Micro-dose Tabernanthe elliptica or Female Iboga, and/or Hill…": never checked as it stands

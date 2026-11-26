@@ -1,0 +1,35 @@
+[
+ {
+  "key": "ethno-e1",
+  "name": "The plant-medicine warning, small step 1: his 66 (no nervous-system risk; my ranking out with it)",
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "words": 66,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "see the ledger record",
+  "sha256": "77368ea0edb411bae6021302e6e119c6c86f2c54a5272de764b2f6c5052928c5"
+ },
+ {
+  "key": "rule1",
+  "name": "The Rule by itself, with his answer 66 (no telling people to leave a partner)",
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "words": 69,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "b3c38cbaddebff8dccdf50d9df12b7ae71e865db4086882ddd096f2efe1aa15a"
+ },
+ {
+  "key": "uri-u1",
+  "name": "The uridine caution, small step 1: his 69 (a third of the old dose to start)",
+  "lineage": "neuro-de-armoring/W-URITOP",
+  "scope": "paragraph",
+  "words": 93,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "db19676dd5117051051259744a74258914dd6355a95badbdfc2cbafc019ceaea"
+ }
+]
