@@ -1,0 +1,97 @@
+# Somatic Guide, 26 November: three new sections from ChatGPT’s suggestions
+
+This is your somatic guide as it is live today (26 November), with the three sections ChatGPT suggested, written in the guide’s voice from its sources, which I checked, each shown where it would go. Nothing here is in the post yet.
+
+Together they add 764 words to a guide of about 6,600 words.
+
+This page is the same cards for reading on GitHub; the Approve, Reject and Revise buttons are on the marking page, which shows each card inside the whole guide. [The guide as it is live](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/WHOLE-LIVE-20261126.md) · [the live post](https://somatic.u-dont-exist.com)
+
+## A1 · New section after Brainspotting: “Can’t Stay With a Feeling?”
+
+*New section · at the end of Layer 3, after Brainspotting (an h2)*
+
+**As it would read**
+
+> ### **Can't Stay With a Feeling?**
+>
+> By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it. Maybe you start explaining the feeling instead of feeling it, or you agree with whatever the therapist says so you don't have to stay in it. What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.
+>
+> In [Intensive Short-Term Dynamic Psychotherapy](https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and), the therapist calls out each slide right as it happens and keeps turning you back toward the feeling. All the while they watch your body for signs of anxiety (tense muscles, sighing, a foggy head), to see how much you can take. Most people who come to it would find the full version too much, so they usually get a slower one, where the therapist helps them settle whenever the anxiety climbs too high.
+>
+> If it's one feeling in particular that scares you, like grief, [Affect Phobia Therapy](https://psykologtidsskriftet.no/node/15971/pdf) treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle. [Accelerated Experiential Dynamic Psychotherapy](https://www.apa.org/pubs/videos/4310759) is for when you can't let kindness in, when someone cares about you and it just bounces off. The therapist first makes sure you don't feel alone with the feelings that come up, then follows how they feel in your body.
+>
+> As with water therapy, I'd ask before booking: "What do you do when I start moving away from a feeling, and what if I get overwhelmed?" If the answer leaves no room for you to slow down, or to disagree with them about what you're feeling, keep looking.
+
+**What it adds:** A new section of 4 paragraphs (291 words) at the end of Layer 3, after Brainspotting and before Layer 4: for someone who can feel their body by now but slides away from a feeling the moment it comes up in a session. It names three talk therapies built for that (Intensive Short-Term Dynamic Psychotherapy, Affect Phobia Therapy, Accelerated Experiential Dynamic Psychotherapy), says whom each fits, and ends on the question to ask before booking, the way your water therapy section does.
+
+**Why:** ChatGPT’s first suggestion (26 November): the guide goes from body work to memory work and has nothing for the reader who can feel the body but can’t stay with a feeling in front of a therapist. You told the research lane to add only what fills a gap, and to say where it fits and who needs which; this section does that in its first paragraph and in each therapy’s sentence.
+
+**Pangram:** Each paragraph by itself, as on this card: [AI 100%, High (82 words)](https://www.pangram.com/history/d24b51d4-8c68-4f97-8939-ce63f875dc7d) for the first; [AI 100%, Medium 24 and High 56 words](https://www.pangram.com/history/c84530df-1666-4b49-85c4-4aa829b57c9d) for the second; [Mixed, 55% AI: the Affect Phobia sentence Human High (39 words), the two on AEDP AI Low (23 and 24)](https://www.pangram.com/history/b4f0fea6-06e1-4076-a6a6-a0589c7d82e1) for the third. The last paragraph is 49 words, under the web app’s 50, so it was read only inside the section. The earlier draft as one section: [AI 100%, High (262 words)](https://www.pangram.com/history/7f76bad0-ee08-4a1c-b586-8c119afa80ad).
+
+**What stays:** Every paragraph of the guide as it is live; nothing moves or goes.
+
+**Why I’m asking:** It adds a new section with new claims about named therapies and trials to your guide, under your byline
+
+**You’re deciding:** Whether the guide should name these three therapies, and here. Two things to weigh: the guide jokes that every year brings 50 new kinds of therapies, mostly permutations of the old ones, and this adds three names, though none is new (Abbass’s review cites Davanloo’s first ISTDP work of 1977, Affect Phobia Therapy’s manual is from 2003, and Diana Fosha’s first book on AEDP from 2000); and it says most people who go to the first one get its slower version, which is from Abbass’s review, not a count of my own.
+
+**My advice:** Approve it if you want the section, but it goes in only once it reads Human, and what would get it there is something only you have. Have you seen someone slide away from a feeling like this, in your own sessions or Hâle’s, or done it yourself in therapy? A line or two of what it looked like would carry the section, and I’d build its first paragraph around it. Without one, my next try ties it to what the guide already says (Hâle’s worry that the feeling can outrun the therapist) instead of explaining the therapies in general terms; the readings show general explaining is what reads AI here. The sources I checked: [Abbass 2021, “Intensive Short-term Dynamic Psychotherapy: Methods, Evidence, Indications and Limitations”](https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and) (what the therapist does; the anxiety signs it watches (tense muscles, sighing, foggy thinking); most patients in its clinics overwhelm easily and get the slower, graded version); [Schanche, Hjeltnes, Berggraf and Ulvenes 2013, “Affect Phobia Therapy: Principles of graded affect exposure”](https://psykologtidsskriftet.no/node/15971/pdf) (fear of one's own feelings, treated like a phobia, gradually); [APA, Fosha, “Accelerated Experiential Dynamic Psychotherapy”](https://www.apa.org/pubs/videos/4310759) (not being alone with the feeling first; following the feeling in the body).
+
+## A2 · New section after EMDR: “Imagery Rescripting”
+
+*New section · in Layer 4, after EMDR and before hypnosis (an h2)*
+
+**As it would read**
+
+> ### **Imagery Rescripting**
+>
+> If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup. You picture the scene again, and somebody steps in to protect you or to give you what you needed back then, first the therapist and later you as an adult. Rescripting is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide.
+>
+> Does it work? For adults whose PTSD started in childhood, about as well as EMDR. [A trial](https://pubmed.ncbi.nlm.nih.gov/32892758/) gave 155 of them one or the other, and their PTSD symptoms came down about equally. The new version won't tell you what really happened, since you know you're imagining it; what changes is how the memory feels afterward. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.
+
+**What it adds:** A new section of 2 paragraphs (158 words) in Layer 4, right after the EMDR paragraph that warns going straight into a trauma memory can re-traumatize: what imagery rescripting is (you picture the scene again and someone steps in to protect you, the therapist first and later your adult self), a link to “Re-do Trauma Memories” in your inner child guide, the trial that found it did about as well as EMDR, and the same care to take as with EMDR.
+
+**Why:** ChatGPT’s second suggestion: the guide’s memory layer has EMDR and hypnosis but not the therapy closest to your own re-doing of memories, which a trial put level with EMDR for adults traumatized as children.
+
+**Pangram:** Each paragraph by itself, as on this card: [Mixed, 77% AI: AI High (59 words), and Human Medium (18 words) on the sentence tying it to your Re-do Trauma Memories](https://www.pangram.com/history/f61d3830-0297-4178-9a50-dabb63f671e9); [AI 100%: Low 3, Medium 12, High 70 words](https://www.pangram.com/history/70cf11e3-b851-4db9-8560-701196caba33). The earlier draft as one section: [AI 100%, High 57, Medium 15, High 88 words](https://www.pangram.com/history/b9255b37-4f32-4681-a0c7-72672ab039c9).
+
+**What stays:** Every paragraph of the guide as it is live; nothing moves or goes.
+
+**Why I’m asking:** It adds a new section with new claims about named therapies and trials to your guide, under your byline
+
+**You’re deciding:** Whether to add it, and whether the line tying it to your “Re-do Trauma Memories” section says it right (“It’s a lot like the way I re-do trauma memories”): your section uses a cast of wiser future characters, where rescripting uses the therapist and then your adult self.
+
+**My advice:** Approve it if you want the section, but it goes in only once it reads Human. The one sentence that read Human is the one about your own Re-do Trauma Memories, so your own experience is what would carry it: have you done that exercise with someone guiding you, or guided someone through it? A line of what happened would let me build the section on it. Without one, my next try keeps the therapy's description to one sentence and says the rest through your section. The sources I checked: [Boterhoven de Haan et al. 2020, British Journal of Psychiatry 217(5):609-615](https://pubmed.ncbi.nlm.nih.gov/32892758/) (155 adults with PTSD from childhood trauma; imagery rescripting and EMDR both helped, neither clearly better; the therapist steps into the scene first, the patient's adult self later); [Your inner child guide, “Re-do Trauma Memories” (live 25 November)](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) (the section the card links to).
+
+## A3 · New branch after Layer 5: “Pain That Won’t Quit?”
+
+*New section · after Layer 5, before the optional high-intensity practices (an h1)*
+
+**As it would read**
+
+> ## **Pain That Won't Quit?**
+>
+> Maybe pain is what brought you to this guide. If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.
+>
+> In [Pain Reprocessing Therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298), you learn that the pain is a false alarm, your brain signaling danger where there isn't any, partly by paying close attention to how it feels in your body. Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks.
+>
+> Pain Reprocessing Therapy's first big trial was only in mild to moderate chronic back pain. There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.
+>
+> The second therapy is for pain that seems bound up with stress and feelings about the people in your life. [Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on those feelings directly. Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.
+>
+> In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. That's a lower bar than 0 or 1 out of 10, so the two trials' numbers can't be compared.
+>
+> I haven't found a trial comparing the two. So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, [How I Judge Whether Any of This Is Helping](#§how-i-judge-whether-any-of-this-is-helping).
+
+**What it adds:** A new branch of 6 paragraphs (315 words) after Layer 5: for a reader whose pain has lasted months with no injury or disease found, two therapies (Pain Reprocessing Therapy and Emotional Awareness and Expression Therapy), each with what you do in it and its trial, limit first, then how to choose between them and a link to “How I Judge Whether Any of This Is Helping”.
+
+**Why:** ChatGPT’s third suggestion: the guide mentions pain as something that changes how much therapy you can take, but has nothing for the reader who came to it because of pain. It is a branch (an h1 of its own), not a sixth layer.
+
+**Pangram:** The whole section as on this card: [Mostly Human, 3% AI (328 words): Human Medium 68, Low 22, High 55, Low 62, Medium 29, Low 21, Medium 34, High 37](https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3). The three Low windows: the going-back sentence, the Emotional Awareness and Expression Therapy paragraph, and the lower-bar sentence. With seven small clarity fixes made at once (“though real” after “false alarm”, the two therapies named in place of “the second” and “the first”, and five more): [AI 61%](https://www.pangram.com/history/af6615cb-06d4-4f41-a73f-e4a9340d86fb), so the card keeps the version that read Human.
+
+**What stays:** Every paragraph of the guide as it is live; nothing moves or goes.
+
+**Why I’m asking:** It adds a new section with new claims about named therapies and trials to your guide, under your byline
+
+**You’re deciding:** Whether the guide should have a pain branch at all (it is the longest of the three), and whether as its own h1 or as a section inside Layer 5. The two trials can’t be set side by side (different bars, different people), which the section says.
+
+**My advice:** I’d add it as it is: it reads Human. Two things a fresh reader wanted, which I tried and Pangram then read as AI (made together with five other fixes): “false alarm” could read as “your pain isn’t real” (my fix: “the pain, though real, is a false alarm”), and “the second” and “the first” in the last paragraph could be clearer as the two names. If you want either, say so and I’ll check each by itself. The three Low windows are next on my list either way. The sources I checked: [Ashar et al. 2022, JAMA Psychiatry 79(1):13-23](https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298) (151 adults with chronic back pain; 66% of 50 given 4 weeks of Pain Reprocessing Therapy at 0 or 1 out of 10 afterward, against 20% of 51 given a placebo shot; gains largely kept at a year); [NIH Research Matters, 2 November 2021](https://www.nih.gov/news-events/nih-research-matters/retraining-brain-treat-chronic-pain) (the trial was in mild or moderate chronic back pain); [Yarns et al. 2024, JAMA Network Open (trial NCT03918642)](https://clinicaltrials.gov/study/NCT03918642) (126 veterans aged 60 to 95; 63% with Emotional Awareness and Expression Therapy and 17% with CBT had at least 30% less pain; its parts: writing about stress, role-play, expressing anger and other feelings, being more open with others); [No trial compares the two](https://pubmed.ncbi.nlm.nih.gov/?term=%22pain+reprocessing+therapy%22+%22emotional+awareness+and+expression+therapy%22) (searched 26 November by the research lane and by me; none found).

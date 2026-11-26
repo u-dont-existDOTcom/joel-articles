@@ -1,0 +1,82 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "770cf2acaf9d02db4adc24985636c77107882a763c6e02d4375fbdb03388fe3b",
+ "text": "In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. That's a lower bar than 0 or 1 out of 10, so the two trials' numbers can't be compared.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT.",
+   "payoff": "they learn whom the evidence is for and the result against CBT",
+   "follows": "it gives this therapy's evidence, limit first"
+  },
+  {
+   "s": "That's a lower bar than 0 or 1 out of 10, so the two trials' numbers can't be compared.",
+   "payoff": "they don't set the two trials' numbers side by side",
+   "follows": "it heads off the comparison the two numbers invite",
+   "link": "That's a lower bar"
+  }
+ ],
+ "checked": [
+  {
+   "point": "126 veterans aged 60 to 95; 63% vs 17% with at least 30% less pain",
+   "found": "Yarns et al. 2024, JAMA Network Open (https://clinicaltrials.gov/study/NCT03918642)",
+   "still_needed": "yes: they weigh it for their own pain and age",
+   "fate": "changed"
+  }
+ ],
+ "placement": "after what the second therapy is",
+ "opens": {
+  "first_sentence": "In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT.",
+  "why_reading": "it says whom the evidence covers"
+ },
+ "same_point": "none: read the section from its heading to the next; the PRT evidence is in the third paragraph; this one says the two can't be compared",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the fourth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-4.md, which lists no unneeded sentence; the third draft's read, READ-NEEDED-FIT-3.md, listed the clause \"These overlap a lot,\" which is cut)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the fourth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-4.md; earlier rounds READ-HIS-FIXES-1.md and READ-HIS-FIXES-3.md, each acted on)",
+  "marked": [
+   {
+    "s": "Its main trial so far was in veterans aged 60 and up, where it beat CBT: 63% had their pain drop by at least 30%, a lower bar than pain-free, against 17% with CBT.",
+    "difference": "1, 9: the trial's veterans-only limit, the CBT comparison, two percentages and a dashed aside (\"a lower bar than pain-free\") in one sentence. His way: the limit first (only tested in veterans over 60 so far"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-4.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "Its main trial so far was in veterans aged 60 and up, where it beat CBT: 63% had their pain drop by at least 30%, a lower bar than pain-free, against 17% with CBT.",
+    "found": "\"main trial so far\" needs checking against sources"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the trial's people first",
+  "Q2": "N/A: no instruction",
+  "Q3": "PASS: \"veterans aged 60 and up\"",
+  "Q4": "PASS: CBT is used in the live guide",
+  "Q5": "PASS: \"That's a lower bar\" turns on the result",
+  "Q6": "PASS: result, then why not to compare",
+  "Q7": "PASS: the therapy they weigh",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: no units with spaces"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

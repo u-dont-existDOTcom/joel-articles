@@ -1,0 +1,66 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "b276818d1a3dd3c73c2cede397855d70143f3cddd4e0b666bc22e40a5292f1db",
+ "text": "Pain That Won't Quit?",
+ "section": "Pain That Won't Quit? (new, after Layer 5)",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "Pain That Won't Quit?",
+   "payoff": "a reader in pain finds the section in the contents sidebar",
+   "follows": "it starts a new branch after Layer 5"
+  }
+ ],
+ "checked": [],
+ "placement": "an h1 after Layer 5 and before the optional high-intensity practices: a branch for pain, not a sixth layer; the sentence that tied it to Layer 5 is cut, so the h1 has nothing to contradict",
+ "opens": {
+  "first_sentence": "Pain That Won't Quit?",
+  "why_reading": "they see their pain named as a question, so they know the section is theirs"
+ },
+ "same_point": "none: read the section from its heading to the next; no other heading is about pain",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "Maybe pain is what brought you to this guide.",
+    "found": "\"pain is what brought you to this guide\" doesn't fit a trauma guide; and the h1 right after Layer 5 with no bridge reads as another layer"
+   }
+  ],
+  "kept": {
+   "Maybe pain is what brought you to this guide.": "the heading stays an h1: a branch for pain after the five layers, not a layer of its own, and no sentence in it says \"Layer 5\" any more; the near-miss rule keeps the section as it read Human"
+  }
+ },
+ "questions": {
+  "Q2": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q5": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q6": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q8": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q9": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q1": "PASS: the pain is the heading",
+  "Q3": "PASS: \"Pain That Won't Quit\"",
+  "Q4": "PASS: plain words",
+  "Q7": "PASS: their own pain"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

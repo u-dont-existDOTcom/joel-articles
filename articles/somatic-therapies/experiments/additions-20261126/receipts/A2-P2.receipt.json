@@ -1,0 +1,124 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "7a9b5c37e1aae21444374bcc65770a7c8bc16e62a75179b9fd0ee64345dae39f",
+ "text": "Does it work? For adults whose PTSD started in childhood, about as well as EMDR. [A trial](https://pubmed.ncbi.nlm.nih.gov/32892758/) gave 155 of them one or the other, and their PTSD symptoms came down about equally. The new version won't tell you what really happened, since you know you're imagining it; what changes is how the memory feels afterward. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+ "section": "Imagery Rescripting",
+ "reader": "an adult with one scene from their childhood that still leaves them helpless, who has just read that going straight into a trauma memory with EMDR can re-traumatize, deciding whether imagery rescripting fits them",
+ "sentences": [
+  {
+   "s": "Does it work?",
+   "payoff": "they hear the question they are asking",
+   "follows": "it turns from what it is to whether it works"
+  },
+  {
+   "s": "For adults whose PTSD started in childhood, about as well as EMDR.",
+   "payoff": "they learn whom it works for and how well, against EMDR",
+   "follows": "it answers the question",
+   "link": "none: it starts the paragraph on a new step the reader expects"
+  },
+  {
+   "s": "[A trial](https://pubmed.ncbi.nlm.nih.gov/32892758/) gave 155 of them one or the other, and their PTSD symptoms came down about equally.",
+   "payoff": "they learn what that rests on: a trial of 155 such adults with symptoms down about equally",
+   "follows": "it gives the evidence for the answer",
+   "link": "A trial"
+  },
+  {
+   "s": "The new version won't tell you what really happened, since you know you're imagining it; what changes is how the memory feels afterward.",
+   "payoff": "they know the imagined version won't tell them what happened, and what it does change",
+   "follows": "it answers the worry a made-up scene raises",
+   "link": "The new version"
+  },
+  {
+   "s": "Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+   "payoff": "they know to stop when it's too much and to ground themselves afterward",
+   "follows": "it gives the care the EMDR paragraph above asks for",
+   "link": "Because rescripting takes you back"
+  }
+ ],
+ "checked": [
+  {
+   "point": "155 adults with PTSD from childhood trauma; imagery rescripting and EMDR both effective, neither better",
+   "found": "Boterhoven de Haan et al. 2020, British Journal of Psychiatry 217(5):609-615 (https://pubmed.ncbi.nlm.nih.gov/32892758/)",
+   "still_needed": "yes: they weigh it against EMDR",
+   "fate": "changed"
+  },
+  {
+   "point": "after EMDR, ground yourself",
+   "found": "the live guide's EMDR section: \"After an EMDR session, it's a good idea to do some grounding activities.\"",
+   "still_needed": "yes: they ground themselves afterward",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the paragraph saying what it is, last in the section",
+ "opens": {
+  "first_sentence": "Does it work?",
+  "why_reading": "it asks the question the reader has once they know what the therapy is"
+ },
+ "same_point": "none: read the section from its heading to the next; the section's first paragraph says what it is",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [
+   "Does it work?"
+  ],
+  "kept": {
+   "Does it work?": "they hear the question they are asking at this point, so the answer that follows lands as the answer to it"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [
+   {
+    "s": "Does it work?",
+    "difference": "18, 10: a three-word question standing alone, and \"it\" could be rescripting or his guide from S4. His way: fold it into S6 (\"As for whether imagery rescripting works, ...\")."
+   },
+   {
+    "s": "For adults whose PTSD started in childhood, about as well as EMDR: in a trial with 155 of them, both helped, and neither clearly beat the other.",
+    "difference": "1, 4, 9: a sentence fragment packing the group, the comparison, the trial size and the result. \"both helped\" doesn't say helped what. \"155\" is a study number dropped in. His way: the claim, then what it rests "
+   },
+   {
+    "s": "Since you know the new version is imagined, it changes how the memory feels, but it doesn't change what you remember happening.",
+    "difference": "3, 10, 13: \"changes X, but doesn't change Y\" is a contrast pair, and the worry it answers (does it plant false memories?) is never stated. \"Since you know...\" doesn't follow from S6, and \"it\" has several possibl"
+   },
+   {
+    "s": "It does take you back into the memory, though, same as EMDR, so I'd stop whenever it gets to be too much, and do some grounding afterward.",
+    "difference": "10, 16: \"It\" is ambiguous (rescripting, or the new version from S7). \"same as EMDR\" plus stop-when-too-much plus grounding repeats the paragraph directly before the insertion point (\"going directly into the t"
+   }
+  ],
+  "kept": {
+   "Does it work?": "it is the reader's own question at the turn from what the therapy is to whether it works; the answer comes in the next sentence, so it stands as the question itself"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "Since you know the new version is imagined, it changes how the memory feels, but it doesn't change what you remember happening.",
+    "found": "\"Since you know the new version is imagined, it changes how the memory feels\" doesn't follow"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the question, then its answer first",
+  "Q2": "PASS: \"stop when it's too much, and ground yourself afterward\" is theirs to do, for not being overwhelmed",
+  "Q3": "PASS: \"adults whose PTSD started in childhood\"",
+  "Q4": "PASS: EMDR and PTSD are used in the live guide before this",
+  "Q5": "PASS: each sentence answers the one before",
+  "Q6": "PASS: question, answer, evidence, the worry, the care",
+  "Q7": "PASS: each fact is about the therapy they weigh",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
