@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-26",
+  "scope": "Targeted research expansion; not an exhaustive systematic review",
+  "families": [
+    {
+      "family": "Experiential dynamic",
+      "candidates": [
+        "EAET",
+        "ISTDP",
+        "APT",
+        "AEDP"
+      ],
+      "decision": "Core comparison; protocols and indication-specific trial evidence",
+      "limits": "No direct EAET-versus-other-EDT RCT identified; family meta-analysis overlaps individual trials"
+    },
+    {
+      "family": "Humanistic experiential",
+      "candidates": [
+        "Emotion-Focused Therapy"
+      ],
+      "decision": "Article candidate and method comparison",
+      "limits": "Selected primary depression trial abstract; not a full efficacy review"
+    },
+    {
+      "family": "Pain reinterpretation",
+      "candidates": [
+        "PRT"
+      ],
+      "decision": "Article candidate paired with EAET",
+      "limits": "Original RCT plus same-cohort five-year follow-up, not independent replication"
+    },
+    {
+      "family": "Imagery and memory",
+      "candidates": [
+        "Imagery rescripting"
+      ],
+      "decision": "Article candidate adjacent to reparenting",
+      "limits": "Primary indexed abstract and protocol text; direct publisher retrieval inaccessible"
+    },
+    {
+      "family": "Bodily rehabilitation",
+      "candidates": [
+        "CFT"
+      ],
+      "decision": "Bounded candidate if pain rehabilitation is in scope",
+      "limits": "Primary trial abstracts; original RESTORE full text/errata not completely appraised"
+    },
+    {
+      "family": "Trauma exposure and behavioral treatment",
+      "candidates": [
+        "WET",
+        "DBT-PTSD"
+      ],
+      "decision": "Comparators for process and sequencing",
+      "limits": "Not EDTs; patient populations and dose differ"
+    },
+    {
+      "family": "Somatic relational methods",
+      "candidates": [
+        "Hakomi",
+        "NARM"
+      ],
+      "decision": "Coverage recorded with evidence limits",
+      "limits": "Method description and provider survey are not controlled patient efficacy evidence"
+    },
+    {
+      "family": "Previously covered",
+      "candidates": [
+        "SE",
+        "yoga",
+        "TRE",
+        "tapping",
+        "Brainspotting",
+        "EMDR",
+        "hypnosis",
+        "IFS/reparenting",
+        "mindfulness"
+      ],
+      "decision": "Not repeated in this expansion",
+      "limits": "No claim that all earlier article evidence has been re-audited"
+    },
+    {
+      "family": "Owner exclusions",
+      "candidates": [
+        "Sensorimotor Psychotherapy",
+        "Focusing"
+      ],
+      "decision": "Preserve previous editorial exclusion",
+      "limits": "Not reintroduced"
+    }
+  ]
+}
