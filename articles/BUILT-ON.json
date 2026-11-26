@@ -87,11 +87,11 @@
         "how_found": "the deck itself; on 2026-11-24 a fresh reader read all 95 cards of v0.5.4 against the article (articles/romance/humanize/fix-20261107/r42/game-audit/AUDIT.json), and every card's section names were compared with the article's headings"
       },
       "last_brought_in_line": {
-        "what": "v0.9.0, built 2026-11-26 against the article as fixed through r41 (nothing in the article has changed since): the game for one person (95 cards with one-person text), on top of v0.8.1 (\"Why this card?\" kept on 5 cards whose question needs it), v0.8.0 (27 Warm cards and 92 plainer lines), v0.7.x and v0.6.0; a candidate until he approves it (articles/romance/humanize/fix-20261107/r40/CARD-GAME.md, r45/README.md)",
+        "what": "v0.9.1, built 2026-11-26 against the article as fixed through r41 (nothing in the article has changed since): the one-person label screen led by its question (r46), on top of v0.9.0, the game for one person (95 cards with one-person text), and v0.8.1 (\"Why this card?\" kept on 5 cards whose question needs it), v0.8.0 (27 Warm cards and 92 plainer lines), v0.7.x and v0.6.0; a candidate until he approves it (articles/romance/humanize/fix-20261107/r40/CARD-GAME.md, r45/README.md, r46/README.md)",
         "live": "v0.5.4 is what his site serves until a version is approved, vendored into the innerself site and deployed"
       },
       "how_changes_carry": "it is a game, so Pangram's rules don't apply: when the article gains or changes a point, a renamed section or a cut line, the cards that draw on it are checked; new or changed card texts go to him to approve; a new version is then built by the love-honestly repository's rule (versions/<version>/) and deployed only with his OK",
-      "next": "his word on v0.9.0; after that, each romance turn that changes the article checks the cards that name the changed section, and a new card gets one-person text or a reason to be left out for one person"
+      "next": "his word on v0.9.1 and the evidence step; after that, each romance turn that changes the article checks the cards that name the changed section, and a new card gets one-person text or a reason to be left out for one person"
     }
   ]
 }
