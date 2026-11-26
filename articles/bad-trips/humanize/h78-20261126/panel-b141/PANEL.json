@@ -1,0 +1,69 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, jaw tension, loss of bodily control or neurological disorganization, the mind may feel like it's going crazy because the gut or the brain is going crazy.",
+  "Loss of bodily control includes wetting or soiling themselves and not being able to sit up, stand, walk or talk, basically everything related to controlling the body.",
+  "That's also something to [call medics for](#§call-medics-for), and the remedies can begin while help is being arranged.",
+  "Neurological disorganization is basically that plus a whole lot more, a catch-all term for things like confusion, clumsiness, shaking, or light and sound being too much.",
+  "Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis.",
+  "If you're in mental hell and gut hell at the same time, you don't need to try to tell which is from what, you address the gut first.",
+  "If the gut is fine, obviously the mental hell is not related to the gut.",
+  "A gut-driven mental hell is often mistaken as shadow work."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  4,
+  5,
+  7,
+  8
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is built in the same order from start to finish (define, sort the cases, give the rule, close on a general line), and nearly every sentence is a definition, a conditional or a signpost, so it reads as an explainer assembled to a plan rather than a writer reporting what happened."
+  ],
+  "sonnet": [
+   "The paragraph is built as define, sort, then conclude: each symptom is glossed, the reader is routed to remedies or shadow work, and it ends on a summarizing verdict, which is a tidy structure. The sentences are mostly even in length and evenly explanatory, though the loose \"basically\" asides break the polish."
+  ]
+ },
+ "human_clean": [
+  "medics",
+  "Neurological disorganization is basically that plus a whole lot more",
+  "a whole lot more",
+  "the remedies can begin while help is being arranged",
+  "That's also something to [call medics for](#§call-medics-for)"
+ ]
+}

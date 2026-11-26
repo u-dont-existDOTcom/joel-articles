@@ -2769,6 +2769,36 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-25T18:10Z"
+  },
+  {
+   "turn": "2026-11-26T15:56Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ on its default branch (fetched 2026-11-26 15:57 UTC; UDA at 3fce032, unchanged), all six already in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md and OWNER-QUESTIONS.md on main: last changed by this lane's turn 69 (7bff92cc); no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "three notifications about this lane's pull request 543 (subscribed, checks passed, merged), read 2026-11-25 18:17 UTC; nothing to do"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "issues and pull requests updated since 2026-11-25 18:00 UTC: pull requests 543 (this lane's, merged), 544 and 546 (neuro de-armoring, merged; lesson neuro-2026-11-26a read: words a model wrote are never a human tell), 545 (somatic therapies research, open, no shared file of this lane's); no comment or review addressed to this lane"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-26T15:57Z"
   }
  ]
 }

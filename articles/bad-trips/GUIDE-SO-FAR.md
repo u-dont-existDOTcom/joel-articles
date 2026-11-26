@@ -180,7 +180,7 @@ Keep in mind that DMSO can also block pain signals, so even if the pain fades, i
 
 [Activated charcoal](#§activated-charcoal) is safe and can help with many drug overdoses (and toxins in the gut). It only helps with what binds to it, which leaves out alcohol and lithium among other things, and it can also adsorb medication they need. [The usual advice](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/) says it's only useful within an hour of the drug overdose, but that's not true for many plant medicines which can take hours to digest. Obviously don't give anything by mouth to someone who can't swallow, as they could aspirate it into their lungs and die. And don't give any fine powders to anyone directly, mix in water first to prevent choking.
 
-If you're unsure about the interactions between the drugs taken, it could be helpful to check with AI & Poison Control. They might have important info, especially if the drugs are well-known, even if they often can't give actionable advice for liability reasons. They can also help you with standard first aid instructions.
+If you're unsure about the interactions between the drugs taken, it could be helpful to check with AI & Poison Control. They might have important info, especially if the drugs are well-known. They can also help you with standard first aid instructions. But I wouldn't ask Poison Control about charcoal. Someone I know did, and came away very confused after being told [they aren't allowed to tell anyone to take it](https://www.poison.org/articles/2017-jun/activated-charcoal).
 
 ## Serotonin Syndrome (SS)?
 
@@ -223,7 +223,9 @@ A horrible thought isn't automatically a revelation. The body may need quiet, wa
 
 The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.
 
-If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, jaw tension, loss of bodily control or neurological disorganization, the mind may feel like it's going crazy because the gut or the brain is going crazy. Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.
+If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, or jaw tension, the mind may feel like it's going crazy because the gut or the brain is going crazy. The same goes for loss of bodily control (someone wetting or soiling themselves, or not being able to sit up, stand, walk or talk) and for neurological disorganization, my catch-all for that loss of control plus a whole lot more. Losing control of the body like that is on [the list to call medics for](#§call-medics-for), and [the brain checks](#§my-brain-feels-damaged) further up show what else to look for.
+
+Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis. If you're in mental hell and gut hell at the same time, address the gut first with [the gut tools](#§gut-toxin-and-die-off-tools). You don't need to try to tell which is from what. A gut-driven mental hell is often mistaken as shadow work.
 
 ---
 
@@ -241,11 +243,13 @@ I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hosti
 
 ## Gut-Toxin & Die-Off Tools
 
-These are the first things I would use, even preventively on the come-up, because I want to address possible toxins before assigning the distress to something more mysterious.
+The gut tools are the first things I would use, even preventively on the come-up (while the drug is still kicking in), because I want to address possible toxins before I put the distress down to something more mysterious, like a spiritual sign.
+
+After all, nausea and diarrhea are common on psychedelics, and people generally don't feel good mentally during the nausea and gut pain parts of the come-up. Diarrhea can be a flushing out of toxins, and usually there's a lot of relief once everything starts coming out in the toilet. But severe diarrhea can flush out too much fluid, and being badly dried out is on [the list to call medics for](#§call-medics-for). Still, you shouldn't have a lot of gut discomfort if the toxins in the gut get bound, which is what the tools below do, and dosing lower on the psychedelic helps too.
 
 ### [ZeoCharge](https://ibogaqueen.substack.com/p/here-is-why-everyone-should-use-zeocharge) & Ferment
 
-When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts.
+Zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts when the trip feels like a sick stomach, with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell. I'd think of them for parasite die-off too.
 
 Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine.
 

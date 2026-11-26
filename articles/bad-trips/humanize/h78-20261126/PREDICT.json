@@ -1,0 +1,169 @@
+{
+ "asis-b151-b153": {
+  "lineage": "bad-trips Gut-Toxin & Die-Off Tools, its opening paragraph with the first of ZeoCharge & Ferment (B151, B153) as they stand, together (h78)",
+  "call": "AI",
+  "chance": 0.2,
+  "decides": "which of the two reads below High by itself (B151 is 28 words and B153 33, so they are read together); what does gets the fresh reads, the panel and a try",
+  "tells": [
+   "before assigning the distress to something more mysterious",
+   "sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell"
+  ],
+  "human": [
+   "none that I know to be his own writing: both paragraphs are his post's text as it stood; \"These are the first things I would use, even preventively on the come-up\" is his practice, a fact he gave"
+  ],
+  "unchanged": "the guide's paragraphs B151 and B153 exactly as they stand"
+ },
+ "asis-b154": {
+  "lineage": "bad-trips ZeoCharge & Ferment, the ferments paragraph (B154) as it stands, by itself (h78)",
+  "call": "AI",
+  "chance": 0.3,
+  "decides": "whether B154 reads below High by itself; if it does it gets the fresh reads, the panel and a try",
+  "tells": [
+   "Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar.",
+   "although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine"
+  ],
+  "human": [
+   "none that I know to be his own writing; facts he gave: \"I prefer fermented beet juice made with apple vinegar and salt\", \"Smelling the ferment helps a lot\""
+  ],
+  "unchanged": "the guide's paragraph B154 exactly as it stands"
+ },
+ "asis-b158-b155": {
+  "lineage": "bad-trips ZeoCharge & Ferment, how he takes zeolite and how it has to be prepared (B158, B155) as they stand, together (h78)",
+  "call": "AI",
+  "chance": 0.3,
+  "decides": "which of the two reads below High by itself (B155 is 37 words, so it is read with B158 before it); what does gets the fresh reads, the panel and a try",
+  "tells": [
+   "Its effect becomes more obvious when a trip has a toxic or gut-driven component.",
+   "Many products did nothing for me, and quality mattered enormously."
+  ],
+  "human": [
+   "none that I know to be his own writing; facts he gave: \"some people need a teaspoon, others a tablespoon\", \"Rubbing it on the body or simply holding the jar also helps me\""
+  ],
+  "unchanged": "the guide's paragraphs B158 and B155 exactly as they stand"
+ },
+ "asis-b156-b157": {
+  "lineage": "bad-trips ZeoCharge & Ferment, ozonating the zeolite and keeping it from metal (B156, B157) as they stand, together (h78)",
+  "call": "AI",
+  "chance": 0.35,
+  "decides": "which of the two reads below High by itself (B157 is 46 words, so it is read with B156 before it); what does gets the fresh reads, the panel and a try",
+  "tells": [
+   "Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal",
+   "Less time did not work as well, and more time did not noticeably improve it."
+  ],
+  "human": [
+   "none that I know to be his own writing; facts he gave: \"With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me\", \"because ozone destroys plastic\""
+  ],
+  "unchanged": "the guide's paragraphs B156 and B157 exactly as they stand"
+ },
+ "a4-b141-signs": {
+  "lineage": "bad-trips My Acute Rescue Remedies, the gut-driven paragraph with his round-59 answer: the signs and what his two terms mean (B141), by itself (h78)",
+  "call": "Human",
+  "chance": 0.5,
+  "decides": "whether the signs paragraph, with his two terms explained where they are first used and the call-medics list and brain checks linked, reads Human High by itself; it goes in only if it does, and a window below High is fixed a word or two at a time",
+  "tells": [
+   "The same goes for loss of bodily control (someone wetting or soiling themselves, or not being able to sit up, stand, walk or talk) and for neurological disorganization",
+   "further up show what else to look for"
+  ],
+  "human": [
+   "a toxic heaviness or a dirty body-feeling (his post)",
+   "not being able to sit up, stand, walk or talk; \"that ... plus a whole lot more\"; \"catch-all\" (his round-59 answer 2.1)"
+  ],
+  "receipt": "TEST-a4-b141-signs.receipt.json",
+  "panel": "panel-b141/PANEL.md",
+  "humanized": "his round-59 answer 2.1 worked into the paragraph that read Human High on 2026-11-25 (8f7d99cd): its run of signs is two sentences so each of his two terms is explained where it is first used, in his words; a third sentence names what to do about loss of control from the guide's own call-medics list and links the brain checks. Two rounds of fresh reads and the panel on the first draft; every mark changed or answered in the receipt",
+  "first_fix": "payoff: the first sentence still ends on why the mind feels crazy after five signs, not seven; join: \"The same goes for ... and for ..., my catch-all for\", \"Losing control of the body like that is on ..., and ... show what else to look for\"; plain: \"someone wetting or soiling themselves, or not being able to sit up, stand, walk or talk\" for \"loss of bodily control\", the guide's own words (B94)",
+  "big": "two of its three sentences are new, from his round-59 answer and the guide's own lists; the first keeps five of its seven signs and its ending word for word"
+ },
+ "a5-b141-do": {
+  "lineage": "bad-trips My Acute Rescue Remedies, the gut-driven paragraph with his round-59 answer: what to do, with his \"address the gut first\" and his last line (new block R59-GUT-DO), by itself (h78)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether the what-to-do paragraph reads Human High by itself with his two sentences from answer 2.2 between the two that read High on 2026-11-25; it goes in only if it does",
+  "tells": [
+   "Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis."
+  ],
+  "human": [
+   "If you're in mental hell and gut hell at the same time ... address the gut first; You don't need to try to tell which is from what. (his round-59 answer 2.2)",
+   "A gut-driven mental hell is often mistaken as shadow work. (his own line, keep-as-is K2)"
+  ],
+  "receipt": "TEST-a5-b141-do.receipt.json",
+  "panel": "panel-b141/PANEL.md",
+  "humanized": "the last two sentences of the paragraph that read Human High on 2026-11-25 (8f7d99cd), word for word, with his answer 2.2 between them in his words: the act first with the gut tools linked, then \"You don't need to try to tell which is from what.\" His \"if the gut is fine obviously it's not related to the gut\" is left out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain)",
+  "first_fix": "payoff: the act comes right after the condition (\"address the gut first with the gut tools\"); join: his own two sentences, the second the reason not to worry about which; plain: \"the gut tools\", linked, for the generic \"address the gut\""
+ },
+ "a4-gutintro": {
+  "lineage": "bad-trips Gut-Toxin & Die-Off Tools, its opening: B151 and the paragraph from his round-59 answer 2.2 (new block R59-GUT-COMMON), together (h78)",
+  "call": "AI",
+  "chance": 0.4,
+  "decides": "which of the two paragraphs reads below High: B151 with three small changes, which read AI High as it stood (fc82fa68), and the new paragraph from his answer; a window below High is fixed a word or two at a time, and each goes in only at High",
+  "tells": [
+   "because I want to address possible toxins before I put the distress down to something more mysterious, like a spiritual sign",
+   "which is what the tools below do"
+  ],
+  "human": [
+   "nausea and diarrhea are common on psychedelics, and people generally don't feel good mentally during the nausea and gut pain parts of the come-up (his round-59 answer 2.2)",
+   "usually there's a lot of relief once everything starts coming out in the toilet; dosing lower on the psychedelic (his round-59 answer 2.2)"
+  ],
+  "receipt": "TEST-a4-gutintro.receipt.json",
+  "panel": "panel-gut/PANEL.md",
+  "humanized": "B151 as it stood read AI High 64 together with B153 (fc82fa68); here \"These\" is \"The gut tools\", \"the come-up\" is explained once, and \"assigning the distress to something more mysterious\" is \"put the distress down to something more mysterious, like a spiritual sign\". The second paragraph is his round-59 answer 2.2 in his words, made reader-facing: common, what diarrhea does, the limit with the call-medics list linked, and how to have less of it. Two rounds of fresh reads and the panel on the first draft; every mark changed or answered in the receipt",
+  "first_fix": "payoff: \"The gut tools are the first things I would use\" opens the section, and each later sentence opens on its subject (\"nausea and diarrhea are common\", \"Diarrhea can be\", \"severe diarrhea can\", \"you shouldn't have a lot of gut discomfort if\"); join: \"After all,\", \"and usually\", \"But severe diarrhea ..., and being badly dried out is on\", \"Still, ... if ..., which is what the tools below do, and\"; plain: \"(while the drug is still kicking in)\" for \"the come-up\", \"being badly dried out\" for dehydration, the call-medics list's words",
+  "diagnosis": "B151 and B153 as they stand read AI High 64 in one window (fc82fa68). In B151 the readers marked \"These\" (nothing named), \"the come-up\" (never explained) and \"something more mysterious\" (names nothing), so those three change and nothing else; B153 is not in this text and gets its own try",
+  "big": "the second paragraph is new, from his round-59 answer; B151 changes seven words"
+ },
+ "a1-b153-b154": {
+  "lineage": "bad-trips ZeoCharge & Ferment, its first paragraph (B153) with the ferments paragraph (B154) as it stands, together (h78)",
+  "call": "Human",
+  "chance": 0.55,
+  "decides": "whether B153, with the remedies first and its run of seven signs taken apart, reads Human High beside B154 (Human High 56 by itself); it goes in only if it does",
+  "tells": [
+   "with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell"
+  ],
+  "human": [
+   "none of B153 is known to be his own writing; in B154, his practice in his words: \"I prefer fermented beet juice made with apple vinegar and salt\", \"Smelling the ferment helps a lot\""
+  ],
+  "receipt": "TEST-a1-b153-b154.receipt.json",
+  "panel": "panel-b153/PANEL.md",
+  "humanized": "B153 read AI High 64 together with B151 as they stood (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Here the two remedies come first, the signs are two pictures (a sick stomach with nausea or diarrhea and the toxic, dirty feeling; mental hell driven by gut hell), and parasite die-off has a short sentence of its own; every sign stays. B154 is unchanged",
+  "first_fix": "payoff: \"Zeolite and the ZHoly3O ferment are often my first thoughts when\" opens it; join: \"with ... and that ..., or like ...\"; plain: a list of seven category words taken apart the way his fixes do it, ending on a slack short sentence (\"I'd think of them for parasite die-off too\")",
+  "diagnosis": "B153 as it stands read AI High in one window with B151 (fc82fa68), and both panel readers agreed on its one sentence: a run of seven symptom labels before the point. This try puts the point first and takes the run apart",
+  "big": "B153 is one sentence whose order and joins all change; every sign and both remedies stay; B154 is unchanged"
+ },
+ "a1-b158-b155": {
+  "lineage": "bad-trips ZeoCharge & Ferment, how he takes zeolite and how it has to be prepared (B158, B155) as they stand, together (h78)",
+  "call": "Human",
+  "chance": 0.5,
+  "decides": "whether two small changes lift the first paragraph from Human Low toward High; what is still below High gets the next word-level fix",
+  "tells": [
+   "Many products did nothing for me, and quality mattered enormously.",
+   "Most zeolites have clogged pores because they haven't been cleaned."
+  ],
+  "human": [
+   "none known to be his own writing; facts he gave: \"some people need a teaspoon, others a tablespoon\", \"simply holding the jar also helps me\""
+  ],
+  "receipt": "TEST-a1-b158-b155.receipt.json",
+  "panel": "panel-zeo-take/PANEL.md",
+  "humanized": "as they stand the two read Human in every window, none High (Low 9, Low 15, Low 30, Medium 18, Low 21; 25652097). Two things change: the two short sentences about sober people are joined with \"but\", and \"it\" in the last sentence of the first paragraph is \"the zeolite\"",
+  "first_fix": "payoff: unchanged; join: \"..., but its effect becomes more obvious when\"; plain: \"the zeolite\" for an \"it\" that could be the ferment",
+  "diagnosis": "try 1, the paragraphs as they stand, read Human Low and Medium in every window (25652097). The read against his fixes marked the first two sentences as two short ones he would join with \"but\", and \"it\" in \"Rubbing it on the body\" as possibly the ferment, named two sentences before. Those two change and nothing else; the dash aside and the second paragraph wait for the next check"
+ },
+ "a1-b156-b157": {
+  "lineage": "bad-trips ZeoCharge & Ferment, ozonating the zeolite and keeping it from metal (B156, B157) as they stand, together (h78)",
+  "call": "AI",
+  "chance": 0.25,
+  "decides": "whether the metal paragraph leaves AI High with its do joined to its don't and two plain words; B156's two AI windows are the next check either way",
+  "tells": [
+   "With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me.",
+   "Less time did not work as well, and more time did not noticeably improve it.",
+   "which is part of why it is used for heavy-metal removal"
+  ],
+  "human": [
+   "none known to be his own writing; facts he gave: \"because ozone destroys plastic\", \"about two grams of ozone per hour, ten minutes\""
+  ],
+  "receipt": "TEST-a1-b156-b157.receipt.json",
+  "panel": "panel-zeo-ozone/PANEL.md",
+  "humanized": "as they stand: Human Medium 32, AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). This try changes only the metal paragraph, where the AI High window is: \"I use glass for ozonation and storage whenever possible\" is joined to the don't it follows from, \"adsorbs metals\" is explained in a bracket, and \"before ingestion\" is \"before I swallow it\"",
+  "first_fix": "payoff: unchanged; join: \"I also keep zeolite away from metal during preparation, so I use glass for ...\"; plain: \"(they stick to it)\" for \"adsorbs\", \"before I swallow it\" for \"before ingestion\"",
+  "diagnosis": "try 1 read Human Medium on B156's first two sentences and AI on the rest, High on \"Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion\" (859d5bdf). The read against his fixes marked the metal paragraph for a don't before its do (glass, three sentences later), an unexplained \"adsorbs\", and a closing line that repeats; both panel readers agreed on its last two sentences. A try with a Human window changes little, so only those three things change, 15% of the words"
+ }
+}

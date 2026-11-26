@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Most sober people don't feel much from zeolite.",
+  "Its effect becomes more obvious when a trip has a toxic or gut-driven component.",
+  "I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly.",
+  "Rubbing it on the body or simply holding the jar also helps me.",
+  "In my experiments, zeolite has to be prepared correctly.",
+  "I use powdered zeolite rather than nano-liquid zeolite.",
+  "Many products did nothing for me, and quality mattered enormously.",
+  "Most zeolites have clogged pores because they haven't been cleaned."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [],
+  "7": [
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  3,
+  5,
+  7,
+  8
+ ],
+ "whole": {
+  "haiku": [
+   "Short declarative sentences alternate with personal details, and the general claims open on \"Most\" twice and land smoothly; the double-hyphen aside and the jar put a real hand in it, so the paragraph reads partly generated and partly typed by one person."
+  ],
+  "sonnet": [
+   "The paragraph is built from short, evenly weighted declarative sentences, each making one self-contained claim, with a cause-and-effect or qualification pattern running through it. It moves in a tidy \"claim, qualifier, claim\" order, so the rhythm is regular and the voice stays measured."
+  ]
+ },
+ "human_clean": [
+  "Rubbing it on the body or simply holding the jar also helps me.",
+  "nano-liquid zeolite",
+  "Rubbing it on the body or simply holding the jar also helps me.",
+  "Most sober people don't feel much from zeolite.",
+  "I use powdered zeolite rather than nano-liquid zeolite."
+ ]
+}
