@@ -659,6 +659,19 @@ def watch_note(reg, root=REPO):
     github job"). The page carries it only where the job's file is in the repository, and says "every day" only while
     the job has a schedule."""
     n = len(reg.get('texts') or {})
+    where = (reg.get('watch') or {})
+    if where.get('runs') == 'laptop':
+        return ('**Checked every day, from Joel\'s laptop.** Once a day, at about %s, a timer on his laptop runs the '
+                'check ([the script](%s%s), installed by %s since %s) on %s: it looks for every passage on this page and, '
+                'when one has changed, for instance because he edited a post on Substack himself, it opens [an issue '
+                'on GitHub](%s/issues?q=label%%3A%s) that names the passage and every other place that depends on it, so '
+                'those can be read again, and shows a notice on his screen. A day the laptop is off, it runs at the next '
+                'start. It runs there because Substack refuses GitHub\'s servers ([the job on GitHub](%s%s) runs only '
+                'by hand).'
+                % (where.get('at', '08:23'), GIT, where.get('script', 'scripts/laptop/depends-watch-run.sh'),
+                   where.get('install', 'scripts/laptop/install-depends-watch.sh'), where.get('since', '?'),
+                   'the %s' % _n(n, 'live post') if n else 'the live posts', GIT.split('/blob/')[0], WATCH_LABEL,
+                   GIT, WATCH))
     if not watch_is_daily(root):
         return ('**Not checked by itself yet.** A job on GitHub ([the check](%s%s)) can read %s on Substack and look '
                 'for every passage on this page, and open [an issue on GitHub](%s/issues?q=label%%3A%s) that names a '
