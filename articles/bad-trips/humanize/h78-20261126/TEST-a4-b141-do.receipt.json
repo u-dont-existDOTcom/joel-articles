@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "42549c81c1187d2646da67c76bcb08892a44f12834025170c75440dd5a716acb",
+ "text": "Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis. If you're in mental hell and gut hell at the same time, you don't need to try to tell which is from what, just address the gut first with [the gut tools](#§gut-toxin-and-die-off-tools). A gut-driven mental hell is often mistaken as shadow work.",
+ "section": "My Acute Rescue Remedies",
+ "reader": "somebody sitting with a friend on a psychedelic who has diarrhea and nausea and says their mind is going crazy, deciding whether to talk them through it or to treat it",
+ "sentences": [
+  {
+   "s": "Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis.",
+   "payoff": "they know which part of the guide to use: the remedies below for those trips, the shadow work further down for a mainly emotional crisis",
+   "follows": "the trips with the signs in the paragraph before"
+  },
+  {
+   "s": "If you're in mental hell and gut hell at the same time, you don't need to try to tell which is from what, just address the gut first with [the gut tools](#§gut-toxin-and-die-off-tools).",
+   "payoff": "they know not to spend time working out which is causing which: treat the gut first, with the gut tools",
+   "follows": "the two kinds of crisis just named",
+   "link": "mental hell"
+  },
+  {
+   "s": "A gut-driven mental hell is often mistaken as shadow work.",
+   "payoff": "they know the two get mixed up, which is why the gut comes first",
+   "follows": "addressing the gut first, just said",
+   "link": "A gut-driven mental hell"
+  }
+ ],
+ "checked": [
+  {
+   "point": "those trips are what the remedies below are for; the shadow work further down is for a mainly emotional crisis",
+   "found": "the paragraph as it read Human High on 2026-11-25 (8f7d99cd); unchanged",
+   "still_needed": "yes: they choose between treating the body and working with the feeling",
+   "fate": "kept"
+  },
+  {
+   "point": "in mental hell and gut hell at the same time, no need to tell which is from what: address the gut first",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.2: \"if you're in mental hell and gut hell at the same time you don't need to try to tell which is from what, you address the gut first i think i mentioned that\"; B151 says the gut tools are the first things he would use, so they are linked as the act",
+   "still_needed": "yes: they treat the gut first without working out which crisis it is",
+   "fate": "changed"
+  },
+  {
+   "point": "if the gut is fine, obviously it is not related to the gut",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.2; left out: the needed read and the read against his fixes both found it tells the reader nothing, and a fine gut does not rule out the brain, which the paragraph before names",
+   "still_needed": "no",
+   "fate": "cut"
+  },
+  {
+   "point": "a gut-driven mental hell is often mistaken as shadow work",
+   "found": "his own line, keep-as-is K2 (round 1, card RP-4); word for word, the last sentence",
+   "still_needed": "yes: they check the gut before treating a mental hell as shadow work",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the last paragraph of the opening of My Acute Rescue Remedies (new block R59-GUT-DO, after B141), before Remedies Needing Caution",
+ "opens": {
+  "first_sentence": "Those trips are what the remedies below are for, and the shadow work further down is for a mainly emotional crisis.",
+  "why_reading": "it tells the reader which part of the guide to use, and that with mental hell and gut hell together the gut comes first"
+ },
+ "same_point": "B151 says the gut tools are the first things he would use; this says the reader need not tell which hell is causing which, and links those tools. One point said from the reader's side here and from his practice there",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a3-rescue-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a3-rescue-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a3-rescue-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q2": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q3": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q4": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q5": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q6": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q7": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q8": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\"",
+  "Q9": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his comma splice \"you don't need to try to tell which is from what, just address the gut first\""
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

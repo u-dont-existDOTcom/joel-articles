@@ -13,7 +13,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 | Pangram web app (his account) | 49 | 40 (82%) | 67% | 33% | 14% | 0.147 (base 0.220, 49) |
 | Pangram web app (his account, Pangram Professional), in the desktop app's browser pane | 89 | 74 (83%) | 44% | 56% | 57% | 0.188 (base 0.246, 89) |
 | Pangram web app (his account), in the desktop app's browser pane | 45 | 34 (76%) | 56% | 44% | 42% | 0.188 (base 0.247, 45) |
-| Pangram API (pangram-4), his key, run on his laptop (tools/humanization/pangram_api.py) | 72 | 51 (71%) | 36% | 64% | 76% | 0.208 (base 0.231, 72) |
+| Pangram API (pangram-4), his key, run on his laptop (tools/humanization/pangram_api.py) | 82 | 58 (71%) | 35% | 65% | 72% | 0.212 (base 0.229, 82) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
 
@@ -191,27 +191,27 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 34 (68%) | 40% | 60% | 68% | 0.208 (base 0.240, 50) |
-| the latest 100 | 72 | 51 (71%) | 36% | 64% | 76% | 0.208 (base 0.231, 72) |
-| all | 72 | 51 (71%) | 36% | 64% | 76% | 0.208 (base 0.231, 72) |
+| the latest 50 | 50 | 36 (72%) | 36% | 64% | 56% | 0.203 (base 0.230, 50) |
+| the latest 100 | 82 | 58 (71%) | 35% | 65% | 72% | 0.212 (base 0.229, 82) |
+| all | 82 | 58 (71%) | 35% | 65% | 72% | 0.212 (base 0.229, 82) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 72 | 51 (71%) | 36% | 64% | 76% | 0.208 (base 0.231, 72) |
+| paragraph | 82 | 58 (71%) | 35% | 65% | 72% | 0.212 (base 0.229, 82) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 7 | 0.13 | 14% |
-| 0.2 to 0.4 | 7 | 0.24 | 57% |
-| 0.4 to 0.6 | 43 | 0.56 | 65% |
-| 0.6 to 0.8 | 30 | 0.63 | 70% |
+| 0.2 to 0.4 | 12 | 0.26 | 50% |
+| 0.4 to 0.6 | 47 | 0.55 | 68% |
+| 0.6 to 0.8 | 31 | 0.63 | 71% |
 | 0.8 to 1.0 | 5 | 0.87 | 100% |
 
-## Misses since the ledger (111)
+## Misses since the ledger (114)
 
 | cause | misses |
 |---|---|
@@ -268,14 +268,14 @@ Calibration:
 | I priced the medical part's record (eight of eight of my tries AI on 2026-11-12, five of five on the kidney paragraph) and not what this try did differently: every sentence tied to the one before by what they share, each warning said as what happens or what to do, the caution in the first person, the ways of his round-57 kidney fix | 1 |
 | I called the three paragraphs from the section's last reading in place (Human High 39, AI Low 9, AI High 49, AI Medium 8) and took the AI windows to be these; they were the paragraphs after them. B139 with his answer and B86's first two sentences read Human High 56, and only B86's list sentence fell short (Human Low 14) | 1 |
 | I called it from the paragraph's run of eight signs, which stays, and from my record on this guide's body paragraphs; what changed was the verdict after the run: 'belongs in a different branch' became the two places in the guide a reader can go to, and the closing aphorism became the reason joined to that sentence | 1 |
+| I called it from the section's reading in place (AI High 36, AI Low 40, AI Medium 12 over the first gut-tool paragraphs) and from its list of three ferments and its 'although ... which then requires' clause; by itself it reads Human High 56 in one window. Three of its four sentences are his practice in his plain words ('I prefer fermented beet juice made with apple vinegar and salt', 'Smelling the ferment helps a lot', 'Drinking a spoonful can also help') | 1 |
+| the same: called from the section's reading in place. By themselves the two paragraphs read Human in every window, but none High (Low 9, Low 15, Low 30, Medium 18, Low 21), so both are still work to do. They are what he does with zeolite, in the first person, but in short flat sentences with nothing joining them ('Most sober people don't feel much from zeolite. Its effect becomes more obvious when ...') | 1 |
+| I called AI because B151 read AI High as it stood an hour before (fc82fa68, with B153) and only seven of its words changed. It read Human High 151 in one window with the paragraph from his round-59 answer after it. Two things I underweighted: the AI window had held B153's seven-item list too, so it did not say B151 was the cause; and the three changes were the three places the readers could not follow (what 'These' are, what 'the come-up' is, what 'more mysterious' means) | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [a2-b118](https://www.pangram.com/history/6840df55-84e4-4d02-9a14-086676b419a5) | bad-trips MDMA: Magnesium Alarm, his second wife (B118) (h73), 1 | Human | AI or mixed | **not explained yet** |
-| [a2-b120](https://www.pangram.com/history/258a5b17-a2da-49d3-8da5-86655418be03) | bad-trips MDMA: Magnesium Alarm, the kidneys (B120) (h73), 1 | Human | AI or mixed | **not explained yet** |
-| [a2-b117p](https://www.pangram.com/history/b6991899-e01f-4539-994f-0f783cef2b68) | bad-trips MDMA: Magnesium Alarm, the softer peak (B117) (h73), 1 | Human | AI or mixed | **not explained yet** |
 | [a3-b114](https://www.pangram.com/history/25bc9042-d058-40dd-b052-f7c2c6ab660f) | bad-trips MDMA: Magnesium Alarm, the jaw alarm (B114) (h73), 2 | Human | AI or mixed | **not explained yet** |
 | [a3-b117p](https://www.pangram.com/history/a74bc7a7-dcde-41f1-9a83-49b00d5ca2f8) | bad-trips MDMA: Magnesium Alarm, the softer peak (B117) (h73), 2 | Human | AI or mixed | **not explained yet** |
 | [a3-b118](https://www.pangram.com/history/162c5eaf-11c9-4eca-bdb6-e90cee404bc5) | bad-trips MDMA: Magnesium Alarm, his second wife (B118) (h73), 2 | Human | AI or mixed | **not explained yet** |
@@ -288,6 +288,9 @@ The latest:
 | [a2-b127-b128](https://www.pangram.com/history/75a2458d-38e7-4413-8d12-9ac6f8e7824c) | bad-trips Swallowed Too Much?, the charcoal and poison control paragraphs (B127, B128) as they stand, together (h75), 2 | AI | Human | I priced the medical part's record (eight of eight of my tries AI on 2026-11-12, five of five on the kidney paragraph) and not what this try did differently: every sentence tied to the one before by what they share, each warning said as what happens or what to do, the caution in the first person, the ways of his round-57 kidney fix |
 | [asis-b139-open](https://www.pangram.com/history/d9dea7a8-acff-4c1a-b3cc-a7e9372a7452) | bad-trips My Acute Rescue Remedies, its first three paragraphs (B139, N-AN-Q1, B86) as they stand, together (h77), 1 | AI | Human | I called the three paragraphs from the section's last reading in place (Human High 39, AI Low 9, AI High 49, AI Medium 8) and took the AI windows to be these; they were the paragraphs after them. B139 with his answer and B86's first two sentences read Human High 56, and only B86's list sentence fell short (Human Low 14) |
 | [a2-b141](https://www.pangram.com/history/6f789f5b-e8f0-451e-95a2-5de3b943f76d) | bad-trips My Acute Rescue Remedies, the gut-driven paragraph (B141) as it stands, by itself (h77), 2 | AI | Human | I called it from the paragraph's run of eight signs, which stays, and from my record on this guide's body paragraphs; what changed was the verdict after the run: 'belongs in a different branch' became the two places in the guide a reader can go to, and the closing aphorism became the reason joined to that sentence |
+| [asis-b154](https://www.pangram.com/history/c293133e-f9b6-46a2-98eb-85e71e6a6ae0) | bad-trips ZeoCharge & Ferment, the ferments paragraph (B154) as it stands, by itself (h78), 1 | AI | Human | I called it from the section's reading in place (AI High 36, AI Low 40, AI Medium 12 over the first gut-tool paragraphs) and from its list of three ferments and its 'although ... which then requires' clause; by itself it reads Human High 56 in one window. Three of its four sentences are his practice in his plain words ('I prefer fermented beet juice made with apple vinegar and salt', 'Smelling the ferment helps a lot', 'Drinking a spoonful can also help') |
+| [asis-b158-b155](https://www.pangram.com/history/25652097-7c2d-444d-ab06-9e9af3c993c1) | bad-trips ZeoCharge & Ferment, how he takes zeolite and how it has to be prepared (B158, B155) as they stand, together (h78), 1 | AI | Human | the same: called from the section's reading in place. By themselves the two paragraphs read Human in every window, but none High (Low 9, Low 15, Low 30, Medium 18, Low 21), so both are still work to do. They are what he does with zeolite, in the first person, but in short flat sentences with nothing joining them ('Most sober people don't feel much from zeolite. Its effect becomes more obvious when ...') |
+| [a4-gutintro](https://www.pangram.com/history/a53a2ce3-838c-409f-801f-bfa6d403d9d9) | bad-trips Gut-Toxin & Die-Off Tools, its opening: B151 and the paragraph from his round-59 answer 2.2 (new block R59-GUT-COMMON), together (h78), 1 | AI | Human | I called AI because B151 read AI High as it stood an hour before (fc82fa68, with B153) and only seven of its words changed. It read Human High 151 in one window with the paragraph from his round-59 answer after it. Two things I underweighted: the AI window had held B153's seven-item list too, so it did not say B151 was the cause; and the three changes were the three places the readers could not follow (what 'These' are, what 'the come-up' is, what 'more mysterious' means) |
 
 ## Lineages still open (tries used of the cap)
 
@@ -567,4 +570,6 @@ The latest:
 | bad-trips MDMA: Magnesium Alarm, the kidneys by a second writer from the tell panel (h75) | paragraph | 1 of 6 | AI |
 | bad-trips Swallowed Too Much?, the activated charcoal paragraph (B127) as it stands, by itself (h75) | paragraph | 1 of 6 | AI |
 | bad-trips B120, blind rewrite from his round-57 lessons (replay h76) | paragraph | 1 of 6 | AI |
+| bad-trips Gut-Toxin & Die-Off Tools, its opening paragraph with the first of ZeoCharge & Ferment (B151, B153) as they stand, together (h78) | paragraph | 1 of 6 | AI |
+| bad-trips ZeoCharge & Ferment, ozonating the zeolite and keeping it from metal (B156, B157) as they stand, together (h78) | paragraph | 2 of 6 | Mixed |
 

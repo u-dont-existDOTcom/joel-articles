@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "2297e100aae20e4d7d582907eb9a85a17e03638cddac0c7c972811215bf48168",
+ "text": "If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, or jaw tension, the mind may feel like it's going crazy because the gut or the brain is going crazy. The same goes for loss of bodily control (someone wetting or soiling themselves, or not being able to sit up, stand, walk or talk) and for neurological disorganization, my catch-all for that loss of control plus a whole lot more. Losing control of the body like that is on [the list to call medics for](#§call-medics-for), and [the brain checks](#§my-brain-feels-damaged) further up show what else to look for.",
+ "section": "My Acute Rescue Remedies",
+ "reader": "somebody sitting with a friend on a psychedelic who has diarrhea and nausea and says their mind is going crazy, deciding whether to talk them through it or to treat it",
+ "sentences": [
+  {
+   "s": "If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, or jaw tension, the mind may feel like it's going crazy because the gut or the brain is going crazy.",
+   "payoff": "they know which signs point to the gut or the brain as what is making the mind feel crazy",
+   "follows": "the body reasons the paragraphs before it give"
+  },
+  {
+   "s": "The same goes for loss of bodily control (someone wetting or soiling themselves, or not being able to sit up, stand, walk or talk) and for neurological disorganization, my catch-all for that loss of control plus a whole lot more.",
+   "payoff": "they know what loss of bodily control looks like, and that neurological disorganization is his word for that and more",
+   "follows": "the signs just listed",
+   "link": "The same goes for"
+  },
+  {
+   "s": "Losing control of the body like that is on [the list to call medics for](#§call-medics-for), and [the brain checks](#§my-brain-feels-damaged) further up show what else to look for.",
+   "payoff": "they know to call medics when someone loses control of their body, and where the other brain signs are listed",
+   "follows": "the loss of control just described",
+   "link": "Losing control of the body"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the signs that point to the gut or the brain: diarrhea or nausea, a toxic heaviness or a dirty body-feeling, jaw tension, loss of bodily control, neurological disorganization",
+   "found": "his post as of 2026-11-03 and the paragraph as it read Human High on 2026-11-25 (8f7d99cd); every sign stays, in the same words and order, in two sentences",
+   "still_needed": "yes: they recognize the case by them",
+   "fate": "kept"
+  },
+  {
+   "point": "loss of bodily control: wetting or soiling themselves, not being able to sit up, stand, walk or talk",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.1: \"loss of bodily control includes urination, defecation, inability to sit up, stand, walk, talk, basically everything related to controlling the body\"; \"wetting or soiling themselves\" is the guide's wording for it (B94, R38-BRAIN-LIST)",
+   "still_needed": "yes: they look for each of these in their friend",
+   "fate": "changed"
+  },
+  {
+   "point": "neurological disorganization is a catch-all for that plus a whole lot more",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.1: \"neurological disorganization is basically that plus a whole lot more it's a catch all term\"; the list he pasted is a model's (GPT), and most of it is what any strong trip brings, so none of its items is in; the guide's own brain checks are linked for what to look for",
+   "still_needed": "yes: they stop looking for a separate test for the term and use the brain checks",
+   "fate": "changed"
+  },
+  {
+   "point": "wetting or soiling themselves, not being able to walk normally and losing the ability to speak are on the call-medics list; the brain checks say what else to look for",
+   "found": "the guide, B94 (Call Medics For:) and R38-BRAIN-LIST with B104 and B106 (\"if any of the checks above fail, call medics right away\"), read 2026-11-26; his own lists, linked, nothing new claimed",
+   "still_needed": "yes: they call medics for someone who cannot talk or walk, and start the remedies meanwhile",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the sixth paragraph of the opening of My Acute Rescue Remedies (B141), after R27-HIER, before the paragraph on what to do",
+ "opens": {
+  "first_sentence": "If a trip comes with diarrhea or nausea, a toxic heaviness or a dirty body-feeling, or jaw tension, the mind may feel like it's going crazy because the gut or the brain is going crazy.",
+  "why_reading": "it tells the reader which signs point to the gut or the brain, what his two terms mean, and that losing control of the body is a reason to call medics"
+ },
+ "same_point": "none new: read the section from its heading to the next. The call-medics list (B94) and the brain checks (R38-BRAIN-LIST) hold the same signs as tests; this paragraph points to both and does not repeat them",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a3-rescue-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a3-rescue-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a3-rescue-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q2": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q3": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q4": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q5": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q6": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q7": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q8": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)",
+  "Q9": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-rescue-sec.txt, panel-b141/PANEL.md) and on the third (reads/*-a3-rescue-sec.txt). Changed from their marks: the summing-up tag \"basically everything related to controlling the body\" is out; \"themselves\" has \"someone\"; each of his two terms is explained in the sentence that first uses it, with S10's run of signs split in two so the point still comes early; the examples of neurological disorganization that any strong trip brings (confusion, shaking, light and sound) are out, and the brain checks, which are the guide's own way to tell, are linked; what to do about loss of control names it and gives the list first; \"If the gut is fine, obviously it's not related to the gut\" is out (both reads: it tells the reader nothing, and a fine gut does not rule out the brain); \"address the gut first\" names the gut tools. Kept: his last line word for word (keep-as-is K2), \"Those trips are what the remedies below are for ...\" as it read Human High on 2026-11-25 (8f7d99cd), and his \"you don't need to try to tell which is from what\", after the act it follows from (the linter's O65: the advice first)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "202a84e7c5c384500a0b5dbe9464db365a5c78ef07c840ce36e8c8e02a5cec01",
+ "text": "The gut tools are the first things I would use, even preventively on the come-up (while the drug is still kicking in), because I want to address possible toxins before I put the distress down to something more mysterious, like a spiritual sign.\n\nAfter all, nausea and diarrhea are common on psychedelics, and people generally don't feel good mentally during the nausea and gut pain parts of the come-up. Diarrhea can be a flushing out of toxins, and usually there's a lot of relief once everything starts coming out in the toilet. But severe diarrhea can flush out too much fluid, and being badly dried out is on [the list to call medics for](#§call-medics-for). Still, you shouldn't have a lot of gut discomfort if the toxins in the gut get bound, which is what the tools below do, and dosing lower on the psychedelic helps too.",
+ "section": "Gut-Toxin & Die-Off Tools",
+ "reader": "somebody about to take a psychedelic, or to sit with a friend who has, deciding whether to have a gut remedy ready and what to do when the nausea or diarrhea comes",
+ "sentences": [
+  {
+   "s": "The gut tools are the first things I would use, even preventively on the come-up (while the drug is still kicking in), because I want to address possible toxins before I put the distress down to something more mysterious, like a spiritual sign.",
+   "payoff": "they know to reach for the gut tools first, even before trouble, and why: rule out toxins before reading the distress as something mysterious",
+   "follows": "the section's heading"
+  },
+  {
+   "s": "After all, nausea and diarrhea are common on psychedelics, and people generally don't feel good mentally during the nausea and gut pain parts of the come-up.",
+   "payoff": "they know gut trouble is common on psychedelics and drags the mind down, so the distress may be the gut",
+   "follows": "the reason just given for using the tools first",
+   "link": "After all"
+  },
+  {
+   "s": "Diarrhea can be a flushing out of toxins, and usually there's a lot of relief once everything starts coming out in the toilet.",
+   "payoff": "they know diarrhea can be the body clearing itself and usually brings relief, so they need not fight it",
+   "follows": "the diarrhea just named",
+   "link": "Diarrhea"
+  },
+  {
+   "s": "But severe diarrhea can flush out too much fluid, and being badly dried out is on [the list to call medics for](#§call-medics-for).",
+   "payoff": "they know the limit: severe diarrhea dries a person out, and badly dried out means calling medics",
+   "follows": "diarrhea not being bad, just said",
+   "link": "But severe diarrhea"
+  },
+  {
+   "s": "Still, you shouldn't have a lot of gut discomfort if the toxins in the gut get bound, which is what the tools below do, and dosing lower on the psychedelic helps too.",
+   "payoff": "they know how to have less of it: bind the toxins in the gut with the tools below, and take a lower dose",
+   "follows": "gut trouble being common, just said",
+   "link": "Still"
+  }
+ ],
+ "checked": [
+  {
+   "point": "these are the first things he would use, even preventively on the come-up, to address possible toxins before assigning the distress to something more mysterious",
+   "found": "his post as of 2026-11-03 (B151 as it stood); \"These\" is \"The gut tools\", \"the come-up\" is explained once, \"assigning the distress to\" is \"put the distress down to\", and \"something more mysterious\" has an example from B86 two paragraphs up (a spiritual sign)",
+   "still_needed": "yes: they reach for the gut tools first, before trouble too",
+   "fate": "changed"
+  },
+  {
+   "point": "nausea and diarrhea are common on psychedelics, and people generally do not feel good mentally during the nausea and gut pain parts of the come-up",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.2, his words",
+   "still_needed": "yes: they suspect the gut when the mind feels bad on the come-up",
+   "fate": "changed"
+  },
+  {
+   "point": "diarrhea is not necessarily bad: it can be a flushing out of toxins, and there is usually a lot of relief once everything starts coming out in the toilet; severe diarrhea can flush out too much fluid and cause dehydration",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.2, his words; \"being badly dried out\" and what it looks like are the call-medics list's (B94), linked",
+   "still_needed": "yes: they let ordinary diarrhea run and call medics when it dries the person out",
+   "fate": "changed"
+  },
+  {
+   "point": "they should not have a lot of gut discomfort if they do things right: ideally bind the toxins in the gut to avoid too much nausea or diarrhea; dosing lower on the psychedelic can help too",
+   "found": "his round-59 answer (review/r59/ANSWERS-R59-20261126-1555.json, GUT-SIGNS) 2.2, his words; \"do things right\" is said as the two things he names",
+   "still_needed": "yes: they bind the toxins with the tools below, and take less next time",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the opening of Gut-Toxin & Die-Off Tools: B151, then a new paragraph (R59-GUT-COMMON), before ZeoCharge & Ferment",
+ "opens": {
+  "first_sentence": "The gut tools are the first things I would use, even preventively on the come-up (while the drug is still kicking in), because I want to address possible toxins before I put the distress down to something more mysterious, like a spiritual sign.",
+  "why_reading": "it tells the reader why the gut tools come first, and what to make of nausea and diarrhea on a psychedelic"
+ },
+ "same_point": "B126 (Swallowed Too Much?) says vomiting and diarrhea help undo an overdose, up to a point; this is about an ordinary trip, and adds the relief, the drying out and the two ways to have less of it. B94 holds \"Being badly dried out\" with its signs; this links it",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a2-gut-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a2-gut-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a2-gut-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q2": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q3": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q4": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q5": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q6": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q7": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q8": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section",
+  "Q9": "PASS: two rounds of fresh reads: on my first draft (reads/*-a1-gut-sec.txt, panel-gut/PANEL.md) and on the second (reads/*-a2-gut-sec.txt). Changed from their marks: \"These\" is \"The gut tools\"; \"the come-up\" is explained where it is first used; \"something more mysterious\" has an example from two paragraphs up (a spiritual sign); \"anyway\" is \"After all\", tied to the reason before it; \"Diarrhea is actually not as bad necessarily\" is said as what is so, \"Diarrhea can be a flushing out of toxins\" (the linter's X1, his rule on \"X does not Y\"); the dehydration sentence names the act (the call-medics list, which says what badly dried out looks like) and has no \"they\"; \"if you do things right\" says what right is (the toxins get bound, a lower dose), in one sentence with the payoff first. Kept: his \"a flushing out of toxins\" and \"once everything starts coming out in the toilet\", which are two things (what it does, how it feels); \"possible toxins\", his frame for the whole section"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

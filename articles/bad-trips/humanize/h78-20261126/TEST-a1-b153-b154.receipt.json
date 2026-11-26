@@ -1,0 +1,102 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "22e7e2b009fee7e2322d20d063218040e8a642345f9ff6a7123ea55cec63dfba",
+ "text": "Zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts when the trip feels like a sick stomach, with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell. I'd think of them for parasite die-off too.\n\nMany ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine.",
+ "section": "ZeoCharge & Ferment",
+ "reader": "somebody about to take a psychedelic, or to sit with a friend who has, who wants a gut remedy ready and is deciding what to buy or make and how to give it when the nausea comes",
+ "sentences": [
+  {
+   "s": "Zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts when the trip feels like a sick stomach, with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell.",
+   "payoff": "they know when to reach for zeolite and the ferment: a sick stomach on a trip, or a mental hell that the gut is driving",
+   "follows": "the section's heading, which names the two"
+  },
+  {
+   "s": "I'd think of them for parasite die-off too.",
+   "payoff": "they know he uses the same two for parasite die-off",
+   "follows": "the two remedies, just named",
+   "link": "I'd think of them"
+  },
+  {
+   "s": "Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar.",
+   "payoff": "they know other ferments will do if they lack his",
+   "follows": "the ferment, just named",
+   "link": "Many ferments"
+  },
+  {
+   "s": "I prefer fermented beet juice made with apple vinegar and salt.",
+   "payoff": "they know which ferment he makes",
+   "follows": "the ferments just listed",
+   "link": "I prefer fermented"
+  },
+  {
+   "s": "Smelling the ferment helps a lot.",
+   "payoff": "they know the easiest way to use it",
+   "follows": "the ferment he prefers",
+   "link": "Smelling the ferment"
+  },
+  {
+   "s": "Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine.",
+   "payoff": "they know a spoonful by mouth helps too, and what to do if it makes someone itch",
+   "follows": "smelling it, just said",
+   "link": "Drinking a spoonful"
+  }
+ ],
+ "checked": [
+  {
+   "point": "zeolite and the ZHoly3O ferment are often his first thoughts when the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stands in the guide; every sign stays; the remedies come first and the run of seven is one picture, a second, and a short sentence for parasite die-off",
+   "still_needed": "yes: they reach for these two when the trip feels like that",
+   "fate": "changed"
+  },
+  {
+   "point": "other ferments help; he prefers fermented beet juice with apple vinegar and salt; smelling it helps, a spoonful too, with itching and charcoal for someone who breaks down histamine poorly",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stands in the guide (B154); unchanged, Human High 56 by itself (c293133e)",
+   "still_needed": "yes: they know which ferment to use and how",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the first two paragraphs of ZeoCharge & Ferment (B153, then B154 as it stands, which read Human High by itself: c293133e)",
+ "opens": {
+  "first_sentence": "Zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts when the trip feels like a sick stomach, with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell.",
+  "why_reading": "it tells the reader when he reaches for zeolite and the ferment"
+ },
+ "same_point": "B141 lists the same gut signs for the whole remedies section; here they say when these two remedies are his first thought, in one clause, and parasite die-off is named only here",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q2": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q3": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q4": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q5": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q6": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q7": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q8": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged",
+  "Q9": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). B153 read AI High together with B151 (fc82fa68); the read against his fixes and both panel readers marked its run of seven category phrases. Changed: the two remedies come first, the signs are one picture (a sick stomach, with nausea or diarrhea and the toxic, dirty feeling) and one more (mental hell driven by gut hell), and parasite die-off has its own short sentence. Every sign stays. B154 is unchanged"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

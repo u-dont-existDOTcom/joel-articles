@@ -2025,7 +2025,7 @@
   {
    "id": "r58-answers",
    "status": "applied",
-   "what": "his round-58 version of the charcoal and poison control paragraphs of Swallowed Too Much? (B127, B128, CHARCOAL-HOUR), whole, as his comment has it, with the guide's link back on \"Activated charcoal\" and the review's on \"The usual advice\"; the API reads the two Human High 166 in one window (7b62fe4a) (review/r58/apply_r58.py; humanize/h77-20261125/RESULTS.md)",
+   "what": "his round-58 version of the charcoal and poison control paragraphs of Swallowed Too Much? (B127, B128, CHARCOAL-HOUR), whole, as his comment has it, with the guide's link back on \"Activated charcoal\" and the review's on \"The usual advice\"; the API reads the two Human High 166 in one window (7b62fe4a) (review/r58/apply_r58.py; humanize/h77-20261125/RESULTS.md). Round 59 (his \"b\" on POISON-LINE, 2026-11-26 15:55 UTC): the clause \"even if they often can't give actionable advice for liability reasons\" is replaced by two sentences on what happened to the person he knows; his other sentences stay word for word",
    "joel": "2026-11-25 17:42 UTC: his round-58 export (articles/bad-trips/review/r58/ANSWERS-R58-20261125-1742.json), CHARCOAL-HOUR, sent 2026-11-25 17:43 UTC",
    "applied_by": "review/r58/apply_r58.py",
    "must_contain_exact": [
@@ -2034,14 +2034,34 @@
     "Obviously don't give anything by mouth to someone who can't swallow, as they could aspirate it into their lungs and die.",
     "And don't give any fine powders to anyone directly, mix in water first to prevent choking.",
     "If you're unsure about the interactions between the drugs taken, it could be helpful to check with AI & Poison Control.",
-    "They might have important info, especially if the drugs are well-known, even if they often can't give actionable advice for liability reasons.",
-    "They can also help you with standard first aid instructions."
+    "They can also help you with standard first aid instructions.",
+    "They might have important info, especially if the drugs are well-known."
    ],
    "must_not_contain": [
     "value of charcoal",
     "mandatory ritual",
     "decision support, not first aid",
     "within the last hour or so"
+   ]
+  },
+  {
+   "id": "r59-answers",
+   "status": "applied",
+   "what": "his round-59 answers: POISON-LINE \"b\" (B128: his three sentences and two on what happened to the person he knows, with Poison Control's page linked; Human High 74, 9afb6a77); GUT-SIGNS 2.1 and 2.2 as paragraphs made from his words (B141, R59-GUT-DO, B151, R59-GUT-COMMON; Human High 105, 65 and 151 in one window each: 7a9e0fdc, af2c0ec5, a53a2ce3) (review/r59/apply_r59.py; humanize/h78-20261126/apply_h78.py; review/r59/RESULTS-R59.md). What I left out of his GUT-SIGNS answers is his to rule on: round 60, GUT-SIGNS-IN",
+   "joel": "2026-11-26 15:55 UTC: his round-59 export (articles/bad-trips/review/r59/ANSWERS-R59-20261126-1555.json), POISON-LINE and GUT-SIGNS, sent 2026-11-26 15:56 UTC",
+   "applied_by": "review/r59/apply_r59.py; humanize/h78-20261126/apply_h78.py",
+   "must_contain_exact": [
+    "But I wouldn't ask Poison Control about charcoal.",
+    "Someone I know did, and came away very confused after being told they aren't allowed to tell anyone to take it.",
+    "not being able to sit up, stand, walk or talk",
+    "You don't need to try to tell which is from what.",
+    "A gut-driven mental hell is often mistaken as shadow work.",
+    "people generally don't feel good mentally during the nausea and gut pain parts of the come-up",
+    "usually there's a lot of relief once everything starts coming out in the toilet",
+    "dosing lower on the psychedelic helps too"
+   ],
+   "must_not_contain": [
+    "for liability reasons"
    ]
   }
  ]

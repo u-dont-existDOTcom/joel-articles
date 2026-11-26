@@ -1,0 +1,29 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1
+ ],
+ "whole": {
+  "haiku": [
+   "One long sentence built as a symptom list followed by a settled closing claim, which gives it the smooth, evenly stacked rhythm of generated copy; only the first-person voice and the brand name keep it from reading wholly machine-made."
+  ],
+  "sonnet": [
+   "The paragraph is one long sentence that packs an inventory of conditions in front of its point, so the rhythm is front-loaded and even, with no break, aside or digression. It reads as a polished summary line more than as someone speaking."
+  ]
+ },
+ "human_clean": [
+  "ZHoly3O"
+ ]
+}

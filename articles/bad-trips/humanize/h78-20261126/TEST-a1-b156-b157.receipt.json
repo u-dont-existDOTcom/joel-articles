@@ -1,0 +1,102 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "1a2c71118ebe5b183f03969b45d66cb65305f8e66714d828a2ea9c0b275d1ccc",
+ "text": "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic. I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me. Less time did not work as well, and more time did not noticeably improve it.\n\nI also keep zeolite away from metal during preparation, so I use glass for ozonation and storage whenever possible. Zeolite adsorbs metals (they stick to it), which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before I swallow it.",
+ "section": "ZeoCharge & Ferment",
+ "reader": "somebody about to take a psychedelic, or to sit with a friend who has, who wants a gut remedy ready and is deciding what to buy or make and how to give it when the nausea comes",
+ "sentences": [
+  {
+   "s": "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic.",
+   "payoff": "they know how he prepares it: powder in water, an ozone-water purifier, glass",
+   "follows": "the section on zeolite before it"
+  },
+  {
+   "s": "I mean ozonating water, never inhaling ozone gas.",
+   "payoff": "they know never to breathe the ozone",
+   "follows": "the ozone purifier, just named",
+   "link": "I mean ozonating"
+  },
+  {
+   "s": "With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me.",
+   "payoff": "they know how long he runs it",
+   "follows": "the ozonating, just described",
+   "link": "With a machine"
+  },
+  {
+   "s": "Less time did not work as well, and more time did not noticeably improve it.",
+   "payoff": "they know ten minutes is the time to use",
+   "follows": "the ten minutes, just said",
+   "link": "Less time"
+  },
+  {
+   "s": "I also keep zeolite away from metal during preparation, so I use glass for ozonation and storage whenever possible.",
+   "payoff": "they know to keep it off metal, and to use glass for ozonating and storing it",
+   "follows": "the glass vessel of the paragraph before",
+   "link": "I also keep zeolite"
+  },
+  {
+   "s": "Zeolite adsorbs metals (they stick to it), which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before I swallow it.",
+   "payoff": "they know why: metals stick to zeolite, so it should not sit against metal before it is swallowed",
+   "follows": "keeping it from metal, just said",
+   "link": "Zeolite adsorbs metals"
+  }
+ ],
+ "checked": [
+  {
+   "point": "he mixes the powder into water and uses an ozone-water purifier in a glass vessel because ozone destroys plastic; ozonating water, never inhaling ozone gas; about two grams of ozone per hour for ten minutes; less time worked less well and more did not noticeably improve it",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stands in the guide (B156); unchanged in this try",
+   "still_needed": "yes: they ozonate the powder in water, in glass, for ten minutes, and never breathe the gas",
+   "fate": "kept"
+  },
+  {
+   "point": "he keeps zeolite away from metal during preparation; zeolite adsorbs metals, part of why it is used for heavy-metal removal; no metal vessel or utensil before ingestion; glass for ozonation and storage whenever possible",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stands in the guide (B157); every fact stays; glass is joined to the metal it answers, \"adsorbs\" is explained, \"before ingestion\" is \"before I swallow it\"",
+   "still_needed": "yes: they keep it in glass and off metal",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the last two paragraphs of ZeoCharge & Ferment (B156, B157)",
+ "opens": {
+  "first_sentence": "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic.",
+  "why_reading": "it tells the reader how he ozonates his zeolite and why he keeps it in glass"
+ },
+ "same_point": "none: read the section from its heading to the next for the ozonating and the metal; glass is named for the ozone (plastic) in B156 and for the metal in B157, two reasons",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q2": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q3": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q4": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q5": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q6": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q7": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q8": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check",
+  "Q9": "PASS: the three fresh reads of the section as it stands (reads/*-asis-zeo-sec.txt) and the panels (panel-b153, panel-zeo-take, panel-zeo-ozone). As they stand: Human Medium 32, then AI Low 19, AI Medium 24, AI High 30, AI Medium 9 (859d5bdf). A try with a Human window is fixed in small steps, so this one changes only the last paragraph, where the AI High window is: the do (glass) is joined to the don't it follows from, \"adsorbs\" is explained, and \"before ingestion\" is \"before I swallow it\". B156 is unchanged in this try; its two AI windows are the next check"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

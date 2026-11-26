@@ -1,0 +1,49 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Nausea and diarrhea are common on psychedelics anyway, and people generally don't feel good mentally during the nausea and gut pain parts of the come-up.",
+  "But you shouldn't have a lot of gut discomfort if you do things right: ideally we bind the toxins in the gut to avoid too much nausea or diarrhea, and dosing lower on the psychedelic can help too.",
+  "Diarrhea is actually not as bad necessarily, since it can be a flushing out of toxins, and usually there's a lot of relief once everything starts coming out in the toilet.",
+  "It depends how severe the diarrhea is though, because then it can flush out too much fluid and cause dehydration."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "haiku": [
+   "The two short paragraphs are built as a concession, a correction and a balanced qualification, with almost every sentence carrying its own hedge and counterweight, so the voice never commits to a position. The sentence lengths are close to even, and the second paragraph repeats the first one's move (a claim, then a \"but it depends\" limit), which reads as generated structure."
+  ],
+  "sonnet": [
+   "The paragraph is built as a balanced problem, reassurance, caveat sequence: each claim is softened by \"can\", \"usually\", \"depends\" and then qualified, which gives it an even, explanatory rhythm with little personal stake. The two paragraphs also end in the same shape (a benefit followed by a \"but it depends\" limit)."
+  ]
+ },
+ "human_clean": [
+  "once everything starts coming out in the toilet",
+  "usually there's a lot of relief once everything starts coming out in the toilet",
+  "coming out in the toilet"
+ ]
+}

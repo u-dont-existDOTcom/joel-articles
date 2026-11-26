@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic.",
+  "I mean ozonating water, never inhaling ozone gas.",
+  "With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me.",
+  "Less time did not work as well, and more time did not noticeably improve it.",
+  "I also keep zeolite away from metal during preparation.",
+  "Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion.",
+  "I use glass for ozonation and storage whenever possible."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  4,
+  6,
+  7
+ ],
+ "whole": {
+  "haiku": [
+   "Its sentences run at a steady middle length, each beat ending on a tidy summary, and the metals clause reads like a reference passage; the measured trial figures and the first-person test results keep the voice of someone who did the work."
+  ],
+  "sonnet": [
+   "Every sentence is complete, orderly and fully explained, with each choice followed by its reason, so the paragraph reads like a procedure written to pre-empt reader questions. The rhythm is even, with medium-length declaratives and no digressions, false starts or loose ends."
+  ]
+ },
+ "human_clean": [
+  "With a machine producing about two grams of ozone per hour",
+  "a machine producing about two grams of ozone per hour",
+  "ozone-water purifier in a glass vessel"
+ ]
+}
