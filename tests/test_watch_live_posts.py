@@ -639,6 +639,17 @@ class DependsHook(Fixture):
         self.assertIn('**Not checked by itself yet.**', page)
         self.assertIn('python3 scripts/watch_live_posts.py', page)
 
+    def test_the_page_says_where_the_check_runs_when_it_runs_from_his_laptop(self):
+        # Joel, 2026-11-26 22:44 UTC: "yes you can run the check on daily timer sure"
+        reg = D.load(self.root)
+        reg['watch'] = {'runs': 'laptop', 'at': '08:23 UTC', 'since': '2026-11-26'}
+        (self.root / '.github' / 'workflows').mkdir(parents=True)
+        self.write(D.WATCH, 'name: x\non:\n  workflow_dispatch:\n')
+        page = D.page(reg, root=self.root)
+        self.assertIn("**Checked every day, from Joel's laptop.** Once a day, at about 08:23 UTC,", page)
+        self.assertIn('since 2026-11-26', page)
+        self.assertNotIn('Not checked by itself yet', page)
+
     def test_the_real_page_says_it(self):
         if not ((REPO / D.WATCH).exists() and (REPO / D.PAGE).exists()):
             self.skipTest('no daily job or no page in this checkout')

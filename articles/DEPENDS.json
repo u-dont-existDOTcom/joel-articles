@@ -12,6 +12,16 @@
   "somatic-therapies": "articles/somatic-therapies/LIVE-SECTIONS.json",
   "nibbana": "articles/nibbana/LIVE-SECTIONS.json"
  },
+ "watch": {
+  "runs": "laptop",
+  "at": "08:23 UTC",
+  "since": "2026-11-26",
+  "script": "scripts/laptop/depends-watch-run.sh",
+  "install": "scripts/laptop/install-depends-watch.sh",
+  "why": "Substack answers GitHub's servers with HTTP 403 (2026-11-25, runs 45659968509 and 45661315269); his laptop it answers",
+  "his_words": "2026-11-26 22:44 UTC: \"yes you can run the check on daily timer sure\"",
+  "first_run": "2026-11-26 22:47 UTC on his laptop: exit 0, nothing registered changed (53 points, 103 places in 4 live posts)"
+ },
  "points": [
   {
    "id": "C01",

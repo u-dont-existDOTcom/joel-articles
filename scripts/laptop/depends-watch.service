@@ -1,0 +1,13 @@
+# The daily look at Joel's live posts (scripts/laptop/depends-watch-run.sh). Installed by
+# scripts/laptop/install-depends-watch.sh into ~/.config/systemd/user/.
+[Unit]
+Description=joel-articles: did a passage another post depends on change on Substack?
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/share/joel-articles-watch/depends-watch-run.sh
+Environment=PATH=%h/.local/bin:%h/bin:/usr/local/bin:/usr/bin:/bin
+Nice=10
+TimeoutStartSec=15min

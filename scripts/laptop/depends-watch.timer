@@ -1,0 +1,11 @@
+# Once a day. Persistent: a day the laptop was off or asleep at that hour, it runs at the next start.
+[Unit]
+Description=joel-articles: the daily look at the live posts
+
+[Timer]
+OnCalendar=*-*-* 08:23
+Persistent=true
+RandomizedDelaySec=10min
+
+[Install]
+WantedBy=timers.target

@@ -246,6 +246,36 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-25T16:16Z"
+  },
+  {
+   "turn": "2026-11-26T22:44Z",
+   "lines_of_work": [
+    "contents of the very long posts: the daily check on his laptop (his yes); then the somatic guide's additions on their own branch"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ fetched again (universal-dev-architecture unchanged at 3fce032): nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 542 to 547 since my last turn are other lanes' and merged, except 545 (the research lane's EAET and EDT proposal, open, no reviews or comments); no new issue; no new comment"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note toc-long-articles.md unchanged since my write of 2026-11-25 17:15 UTC; somatic-therapies.md (the research lane's) read: its next step is the drafting he asked for now"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notices since 2026-11-25 17:15 UTC"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-26T22:49Z"
   }
  ]
 }
