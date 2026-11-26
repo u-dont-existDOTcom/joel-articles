@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-25
+Updated: 2026-11-26
 
 ## Goal
 
@@ -312,10 +312,16 @@ with his OK and no email.
   unchanged. v0.8.1: 25 deck checks with seven deliberate breakages caught, 66 browser checks; v0.9.0: 28 and eight, 91
   browser checks. The file went to him. Nothing in the article changed. Lessons romance-2026-11-26a (an attached
   explanation earns its place), b (a short name is read alone) and c (what he judges goes to him whole).
+- 2026-11-26 (23:26 UTC, `humanize/fix-20261107/r46/`): he played on his own and wrote "the top text should be the
+  biggest heading, because people read the biggest one first". The game's v0.9.1: the one-person label screen's heading
+  is "Where does this card leave you?", with "Pick the one that fits best." in the line under it; on left-aligned cards
+  that line starts where the heading starts. No card, label or rule changes. 104 browser checks, run twice. Put to him:
+  the same rule on the "What is this answer based on?" step (my recommendation: apply it). The file went to him.
+  Nothing in the article changed. Lesson romance-2026-11-26d (the biggest text says what the screen is about).
 
 ## Next step
 
-His word on the game's v0.9.0 (`r40/CARD-GAME.md`, "Still to do"; `r45/README.md`). Then the pull request is merged, the
+His word on the game's v0.9.1 and on the evidence step (`r40/CARD-GAME.md`, "Still to do"; `r46/README.md`). Then the pull request is merged, the
 innerself site vendors the file, and the site is deployed with his go-ahead. From now on, a turn that changes the article
 checks the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted
 again for his whole-article check (not before: "no point checking the drafts until we are done"), then his post updated

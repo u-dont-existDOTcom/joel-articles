@@ -323,3 +323,24 @@ went to him in chat (SHA-256 9583d7f4...), and as a private page of the session'
    live page is compared with the build.
 3. Not run: the love-honestly repository's container gate, which needs Docker.
 
+## His message of 2026-11-26 23:26 UTC: v0.9.1
+
+"ok i tried playing by myself. one thing i would change is the top text should be the biggest heading, because people
+read the biggest one first and that's the one that explains what this is about." The round's record:
+[r46](../r46/README.md).
+
+- The one-person label screen: heading "Where does this card leave you?"; "Pick the one that fits best." in the line
+  under it; the small line on top gone. Labels unchanged.
+- On left-aligned cards the line under a heading starts where the heading starts (same words).
+- Put to him: the same rule on the "What is this answer based on?" step, in both modes (my recommendation: apply it).
+
+[What changed in v0.9.1](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.9.1/CHANGES.md).
+The file went to him in chat (SHA-256 448e0187...), and as the same private page, now v0.9.1.
+
+### Still to do, each with his word
+
+1. His word on the evidence step; his OK on a version; then the pull request is merged.
+2. The innerself site vendors the approved file (its `PRODUCT.md` then says that the list of played cards is kept in the
+   browser too, and that the game can be played by one person), and is deployed through Coolify with his go-ahead; the
+   live page is compared with the build.
+3. Not run: the love-honestly repository's container gate, which needs Docker.
