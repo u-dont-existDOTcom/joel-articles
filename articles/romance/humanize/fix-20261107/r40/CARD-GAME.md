@@ -298,3 +298,28 @@ If he says nothing on 2 to 4, the one-person route is built with my picks.
    browser too), and is deployed through Coolify with his go-ahead; the live page is compared with the build.
 4. Not run: the love-honestly repository's container gate, which needs Docker.
 
+## His answers of 2026-11-26 22:17 UTC: v0.8.1 and v0.9.0
+
+"1. fine but remove the "why this card" for this... and look at other "why this cards" i'm wondering if they should all
+be removed unless they actually give some necessary context", "2. b", "3. ok", "4. i need to watch what i do sounds like
+i'm afraid to do what i really want or something like that. can we have the full explanations shown?". The round's
+record: [r45](../r45/README.md).
+
+| His answer | What was done |
+|---|---|
+| 1. W03 in, without its "why"; the other "why" lines only where needed | v0.8.1: 134 of 139 lines out, 5 kept ([each line](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.8.1/whys.json)); W03 in |
+| 2. b | v0.9.0: "Who is playing? Two of us / Just me" first on the setup screen |
+| 3. ok | v0.9.0: the screen before the first card as written |
+| 4. the label sounds like fear; show the explanations | v0.9.0: "Life will show me"; every label with its explanation |
+
+[What changed in v0.9.0](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.9.0/CHANGES.md) · [in v0.8.1](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.8.1/CHANGES.md). The v0.9.0 file
+went to him in chat (SHA-256 9583d7f4...), and as a private page of the session's account.
+
+### Still to do, each with his word
+
+1. His OK on a version; then the pull request is merged.
+2. The innerself site vendors the approved file (its `PRODUCT.md` then says that the list of played cards is kept in the
+   browser too, and that the game can be played by one person), and is deployed through Coolify with his go-ahead; the
+   live page is compared with the build.
+3. Not run: the love-honestly repository's container gate, which needs Docker.
+

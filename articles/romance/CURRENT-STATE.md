@@ -305,13 +305,19 @@ with his OK and no email.
   file he opens from the chat is tested in the frame he opens it in) and d (a batch for his approval is read for him
   first).
 
+- 2026-11-26 (22:17 UTC, sent again at 22:43; `humanize/fix-20261107/r45/`): his four answers. The game's v0.8.1 keeps
+  "Why this card?" on the 5 cards whose question needs it (134 lines out) and adds W03 without its "why"; v0.9.0 is the
+  game for one person ("Who is playing? Two of us / Just me" first; the first screen as written; "I need to watch what I
+  do" renamed "Life will show me", every label with its explanation; 95 cards with one-person text). The couples' game
+  unchanged. v0.8.1: 25 deck checks with seven deliberate breakages caught, 66 browser checks; v0.9.0: 28 and eight, 91
+  browser checks. The file went to him. Nothing in the article changed. Lessons romance-2026-11-26a (an attached
+  explanation earns its place), b (a short name is read alone) and c (what he judges goes to him whole).
+
 ## Next step
 
-His word on [the four items put to him](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/proposals/2026-11-25/TO-CHECK.md)
-and on the game's v0.8.0 (`r40/CARD-GAME.md`, "Still to do"; `r44/README.md`). Then the one-person route is built as the
-next version (with his answers, or my picks where he says nothing), the version he approves is merged, the innerself
-site vendors the file, and the site is deployed with his go-ahead. From now on, a turn that changes the article checks
-the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted
+His word on the game's v0.9.0 (`r40/CARD-GAME.md`, "Still to do"; `r45/README.md`). Then the pull request is merged, the
+innerself site vendors the file, and the site is deployed with his go-ahead. From now on, a turn that changes the article
+checks the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted
 again for his whole-article check (not before: "no point checking the drafts until we are done"), then his post updated
 with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, his new opening's video and
 links, the typography swap and the "Updated" date; he deletes the two drafts.
