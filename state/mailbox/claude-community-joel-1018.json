@@ -1909,6 +1909,45 @@
     }
    ],
    "recorded_utc": "2026-11-26T02:02Z"
+  },
+  {
+   "turn": "2026-11-26T15:26Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all already in docs/suggested-fixes-ledger.md; no new item; UDA main at 3fce032 (root AGENTS.md read live at the start of the turn)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 4f1ac4a7 (this lane's 544), merged into this branch before work, and it did not move during the turn; pull request 545 (somatic therapies research, another lane) opened 2026-11-26; the nine older open pull requests unchanged; no comment on this lane's pull requests since 2026-11-26 02:06 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no one else changed HANDOFF-neuro-de-armoring.md or OWNER-QUESTIONS.md since this lane's last commit (7f0f8f96)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (read at the start and the end of the turn)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 15:26 UTC: 70a, 71 ok, no 'never' for 5-HTP with mushrooms",
+     "outcome": "done: the 5-HTP section names ayahuasca and iboga and leaves mushrooms and LSD to the reader; its Who this is for changed to match (Human High); question 72 on the warnings' labels"
+    },
+    {
+     "item": "pull request 545",
+     "outcome": "another lane's (somatic therapies); it changes no file this lane changed"
+    }
+   ],
+   "recorded_utc": "2026-11-26T15:54Z"
   }
  ]
 }

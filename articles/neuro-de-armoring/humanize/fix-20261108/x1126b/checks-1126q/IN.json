@@ -1,0 +1,47 @@
+{
+ "sw19b": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "We are operating on about one-sixteenth, fixed for sense: what the sixteenth counts, what the Void is, what to do",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the empty feeling you may carry, the \"Void\" this guide keeps coming back to, is real: it's what that missing company feels like. Once you've de-armored, going back to a lonely life will feel worse than it did with the armor on. Gather a tribe around you, people you're close to and see most days, or your brain will eventually reach for the armor again just to survive the cold.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126b/receipts/SW19-1.receipt.json",
+  "big_change": "the try before read AI, 100 percent, and the three fresh reads (x1126b/v1/*/sw19) found every sentence needed a sense fix",
+  "tells": "\"the \"Void\" this guide keeps coming back to\" (an appositive pointer)",
+  "human_tells": "his post's phrase \"just to survive the cold\"; his word \"tribe\"",
+  "diagnosis": "as it stood it read AI, 100% (https://www.pangram.com/history/17283e5a-247e-44c0-b2c8-e8f6a90d845f): a label for the measure, a six-word line on its own, a rule with no act, and a wise-sounding end; this version ties the figure to Perry's ratio just before, says what the emptiness is, says what a lonely life will feel like after, and gives the act",
+  "decides": "whether this version goes in; below High, the next try changes what a reader could take two ways in the windows below High",
+  "humanized": "the first sentence works out the ratio the paragraph before gives (\"That works out to\"), the Void is said in plain words, \"cannot simply return\" became what it will feel like, and the act leads the last sentence, ending on his own phrase",
+  "first_fix": "payoff: each sentence leads with what the reader gets (the size of the shortfall, what the emptiness is, what a lonely life will feel like, what to do); join: the six-word \"The Void you feel is real\" is joined to what it means; plain: \"relational density\" became \"grown-ups per child\", \"aggressively engineer a High-Density social environment\" became \"gather a tribe around you, people you're close to and see most days\""
+ },
+ "sw22b": {
+  "lineage": "neuro-de-armoring/P-SW22",
+  "scope": "paragraph",
+  "name": "The Anti-Breakthrough, fixed for sense: the window first, then the hour, then the act",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Dr. Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, and those small doses are what I mean by micro-dosing here.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126b/receipts/SW22-1.receipt.json",
+  "big_change": "the try before read AI, 100 percent, and the three fresh reads (x1126b/v1/*/sw22) found every sentence needed a sense fix",
+  "tells": "\"The Anti-Breakthrough (Micro-Dosing):\" (a label opening)",
+  "human_tells": "his post's label and its figure (an hour; seconds)",
+  "diagnosis": "as it stood it read AI, 100% (https://www.pangram.com/history/f013d185-1715-4d08-be76-2c95aee521f1): the source before the point twice, \"metabolize sixty minutes of trauma processing\", \"a flood, not a fix\", and no act; this version says the window first, then why the hour is too much, then what the protocol does",
+  "decides": "whether this version goes in by itself; it is also checked with the next paragraph, which is under 50 words",
+  "humanized": "the point leads (an alarmed brain takes in healing work for seconds at a time), Perry is named once after it, the hour says what happens in it in plain words, and the last sentence gives the act and what micro-dosing means here",
+  "first_fix": "payoff: the seconds-long window leads, then the hour, then the act; join: S2's \"that is a flood, not a fix\" is folded into the hour's clause; plain: \"metabolize sixty minutes of trauma processing\" became \"an hour spent working on the trauma itself\", \"therapeutic window\" became \"take in healing work for only a few seconds at a time\""
+ },
+ "sw22-23b": {
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "name": "The Anti-Breakthrough with the practice after it (41 words), both fixed for sense",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Dr. Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, and those small doses are what I mean by micro-dosing here.\n\nYour goal is small doses of feeling safe in your body: 30 seconds of slow, steady breathing, twenty times a day. It works the way physical therapy rebuilds an injured knee, where many short sessions do more than a long one.",
+  "chance": 0.5,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126b/receipts/SW22-23-1.receipt.json",
+  "big_change": "the try before read AI, 100 percent, and the three fresh reads (x1126b/v1/*/sw22 and sw23) found every sentence needed a sense fix",
+  "tells": "\"Your goal is small doses of feeling safe in your body:\" (a goal-colon opening)",
+  "human_tells": "his post's figures (30 seconds, twenty times a day)",
+  "diagnosis": "as they stood the two read AI, 100% (https://www.pangram.com/history/3ad85ece-63b0-4c1a-bad6-df492b74835b): the practice was a label (\"Micro-Dosing Safety\"), then a not-a-marathon turn and a three-word slogan; this version names the practice, keeps his figures, and gives the reason in one plain picture",
+  "decides": "whether both go in; the second is under 50 words and goes in only with this pair at High",
+  "humanized": "\"Micro-Dosing Safety\" became the thing itself, \"regulated breathing\" became \"slow, steady breathing\", and the marathon line and the slogan became one picture with its reason (physical therapy for a knee: many short sessions do more than a long one)",
+  "first_fix": "payoff: the practice leads, the reason follows; join: \"Frequency beats intensity\" is folded into the reason; plain: \"Micro-Dosing Safety\" became \"small doses of feeling safe in your body\""
+ }
+}

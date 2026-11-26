@@ -1,25 +1,22 @@
 # Neuro de-armoring: what is left to humanize
 
-Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), 812cebd2) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
+Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), fce359ca) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
 
-141 paragraphs of 8 words or more. Human High by itself: 24; under 50 words and inside a text that read Human High: 1; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 63; never checked as they stand: 53.
+141 paragraphs of 8 words or more. Human High by itself: 28; under 50 words and inside a text that read Human High: 0; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 62; never checked as they stand: 51.
 
 A paragraph listed here has no check of its present words that read Human High in every window. Paragraph numbers count the paragraphs of 8 words or more, from the top.
 
-## Introduction (2 left)
+## A Complete Guide to Bio-De-Armoring (1 left)
 
-- P1 (104 words) "When people tell me they have trauma, I generally recommend they follo…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P2 (57 words) "This protocol is partly theoretical and partly based on experience rep…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
+- P8 (32 words) "Cognitive Warning: As you de-armor, you will feel naked and exposed. Y…": inside a larger text: AI High, Human Low, AI Low, AI High ([the check](https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e))
 
-## Psychology is the Software; Biology is the Hardware. (7 left)
+## Psychology is the Software; Biology is the Hardware. (5 left)
 
-- P16 (90 words) "Have you done years of CBT or EMDR and yet you still get triggered and…": never checked as it stands
-- P17 (44 words) "The "Underpinning" Principle Dr. Bruce Perry compares treating trauma …": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P18 (111 words) "Why does the brain build this armor? Psychologist Lindsay Gibson expla…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P19 (58 words) "We are operating on about one-sixteenth of the relational density our …": never checked as it stands
-- P21 (58 words) "Neurological De-Armoring is about fixing the underpinnings, not redeco…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P22 (54 words) "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
-- P23 (33 words) "Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, t…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
+- P17 (44 words) "The "Underpinning" Principle Dr. Bruce Perry compares treating trauma …": inside a larger text: Human Medium, Human High, Human Medium, Human High, Human Medium, Human High ([the check](https://www.pangram.com/history/fbca5c0c-2de5-44ae-8172-d041973cb42c))
+- P19 (58 words) "We are operating on about one-sixteenth of the relational density our …": by itself: AI High ([the check](https://www.pangram.com/history/17283e5a-247e-44c0-b2c8-e8f6a90d845f))
+- P21 (58 words) "Neurological De-Armoring is about fixing the underpinnings, not redeco…": by itself: Human Low, AI Low ([the check](https://www.pangram.com/history/59682079-eaf9-4049-b366-98ac3f421bcd))
+- P22 (54 words) "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to…": by itself: AI High, AI Medium, AI High ([the check](https://www.pangram.com/history/f013d185-1715-4d08-be76-2c95aee521f1))
+- P23 (33 words) "Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, t…": inside a larger text: AI High, AI Medium, AI High, AI Medium ([the check](https://www.pangram.com/history/3ad85ece-63b0-4c1a-bad6-df492b74835b))
 
 ## Part 1: THE SCIENCE (Why We Do This) (1 left)
 
@@ -90,7 +87,7 @@ A paragraph listed here has no check of its present words that read Human High i
 - P68 (53 words) "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P subli…": inside a larger text: AI Low, AI Medium, AI High ([the check](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d))
 - P69 (141 words) "Start lower and do the trial with just 50mg 5-HTP at night for 2–3 nig…": never checked as it stands
 - P70 (101 words) "Side effects / stop signs: The most dangerous symptoms to watch out fo…": never checked as it stands
-- P71 (170 words) "Serotonin syndrome usually comes from mixing 5-HTP casually with anyth…": never checked as it stands
+- P71 (216 words) "Serotonin syndrome usually comes from mixing 5-HTP casually with anyth…": never checked as it stands
 
 ## Fixing ATP Signaling if Cortisol Isn't High (2 left)
 

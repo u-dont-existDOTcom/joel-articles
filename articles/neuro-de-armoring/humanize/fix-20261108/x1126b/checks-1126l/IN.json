@@ -1,0 +1,15 @@
+{
+ "who1": {
+  "lineage": "neuro-de-armoring/B088",
+  "scope": "paragraph",
+  "name": "The 5-HTP section's \"Who this is for\", its last sentence changed: his message of 15:26 UTC (psychedelics up to the reader) and the sense the reads asked for",
+  "text": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. 5-HTP skips over that bottleneck, because your body uses it to make serotonin directly, so people who respond to it can feel it quickly, although it's not as strong for sleep or mood as some hype it up to be (see this broad review of 5-HTP). I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could sometimes push that further. And don't take it with anything else that raises serotonin, like most antidepressants or MDMA, since together they can cause serotonin syndrome, a dangerous overload of serotonin (the warnings at the top list those drugs).",
+  "chance": 0.6,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126b/receipts/WHO1.receipt.json",
+  "tells": "\"since together they can cause serotonin syndrome, a dangerous overload of serotonin (the warnings at the top list those drugs)\" (a gloss after a comma, then a pointer in brackets)",
+  "human_tells": "his post's Scott case (\"Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood\")",
+  "diagnosis": "the paragraph read Human High as it stood (fix-20261104/checks/x1104o, b088m); its last sentence changes (15% of the words): \"watch out for ... risk\" becomes what to do, with drugs a reader knows",
+  "decides": "whether the changed paragraph goes in; below High, the last sentence keeps its old form with only \"serotonergic psychedelics/\" cut, his own edit, and I say so",
+  "humanized": "the new sentence leads with what to do (\"don't take it with\"), names the drugs a reader knows (antidepressants, MDMA) instead of category words, says what serotonin syndrome is in plain words, and points to his list at the top instead of repeating it"
+ }
+}

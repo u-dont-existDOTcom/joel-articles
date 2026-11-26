@@ -1,0 +1,118 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1126b/read-1126f/REWRITE.md",
+ "coverage": [
+  "20f62c1e33949b31",
+  "91c4083aa87dbf7e"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "20f62c1e33949b31"
+   ],
+   "now": "Who this is for: 5-HTP is not for every depressed person either.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "20f62c1e33949b31"
+   ],
+   "now": "It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "20f62c1e33949b31"
+   ],
+   "now": "At night you get anxious and keep going over the same things.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "20f62c1e33949b31"
+   ],
+   "now": "It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.5",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "20f62c1e33949b31"
+   ],
+   "now": "I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could sometimes push that further. And don't take it with anything else that raises serotonin, like most antidepressants or MDMA, since together they can cause serotonin syndrome, a dangerous overload of serotonin (the wa",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "91c4083aa87dbf7e"
+   ],
+   "now": "If you're doing psychedelics, be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine: never take 5-HTP on the same day as ayahuasca or iboga, though it's fine the day before, or the day after ayahuasca.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "91c4083aa87dbf7e"
+   ],
+   "now": "never take 5-HTP on the same day as ayahuasca or iboga, though it's fine the day before, or the day after ayahuasca.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.8",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "91c4083aa87dbf7e"
+   ],
+   "now": "After a low dose of iboga, wait a day, and after a bigger dose usually a few days. After a flood dose (one big dose), people often wait weeks before taking anything psychoactive, mainly so they don't block the after-effects they took iboga for. While you're microdosing iboga, leave 5-HTP out altoget",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.9",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "91c4083aa87dbf7e"
+   ],
+   "now": "With mushrooms, it's up to you whether to take 5-HTP, and I don't think it should be a problem with this protocol's mushroom microdoses.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.5": [
+   "his",
+   "his message of 2026-11-26 15:26 UTC (fix-20261108/joel-20261126-1526-message.txt): \"i don't want to say never take 5-HTP with shrooms, that's up to them\", after his comment on card W-HTPTOP (\"we should change the 5-HTP warning with psychedelics, it's not likely to be dangerous with them\"); the flat \"don't\" is his own top warning's (\"The following drugs are especially dangerous to take with 5-HTP\", MDMA and the antidepressants among them), and the interaction paragraph now says why psychedelics aren't in that line (they act on serotonin receptors rather than raising serotonin)"
+  ],
+  "F1.6": [
+   "fixed",
+   "mushrooms and LSD now have their own line: whether to take 5-HTP on the same day as a trip with them is up to the reader (his message), so \"especially strict\" compares ayahuasca and iboga with them"
+  ],
+  "F1.7": [
+   "fixed",
+   "\"the day before either one, or the day after ayahuasca\""
+  ],
+  "F1.9": [
+   "fixed",
+   "the line now says it means the same day as a trip, names LSD with mushrooms, and says why they differ from \"anything else that raises serotonin\" (Nichols 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4813425/)"
+  ]
+ }
+}

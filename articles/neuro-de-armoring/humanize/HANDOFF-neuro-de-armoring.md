@@ -18,6 +18,30 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-26, after his message of 15:26 UTC (70a, 71 ok; "i don't want to say never take 5-HTP with shrooms, that's
+  up to them"): his answer is in; the warnings section's first check read Mostly Human; question 72 waits on him.**
+  HUMANIZED-SO-FAR.md is fce359ca; everything of the turn is in `fix-20261108/x1126b/` (texts and why, receipts, the
+  fresh reads `v1`, checks `checks-1126k` to `n`, comparison read `read-1126f` and record `read-1126g`). **In**: the 5-HTP
+  section's interaction paragraph (ayahuasca and iboga named; mushrooms and LSD up to the reader, with Nichols 2016) and
+  its "Who this is for" (https://www.pangram.com/history/bc4243cd-e73e-40bb-944e-16cacf727350). **The warnings section**: Mostly Human, 6% AI
+  (https://www.pangram.com/history/b0684e96-0fc7-45a7-9a84-6ce66bc9958b); the five from The Rule to the agmatine warning read AI 90% together
+  (https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e) and 28% with their labels off (https://www.pangram.com/history/b9f4952c-eb3b-456d-a757-9b9ed17a259f); the
+  stretch lineage is spent (2 of 2) and the section has one check left. **Question 72** (the page version
+  1795708460-4200): fold the labels into first sentences (my pick, a), keep them (b), or headings (c). **Next**: apply
+  his answer to 72 with a script beside `x1126b/apply_x1126b.py`, each warning whose words change read fresh and checked
+  by itself, then The Rule's and agmatine's openings joined to what comes before them, then the section's last check
+  (`--after-fix`). While 72 waits: the humanizing pass over LEFT.md from the Introduction (P1, P2) and "Psychology is the
+  Software; Biology is the Hardware.", each paragraph fixed for sense first, then checked by itself. The 5-HTP section's
+  "Who this is for" has the fresh reads' marks on S1 to S6 (`x1126b/v1/*/who/READ.md`) for that section's pass.
+  **Where the pass stands**: the Introduction reads Human High as he wrote it (#257, #258). In "Psychology is the
+  Software" his first paragraph and the Gibson one read High as they stand (#259, #261); the rest are mid-pass, texts in
+  `x1126b/texts_x1126b.py` (NEW sw19, sw22, sw23), reads in `x1126b/v1/*/sw19|sw21|sw22|sw23`: the Anti-Breakthrough
+  (try 2, #267) reads Human with Medium windows at "Perry finds." (a split at "Dr.": drop the title or move the name)
+  and at its last sentence ("those small doses are what I mean by micro-dosing here"), so the next try changes those
+  only; the one-sixteenth paragraph (try 2, #266) read AI High on its Void sentence (an appositive pointer and a colon
+  gloss); the practice paragraph pulls its pair to AI (#268: a goal-colon opening and an analogy with a where-clause);
+  the underpinnings paragraph (his card version, #263) and the "Underpinning" Principle (#260) read with a Human window,
+  so they go by small steps (at most a fifth of the words per try).
 - **2026-11-26, after his message of 00:50 UTC (his three card versions, answers 66 to 69): every one of the eleven
   warnings at the top is in at Human High; questions 70 and 71 wait on him.** HUMANIZED-SO-FAR.md is 812cebd2; his
   message: `fix-20261108/joel-20261126-0050-message.txt`; everything of the turn is in `fix-20261108/x1126a/`: the texts

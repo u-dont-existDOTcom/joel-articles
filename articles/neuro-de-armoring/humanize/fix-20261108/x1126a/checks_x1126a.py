@@ -21,7 +21,7 @@ LEDGER = H / 'pangram-ledger.jsonl'
 DETECTOR = "Pangram 4.1 (web app, his account, in the desktop app's browser pane)"
 OPT = {'tells': '--tells', 'human_tells': '--human-tells', 'diagnosis': '--diagnosis', 'decides': '--decides',
        'receipt': '--receipt', 'unchanged': '--unchanged', 'humanized': '--humanized', 'first_fix': '--first-fix',
-       'panel': '--panel', 'big_change': '--big-change'}
+       'panel': '--panel', 'big_change': '--big-change', 'narrowed': '--narrowed'}
 
 
 def predict(D, batch):

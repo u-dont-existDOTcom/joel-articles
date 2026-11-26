@@ -1,0 +1,24 @@
+[
+ {
+  "key": "intro1-asis",
+  "name": "The Introduction's first paragraph as he wrote it (his post's own words)",
+  "lineage": "neuro-de-armoring/P-INTRO1",
+  "scope": "paragraph",
+  "words": 104,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "7967ce0a2b7c0fcce7d3870a9175a3eb20a815e9311180bd5257b6ecd8fd800c"
+ },
+ {
+  "key": "intro2-asis",
+  "name": "The Introduction's second paragraph as he wrote it (his post's own words)",
+  "lineage": "neuro-de-armoring/P-INTRO2",
+  "scope": "paragraph",
+  "words": 57,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "cdebdb9d27def0e39fb0d21926b879459513699ddd5f954154e55f25a4578fc7"
+ }
+]

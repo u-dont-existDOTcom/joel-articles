@@ -1,54 +1,63 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-26, after your message of 00:50 UTC.
-**Open questions: 2** (70 and 71). **For you to do**: nothing. All eleven warnings [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring)
-are now in at Human High: yours as you wrote them on the cards, mine each checked by itself (or with its neighbour when
-it is under 50 words).
+Last updated 2026-11-26, after your message of 15:26 UTC.
+**Open questions: 1** (72). **For you to do**: nothing. Every warning at the top reads Human High by itself; checked
+together as a section, five of them in the middle read below High, which is question 72.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
-The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
+The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
 can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 70. "Anywhere near iboga" at the top, "fine the day before iboga" in the 5-HTP section: leave both?** Your 5-HTP
-warning at the top (your card W-HTPTOP) says "Do not use it anywhere near iboga, even when microdosing". Your answer 69
-is now in [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p):
-"never take 5-HTP on the same day as either one, though it's fine the day before, or the day after ayahuasca", then the
-waits after iboga. A careful reader could see the day before as "near".
+**🟣 72. The labels in the middle of the warnings: fold them into the first sentence?** Checked as a section, the
+warnings at the top read Mostly Human ([6% AI](https://www.pangram.com/history/b0684e96-0fc7-45a7-9a84-6ce66bc9958b)): High over the first four and
+the last four, Low or AI Low over the five from The Rule to the agmatine warning. Each of those five reads Human High by
+itself, but together they read [AI, 90%](https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e), and with their labels taken off
+("The Rule:", "Cognitive Warning:", "Lion's Mane & Ashwagandha:", "Agmatine Warning (The 'Voltage Regulator'):")
+[28%](https://www.pangram.com/history/b9f4952c-eb3b-456d-a757-9b9ed17a259f). A run of "Label: claim" paragraphs is the shape of a generated list of
+tips. What still read AI without the labels: The Rule's opening ("Seek 'Boring Love', meaning ... The other kind,
+'Exciting Love', is ...") and the agmatine opening right after the herbs.
 
-- a) Leave both. (My pick: the top already sends readers to the 5-HTP section, and a reader who stops at the top errs on
-  the safe side by skipping 5-HTP around iboga altogether.)
-- b) Change the top to "near iboga (the 5-HTP section says how near), even when microdosing", checked again before it
-  goes in.
-
-**🟣 71. What I added or changed this turn beyond your words: keep it all, or say which to take out?**
-
-- The plant medicines: "Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures when taken
-  with psychedelics" ([Nayak and others, 2021](https://pubmed.ncbi.nlm.nih.gov/34348413/): of 62 reports of lithium with
-  a psychedelic, 47% involved seizures). A fresh reader on psychiatric medication took the mushrooms for the safe choice.
-  With it, "Both are illegal ... and carry risks, and iboga can be dangerous for your heart": my ranking "iboga's are the
-  serious ones" is out, since it said the mushrooms' risks weren't serious.
-- The Rule: "though there's no need to leave the partner you have" (your 66, in my words), and "a new romance or
-  drama" where the draft said "either one", which a reader took for the two kinds of love.
-- The 5-HTP section: your 69 in my words, with "never take 5-HTP on the same day as either one" said outright (a reader
-  saw the paragraph say when 5-HTP is fine without saying when it isn't), the waits from the shortest up, and "flood
-  dose (one big dose)". The same-day rule for psychedelics in general is out in all three places it was (that
-  paragraph, Scenario C's 5-HTP add-on and the Shield's 5-HTP trial line), from your comment on W-HTPTOP.
-- The Cognitive Warning: "You will assume everyone can see your anxiety, which they mostly can't", and "Nicholas Epley"
-  without "Dr." (Pangram split a one-word window off at "Dr."). All three fresh readers found the paragraph never said
-  that others see much less of your anxiety, which is what the warning is for.
-- Not added: that 5-HTP may be fine or even good to mix with psychedelics. The reports you pasted are few and mixed (two
-  bad ones; DMT's visuals dulled), and you weren't sure it was worth saying.
-
-- a) Keep them all. (My pick: each answers something a fresh reader couldn't tell or misread, and the lithium line is
-  sourced.)
-- b) Tell me which to take out.
+- a) Fold each label into its warning's first sentence, opening on the subject, with your nicknames kept in the
+  sentence ("Agmatine, the 'voltage regulator', acts like a brake ...", "The isolation trap is ..."), for all eleven so
+  they match; then I fix The Rule's and agmatine's openings and run the section's last check. (My pick: the test cut
+  the AI read from 90% to 28%, and each warning still opens on its subject, so a reader can still scan the list.)
+- b) Keep the labels as they are; I work only on the sentences after them. The labels' share of the AI read stays.
+- c) Make each label a small heading of its own. They would show in Substack's contents sidebar, eleven more entries.
 
 ## For you to do
 
-- 🟢 Nothing. Your three cards are in.
+- 🟢 Nothing.
+
+## Your message of 2026-11-26 15:26 UTC, and what I did
+
+- 🟢 **70a and 71**: both 5-HTP lines around iboga stay as they are, and everything I added last turn stays.
+- 🟢 **No "never" for 5-HTP with mushrooms** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126b/APPLIED-X1126B.json)). The line you
+  read that way was "If you're doing psychedelics, be especially strict around ayahuasca ... and around iboga or ibogaine:
+  never take 5-HTP on the same day as either one". It now names ayahuasca and iboga, says "the day before either one",
+  and ends: "Mushrooms and LSD [act on serotonin receptors](https://pmc.ncbi.nlm.nih.gov/articles/PMC4813425/) rather
+  than raising serotonin, so whether you take 5-HTP on the same day as a trip with them is up to you, and I don't think
+  it should be a problem with this protocol's mushroom microdoses." LSD is in because a fresh reader found it got no word
+  once the general same-day rule was out; the reason is in because the paragraph before says not to take 5-HTP "with
+  anything else that raises serotonin". The source is Nichols's 2016 review: classic psychedelics work by acting on
+  serotonin 5-HT2A receptors.
+- 🟢 **The same section's "Who this is for" no longer warns psychedelic users** about serotonin syndrome (your post had
+  "using serotonergic psychedelics/entactogens, this is not a casual experiment"), since it would have contradicted that
+  line. It now says what to do: "don't take it with anything else that raises serotonin, like most antidepressants or
+  MDMA, since together they can cause serotonin syndrome, a dangerous overload of serotonin (the warnings at the top list
+  those drugs)" ([Human Written, one window, High](https://www.pangram.com/history/bc4243cd-e73e-40bb-944e-16cacf727350)). Both are on the
+  [keep-as-is list](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/KEEP-AS-IS.json) (K4, C14), so no later pass puts the old caution back.
+- 🟢 **The warnings checked as a section**: question 72.
+- 🔵 **The humanizing pass goes on.** Your Introduction reads Human High as you wrote it
+  ([first paragraph](https://www.pangram.com/history/eff5042e-92e4-42bc-9304-babc88e32c26), [second](https://www.pangram.com/history/e05af8ca-1286-4051-b1b4-1525d787d2bb)), so it stays
+  word for word; so do your first paragraph of "Psychology is the Software; Biology is the Hardware."
+  ([check](https://www.pangram.com/history/ec3b79d0-56c1-4c81-ab0d-f805c6e0708b)) and the Gibson paragraph ([check](https://www.pangram.com/history/1e138072-7b8e-4646-8006-079cba8582de)).
+  Three others in that section read AI as they stand (the one-sixteenth paragraph, the Anti-Breakthrough and the
+  practice after it); my sense-fixed versions are on their second tries: the Anti-Breakthrough now reads Human by itself
+  but for two Medium windows ([check](https://www.pangram.com/history/36898004-2c24-40f5-9e53-f005d95b8a1d)), the others still AI. None of them is in
+  yet; the next turn goes on from there ([what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/LEFT.md)).
 
 ## Your message of 2026-11-26 00:50 UTC, and what I did
 
