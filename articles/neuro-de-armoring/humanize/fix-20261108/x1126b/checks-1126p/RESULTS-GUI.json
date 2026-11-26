@@ -1,0 +1,176 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "sw22-23": {
+   "uuid": "3ad85ece-63b0-4c1a-bad6-df492b74835b",
+   "at": "2026-11-26T10:46:00.870491-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 92,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     41,
+     "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the \"hour-long breakthrough.\" A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     1,
+     "Dr."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     47,
+     "Perry's data indicates the \"therapeutic window\" for a dysregulated brain is often only seconds long.\nYour goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. We are not running a marathon; we are doing physical therapy for a broken nervous system."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     3,
+     "Frequency beats intensity."
+    ]
+   ]
+  },
+  "sw22": {
+   "uuid": "f013d185-1715-4d08-be76-2c95aee521f1",
+   "at": "2026-11-26T10:45:52.976002-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 58,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     41,
+     "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the \"hour-long breakthrough.\" A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     1,
+     "Dr."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     16,
+     "Perry's data indicates the \"therapeutic window\" for a dysregulated brain is often only seconds long."
+    ]
+   ]
+  },
+  "sw21": {
+   "uuid": "59682079-eaf9-4049-b366-98ac3f421bcd",
+   "at": "2026-11-26T10:45:39.879150-05:00",
+   "headline": "AI Detected",
+   "ai": 0.7990636229515076,
+   "words": 60,
+   "windows": [
+    [
+     "Human",
+     "Low",
+     10,
+     "Neurological De-Armoring is about fixing the underpinnings, not redecorating."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     50,
+     "It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs."
+    ]
+   ]
+  },
+  "sw19": {
+   "uuid": "17283e5a-247e-44c0-b2c8-e8f6a90d845f",
+   "at": "2026-11-26T10:45:29.472619-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 61,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     61,
+     "We are operating on about one-sixteenth of the relational density our biology requires (Perry, 2023). The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold."
+    ]
+   ]
+  },
+  "sw18": {
+   "uuid": "1e138072-7b8e-4646-8006-079cba8582de",
+   "at": "2026-11-26T10:45:18.656445-05:00",
+   "headline": "Human Written",
+   "ai": 2.306771757417641e-19,
+   "words": 116,
+   "windows": [
+    [
+     "Human",
+     "High",
+     116,
+     "Why does the brain build this armor? Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents survive by creating a \"Role-Self\"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: \"It takes a village to raise a child.\" The modern large society with only one or two people caring for the children is vastly insufficient. As Dr. Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our \"enriched\" environments offer 1 immature adult to 4 children."
+    ]
+   ]
+  },
+  "sw17-18": {
+   "uuid": "fbca5c0c-2de5-44ae-8172-d041973cb42c",
+   "at": "2026-11-26T10:45:08.110127-05:00",
+   "headline": "Human Written",
+   "ai": 4.200874457321868e-12,
+   "words": 160,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     13,
+     "The \"Underpinning\" Principle Dr. Bruce Perry compares treating trauma to building a house."
+    ],
+    [
+     "Human",
+     "High",
+     23,
+     "Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling."
+    ],
+    [
+     "Human",
+     "Medium",
+     15,
+     "You cannot hang curtains in a collapsing house.\nWhy does the brain build this armor?"
+    ],
+    [
+     "Human",
+     "High",
+     75,
+     "Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents survive by creating a \"Role-Self\"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: \"It takes a village to raise a child.\" The modern large society with only one or two people caring for the children is vastly insufficient."
+    ],
+    [
+     "Human",
+     "Medium",
+     2,
+     "As Dr."
+    ],
+    [
+     "Human",
+     "High",
+     32,
+     "Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our \"enriched\" environments offer 1 immature adult to 4 children."
+    ]
+   ]
+  },
+  "sw16": {
+   "uuid": "ec3b79d0-56c1-4c81-ab0d-f805c6e0708b",
+   "at": "2026-11-26T10:45:00.390437-05:00",
+   "headline": "Human Written",
+   "ai": 0,
+   "words": 94,
+   "windows": [
+    [
+     "Human",
+     "High",
+     94,
+     "Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the \"code\" (your thoughts and behaviors), while the \"motherboard\" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after 5 specific neuro-biological problems (A to E below) before you go working on the psychology (well, alongside)."
+    ]
+   ]
+  }
+ }
+}

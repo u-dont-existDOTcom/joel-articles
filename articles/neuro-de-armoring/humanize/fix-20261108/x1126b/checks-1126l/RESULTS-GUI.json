@@ -1,0 +1,20 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "who1": {
+   "uuid": "bc4243cd-e73e-40bb-944e-16cacf727350",
+   "at": "2026-11-26T10:34:15.027703-05:00",
+   "headline": "Human Written",
+   "ai": 1.9328097407538607e-17,
+   "words": 197,
+   "windows": [
+    [
+     "Human",
+     "High",
+     197,
+     "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. 5-HTP skips over that bottleneck, because your body uses it to make serotonin directly, so people who respond to it can feel it quickly, although it's not as strong for sleep or mood as some hype it up to be (see this broad review of 5-HTP). I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could sometimes push that further. And don't take it with anything else that raises serotonin, like most antidepressants or MDMA, since together they can cause serotonin syndrome, a dangerous overload of serotonin (the warnings at the top list those drugs)."
+    ]
+   ]
+  }
+ }
+}

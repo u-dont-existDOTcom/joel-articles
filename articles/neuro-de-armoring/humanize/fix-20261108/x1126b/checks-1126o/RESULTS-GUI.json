@@ -1,0 +1,35 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "intro2-asis": {
+   "uuid": "e05af8ca-1286-4051-b1b4-1525d787d2bb",
+   "at": "2026-11-26T10:43:20.370095-05:00",
+   "headline": "Human Written",
+   "ai": 8.075963309596786e-41,
+   "words": 59,
+   "windows": [
+    [
+     "Human",
+     "High",
+     59,
+     "This protocol is partly theoretical and partly based on experience reports. There's no peer-reviewed study that says all this, although there are studies supporting various parts of it. As with any guide, see what makes sense for you, your genetics, your situation, and your experience. People are all quite different, and you never know until you try."
+    ]
+   ]
+  },
+  "intro1-asis": {
+   "uuid": "eff5042e-92e4-42bc-9304-babc88e32c26",
+   "at": "2026-11-26T10:43:10.385445-05:00",
+   "headline": "Human Written",
+   "ai": 1.8067045482343222e-32,
+   "words": 107,
+   "windows": [
+    [
+     "Human",
+     "High",
+     107,
+     "When people tell me they have trauma, I generally recommend they follow my inner child therapy guide, which includes somatic therapy & breathwork. To help people engage more deeply with the practices, I have advised the use of my Ultimate Psychedelic protocol. But recently, I realized that there's some more basic physiological interventions we need to implement before getting to those levels. The very first step is fixing your physical health and neuro-inflammation. I suggest starting with my detox guide. After addressing overall health and neuro-inflammation, this de-armoring guide gets more specific to address the hardened neural pathways that have developed over a lifetime."
+    ]
+   ]
+  }
+ }
+}

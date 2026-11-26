@@ -1,0 +1,79 @@
+[
+ {
+  "key": "sw16",
+  "name": "Software/Hardware, its first paragraph as it stands (his version, 2026-11-06)",
+  "lineage": "neuro-de-armoring/P-SW16",
+  "scope": "paragraph",
+  "words": 90,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "5358cabc4eb64065cf858ae0023eb60950d70fca740bae728f764ec722c7e98c"
+ },
+ {
+  "key": "sw17-18",
+  "name": "The \"Underpinning\" Principle (44 words, his post) with the paragraph after it",
+  "lineage": "neuro-de-armoring/PAIR-SW17-18",
+  "scope": "pair",
+  "words": 155,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "9612b78f69a30d65f2edc8a99c58d2a16f34d0657b4ffc26ac34d944c5cd19c7"
+ },
+ {
+  "key": "sw18",
+  "name": "Why does the brain build this armor (his post, his dash)",
+  "lineage": "neuro-de-armoring/P-SW18",
+  "scope": "paragraph",
+  "words": 111,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "3d13dff9b1d168fa3bf307fadea85ac8e036f507b862792a4f29dd88d1f73db1"
+ },
+ {
+  "key": "sw19",
+  "name": "We are operating on about one-sixteenth (his approved card SC-24)",
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "words": 58,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "c6caa6c06312a1120958ae3d0e8c7dee80be30ad19a5de8ea03be734f035ec51"
+ },
+ {
+  "key": "sw21",
+  "name": "Neurological De-Armoring is about fixing the underpinnings (his version on cards, 2026-11-03)",
+  "lineage": "neuro-de-armoring/P-SW21",
+  "scope": "paragraph",
+  "words": 58,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "89eb1b6bbf5f3518167731e2887b688c1a9d59479aaf3321c7512364198c522a"
+ },
+ {
+  "key": "sw22",
+  "name": "The Anti-Breakthrough (Micro-Dosing) (his post)",
+  "lineage": "neuro-de-armoring/P-SW22",
+  "scope": "paragraph",
+  "words": 54,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "62f0b28c0489fa92e0180f42a1db465c168e9fa2fca69844d664d17b9e3a17d9"
+ },
+ {
+  "key": "sw22-23",
+  "name": "Your goal is Micro-Dosing Safety (33 words, his post) with the paragraph before it",
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "words": 87,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "43f8d0e3a23e5d37585db948a7722d3f98abd74c54ac4c9b634436371a03ec68"
+ }
+]

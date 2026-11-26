@@ -1,0 +1,26 @@
+{
+ "intro1-asis": {
+  "lineage": "neuro-de-armoring/P-INTRO1",
+  "scope": "paragraph",
+  "name": "The Introduction's first paragraph as he wrote it (his post's own words)",
+  "text": "When people tell me they have trauma, I generally recommend they follow my inner child therapy guide, which includes somatic therapy & breathwork. To help people engage more deeply with the practices, I have advised the use of my Ultimate Psychedelic protocol. But recently, I realized that there's some more basic physiological interventions we need to implement before getting to those levels. The very first step is fixing your physical health and neuro-inflammation. I suggest starting with my detox guide. After addressing overall health and neuro-inflammation, this de-armoring guide gets more specific to address the hardened neural pathways that have developed over a lifetime.",
+  "chance": 0.45,
+  "unchanged": "his post as published, the Introduction's first paragraph, never checked by itself (only inside the whole-article check of 2026-11-04, AI Low, Medium and High there)",
+  "tells": "\"there's some more basic physiological interventions we need to implement before getting to those levels\" (abstract register); \"gets more specific to address the hardened neural pathways\" (category words)",
+  "human_tells": "his writing, the whole paragraph: \"I generally recommend\", \"I have advised\", \"But recently, I realized that there's some more basic\" (his grammar)",
+  "diagnosis": "it read AI inside the whole article, where windows cross paragraphs; by itself it has his first person and his links, and the check shows whether it needs a pass at all",
+  "decides": "whether the paragraph needs humanizing: if it reads Human High as it stands it stays his, word for word"
+ },
+ "intro2-asis": {
+  "lineage": "neuro-de-armoring/P-INTRO2",
+  "scope": "paragraph",
+  "name": "The Introduction's second paragraph as he wrote it (his post's own words)",
+  "text": "This protocol is partly theoretical and partly based on experience reports. There's no peer-reviewed study that says all this, although there are studies supporting various parts of it. As with any guide, see what makes sense for you, your genetics, your situation, and your experience. People are all quite different, and you never know until you try.",
+  "chance": 0.5,
+  "unchanged": "his post as published, the Introduction's second paragraph, never checked by itself (only inside the whole-article check of 2026-11-04)",
+  "tells": "\"partly theoretical and partly based on experience reports\" (a paired hedge); \"see what makes sense for you, your genetics, your situation, and your experience\" (a list of four)",
+  "human_tells": "his writing, the whole paragraph: \"People are all quite different, and you never know until you try.\"",
+  "diagnosis": "never checked by itself; 57 words, so by itself",
+  "decides": "whether the paragraph needs humanizing: if it reads Human High as it stands it stays his, word for word"
+ }
+}

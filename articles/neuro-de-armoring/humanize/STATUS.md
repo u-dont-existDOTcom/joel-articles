@@ -1,5 +1,26 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-26, his message of 15:26 UTC: 70a and 71; no "never" for 5-HTP with mushrooms; the warnings checked as a section
+
+His message word for word: `fix-20261108/joel-20261126-1526-message.txt`. **The mailbox first** ("2026-11-26 15:26"):
+UDA AGENTS.md read live (main 3fce032, unchanged), LESSON-INDEX as before; main 4f1ac4a7 (this lane's 544) merged
+before work, no shared changes since; pull request 545 (somatic therapies) opened by another lane; no comments on this
+lane's pull requests; no notifications.
+
+- **In** (`fix-20261108/x1126b/apply_x1126b.py` and the second run in `APPLIED-X1126B.json`; HUMANIZED-SO-FAR.md
+  812cebd2 to fce359ca): the 5-HTP section's interaction paragraph names ayahuasca and iboga, says "the day before either
+  one", and leaves mushrooms and LSD to the reader with the reason (Nichols 2016) and his view on the microdoses (his
+  answer, fitted, not yet humanized; read-1126f F1.6, F1.7, F1.9 fixed); its "Who this is for" says what to do with
+  antidepressants and MDMA and no longer warns psychedelic users (#254, Human High, one window). Fidelity PASS,
+  keep-as-is PASS (K4, C14), comparison gate PASS (`read-1126f`, `read-1126g`).
+- **The warnings section's first check**: Mostly Human, 6% AI (#253); its five middle warnings by themselves read AI 90%
+  (#255) and with their labels off 28% (#256): question 72.
+- **The humanizing pass, as they stand first** (`checks-1126o`, `checks-1126p`): the Introduction's two paragraphs (his) read Human High (#257, #258); in "Psychology is the Software; Biology is the Hardware." his first paragraph and the Gibson paragraph read High (#259, #261), the "Underpinning" Principle with its neighbour read Human with Medium windows (#260), and the one-sixteenth paragraph, the underpinnings paragraph, the Anti-Breakthrough and the practice after it read AI (#262 to #265). Fresh reads of the four (`v1/*/sw19`, `sw21`, `sw22`, `sw23`); sense-fixed versions of three (`checks-1126q`): the Anti-Breakthrough Human with two Medium windows (#267), the one-sixteenth paragraph AI 78% (#266), the pair AI (#268). None in yet.
+- **Lessons neuro-2026-11-26j to l** (`docs/lessons/2026-11-26-1526-neuro.md`).
+- **What is left**: `LEFT.md`: 141 paragraphs, 28 Human High by themselves, 62 below, 51 never checked as they stand.
+- **Waiting on him**: question 72. Delegations: three fresh Fable readers for "Who this is for" and one comparison
+  reader. Predictions #253 to #268: 6 of 16 right, every miss explained in the ledger.
+
 ## 2026-11-26, his message of 00:50 UTC: his three card versions and answers 66 to 69 in; every warning at the top now in at Human High
 
 His message word for word: `fix-20261108/joel-20261126-0050-message.txt` (the cards export,

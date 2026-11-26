@@ -1,0 +1,38 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "grp-rule-agm1": {
+   "uuid": "7b98691f-cf13-4576-8979-1362f2e6009e",
+   "at": "2026-11-26T10:36:09.819455-05:00",
+   "headline": "AI Detected",
+   "ai": 0.9026892185211182,
+   "words": 345,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     47,
+     "The Rule: Seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up."
+    ],
+    [
+     "Human",
+     "Low",
+     39,
+     "So this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have.\nCognitive Warning: As you de-armor, you will feel naked and exposed."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     22,
+     "You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\""
+    ],
+    [
+     "AI-Generated",
+     "High",
+     237,
+     "Your armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).\nLion's Mane & Ashwagandha: I'm not advising either of these, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.\nAgmatine Warning (The \"Voltage Regulator\"): Agmatine acts like a brake on NMDA/glutamate signaling, which is why we use it in this protocol. But we'll keep it as an optional add-on, since it can interact with a lot more medications than the protocol's safer nutrients would (magnesium, phosphatidylcholine, etc.). People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance."
+    ]
+   ]
+  }
+ }
+}

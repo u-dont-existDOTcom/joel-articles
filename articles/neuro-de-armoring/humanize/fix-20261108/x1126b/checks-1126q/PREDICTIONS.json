@@ -1,0 +1,35 @@
+[
+ {
+  "key": "sw19b",
+  "name": "We are operating on about one-sixteenth, fixed for sense: what the sixteenth counts, what the Void is, what to do",
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "words": 89,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "2705ab2dc864b33efba66194d80b69933f3c8acc0cfc94aac504b09cf3ad0c64"
+ },
+ {
+  "key": "sw22b",
+  "name": "The Anti-Breakthrough, fixed for sense: the window first, then the hour, then the act",
+  "lineage": "neuro-de-armoring/P-SW22",
+  "scope": "paragraph",
+  "words": 81,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "c70f813fcc8b0efb0c9850b71b92cb00c8dc003e4af7f84fbb72f41b63300020"
+ },
+ {
+  "key": "sw22-23b",
+  "name": "The Anti-Breakthrough with the practice after it (41 words), both fixed for sense",
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "words": 122,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "63b1832ac6ebd7b50e97f79ef2766cfc79519ffac512b27d1d298bbd5326e988"
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1126b/read-1126f/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1126b/read-1126f/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 379,
+   "original_words": 180,
+   "first": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P (two of its paragraphs, as they would read)",
+   "last": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P (two of its paragraphs, as they would read)",
+   "rewrite_blocks": [
+    0,
+    2
+   ],
+   "coverage": [
+    "20f62c1e33949b31",
+    "91c4083aa87dbf7e"
+   ]
+  }
+ ]
+}

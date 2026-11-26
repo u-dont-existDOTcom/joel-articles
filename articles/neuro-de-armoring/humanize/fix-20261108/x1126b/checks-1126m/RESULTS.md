@@ -1,0 +1,19 @@
+# x1126m: the low stretch of the warnings section, by itself
+
+Each text checked by itself in Pangram's web app (Pangram 4.1 (web app, his account, in the desktop app's browser pane)). Predictions were written first (PREDICTIONS.md). Each window's confidence is given; a window that reads Human at less than High is work to do (E278), Low first.
+
+| text | words | mine | result | windows | link |
+|---|---|---|---|---|---|
+| grp-rule-agm1: The stretch of the warnings that read below High inside the section check (The Rule to the agmatine warning), by itself, as it stands | 345 | Human (0.60) **miss** | AI Detected, 90.3% AI | AI (High, 47 words), Human (Low, 39 words), AI (Low, 22 words), AI (High, 237 words) | [result](https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e) |
+
+## grp-rule-agm1: The stretch of the warnings that read below High inside the section check (The Rule to the agmatine warning), by itself, as it stands
+
+AI Detected, 90.3% AI: https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e
+
+- AI (High, 47 words): The Rule: Seek "Boring Love", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, "Exciting Love", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. ...
+- Human (Low, 39 words): So this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have.
+Cognitive Warning: As you de-armor, you will feel naked and exposed. ...
+- AI (Low, 22 words): You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the "Illusion of Transparency." ...
+- AI (High, 237 words): Your armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the "Metabolic Red Line" below).
+Lion's Mane & Ashwagandha: I'm not advising either of these, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.
+Agmatine Warning (The "Voltage Regulator"): Agmatine acts like a brake on NMDA/glutamate signaling, which is why we use it in this protocol. But we'll keep it as an optional add-on, since it can interact with a lot more medications than the protocol's safer nutrients would (magnesium, phosphatidylcholine, etc.). People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance. ...
