@@ -1,0 +1,72 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "f1865f3bf4b16115ece04dbca44dc5d5f7b9a51e406470a722c9a414aa869284",
+ "text": "As with water therapy, I'd ask before booking: \"What do you do when I start moving away from a feeling, and what if I get overwhelmed?\" If the answer leaves no room for you to slow down, or to disagree with them about what you're feeling, keep looking.",
+ "section": "Can't Stay With a Feeling?",
+ "reader": "an adult working through the guide who can feel their body by now but slides away from feelings in therapy sessions, deciding whether to look for one of these therapists, and which one",
+ "sentences": [
+  {
+   "s": "As with water therapy, I'd ask before booking: \"What do you do when I start moving away from a feeling, and what if I get overwhelmed?\"",
+   "payoff": "they have the question to ask a therapist before booking",
+   "follows": "it closes the section on the act, after the three therapies"
+  },
+  {
+   "s": "If the answer leaves no room for you to slow down, or to disagree with them about what you're feeling, keep looking.",
+   "payoff": "they know which answers mean keep looking: no room to slow down or to disagree",
+   "follows": "it says what to do with the answer to the question before",
+   "link": "If the answer"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the water therapy section asks a therapist a question before booking",
+   "found": "the live guide: \"I would ask a water therapist about that before I booked\"",
+   "still_needed": "yes: they hear the same habit the guide already taught",
+   "fate": "kept"
+  }
+ ],
+ "placement": "last in the section: the act after the choice",
+ "opens": {
+  "first_sentence": "As with water therapy, I'd ask before booking: \"What do you do when I start moving away from a feeling, and what if I get overwhelmed?\"",
+  "why_reading": "it gives them the words to say to a therapist, which they can use before their first session"
+ },
+ "same_point": "the water therapy section asks a similar question before booking; this one names it (\"As with water therapy\") rather than repeating it",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the act first",
+  "Q2": "PASS: the question is theirs to ask, for knowing whether the therapist will let them slow down",
+  "Q3": "PASS: \"moving away from a feeling\", \"overwhelmed\"",
+  "Q4": "PASS: plain words",
+  "Q5": "PASS: \"If the answer\" turns on the question",
+  "Q6": "PASS: question, then what to do with the answer",
+  "Q7": "PASS: it is the step before they book",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

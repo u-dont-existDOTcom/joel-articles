@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "0d803edf3caab1ec30b36e7f42b3014501fcc29ff3254c3720b4b4d95431446b",
+ "text": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life. [Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on those feelings directly. Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life.",
+   "payoff": "they learn which pain the second therapy is for",
+   "follows": "it turns to the second of the two therapies"
+  },
+  {
+   "s": "[Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on those feelings directly.",
+   "payoff": "they learn its name and that it works on those feelings",
+   "follows": "it names the therapy for that pain",
+   "link": "none: it names the therapy for the case the sentence before just set out, the step the reader expects"
+  },
+  {
+   "s": "Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.",
+   "payoff": "they picture what a session asks: letting out held-back feelings and rehearsing a hard conversation",
+   "follows": "it says what working on those feelings means",
+   "link": "Much of the therapy"
+  }
+ ],
+ "checked": [
+  {
+   "point": "EAET: writing about stress, role playing difficult relationships, expressing anger and other feelings",
+   "found": "Yarns et al. 2024, JAMA Network Open (https://clinicaltrials.gov/study/NCT03918642)",
+   "still_needed": "yes: they picture what it asks of them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "after the first therapy and its evidence",
+ "opens": {
+  "first_sentence": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life.",
+  "why_reading": "it says which pain the therapy is for, so they can tell if it is theirs"
+ },
+ "same_point": "none: read the section from its heading to the next; the first therapy is in the second and third paragraphs",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the fourth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-4.md, which lists no unneeded sentence; the third draft's read, READ-NEEDED-FIT-3.md, listed the clause \"These overlap a lot,\" which is cut)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the fourth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-4.md; earlier rounds READ-HIS-FIXES-1.md and READ-HIS-FIXES-3.md, each acted on)",
+  "marked": [
+   {
+    "s": "If what's tangled up with your pain is mostly feelings and relationships, Emotional Awareness and Expression Therapy goes there directly.",
+    "difference": "2, 4, 10, 12: a second therapy for a second case, built like S3 and S5, with nothing tying it to S5; \"tangled up with your pain\" is vague; \"goes there\" could mean feelings or relationships. His way: join to the ear"
+   },
+   {
+    "s": "Much of it is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.",
+    "difference": "10: \"Much of it\" could be the therapy or the pain. His way: \"Much of the therapy is...\". Otherwise the sentence is concrete and he would keep the role-play example."
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-4.md, parts 2 and 3)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the case first",
+  "Q2": "N/A: what the therapy does",
+  "Q3": "PASS: \"stress and feelings about the people in your life\"",
+  "Q4": "PASS: plain words",
+  "Q5": "PASS: \"The second therapy\", \"those feelings\", \"Much of the therapy\"",
+  "Q6": "PASS: case, name, what it asks",
+  "Q7": "PASS: their pain",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

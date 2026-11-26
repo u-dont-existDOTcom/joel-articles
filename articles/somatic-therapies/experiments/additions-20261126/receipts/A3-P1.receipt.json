@@ -1,0 +1,79 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "8ba8f6c4f5f4b15f5d3b85ee007bf9ecd209d435341069354af9656b8d25bfc0",
+ "text": "Maybe pain is what brought you to this guide. If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "Maybe pain is what brought you to this guide.",
+   "payoff": "a reader who came for pain hears that the section is for them",
+   "follows": "it opens the branch on the reader's case"
+  },
+  {
+   "s": "If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.",
+   "payoff": "they know the two conditions (months, a doctor found no cause) and that two therapies follow",
+   "follows": "it says which pain the section means",
+   "link": "If yours"
+  }
+ ],
+ "checked": [],
+ "placement": "first in the new branch",
+ "opens": {
+  "first_sentence": "Maybe pain is what brought you to this guide.",
+  "why_reading": "it asks whether pain brought them here, so a reader in pain reads on"
+ },
+ "same_point": "none: read the branch from its heading to the next h1 for the two therapies and how to choose",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the fourth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-4.md, which lists no unneeded sentence; the third draft's read, READ-NEEDED-FIT-3.md, listed the clause \"These overlap a lot,\" which is cut)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the fourth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-4.md; earlier rounds READ-HIS-FIXES-1.md and READ-HIS-FIXES-3.md, each acted on)",
+  "marked": [
+   {
+    "s": "The rethinking in Layer 5 has a use for pain, too.",
+    "difference": "4, 16: \"has a use for pain\" is vague, and the line only introduces what S2 and S3 say again. His way: cut it, and open on S2's situation."
+   },
+   {
+    "s": "If you came to all of this because of pain that's lasted months, and a doctor has found no injury or disease that explains it, two newer therapies are worth knowing about.",
+    "difference": "1, 4: three conditions plus the therapies in one sentence; \"all of this\" and \"two newer therapies\" (newer than what?) are vague; \"it\" could point to pain or injury. His way: split into the situation (pain f"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-4.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "If you came to all of this because of pain that's lasted months, and a doctor has found no injury or disease that explains it, two newer therapies are worth knowing about.",
+    "found": "the guide is about trauma, not pain; and contradiction: \"two newer therapies\" against the guide's joke about 50 new kinds of therapies a year"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the case first",
+  "Q2": "N/A: no instruction",
+  "Q3": "PASS: \"lasted months\", \"no injury or disease\"",
+  "Q4": "PASS: plain words",
+  "Q5": "PASS: \"If yours\" turns on the pain just named",
+  "Q6": "PASS: case, then conditions",
+  "Q7": "PASS: their own pain",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

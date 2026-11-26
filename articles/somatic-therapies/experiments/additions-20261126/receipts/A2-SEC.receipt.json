@@ -1,0 +1,169 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "1e57f2873b5b4ae5b5cb45abf7a9c71dc76be7800579e3e1e402b8627b694ab5",
+ "text": "If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup. You picture the scene again, and somebody steps in to protect you or to give you what you needed back then, first the therapist and later you as an adult. Rescripting is a lot like the way I re-do trauma memories in my inner child reparenting guide.\n\nDoes it work? For adults whose PTSD started in childhood, about as well as EMDR. A trial gave 155 of them one or the other, and their PTSD symptoms came down about equally. The new version won't tell you what really happened, since you know you're imagining it; what changes is how the memory feels afterward. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+ "section": "Imagery Rescripting",
+ "reader": "an adult with one scene from their childhood that still leaves them helpless, who has just read that going straight into a trauma memory with EMDR can re-traumatize, deciding whether imagery rescripting fits them",
+ "sentences": [
+  {
+   "s": "If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup.",
+   "payoff": "they know who it is for (one childhood scene that still leaves them small and helpless) and that they go back with help",
+   "follows": "it opens the section on the reader's case"
+  },
+  {
+   "s": "You picture the scene again, and somebody steps in to protect you or to give you what you needed back then, first the therapist and later you as an adult.",
+   "payoff": "they picture what happens and who steps in, the therapist first and later their adult self",
+   "follows": "it says what going back with backup means",
+   "link": "You picture the scene again"
+  },
+  {
+   "s": "Rescripting is a lot like the way I re-do trauma memories in my inner child reparenting guide.",
+   "payoff": "they can tie it to his own way of re-doing memories and read it there",
+   "follows": "it says where they have met this before",
+   "link": "Rescripting is a lot like"
+  },
+  {
+   "s": "Does it work?",
+   "payoff": "they hear the question they are asking",
+   "follows": "it turns from what it is to whether it works",
+   "link": "Does it work"
+  },
+  {
+   "s": "For adults whose PTSD started in childhood, about as well as EMDR.",
+   "payoff": "they learn whom it works for and how well, against EMDR",
+   "follows": "it answers the question",
+   "link": "none: it starts the paragraph on a new step the reader expects"
+  },
+  {
+   "s": "A trial gave 155 of them one or the other, and their PTSD symptoms came down about equally.",
+   "payoff": "they learn what that rests on: a trial of 155 such adults with symptoms down about equally",
+   "follows": "it gives the evidence for the answer",
+   "link": "A trial"
+  },
+  {
+   "s": "The new version won't tell you what really happened, since you know you're imagining it; what changes is how the memory feels afterward.",
+   "payoff": "they know the imagined version won't tell them what happened, and what it does change",
+   "follows": "it answers the worry a made-up scene raises",
+   "link": "The new version"
+  },
+  {
+   "s": "Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+   "payoff": "they know to stop when it's too much and to ground themselves afterward",
+   "follows": "it gives the care the EMDR paragraph above asks for",
+   "link": "Because rescripting takes you back"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the therapist intervenes in the imagined scene first and the patient's adult self later",
+   "found": "Boterhoven de Haan et al. 2020, British Journal of Psychiatry 217(5):609-615 (https://pubmed.ncbi.nlm.nih.gov/32892758/)",
+   "still_needed": "yes: they know what a session asks of them",
+   "fate": "kept"
+  },
+  {
+   "point": "his inner child guide has a section on reliving trauma memories in a better way",
+   "found": "the inner child guide, \"Inner Child Self-Love Reparenting Guide\", as live on 2026-11-25, section \"Re-do Trauma Memories\" (https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories)",
+   "still_needed": "yes: they can go to his own version of it",
+   "fate": "kept"
+  },
+  {
+   "point": "155 adults with PTSD from childhood trauma; imagery rescripting and EMDR both effective, neither better",
+   "found": "Boterhoven de Haan et al. 2020, British Journal of Psychiatry 217(5):609-615 (https://pubmed.ncbi.nlm.nih.gov/32892758/)",
+   "still_needed": "yes: they weigh it against EMDR",
+   "fate": "changed"
+  },
+  {
+   "point": "after EMDR, ground yourself",
+   "found": "the live guide's EMDR section: \"After an EMDR session, it's a good idea to do some grounding activities.\"",
+   "still_needed": "yes: they ground themselves afterward",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the whole new section, an h2 in Layer 4 after EMDR and before hypnosis: a memory therapy beside the other memory therapy; A2-P1: first in the section, right after the EMDR paragraph that warns going straight into memory can re-traumatize. A2-P2: after the paragraph saying what it is, last in the section.",
+ "opens": {
+  "first_sentence": "If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup.",
+  "why_reading": "it names the scene that still leaves them helpless, so they know the section is for them"
+ },
+ "same_point": "none: read the section from its heading to the next; each paragraph makes its own point (A2-P1: none: read the section from its heading to the next; the section's second paragr; A2-P2: none: read the section from its heading to the next; the section's first paragra)",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [
+   "Does it work?"
+  ],
+  "kept": {
+   "Does it work?": "they hear the question they are asking at this point, so the answer that follows lands as the answer to it"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [
+   {
+    "s": "At first that's the therapist, and later it's you as an adult.",
+    "difference": "8: a short sentence that belongs to S2's \"somebody steps in\". His way: join it (\"..., at first the therapist and later you as an adult\")."
+   },
+   {
+    "s": "It's a lot like the way I re-do trauma memories in my inner child guide.",
+    "difference": "10, 4: \"It\" could mean imagery rescripting, \"you as an adult\" or \"the therapist\". \"re-do trauma memories in my inner child guide\": the live text never says \"inner child guide\" (it has links reading \"inner-ch"
+   },
+   {
+    "s": "Does it work?",
+    "difference": "18, 10: a three-word question standing alone, and \"it\" could be rescripting or his guide from S4. His way: fold it into S6 (\"As for whether imagery rescripting works, ...\")."
+   },
+   {
+    "s": "For adults whose PTSD started in childhood, about as well as EMDR: in a trial with 155 of them, both helped, and neither clearly beat the other.",
+    "difference": "1, 4, 9: a sentence fragment packing the group, the comparison, the trial size and the result. \"both helped\" doesn't say helped what. \"155\" is a study number dropped in. His way: the claim, then what it rests "
+   },
+   {
+    "s": "Since you know the new version is imagined, it changes how the memory feels, but it doesn't change what you remember happening.",
+    "difference": "3, 10, 13: \"changes X, but doesn't change Y\" is a contrast pair, and the worry it answers (does it plant false memories?) is never stated. \"Since you know...\" doesn't follow from S6, and \"it\" has several possibl"
+   },
+   {
+    "s": "It does take you back into the memory, though, same as EMDR, so I'd stop whenever it gets to be too much, and do some grounding afterward.",
+    "difference": "10, 16: \"It\" is ambiguous (rescripting, or the new version from S7). \"same as EMDR\" plus stop-when-too-much plus grounding repeats the paragraph directly before the insertion point (\"going directly into the t"
+   }
+  ],
+  "kept": {
+   "Does it work?": "it is the reader's own question at the turn from what the therapy is to whether it works; the answer comes in the next sentence, so it stands as the question itself"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "It's a lot like the way I re-do trauma memories in my inner child guide.",
+    "found": "\"my inner child guide\" is not a name the guide uses"
+   },
+   {
+    "s": "Since you know the new version is imagined, it changes how the memory feels, but it doesn't change what you remember happening.",
+    "found": "\"Since you know the new version is imagined, it changes how the memory feels\" doesn't follow"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the case first / the question, then its answer first",
+  "Q2": "PASS: \"stop when it's too much, and ground yourself afterward\" is theirs to do, for not being overwhelmed",
+  "Q3": "PASS: \"one scene from your childhood\" / \"adults whose PTSD started in childhood\"",
+  "Q4": "PASS: imagery rescripting is said in what it does in the sentence that names it / EMDR and PTSD are used in the live guide before this",
+  "Q5": "PASS: each sentence answers the one before (what happens, where else) / each sentence answers the one before",
+  "Q6": "PASS: who, what happens, where else / question, answer, evidence, the worry, the care",
+  "Q7": "PASS: all about their scene / each fact is about the therapy they weigh",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence / one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "late_ok": {
+  "Rescripting": "the short form of \"imagery rescripting\", which the first sentence names and says in what it does; this sentence compares it with his own way, it doesn't explain it"
+ }
+}

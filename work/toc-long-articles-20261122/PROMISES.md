@@ -4,7 +4,7 @@ Joel, 2026-11-25 16:14 UTC: "ok let's make sure we have a promises list also of 
 
 This is that list. A promise goes on it the turn it is made, by him or by me, in the words it was made in. Every turn, before the reply, each open one is read again: done (with where to see it), still open (with the next step), or dropped (only on his word). The lane's [checkpoint](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/work/toc-long-articles-20261122/README.md) has the method and the working order; this page is only what is owed.
 
-Last read through: 2026-11-26, in the turn of 22:44 UTC.
+Last read through: 2026-11-26, at the end of the turn of 22:44 UTC.
 
 ## Open
 
@@ -20,6 +20,7 @@ Last read through: 2026-11-26, in the turn of 22:44 UTC.
 | 11 | **Section links tested in the phone app.** | mine, 2026-11-25 12:41: "Not tested in the phone app" | On the web a click scrolls without loading the page again (tested on three posts). The app is not tested; I can't open it from here. | He taps one link in the app and says what it does. |
 | 17 | **The rest of the catch-up with the inner child and somatic guides.** 12 smaller additions that were never drafted and 10 smaller differences that were never put to him. | mine, 2026-11-24 ("the catch-up with the inner child and somatic guides"); found short this turn (lesson toc-2026-11-25h) | The first marking page had the 16 the comparison rated high or medium. The other 22 are listed in [the registry](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/DEPENDS.md) as "behind" (8 against the inner child guide, 4 against the somatic guide) and "his to settle" (3 and 7). | A second, shorter marking page: each addition drafted from his own sentences, its links carried, checked in its section; each difference shown with both texts. Then one small edit. |
 | 12 | **"Once you feel comfortable in your wholeness ..." read the way he meant.** | mine, this turn | His sentence replaced "When something specific comes up, that’s the time to sort out what it is." If he meant both to stay, the old one goes back. | One word from him if it is wrong. |
+| 18 | **Three new sections in the somatic guide, from ChatGPT's suggestions, humanized.** | his, 2026-11-26 22:44: "i also want to make an addition to the somatic.u-dont-exist.com article with the recs from gpt below (humanized)" | On his [marking page](https://claude.ai/artifact/8w8DEeT9cS8T964HGSpz4M) ([cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/review/CARDS.md)). A3 (pain) reads Mostly Human; A1 and A2 read mostly AI, and their cards ask him for a line of his own experience ([results](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/RESULTS.md)). | His answers. Then A1 and A2 rebuilt (on his line, or tied to what the guide already says) and checked; A3's Low windows one fix at a time; then the edit in the post. |
 
 ## Done
 

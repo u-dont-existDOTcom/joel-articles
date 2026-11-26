@@ -1,0 +1,85 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "fc5adad364f74d9111c655d0cb1fc206d69b4f0d38d79579fbaa1794377411b5",
+ "text": "By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it. Maybe you start explaining the feeling instead of feeling it, or you agree with whatever the therapist says so you don't have to stay in it. What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.",
+ "section": "Can't Stay With a Feeling?",
+ "reader": "an adult working through the guide who can feel their body by now but slides away from feelings in therapy sessions, deciding whether to look for one of these therapists, and which one",
+ "sentences": [
+  {
+   "s": "By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it.",
+   "payoff": "they recognize the moment they slide away, now that they can feel their body",
+   "follows": "it opens the section on the trouble the heading asks about"
+  },
+  {
+   "s": "Maybe you start explaining the feeling instead of feeling it, or you agree with whatever the therapist says so you don't have to stay in it.",
+   "payoff": "they recognize the two shapes it takes: explaining the feeling, or agreeing with the therapist",
+   "follows": "it says what sliding away looks like",
+   "link": "Maybe"
+  },
+  {
+   "s": "What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.",
+   "payoff": "they know what helps (a therapist who brings them back to the feeling) and that some therapies are built for it",
+   "follows": "it answers the trouble the two sentences before describe",
+   "link": "What helps then"
+  }
+ ],
+ "checked": [],
+ "placement": "first under the new heading, before the paragraphs naming the therapies",
+ "opens": {
+  "first_sentence": "By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it.",
+  "why_reading": "the first sentence describes the moment they slide away, in their own experience, so they can tell if it is them"
+ },
+ "same_point": "none: read the section from its heading to Layer 4 for who it is for, the three therapies, and what to ask",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [
+   "(Some people could give a whole lecture on their feelings without feeling one of them.)"
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [
+   {
+    "s": "(Some people could give a whole lecture on their feelings without feeling one of them.)",
+    "difference": "16, 6: the parenthetical says S2 again (\"explaining it\" = a lecture on feelings) and sounds like a wise aside. His way: cut it, or fold one concrete case into S2."
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.",
+    "found": "\"talk therapies\" in a layer titled \"before the story comes in\"; the guide files talk therapy under story work"
+   }
+  ],
+  "kept": {
+   "What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.": "the new section sits at the end of Layer 3 and its first sentence says the reader can feel their body by now: these talk therapies work on a feeling as it comes up in the room, which the next paragraph shows, not on the story Layer 5 rebuilds"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on the reader's case or what helps",
+  "Q2": "N/A: what helps, not an instruction; the act is in the last paragraph",
+  "Q3": "PASS: \"a real feeling ... in a session\"",
+  "Q4": "PASS: \"talk therapies\" is plain",
+  "Q5": "PASS: \"Maybe\" and \"What helps then\" turn on the sentence before",
+  "Q6": "PASS: the moment, its shapes, what helps",
+  "Q7": "PASS: every fact is about their own trouble in therapy",
+  "Q8": "N/A: no group or list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "3327b9516dd91f941e28bb8985aef82eb230d3f72762e602074f2fae1ec06fe5",
+ "text": "Can't Stay With a Feeling?",
+ "section": "Can't Stay With a Feeling? (new, in Layer 3 after Brainspotting)",
+ "reader": "an adult working through the guide who can feel their body by now but slides away from feelings in therapy sessions, deciding whether to look for one of these therapists, and which one",
+ "sentences": [
+  {
+   "s": "Can't Stay With a Feeling?",
+   "payoff": "a reader who slides away from feelings finds the section in the contents sidebar and knows it is for them",
+   "follows": "it starts a new section after Brainspotting's further reading, the last thing in Layer 3"
+  }
+ ],
+ "checked": [],
+ "placement": "an h2 at the end of Layer 3, after Brainspotting and before Layer 4's memory work: these therapies are for a reader who can feel the body by now, which Layers 1 to 3 build, and who isn't ready for a specific memory",
+ "opens": {
+  "first_sentence": "Can't Stay With a Feeling?",
+  "why_reading": "they see their own trouble named as a question, so they know whether to read the section"
+ },
+ "same_point": "none: read the section from its heading to the next; no other heading in the guide names this trouble; Layer 3's heading is about exploring trauma feelings before the story comes in, which this section's reader can do with their body but not with a therapist",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q2": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q5": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q6": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q8": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q9": "N/A: a heading of a few words, read in the narrow contents sidebar and above its section; it makes no claim, gives no instruction and holds no list",
+  "Q1": "PASS: the trouble is the whole heading",
+  "Q3": "PASS: \"a feeling\" is the feeling coming up in a session, which the first sentence says",
+  "Q4": "PASS: plain words only",
+  "Q7": "PASS: it names the reader's own trouble"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
