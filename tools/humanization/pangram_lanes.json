@@ -67,6 +67,12 @@
    "article": "neuro-de-armoring",
    "ledger": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
    "legacy": []
+  },
+  {
+   "lane": "somatic guide",
+   "article": "somatic-therapies",
+   "ledger": "articles/somatic-therapies/humanize/pangram-ledger.jsonl",
+   "legacy": []
   }
  ]
 }

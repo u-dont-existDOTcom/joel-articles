@@ -1,0 +1,101 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "a3243ed5ba6af30635bbbfad8b362acd28c808f494820c215bdd2636e2c3dd34",
+ "text": "If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup. You picture the scene again, and somebody steps in to protect you or to give you what you needed back then, first the therapist and later you as an adult. Rescripting is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide.",
+ "section": "Imagery Rescripting",
+ "reader": "an adult with one scene from their childhood that still leaves them helpless, who has just read that going straight into a trauma memory with EMDR can re-traumatize, deciding whether imagery rescripting fits them",
+ "sentences": [
+  {
+   "s": "If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup.",
+   "payoff": "they know who it is for (one childhood scene that still leaves them small and helpless) and that they go back with help",
+   "follows": "it opens the section on the reader's case"
+  },
+  {
+   "s": "You picture the scene again, and somebody steps in to protect you or to give you what you needed back then, first the therapist and later you as an adult.",
+   "payoff": "they picture what happens and who steps in, the therapist first and later their adult self",
+   "follows": "it says what going back with backup means",
+   "link": "You picture the scene again"
+  },
+  {
+   "s": "Rescripting is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide.",
+   "payoff": "they can tie it to his own way of re-doing memories and read it there",
+   "follows": "it says where they have met this before",
+   "link": "Rescripting is a lot like"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the therapist intervenes in the imagined scene first and the patient's adult self later",
+   "found": "Boterhoven de Haan et al. 2020, British Journal of Psychiatry 217(5):609-615 (https://pubmed.ncbi.nlm.nih.gov/32892758/)",
+   "still_needed": "yes: they know what a session asks of them",
+   "fate": "kept"
+  },
+  {
+   "point": "his inner child guide has a section on reliving trauma memories in a better way",
+   "found": "the inner child guide, \"Inner Child Self-Love Reparenting Guide\", as live on 2026-11-25, section \"Re-do Trauma Memories\" (https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories)",
+   "still_needed": "yes: they can go to his own version of it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "first in the section, right after the EMDR paragraph that warns going straight into memory can re-traumatize",
+ "opens": {
+  "first_sentence": "If one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup.",
+  "why_reading": "it names the scene that still leaves them helpless, so they know the section is for them"
+ },
+ "same_point": "none: read the section from its heading to the next; the section's second paragraph is about the evidence and the care to take",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [
+   {
+    "s": "At first that's the therapist, and later it's you as an adult.",
+    "difference": "8: a short sentence that belongs to S2's \"somebody steps in\". His way: join it (\"..., at first the therapist and later you as an adult\")."
+   },
+   {
+    "s": "It's a lot like the way I re-do trauma memories in my inner child guide.",
+    "difference": "10, 4: \"It\" could mean imagery rescripting, \"you as an adult\" or \"the therapist\". \"re-do trauma memories in my inner child guide\": the live text never says \"inner child guide\" (it has links reading \"inner-ch"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "It's a lot like the way I re-do trauma memories in my inner child guide.",
+    "found": "\"my inner child guide\" is not a name the guide uses"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the case first",
+  "Q2": "N/A: no instruction",
+  "Q3": "PASS: \"one scene from your childhood\"",
+  "Q4": "PASS: imagery rescripting is said in what it does in the sentence that names it",
+  "Q5": "PASS: each sentence answers the one before (what happens, where else)",
+  "Q6": "PASS: who, what happens, where else",
+  "Q7": "PASS: all about their scene",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "late_ok": {
+  "Rescripting": "the short form of \"imagery rescripting\", which the first sentence names and says in what it does; this sentence compares it with his own way, it doesn't explain it"
+ }
+}

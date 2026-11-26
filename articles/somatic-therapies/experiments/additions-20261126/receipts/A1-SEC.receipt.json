@@ -1,0 +1,192 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "8bf6e59b5d1a99c9b16c28ec466045073fd08cf7d4629498da70c39d563af3ae",
+ "text": "By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it. Maybe you start explaining the feeling instead of feeling it, or you agree with whatever the therapist says so you don't have to stay in it. What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.\n\nIn Intensive Short-Term Dynamic Psychotherapy, the therapist calls out each slide right as it happens and keeps turning you back toward the feeling. All the while they watch your body for signs of anxiety (tense muscles, sighing, a foggy head), to see how much you can take. Most people who come to it would find the full version too much, so they usually get a slower one, where the therapist helps them settle whenever the anxiety climbs too high.\n\nIf it's one feeling in particular that scares you, like grief, Affect Phobia Therapy treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle. Accelerated Experiential Dynamic Psychotherapy is for when you can't let kindness in, when someone cares about you and it just bounces off. The therapist first makes sure you don't feel alone with the feelings that come up, then follows how they feel in your body.\n\nAs with water therapy, I'd ask before booking: \"What do you do when I start moving away from a feeling, and what if I get overwhelmed?\" If the answer leaves no room for you to slow down, or to disagree with them about what you're feeling, keep looking.",
+ "section": "Can't Stay With a Feeling?",
+ "reader": "an adult working through the guide who can feel their body by now but slides away from feelings in therapy sessions, deciding whether to look for one of these therapists, and which one",
+ "sentences": [
+  {
+   "s": "By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it.",
+   "payoff": "they recognize the moment they slide away, now that they can feel their body",
+   "follows": "it opens the section on the trouble the heading asks about"
+  },
+  {
+   "s": "Maybe you start explaining the feeling instead of feeling it, or you agree with whatever the therapist says so you don't have to stay in it.",
+   "payoff": "they recognize the two shapes it takes: explaining the feeling, or agreeing with the therapist",
+   "follows": "it says what sliding away looks like",
+   "link": "Maybe"
+  },
+  {
+   "s": "What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.",
+   "payoff": "they know what helps (a therapist who brings them back to the feeling) and that some therapies are built for it",
+   "follows": "it answers the trouble the two sentences before describe",
+   "link": "What helps then"
+  },
+  {
+   "s": "In Intensive Short-Term Dynamic Psychotherapy, the therapist calls out each slide right as it happens and keeps turning you back toward the feeling.",
+   "payoff": "they learn what the first therapy does with the very slide they recognized",
+   "follows": "it names the first of the therapies the paragraph before promised",
+   "link": "In Intensive Short-Term Dynamic Psychotherapy"
+  },
+  {
+   "s": "All the while they watch your body for signs of anxiety (tense muscles, sighing, a foggy head), to see how much you can take.",
+   "payoff": "they learn the therapist watches their body for anxiety, with three signs, to see how much they can take",
+   "follows": "it says what keeps that from being too much",
+   "link": "All the while"
+  },
+  {
+   "s": "Most people who come to it would find the full version too much, so they usually get a slower one, where the therapist helps them settle whenever the anxiety climbs too high.",
+   "payoff": "a reader who overwhelms easily learns they would usually get a slower version, so this therapy isn't ruled out",
+   "follows": "it answers the worry the first two sentences raise",
+   "link": "Most people who come to it"
+  },
+  {
+   "s": "If it's one feeling in particular that scares you, like grief, Affect Phobia Therapy treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle.",
+   "payoff": "a reader afraid of one feeling, like grief, learns which therapy goes at that fear slowly",
+   "follows": "it turns to the second therapy and the narrower case it fits",
+   "link": "If it's one feeling"
+  },
+  {
+   "s": "Accelerated Experiential Dynamic Psychotherapy is for when you can't let kindness in, when someone cares about you and it just bounces off.",
+   "payoff": "a reader who can't let kindness in recognizes their case and the therapy for it",
+   "follows": "it names the third therapy and its case, after the second",
+   "link": "none: it names the third therapy, the step the reader expects after the second"
+  },
+  {
+   "s": "The therapist first makes sure you don't feel alone with the feelings that come up, then follows how they feel in your body.",
+   "payoff": "they learn what that therapist does first and then",
+   "follows": "it says what the third therapy does",
+   "link": "The therapist first"
+  },
+  {
+   "s": "As with water therapy, I'd ask before booking: \"What do you do when I start moving away from a feeling, and what if I get overwhelmed?\"",
+   "payoff": "they have the question to ask a therapist before booking",
+   "follows": "it closes the section on the act, after the three therapies",
+   "link": "As with water therapy"
+  },
+  {
+   "s": "If the answer leaves no room for you to slow down, or to disagree with them about what you're feeling, keep looking.",
+   "payoff": "they know which answers mean keep looking: no room to slow down or to disagree",
+   "follows": "it says what to do with the answer to the question before",
+   "link": "If the answer"
+  }
+ ],
+ "checked": [
+  {
+   "point": "ISTDP points out the avoidance as it happens and turns the patient back toward the feeling",
+   "found": "Abbass 2021, Tidsskrift for Norsk Psykologforening (https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and)",
+   "still_needed": "yes: they picture a session and judge whether it suits them",
+   "fate": "kept"
+  },
+  {
+   "point": "ISTDP watches anxiety in tense muscles, sighing and in thinking (vision, concentration)",
+   "found": "Abbass 2021, Tidsskrift for Norsk Psykologforening (https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and): \"voluntary muscle tension (tense muscles, sighing ...), smooth muscle ..., and cognitive-perceptual function (affecting vision, hearing, concentration, memory ...)\"",
+   "still_needed": "yes: they know the therapist is watching for when it is too much",
+   "fate": "kept"
+  },
+  {
+   "point": "most people who come to ISTDP overwhelm easily and get its graded version",
+   "found": "Abbass 2021, Tidsskrift for Norsk Psykologforening (https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and): in clinics using ISTDP most patients have low anxiety tolerance and get a graded format; the 2023 article in the same journal: a graded format for patients easily overwhelmed",
+   "still_needed": "yes: they know a slower version exists if they overwhelm easily",
+   "fate": "kept"
+  },
+  {
+   "point": "Affect Phobia Therapy treats fear of a feeling like a phobia, with graded exposure to it",
+   "found": "Schanche, Hjeltnes, Berggraf and Ulvenes 2013, same journal (https://psykologtidsskriftet.no/node/15971/pdf); McCullough et al. 2003 (Guilford): phobic reactions toward one's own feelings, \"just as one can develop phobias towards external objects\"; gradual exposure",
+   "still_needed": "yes: they see it goes at their pace",
+   "fate": "kept"
+  },
+  {
+   "point": "AEDP undoes aloneness first and follows the felt sense of emotion in the body",
+   "found": "APA video and description, Fosha (https://www.apa.org/pubs/videos/4310759)",
+   "still_needed": "yes: they know the therapy starts where their trouble is",
+   "fate": "kept"
+  },
+  {
+   "point": "the water therapy section asks a therapist a question before booking",
+   "found": "the live guide: \"I would ask a water therapist about that before I booked\"",
+   "still_needed": "yes: they hear the same habit the guide already taught",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the whole new section, an h2 at the end of Layer 3, after Brainspotting and before Layer 4's memory work: these therapies are for a reader who can feel the body by now, which Layers 1 to 3 build, and who isn't ready for a specific memory; A1-P1: first under the new heading, before the paragraphs naming the therapies. A1-P2: after the paragraph that says such therapies exist; the other two follow in the next paragraph. A1-P3: after the first therapy, before the question to ask. A1-P4: last in the section: the act after the choice.",
+ "opens": {
+  "first_sentence": "By now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it.",
+  "why_reading": "the first sentence describes the moment they slide away, in their own experience, so they can tell if it is them"
+ },
+ "same_point": "none: read the section from its heading to the next; each paragraph makes its own point (A1-P1: none: read the section from its heading to Layer 4 for who it is for, the three ; A1-P2: none: read the section from its heading to the next; A1's other paragraphs say w; A1-P3: none: read the section from its heading to the next; A1's other paragraphs cover; A1-P4: the water therapy section asks a similar question before booking; this one names)",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/needed_read_brief.md and fit_read_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md; earlier rounds READ-NEEDED-FIT-1.md, -3.md and -4.md, each acted on)",
+  "unneeded": [
+   "(Some people could give a whole lecture on their feelings without feeling one of them.)"
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26) given tools/humanization/his_fixes_brief.md, the live guide and the three additions one sentence a line, as they stood in the sixth draft (articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-6.md; earlier rounds READ-HIS-FIXES-1.md, -3.md and -4.md, each acted on)",
+  "marked": [
+   {
+    "s": "(Some people could give a whole lecture on their feelings without feeling one of them.)",
+    "difference": "16, 6: the parenthetical says S2 again (\"explaining it\" = a lecture on feelings) and sounds like a wise aside. His way: cut it, or fold one concrete case into S2."
+   },
+   {
+    "s": "In Intensive Short-Term Dynamic Psychotherapy, the therapist calls out each slide right as it happens and keeps turning you back toward the feeling, while watching your body for anxiety (tense muscles, sighing, a foggy head).",
+    "difference": "1: calls out slides, turns you back, and watches the body for anxiety, plus a bracketed list, all in one sentence; the reader isn't told why anxiety is watched until S6. His way: one clause each, with wh"
+   },
+   {
+    "s": "That sounds intense, and for most people who come to it, it would be, so most of them get a slower version, where the therapist helps them settle whenever the anxiety climbs too high.",
+    "difference": "8, 10: \"That sounds intense, and ... it would be, so ...\" chains three pieces and has two \"it\"s pointing at different things (the therapy, then \"intense\"); \"most people ... most of them\" repeats. \"most of th"
+   },
+   {
+    "s": "If it's one feeling in particular that scares you, like grief, Affect Phobia Therapy treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle.",
+    "difference": "2: same frame as S8 (\"If [your trouble], [Therapy] [verb]s ...\"), and S5 also opens \"In [Therapy], the therapist...\". His way: a different build for each of the three therapies."
+   },
+   {
+    "s": "And if your trouble is letting kindness in (someone cares about you and it just bounces off), Accelerated Experiential Dynamic Psychotherapy first makes sure you don't feel alone with whatever comes up, then follows how it feels in your body.",
+    "difference": "2, 1, 4: same \"If..., [Therapy]...\" frame as S7; the bracketed gloss plus \"first ... then\" packs several ideas; \"whatever comes up\" is vague (he fixed \"whatever could hurt somebody\" to a named thing). His way:"
+   }
+  ],
+  "kept": {
+   "If it's one feeling in particular that scares you, like grief, Affect Phobia Therapy treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle.": "the mark was its frame matching the next sentence, which is now built differently (\"... is for when you can't let kindness in\"), so the two no longer share the frame"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader as the needed read, given tools/humanization/fit_read_brief.md (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-6.md, parts 2 and 3)",
+  "marked": [
+   {
+    "s": "What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.",
+    "found": "\"talk therapies\" in a layer titled \"before the story comes in\"; the guide files talk therapy under story work"
+   },
+   {
+    "s": "In Intensive Short-Term Dynamic Psychotherapy, the therapist calls out each slide right as it happens and keeps turning you back toward the feeling, while watching your body for anxiety (tense muscles, sighing, a foggy head).",
+    "found": "calling out each slide reads confrontational against Layer 3's gentle promise; the anxiety signs are for the therapist"
+   }
+  ],
+  "kept": {
+   "What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.": "the new section sits at the end of Layer 3 and its first sentence says the reader can feel their body by now: these talk therapies work on a feeling as it comes up in the room, which the next paragraph shows, not on the story Layer 5 rebuilds"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on the reader's case or what helps / each sentence opens on the therapy or its watching / the case first, then the therapy / the act first",
+  "Q2": "PASS: the question is theirs to ask, for knowing whether the therapist will let them slow down",
+  "Q3": "PASS: \"a real feeling ... in a session\" / the three signs are named / \"one feeling ... like grief\", \"letting kindness in\" / \"moving away from a feeling\", \"overwhelmed\"",
+  "Q4": "PASS: \"talk therapies\" is plain / the therapy is said in what it does in the sentence that names it / each therapy is said in what it does / plain words",
+  "Q5": "PASS: \"Maybe\" and \"What helps then\" turn on the sentence before / \"All the while\" and \"Most people who come to it\" turn on the sentence before / \"The therapist first\" turns on the therapy just named / \"If the answer\" turns on the question",
+  "Q6": "PASS: the moment, its shapes, what helps / what it does, how it keeps it bearable, the slower version / second therapy, third therapy, what the third does / question, then what to do with the answer",
+  "Q7": "PASS: every fact is about their own trouble in therapy / the therapy they weigh / their own trouble / it is the step before they book",
+  "Q8": "PASS: the three signs are all anxiety signs the source names",
+  "Q9": "PASS: one step a sentence / one step a sentence / one step a sentence / one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
