@@ -748,6 +748,57 @@
     }
    ],
    "recorded_utc": "2026-11-25T17:52Z"
+  },
+  {
+   "turn": "2026-11-26T22:43Z",
+   "lines_of_work": [
+    "the romance article and its card game (Love, Honestly)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles: 6 items, each already in the ledger; suggested-fixes/love-honestly: 1 item (mailbox every turn), adopted on the game's version branch; suggested-fixes/innerself: 1 item (mailbox every turn), waiting for the pull request that vendors the approved game"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "joel-articles: nothing new for this lane (548, the daily live-post check, is another lane's and merged); love-honestly: draft pull request 2 has no comments or reviews, no open issue; innerself (attached and read this turn): no open pull request, issue 1 (the Ghost migration) is not this lane's, no comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note ~/claude-acceptance-transfer/handoffs/romance-article.md is as the last turn left it (read through Desktop Commander)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his answers of 22:17 UTC, sent again at 22:43: 1 W03 in without its why, and the other whys only where needed; 2 b; 3 ok; 4 rename I need to watch what I do, and show the full explanations; and the GitHub notices of pull request 542 (merged)"
+    }
+   ],
+   "items": [
+    {
+     "item": "1. W03 without its why; other whys only where needed",
+     "outcome": "done this turn in the game's v0.8.1: 134 of 139 why lines out, 5 kept with a reason each, W03 in"
+    },
+    {
+     "item": "2. b: who is playing first",
+     "outcome": "done this turn in the game's v0.9.0"
+    },
+    {
+     "item": "3. ok: the first screen for one person",
+     "outcome": "done this turn in v0.9.0, as written"
+    },
+    {
+     "item": "4. the label sounds like fear; show the full explanations",
+     "outcome": "done this turn in v0.9.0: renamed Life will show me, every label with its explanation; the seven given to him with their explanations in the reply"
+    },
+    {
+     "item": "innerself lane item 2026-10-31-mailbox-every-turn",
+     "outcome": "next step unchanged: adopted in the pull request that vendors the approved game file into innerself"
+    }
+   ],
+   "recorded_utc": "2026-11-26T23:04Z"
   }
  ]
 }
