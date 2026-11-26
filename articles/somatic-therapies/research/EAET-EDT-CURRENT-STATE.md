@@ -16,6 +16,8 @@ Task: continue the missing-therapy research and compare EAET with the other expe
 
 ## Deliverables
 
+Draft review: https://github.com/u-dont-existDOTcom/joel-articles/pull/545. The PR contains only the three research files, with no article-prose deletions.
+
 - EAET-EDT-RESEARCH-20261126.md: method comparison, clinical-trial findings, additional candidates, proposed placement, source access limitations, and 24-source register.
 - EAET-EDT-COVERAGE-20261126.json: nine-family coverage/disposition map.
 - This checkpoint: recoverable task state and next action.
@@ -37,14 +39,14 @@ Priority additions for editorial consideration: the missing emotional-psychother
 - Root checked primary manuals, developer descriptions, trials, and the 2025 EDT meta-analysis; exact access levels are in the report.
 - Three independent research strands expanded methods, EAET evidence, and cross-family coverage.
 - An independent report audit verified the main pain figures and corrected the internet-trial description to include its secondary completer result and written-guidance format.
-- Source IDs and document hygiene checked. Git readback is required before reporting persistence.
+- Source IDs and document hygiene checked. The report and initial checkpoint were read back exactly from GitHub.
 - Research is targeted, not a systematic review of all psychotherapies; existing article modalities were not all re-audited.
 - A 2026 EAET migraine paper was found, but primary numerical outcomes remained inaccessible. No outcome claim is made.
 - Some studies were available only as indexed primary abstracts. RESTORE full text and all errata were not fully appraised.
 - Prior research chats were not recovered in this pass. The omission from the inspected manuscript is verified; explanations of how the old research missed these therapies are inferences.
 - Sensorimotor Psychotherapy and Focusing remain previously excluded editorial choices.
 - No new universal lesson proposed: existing coverage-before-depth and source/interpretation provenance patterns were applied.
-- No laptop handoff note was updated by this research checkpoint.
+- The laptop's somatic-therapies handoff note was written, indexed, and read back successfully.
 
 ## Next action
 
