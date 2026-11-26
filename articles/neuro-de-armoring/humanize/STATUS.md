@@ -1,5 +1,32 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-26, his message of 00:50 UTC: his three card versions and answers 66 to 69 in; every warning at the top now in at Human High
+
+His message word for word: `fix-20261108/joel-20261126-0050-message.txt` (the cards export,
+`fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json`: W-ISO, W-AGMINTRO and W-HTPTOP revised with his versions and
+his checks; then 66 to 69). **The mailbox first** ("2026-11-26 00:50"): UDA AGENTS.md and LESSON-INDEX read (main
+3fce0320, unchanged); main 9346c671 merged before work (bad trips 543), with its shared changes read; no new issues or
+comments on this lane's pull requests; no notifications.
+
+- **In** (`fix-20261108/x1126a/apply_x1126a.py` and the later runs in `APPLIED-X1126A.json`; HUMANIZED-SO-FAR.md
+  a65eaa1b to 812cebd2): his three versions as he checked them (his "receptors" in the agmatine paragraph, checked by
+  me: #235, High); the plant medicines with his 66 and 67 (small steps #239 and #242, then #244, each High); The Rule
+  with his 66 (#240, then #247 with "a new romance or drama", High); uridine with his 69 (#241, #243, then #245, High);
+  the 5-HTP section's paragraph, Scenario C's 5-HTP add-on and the Shield's 5-HTP trial line with his 69 and his
+  W-HTPTOP comment (not yet humanized); the Cognitive Warning's first paragraph with the paragraph after it (#252, try 6
+  of PAIR-COG-FACES: High, one window). Fidelity PASS (owner_changes entry for W004, W015, W049 and MAO-A), keep-as-is
+  PASS (C11 to C13), comparison gate PASS (`read-1126a` to `read-1126e`, every finding at 2 or 3 with a fate).
+- **The human-tells rule fixed at its source** (his W-ISO comment: "if AI wrote it, it can't be a human tell"):
+  HUMANIZATION-GATE (E186 and a new paragraph), the budget document, FIXING-AN-ARTICLE item 7, pangram_ledger.py,
+  tell_panel.py.
+- **Blind test of the lessons from his three versions**: 0 of 3 at Human High (#236 to #238, `x1126a/blind`).
+- **Lessons neuro-2026-11-26a to i** (`docs/lessons/2026-11-26-0050-neuro.md`).
+- **What is left**: `LEFT.md`: 141 paragraphs, 24 Human High by themselves and 1 with its neighbour, 63 below, 53 never
+  checked as they stand; the warnings section has none left.
+- **Waiting on him**: questions 70 and 71. Delegations: fresh Fable readers for the Cognitive Warning's three reads and
+  for three comparison reads. Predictions #235 to #252: 17 of 18 right, Brier 0.123 against a base rate's 0.139; the
+  miss (#246) explained as shape.
+
 ## 2026-11-25, his message of 01:24 UTC: the warnings at the top, sense first, each checked by itself; six in at Human High, three teaching cards, two close
 
 His message word for word: `fix-20261108/joel-20261125-0124-message.txt`. **The mailbox first** ("2026-11-25 01:24"):

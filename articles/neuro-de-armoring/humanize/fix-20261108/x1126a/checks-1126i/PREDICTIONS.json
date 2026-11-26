@@ -1,0 +1,13 @@
+[
+ {
+  "key": "cog-c4",
+  "name": "The Cognitive Warning with the payoff in four words: \"which they mostly can't\"",
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "words": 110,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "becf575dce1dd0584d1b98e039a6a5386d8a703bbcb2b48486f31f849ce93842"
+ }
+]

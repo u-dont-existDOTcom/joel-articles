@@ -1,0 +1,95 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "blind-htp": {
+   "uuid": "93974d68-5c44-448f-9280-812ced15a0cc",
+   "at": "2026-11-25T20:19:39.915920-05:00",
+   "headline": "AI Detected",
+   "ai": 0.7076322436332703,
+   "words": 210,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     95,
+     "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repair, so don't use them as \"trip enhancers\", and don't count on your usual psychedelic dose acting the way it used to, because in practice they can quickly change how strongly psychedelics hit you. 5-HTP is the bigger risk, since it's what your body makes serotonin out of, so taking it on top of anything else that raises serotonin is how people end up with serotonin syndrome, which can be deadly (see the 5-HTP section)."
+    ],
+    [
+     "Human",
+     "Low",
+     27,
+     "That's why you should never take 5-HTP while you're on any of these: SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     27,
+     "John's wort, SAM-e or L-tryptophan (if one of them is prescribed to you, the thing to skip is the 5-HTP, not your medication)."
+    ],
+    [
+     "Human",
+     "Medium",
+     34,
+     "Rule: psychedelics act on serotonin too, so do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga, iboga microdoses included."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     27,
+     "Those two get the stricter rule because ayahuasca's harmalas inhibit MAO-A, which amplifies the serotonin load, while ibogaine and noribogaine interact with serotonin transport themselves."
+    ]
+   ]
+  },
+  "blind-agm": {
+   "uuid": "8f472428-c681-4ed6-9c51-e3dbbfccde60",
+   "at": "2026-11-25T20:19:26.955574-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 104,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     22,
+     "Agmatine Warning (The Voltage Governor): Agmatine is optional in this protocol, where it's used as a brake on NMDA/glutamate signaling."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     82,
+     "It's sold as a supplement, but it's a neuromodulator, meaning it changes how your nerve cells signal to each other, so it can interact with a lot more medications than a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine would. That's because it doesn't only act on glutamate: it also acts on imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance, which is why the precautions below name blood pressure drugs and opioids."
+    ]
+   ]
+  },
+  "blind-iso": {
+   "uuid": "0f16e976-472e-4870-b00f-011b60cdb559",
+   "at": "2026-11-25T20:19:16.845812-05:00",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 116,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     116,
+     "Behavioral Warning (The Isolation Trap): This protocol demands starving your brain of \"Phasic\" Dopamine, which is the burst you get from excitement, novelty and the chase, and the easiest way to do that is to hole up alone, but do not isolate completely. Total social isolation spikes cortisol, the chronic stress hormone, which sensitizes your brain to glutamate (the signal this protocol is trying to quiet), and that's how being alone locks the armor in place even if you've never had an addiction. So you still need people around you, as long as it's the calm kind of company, because their presence is what gives you the \"Oxytocinergic Anchoring\" that keeps you steady."
+    ]
+   ]
+  },
+  "agm-his": {
+   "uuid": "2d5f8c39-9e62-4301-ab59-5e416a8c26d5",
+   "at": "2026-11-25T20:19:07.514075-05:00",
+   "headline": "Human Written",
+   "ai": 0,
+   "words": 91,
+   "windows": [
+    [
+     "Human",
+     "High",
+     91,
+     "Agmatine Warning (The \"Voltage Regulator\"): Agmatine acts like a brake on NMDA/glutamate signaling, which is why we use it in this protocol. But we'll keep it as an optional add-on, since it can interact with a lot more medications than the protocol's safer nutrients would (magnesium, phosphatidylcholine, etc.). People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance."
+    ]
+   ]
+  }
+ }
+}

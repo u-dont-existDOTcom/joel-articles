@@ -1,0 +1,21 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126e/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126e/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 109,
+   "original_words": 87,
+   "first": "A Complete Guide to Bio-De-Armoring (the Cognitive Warning, as it would read)",
+   "last": "A Complete Guide to Bio-De-Armoring (the Cognitive Warning, as it would read)",
+   "rewrite_blocks": [
+    0,
+    2
+   ],
+   "coverage": [
+    "b264bb2bb46e75d7",
+    "bcb8fc51c28bbef0"
+   ]
+  }
+ ]
+}

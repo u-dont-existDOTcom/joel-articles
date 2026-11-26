@@ -216,8 +216,9 @@ def summarize(d):
     if not any(whole.values()):
         out.append('None.')
     out += ['', '## Words readers called human, and no reader flagged as AI', '',
-            'These are the readers\' calls, not human tells: a human tell is Joel\'s words, a fact he gave, or a rough edge '
-            '(E251, E256 (Inner Child)).', '']
+            'These are the readers\' calls, not human tells: a human tell is Joel\'s own writing, a fact he gave, or a '
+            'feature on a list of real human tells drawn from human writing; words a model wrote are never one, however '
+            'rough (E251, E256 (Inner Child); lesson neuro-2026-11-26a: "if AI wrote it, it can\'t be a human tell").', '']
     out += ['- %s: "%s"' % (n, q) for n, q in clean_human] or ['None.']
     if lost:
         out += ['', '## Quotes not found in the paragraph (a paraphrase, or another text)', '']

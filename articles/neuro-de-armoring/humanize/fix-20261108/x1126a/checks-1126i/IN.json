@@ -1,0 +1,16 @@
+{
+ "cog-c4": {
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "name": "The Cognitive Warning with the payoff in four words: \"which they mostly can't\"",
+  "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/COG-C4.receipt.json",
+  "tells": "\"You will feel ... You will assume\" (two parallel sentences, his)",
+  "human_tells": "his writing, the whole first paragraph (the post's own) but \"which they mostly can't\"",
+  "diagnosis": "as it stands: Human, first window Medium (https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c); the payoff as a longer \"but\" clause read lower (https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f); last turn, \"which they mostly can't\" lifted my version to Human in every window where a longer clause had not (https://www.pangram.com/history/bda984c5-6d7a-4260-9134-7a1ac5800bbb)",
+  "decides": "whether the payoff in four words lifts the first window to High; if not, the paragraph stays his as it stands and I ask him",
+  "humanized": "his paragraph kept word for word but the payoff the reads asked for, in four plain words where the assumption is named, as a which-clause he uses himself",
+  "first_fix": "payoff: S2 now says the assumption is wrong where it is named; join: none, the join read lower in step 2; plain: the payoff in four plain words, not the longer clause of step 1"
+ }
+}

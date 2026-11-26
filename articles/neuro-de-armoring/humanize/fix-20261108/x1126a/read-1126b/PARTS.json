@@ -1,0 +1,22 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126b/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126b/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 281,
+   "original_words": 129,
+   "first": "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read)",
+   "last": "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read)",
+   "rewrite_blocks": [
+    0,
+    3
+   ],
+   "coverage": [
+    "88ea0bff49f90757",
+    "5263790ccc0394fd",
+    "660945369044c4af"
+   ]
+  }
+ ]
+}

@@ -33,7 +33,8 @@ Nothing is edited in place; a correction is a new line.
 its tries (six for a paragraph, pair, heading or sentence; two for a section, stretch or whole article); a submission of the
 lineage has no result yet (recover it from Pangram's History, or `void` it if it was never sent); an earlier try of the
 lineage failed and no diagnosis is given; the last two results of the lineage were misses and neither is explained (stop and
-ask Joel: "I can't find AI tells here, and here are the human tells I see, but it doesn't pass. Can you explain?"); or the
+ask Joel: "I can't find AI tells here, and here are the human tells I see, but it doesn't pass. Can you explain?",
+naming as human tells only his own writing or features on a list drawn from human writing); or the
 same text (same SHA-256) was already submitted in the lineage (read the cached result instead). A forecast is never a
 reason to skip a check a rule requires, and the counter is the floor of the budget rule, not all of it: the rule's diagnosis
 and stop conditions still need a person's judgment.
@@ -240,7 +241,9 @@ def refusals(recs, rec, text=None):
         out.append('the chance is of a 100% Human result, not the confidence in the call: a Human call needs at least 0.5 '
                    'and an AI call at most 0.5 (got ' + str(rec['chance']) + ' for a ' + rec['call'] + ' call)')
     if not rec.get('tells') and not rec.get('human_tells'):
-        out.append('no evidence: name the AI tells and the human tells in the actual words (the rule asks for both)')
+        out.append('no evidence: name the AI tells in the actual words, and any human tells (only his own writing or a feature '
+                   'on a list of real human tells drawn from human writing: words a model wrote are never one, lesson '
+                   'neuro-2026-11-26a)')
     scope = rec['scope']
     # E218, E325 (Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits"): a half,
     # a whole article or anything over 1,200 words is checked free in a temporary Substack draft, never through the API
@@ -1078,7 +1081,10 @@ def main(argv=None):
     p.add_argument('--chance', type=float, help='my chance of a 100%% Human result, not my confidence in the call: '
                    'a Human call is at least 0.5, an AI call at most 0.5')
     p.add_argument('--tells', action='append')
-    p.add_argument('--human-tells', action='append')
+    p.add_argument('--human-tells', action='append',
+                   help='only his own writing in the text (his words, a version or line of his, a fact he gave) or a '
+                        'feature on a list of real human tells drawn from human writing; never words a model wrote, '
+                        'however rough (lesson neuro-2026-11-26a)')
     p.add_argument('--diagnosis')
     p.add_argument('--decides')
     p.add_argument('--key')

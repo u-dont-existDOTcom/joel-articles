@@ -1,9 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-25, after your message of 01:24 UTC.
-**Open questions: 4** (66 to 69). **For you to do**: three teaching cards on [the cards page](https://claude.ai/artifact/Fjp7rvxUptxhGUdHS1o3tX) (the Isolation
-Trap, what agmatine is, the 5-HTP warning). Six of the eleven warnings [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) are in at Human High by
-themselves; two short ones are close and are mine to finish.
+Last updated 2026-11-26, after your message of 00:50 UTC.
+**Open questions: 2** (70 and 71). **For you to do**: nothing. All eleven warnings [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring)
+are now in at Human High: yours as you wrote them on the cards, mine each checked by itself (or with its neighbour when
+it is under 50 words).
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -12,49 +12,81 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 66. What I added to the warnings that went in: keep it all, or say which to take out?** To make each warning
-say what it is for, I added things your post didn't say there. They are marked, beside your post, on
-[this page](https://claude.ai/artifact/KvqajbN6mmHQWk5DKPJeGJ). DMSO: what it is and what the protocol uses it for; glass "since it can leach chemicals out of some
-plastics"; washing lotions and other products off; the smoker's caution and its first sign, feeling weak (both from
-your DMSO article). Electrolytes: the reason, and the blood pressure drugs that hold on to potassium (from your
-[Electrolytes section](https://ibogaqueen.substack.com/i/181671197/1-electrolytes-choose-your-path)). The plant
-medicines: iboga as "an African root bark", and that iboga's risks are the serious ones, to the heart and nervous
-system (from your 5-HTP warning). The Cognitive Warning's second paragraph: "at least until", and "since a racing heart
-means your reasoning brain is offline"; it no longer has 'It is calibrated to "Threat," not "Truth."' Uridine: that
-psychedelics can hit harder "within a day", dreams more vivid and cravings weaker, "take less" on your first trip, and
-"I don't have studies on it" (each from your
-[UMP section](https://ibogaqueen.substack.com/i/181671197/dopamine-receptor-burnout-daws-pattern-uridine-monophosphate)).
-Two changes of layout: "⚠️ CRITICAL MEDICAL DISCLAIMER:" is a line of its own again, as in your post, and the 5-HTP rule
-sentence sits at the end of the 5-HTP paragraph, not at the head of the uridine one.
+**🟣 70. "Anywhere near iboga" at the top, "fine the day before iboga" in the 5-HTP section: leave both?** Your 5-HTP
+warning at the top (your card W-HTPTOP) says "Do not use it anywhere near iboga, even when microdosing". Your answer 69
+is now in [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p):
+"never take 5-HTP on the same day as either one, though it's fine the day before, or the day after ayahuasca", then the
+waits after iboga. A careful reader could see the day before as "near".
 
-- a) Keep them all. (My pick: each one answers something a fresh reader couldn't tell, and each comes from elsewhere in
-  your article or your DMSO article, except the plastics, which I checked:
-  [Sigma-Aldrich](https://www.sigmaaldrich.com/product/sigma/D2650).)
+- a) Leave both. (My pick: the top already sends readers to the 5-HTP section, and a reader who stops at the top errs on
+  the safe side by skipping 5-HTP around iboga altogether.)
+- b) Change the top to "near iboga (the 5-HTP section says how near), even when microdosing", checked again before it
+  goes in.
+
+**🟣 71. What I added or changed this turn beyond your words: keep it all, or say which to take out?**
+
+- The plant medicines: "Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures when taken
+  with psychedelics" ([Nayak and others, 2021](https://pubmed.ncbi.nlm.nih.gov/34348413/): of 62 reports of lithium with
+  a psychedelic, 47% involved seizures). A fresh reader on psychiatric medication took the mushrooms for the safe choice.
+  With it, "Both are illegal ... and carry risks, and iboga can be dangerous for your heart": my ranking "iboga's are the
+  serious ones" is out, since it said the mushrooms' risks weren't serious.
+- The Rule: "though there's no need to leave the partner you have" (your 66, in my words), and "a new romance or
+  drama" where the draft said "either one", which a reader took for the two kinds of love.
+- The 5-HTP section: your 69 in my words, with "never take 5-HTP on the same day as either one" said outright (a reader
+  saw the paragraph say when 5-HTP is fine without saying when it isn't), the waits from the shortest up, and "flood
+  dose (one big dose)". The same-day rule for psychedelics in general is out in all three places it was (that
+  paragraph, Scenario C's 5-HTP add-on and the Shield's 5-HTP trial line), from your comment on W-HTPTOP.
+- The Cognitive Warning: "You will assume everyone can see your anxiety, which they mostly can't", and "Nicholas Epley"
+  without "Dr." (Pangram split a one-word window off at "Dr."). All three fresh readers found the paragraph never said
+  that others see much less of your anxiety, which is what the warning is for.
+- Not added: that 5-HTP may be fine or even good to mix with psychedelics. The reports you pasted are few and mixed (two
+  bad ones; DMT's visuals dulled), and you weren't sure it was worth saying.
+
+- a) Keep them all. (My pick: each answers something a fresh reader couldn't tell or misread, and the lithium line is
+  sourced.)
 - b) Tell me which to take out.
 
-**🟣 67. Does your iboga guide say which medications are a problem with iboga?** The plant-medicine item now says "if
-you take any medication, check it against my full iboga guide here first". I couldn't open the guide from this session
-(opening it needed your approval and you weren't there), so I don't know that it has such a list.
+## For you to do
 
-- a) It does: the sentence stays. (My pick if it does: a reader on medication then has somewhere to look.)
-- b) It doesn't: back to your "See full iboga guide here".
+- 🟢 Nothing. Your three cards are in.
 
-**🟣 68. "Illusion of Transparency": credit Epley's book only, or the researchers who named it too?** The name comes
-from a 1998 paper by Gilovich, Savitsky and Medvec ([PubMed](https://pubmed.ncbi.nlm.nih.gov/9731312/)). Your post
-credits Dr. Nicholas Epley's *Mindwise*; my search confirmed the paper, and didn't confirm that the book uses those
-words.
+## Your message of 2026-11-26 00:50 UTC, and what I did
 
-- a) Keep the credit to Epley's book, as you have it. (My pick: you've read the book and I haven't, and the sentence
-  only says that he calls it that there.)
-- b) Name the researchers, and keep the book as where to read about it.
+- 🟢 **Your three versions are in, as you wrote and checked them** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/APPLIED-X1126A.json)):
+  the Isolation Trap ([your check](https://www.pangram.com/history/364ba0a6-ea20-4584-85e8-5d8ca2c733d0), with your link on "Phasic" Dopamine);
+  what agmatine is, with your "receptors" for "tone" ([your "tone" check](https://www.pangram.com/history/75d40a7b-25a9-4eb1-9ab6-6635b66eff58);
+  with "receptors", [Human Written, one window, High](https://www.pangram.com/history/2d5f8c39-9e62-4301-ab59-5e416a8c26d5)); the 5-HTP warning
+  ([your check](https://www.pangram.com/history/bc1f203e-34da-44e7-99db-6e4140130364), with the link to the 5-HTP section kept). Two double spaces
+  and "etc" without its point were fixed as typos.
+- 🟢 **"If AI wrote it, it can't be a human tell": the rule is fixed where it lives**, in the shared gate, the budget
+  document, the fixing guide and both tools (lesson neuro-2026-11-26a). A human tell is now only your own writing, a
+  fact you gave, or a feature on a list of real human tells drawn from human writing; when a paragraph has none, the
+  prediction says so.
+- 🟢 **66**: the nervous-system risk is out of the plant medicines (kept out: [the keep-as-is list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/KEEP-AS-IS.json), C11), and The Rule no
+  longer reads as "leave your partner": "this may not be a good time to jump into a new romance or drama, though
+  there's no need to leave the partner you have". Everything else I'd added stays, as you didn't name it.
+- 🟢 **67**: the plant medicines say to ask an AI whether a medication is one of the ones not to mix with iboga, "since
+  AI is pretty good at that", with your guide ("lists some of them") and the microdosing protocol still linked.
+- 🟢 **68a**: the credit stays with Epley's *Mindwise*.
+- 🟢 **69**: uridine now says it can hit "some people a lot harder", "especially 'hard heads'", and to start the first
+  trip on it at a third of the old psychedelic dose; the 5-HTP section has your waits around ayahuasca and iboga. DMSO's
+  "only a little at a time" stays as you wrote it, as you gave no number.
+- 🟢 **The rest of the warnings, each Human High** (every try: [the scorecard](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/SCORECARD.md)):
+  the plant medicines, after two one-answer steps that read High ([your 66](https://www.pangram.com/history/ebe5c0d3-8542-477e-9530-d046ca9af3f1),
+  [your 67](https://www.pangram.com/history/ce8f1f83-4f9c-438c-bb53-338af9454829)), [on its third try this turn](https://www.pangram.com/history/c6b0ce3a-3677-45aa-bf26-0b425cb58b3f);
+  uridine, after two steps that read High ([1](https://www.pangram.com/history/1a32497a-170b-4509-a586-beccff78cd45), [2](https://www.pangram.com/history/5cc5532c-93d7-4df8-9ec7-3eabbf2c6ca8)),
+  [on its third](https://www.pangram.com/history/7aa023e7-18ad-4a29-94c6-ba32631be997); The Rule by itself [on its first](https://www.pangram.com/history/d59de519-9b7d-498a-8ca4-26f1667c60d9),
+  and with "a new romance or drama" [on its second](https://www.pangram.com/history/f981a309-164a-4f7d-a198-c470b773ebdc); the Cognitive Warning
+  with the paragraph after it [on its sixth](https://www.pangram.com/history/aeb0115a-dadf-489b-a096-828677f55f06) (as you wrote it, it read Human
+  with its first sentence at [Medium](https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c); a longer payoff and the join each read
+  lower; "which they mostly can't" read High but for one word, "Dr.").
+- 🟢 **Your fixes, tested blind**: a fresh writer given the lessons from your three versions, without seeing them,
+  rewrote the three paragraphs; none read Human High ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/checks-1126a/RESULTS.md)). What
+  they lacked is lesson neuro-2026-11-26f.
+- 🟢 **Read beside your post before they went in**: four comparison reads, every finding at 2 or 3 fixed or yours
+  ([read-1126c](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126c/READER-1.md), the last of them, on the final words).
 
-**🟣 69. Three places where a fresh reader asked "how much?"** How much less psychedelic to take on the first trip
-after starting UMP ("take less"); how many days "anywhere near" ayahuasca or iboga means for 5-HTP; and how much DMSO a
-smoker can breathe in ("only a little at a time"). I have no source for a number in any of them, so they say what you
-said.
-
-- a) Leave all three as they are. (My pick, unless you have a number you'd stand behind.)
-- b) Give me a number or a rule of thumb for any of them.
+## Your message of 2026-11-25 01:24 UTC, and what I did
 
 - 🟢 **Not contradictions, from this check** (say if you see one otherwise): the keto diet in Weeks 3–7 ([your 51a](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123b/APPLIED-X1123B.json) says
   Strategy B is there for those weeks, Weeks 3–7 says to consider it then, and your line adds it last; "Drink BHB" is a
@@ -67,20 +99,6 @@ said.
   beside them (below).
 - 🟢 **9 and 10, answered by your paragraph**: DeltaFosB stays the armor, and what it does is keep the learning from
   clicking, with the loop as what keeps it going. Nothing else in the article changes for them.
-
-## For you to do
-
-- 🟠 **Three teaching cards**, on [the cards page](https://claude.ai/artifact/Fjp7rvxUptxhGUdHS1o3tX) (the same cards as text:
-  [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/REVIEW-X1125A.md)). Each is a warning where every try of mine read AI by itself, and each has room for
-  your version.
-  - **The Isolation Trap**: [try 1: 100% AI](https://www.pangram.com/history/2bef0402-3916-4f9c-b1cd-2678afe1b0fd), [try 2: 100% AI](https://www.pangram.com/history/e4fe5ff4-a18f-4149-9012-602e43efe756), [try 3: 100% AI](https://www.pangram.com/history/11c50d40-e436-4393-be4f-522934cc9c33). One window, AI High, each time.
-  - **What agmatine is** (the Agmatine Warning's first paragraph): [try 1: 100% AI](https://www.pangram.com/history/61e59dc5-7acd-488f-be9d-6277cdbdc2d4), [try 2: 100% AI](https://www.pangram.com/history/08c6a4d2-9228-4ddd-a038-6988c2a72769), [try 3: 100% AI](https://www.pangram.com/history/2829fcb4-fcf2-4f52-b75d-70268695285b). One window, AI High, each time.
-  - **The 5-HTP warning for psychedelic users**: [try 1: 84.9% AI](https://www.pangram.com/history/de9dc2c7-5af6-4ab3-8070-fbd0eaf7fc0d), [try 2: 67.2% AI](https://www.pangram.com/history/1b3bfd01-d122-4085-ad46-3824d7028a01), [try 3: 100% AI](https://www.pangram.com/history/b0b8ebed-8061-4fc0-a1b3-f37c57705130). The card shows try 2, where the list read Human High and the rule
-    Human Medium.
-
-  Until your versions, the article keeps your post's words for all three.
-
-## Your message of 2026-11-25 01:24 UTC, and what I did
 
 - 🟢 **Six of the eleven warnings [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) are in, each Human High in one window by itself** ([what went
   in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/APPLIED-X1125A.json), [beside your post](https://claude.ai/artifact/KvqajbN6mmHQWk5DKPJeGJ)):

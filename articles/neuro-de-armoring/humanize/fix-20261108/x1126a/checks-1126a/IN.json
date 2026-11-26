@@ -1,0 +1,47 @@
+{
+ "agm-his": {
+  "lineage": "neuro-de-armoring/W-AGMINTRO-his",
+  "scope": "paragraph",
+  "name": "His agmatine paragraph with his own \"receptors\" for \"tone\"",
+  "text": "Agmatine Warning (The \"Voltage Regulator\"): Agmatine acts like a brake on NMDA/glutamate signaling, which is why we use it in this protocol. But we'll keep it as an optional add-on, since it can interact with a lot more medications than the protocol's safer nutrients would (magnesium, phosphatidylcholine, etc.). People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance.",
+  "chance": 0.85,
+  "unchanged": "his version on card W-AGMINTRO (cards export of 2026-11-26), with his own fix \"receptors\" for \"tone\" (his comment: \"when i changed tone to receptors it flipped that section human\") and two typos fixed",
+  "tells": "\"Agmatine Warning (The \"Voltage Regulator\"):\" as a label",
+  "human_tells": "his writing, all of it: \"which is why we use it in this protocol\", \"But we'll keep it as an optional add-on\", \"People may think it's pretty safe\"",
+  "diagnosis": "his version with \"tone\" read Human Written, one window, High (https://www.pangram.com/history/75d40a7b-25a9-4eb1-9ab6-6635b66eff58); he said \"tone\" was unclear and that \"receptors\" flipped that part to Human in his tries, and kept \"tone\" on the card only to show the trigger",
+  "decides": "whether his clearer word goes in with its own check; if it reads below High, his checked text with \"tone\" goes in and I tell him"
+ },
+ "blind-iso": {
+  "lineage": "neuro-de-armoring/W-ISO-blind (x1126a)",
+  "scope": "paragraph",
+  "name": "Blind test: the Isolation Trap rewritten from this turn's lessons alone",
+  "text": "Behavioral Warning (The Isolation Trap): This protocol demands starving your brain of \"Phasic\" Dopamine, which is the burst you get from excitement, novelty and the chase, and the easiest way to do that is to hole up alone, but do not isolate completely. Total social isolation spikes cortisol, the chronic stress hormone, which sensitizes your brain to glutamate (the signal this protocol is trying to quiet), and that's how being alone locks the armor in place even if you've never had an addiction. So you still need people around you, as long as it's the calm kind of company, because their presence is what gives you the \"Oxytocinergic Anchoring\" that keeps you steady.",
+  "chance": 0.3,
+  "unchanged": "a fresh Fable writer's rewrite from x1126a/blind/BRIEF.md alone (this turn's lessons with examples from other paragraphs, and the section with my card version in place), the blind test of lessons drawn from his fixes (AGENTS.md, lesson romance-2026-11-22h); checked as written",
+  "tells": "\"(the signal this protocol is trying to quiet)\"; \"that's how being alone locks the armor in place\"; the long sentences each with three clauses",
+  "diagnosis": "my three tries read 100% AI; his version read Human High; this tests whether the lessons alone carry what his version did",
+  "decides": "how much of his fix the lessons can teach without his words"
+ },
+ "blind-agm": {
+  "lineage": "neuro-de-armoring/W-AGMINTRO-blind (x1126a)",
+  "scope": "paragraph",
+  "name": "Blind test: what agmatine is, rewritten from this turn's lessons alone",
+  "text": "Agmatine Warning (The Voltage Governor): Agmatine is optional in this protocol, where it's used as a brake on NMDA/glutamate signaling. It's sold as a supplement, but it's a neuromodulator, meaning it changes how your nerve cells signal to each other, so it can interact with a lot more medications than a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine would. That's because it doesn't only act on glutamate: it also acts on imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance, which is why the precautions below name blood pressure drugs and opioids.",
+  "chance": 0.3,
+  "unchanged": "a fresh Fable writer's rewrite from x1126a/blind/BRIEF.md alone (this turn's lessons with examples from other paragraphs, and the section with my card version in place), the blind test of lessons drawn from his fixes (AGENTS.md, lesson romance-2026-11-22h); checked as written",
+  "tells": "\"meaning it changes how your nerve cells signal to each other\"; \"That's because it doesn't only act on glutamate\"; \"tone\" kept",
+  "diagnosis": "my three tries read 100% AI; his version read Human High",
+  "decides": "how much of his fix the lessons can teach without his words"
+ },
+ "blind-htp": {
+  "lineage": "neuro-de-armoring/W-HTPTOP-blind (x1126a)",
+  "scope": "paragraph",
+  "name": "Blind test: the 5-HTP warning, rewritten from this turn's lessons alone",
+  "text": "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repair, so don't use them as \"trip enhancers\", and don't count on your usual psychedelic dose acting the way it used to, because in practice they can quickly change how strongly psychedelics hit you. 5-HTP is the bigger risk, since it's what your body makes serotonin out of, so taking it on top of anything else that raises serotonin is how people end up with serotonin syndrome, which can be deadly (see the 5-HTP section). That's why you should never take 5-HTP while you're on any of these: SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e or L-tryptophan (if one of them is prescribed to you, the thing to skip is the 5-HTP, not your medication). Rule: psychedelics act on serotonin too, so do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga, iboga microdoses included. Those two get the stricter rule because ayahuasca's harmalas inhibit MAO-A, which amplifies the serotonin load, while ibogaine and noribogaine interact with serotonin transport themselves.",
+  "chance": 0.25,
+  "unchanged": "a fresh Fable writer's rewrite from x1126a/blind/BRIEF.md alone (this turn's lessons with examples from other paragraphs, and the section with my card version in place), the blind test of lessons drawn from his fixes (AGENTS.md, lesson romance-2026-11-22h); checked as written",
+  "tells": "\"Those two get the stricter rule because\"; \"Rule:\"; the list of thirteen; \"(if one of them is prescribed to you, the thing to skip is the 5-HTP, not your medication)\"",
+  "diagnosis": "my three tries read AI (best 67.2%); his version read Human High; the writer cut the unrelated iboga risk as he did",
+  "decides": "how much of his fix the lessons can teach without his words"
+ }
+}

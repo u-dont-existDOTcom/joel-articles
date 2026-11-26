@@ -1,0 +1,15 @@
+MARKED:
+- S1: 1 — five ideas in one sentence (no serotonin rise, a different caution, Scott's experience, no studies, the effect itself); his way gives the effect its own sentence and the source another.
+- S1: 9, 11 — the source and its limit come before the claim, so "psychedelics can hit harder" arrives last after a colon; his way says the claim first, then what it rests on ("based on ...").
+- S1: 16 — "it comes from experience like Scott's below, since I don't have studies on it" says the limit twice; his way: "I don't have studies to back this up, but Scott (below) ...".
+- S1: 3, 4 — "doesn't raise serotonin, so its caution is a different one": a contrast with a label ("its caution", "a different one") where the sentence could say the thing itself; different from what is never said.
+- S1: 10 — "within a day of starting uridine" reads two ways (only during the first day, or from the first day onward), and "on it" could be uridine or the caution; his way names it ("studies on uridine") and says how long the effect lasts.
+- S2: 12, 17 — "So" doesn't follow: if UMP is kept off trip days, nothing says the boost carries over to a trip on a day without it, so the reader can't see why the first trip still needs a third of the dose; missing is a line that the effect lasts while you're taking UMP on other days.
+- S2: 16 — "since UMP can boost the effects a lot" says S1's "psychedelics can hit harder" again; his way keeps only the new part (who it hits most).
+- S2: 1 — two instructions, a reason and who is most affected in one sentence; his way gives the first-trip dose its own sentence with its reason.
+- S2: 14 — "do not take UMP on the same day" is a flat rule against the natural thing (taking a daily supplement every day) with no word on skipping and picking it up the next day.
+- S2: 4 — "your old psychedelic dose" and "boost the effects a lot" leave the amounts loose (the dose from before UMP; how much stronger); "hard heads" is explained, but not whether they get the bigger boost or just start from a bigger dose.
+- S3: 12, 29 — "It may also" follows a dosing instruction, so the sentence stands apart from the effects in S1 that it belongs with; his way puts what UMP changes together, before the instruction.
+- S3: 10 — "It" could be UMP or the lowered first dose; "which are the benefits you're hoping for" could cover both dreams and cravings or only the cravings. Name UMP and say which one is the benefit.
+- S3: 4 — "your cravings" for what is not said.
+- S3: 6 — ends on a summing-up tag ("which are the benefits you're hoping for"); his way cuts it or ends on what to do.

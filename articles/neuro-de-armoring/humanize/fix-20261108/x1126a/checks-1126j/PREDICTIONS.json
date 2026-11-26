@@ -1,0 +1,13 @@
+[
+ {
+  "key": "cog-c5",
+  "name": "The Cognitive Warning with the four-word payoff and no \"Dr.\" (where Pangram split off a one-word window)",
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "words": 109,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "46e63a943f1c6c857a0bdc78e9971e5cb1e15b35df50783a8c17326b08c9bc8c"
+ }
+]

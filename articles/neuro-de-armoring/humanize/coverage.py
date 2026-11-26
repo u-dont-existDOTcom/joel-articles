@@ -32,6 +32,8 @@ GIT = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community
 def norm(s):
     s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s or '')
     s = s.replace('**', '').replace('’', "'").replace('“', '"').replace('”', '"')
+    # italics as typed into Pangram: the words without their marks (the Cognitive Warning's *Mindwise*, 2026-11-26)
+    s = re.sub(r'(?<![\w*])\*(?=\S)([^*\n]+?)(?<=\S)\*(?![\w*])', r'\1', s)
     return re.sub(r'\s+', ' ', s).strip()
 
 

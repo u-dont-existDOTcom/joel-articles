@@ -1,0 +1,121 @@
+{
+ "runs": [
+  {
+   "about": "his message of 2026-11-26 00:50 UTC (../joel-20261126-0050-message.txt) and his three versions",
+   "applied": [
+    {
+     "key": "ethno",
+     "whose": "mine",
+     "why": "his 66 (no nervous-system risk) and 67 (ask an AI about interactions; the guide stays linked for more)",
+     "check": "my check, this turn, after two small steps that read Human High (his 66: https://www.pangram.com/history/ebe5c0d3-8542-477e-9530-d046ca9af3f1; his 67: https://www.pangram.com/history/ce8f1f83-4f9c-438c-bb53-338af9454829): https://www.pangram.com/history/c6b0ce3a-3677-45aa-bf26-0b425cb58b3f (Human Written, one window, High, 101 words)",
+     "old": "Ethnobotanicals: The plant medicines in this protocol are iboga (an African root bark) and psilocybin mushrooms. Both are illegal in many jurisdictions and carry risks, and iboga's are the serious ones, since it can be dangerous for your heart and nervous system. So never combine Iboga with most medications (especially heart & psych meds), and if you take any medication, check it against my full [iboga guide here](http://iboga.u-dont-exist.com/) first (the iboga [microdosing protocol is here](http://ibogamicroprotocol.u-dont-exist.com/)).",
+     "new": "Ethnobotanicals: The plant medicines in this protocol are iboga (an African root bark) and psilocybin mushrooms. Both are illegal in many jurisdictions and carry risks, and iboga can be dangerous for your heart. So never combine iboga with most medications (especially heart & psych meds). If you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full [iboga guide here](http://iboga.u-dont-exist.com/) lists some of them, and the iboga [microdosing protocol is here](http://ibogamicroprotocol.u-dont-exist.com/)). Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures when taken with psychedelics."
+    },
+    {
+     "key": "iso",
+     "whose": "his",
+     "why": "his version (W-ISO), with his link for \"Phasic\" Dopamine",
+     "check": "his check: https://www.pangram.com/history/364ba0a6-ea20-4584-85e8-5d8ca2c733d0 (Human Written, one window, High, 108 words)",
+     "old": "Behavioral Warning (The Isolation Trap): While this protocol demands starving the brain of \"Phasic\" Dopamine (excitement, novelty, the chase), do not isolate completely. Total social isolation spikes Cortisol, the chronic stress hormone, which sensitizes the brain to Glutamate and effectively locks the armor in place even without any addiction. You need the \"Oxytocinergic Anchoring\" of healthy social relationships, because humans are social animals.",
+     "new": "Behavioral Warning (The Isolation Trap): This neural de-armoring protocol demands starving your brain of [\"Phasic\" Dopamine](https://www.sciencedirect.com/science/article/pii/S0959438825001059), which works in the brain to produce learning and excitement when chasing novelty. The easiest way for most folks to take a break from that is to hole up alone. But don't isolate completely, because that actually spikes cortisol, the chronic stress hormone. And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove. Calm company, like nature walk buddies, goes the other way, anchoring you via oxytocin, the bonding hormone. Good friends are ultimately more vital than any brain repair protocol."
+    },
+    {
+     "key": "rule",
+     "whose": "mine",
+     "why": "his 66 on P6: a new romance, and \"maybe not a good time to jump into it\", in place of \"avoid romance\"",
+     "check": "my check, this turn: https://www.pangram.com/history/d59de519-9b7d-498a-8ca4-26f1667c60d9 (Human Written, one window, High, 71 words)",
+     "old": "The Rule: Seek \"Boring Love\" (parallel play, reading next to someone, safe touch). Avoid \"Exciting Love\" (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+     "new": "The Rule: Seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into either one, though there's no need to leave the partner you have."
+    },
+    {
+     "key": "agm",
+     "whose": "his",
+     "why": "his version (W-AGMINTRO) with his \"receptors\" for \"tone\"; typos fixed",
+     "check": "his \"tone\" version: https://www.pangram.com/history/75d40a7b-25a9-4eb1-9ab6-6635b66eff58 (Human Written, one window, High, 81 words); with his \"receptors\", this turn: https://www.pangram.com/history/2d5f8c39-9e62-4301-ab59-5e416a8c26d5 (Human Written, one window, High, 91 words)",
+     "old": "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.",
+     "new": "Agmatine Warning (The \"Voltage Regulator\"): Agmatine acts like a brake on NMDA/glutamate signaling, which is why we use it in this protocol. But we'll keep it as an optional add-on, since it can interact with a lot more medications than the protocol's safer nutrients would (magnesium, phosphatidylcholine, etc.). People may think it's pretty safe, since it's a common health supplement, but we have to treat it with caution since it acts powerfully on imidazoline/alpha-2 adrenergic receptors, nitric-oxide pathways, and opioid reward/tolerance."
+    },
+    {
+     "key": "htp",
+     "whose": "his",
+     "why": "his version (W-HTPTOP), with the link to the 5-HTP section carried over",
+     "check": "his check: https://www.pangram.com/history/bc1f203e-34da-44e7-99db-6e4140130364 (Human Written, one window, High, 125 words)",
+     "old": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk. Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga.",
+     "new": "Uridine & 5-HTP Warning for Psychedelic Users: These two supplements are in this protocol for repairing neural signaling, and they can quickly change how strongly psychedelics hit you, so don't mix everything together all at once. Especially dangerous would be to take 5-HTP with anything else that raises serotonin levels, since 5-HTP is also what your body makes serotonin out of. That's how folks end up with serotonin syndrome, which can be deadly (see [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p)). The following drugs are especially dangerous to take with 5-HTP: SSRIs, SNRIs, MAOIs (including ayahuasca), linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e or L-tryptophan. Do not use it anywhere near iboga, even when microdosing, because ibogaine and noribogaine in iboga interact with serotonin transport."
+    },
+    {
+     "key": "uri",
+     "whose": "mine",
+     "why": "his 69: start with a third of the old dose, and why (a lot, in some people, hard heads most)",
+     "check": "my check, this turn, after two small steps that read Human High (https://www.pangram.com/history/1a32497a-170b-4509-a586-beccff78cd45, https://www.pangram.com/history/5cc5532c-93d7-4df8-9ec7-3eabbf2c6ca8): https://www.pangram.com/history/7aa023e7-18ad-4a29-94c6-ba32631be997 (Human Written, one window, High, 113 words)",
+     "old": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like [Scott's below](https://ibogaqueen.substack.com/i/181671197/dopamine-receptor-burnout-daws-pattern-uridine-monophosphate), since I don't have studies on it: within a day of starting uridine, psychedelics can hit harder, visuals included. So do not take UMP on the same day as a psychedelic trip, and on your first trip after starting it, assume your old psychedelic dose may now be too high and take less. It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+     "new": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one: within a day of starting it, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\" who usually need more than an average dose (I don't have studies on this, only experience like [Scott's](https://ibogaqueen.substack.com/i/181671197/dopamine-receptor-burnout-daws-pattern-uridine-monophosphate), whose story is further down). So do not take UMP on the same day as a psychedelic trip, and on your first trip once you're on it, start with a third of your old psychedelic dose. It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for."
+    },
+    {
+     "key": "ss",
+     "whose": "his answer, fitted",
+     "why": "his 69 (how near ayahuasca and iboga) and his comment on W-HTPTOP (no same-day rule for psychedelics)",
+     "check": "",
+     "old": "[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on the same day as a trip, and be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine.",
+     "new": "[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine. Even so, 5-HTP is fine the day before either one, or the day after ayahuasca. After iboga, wait a day if it was a low dose and usually a few days otherwise, and after a flood dose (one big dose) people often wait weeks before taking anything psychoactive, mainly so they don't block the after-effects they took iboga for. While you're microdosing iboga, leave 5-HTP out altogether."
+    },
+    {
+     "key": "void5htp",
+     "whose": "his answer, fitted",
+     "why": "his comment on W-HTPTOP: no same-day rule for 5-HTP with psychedelics",
+     "check": "",
+     "old": "5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / poor sleep / TPH2 bottleneck. Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or a same-day psychedelic trip.",
+     "new": "5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / poor sleep / TPH2 bottleneck. Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol."
+    },
+    {
+     "key": "shield5htp",
+     "whose": "his answer, fitted",
+     "why": "his comment on W-HTPTOP: no same-day rule for 5-HTP with psychedelics",
+     "check": "",
+     "old": "5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or a same-day psychedelic trip.",
+     "new": "5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol."
+    }
+   ],
+   "before_sha256": "a65eaa1b0c0807bb2087a17901f89c0e983c15311e9d652510360db29b2a2937",
+   "after_sha256": "32921e8eb97a642db664c5a62186b4a7d601a9281d096dea134d1619e60ce49f"
+  },
+  {
+   "about": "the final comparison read of this turn (read-1126c): the Rule (F1.2) and the 5-HTP section paragraph (F1.7, F1.8)",
+   "applied": [
+    {
+     "key": "rule",
+     "whose": "mine",
+     "why": "the final comparison read (read-1126c)",
+     "check": "my check, this turn: https://www.pangram.com/history/f981a309-164a-4f7d-a198-c470b773ebdc (Human Written, one window, High, 74 words); \"either one\" named, read-1126c F1.2",
+     "old": "The Rule: Seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into either one, though there's no need to leave the partner you have.",
+     "new": "The Rule: Seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe to you. The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up. So this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have."
+    },
+    {
+     "key": "ss",
+     "whose": "his answer, fitted",
+     "why": "the final comparison read (read-1126c)",
+     "check": "his answer fitted; read-1126c F1.7 and F1.8 (the same-day line for ayahuasca and iboga said outright, the three waits told apart); not yet humanized, so no check",
+     "old": "[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine. Even so, 5-HTP is fine the day before either one, or the day after ayahuasca. After iboga, wait a day if it was a low dose and usually a few days otherwise, and after a flood dose (one big dose) people often wait weeks before taking anything psychoactive, mainly so they don't block the after-effects they took iboga for. While you're microdosing iboga, leave 5-HTP out altogether.",
+     "new": "[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine: never take 5-HTP on the same day as either one, though it's fine the day before, or the day after ayahuasca. After a low dose of iboga, wait a day, and after a bigger dose usually a few days. After a flood dose (one big dose), people often wait weeks before taking anything psychoactive, mainly so they don't block the after-effects they took iboga for. While you're microdosing iboga, leave 5-HTP out altogether."
+    }
+   ],
+   "before_sha256": "32921e8eb97a642db664c5a62186b4a7d601a9281d096dea134d1619e60ce49f",
+   "after_sha256": "5864cc2f91ca9a69b5111fc83ed223abd21700fd7df386ba7ccf0b91d3ac05e2"
+  },
+  {
+   "about": "the Cognitive Warning's first paragraph, step 5 (x1126j)",
+   "applied": [
+    {
+     "key": "cog",
+     "whose": "mine (his paragraph with my change)",
+     "why": "all three fresh reads (x1126a/v1/*/cog) found the paragraph never says that others see much less of the anxiety; the payoff in four words (\"which they mostly can't\"), and the title off where Pangram split a one-word window at \"Dr.\"",
+     "check": "with the paragraph after it: https://www.pangram.com/history/aeb0115a-dadf-489b-a096-828677f55f06 (Human Written, one window, High, 112 words), try 6 of PAIR-COG-FACES; the paragraph as it stood read Human with its first 21 words at Medium (https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c)",
+     "old": "Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety. Dr. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\"",
+     "new": "Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\""
+    }
+   ],
+   "before_sha256": "5864cc2f91ca9a69b5111fc83ed223abd21700fd7df386ba7ccf0b91d3ac05e2",
+   "after_sha256": "812cebd25a4064da07241a45a77695254b518813e2f48550dd8913a16d3ac64e"
+  }
+ ]
+}

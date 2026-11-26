@@ -1,0 +1,27 @@
+{
+ "F1.2": [
+  "fixed",
+  "\"either one\" became \"a new romance or drama\" (NEW[\"rule\"]), checked by itself: Human Written, one window, High (https://www.pangram.com/history/f981a309-164a-4f7d-a198-c470b773ebdc)"
+ ],
+ "F1.4": [
+  "his",
+  "the 5-HTP rules are in his own W-HTPTOP paragraph right before this one (fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json), which \"a different one\" points at in the article; the same-day rule is out by his comment on that card (\"it's not likely to be dangerous with them\"), and \"unless medically reviewed\" by his answer 36a (fix-20261108/joel-20261123-2040-message.txt)"
+ ],
+ "F1.5": [
+  "kept",
+  "the next sentence says \"on your first trip once you're on it\", so the stronger effect is not read as the first day's only, and Scott's story further down shows it lasting; my check puts it at severity 1",
+  1
+ ],
+ "F1.7": [
+  "fixed",
+  "the same-day line for ayahuasca and iboga is said outright and the three waits after iboga are told apart (NEW[\"ss\"])"
+ ],
+ "F1.10": [
+  "his",
+  "his comment on card W-HTPTOP: 5-HTP with psychedelics is \"not likely to be dangerous with them, most people actually like the combo\", so \"or a same-day psychedelic trip\" is out (KEEP-AS-IS.json C13)"
+ ],
+ "F1.11": [
+  "his",
+  "his comment on card W-HTPTOP, as for F1.10 (KEEP-AS-IS.json C13)"
+ ]
+}

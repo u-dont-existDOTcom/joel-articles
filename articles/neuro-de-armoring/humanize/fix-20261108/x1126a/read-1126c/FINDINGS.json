@@ -1,0 +1,315 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 11,
+    "total_line": 11
+   }
+  },
+  "findings": 11,
+  "by_severity": {
+   "1": 5,
+   "2": 4,
+   "3": 2
+  },
+  "by_kind": {
+   "unclear": 6,
+   "vaguer": 1,
+   "lost": 4
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 6,
+  "paragraphs_hit": {
+   "1": 6,
+   "2": 5,
+   "3": 2
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "So never combine iboga with most medications (especially heart & psych meds). If you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full iboga guide here lists some of them, and the iboga microdosing protocol is here).",
+   "published": "Never combine Iboga with most medications (especially heart & psych meds). See full iboga guide here, and microdosing protocol here.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"one of them\" and \"some of them\" point back to \"most medications\", which names no definite group, so a reader has to work out that \"them\" means the medications that can't be combined with iboga.",
+   "now_found": 1.0,
+   "now_blocks": [
+    1
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P1"
+   ],
+   "block_hashes": [
+    "bb5be8100a2a35f4"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "So this may not be a good time to jump into either one, though there's no need to leave the partner you have.",
+   "published": "Avoid “Exciting Love” (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"either one\" can be read as Boring Love or Exciting Love (the two kinds just named) instead of a new romance or high-stakes drama, so the reader has to guess what not to jump into.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P2"
+   ],
+   "block_hashes": [
+    "f6b9e69ff1f7a434"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    2
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "So this may not be a good time to jump into either one, though there's no need to leave the partner you have.",
+   "published": "Avoid “Exciting Love” (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The paragraph is still headed \"The Rule\", but the firm \"Avoid\" has become \"may not be a good time\", so the rule now reads as a hint.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P2"
+   ],
+   "block_hashes": [
+    "f6b9e69ff1f7a434"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    2
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one:",
+   "published": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "lost",
+   "severity": 3,
+   "why": "The 5-HTP rule that opened this warning is gone (the same-day rule, the ayahuasca/harmalas and iboga rule, and the \"unless medically reviewed\" condition), so the top of the guide no longer warns about 5-HTP at all, and \"a different one\" now has nothing to be different from.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "e0e0d0fd9d7954d7"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "within a day of starting it, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\" who usually need more than an average dose",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"within a day of starting it\" can mean the stronger effect shows up as soon as a day after starting uridine, or that it only holds during the first day, and the two readings lead to different caution.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "e0e0d0fd9d7954d7"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "In a warning paragraph, the changes PUBLISHED listed as things to watch are now called \"the benefits you're hoping for\", and nothing here has told the reader that more vivid dreams are a goal, so the sentence makes them stop and wonder.",
+   "now_found": 1.0,
+   "now_blocks": [
+    3
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring (three warnings at the top, as they would read), P3"
+   ],
+   "block_hashes": [
+    "e0e0d0fd9d7954d7"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "If you're doing psychedelics, be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine. Even so, 5-HTP is fine the day before either one, or the day after ayahuasca.",
+   "published": "If you're doing psychedelics, avoid 5-HTP on the same day as a trip, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+   "kind": "lost",
+   "severity": 3,
+   "why": "The rule \"avoid 5-HTP on the same day as a trip\" is gone, so \"be especially strict\" no longer says strict about what, and the reader is told when 5-HTP is fine (the day before, the day after) without ever being told when it isn't.",
+   "now_found": 1.0,
+   "now_blocks": [
+    5
+   ],
+   "where": [
+    "The 5-HTP section: the interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "9ecf832dcf8f92bc"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.8",
+   "part": 1,
+   "now": "After iboga, wait a day if it was a low dose and usually a few days otherwise, and after a flood dose (one big dose) people often wait weeks before taking anything psychoactive, mainly so they don't block the after-effects they took iboga for.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"a few days otherwise\" seems to cover every dose that isn't low, and then a flood dose gets \"weeks\", so the reader has to reread to see that there are three cases and can't tell which doses the middle one covers.",
+   "now_found": 1.0,
+   "now_blocks": [
+    5
+   ],
+   "where": [
+    "The 5-HTP section: the interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "9ecf832dcf8f92bc"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.9",
+   "part": 1,
+   "now": "While you're microdosing iboga, leave 5-HTP out altogether.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The sentence before says to wait only a day after a low dose of iboga, and a microdose is a low dose, so a reader may not see why one gets \"wait a day\" and the other \"leave it out altogether\" (nothing says it's because microdosing is daily).",
+   "now_found": 1.0,
+   "now_blocks": [
+    5
+   ],
+   "where": [
+    "The 5-HTP section: the interaction paragraph, P1"
+   ],
+   "block_hashes": [
+    "9ecf832dcf8f92bc"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.10",
+   "part": 1,
+   "now": "Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.",
+   "published": "Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or a same-day psychedelic trip.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"or a same-day psychedelic trip\" is dropped, so the line no longer says to keep 5-HTP off the day of a trip with other psychedelics such as mushrooms.",
+   "now_found": 1.0,
+   "now_blocks": [
+    7
+   ],
+   "where": [
+    "The Glutamate Shield: the 5-HTP line, P1"
+   ],
+   "block_hashes": [
+    "f97417e536971389"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    7
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.11",
+   "part": 1,
+   "now": "Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, or tramadol.",
+   "published": "Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or a same-day psychedelic trip.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"or a same-day psychedelic trip\" is dropped here too, so no place in NOW still carries the same-day rule for 5-HTP and psychedelics in general.",
+   "now_found": 1.0,
+   "now_blocks": [
+    9
+   ],
+   "where": [
+    "The 8-week timeline: the 5-HTP trial line, P1"
+   ],
+   "block_hashes": [
+    "800f55e3c71c04df"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  }
+ ]
+}

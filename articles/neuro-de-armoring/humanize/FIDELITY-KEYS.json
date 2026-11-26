@@ -2783,6 +2783,38 @@
     "90"
    ],
    "keys_lost": {}
+  },
+  {
+   "by": "fix-20261108/joel-20261126-0050-message.txt, answers 66, 67 and 69, and cards W-ISO, W-AGMINTRO and W-HTPTOP (his versions, fix-20261108/x1125a/ANSWERS-X1125A-20261126-0050.json), applied by fix-20261108/x1126a/apply_x1126a.py",
+   "why": "W015: card W-HTPTOP is his version, which keeps \"be especially strict around ayahuasca/harmala MAOI chemistry and iboga\" and drops the review's MAO-A clause and its harmala and iboga risk wording (his comment: \"you had some redundancy and lack of connection again\"); W004: his 66 on The Rule, \"make sure i'm not telling people to break up with their partner to avoid romance lol. just maybe not a good time to jump into it\", so \"avoid\" became \"this may not be a good time to jump into either one\"; W049: his 69 (\"5htp is ok a day before iboga or aya, or day after aya\") and his comment on W-HTPTOP (\"we should change the 5-HTP warning with psychedelics, it's not likely to be dangerous with them\"), so the same-day rule is out of the 5-HTP section's paragraph and his waits are in its place",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "terms_lost": [
+    "MAO-A"
+   ],
+   "keys_lost": {
+    "W004": [
+     [
+      "avoid"
+     ]
+    ],
+    "W015": [
+     [
+      "risk"
+     ],
+     [
+      "MAO-A"
+     ],
+     [
+      "harmalas"
+     ]
+    ],
+    "W049": [
+     [
+      "avoid"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {

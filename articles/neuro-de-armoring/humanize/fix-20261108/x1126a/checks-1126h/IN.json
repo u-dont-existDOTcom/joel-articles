@@ -1,0 +1,16 @@
+{
+ "cog-c3": {
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "name": "The Cognitive Warning with two words: exposed \"around people\"",
+  "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed around people. You will assume everyone can see your anxiety. Dr. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/COG-C3.receipt.json",
+  "tells": "\"You will feel ... You will assume\" (two parallel sentences, his)",
+  "human_tells": "his writing, the whole first paragraph (the post's own) but \"around people\"",
+  "diagnosis": "as it stands it read Human with its first 21 words at Medium (https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c); the missing sentence and the join each read lower (https://www.pangram.com/history/3e0b20f3-f755-4192-b4b0-39cc3aa2a03f, https://www.pangram.com/history/bc3c7d3f-a85b-4bc1-824a-d57f827a4446); this changes only what a reader could take two ways in the Medium window, exposed to whom",
+  "decides": "whether two words lift the first window to High; if not, the paragraph stays his as it stands and I ask him what he sees in it",
+  "humanized": "his paragraph kept word for word but \"around people\", which says exposed to whom, as he makes a vague word concrete",
+  "first_fix": "payoff: unchanged, the sentence still leads with the feeling; join: none, the join read lower in step 2; plain: \"exposed\" now says to whom, \"around people\""
+ }
+}

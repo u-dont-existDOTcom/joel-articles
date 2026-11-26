@@ -11,6 +11,26 @@
    "when": "2026-11-24",
    "where": "card W35 (fix-20261108/x1123a/ANSWERS-X1123A-20261123-2011.json); the read: fix-20261108/x1124a/needed/l61/READ.md",
    "basis": "my reading, not asked"
+  },
+  {
+   "id": "K2",
+   "kind": "choice",
+   "quote": "Agmatine Warning (The \"Voltage Regulator\"):",
+   "what": "the post named it \"The Voltage Governor\", and Part 3's heading says \"Voltage Control\", so a pass could put the old name back or make the two match; his version of the paragraph renamed it, in quote marks",
+   "joel": "",
+   "when": "2026-11-26",
+   "where": "card W-AGMINTRO, his version",
+   "basis": "my reading, not asked"
+  },
+  {
+   "id": "K3",
+   "kind": "voice",
+   "quote": "\"hard heads\"",
+   "what": "slang a reader may not know, in quote marks; it is his word for people who usually need more than an average dose, and the sentence says so",
+   "joel": "especially \"hard heads\" who usually need more than avg doses",
+   "when": "2026-11-26 00:50 UTC",
+   "where": "question 69",
+   "basis": "his answer"
   }
  ],
  "cuts": [
@@ -102,6 +122,33 @@
    "joel": "64 a",
    "when": "2026-11-24 21:43 UTC",
    "where": "question 64 (fix-20261108/joel-20261124-2143-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C11",
+   "quote": "dangerous for your heart and nervous system",
+   "what": "iboga's nervous-system risk in the plant-medicine item, which I had carried in from the post's 5-HTP warning; it rests on high doses in rats",
+   "joel": "remove this thing about iboga carrying neurological risk, i don't know where that came from ... it looks like that's based on giving rats high doses",
+   "when": "2026-11-26 00:50 UTC",
+   "where": "question 66",
+   "basis": "his answer"
+  },
+  {
+   "id": "C12",
+   "quote": "serious cardiac and neurological risk",
+   "what": "iboga's heart and nerve risk in the 5-HTP warning: the heart isn't related to 5-HTP, and the nerve risk is high doses in rats",
+   "joel": "i had to remove the part about iboga cardiac risk, that was not related, and neurological risk is high doses in rats",
+   "when": "2026-11-26",
+   "where": "card W-HTPTOP, his comment",
+   "basis": "his answer"
+  },
+  {
+   "id": "C13",
+   "quote": "or a same-day psychedelic trip",
+   "what": "the rule that 5-HTP must never be taken on the same day as a psychedelic trip, in the two 5-HTP lists and the 5-HTP section; ayahuasca and iboga keep their own timing",
+   "joel": "we should change the 5-HTP warning with psychedelics, it's not likely to be dangerous with them, most people actually like the combo",
+   "when": "2026-11-26",
+   "where": "card W-HTPTOP, his comment",
    "basis": "his answer"
   }
  ]

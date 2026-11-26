@@ -1,0 +1,40 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1126a/read-1126e/REWRITE.md",
+ "coverage": [
+  "b264bb2bb46e75d7",
+  "bcb8fc51c28bbef0"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "bcb8fc51c28bbef0"
+   ],
+   "now": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "bcb8fc51c28bbef0"
+   ],
+   "now": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "his",
+   "his answer 66 of 2026-11-26 (fix-20261108/joel-20261126-0050-message.txt) took out only the two things he named from what I had added and changed in the warnings, among them that this paragraph no longer has \"It is calibrated to \\\"Threat,\\\" not \\\"Truth.\\\"\" (question 66, OWNER-QUESTIONS.md)"
+  ],
+  "F1.2": [
+   "his",
+   "his answer 62a (fix-20261108/joel-20261124-2143-message.txt): the test reads \"back down to your usual resting rate, and under 90 BPM\" in its three places, as in read-1125a F1.4"
+  ]
+ }
+}

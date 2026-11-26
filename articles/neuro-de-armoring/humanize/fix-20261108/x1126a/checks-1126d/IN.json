@@ -1,0 +1,30 @@
+{
+ "ethno11": {
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "name": "The plant-medicine warning with his answers 66 and 67 (no nervous-system risk; ask an AI about interactions)",
+  "text": "Ethnobotanicals: The plant medicines in this protocol are iboga (an African root bark) and psilocybin mushrooms. Both are illegal in many jurisdictions and carry risks, and iboga can be dangerous for your heart. So never combine iboga with most medications (especially heart & psych meds). If you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full iboga guide here lists some of them, and the iboga microdosing protocol is here). Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures when taken with psychedelics.",
+  "chance": 0.6,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/ETHNO2.receipt.json",
+  "big_change": "his answers 66 and 67 (his message of 2026-11-26 00:50 UTC) and the fresh and comparison reads (x1126a/v1, read-1126a, read-1126b): the nervous-system risk out, the AI check in, the mushrooms given the same check, the long sentence split",
+  "tells": "\"Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures\" (mine, a since-clause giving a fact); \"since AI is pretty good at that\" leans on a reason clause",
+  "human_tells": "his writing: \"Both are illegal in many jurisdictions and carry risks\", \"So never combine iboga with most medications (especially heart & psych meds)\", \"my full iboga guide here\"; his 67 words \"AI is pretty good\"",
+  "diagnosis": "the two small steps read Human High (his 66: https://www.pangram.com/history/ebe5c0d3-8542-477e-9530-d046ca9af3f1; his 67: https://www.pangram.com/history/ce8f1f83-4f9c-438c-bb53-338af9454829); this is the full version the reads asked for: the long sentence split, \"lists some of them\", the mushrooms given the same check",
+  "decides": "whether this version goes in; below High, the checked version stays and the nervous-system clause he asked out comes out as his own edit",
+  "humanized": "each sentence leads with its point; his words kept where he gave them (\"never combine\", \"especially heart & psych meds\", \"AI is pretty good\"); the long sentence split where the rule ends and the check begins; \"lists some of them\" is his 67 in plain words; the mushrooms sentence says what to do first and the reason after"
+ },
+ "uri11": {
+  "lineage": "neuro-de-armoring/W-URITOP",
+  "scope": "paragraph",
+  "name": "The uridine caution with his answer 69 (a third of the old dose to start; who it hits hardest)",
+  "text": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one: within a day of starting it, psychedelics can hit some people a lot harder, visuals included, especially \"hard heads\" who usually need more than an average dose (I don't have studies on this, only experience like Scott's, whose story is further down). So do not take UMP on the same day as a psychedelic trip, and on your first trip once you're on it, start with a third of your old psychedelic dose. It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+  "chance": 0.6,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126a/receipts/URI3.receipt.json",
+  "big_change": "his answer 69 (his message of 2026-11-26 00:50 UTC) and the comparison reads (read-1126a F1.12, read-1126b F1.7): the caution first, \"hard heads\" named, a third of the old dose, the source after the claim",
+  "tells": "\"doesn't raise serotonin, so its caution is a different one:\" (an X-does-not-Y opener); \"which are the benefits you're hoping for\" (a summing-up tag)",
+  "human_tells": "his 69: \"\\\"hard heads\\\" who usually need more than avg doses\", \"1/3 the psychedelic dose\"; his post: \"Scott's\" story",
+  "diagnosis": "the two small steps read Human High (https://www.pangram.com/history/1a32497a-170b-4509-a586-beccff78cd45, https://www.pangram.com/history/5cc5532c-93d7-4df8-9ec7-3eabbf2c6ca8); this is the full version the comparison reads asked for: the caution first, \"hard heads\" named, the source after the claim",
+  "decides": "whether this version goes in; below High, the checked version stays with only his third-of-the-dose added as his own edit",
+  "humanized": "the caution now leads the first sentence and the source follows in brackets, as he does with his own asides; \"hard heads\" is his own term from 69, kept in his quotes; \"whose story is further down\" says where Scott comes in, so the reader isn't sent to someone they haven't met"
+ }
+}

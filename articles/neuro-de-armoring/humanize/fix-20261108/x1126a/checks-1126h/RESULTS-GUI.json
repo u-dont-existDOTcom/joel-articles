@@ -1,0 +1,26 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "cog-c3": {
+   "uuid": "5a1dbca4-fea3-4113-825e-292f947d3214",
+   "at": "2026-11-25T20:51:09.445377-05:00",
+   "headline": "Human Written",
+   "ai": 5.6250856633765535e-15,
+   "words": 110,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     23,
+     "Cognitive Warning: As you de-armor, you will feel naked and exposed around people. You will assume everyone can see your anxiety. Dr."
+    ],
+    [
+     "Human",
+     "High",
+     87,
+     "Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\nYour armored brain also reads the threat it feels into neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below)."
+    ]
+   ]
+  }
+ }
+}
