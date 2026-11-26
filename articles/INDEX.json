@@ -9754,6 +9754,11 @@
           "path": "articles/somatic-therapies/humanize/pangram-ledger.jsonl",
           "sha256": "2f78516f9ed1541b80ab888faaa6654518330bdc98c218ef4b950ebb79ce9bd6",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/humanize/SCORECARD.md",
+          "sha256": "ca69d478090afdd030eeb53593742b39a3c475120e0c89c026d2c26357db8295",
+          "role": "humanization_working_record"
         }
       ]
     },
