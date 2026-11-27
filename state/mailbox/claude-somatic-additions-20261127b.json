@@ -1,0 +1,71 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-27T15:45Z",
+   "lines_of_work": [
+    "the somatic additions: act on the draft-9 reads, Pangram until every window reads High, the blind replay, then the edit in both posts"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ fetched (universal-dev-architecture unchanged at 3fce032): the same 6 items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 2026-11-27 01:05 UTC: no new pull request (newest is 555, this lane's, merged), no new branch, no new issue; the issues list sorted by update (browser pane, 15:58 UTC) shows nothing updated after 555; 545 open, draft, not updated"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "somatic-therapies.md as this lane left it at 01:05 UTC (laptop mtime 01:05:22 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-27T15:59Z"
+  },
+  {
+   "turn": "2026-11-27T17:17Z",
+   "lines_of_work": [
+    "the somatic additions: push this lane's 16:39 UTC checkpoint (push access refused earlier, now allowed: 'push access ok')"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ (universal-dev-architecture unchanged at 3fce032): the same 6 items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 15:45 UTC: pull requests 556 to 559 (romance, neuro de-armoring) merged, none addressed to this lane; no open issue or comment updated; main brought lesson neuro-2026-11-27 (a to e), read: 27e (join a sentence to the one it draws on) fits A3's opening line, next"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "somatic-therapies.md as this lane left it at 16:41 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-27T17:18Z"
+  }
+ ]
+}

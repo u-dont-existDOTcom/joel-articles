@@ -1,0 +1,48 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "By this layer you can probably feel your body just fine.",
+  "You might still slip away the moment a feeling shows up in a session, though: you start explaining it, or you agree with whatever the therapist says just to get past it.",
+  "In Intensive Short-Term Dynamic Psychotherapy, the therapist catches you at it, with something like \"Notice how you just started explaining?\", and asks what you're feeling right then."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "fable",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph runs on a neat three-step build (reassurance, complication with two examples, named method with a sample quote), with each sentence doing exactly one job and nothing left over, which is tidier than most people draft. The even, second-person coaching voice never slips into an opinion, an aside or a specific case, so it reads as polished explanation more than as someone talking."
+  ],
+  "haiku": [
+   "Apart from a few stock-sounding turns, the paragraph reads as plain and even, with a hedged opening, a general pattern, and then a concrete example, so nothing about its overall rhythm or build clearly reads machine-made."
+  ],
+  "sonnet": [
+   "The paragraph is built as a tidy three-beat arc (setup, problem, named method with example), with evenly paced, medium-length sentences and a consistent second-person explanatory voice. There is little friction or idiosyncrasy, so it reads somewhat smoothed, though nothing in it is strongly machine-specific."
+  ]
+ },
+ "human_clean": [
+  "Notice how you just started explaining?",
+  "Notice how you just started explaining?"
+ ]
+}

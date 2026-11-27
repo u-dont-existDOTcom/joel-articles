@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Even once you can feel your body just fine, you can still slip away from a feeling the moment it comes up in a session, by explaining it, or by agreeing with whatever the therapist says so you don't have to stay in it.",
+  "For that, there's Intensive Short-Term Dynamic Psychotherapy, where the therapist points out each time you slip away and helps you turn back toward the feeling."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph is a clean two-step problem-then-named-solution unit: one sentence states a gap, the next presents a therapy that answers it exactly, with the second sentence echoing the first's wording. Nothing is left over, nothing is specific to one person or one session, and both sentences run at similar length with a smooth, even cadence."
+  ],
+  "haiku": [
+   "The paragraph is two smoothly built sentences that move from problem to named fix to mechanism in an orderly way, each ending on a balanced clause, with no hesitation, no first-hand texture, and an even, unbroken rhythm that suggests it was polished for smoothness."
+  ],
+  "sonnet": [
+   "The paragraph is built as a clean two-sentence pattern of problem followed by named solution, with even, balanced sentences and no loose ends, hedges or personal detail. That tidy structure reads as somewhat machine-made, though the plain wording keeps it from being strongly so."
+  ]
+ },
+ "human_clean": []
+}

@@ -18,6 +18,26 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-27, after his message of 17:21 UTC ("76 yes, and that can be dangerous with non-kratom opioids where
+  overdose is more of a concern but even with kratom you can get side effects when more sensitive. your cards have no
+  card in them btw / why can't we load UDA?"): 76 is in with his reason; the cards page fixed (both cards were hidden);
+  no question open; the two cards wait on him.** HUMANIZED-SO-FAR.md is e0a76c6a; his message:
+  `fix-20261108/joel-20261127-1721-message.txt`; the work is in `fix-20261108/x1127a/` with the turn before it
+  (`texts_x1127a.PREC76`, receipts PREC-76A to C, checks `checks-1127m` to `checks-1127p`, ledger #304 to #307,
+  `apply_x1127a.py --prec76`, comparison read `read-1127c`, no findings; a fit read of the final wording,
+  `v3/fit/prec76c`). **In**: 76 in three one-piece steps from the 74b version, each Human High in one window, the last
+  his reason in a sentence of its own after the list (https://www.pangram.com/history/bcf604c0-bb07-46c7-9262-d5cec58ed6f9); keep-as-is K6; a
+  fidelity owner_changes entry. **The warnings section after 76**: Human Written, 0.0% AI, one Medium window left,
+  over the faces sentence (https://www.pangram.com/history/a9c8692c-d9af-4806-b4ee-87fe0389f77d; SEC-WARNINGS#307, the section's last check this
+  turn). **The cards**: built as advice "leave", which the page folds away, so he saw none (last turn's W-COG-SEC in
+  the other account too); rebuilt as "approve" cards (approve_label "... anyway", Revise for his version), checked
+  visible with a headless browser (`/usr/bin/google-chrome` with playwright), republished to
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn (version 1795800623-e6da); `suggestion_review.py check` now refuses
+  a teaching card with advice "leave" (lesson neuro-2026-11-27f, with its test). **UDA**: add_repo refused again, now
+  as "Undermining Oversight"; the WebFetch approval unanswered again; he has the two ways to fix it on his page (paste
+  the raw AGENTS.md link in chat, or start a session with UDA attached). **Next**: the mailbox, the cards' stored
+  answers (`db_query`, slug 4719d286-ca5a-4311-87a8-a00631b476b5, collection "decisions", W-LMA-73A and W-COG-SEC), his
+  message; then the rest of the Psychology section (the bullet below says where each paragraph stands).
 - **2026-11-27, after his message of 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b is in; 73a
   and his line read below High in nine checks and are a teaching card; question 76 and two cards wait on him.**
   HUMANIZED-SO-FAR.md is 1ab352b7 (2257d52f after 74b; then the Anti-Breakthrough); everything of the turn is in

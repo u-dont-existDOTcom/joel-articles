@@ -1,0 +1,56 @@
+{
+ "about": "The blind rewrite of my A2 draft 7 (REWRITE-1.md, a fresh Fable writer given BRIEF.md alone), each paragraph checked by itself in the Pangram web app (his account, the desktop app's browser pane), with its neighbour when under 50 words. Predictions written before the checks: call and my chance of a 100% Human result.",
+ "written_utc": "2026-11-27T16:20Z",
+ "items": [
+  {
+   "key": "replay-P2",
+   "sha256": "0f95e6c3ec94bfb3fef5c951ca0b74c282c107942e101f922d5cfb0e4f297788",
+   "words": 63,
+   "call": "AI",
+   "chance": 0.35,
+   "why": "the session paragraph keeps my draft 7's \"to protect you or to give you what you needed back then\", which read AI; its order follows the lesson",
+   "result": {
+    "headline": "AI Generated",
+    "ai": 1.0,
+    "windows": "AI-Generated, Low, 63",
+    "utc": "16:10:14",
+    "link": "https://www.pangram.com/history/495f1624-a1bc-4a7b-a6dc-0e6a434e927d",
+    "note": "the first click (16:08) left no history entry; checked again at 16:10"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay-P1P2",
+   "sha256": "0e14f7d6ae62ef50ed63a9f86e6012c1b132d7c77b345c91ad52b2098d10f251",
+   "words": 90,
+   "call": "AI",
+   "chance": 0.35,
+   "why": "P1 opens on his guide the way his version did, but its second sentence (\"Like EMDR, it takes you back into the memory.\") is a short line on its own",
+   "result": {
+    "headline": "AI Detected",
+    "ai": 0.69,
+    "windows": "Human, Medium, 19; Human, Low, 9; AI-Generated, Medium, 26; AI-Generated, High, 13; AI-Generated, Medium, 24",
+    "utc": "16:08:52",
+    "link": "https://www.pangram.com/history/bff47296-5f19-4776-900c-c326c6d8a612"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay-P2P3",
+   "sha256": "79170d76c0d45ab4bfbfb427f1c6e4194551a5cdda6d8591e9f1d8dd1ec4c09c",
+   "words": 102,
+   "call": "AI",
+   "chance": 0.3,
+   "why": "the evidence sentence hangs its limit on \"which\", a relative clause that points at the trial result",
+   "result": {
+    "headline": "AI Generated",
+    "ai": 1.0,
+    "windows": "AI-Generated, Medium, 63; AI-Generated, High, 40",
+    "utc": "16:09:01",
+    "link": "https://www.pangram.com/history/bff25839-f8c2-478a-b305-cdbb6355a85c"
+   },
+   "prediction_right": true
+  }
+ ],
+ "detector": "Pangram 4.1 (web app, his account, the desktop app's browser pane)"
+}

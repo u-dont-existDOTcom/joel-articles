@@ -1,0 +1,13 @@
+[
+ {
+  "key": "warnings-sec6",
+  "name": "The warnings at the top after 76: the check after this fix",
+  "lineage": "neuro-de-armoring/SEC-WARNINGS",
+  "scope": "section",
+  "words": 1179,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "475dbdf292fe039cf469fc8db5dc34fa41f3c182bdbc729a1779fc6d226cd137"
+ }
+]

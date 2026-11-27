@@ -52,3 +52,43 @@ Next, in order:
 1. Act on the draft-9 reads; receipts (fill_receipts.py pattern, texts with their links); predictions in [the somatic ledger](../../humanize/pangram-ledger.jsonl); Pangram in the web app (his account; desktop app's browser pane, tab "seed"): A1 each paragraph by itself (the last one with the one before it, being under 50 words) and as a section; A3 as a section; IC1 and IC2 each in its paragraph and section. Keep trying up to the budget the way his fixes show; never ask him for experience.
 2. Run the replay and write replay/RESULTS.md.
 3. Apply in Substack once every window reads High: the somatic guide (A1, A2 his version, A3, in the places in ADDITIONS-9.json), then the inner child guide (IC1, IC2) with the live anchors; guarded Update (tools/humanization/substack_update.js); fetch both live posts; live_sections; depends check; BUILT-ON (the Self-Hypnosis guide is built on the somatic guide: these are therapist-led therapies, so likely nothing to carry, but say so in articles/BUILT-ON.json).
+
+## Checkpoint, 2026-11-27 16:39 UTC (the draft-9 reads acted on through draft 17; four rounds of Pangram; the replay run)
+
+Drafts 10 to 17 ([ADDITIONS-17.json](ADDITIONS-17.json), [INNER-CHILD-ADDS-7.json](INNER-CHILD-ADDS-7.json); each made by a script in [scripts/](scripts/make_draft17.py)) act on the draft-9 reads and on five more rounds of fresh Fable reads ([READ-HIS-FIXES-10](reads/READ-HIS-FIXES-10.md), [READ-NEEDED-FIT-10](reads/READ-NEEDED-FIT-10.md), the same for 11, then [READ-12](reads/READ-12.md), [READ-14](reads/READ-14.md), [READ-16](reads/READ-16.md)), with a tell panel twice on A1's opening ([panel/A1-P1-15](panel/A1-P1-15/PANEL.md), [panel/A1-P1-16](panel/A1-P1-16/PANEL.md)). Receipts: [fill_receipts_v17.py](fill_receipts_v17.py) (receipts/v17/); predictions and results in [the somatic ledger](../../humanize/pangram-ledger.jsonl), batch add1127.
+
+Each paragraph checked by itself (with its neighbour when under 50 words), Pangram web app, his account:
+
+| Piece | Latest check | Where it stands |
+|---|---|---|
+| A1 P1, the opening | [AI 97%: AI (Low) 11, AI (Medium) 32, AI (Low) 29](https://www.pangram.com/history/4e4d68a4-4cff-491a-aae3-74c536c89085) | try 3 of 6; the panel agreed on every sentence twice |
+| A1 P2, how ISTDP stays bearable | [Human (High) 78](https://www.pangram.com/history/63dc89df-a178-4ad6-94ea-0c9865645849) | done |
+| A1 P3, Affect Phobia (38 words, word for word the draft-7 near miss) | [Human (High) 39, beside the AEDP paragraph](https://www.pangram.com/history/6ab21c6b-4c4a-4ed4-8a39-09248c3bbe75) | done |
+| A1 P4, AEDP | [Human (High) 62 by itself](https://www.pangram.com/history/da780877-d112-467b-93fc-fc02004fbc76) | done by itself; beside either neighbour its sentences read AI (same link as P3; [3ee74597](https://www.pangram.com/history/3ee74597-b3e5-40ff-9164-5f5474ac0ae3)) |
+| A1 P5, what to ask before booking | [Human (Low) 69](https://www.pangram.com/history/7de1f32a-42f2-469c-9184-a2e9fa8ddc81) | near miss: a word or two a check |
+| A2 (his version) | [Human (High)](https://www.pangram.com/history/36d19d5d-dd1c-453f-850a-5d41835bf330) | done |
+| A3 P1, the opening (36 words, with P2) | [opening line Human (Medium) 12; the second sentence High](https://www.pangram.com/history/0615933a-a6eb-4722-8e6b-8222bfea1f27) | the opening line read Medium in three one-word tries ("in the first place", "here", "physical") |
+| A3 P2, what you do in PRT | [Human (High) 71](https://www.pangram.com/history/82740d43-acd9-45b0-a942-1cd761d66698) | done |
+| A3 P3, PRT's evidence | [Human (High) 55](https://www.pangram.com/history/1f690117-8ab6-47c9-beaf-2e9eaa4ea8c3) | done |
+| A3 P4, EAET | [Human (High) 62](https://www.pangram.com/history/625ebf0c-6a40-42f5-8429-a9f8feffdbbc) | done |
+| A3 P5, EAET's evidence | [Human (High) 57](https://www.pangram.com/history/76768c4b-1a89-46e8-b37d-befaf314177b) | done |
+| A3 P6, how to choose | [Human (High) 72](https://www.pangram.com/history/0320a0bc-3f6d-4eb1-80c2-5d8b7639c6e9) | done |
+| IC1, Imagery Rescripting (inner child guide) | [Human (High) 33, Human (Medium) 25](https://www.pangram.com/history/e2f5b150-fe52-40ff-8109-61804c63bd87) | near miss: the Medium window is its second sentence |
+| IC2, the pain therapies (inner child guide) | [AI, with his paragraph before it (his paragraph read AI in the same window)](https://www.pangram.com/history/5416d638-45ef-4b18-871f-cfbaba2ced81) | needs a new try with a named cause |
+
+Changes for his eye (they touch meaning; on the marking page when the texts are final):
+- A3, the false alarm: "you learn to treat the pain, though real, as a false alarm, your brain signaling danger where the doctors haven't found any. Part of how you learn that is by paying close attention to how the pain feels in your body without fearing it." The approved wording could read as "your pain isn't real", stated the cause as fact against his inner child guide's "a treatment that helps doesn't explain what's causing it", and read as dwelling on the pain (READ-NEEDED-FIT-9, READ-12).
+- A1, the booking question: "or if you say I'm dodging a feeling and I don't think I am?" keeps the approved freedom to disagree, tied to what the ISTDP therapist does (READ-16).
+- IC1 uses his own aside from his card answer: "which I only found out about after I wrote this section".
+- IC2 dropped the trials' summary: the somatic section it links to has them and their limits, and he asked for "just like a sentence or so".
+
+The blind replay of lesson somatic-2026-11-27b: [replay/RESULTS.md](replay/RESULTS.md), 1 of 3 parts; what it missed is [lesson somatic-2026-11-27c](../../../../docs/lessons/2026-11-27-1615-somatic.md).
+
+Next, in order:
+1. A1 P5 and IC1's second sentence: a word or two a check, on the window below High.
+2. A3's opening line: join it to the sentence after (his way 18), or, if two more tries leave it Medium, the later list with its checks.
+3. A1's opening: try 4 of 6 from the second panel's agreed points; if it reads AI, the next draft comes from a writer of another family (tools/humanization/tell_panel.py rewrite-prompt), then a teaching card.
+4. IC2: a new try with a named cause; pairing it with his paragraph gave no lift.
+5. The sections: A1 (predict with --narrowed, the paragraph lineages), A3 (--after-fix and --narrowed).
+6. Cards for the four changes above, on the marking page the turn they are written.
+7. Apply in Substack once every window reads High: the somatic guide, then the inner child guide (anchors imagery-rescripting, pain-that-wont-quit); BUILT-ON.

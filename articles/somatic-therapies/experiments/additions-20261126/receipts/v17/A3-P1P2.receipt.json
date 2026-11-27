@@ -1,0 +1,107 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "14973f89ba379e4f7b14d59f0619d71aa5667f83f4ed1b192f991a565d55f8ef",
+ "text": "Maybe physical pain is what brought you here in the first place. If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.\n\nIn Pain Reprocessing Therapy, you learn to treat the pain, though real, as a false alarm, your brain signaling danger where the doctors haven't found any. Part of how you learn that is by paying close attention to how the pain feels in your body without fearing it. Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "Maybe physical pain is what brought you here in the first place.",
+   "payoff": "readers in pain recognize that this section is for them",
+   "follows": "it opens the section on the reader's own reason"
+  },
+  {
+   "s": "If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.",
+   "payoff": "they check whether their pain fits and learn two therapies are coming",
+   "follows": "it narrows the section to whose pain it is for",
+   "link": "If yours"
+  },
+  {
+   "s": "In Pain Reprocessing Therapy, you learn to treat the pain, though real, as a false alarm, your brain signaling danger where the doctors haven't found any.",
+   "payoff": "they learn what the first therapy teaches about their pain, told it is real and where the false alarm rests",
+   "follows": "it names the first of the two therapies the paragraph before promised",
+   "link": "none: it opens a new paragraph on the first of the two therapies the paragraph before promised"
+  },
+  {
+   "s": "Part of how you learn that is by paying close attention to how the pain feels in your body without fearing it.",
+   "payoff": "they learn the first thing they'd do in it, and how it differs from the noticing they already do",
+   "follows": "it says how the learning the sentence before named happens",
+   "link": "Part of how you learn that"
+  },
+  {
+   "s": "Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks.",
+   "payoff": "they learn the second thing they'd do: go back to what they have been avoiding",
+   "follows": "it gives the next step after the attention",
+   "link": "Then"
+  }
+ ],
+ "checked": [
+  {
+   "point": "PRT: reappraisal of pain sensations and of the beliefs that the pain means harm; a graded return to feared activities; mild to moderate chronic back pain; 66% vs 20% pain-free or nearly, gains largely held at one year",
+   "found": "Ashar et al. 2022, JAMA Psychiatry 79(1):13-23 (https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298): \"guided reappraisal of pain sensations\", \"fear- and avoidance-inducing beliefs\"; NIH Research Matters, 2021-11-02",
+   "still_needed": "yes: they weigh it for their own pain",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the opening of the new section (36 words, so checked with the paragraph after it) and the first therapy",
+ "opens": {
+  "first_sentence": "Maybe physical pain is what brought you here in the first place.",
+  "why_reading": "readers in pain recognize that this section is for them"
+ },
+ "same_point": "none: read the section from its heading to the next; only these say whose pain it is for and what PRT does",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md, READ-14.md and READ-16.md; none found a sentence its reader doesn't need",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-10.md, -11.md, READ-12.md, READ-14.md and READ-16.md (draft 9's marks on A3 in READ-HIS-FIXES-9.md, by Sonnet); each acted on",
+  "marked": [
+   {
+    "s": "It's usually anxiety that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+    "difference": "READ-12: \"anxiety\" with no object"
+   },
+   {
+    "s": "Part of how you learn it is by paying close attention to how the pain feels in your body.",
+    "difference": "READ-12: ways 14 and 11, the attention they already pay all day, and the means first"
+   },
+   {
+    "s": "The therapist also watches for signs of the anxiety that's making you slip away, like tense muscles, sighing, or your thinking going foggy.",
+    "difference": "READ-HIS-FIXES-11: anxiety comes in as if said; the watching's purpose comes later"
+   },
+   {
+    "s": "Most people who try this therapy can't take much of that anxiety, so they get a slower version, where the therapist stops to help them settle whenever it climbs.",
+    "difference": "READ-HIS-FIXES-11: \"most people ... they\" leaves the reader outside"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh readers, given tools/humanization/fit_read_brief.md and a contradictions check (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md, READ-14.md and READ-16.md; draft 9's in READ-NEEDED-FIT-9.md)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the case first, then each therapy by what you do in it, its evidence limit first",
+  "Q2": "PASS: start with the one that fits; ask about training; track it",
+  "Q3": "PASS: \"mild to moderate chronic back pain\", \"veterans aged 60 and up\", \"getting your pain down to 0 or 1 out of 10\"",
+  "Q4": "PASS: \"false alarm\" is said in the sentence that uses it",
+  "Q5": "PASS: \"Part of how you learn that\", \"Then\", \"There\", \"The second therapy\", \"So\"",
+  "Q6": "PASS: whose pain, therapy one and its evidence, therapy two and its evidence, how to choose",
+  "Q7": "PASS: their pain and their choice",
+  "Q8": "N/A: no list of items",
+  "Q9": "PASS: the false alarm and how you learn it are two sentences"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

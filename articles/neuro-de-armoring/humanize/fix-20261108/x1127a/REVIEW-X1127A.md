@@ -1,8 +1,8 @@
 # Neuro De-Armoring Cards, 27 November (2): the herbs warning with 73a, and the Cognitive Warning, for you to teach me
 
-Your 74b is in, and the warnings section reads Human Written, 0.0% AI, with the same two Medium windows as before. Your 73a and your line about not starting the herbs aren't in yet: nine tries of mine read below High, so the herbs warning is a card. It's the whole article, so you can read both where they go.
+Your 74b and 76 are in, and the warnings section reads Human Written, 0.0% AI, every window High but one, over the faces sentence. Your 73a and your line about not starting the herbs aren't in yet: nine tries of mine read below High, so the herbs warning is a card. The two cards were hidden on this page before (built as cards I'd leave, which the page folds away); they show now. It's the whole article, so you can read both where they go.
 
-Two cards. No compound, dose, unit or timing changes anywhere.
+Two cards. Revise opens the paragraph for your version. No compound, dose, unit or timing changes anywhere.
 
 ## W-LMA-73A: Lion's mane and ashwagandha with 73a: nine tries, my best High then Medium
 
@@ -28,9 +28,9 @@ Two cards. No compound, dose, unit or timing changes anywhere.
 
 **You're deciding:** Your version of the paragraph with 73a and your line, or my best try as it reads (one Medium window), or leaving it as it is until one reads High.
 
-**My advice:** Give your version if you can: the stop sign is where its window drops. If not, I'd leave it as it is for now rather than put in a Medium window.
+**My advice:** Your call: Revise with your version if you can, since the stop sign is where its window drops. If not, I'd leave it as it is for now (Reject) rather than put in a Medium window.
 
-## W-COG-SEC: The Cognitive Warning and the paragraph after it: High by themselves, two Medium windows in the section
+## W-COG-SEC: The Cognitive Warning and the paragraph after it: High by themselves, one Medium window in the section
 
 *At A Complete Guide to Bio-De-Armoring, P7 and the paragraph after it*
 
@@ -46,9 +46,9 @@ Two cards. No compound, dose, unit or timing changes anywhere.
 
 **What it says:** The Cognitive Warning (you will feel exposed and assume everyone sees your anxiety; Epley calls it the Illusion of Transparency) and the paragraph after it (you will think people are judging you; don't trust your read of a room until your heart rate is down). The same card as on last turn's page in your other account; answer it on either.
 
-**Why I'm asking:** After 74b the warnings section reads [Human Written, 0.0% AI](https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431), every window High but the same two as before, both here: "You will assume everyone can see your anxiety, which they mostly can't" (13 words) and the faces sentence (28 words), each Human Medium. By themselves the two paragraphs read [Human High](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e). My last try joined the Cognitive Warning's first two sentences: [its window read High, the faces paragraph Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf). I can't find more AI tells here that are mine; the short sentences split into small windows when the section is read whole. Can you show me what you'd change?
+**Why I'm asking:** After your 76 the warnings section reads [Human Written, 0.0% AI](https://www.pangram.com/history/a9c8692c-d9af-4806-b4ee-87fe0389f77d), every window High but one: the faces sentence ("Your armored brain also projects the threat it feels onto neutral faces, so you will think people are judging you when they're mostly just thinking about themselves", 28 words), Human Medium. After 74b there were two, this one and "You will assume everyone can see your anxiety, which they mostly can't" ([check](https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431)). By themselves the two paragraphs read [Human High](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e). My last try joined the Cognitive Warning's first two sentences: [its window read High, the faces paragraph Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf). I can't find more AI tells here that are mine, and I see some human tells, like your post's "projects ... onto neutral faces"... can you help show me the tells I'm missing?
 
-**Where it reads:** In the section after 74b: [Human Written, 0.0% AI](https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431), Human Medium over "You will assume everyone can see your anxiety, which they mostly can't" and over the faces sentence.
+**Where it reads:** In the section after 76: [Human Written, 0.0% AI](https://www.pangram.com/history/a9c8692c-d9af-4806-b4ee-87fe0389f77d), Human Medium over the faces sentence; every other window High.
 
 **Tried:** The join: [its window High, the faces paragraph Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf). As they stand: [Human High by themselves](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e).
 
@@ -56,5 +56,5 @@ Two cards. No compound, dose, unit or timing changes anywhere.
 
 **You're deciding:** Your version of the two paragraphs, or the join of the first two sentences, or leaving them as they are.
 
-**My advice:** Leave it as it is, unless you give your version: each paragraph reads Human High by itself. If you write yours, the two short sentences of the Cognitive Warning are where the section's windows split.
+**My advice:** Your call: Revise with your version if you have one, since the two short sentences of the Cognitive Warning are where the section's windows split; otherwise Reject, and they stay as they are (each paragraph reads Human High by itself).
 

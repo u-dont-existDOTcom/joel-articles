@@ -1,0 +1,22 @@
+[
+ {
+  "block": 7,
+  "text": "Here’s a video that can help understand the long process.",
+  "kind": "broken",
+  "what": "\"help understand\" is missing an object, so the sentence reads as broken.",
+  "fix": "Here’s a video that can help you understand the long process.",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"help understand\" is missing an object, so the sentence reads as broken.",
+    "fix": "Here’s a video that can help you understand the long process.",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "rewrite": "read-1127c/REWRITE.md",
+ "original": "read-1127c/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 198,
+   "original_words": 166,
+   "first": "The agmatine warning and his Precautions, with his answer 76",
+   "last": "The agmatine warning and his Precautions, with his answer 76",
+   "rewrite_blocks": [
+    0,
+    2
+   ],
+   "coverage": [
+    "261afdcd8973f251",
+    "faf7d785be88cac2"
+   ]
+  }
+ ]
+}

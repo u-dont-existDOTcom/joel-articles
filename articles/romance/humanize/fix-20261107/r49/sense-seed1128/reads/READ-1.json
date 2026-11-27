@@ -1,0 +1,23 @@
+{"part": 1,
+ "read": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
+ "findings": [
+  {"block": 3,
+   "text": "deepest longings and fears, than I’ll naturally be ready",
+   "kind": "wrong-word",
+   "what": "\"than\" is used where \"then\" (the consequence of the if-clause) is meant.",
+   "fix": "deepest longings and fears, then I’ll naturally be ready",
+   "confidence": "sure"},
+  {"block": 16,
+   "text": "human psychology, in general, is quiet nasty",
+   "kind": "wrong-word",
+   "what": "\"quiet\" is a real word standing where \"quite\" is meant.",
+   "fix": "human psychology, in general, is quite nasty",
+   "confidence": "sure"},
+  {"block": 27,
+   "text": "do you mostly want me to glisten?",
+   "kind": "wrong-word",
+   "what": "\"glisten\" stands where \"listen\" is meant (the next sentence says \"Listening doesn’t mean...\").",
+   "fix": "do you mostly want me to listen?",
+   "confidence": "sure"}
+ ],
+ "notes": "Block 4's long second sentence is dense but readable; not flagged. Block 15 has a stray comma after \"stand out\" (minor, not flagged)."}

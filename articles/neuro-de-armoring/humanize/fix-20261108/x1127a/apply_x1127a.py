@@ -66,3 +66,19 @@ def sw22(write):
 
 if __name__ == '__main__' and '--sw22' in sys.argv:
     sw22('--write' in sys.argv)
+
+
+def prec76(write):
+    """His answer 76 of 2026-11-27 17:21 UTC (76a and his reason), in three one-piece steps from the 74b version (#291),
+    each Human High in one window; the last, his reason in a sentence of its own, goes in."""
+    run('prec', T.P74, T.PREC76['c'], 'his own Precautions paragraph, with his 74b and his 76: 76a\'s words and his reason '
+        '("that can be dangerous with non-kratom opioids where overdose is more of a concern but even with kratom you can '
+        'get side effects when more sensitive"), fitted as a sentence after the list',
+        'my check, this turn: https://www.pangram.com/history/bcf604c0-bb07-46c7-9262-d5cec58ed6f9 (Human Written, one '
+        'window, High, 124 words; W015-his try 8, after 76a by itself, '
+        'https://www.pangram.com/history/2145221d-aedb-494a-bf47-03837fa81a43, and with the overdose half, '
+        'https://www.pangram.com/history/84647620-42e8-4e40-a96d-ea971a1f011b, each High)', write)
+
+
+if __name__ == '__main__' and '--prec76' in sys.argv:
+    prec76('--write' in sys.argv)

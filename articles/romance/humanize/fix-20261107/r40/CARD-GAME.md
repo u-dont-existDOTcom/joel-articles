@@ -387,3 +387,22 @@ answered it". The round's record: [r48](../r48/README.md).
    browser too, and that the game can be played by one person), and is deployed through Coolify with his go-ahead; the
    live page is compared with the build.
 3. Not run: the love-honestly repository's container gate, which needs Docker.
+
+## His message of 2026-11-27 17:14 UTC: "ok good so are we ready to publish the game and article now"
+
+The round's record: [r49](../r49/README.md).
+
+- His "ok good" taken as his OK on v0.9.3. [The game's pull request](https://github.com/u-dont-existDOTcom/love-honestly/pull/2)
+  merged at its checked head; merging there deploys nothing.
+- [innerself pull request 4](https://github.com/u-dont-existDOTcom/innerself/pull/4): v0.9.3 vendored beside v0.5.4 (kept
+  for rollback), the build, checks, route inventory and notes pointed at it (`PRODUCT.md` now says the game can be played
+  by one person and that the list of played cards is kept in the browser too); `npm test` passed; one card played for
+  one person in the built page. Not merged, not deployed.
+
+### Still to do, each with his word
+
+1. His go: merge innerself pull request 4, deploy it through Coolify on the Netcup VPS (innerself `DEPLOYMENT.md`),
+   then compare the live `/love-honestly/` page with the build (minus the two inserted blocks, byte for byte) and play a
+   card there.
+2. Not run: the love-honestly repository's container gate and innerself's container check, which need Docker; they run
+   with the deployment.
