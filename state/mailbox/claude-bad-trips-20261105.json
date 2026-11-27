@@ -2799,6 +2799,36 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-26T15:57Z"
+  },
+  {
+   "turn": "2026-11-26T23:31Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ on its default branch (fetched 2026-11-26 23:32 UTC; UDA at 3fce032, unchanged), all six already in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md, OWNER-QUESTIONS.md and PROMISES.md on main: last changed by this lane's turn 70 (8ee9e494); no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "three notifications about this lane's pull request 547 (subscribed, checks passed, merged), read 2026-11-26 16:27 UTC; nothing to do"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "issues and pull requests updated since 2026-11-26 16:20 UTC: 547 (this lane's, merged), 548 (the daily live-post check moved to his laptop; tools/humanization/depends.py, read: no change to this lane's tools) and 549 (romance r45; lessons romance-2026-11-26a to c read: a line attached to an item earns its place; a short label is read alone; what he is asked to judge goes to him whole in the reply too), both merged; no comment or review addressed to this lane"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-26T23:34Z"
   }
  ]
 }

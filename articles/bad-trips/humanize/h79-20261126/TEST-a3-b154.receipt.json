@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "59decf57bc5aefd3121848fe6633a4ef5ef8995fae624bd824af28a82e765ae1",
+ "text": "The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments. I found fermented beet made with apple vinegar and salt was best so far, though kimchi and kombucha also helped. Most yogurts weren't fermented enough to work, and apple vinegar by itself only helped a little. Smelling the ferment helps a lot, and drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.",
+ "section": "ZeoCharge & Ferment",
+ "reader": "somebody about to take a psychedelic, or to sit with a friend who has, who wants a ferment ready for when the nausea comes and is deciding what to buy or make",
+ "sentences": [
+  {
+   "s": "The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments.",
+   "payoff": "they know they can make their own beet ferment or use another ferment if they have no ZHoly3O ferment",
+   "follows": "the ZHoly3O ferment, named in the paragraph before"
+  },
+  {
+   "s": "I found fermented beet made with apple vinegar and salt was best so far, though kimchi and kombucha also helped.",
+   "payoff": "they know which ferment worked best for him, and that kimchi and kombucha help too",
+   "follows": "other ferments, just said",
+   "link": "I found fermented beet"
+  },
+  {
+   "s": "Most yogurts weren't fermented enough to work, and apple vinegar by itself only helped a little.",
+   "payoff": "they know not to count on yogurt, and that apple vinegar alone helps only a little",
+   "follows": "the ferments that helped, just named",
+   "link": "Most yogurts"
+  },
+  {
+   "s": "Smelling the ferment helps a lot, and drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.",
+   "payoff": "they know to smell the ferment first, and that a spoonful helps too unless it makes someone itch, which then calls for activated charcoal",
+   "follows": "the ferments just ranked",
+   "link": "Smelling the ferment"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the ZHoly3O ferment contains more than just fermented beet juice; they can ferment their own beet juice or use other ferments; fermented beet was best so far, kimchi and kombucha also helped; most yogurts were not fermented enough to work; apple vinegar helped a little",
+   "found": "his round-60 answer 2.1 (review/r60/ANSWERS-R60-20261126-2229.json): \"yes, although the Zholy3O ferment contains more than just the fermented beet juice. but they can ferment their own beet juice or even use various other ferments. i found fermented beet was best so far, but kimchi and kombucha also helped. most yogurts weren't fermented enough to work, and ACV helped a little.\"",
+   "still_needed": "yes: they make or buy a ferment that works and skip yogurt",
+   "fate": "changed"
+  },
+  {
+   "point": "his fermented beet is made with apple vinegar and salt",
+   "found": "his post as of 2026-11-03 (B154: \"I prefer fermented beet juice made with apple vinegar and salt\")",
+   "still_needed": "yes: they know what it is made with",
+   "fate": "kept"
+  },
+  {
+   "point": "smelling the ferment helps a lot; a spoonful can help too, but may cause itching in someone who breaks down histamine poorly, which then needs activated charcoal",
+   "found": "his post as of 2026-11-03 (B154), as it read Human High (c293133e); unchanged",
+   "still_needed": "yes: they smell it first and know what to do if a spoonful makes someone itch",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the second paragraph of ZeoCharge & Ferment (B154), after the paragraph that names zeolite and the ZHoly3O ferment",
+ "opens": {
+  "first_sentence": "The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments.",
+  "why_reading": "it tells the reader which ferment to use if they have no ZHoly3O ferment, which work and which don't, and how to use it"
+ },
+ "same_point": "none: read the section from its heading to the next; which ferments work is said only here",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-ferment-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a1-ferment-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-ferment-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q2": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q3": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q4": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q5": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q6": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q7": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q8": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\"",
+  "Q9": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here the first joins the sentence after it, 9 percent of the words: \"Smelling the ferment helps a lot, and drinking a spoonful can also help, although ...\""
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "f0dedc812dcf5f1ab132c1efe9d752b5c7be30ed5a3d6d596a914d236b23d61c",
+ "text": "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.\n\nSo if someone took too much, or the gut itself is toxic, I give charcoal. If the trip is going fine and only the gut feels bad, I give [zeolite](#§zeocharge-and-ferment), which leaves the trip alone.\n\nMedicines bind to charcoal too, so I'd think twice before giving it to someone who depends on one, and I'd tell any medics who come that charcoal was taken.",
+ "section": "Activated Charcoal",
+ "reader": "somebody sitting with a friend whose trip has turned sick and toxic, with charcoal and zeolite on hand, deciding which to give",
+ "sentences": [
+  {
+   "s": "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.",
+   "payoff": "they know charcoal and zeolite are not a swap: drugs bind to charcoal too, so it can flatten or reduce a trip",
+   "follows": "the section's heading"
+  },
+  {
+   "s": "So if someone took too much, or the gut itself is toxic, I give charcoal.",
+   "payoff": "they know when to give charcoal: someone took too much, or the gut itself is toxic",
+   "follows": "charcoal flattening a trip, just said",
+   "link": "So if someone took too much"
+  },
+  {
+   "s": "If the trip is going fine and only the gut feels bad, I give [zeolite](#§zeocharge-and-ferment), which leaves the trip alone.",
+   "payoff": "they know to give zeolite instead when the trip is fine and only the gut feels bad",
+   "follows": "when to give charcoal, just said",
+   "link": "If the trip is going fine"
+  },
+  {
+   "s": "Medicines bind to charcoal too, so I'd think twice before giving it to someone who depends on one, and I'd tell any medics who come that charcoal was taken.",
+   "payoff": "they know charcoal can take up a medicine someone depends on, to think twice before giving it then, and to tell medics it was taken",
+   "follows": "drugs binding to charcoal, said at the start",
+   "link": "Medicines bind to charcoal"
+  }
+ ],
+ "checked": [
+  {
+   "point": "charcoal can help gut toxicity but adsorbs drugs; it can flatten or reduce a trip, so he does not treat charcoal and zeolite as interchangeable",
+   "found": "his post as of 2026-11-03 (B160); \"adsorbs\" said with his word in B127, \"binds\"",
+   "still_needed": "yes: they do not give charcoal when the trip should go on",
+   "fate": "changed"
+  },
+  {
+   "point": "charcoal when the goal is to reduce drug absorption or stop a toxic gut situation; zeolite to keep the trip while improving the gut feeling",
+   "found": "his post as of 2026-11-03 (B161)",
+   "still_needed": "yes: they choose which of the two to give, and when",
+   "fate": "changed"
+  },
+  {
+   "point": "charcoal can adsorb medications somebody depends on; use it cautiously around necessary medicines and tell the medics if charcoal was taken",
+   "found": "his post as of 2026-11-03 (B162); his own B127 says the same of medication",
+   "still_needed": "yes: they hold back with someone on a needed medicine and tell the medics",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the three paragraphs of Activated Charcoal (B160, B161, B162), after ZeoCharge & Ferment",
+ "opens": {
+  "first_sentence": "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.",
+  "why_reading": "it tells the reader what charcoal does that zeolite doesn't, when to give charcoal and when zeolite, and the caution about medicines"
+ },
+ "same_point": "his charcoal paragraph in Swallowed Too Much? (B127) says it can adsorb medication they need and links here; this section says what to do about it here (think twice, tell the medics) and how charcoal differs from zeolite",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-asis-charcoal-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-asis-charcoal-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-asis-charcoal-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q2": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q3": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q4": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q5": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q6": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q7": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q8": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word",
+  "Q9": "PASS: Try 3 (a4614eee) read Human High 82 with one Medium window of 8 words, the last sentence, \"If medics come, tell them charcoal was taken.\" Try 4 joins it to the sentence before, 13 percent of the words, the way he joins a short sentence that carries one thought (his fixes, way 8): \"..., and I'd tell any medics who come that charcoal was taken.\" Everything else is try 3 word for word"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
