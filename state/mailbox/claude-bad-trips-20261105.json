@@ -2829,6 +2829,37 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-26T23:34Z"
+  },
+  {
+   "turn": "2026-11-27T15:45Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ on its default branch (cloned 2026-11-27 15:47 UTC; UDA at 3fce032, unchanged), all six already in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md, OWNER-QUESTIONS.md and PROMISES.md on main: last changed by this lane's turn 71 (650d9093); no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (ReadNotifications, 2026-11-27 15:49 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "unreachable",
+     "failed": "GitHub's API answered 403 for this session ('GitHub access to this repository is not enabled'; its request for repository access was declined by the session's permission check), so new comments and reviews could not be read. Through git instead: pull requests 550 to 555 all merged into main (lessons somatic-2026-11-27a/b and neuro-2026-11-26m to q read); 545 (somatic research) still not in main and touches no file of this lane's; no pull request ref after 555",
+     "retry": "the next turn, first, through the API"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-27T16:30Z"
   }
  ]
 }

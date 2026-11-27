@@ -44,6 +44,19 @@ card, "numbers_lost", "numbers_new", "terms_lost": [...], "keys_lost": {a warnin
 the check reads those as his and still fails on anything else. The script that puts his answers in writes each entry from
 the check's own difference before and after that card, so nothing goes in that the card didn't change.
 
+A line whose only warning word is no caution. The cue list catches a warning word wherever it stands, so a plain
+sentence that only names what a remedy helps ("Activated charcoal can help gut toxicity, but it adsorbs drugs.") or what
+the reader wants it for ("When the goal is to ... stop a toxic gut situation, charcoal may be relevant.") was held word
+for word like a caution, and a version that read Human High couldn't go in. Joel, 2026-11-27 15:34 UTC, round 61 of the
+bad trips guide, card CHARCOAL-WORDS, answer "a": "my version goes in, and from now on a line whose only warning word
+isn't a caution may be said in other words, as long as every fact stays". So KEYS.json's "not_cautions" names each such
+line ({"unit": its id, "cues": every warning word the line has, "why": what each is doing there if not warning the
+reader, "by": his rule and the turn that applied it}); the check drops that unit from the paragraph match and still holds
+its compounds, terms and numbers through the article-wide counts. An entry with no source or reason, a unit that isn't
+there, or a line with a warning word the entry doesn't name is an error: a line with even one real caution in it stays
+held. Whether a warning word warns is a reading, so the entry says why, and the comparative read beside his post checks
+that every fact stays (`docs/FIXING-AN-ARTICLE.md`).
+
 A citation his change took out (gate E378). Joel, 2026-11-06 20:17 UTC, after I had recorded Nestler 2008 as cut by his
 paragraph: "i didn't even see Nestler, so if i took thatout, don't assume that was on purpose. if it's not needed fine,
 if it is put it back. that should be a rule in general don't assume a citation was removed on purpose unless it makes
@@ -185,8 +198,34 @@ def owner_wording(keys):
     return subs, units
 
 
+def not_cautions(keys):
+    """{unit id: entry} for the lines keys['not_cautions'] frees: each line's warning words are no caution, so its words
+    may change as long as every fact stays (his CHARCOAL-WORDS "a", 2026-11-27). Raises ValueError on an entry with no
+    source or reason, a unit that isn't there, or a line with a warning word the entry doesn't name."""
+    by_id = {u['id']: u for u in keys['units']}
+    free = {}
+    for e in keys.get('not_cautions', []):
+        uid = e.get('unit')
+        if not str(e.get('by', '')).strip() or not str(e.get('why', '')).strip():
+            raise ValueError('not_cautions entry without his rule and where it was applied ("by") or why the line warns of '
+                             'nothing ("why"): %r' % (e,))
+        if uid not in by_id:
+            raise ValueError('not_cautions: no unit %r' % (uid,))
+        cues = {m.group(0).lower().replace("don't", 'do not') for m in CUES.finditer(by_id[uid]['what'])}
+        named = {str(c).lower().replace("don't", 'do not') for c in e.get('cues', [])}
+        if not cues or cues != named:
+            raise ValueError('not_cautions: %s has the warning words %s and the entry names %s; a line is freed only when '
+                             'every warning word in it is named as no caution' % (uid, sorted(cues), sorted(named)))
+        free[uid] = e
+    return free
+
+
 def check(keys, draft):
+    free = not_cautions(keys)
     subs, units = owner_wording(keys)
+    # a line whose only warning words are no caution (keys['not_cautions']) is not held for its words; its compounds, terms
+    # and numbers still are, through the article-wide counts below
+    units = [u for u in units if u['id'] not in free]
     # "don't" is "do not", for the warning words and everything else (the same words, contracted)
     subs.append(("don't", 'do not'))
     subs.append(("Don't", 'Do not'))
@@ -298,7 +337,7 @@ def check(keys, draft):
             open_.append(o)
     return {'numbers_lost': lost_numbers, 'numbers_new': new_numbers, 'terms_lost': lost_terms,
             'warnings_lost': lost_warnings, 'open_with_owner': open_, 'owner_changes': changes,
-            'citations_unexplained': unexplained,
+            'not_cautions': sorted(free), 'citations_unexplained': unexplained,
             'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings or unexplained)}
 
 
@@ -328,6 +367,8 @@ def main(argv=None):
             print('warning lost: %s | missing %s' % (u['what'][:160], u['missing']))
         for o in r['open_with_owner']:
             print('open with him: %s (%s)' % (o.get('term') or o.get('unit'), o['question']))
+        for uid in r['not_cautions']:
+            print('no caution, free to reword: %s' % uid)
         for x in r['citations_unexplained']:
             print('citation year %s taken out by %s with no reason: put the citation back where something still rests '
                   'on it, or ask him; otherwise say in that entry\'s citations_lost what it was and "he said: ...", '

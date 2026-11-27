@@ -2080,6 +2080,23 @@
     "if the gut is fine",
     "Many ferments help to different degrees"
    ]
+  },
+  {
+   "id": "r61-answers",
+   "status": "applied",
+   "what": "his round-61 answers: TEACH-B155 his version of B155, whole (his checks: Human High 65 by itself, 00eb45f1; Human High 133 with B158, 54b91410); CHARCOAL-WORDS \"a\", Activated Charcoal as it read Human High 94 (ae42aae9) and his rule for lines whose only warning word is no caution (FIDELITY-KEYS-R61.json, not_cautions); FROM-POST read as (a): the 5g line stays out, and the rubbing is with zeolite mixed in water (review/r61/RESULTS-R61.md)",
+   "joel": "2026-11-27 15:34 UTC: his round-61 export (articles/bad-trips/review/r61/ANSWERS-R61-20261127-1534.json)",
+   "applied_by": "humanize/h79-20261126/apply_h79.py charcoal; review/r61/apply_r61.py",
+   "must_contain_exact": [
+    "In my experiments, zeolite must have its pores cleaned correctly, or else it's useless.",
+    "I use powdered zeolite rather than nano-liquid zeolite, because there's almost nothing in that liquid, and it's generally not cleaned either.",
+    "Only one brand of zeolite I tried actually worked without needing to be ozonated, although that brand didn't have the best lab results for metals.",
+    "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip."
+   ],
+   "must_not_contain": [
+    "If the zeolite dose at 5g",
+    "charcoal may be relevant"
+   ]
   }
  ]
 }

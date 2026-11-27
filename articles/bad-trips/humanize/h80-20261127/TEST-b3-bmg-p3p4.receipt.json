@@ -1,0 +1,105 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "b8d05f4b2a03851a692549b1b8d353702db32f7f9db72e660798753e95857fb8",
+ "text": "The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.\n\nI've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy. I was rushing to help her, so I may have given her more than I would give now.",
+ "section": "Beach Morning Glory",
+ "reader": "somebody sitting with a friend whose psychedelic trip has gone bad enough that they want it over, or whose nausea won't stop, deciding whether to give beach morning glory and how much",
+ "sentences": [
+  {
+   "s": "The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.",
+   "payoff": "they hold the leaf by its unbroken parts and keep its juice off their skin and from under their nails",
+   "follows": "how little of it it takes, said before: even its juice on the skin"
+  },
+  {
+   "s": "I've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy.",
+   "payoff": "they can expect it to work on their friend too, within minutes",
+   "follows": "his own reactions, said before",
+   "link": "I've seen it work on someone else too"
+  },
+  {
+   "s": "I was rushing to help her, so I may have given her more than I would give now.",
+   "payoff": "they give less than they would in a rush",
+   "follows": "the woman, just described",
+   "link": "I was rushing to help her"
+  }
+ ],
+ "checked": [
+  {
+   "point": "picking a leaf can affect him when the broken juicy part touches sensitive skin, especially under the fingernails; avoiding contact with the broken part prevents it",
+   "found": "his post as of 2026-11-03, B174",
+   "still_needed": "yes: they handle the leaf without the juice on their skin",
+   "fate": "changed"
+  },
+  {
+   "point": "he once gave it to a woman with nausea and dysphoria on a psychedelic; within a couple of minutes she went from miserable to very happy; he was rushing and may have given more than he would now; it is not only his body that reacts",
+   "found": "his post as of 2026-11-03, B176; \"This was not only personal.\" cut (the needed read), and its point said first (\"I've seen it work on someone else too\")",
+   "still_needed": "yes: they can expect it to work on their friend, and give less than a rush would",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the handling paragraph (B174, 36 words) with the woman paragraph after it (B176, try 3), checked together",
+ "opens": {
+  "first_sentence": "The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.",
+  "why_reading": "they hold the leaf by its unbroken parts and keep its juice off their skin and from under their nails"
+ },
+ "same_point": "none: read the section from its heading to the next for the handling and the case",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md and the section as it stood (reads/need-asis-bmg-sec.txt)",
+  "unneeded": [
+   "The distinction matters.",
+   "This was not only personal."
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md and the section as it stood (reads/his-asis-bmg-sec.txt); every marked sentence is rewritten or cut",
+  "marked": [
+   "The distinction matters.",
+   "I have tried many related plants and cousins, and they did not work the same way.",
+   "As far as I know, nobody else sells it.",
+   "Its primary role in this guide is not ordinary nausea control.",
+   "A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow.",
+   "Even picking a leaf can affect me when the broken juicy part touches sensitive skin, especially under the fingernails.",
+   "Avoiding contact with the broken portion prevents that effect.",
+   "A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.",
+   "This was not only personal.",
+   "I was rushing to help and may have given more than I would now.",
+   "That helped convince me the effect wasn't limited to my body.",
+   "I do not yet have data showing that pes-caprae aborts MDMA.",
+   "MDMA remains [a separate branch](#§mdma-magnesium-alarm) centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms."
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md and the section as it stood (reads/fit-asis-bmg-sec.txt)",
+  "marked": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow.",
+   "I was rushing to help and may have given more than I would now.",
+   "This was not only personal."
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on what it is about (the sledgehammer, which plant, how much, the nibble, the juice, the woman, the trips it stopped); the needed read's two announcing lines are cut",
+  "Q2": "PASS: what he does is said as what he does (\"I use it for nausea only when ...\", \"I keep my skin away from the broken end\", \"go to MDMA: Magnesium Alarm\")",
+  "Q3": "PASS: a whole leaf, a tiny nibble, the broken end, sensitive skin under the fingernails; the nibble's size is his to give (round 62, NIBBLE-SIZE), and the whole leaf now comes first as its scale",
+  "Q4": "PASS: \"dysphoria\" said in plain words (\"nauseous and miserable\"); \"aborts\" kept, his warning key (W053)",
+  "Q5": "PASS: each tie is at the start (\"By beach morning glory\", \"A tiny nibble\", \"But it takes only a little more\", \"The leaf is strong enough\", \"I've seen it work on someone else too\", \"The trips I've seen it stop\")",
+  "Q6": "PASS: what it is for, which plant, how much does what, handling, someone else, where it doesn't apply",
+  "Q7": "PASS: each fact is something a sitter acts on; the MDMA list went to the link, where each item is",
+  "Q8": "PASS: no group of items left; the MDMA list is cut",
+  "Q9": "PASS: the nibble sentence split in two; no run of category words left"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
