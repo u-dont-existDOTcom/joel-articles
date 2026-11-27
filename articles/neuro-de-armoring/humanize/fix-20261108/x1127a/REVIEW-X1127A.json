@@ -1,0 +1,104 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261127-x1127a",
+ "title": "Neuro De-Armoring Cards, 27 November (2): the herbs warning with 73a, and the Cognitive Warning, for you to teach me",
+ "intro": [
+  "Your 74b is in, and the warnings section reads Human Written, 0.0% AI, with the same two Medium windows as before. Your 73a and your line about not starting the herbs aren't in yet: nine tries of mine read below High, so the herbs warning is a card. It's the whole article, so you can read both where they go.",
+  "Two cards. No compound, dose, unit or timing changes anywhere."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "2257d52feb7b53b86538b6b6d48fff56db6348bbb02876e19e5114acdc4955ca"
+ },
+ "whole": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "2257d52feb7b53b86538b6b6d48fff56db6348bbb02876e19e5114acdc4955ca"
+ },
+ "built": "2026-11-27T16:19:15Z",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/trauma-and-addiction-why-neurological",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.md"
+ },
+ "types": {
+  "teach": {
+   "label": "For you to teach me",
+   "about": "A text whose Pangram tries are spent below High: my best tested version, what each read, and room for yours."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "W-LMA-73A",
+   "type": "teach",
+   "advice": "leave",
+   "approve_label": "use my best try",
+   "title": "Lion's mane and ashwagandha with 73a: nine tries, my best High then Medium",
+   "spans": [
+    {
+     "block": 15,
+     "start": 0,
+     "end": 354
+    }
+   ],
+   "edits": [
+    {
+     "block": 15,
+     "before": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+     "after": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already on either herb, I'd quit it as soon as you notice any of that."
+    }
+   ],
+   "what": "Your herbs warning with your 73a in: the gloss with pleasure in it (here \"(no joy or desire)\", plainer than \"(little pleasure or desire)\", which read worse), and a stop sign for the reader already on either herb that points back at what your first sentence names (\"any of that\": both effects). Your line \"i also can't recommend starting them\" is said by your own \"I'm not advising lion's mane or ashwagandha\", with the stop sign speaking to the reader already on one, which is what question 73's reader couldn't tell.",
+   "why": "As it stands (no 73a) it reads [Human High in one window](https://www.pangram.com/history/0d102087-7015-4501-bf13-f8c40fec8d21). Every way I put 73a and your line in read lower: with \"I can't recommend starting\" and a stop sign of mine, [AI 100%](https://www.pangram.com/history/666f323c-0200-4f4f-a54e-be84150a350b) and [AI 76%](https://www.pangram.com/history/f3417de9-5888-4720-adc1-66303c140dab); with \"anyone to start\" and the gloss, [Human Low and AI Low](https://www.pangram.com/history/d2357d72-aa6f-4a8c-9ff1-ab3e53ac084b); with \"anyone to start\" alone, [Human Medium and Human Low](https://www.pangram.com/history/e48fb85c-ea18-48c5-b61a-7066b4069dec). Your \"I'm not advising lion's mane\" (advising a thing, not a person) carries the paragraph, and any change to it weakens it. With your first sentence kept and only the gloss changed it stays High; the second sentence, with the stop sign in it, read Human Medium each time: [step 3](https://www.pangram.com/history/2cd62104-8545-4d8c-ad06-c468ec2e4786), [step 4, my best](https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46), and in your own idiom from your agmatine paragraph (\"so stop either herb right away if you notice any of that\"), [one window, Medium](https://www.pangram.com/history/fef78872-dac8-438a-8377-5f03bfed1bf7). I can't find any more AI tells here, and I see some human tells, like your \"advising lion's mane\", \"Post-ashwa\", and \"it's the same kind of thing\"... can you help show me the tells I'm missing?",
+   "reading": "My best (step 4): [Human Written, 0.0% AI](https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46), High over your first sentence with the gloss in, Human Medium over the second.",
+   "tested": "My best, step 4: [Human Written, 0.0% AI, High then Medium](https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46). Of nine checks, the stop sign as its own sentence after your \"keep in mind\" read [AI in three windows](https://www.pangram.com/history/35b9a7c1-f6cb-4de9-8424-82b918c1b4c9); steps 3 and 4, with your first sentence as you wrote it (step 4 with the gloss), read High there.",
+   "whose": "his own: his card version of the herbs warning (his answers of 2026-11-24 18:40 UTC, x1123c/ANSWERS-X1123C-20261124-1840.json), and his answers 73a and \"i also can't recommend starting them\" of 2026-11-27 15:45 UTC; the gloss's and the stop sign's words are mine",
+   "stays": "Your \"I'm not advising lion's mane or ashwagandha\", \"Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do\", word for word.",
+   "deciding": "Your version of the paragraph with 73a and your line, or my best try as it reads (one Medium window), or leaving it as it is until one reads High.",
+   "advice_note": "Give your version if you can: the stop sign is where its window drops. If not, I'd leave it as it is for now rather than put in a Medium window.",
+   "ask_because": "downside: 73a and your line aren't in yet, and my tries for this paragraph are spent this turn (nine checks, past the budget's six)",
+   "found_by": "Your answers 73a and \"i also can't recommend starting them\"; the checks in your Pangram account",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261108/x1127a/receipts/LMA-S4.receipt.json"
+   ]
+  },
+  {
+   "id": "W-COG-SEC",
+   "type": "teach",
+   "advice": "leave",
+   "approve_label": "use the join",
+   "title": "The Cognitive Warning and the paragraph after it: High by themselves, two Medium windows in the section",
+   "spans": [
+    {
+     "block": 13,
+     "start": 0,
+     "end": 192
+    },
+    {
+     "block": 14,
+     "start": 0,
+     "end": 451
+    }
+   ],
+   "edits": [
+    {
+     "block": 13,
+     "before": "As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\"",
+     "after": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\""
+    }
+   ],
+   "what": "The Cognitive Warning (you will feel exposed and assume everyone sees your anxiety; Epley calls it the Illusion of Transparency) and the paragraph after it (you will think people are judging you; don't trust your read of a room until your heart rate is down). The same card as on last turn's page in your other account; answer it on either.",
+   "why": "After 74b the warnings section reads [Human Written, 0.0% AI](https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431), every window High but the same two as before, both here: \"You will assume everyone can see your anxiety, which they mostly can't\" (13 words) and the faces sentence (28 words), each Human Medium. By themselves the two paragraphs read [Human High](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e). My last try joined the Cognitive Warning's first two sentences: [its window read High, the faces paragraph Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf). I can't find more AI tells here that are mine; the short sentences split into small windows when the section is read whole. Can you show me what you'd change?",
+   "reading": "In the section after 74b: [Human Written, 0.0% AI](https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431), Human Medium over \"You will assume everyone can see your anxiety, which they mostly can't\" and over the faces sentence.",
+   "tested": "The join: [its window High, the faces paragraph Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf). As they stand: [Human High by themselves](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e).",
+   "stays": "Epley's credit, as your 68a has it; \"naked and exposed\"; the heart-rate test (back to your usual resting rate, and under 90 BPM); the link to the Metabolic Red Line.",
+   "deciding": "Your version of the two paragraphs, or the join of the first two sentences, or leaving them as they are.",
+   "advice_note": "Leave it as it is, unless you give your version: each paragraph reads Human High by itself. If you write yours, the two short sentences of the Cognitive Warning are where the section's windows split.",
+   "ask_because": "downside: two windows of the warnings section stay Human Medium, and my tries for these two paragraphs are spent",
+   "found_by": "The section's checks of 2026-11-27, after 72a and after 74b; the checks in his Pangram account",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/COG-J.receipt.json"
+   ]
+  }
+ ]
+}

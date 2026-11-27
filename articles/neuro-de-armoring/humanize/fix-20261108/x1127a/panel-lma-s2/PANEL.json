@@ -1,0 +1,43 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I'm not advising anyone to start lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them.",
+  "Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "fable": [
+   "Both sentences are built the same way: a claim, a concession hung on a comma, then a reason or result (\"even though ... because ...\"; \"rare, but ..., so ...\"), so every statement comes pre-balanced and the paragraph closes on a mild moral. The first sentence also packs stance, background, cause and timing into one evenly weighted chain, which reads more assembled than said."
+  ],
+  "haiku": [
+   "Every claim is hedged in turn (not advising, popular, some people report, rare, can do, keep in mind), so the even, cautious balance across both sentences is what reads machine-made, while the rhythm itself (one long sentence, one short) is not especially templated."
+  ],
+  "sonnet": [
+   "Both sentences follow the same even shape of claim, concession, then caution, and the paragraph closes on a safe summarizing note, so the rhythm is balanced and hedged with little that is unexpected. The voice stays careful and impersonal throughout."
+  ]
+ },
+ "human_clean": [
+  "Post-ashwa",
+  "Post-ashwa",
+  "Post-ashwa and post-lion's mane syndrome"
+ ]
+}

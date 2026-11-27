@@ -1,0 +1,14 @@
+MARKED:
+- S1: 1 — four groups of substances packed into one sentence, each with a bracket, and only the first has a reason; his way gives each group its own clause saying what happens if it's combined with agmatine.
+- S1: 2 — every item is built alike (name, then a bracket; "and/or" twice); his way builds each one differently.
+- S1: 4 — "complex psychoactive stacks", "problematic interactions" and "a physician competent to consider the likelihoods" don't say what, which interaction, or what the doctor is asked to do; his way names the thing ("anything else that works on the brain") and the act ("ask a doctor who knows these drugs first").
+- S1: 10 — "(will reduce tolerance)" can be read as a benefit (a tolerance reset) or as the danger (the usual opioid dose hits harder), and it doesn't say whose tolerance to what; his way says which and what it means for the reader.
+- S1: 5, 13 — opens on the rule "Do not use" before anything says what in agmatine calls for it, and the condition that decides whether it applies (no doctor involved) comes last; his way opens on the reason or the reader's case, then the act.
+- S1: 7 — no reason given for clonidine/guanfacine or the blood pressure medicines, so the reader can't judge their own case; his way adds what happens (the text here doesn't hold it, so it's missing, not mine to add).
+- S1: 29 — "or other complex psychoactive stacks": nothing before it in the list is a stack, so "other" has nothing it's other than; his way puts it beside what it belongs with or drops "other".
+- S2: 5 — "It's not recommended for use in ..." is an authority's passive with the reader outside and nobody doing the recommending; his way speaks to the reader ("If you're pregnant or breast-feeding, ...") and says what to do.
+- S2: 12 — stands by itself as a new rule, nothing ties it to S1; his way joins it as the next case ("Also ..." / with S3's people who should be careful).
+- S3: 4, 15 — "extreme caution" names no act the reader could carry out, and "lower end blood pressure" and "kidney or liver issues" don't say what counts; his way says what to do (lower dose, check blood pressure, ask a doctor) and what counts.
+- S3: 5 — "Use with ... in those with" is label wording about patients, not said to the reader; his way: "If you've had a psychotic episode ...".
+- S3: 1, 19 — three unlike conditions run together as a list of three with no reason for any; his way gives each (or the ones that carry the point) its own clause with why.
+- S3: 16 — low blood pressure comes up here apart from the blood pressure medicines in S1; his way keeps everything about blood pressure with its first mention.

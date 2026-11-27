@@ -2851,6 +2851,13 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261108/joel-20261127-1545-message.txt, answer 74b (OWNER-QUESTIONS.md, question 74), applied by fix-20261108/x1127a/apply_x1127a.py",
+   "why": "74b: \"Do not use agmatine concurrently with\" becomes \"Do not use agmatine on the same day as\" in his Precautions (warning W008); every other word of the paragraph stays. No held key moves (fidelity_keys.py check PASS); the entry records his decision. 73a and his line are not in: card W-LMA-73A (x1127a/REVIEW-X1127A.md).",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {}
   }
  ],
  "warning_words": {

@@ -1,0 +1,26 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "read-1127a/REWRITE.md",
+ "coverage": [
+  "261afdcd8973f251",
+  "3bb6abd3ae9b611b"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "3bb6abd3ae9b611b"
+   ],
+   "now": "Do not use agmatine on the same day as opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "kept",
+   "his answer 74b (his message of 2026-11-27 15:45 UTC): question 74 gave him a) \"in the same weeks as\" (my pick, the stricter reading) and b) \"on the same day as\", and he chose b; the narrower condition the reader found is his decision, made with the stricter one in front of him"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "lma-s2": {
+  "lineage": "neuro-de-armoring/W-LMA-his",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, step 2 from the fold: his line (\"anyone to start\") alone",
+  "text": "I'm not advising anyone to start lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+  "chance": 0.6,
+  "receipt": "receipts/LMA-S2.receipt.json",
+  "diagnosis": "step 1 (his line and 73a's gloss) read AI Detected, 39%: Human Low over the first sentence and AI Low over his own second (https://www.pangram.com/history/d2357d72-aa6f-4a8c-9ff1-ab3e53ac084b), where the fold read High in one window. One of the two changes turned it: this step keeps only his line (\"anyone to start\"), with his gloss \"(no desire)\" back, to find which.",
+  "decides": "which of the two changes turned step 1: if this reads High, the gloss did, and the next step tries the gloss another way; if not, his line did",
+  "first_fix": "payoff: the first sentence opens on his advice (nobody should start either herb); join: none, his two sentences; plain: his own words",
+  "humanized": "his card version as it read High in the fold, with his line in",
+  "human_tells": "his own card version, as it read High in the fold: \"I'm not advising\", \"(no desire)\", \"so it's something to keep in mind\""
+ }
+}
