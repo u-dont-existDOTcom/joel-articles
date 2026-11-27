@@ -1,5 +1,5 @@
 {
- "about": "The two temporary Substack drafts of the fixed version (build_draft.js, from REPLACEMENTS.json and LIVE-INDEX.txt at commit 871a909aa3a51f7690c73a668738e120af4a15bd and the post API), made 2026-11-07 17:52 to 17:55 UTC in the app's built-in browser. Never published, no email; their titles have no detector's name (gate E205). Their secret preview links (paid view) are not kept in Git: substack_secret_link.js makes one from the draft number with a new cache key. They are kept to be pasted again (cleared first) for the whole-article check, which waits until every window a smaller check read AI reads Human in a later smaller check (gate gut-2026-11-07a): S2, S17, the three S2-pattern stretches and the other AI windows of 'Can making love be a spiritual practice?' (#45). Joel deletes them from his drafts list when the check is done (the budget rule: a Claude worker leaves the delete click to him). Re-pasted 2026-11-08 (r27, cleared first, in the built-in browser) with his jealousy answer (#135), S17's doubled \"example\" taken out (#136) and the fixed Idealization section (#143), from this folder's REPLACEMENTS.json (88 keys, canonical SHA-256 bc856e29a79e…); each secret link's rendered text matched the built text with its quotes curled as the walk curls them. The whole-article check is his, in his browser, on the two secret links. Re-pasted 2026-11-24 12:56 UTC (r39, cleared first, in the built-in browser) from REPLACEMENTS.json at commit e07b733f (198 keys: everything through his eighth page), with build_draft.js as changed in r39 (SHA-256 e7d3d59afe6b…: his update of the live post on 2026-11-23 15:33 UTC left four empty paragraphs by the embeds he added, which the builder now leaves out of the count; the other 457 paragraphs matched the index). Pasted again 2026-11-24 16:51 UTC (r40, cleared first) from commit 2e0335fd: his new opening of Primal attraction, J-B54, Senegal and the corrected pointer in (207 keys).",
+ "about": "The two temporary Substack drafts of the fixed version (build_draft.js, from REPLACEMENTS.json and LIVE-INDEX.txt at commit 871a909aa3a51f7690c73a668738e120af4a15bd and the post API), made 2026-11-07 17:52 to 17:55 UTC in the app's built-in browser. Never published, no email; their titles have no detector's name (gate E205). Their secret preview links (paid view) are not kept in Git: substack_secret_link.js makes one from the draft number with a new cache key. They are kept to be pasted again (cleared first) for the whole-article check, which waits until every window a smaller check read AI reads Human in a later smaller check (gate gut-2026-11-07a): S2, S17, the three S2-pattern stretches and the other AI windows of 'Can making love be a spiritual practice?' (#45). Joel deletes them from his drafts list when the check is done (the budget rule: a Claude worker leaves the delete click to him). Re-pasted 2026-11-08 (r27, cleared first, in the built-in browser) with his jealousy answer (#135), S17's doubled \"example\" taken out (#136) and the fixed Idealization section (#143), from this folder's REPLACEMENTS.json (88 keys, canonical SHA-256 bc856e29a79e\u2026); each secret link's rendered text matched the built text with its quotes curled as the walk curls them. The whole-article check is his, in his browser, on the two secret links. Re-pasted 2026-11-24 12:56 UTC (r39, cleared first, in the built-in browser) from REPLACEMENTS.json at commit e07b733f (198 keys: everything through his eighth page), with build_draft.js as changed in r39 (SHA-256 e7d3d59afe6b\u2026: his update of the live post on 2026-11-23 15:33 UTC left four empty paragraphs by the embeds he added, which the builder now leaves out of the count; the other 457 paragraphs matched the index). Pasted again 2026-11-24 16:51 UTC (r40, cleared first) from commit 2e0335fd: his new opening of Primal attraction, J-B54, Senegal and the corrected pointer in (207 keys). Re-pasted 2026-11-27 (r49, cleared first, in the built-in browser) from commit b0c80524d14d (218 keys: everything through his ninth page and r41), for his whole-article check before the live update; each secret link's rendered text matched the built text (B's with the two editor effects r40 recorded: his one double space made single, and the opening quote of \"for safety and legal reasons\" curled the wrong way).",
  "split_at": "Primal attraction: channeling the Divine Masculine & Feminine",
  "total_checked_chars": 114036,
  "left_out": "pictures, videos, embeds, the Share and Subscribe buttons and the empty dividers (Pangram's check reads paragraphs and list items only); a changed paragraph's inline formatting",
@@ -36,7 +36,7 @@
    "words": 10794,
    "text_sha256": "4abc6ef110a09d8c00904d6e073cfa617bd3cff785ebfdadc108197d8269239e",
    "html_sha256": "70051d9762b27b1ac90e24564430333c19ae54e256db28bbe5988058480e2ed6",
-   "rendered_check": "the secret link (cache key romance-r27-a-…) rendered 213 lines, SHA-256 d50958a656a1…, the built text with its quotes curled: matched"
+   "rendered_check": "the secret link (cache key romance-r27-a-\u2026) rendered 213 lines, SHA-256 d50958a656a1\u2026, the built text with its quotes curled: matched"
   },
   {
    "part": "B",
@@ -46,7 +46,7 @@
    "words": 9429,
    "text_sha256": "7ba708889297b2a5422c52cef99b7f239096cfb19c84beb2e5bf1153142958f1",
    "html_sha256": "c7726aeab9ecec01b9220c63ae9276fb12ca57152f19a4aff69aef98156e2713",
-   "rendered_check": "the secret link (cache key romance-r27-b-1108) rendered 178 lines, SHA-256 9f2383ac27bf…, the built text with its quotes curled: matched"
+   "rendered_check": "the secret link (cache key romance-r27-b-1108) rendered 178 lines, SHA-256 9f2383ac27bf\u2026, the built text with its quotes curled: matched"
   }
  ],
  "r39": [
@@ -90,7 +90,31 @@
    "words": 10151,
    "text_sha256": "e0aeb7d43e6f0dbb556809a95f00c077f778d6d2eee7a72a0e8bd0084c20bd40",
    "html_sha256": "f3f0daff1018c29b8b20cdc3c8eba2d6b4ae18236d62720d1cde917b2f310c91",
-   "rendered_check": "the secret link (cache key romance-r40-b-1124) rendered 180 lines, SHA-256 0a635448b200ebfcb12f86d4626963d00a5cdde1aded11a6c4b937a8be33c311: the built text with its quotes curled (0c6f0a1ce028…), its one double space made single, and the opening quote of his (\"for safety and legal reasons\") curled the wrong way by the editor's paste, (”for, where the walk curls (“: with those two, matched"
+   "rendered_check": "the secret link (cache key romance-r40-b-1124) rendered 180 lines, SHA-256 0a635448b200ebfcb12f86d4626963d00a5cdde1aded11a6c4b937a8be33c311: the built text with its quotes curled (0c6f0a1ce028\u2026), its one double space made single, and the opening quote of his (\"for safety and legal reasons\") curled the wrong way by the editor's paste, (\u201dfor, where the walk curls (\u201c: with those two, matched"
+  }
+ ],
+ "r49": [
+  {
+   "part": "A",
+   "draft": 223926381,
+   "commit": "b0c80524d14da38dd9e7a9d51ddafc72ec7f4c48",
+   "replacements": 218,
+   "lines": 203,
+   "chars": 62034,
+   "text_sha256": "3750361a37047905b98b9b618871cbc7eefeb033714a5860916b781c2e73896c",
+   "html_sha256": "4ae291f1308448fec2150e2c4b3771e7805c23b91259f19f16b71c01eac78ed6",
+   "rendered_check": "the secret link (cache key romance-r49-a-1127) rendered 203 lines, SHA-256 7d7354f7e094..., the built text with its quotes curled: matched"
+  },
+  {
+   "part": "B",
+   "draft": 223926513,
+   "commit": "b0c80524d14da38dd9e7a9d51ddafc72ec7f4c48",
+   "replacements": 218,
+   "lines": 174,
+   "chars": 57049,
+   "text_sha256": "b873d247bd80e07eab3a2a13c919f793a50b1ef49ba75756422fed18fb62048d",
+   "html_sha256": "0592ec0e4fa0258efca6694ce109dd71b6551e6b9c3f51cc03624f6657781277",
+   "rendered_check": "the secret link (cache key romance-r49-b-1127) rendered 174 lines, 57,048 characters: the built text with its quotes curled except line 4's opening quote before \"for safety and legal reasons\" (curled the wrong way by the paste) and line 23's double space before the emoji (made single), the two editor effects r40 recorded"
   }
  ]
 }

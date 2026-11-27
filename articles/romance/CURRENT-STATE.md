@@ -332,16 +332,24 @@ with his OK and no email.
   2026-11-25, approval batches read for him, judged items whole, corrections to every copy) and four items in the
   design repository's lane. Nothing in the article changed. Lesson romance-2026-11-27a (a carried-over step stays only
   where its reason holds).
+- 2026-11-27 (17:14 UTC, `humanize/fix-20261107/r49/`): "ok good so are we ready to publish the game and article now".
+  The game: his "ok good" taken as his OK on v0.9.3; the game's pull request merged (deploys nothing); innerself pull
+  request 4 vendors v0.9.3 beside v0.5.4, `npm test` passed, a card played in the built page; it waits for his go. The
+  article: the word-for-sense read of the 30 paragraphs changed since the r39 drafts (a third reader on new planted
+  errors found all three and nothing else; nothing to fix, `r49/sense/TRACE.md`); drafts A and B cleared and pasted
+  again from b0c80524 (218 replacements), each secret link's rendered text checked (`whole/DRAFTS.json`, "r49"); the two
+  links went to him for his whole-article check. Lesson romance-2026-11-27a, left out of r48's push, goes in.
 
 ## Next step
 
-His OK on a version of the game (v0.9.3 carries v0.9.1's and v0.9.2's changes), or his changes to it
-(`r40/CARD-GAME.md`, "Still to do"; `r48/README.md`). Then the pull request is merged, the innerself site vendors the
-file, and the site is deployed with his go-ahead. From now on, a turn that changes the article
-checks the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted
-again for his whole-article check (not before: "no point checking the drafts until we are done"), then his post updated
-with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, his new opening's video and
-links, the typography swap and the "Updated" date; he deletes the two drafts.
+1. His whole-article check on the two r49 drafts (his extension on the two secret links he was given); then his post
+   updated with his OK (no email): the changed paragraphs merged into the editor HTML
+   (`tools/humanization/substack_merge.py`), 366's link to Esther Perel's post, the reel embedded after 149, his new
+   opening's video and links, the typography swap and the "Updated" date; he deletes the two drafts.
+2. The game, on his go: merge innerself pull request 4, deploy it through Coolify, compare the live page with the build
+   (minus the two inserted blocks, byte for byte), and play a card there (`r40/CARD-GAME.md`, "Still to do").
+
+From now on, a turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

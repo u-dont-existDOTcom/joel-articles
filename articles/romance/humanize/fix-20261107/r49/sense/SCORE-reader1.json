@@ -1,0 +1,31 @@
+{
+ "parts": [
+  {
+   "part": 1,
+   "blocks": [
+    0,
+    31
+   ],
+   "expected": 32,
+   "read": 32,
+   "missing": [],
+   "missing_ranges": [],
+   "outside": [],
+   "planted": 3,
+   "found": 2,
+   "missed": [
+    {
+     "block": 15,
+     "planted": "pacific",
+     "original": "specific"
+    }
+   ],
+   "findings": 3
+  }
+ ],
+ "planted": 3,
+ "found": 2,
+ "recall": 0.6666666666666666,
+ "reads_complete": true,
+ "trusted": false
+}
