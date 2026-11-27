@@ -1,0 +1,102 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "d5874800b9e6872d9c1bb31b55010cbcbce0d91386cca89cd8527d01e5114e17",
+ "text": "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.\n\nSo if someone took too much, or the gut itself is toxic, I give charcoal. If the trip is going fine and only the gut feels bad, I give [zeolite](#§zeocharge-and-ferment), which leaves the trip alone.\n\nMedicines bind to charcoal too, so I'd think twice before giving it to someone who depends on one. If medics come, tell them charcoal was taken.",
+ "section": "Activated Charcoal",
+ "reader": "somebody sitting with a friend whose trip has turned sick and toxic, with charcoal and zeolite on hand, deciding which to give",
+ "sentences": [
+  {
+   "s": "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.",
+   "payoff": "they know charcoal and zeolite are not a swap: drugs bind to charcoal too, so it can flatten or reduce a trip",
+   "follows": "the section's heading"
+  },
+  {
+   "s": "So if someone took too much, or the gut itself is toxic, I give charcoal.",
+   "payoff": "they know when to give charcoal: someone took too much, or the gut itself is toxic",
+   "follows": "charcoal flattening a trip, just said",
+   "link": "So if someone took too much"
+  },
+  {
+   "s": "If the trip is going fine and only the gut feels bad, I give [zeolite](#§zeocharge-and-ferment), which leaves the trip alone.",
+   "payoff": "they know to give zeolite instead when the trip is fine and only the gut feels bad",
+   "follows": "when to give charcoal, just said",
+   "link": "If the trip is going fine"
+  },
+  {
+   "s": "Medicines bind to charcoal too, so I'd think twice before giving it to someone who depends on one.",
+   "payoff": "they know charcoal can take up a medicine someone depends on, to think twice before giving it then, and to tell medics it was taken",
+   "follows": "drugs binding to charcoal, said at the start",
+   "link": "Medicines bind to charcoal"
+  },
+  {
+   "s": "If medics come, tell them charcoal was taken.",
+   "payoff": "they know to tell medics charcoal was taken",
+   "follows": "charcoal and medicines, just said",
+   "link": "If medics come"
+  }
+ ],
+ "checked": [
+  {
+   "point": "charcoal can help gut toxicity but adsorbs drugs; it can flatten or reduce a trip, so he does not treat charcoal and zeolite as interchangeable",
+   "found": "his post as of 2026-11-03 (B160); \"adsorbs\" said with his word in B127, \"binds\"",
+   "still_needed": "yes: they do not give charcoal when the trip should go on",
+   "fate": "changed"
+  },
+  {
+   "point": "charcoal when the goal is to reduce drug absorption or stop a toxic gut situation; zeolite to keep the trip while improving the gut feeling",
+   "found": "his post as of 2026-11-03 (B161)",
+   "still_needed": "yes: they choose which of the two to give, and when",
+   "fate": "changed"
+  },
+  {
+   "point": "charcoal can adsorb medications somebody depends on; use it cautiously around necessary medicines and tell the medics if charcoal was taken",
+   "found": "his post as of 2026-11-03 (B162); his own B127 says the same of medication",
+   "still_needed": "yes: they hold back with someone on a needed medicine and tell the medics",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the three paragraphs of Activated Charcoal (B160, B161, B162), after ZeoCharge & Ferment",
+ "opens": {
+  "first_sentence": "I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.",
+  "why_reading": "it tells the reader what charcoal does that zeolite doesn't, when to give charcoal and when zeolite, and the caution about medicines"
+ },
+ "same_point": "his charcoal paragraph in Swallowed Too Much? (B127) says it can adsorb medication they need and links here; this section says what to do about it here (think twice, tell the medics) and how charcoal differs from zeolite",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-asis-charcoal-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-asis-charcoal-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-asis-charcoal-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q2": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q3": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q4": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q5": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q6": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q7": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q8": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays",
+  "Q9": "PASS: Try 2 (de52656f), my first rewrite, read AI in every window: Medium 35, High 44 (the paragraph that says when to give which), Low 31. The panel and the reads on the section as it stood (reads/*-asis-charcoal-sec.txt, panel-charcoal/PANEL.md) marked a comparison built as a rule; try 2 kept that build in other words (\"the one to give when the goal is to ...\"). Try 3 says what he does first and gives cases a friend would recognize: \"I don't treat charcoal and zeolite as interchangeable, because ...\" (his practice first, the linter's O65); \"if someone took too much, or the gut itself is toxic, I give charcoal\" (the case, for \"reduce drug absorption or stop a toxic gut situation\"); \"If the trip is going fine and only the gut feels bad, I give zeolite, which leaves the trip alone\" (for \"preserve the trip while improving the gut feeling\"); the medics line said as his B127 says its cautions, to the reader. Every fact stays"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

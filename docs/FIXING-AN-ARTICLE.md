@@ -115,6 +115,7 @@ The spending rule is `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`. In practice:
 
 ## 7. Saving and handing over
 
+- **Before a rewrite is checked, the warning check runs on it too (lesson bad-trips-2026-11-27c).** `fidelity_keys.py check KEYS.json DRAFT.md` on a copy of the article with the rewrite in: a line with a warning word ("stop", "risk", "toxicity") is held word for word even when it is no caution, and a version that reads High but drops those words can't go in without his word. The short lines the reads mark go into the first try after the reads, joined to a neighbour (lesson bad-trips-2026-11-27d): after a near miss the ledger counts a joined sentence's words as new.
 - **Before a rewrite is checked, it is read against the keep-as-is list (lesson bad-trips-2026-11-25o).** `python3 tools/humanization/keep_as_is.py try ARTICLE.md OLD.txt NEW.txt` names every kept quote the old text holds that the rewrite lacks, and every meant cut the rewrite brings back. A line of his that a reader or a panel marks stays word for word; the receipt says "his, kept".
 - Push every step with `tools/humanization/lane_push.py`, after setting `CURRENT-STATE.md`'s next step with `tools/humanization/lane_state.py`, so Joel's other account can pick up from GitHub at any point.
 - New questions go on the article's `OWNER-QUESTIONS.md`.

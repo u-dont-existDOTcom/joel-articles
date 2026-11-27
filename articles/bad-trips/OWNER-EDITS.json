@@ -2063,6 +2063,23 @@
    "must_not_contain": [
     "for liability reasons"
    ]
+  },
+  {
+   "id": "r60-answers",
+   "status": "applied",
+   "what": "his round-60 answers: GUT-SIGNS-IN \"a\" (the round-59 paragraphs stay as they are; GPT's symptom list and \"if the gut is fine obviously it's not related to the gut\" stay out; the call-medics pointer stays); ZEO-FACTS 2.1 in B154, his words for which ferments work (Human High 94 in one window, cd5a0e49; humanize/h79-20261126/apply_h79.py; review/r60/RESULTS-R60.md)",
+   "joel": "2026-11-26 22:29 UTC: his round-60 export (articles/bad-trips/review/r60/ANSWERS-R60-20261126-2229.json), sent 2026-11-26 23:31 UTC",
+   "applied_by": "humanize/h79-20261126/apply_h79.py",
+   "must_contain_exact": [
+    "The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments.",
+    "I found fermented beet made with apple vinegar and salt was best so far, though kimchi and kombucha also helped.",
+    "Most yogurts weren't fermented enough to work, and apple vinegar by itself only helped a little.",
+    "Losing control of the body like that is on the list to call medics for"
+   ],
+   "must_not_contain": [
+    "if the gut is fine",
+    "Many ferments help to different degrees"
+   ]
   }
  ]
 }

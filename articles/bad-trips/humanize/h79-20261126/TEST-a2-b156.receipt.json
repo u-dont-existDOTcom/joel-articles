@@ -1,0 +1,78 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-26",
+ "text_sha256": "ba78b44d330bc47a6dd4b2db01dcaadd4f499e36598980d24b2da114b6cbe1aa",
+ "text": "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic, and I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me, however much zeolite was in the water. Less time didn't work as well, and going past ten minutes didn't noticeably improve the zeolite.",
+ "section": "ZeoCharge & Ferment",
+ "reader": "somebody about to take a psychedelic, or to sit with a friend who has, who wants a gut remedy ready and is deciding what to buy or make and how to give it when the nausea comes",
+ "sentences": [
+  {
+   "s": "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic, and I mean ozonating water, never inhaling ozone gas.",
+   "payoff": "they know how he prepares it: powder in water, an ozone-water purifier, glass, and never breathing the gas",
+   "follows": "the zeolites that have not been cleaned, just said"
+  },
+  {
+   "s": "With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me, however much zeolite was in the water.",
+   "payoff": "they know how long he runs it, with what machine, and that the amount of zeolite does not change it",
+   "follows": "the ozonating, just described",
+   "link": "With a machine"
+  },
+  {
+   "s": "Less time didn't work as well, and going past ten minutes didn't noticeably improve the zeolite.",
+   "payoff": "they know ten minutes is the time to use",
+   "follows": "the ten minutes, just said",
+   "link": "Less time"
+  }
+ ],
+ "checked": [
+  {
+   "point": "powder into water, an ozone-water purifier, a glass vessel because ozone destroys plastic; ozonating water, never inhaling ozone gas; about two grams of ozone per hour for ten minutes, however much zeolite is in the water; less time worked less well and more did not noticeably improve it",
+   "found": "his post as of 2026-11-03 (B156) and his ZeoCharge post (https://ibogaqueen.substack.com/p/here-is-why-everyone-should-use-zeocharge, linked on the section's heading; read 2026-11-26 23:35 UTC): \"put it in water and ozonate it for 20 minutes at 1000mg/hr (this works regardless of how much zeolite I am ozonating btw)\", the same amount of ozone as ten minutes at two grams an hour",
+   "still_needed": "yes: they ozonate the powder in water, in glass, for ten minutes, whatever the amount, and never breathe the gas",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the fifth paragraph of ZeoCharge & Ferment (B156), checked by itself (66 words)",
+ "opens": {
+  "first_sentence": "For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic, and I mean ozonating water, never inhaling ozone gas.",
+  "why_reading": "it tells the reader how he ozonates his zeolite, never breathing the gas, and for how long"
+ },
+ "same_point": "none: read the section from its heading to the next for the ozonating and the metal; glass is named for the ozone (plastic) in B156 and for the metal in B157, two reasons",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-asis-zeo-sec.txt and the round before it); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q2": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q3": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q4": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q5": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q6": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q7": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q8": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss",
+  "Q9": "PASS: The section as it stands after this turn's paragraphs read Human in every window (b9d02255), High but for four short sentences that read Medium on their own: \"Smelling the ferment helps a lot.\" (6), \"I mean ozonating water, never inhaling ozone gas.\" (8), \"Less time didn't work as well, and more time didn't noticeably improve the zeolite.\" (16) and \"I use glass for ozonating and storing it whenever I can.\" (11). The read against his fixes had marked each: a short line he would join to its neighbour, or a mirrored pair. Here, 19 percent of the words: the safety line joins the sentence before it, \"..., and I mean ozonating water, never inhaling ozone gas\" (fidelity key W046 kept), and the mirrored \"more time\" is \"going past ten minutes\". The glass line in B157 waits: its join measured 21 percent of the pair's words, over the ledger's limit after a near miss"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

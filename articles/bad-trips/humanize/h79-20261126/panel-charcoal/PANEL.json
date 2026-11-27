@@ -1,0 +1,70 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Activated charcoal can help gut toxicity, but it adsorbs drugs.",
+  "Sometimes that is exactly the point.",
+  "It can also flatten or reduce a trip, so I don't treat charcoal and zeolite as interchangeable.",
+  "When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.",
+  "When I want to preserve the trip while improving the gut feeling, I prefer [zeolite](#§zeocharge-and-ferment).",
+  "Charcoal can also adsorb medications somebody depends on.",
+  "I would use it cautiously around necessary medicines and tell the medics if charcoal was taken."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph's rhythm is very even: each sentence makes one complete, hedged claim at similar length, and the middle block is built as a neat contrast with a closing caution, which reads more like a structured summary than a voice thinking aloud."
+  ],
+  "sonnet": [
+   "The paragraph is three even blocks, each a claim followed by a hedge or a qualifier, with similar sentence lengths and a closing line that wraps up with a caution. It moves through the standard pros, contrast and caveat order, and the voice stays measured and even throughout."
+  ]
+ },
+ "human_clean": [
+  "[zeolite](#§zeocharge-and-ferment)",
+  "tell the medics if charcoal was taken",
+  "tell the medics",
+  "tell the medics if charcoal was taken",
+  "Medics",
+  "[zeolite](#§zeocharge-and-ferment)"
+ ]
+}

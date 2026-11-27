@@ -251,15 +251,15 @@ After all, nausea and diarrhea are common on psychedelics, and people generally 
 
 Zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts when the trip feels like a sick stomach, with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell. I'd think of them for parasite die-off too.
 
-Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine.
+The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments. I found fermented beet made with apple vinegar and salt was best so far, though kimchi and kombucha also helped. Most yogurts weren't fermented enough to work, and apple vinegar by itself only helped a little. Smelling the ferment helps a lot, and drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.
 
-Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
+Most sober people don't feel much from zeolite, but when the trip is toxic or the gut is driving it, the effect is easy to feel. I put a spoonful of zeolite into a cup of water or juice and sip slowly (some people need a teaspoon, others a tablespoon). Rubbing the zeolite on my body, or just holding its jar in my hand, helps me too.
 
 In my experiments, zeolite has to be prepared correctly. I use powdered zeolite rather than nano-liquid zeolite. Many products did nothing for me, and quality mattered enormously. Most zeolites have clogged pores because they haven't been cleaned.
 
-For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic. I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me. Less time did not work as well, and more time did not noticeably improve it.
+For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic. I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me, however much zeolite was in the water. Less time didn't work as well, and more time didn't noticeably improve the zeolite.
 
-I also keep zeolite away from metal during preparation. Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion. I use glass for ozonation and storage whenever possible.
+Zeolite binds metals, which is part of why it is used for heavy-metal removal, so I don't put it into a metal thing or use a metal spoon. I use glass for ozonating and storing it whenever I can.
 
 ### Activated Charcoal
 
