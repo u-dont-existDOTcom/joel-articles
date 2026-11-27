@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-child-pointers-cards-20261127",
+ "title": "Inner Child Guide, 27 November: two pointers to the somatic guide's new sections",
+ "git_file": "articles/somatic-therapies/experiments/additions-20261126/review-c1127/REVIEW-INNER.html",
+ "article": {
+  "file": "articles/somatic-therapies/experiments/additions-20261126/review-c1127/ARTICLE-INNER.md",
+  "sha256": "76e4120afc86c342efd2df925e014466818ae5edc6bff91ba83beee32bbe5ece"
+ },
+ "built": "2026-11-27T20:15:21Z",
+ "generator": "suggestion_review.py 1.14 (2026-11-27)",
+ "exported_at": "2026-11-27T22:26:30.158Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "IC1",
+   "type": "addition",
+   "title": "Re-do Trauma Memories: a pointer to Imagery Rescripting",
+   "where": "above the heading \"Discipline Done Right?\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If a memory feels too big to redo on your own, there's an actual clinical therapy for that, called [Imagery Rescripting](https://ibogaqueen.substack.com/i/201523223/imagery-rescripting), which I only found out about after I wrote this section. The therapist steps into the memory as the ideal adult, protecting and nurturing your inner child, until you learn to do that yourself.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-27T22:20:24.920Z"
+    }
+   ],
+   "updated": "2026-11-27T22:20:24.920Z"
+  },
+  {
+   "id": "IC2-TEACH",
+   "type": "teach",
+   "title": "Physical Pain?: a pointer to the two pain therapies, six tries, its second sentence Medium",
+   "where": "above the heading \"Compassionate Exit?\"",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy. They've helped people with long-lasting back, muscle and joint pain, by changing their relationship to the pain without pretending it's not there.",
+   "comment": "\"and \" was a fake connection between clauses, don't do that. and \"they treat the pain as real\" was not explaining how they help\n\nhttps://www.pangram.com/history/81b522f7-4574-4678-87e9-9ea7f544d323?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in [my somatic guide](https://ibogaqueen.substack.com/i/201523223/pain-that-wont-quit), Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy. They both treat the pain as real, and they've helped people with long-lasting back, muscle and joint pain.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-27T22:20:58.656Z"
+    }
+   ],
+   "updated": "2026-11-27T22:26:26.439Z"
+  }
+ ]
+}

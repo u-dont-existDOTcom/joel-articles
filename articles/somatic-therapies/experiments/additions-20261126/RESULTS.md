@@ -2,7 +2,7 @@
 
 Joel, 2026-11-26 22:44 UTC: "i also want to make an addition to the somatic.u-dont-exist.com article with the recs from gpt below (humanized)". The suggestions were ChatGPT's reply from the research lane ([PR 545](https://github.com/u-dont-existDOTcom/joel-articles/pull/545), [SOMATIC-INTEGRATION-PROPOSAL-20261126.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/research/somatic-edt-eaet-20261126/articles/somatic-therapies/experiments/SOMATIC-INTEGRATION-PROPOSAL-20261126.md)): experiential therapies after Brainspotting, imagery rescripting after EMDR, and a pain branch after Layer 5. His words to that lane: add only what fills a gap, say where it fits and who needs which.
 
-**Where it stands:** on his two cards pages of 27 November, [Somatic Guide: two new sections for you to teach me](https://claude.ai/artifact/PWWhtf4EjbExfr9j4fTwKu) (cards on GitHub: [review-c1127/CARDS-SOMATIC.md](review-c1127/CARDS-SOMATIC.md)) and [Inner Child Guide: two pointers to the somatic guide's new sections](https://claude.ai/artifact/AtSe7jXfLmsQ4cyqcRBwpS) (cards: [review-c1127/CARDS-INNER.md](review-c1127/CARDS-INNER.md)). The first page of 26 November, answered: [Somatic Guide, 26 November: three new sections](https://claude.ai/artifact/8w8DEeT9cS8T964HGSpz4M). Nothing is in the post yet.
+**Where it stands:** live since 22:45 UTC on 27 November: "Imagery Rescripting" and "Pain That Won't Quit?" in the [somatic guide](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) ([its first](https://ibogaqueen.substack.com/i/201523223/imagery-rescripting), [its second](https://ibogaqueen.substack.com/i/201523223/pain-that-wont-quit)), and the two pointers to them in the [inner child guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) (in "Re-do Trauma Memories" and "Physical Pain?"), each Human High ([apply-c1127/README.md](apply-c1127/README.md)). "Can't Stay With a Feeling?" waits for his word: it reads [Human Written, 0% AI](https://www.pangram.com/history/089bbeb6-7fe6-4961-b18f-7d54fd474d5b) with two Medium windows over his own sentences.
 
 | | Section | Words | Pangram on the card's version |
 |---|---|---|---|
@@ -145,3 +145,31 @@ from his scheduled tasks, if it still shows.
    (IC1, IC2) with the live anchors imagery-rescripting and pain-that-wont-quit; guarded Update
    (tools/humanization/substack_update.js); the posts' "Updated" dates; fetch both live posts; live_sections; the depends
    check; BUILT-ON.
+
+## Checkpoint, turn of 2026-11-27 22:26 UTC (his answers to the cards; three of the four texts live)
+
+His answers to the two cards pages (22:19 and 22:26 UTC, [answers/ANSWERS-C1127-SOMATIC-20261127-2219.json](answers/ANSWERS-C1127-SOMATIC-20261127-2219.json)
+and [answers/ANSWERS-C1127-INNER-20261127-2226.json](answers/ANSWERS-C1127-INNER-20261127-2226.json)): A1-TEACH and A3-TEACH
+revised with his versions (A1's in his Pangram history only, read back by their links), IC1 approved, IC2-TEACH revised.
+Each of his versions read Human High in his own check ([pangram/HIS-CHECKS-C1127.json](pangram/HIS-CHECKS-C1127.json)).
+
+- **Live:** A2 and A3 in the somatic guide (22:45 UTC), IC1 and IC2 in the inner child guide (22:46 UTC), no email; the
+  dates moved to 27 November; the live posts fetched, their section lists rebuilt, the depends check clean
+  ([apply-c1127/README.md](apply-c1127/README.md)).
+- **A1:** with his two paragraphs in, the section read [24% AI](https://www.pangram.com/history/79b83fb1-6ec3-4eb8-9a64-0e2e66992e8e) (my AEDP paragraph AI in the section, though High by
+  itself); his fixes of this turn applied to that paragraph (whose therapist, the "and" taken out, what the therapist does
+  in place of their aim, the reader's word "kindness", a repeat cut) took it to [17%](https://www.pangram.com/history/6abb3f4b-54ab-41e5-8b4f-4e9c660a244b), then
+  [Human Written with a Low window](https://www.pangram.com/history/bd7b5cbd-12b7-4a4b-99f3-693d4c9e2eba), [two Low](https://www.pangram.com/history/17413390-d21e-4635-a786-e9044baa03ed), and [no Low window](https://www.pangram.com/history/089bbeb6-7fe6-4961-b18f-7d54fd474d5b): High 47, Medium 19, High 143, Medium
+  49, High 55. Both Medium windows hold his sentences ("The ISTDP therapist catches you each time ...", alone; "All three
+  keep steering you back ...", with my AEDP paragraph's end), so whether A1 goes in as it reads is his to say. Fresh reads
+  before each check: [reads/READ-26.md](reads/READ-26.md) to [READ-29](reads/READ-29.md), none marked.
+- **His fixes as lessons:** somatic-2026-11-27g to o ([docs/lessons/2026-11-27-2226-somatic.md](../../../../docs/lessons/2026-11-27-2226-somatic.md)),
+  tested the same turn: the blind replay ([replay-2/RESULTS.md](replay-2/RESULTS.md)) scored 2 of 6 Human High; what it
+  missed became lessons m to o, and it didn't follow lesson l, which it had.
+
+### Next, in order
+
+1. His word on A1 (as it reads, or his tweak of his two sentences); then A1 into the somatic guide the same way
+   ([apply-c1127/insert.js](apply-c1127/insert.js), `tools/humanization/substack_update.js`), its date, the live check.
+2. Built-on: the Self-Hypnosis guide draws on neither change (`articles/BUILT-ON.json`); if he wants pointers there, a
+   new pass on that guide.

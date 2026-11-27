@@ -36,6 +36,41 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-27T19:26Z"
+  },
+  {
+   "turn": "2026-11-27T22:26Z",
+   "lines_of_work": [
+    "the somatic additions: his answers to the two cards pages of 20:12 UTC (A1-TEACH, A3-TEACH revised; IC1 approved; IC2-TEACH revised)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ on main (3fce032): the same 6 items, all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "issues and pull requests since 19:00 UTC: 563 to 570, other lanes' pull requests, all merged; no new issues; no new comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "~/claude-acceptance-transfer/handoffs/somatic-therapies.md: unchanged since my write of 20:18 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "one queued notification: the stray reminder a helper scheduled (trig_018tSxx2uvui6MSbM584iYBP) fired at 20:04 UTC with the text 'placeholder'; nothing to do"
+    }
+   ],
+   "items": [
+    {
+     "item": "main's merge of pull request 571 (the bad trips lane's turns 72 to 75), found at the push",
+     "outcome": "merged in before the push; read: way 30 of tools/humanization/his_fixes_brief.md (a word that pulls against what the paragraph mainly says the thing does, lesson bad-trips-2026-11-27j), sense receipts' his_answer (lesson bad-trips-2026-11-27k), the warning check's other words (27f); they apply to this lane's next tries (A1, if he asks for one); nothing addressed to this lane, and no new issue, comment or review"
+    }
+   ],
+   "recorded_utc": "2026-11-27T22:28Z"
   }
  ]
 }

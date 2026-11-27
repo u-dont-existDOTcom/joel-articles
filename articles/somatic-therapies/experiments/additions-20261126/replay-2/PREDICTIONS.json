@@ -1,0 +1,102 @@
+{
+ "about": "The blind rewrite of the six paragraphs he fixed on the cards of 27 November (REWRITES.md, a fresh Fable writer given BRIEF.md alone), each checked by itself in the Pangram web app (his account, the desktop app's browser pane). Predictions written before the checks: call and my chance of a 100% Human result.",
+ "written_utc": "2026-11-27 (turn of 22:26 UTC), before the checks",
+ "items": [
+  {
+   "key": "replay2-A1-P1",
+   "sha256": "9d462401539136073703c8275fc63e89ebac3e599bc2f62dea823064f3b2d091",
+   "words": 70,
+   "call": "Human",
+   "chance": 0.5,
+   "why": "opens on the reader's case and names whose therapist; \"For that there's\" is a pitch turn",
+   "result": {
+    "headline": "Human Written",
+    "ai": 0,
+    "windows": "Human, Low, 42; Human, Medium, 10; Human, Low, 21",
+    "utc": "22:32:38",
+    "link": "https://www.pangram.com/history/667eb913-cfdd-4891-908f-41524b91bb7d"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay2-A1-P5",
+   "sha256": "c38299a7851e2108629b846f322cb2b88cebb1262f4a4e7db4489c399da96156",
+   "words": 94,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "the closing wish is a long two-part reassurance (\"stop and help me settle ..., and that when I disagree ...\")",
+   "result": {
+    "headline": "AI Generated",
+    "ai": 1,
+    "windows": "AI-Generated, Medium, 26; AI-Generated, High, 76",
+    "utc": "22:32:48",
+    "link": "https://www.pangram.com/history/705a3447-cb4c-43fe-a938-2fb14a4d719d"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay2-A3-P1",
+   "sha256": "5bc90cbc1116c0ccd5074a88b1e7cb2abfc4fe6d5242ec84228a6171d7499a00",
+   "words": 108,
+   "call": "Human",
+   "chance": 0.55,
+   "why": "close to the card version that read High 88, with the pace and order said",
+   "result": {
+    "headline": "Human Written",
+    "ai": 0,
+    "windows": "Human, High, 113",
+    "utc": "22:32:59",
+    "link": "https://www.pangram.com/history/177f8265-c886-4239-a68e-c9ac4786a293"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay2-A3-P3",
+   "sha256": "fceca0ab3ebd07a1fbf9cdf584aeda9aae1c1b848261835bbde4f55b77f5a7d3",
+   "words": 60,
+   "call": "Human",
+   "chance": 0.5,
+   "why": "the name moved to the front, which feelings said; two short sentences at the end",
+   "result": {
+    "headline": "Human Written",
+    "ai": 0,
+    "windows": "Human, High, 64",
+    "utc": "22:33:09",
+    "link": "https://www.pangram.com/history/2a26926b-a7b9-497a-9d20-d4a3cde53e58"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay2-A3-P4",
+   "sha256": "a86af17b942ed1789a5d374015102ca87cf4f49d4f52a7bd1cea4cc78acaba78",
+   "words": 76,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "it opens on what we learned but its second sentence still opens \"In a 2024 trial of\", and adds a comparison sentence",
+   "result": {
+    "headline": "Human Written",
+    "ai": 0,
+    "windows": "Human, Medium, 42; Human, Low, 38",
+    "utc": "22:33:19",
+    "link": "https://www.pangram.com/history/1e8c0cbd-247d-478e-9663-1073de24d0e9"
+   },
+   "prediction_right": false
+  },
+  {
+   "key": "replay2-IC2",
+   "sha256": "a310ae61a35ab1bfa509e544eab72eeb6bb09b3a3189cb0eb0dbdb316a87ac88",
+   "words": 91,
+   "call": "AI",
+   "chance": 0.35,
+   "why": "it grew to five sentences listing each therapy's method, a summary shape",
+   "result": {
+    "headline": "AI Generated",
+    "ai": 1,
+    "windows": "AI-Generated, High, 95",
+    "utc": "22:33:34",
+    "link": "https://www.pangram.com/history/ca0e2382-b0c2-47e5-b286-564b765bdb34"
+   },
+   "prediction_right": true
+  }
+ ]
+}
