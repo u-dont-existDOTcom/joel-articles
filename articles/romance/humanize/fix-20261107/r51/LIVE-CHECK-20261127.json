@@ -1,0 +1,64 @@
+{
+ "about": "The live post after the update of 2026-11-27 (r51): read back from Substack's post API, signed in and as a reader who isn't, and compared with UPDATE-PLAN.json's paragraph list.",
+ "post": 197034035,
+ "url": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+ "plan": {
+  "commit": "c6600abc11e6b15a4501d88a6dd3ac0c92518ee0",
+  "sha256": "1d3b29256d26d073d722c56a5f5caeb524176b8f8f119ab2b98be370beba32b8"
+ },
+ "editor_before": "the editor's 457 paragraphs matched whole/LIVE-INDEX.txt's fingerprints (the live post as indexed on 2026-11-23)",
+ "transaction": {
+  "steps": 359,
+  "swapped_blocks": 140,
+  "paragraphs_after": 441,
+  "natives_after": {
+   "captionedImage": 18,
+   "youtube2": 12,
+   "instagram": 3,
+   "button": 2,
+   "horizontalRule": 12
+  },
+  "links": [
+   42,
+   47
+  ],
+  "curly_quotes_left": 0,
+  "em_dashes_left": 0,
+  "text_chars": [
+   115182,
+   120687
+  ]
+ },
+ "dispatched_utc": "2026-11-27T20:30Z",
+ "draft_saved_utc": "2026-11-27T20:30:10Z",
+ "update": {
+  "button": "Update",
+  "dialog_boxes": [
+   [
+    "Schedule time to publish",
+    false
+   ]
+  ],
+  "no_email_box_in_dialog": true,
+  "pressed_utc": "2026-11-27T20:30:33Z",
+  "moved_to": "share-center?alreadyPublished=true"
+ },
+ "after": {
+  "title": "Romance Advice I Wish My Parents Taught Me 🫶🏿💁🏿‍♂️🤦🏿‍♂️🤫😍 Updated Nov 27, 2026",
+  "updated_at": "2026-11-27T20:30:33.351Z",
+  "email_sent_at": "2026-05-09T20:18:04.208Z (the first publication's; no email this time)",
+  "should_send_email": false,
+  "audience": "everyone",
+  "paragraphs_equal_plan": "441 of 441, signed in and not",
+  "reel_Dfd1gZGN3cZ": true,
+  "video_ZsFKlxVUYG8": true,
+  "perel_link": true,
+  "curly_quotes": 0,
+  "em_dashes": 0,
+  "body_sha256_signed_in": "d98340b449c8239723f1c5f07dc3c5afe411d8bcc0a2e1410b749107b9ad4253",
+  "body_sha256_reader": "848a8d3f373bcdcb03d7ea600ab981171515288a40704dc510a2116ca14904d4"
+ },
+ "social_title": "Its social title (the browser tab's and share previews' title, which the editor doesn't show) still said \"Updated Aug 27, 2026\"; set to the post's title with PUT /api/v1/drafts/197034035 {social_title}, live at once (20:32 UTC; the body unchanged, checked again after).",
+ "instagram": "the post's two Instagram embeds (DejqbH4xJtA, Dc9hwfziBn8) and the new reel (Dfd1gZGN3cZ) checked live on Instagram (tools/humanization/instagram_alive.js), 20:2x UTC",
+ "reel_attrs": "Substack's own embed of the reel, made by pasting its address at the end of the temporary draft B after his check (draft B is his to delete); its rehosted snapshot and profile picture load"
+}

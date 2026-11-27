@@ -7935,7 +7935,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/r40/CARD-GAME.md",
-          "sha256": "cde23ba9f16689026e3ef25e7245faef2a400cc7a2dd43a7f41bd1d6d2c7e8a0",
+          "sha256": "7cd0ec4659af40fcbfb19fcaa184dd9b5f7fa15e74bd568b519928cbac59be09",
           "role": "humanization_working_record"
         },
         {
@@ -9445,7 +9445,22 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/r51/update.js",
-          "sha256": "7fb6cb0153b35e7d1478c546c6f09de688987b205b0a1d009da426aca3327fdc",
+          "sha256": "d69d57ae1a94b5bb1b186e25b8507cc437f06b79f6b510ca24a8af8ec6d7f9c5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/LIVE-CHECK-20261127.json",
+          "sha256": "b50d00ca60008c8fc56725f6c8d41ecb201159c5bbe5084651d75374e9891742",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/README.md",
+          "sha256": "adbcf1e5f3283a585da943d3db88fd46f279df521ee35293cb83d20401d8c2af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/RESULTS-whole-r50.json",
+          "sha256": "6594f184973b3ab6abf85f440a3a4db1aa06e3e1a746910351c2a33c27c8a83d",
           "role": "humanization_working_record"
         }
       ]
