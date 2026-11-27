@@ -91,8 +91,9 @@ that still reads the first way.
    usually where it starts" into "Asking that question out loud is the first step in figuring it out", "If the other
    person won't look, you can't make it mutual" into "if the other person won't look at the truth, you can't make
    honesty a mutual value", and "Temporary separation helped Bee and I. It also became more permanent" (the separation,
-   or honesty?) into one sentence, "although it became less temporary as time went on"; he named each with words the
-   passage already had, and added nothing (romance, 2026-11-23, lesson romance-2026-11-23h). A run of "maybe ..."
+   or honesty?) into one sentence, "although it became less temporary as time went on"; he named exactly what each one
+   stood for, and added nothing else (romance, 2026-11-23, lesson romance-2026-11-23h; that the names were words the
+   passage already had is not the method: the exact name is, lesson bad-trips-2026-11-27l). A run of "maybe ..."
    possibilities just before "that question" is the question, with or without a question mark ("i don't think the
    question is so hard to understand after maybe this or maybe that"); saying it again as "whether ..." says it twice,
    which is what the blind rewrite of that passage did. A feeling the reader projects can read as a real one: "you
@@ -300,17 +301,21 @@ that still reads the first way.
    opioids" apart from the opioid already named, read AI Low; "(or any other MAOI)" beside the brews and "the painkiller
    tramadol and some other opioids" took the whole paragraph to High (lesson bad-trips-2026-11-25b). For each item, write
    what it belongs with, and mark it if something stands between them.
-30. **A word that pulls against what the paragraph mainly says the thing does.** A verb or adjective that says the thing
-   does something that sounds like the opposite of the paragraph's main point about it: a remedy the paragraph says ends
-   a trip "can even improve the trip", and the reader stops to ask how both can be true. He changed "improve" to
-   "smooth" ("how can something which ends a trip also 'improve' the trip? that sounds opposite perhaps. smooth the trip
-   makes more sense, and is more accurate also"), and that one word took the sentence's window from Medium to the whole
-   paragraph Human High in one window, where my two changes to how the sentences were built had not (lesson
-   bad-trips-2026-11-27j). Find what the paragraph mainly says the thing does; then, for each word that says what it does
-   or how it acts, mark it if it sounds like the opposite, and say what it does with a word the passage already has, as
-   he did (way 10). In the blind test, a writer told only "a word whose sense clashes with the rest" changed the wrong
-   word; told this way, one found "improve" but wrote "change", which says less than his word, and the sentence stayed
-   Medium (h82 replay).
+30. **A vague word for what a thing does, which the reader fills in with its usual sense.** A verb that judges
+   ("improve", "help", "affect") or says only that something happens ("change"), where the passage needs what the thing
+   actually does. The reader fills the gap with the word's everyday sense, and that can point the wrong way: of a remedy
+   that lowers a trip's intensity without ending it, "can even improve the trip" reads as "boost the trip", beside a
+   paragraph about ending trips. He changed "improve" to "smooth" ("how can something which ends a trip also 'improve' the
+   trip? that sounds opposite perhaps. smooth the trip makes more sense, and is more accurate also"), and that one word
+   took the paragraph from a Medium window to Human High in one window, where my two changes to how the sentences were
+   built had not. His reason is accuracy, not reuse (2026-11-27 22:48 UTC: "it's not about using the same word. it's about
+   using a word that's accurate ... "change" doesn't mean much. "improves" is not what smoothes means, it's more vague. if
+   we are talking about something that reduces intensity, then "improves" sounds a bit strange when usaully ppl would
+   think that means boosts for the trip"; lessons bad-trips-2026-11-27j, l). For each word that says what something does,
+   write what it actually does here (lowers the intensity, ends it, starts it, eases the nausea); mark the word if it says
+   less than that, or if its everyday sense could take a reader somewhere else; the fix is the word that says exactly what
+   the thing does, whether or not the passage has it already. In the first blind test a writer who found "improve" wrote
+   "change", vaguer still, and the sentence stayed Medium (h82 replay).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

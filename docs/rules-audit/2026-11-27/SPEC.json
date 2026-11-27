@@ -1,0 +1,2013 @@
+{
+ "review_id": "rules-audit-20261127",
+ "title": "Rules audit, 27 Nov: the rules that look sus",
+ "source_sha256": "c4a1fbca89218b26f661f7c702e620a551668152d979a67d4d6e66bcf10cca11",
+ "source_name": "docs/rules-audit/2026-11-27/QUESTIONS.md",
+ "repo_file": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md",
+ "intro": [
+  "You asked me to go over all the rules with Fable double-checking, after the wrong smooth lesson. What ran: every rule in the repository (2,087 units: AGENTS.md, SKILL.md, the briefs and docs, all 110 lesson files, the old gate, the 223 tells, and your saved preferences) went to Fable checkers in 35 batches. Before the full run, the checker had to find the smooth rule blind, told nothing about it: it flagged both copies for your reason, and the every-word rule too. 404 flags came back; a Fable consolidator merged them into 34 clusters and 8 stale items; five Fable verifiers checked each against the rule's own text and your words in context, and rewrote the fixes that would have undone something you said later; I checked their checks (one correction of mine, on C30).",
+  "Each card: the rule as it reads now, what I'd change it to, what you said, why it looks off, and a question where only you can decide. **Approve** = I change the rule as proposed, in every file it lives in. **Revise** = tell me how in the note. **Reject** = it stays as it is. The interactive page has the same cards with buttons; this file is the record."
+ ],
+ "groups": [
+  {
+   "id": "done",
+   "title": "The two you corrected, and my addition",
+   "intro": "Already changed this turn, for your check. Approve keeps the change; Revise says how; Reject undoes it.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  },
+  {
+   "id": "feature",
+   "title": "A feature of your fix made into the method",
+   "intro": "The smooth mistake: something that merely happened to be true of one fix of yours became the rule.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  },
+  {
+   "id": "count",
+   "title": "A count or a word match standing in for judgment",
+   "intro": "A word count, a word list, a percentage or a string test where you asked for a reading of meaning.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  },
+  {
+   "id": "conflict",
+   "title": "Rules that contradict each other or your later word",
+   "intro": "A lane obeying one of these breaks another, or undoes something you said since.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  },
+  {
+   "id": "steps",
+   "title": "Steps, checks and questions nobody asked for",
+   "intro": "Machinery I added that slows the work or sends you questions; your own words in these stay.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  },
+  {
+   "id": "stretch",
+   "title": "Your words stretched past what you said",
+   "intro": "A remark about one case taken as a rule for every case, or a quote carried past its meaning.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  },
+  {
+   "id": "old",
+   "title": "Old and retired rules still reading as active",
+   "intro": "Text you have overruled or retired that a lane could still follow.",
+   "approve": "change the rule as proposed, in every file it lives in",
+   "reject": "the rule stays as it is"
+  }
+ ],
+ "items": [
+  {
+   "id": "S1",
+   "group": "done",
+   "title": "The smooth lesson: the accurate word, not the same word",
+   "section": "done",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "Way 30 of the read against your fixes: \"find the word against the main point, and say what the thing does with a word the passage already has, as he did.\" Way 10, from a romance fix: \"he named each with words the passage already had, and added nothing.\"",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Way 30 now: for each word that says what something does, write what it actually does here (lowers the intensity, ends it, starts it); mark the word if it says less than that, or if its everyday sense could take a reader somewhere else (\"improve the trip\" reads as \"boost it\"); use the word that says exactly what the thing does, whether or not the passage already has it. Way 10 now: you named exactly what each \"it\" stood for, and added nothing else.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"it's not about using the same word. it's about using a word that's accurate. didn't i explain that? \"change\" doesn't mean much. \"improves\" is not what smoothes means, it's more vague.\" (2026-11-27 22:48 UTC); earlier, on the card: \"smooth the trip makes more sense, and is more accurate also\"."
+    },
+    {
+     "label": "Why it looks off",
+     "list": [
+      "The Fable checker found both copies of this rule blind, for your reason (\"a word the passage already has merely happened to be true of his fix; he said more accurate\"), before the full audit ran.",
+      "Way 10 had the same reading in a romance fix (\"it\" became \"honesty\", \"won't look\" became \"won't look at the truth\"); I changed it the same way. That one is my reading of your romance fix."
+     ]
+    },
+    {
+     "label": "Question for you",
+     "text": "In those romance fixes, was the point naming exactly what \"it\" stood for (as I now have it)?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "tools/humanization/his_fixes_brief.md (ways 10 and 30); lessons bad-trips-2026-11-27j and l; romance-2026-11-23h"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ],
+   "approve": "keep the change I made",
+   "reject": "undo it"
+  },
+  {
+   "id": "S2",
+   "group": "done",
+   "title": "Your answer's words: what is relevant, not every word",
+   "section": "done",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"every word of four letters or more he said for it either in that sentence or named with where it went\", and the receipt tool refused a text until each such word was accounted for.",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Something relevant you said (a condition, a scope, a reason) stays with your point, or has a reason to go, or I ask you when I'm not sure it's relevant. Not every word: you often say things beside the point, so I read what you mean first. The clearest sign something is relevant: what I wrote doesn't make sense or say what you meant without it (here, \"works through the skin almost as well as eating\" without \"sensitive skin\"). The tool no longer counts your words; it only checks that a recorded drop has a reason.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"it's not that every word of my answer has to reach the sentence that says my point, but clearly if i'm saying something which is relevant and then you're removing that, you'd need to have a reason for removing it. if you're unsure, you'd ask.\" (2026-11-27 22:48 UTC)"
+    },
+    {
+     "label": "Why it looks off",
+     "text": "The checker flagged this one blind too: \"a word-length count stands in for a judgment of meaning\"."
+    },
+    {
+     "label": "Where it lives",
+     "text": "tools/humanization/sense_receipt.py (his_answer); docs/FIXING-AN-ARTICLE.md section 5; lessons bad-trips-2026-11-27k and m"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ],
+   "approve": "keep the change I made",
+   "reject": "undo it"
+  },
+  {
+   "id": "S3",
+   "group": "done",
+   "title": "A check of every new lesson against your words (my addition)",
+   "section": "done",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "Nothing checked a new lesson against what you said before it went to every lane.",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Before a lesson file goes to main, a fresh Fable reader reads it with the brief that found the smooth rule; a flag about your meaning comes to you, the rest are fixed or the lesson says why they stand. About a minute per lesson file, not a gate on article work. A lesson's method is the reason you gave; what your fix merely happened to do is the method only where your words or the case show it is why the fix works.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i often assume you're understanding the lessons\" (2026-11-27 22:48 UTC)"
+    },
+    {
+     "label": "Why it looks off",
+     "text": "This turn's three new lessons had it first: five flags, all taken (one lesson contradicted itself, my test for \"relevant\" was narrower than yours, and two places that are my reading are now marked)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/README.md; tools/humanization/rules_check_brief.md; lesson bad-trips-2026-11-27n"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ],
+   "approve": "keep the change I made",
+   "reject": "undo it"
+  },
+  {
+   "id": "C01",
+   "group": "feature",
+   "title": "Near-miss step limit: a word or two, 20% / 40% refusals",
+   "section": "confirmed, 14 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"After a near miss (a try with a Human window), the next try starts from it and changes only what a reader could take two ways, a word or two per check; `tools/humanization/pangram_ledger.py` refuses a rewrite of it\" (AGENTS.md, line 33). Tool: \"refuses a try that changes more than 20% of the words of the lineage's best try with a Human window, whatever --big-change says\" (docs/lessons/2026-11-19-1515-bad-trips.md, line 26); \"refuses a retry that changes more than 40% of the words of the last try without `--big-change`\" (docs/MAKING-SENSE.md, line 159).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "After a near miss, start from it (don't throw it away) and fix everything in it that is unclear, however many words that takes, then check. Small one-change checks stay a useful habit for telling which change moved the reading (neuro-2026-11-25c shows they often work), never a word-percentage refusal, and never a hold on your own content changes.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i made 2 changes, and i checked each one. each was necessary to get to fully high conf human. first i clarified what \"it\" was referring to, then i clarified what \"too weak\" meant\" (round-41 export, 2026-11-19). Your last MDMA step was not small: \"alright i tried to fully clarify it and not repeat 3 times to call medics, now it's human high conf\"."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "your point was clarifying what a reader could take two ways, starting from the near miss; the size of your edits was made the method and then a tool refusal. The refusal blocked your own content answers (\"The ledger refused my full versions ... 69% and 38%\", lesson neuro-2026-11-26g) and a fix the paragraph's checks had earned (somatic-2026-11-27f). Later words go the other way: \"you do whatever you need to do get it to read well\" (2026-11-04); \"once i fully make it look right, then i can chheck if pangram agrees\" (your saved preferences); the limit \"was to stop you from doing blind tests, but if your'e on the right track you should keep going\" (your saved preferences)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; docs/lessons/; docs/MAKING-SENSE.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C03",
+   "group": "feature",
+   "title": "\"Payoff first\" fixed as a form on every sentence and paragraph",
+   "section": "partly, 13 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"The point comes first in every sentence and paragraph.\" (AGENTS.md, line 33); \"E374. A paragraph opens on the reader's own case ... `check` refuses a receipt without it\" (docs/HUMANIZATION-GATE.md, line 2831-2840); \"put the limit that decides it in the first sentence, never in a clause after a finding\" (docs/lessons/2026-11-19-0052-bad-trips.md, line 7-8); \"The means before the payoff\" (tools/humanization/his_fixes_brief.md, line 103).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Keep \"payoff first\" as your test: at each sentence and paragraph, does the reader know early why they are reading it, without reaching the end. The reader's-case opening, the limit-first sentence, purpose-before-means and the tense and abbreviation notes are examples of how you have done it, to consider and not to require; the receipt's `opens` refusal goes. Do not ask you to define the term again: the cluster's \"Ask him what payoff first means\" goes against \"how come i keep explaining this\".",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"the fix was to give the reader payoff sooner so they understand why they should read ... we have to read all the way to the end of the sentence before we understand why we were reading the sentence ... how come i keep explaining this and you keep forgetting?\" (2026-11-04, gate E357; your saved preferences); \"my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this\" (2026-11-21; your saved preferences); \"can't believe you still don't understand what i'm talking about when i say payoff first\" (2026-11-20)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "the principle is your, stated many times and saved (your saved preferences), so it is not sus. What merely happened to be true of single fixes: \"opens on the reader's own case\" (one dynorphin paragraph) enforced on every paragraph, the limit \"never in a clause after a finding\", and purpose-clause-before-means as the meaning of the term. The cluster overstates the linter: O65, O75 (past perfect) and O76 (abbreviation three times) are `flag('REVIEW', ...)`, not failures (tools/humanization/tells_lint.py:1169, 1366, 1579), and the last two quote your own Pangram notes."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/; docs/HUMANIZATION-GATE.md; SKILL.md; tells registry; AGENTS.md; tools/humanization/his_fixes_brief.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C13",
+   "group": "feature",
+   "title": "His list fixes made a template for every list",
+   "section": "confirmed, 4 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A long list of category words is taken apart the way he did it: a hedged don't over a short list that ends on something from the reader's own life, \"Think twice before ...\", and a slack ending (bad-trips-2026-11-07j). ... On any window below High these six come before any other rewrite.\" (AGENTS.md:33; the frames in full at SKILL.md:187 and :189, both ending \"the frame is necessary, not enough\")",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Unpack a compressed list so each item is a particular thing said to this reader, built differently where that reads naturally; your two paragraphs are examples, not a form or an order of work. Every item the reader has to check stays (\"etc.\" only ends a run of examples of one thing), and a firm don't stays firm where someone could get hurt.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"high conf human on first try. seems like you didn't even try to make it less like a massive robotic compressed list.\" (docs/lessons/2026-11-07-2238-bad-trips.md:7, round 23). The \"all lanes\" quote is of 2026-11-05, two days before any list fix, and was about the gut term notes."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Your point was that the list was left compressed; the rule keeps the parts of your one paragraph as the method (the calibration mistake). Its own tests go against \"necessary\": the frame in the editor's words read AI 13 of 13 and 8 of 8 (SKILL.md:187, :189), and lesson bad-trips-2026-11-12f says \"a lesson converts the section he writes and no other\". \"fewer reasons\" (lesson 12a) was met a day later by your \"putting back the symptoms that don't overlap which you cut\" (lesson 12e)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; SKILL.md; docs/lessons/"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C14",
+   "group": "feature",
+   "title": "\"Plain word\" misreads \"converted into\"; join and plain word made compulsory",
+   "section": "confirmed, 5 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"`pangram_ledger.py predict` refuses a text of mine that reworks a sentence which read below High until `--first-fix \"payoff: ...; join: ...; plain: ...\"` says what each did.\" (docs/FIXING-AN-ARTICLE.md, line 115); \"**The plain word.** Never a paraphrase to get past the detector: \"converted into\", not \"turned straight into\".\" (SKILL.md, line 186); \"A vague word is a sense fault, and the plain word fixes the read.\" (docs/lessons/2026-11-26-0050-neuro.md, line 33)",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "First check where each sentence's and paragraph's payoff lands, and move it up. Join sentences only where the stretch reads choppy. Use the accurate, natural word for the thing, and never reword just to get past Pangram. No three-part declaration; MAKING-SENSE question 9's \"One step a sentence\" (docs/MAKING-SENSE.md, line 141) goes, since you joined steps.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i basically just joined sentences to make it read more flowy and natural ... it was also important to replace \"turn staight into\" to \"converted into\". i felt the first way you statted it sounded like ai trying to bypass pangram with a paraphrase that looked strangely out of place ... on the last span it was obviously the same issue as always, payoffs coming too late for the reader ... why did you not check the same issue i always fix?\" (articles/healing-the-gut/experiments/t14-answers/REVIEW-ANSWERS-b9.json:28, 2026-11-05); \"'tone' was unclear. when i changed tone to receptors it flipped that section human.\" (2026-11-26)"
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Only the late payoff is \"the same issue i always fix\"; the join was what that stretch needed, and both word fixes went to the exact term (\"converted into\", \"receptors\"), not a plainer one. \"Plain\" is the editor's label, and a three-part declaration makes two one-off fixes compulsory on every window. Your later word agrees: \"it's not about using the same word. it's about using a word that's accurate\"."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; docs/HUMANIZATION-GATE.md; SKILL.md; docs/lessons/; docs/MAKING-SENSE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C21",
+   "group": "feature",
+   "title": "Shapes of one rewrite made recipes",
+   "section": "confirmed, 22 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Say a denial as how the thing looks or feels, then \"but\": \"It might feel like X. But more likely Y\", never \"It's not X. It's Y.\"\" (docs/lessons/2026-11-07-1402-bad-trips.md, line 13-14); \"say what it does with a word the passage already has, as he did\" (tools/humanization/his_fixes_brief.md, line 310-311); \"everything about it goes with its first mention\" (tools/humanization/his_fixes_brief.md, line 166-167); \"Mark a don't, a \"won't help\" or an \"only makes it worse\" that doesn't say why somebody would want to do it.\" (tools/humanization/his_fixes_brief.md, line 149-150).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Each shape is recorded as what one passing fix of your did, to try where it fits, under your stated reason: the accurate word (not a reused one); a subject not brought back needlessly, kept together or pointed to; an instruction that is concrete and not judging. \"X does not Y\" is still reworked (your saved preferences), in any wording that keeps what it denies; a factual or safety denial is never turned into a \"might\" for the detector.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"smooth the trip makes more sense, and is more accurate also. i'm somewhat sure i didn't write 'improves' the trip, that sounds like ai slopping my thoughts\" (2026-11-27), and since: \"it's not about using the same word. it's about using a word that's accurate\"; \"didn't you already mention magnesium? is there no way to keep it with the previous mention?\" (2026-11-23); 07d quotes no words of your, only your two Pangram tries."
+    },
+    {
+     "label": "Why it looks off",
+     "list": [
+      "Each instruction is a feature of one fix; your stated reasons were accuracy, sense and not repeating. Lesson 23i's own fix left \"the amounts ... in the MDMA section it points to\", so \"everything\" is not even what was done; E366 keeps \"concrete\" and drops your \"air of snobbery\". You have said the same of one-swap rules: \"you can't just switch honestly for compassionately always\" (your saved preferences).",
+      "The proposed fix needs one change. You did say later that flat denials are to be reworked: \"\"X does not Y\" is changed in general that's super ai\" (your saved preferences), and that warnings may be reworded \"as long as the meaning stays\" (your saved preferences). So the line is the meaning of a denial, not its wording."
+     ]
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/; tools/humanization/his_fixes_brief.md; docs/HUMANIZATION-GATE.md; docs/CLARITY-READ.md; tells registry"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C28",
+   "group": "feature",
+   "title": "Details invented, or his content changed, to move Pangram",
+   "section": "confirmed, 6 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"give an example a number, a place or an oddly exact detail, addressed to the reader (\\\"the 13th friend today who asked you to Google something\\\"), not a scene that fits everyone\" (docs/FIXING-AN-ARTICLE.md, line 87); \"**Name the person and the moment** where a generic \\\"you\\\" or \\\"imagine\\\" scenario stood\" (GATE:532); \"When a text of mine reads AI, try these first, in that order\" (GATE:1952, first in the order: \"a specific, silly example for a general one\"); \"\\\"Dr.\\\" off closed Pangram's split at the title here too\" (docs/lessons/2026-11-27-2008-neuro.md, line 60).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Learn from your edits what a paragraph lacked (a named referent, the reason, the exact word); use a particular only when the article or you supply it, and leave the slot and ask otherwise. No fixed order of moves. Never write an opinion or a joke as your.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i'd like you to learn as much as possible from my edits and reorgs to see all the things you could have done yourself\" (2026-11-03, GATE:104); \"85 ok this is all dark green now, learn some lessons\" (GATE:699). Preferences: fix the process \"minus info you couldn't have, like my own experience\"; \"don't confabulate things about my life\"; kitchen and day details are an AI sign (\"\\\"in the kitchen\\\" is what AI always says\")."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Your particulars came from you; a recipe for exact details, a named person, or a silly example first makes the editor invent them, which your own words exclude, and the gate's own E207 ends \"nothing gets invented about his life\" while its move 3 is \"He gives the reason as his opinion\". Removing \"Dr.\" was done only because Pangram split the sentence there; no words of your cover it."
+    },
+    {
+     "label": "Question for you",
+     "text": "May a title like \"Dr.\" be dropped from a name when that is all that lifts a window, or does it stay?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; docs/lessons/; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "group": "count",
+   "title": "Word-by-word accounting in place of a meaning check",
+   "section": "confirmed, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"the receipt's `his_answer` maps each claim of his to the sentence that says it, and every word of his that sentence lacks is named with where it went\" (docs/FIXING-AN-ARTICLE.md:90; lesson 27k: \"every word of four letters or more\"); \"a line with a warning word (\\\"stop\\\", \\\"risk\\\", \\\"toxicity\\\") is held word for word even when it is no caution\" (:119); \"A lost key word is restored, not outvoted\" (docs/HUMANIZATION-GATE.md, line 3110); \"each warning keeps its warning word ... a warning that names no compound and no number (\\\"Do not push through.\\\") keeps its own words\" (gate E358:2559).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "For each claim of your, check that its sentence keeps the meaning, scope and condition you gave; a missing word is a lead to judge, never a fail or a forced restore. Warnings are held by meaning and facts (what, when, how much), their words free to change; a concept word like \"dyads\" stays where another word would be a different concept.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"you forgot the most important part, sensitive skin... that's why i said under the armpits\" (2026-11-27); \"we can't replace \\\"dyads\\\" with \\\"romance\\\" that's not the same concept\" (2026-10-12); \"8a not sure why you had to ask that, the whole point is rewording stuff here\" (2026-11-04, your saved preferences); CHARCOAL-WORDS \"a\": such a line \"may be said in other words, as long as every fact stays\" (2026-11-27, FIXING:120)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Each time your point was a lost scope or a changed concept; the rules test strings. Line 119 still says \"even when it is no caution\", which line 120, your later answer, undoes. E358's kept words go past \"the whole point is rewording stuff here\" and your saved preferences (\"words (warnings included) may change as long as the meaning stays\")."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/; docs/FIXING-AN-ARTICLE.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "group": "count",
+   "title": "Overused words and shapes hard-failed by the linter",
+   "section": "partly, 21 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"\\\"isn't proof of\\\" now fails like \\\"not proof that\\\", and \\\"doesn't prove\\\" fails too (registry W96)\" (docs/HUMANIZATION-GATE.md:1238, E259); \"It stays where it is the exact word and the only one nearby ... never change his own use without asking\" (AGENTS.md:109, honestly); \"A \\\"not Y\\\" tail (\\\"that's X, not Y\\\") is a linter FAIL (O9)\" (gate:108).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "\"one ordinary\" and \"one honest action\" still fail; \"X does not Y\" is changed by default (gate:46 already says \"say what to do, or what is so\"), kept where it is the clearest way to say it. The rest (\"proof\", \"one\" plus a noun, \"honestly\", \"I want\", \"not Y\" tails, negation in a heading) are reported for a reader to judge and stay where the word is the one meant; no rewording that changes the meaning to dodge one.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i think this is another high freq AI pattern to be aware of: \\\"isn't proof of/doesn't prove\\\"\" (2026-10-25, your saved preferences); \"honestly is also ok sometimes just it's overused\" (2026-11-23, your saved preferences); \"there's also the Not X, but Y. pattern with AI, so we shouldn't overuse that either, but sometimes it is the most clear and natural way to phrase it\" (2026-11-04)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed for those: \"be aware of\", \"overused\", \"sometimes\" became string fails, and \"the only one nearby\" is not your. But the cluster's fix (\"never a required change\") goes against two things you said to remove: \"we gotta remove \\\"one ordinary\\\" anywhere lol so ai\" (2026-11-03, your saved preferences) and \"let's make sure \\\"X does not Y\\\" is changed in general that's super ai\" (your saved preferences); also \"ONE HONEST ACTION ... i never heard a real person say that in my life\". Those stay fails or changes by default."
+    },
+    {
+     "label": "Question for you",
+     "text": "Is \"X does not Y\" every plain negative statement, or the abstract kind like \"“I saw it” does not create a duty to act\"?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "tells registry; docs/HUMANIZATION-GATE.md; AGENTS.md; docs/lessons/; docs/HUMANIZATION-TELL-INVENTORY.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C22",
+   "group": "count",
+   "title": "Counts standing in for judgment: threes, questions in a row, short lines, contrasts, repeats",
+   "section": "partly, 24 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A sentence of two to six words that sums up, labels or turns, between longer ones\" (tools/humanization/his_fixes_brief.md, line 180); \"Three or more questions in a row, or a paragraph that is almost all questions, reads like a worksheet\" (his_fixes_brief.md, line 245); \"two in one paragraph of mine fail\" (tools/humanization/tells_registry.json:2980, W124); \"Before a PASS, identify the three strongest credible model-shape candidates\" (docs/HUMANIZATION-COLD-AUDIT-GATE.md, line 13).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Keep each tell as your (a list of three, a short plain line, a run of questions, a contrast frame are read as possible AI). The count sends the editor to read, and the fix is by meaning: cut an item only where it overlaps or is vague, join a short line to its sentence, reorder questions until they flow. No count fails a draft by itself, nothing important is cut for one, and no detail is invented to fill a line (your saved preferences).",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"for P3 it's a list of 3 that's why it's AI, you couldn' tsee that?\" (E125); \"it wasn't just the rule of 3 items in a sentence that mattered, tho it was also the vagueness of that \"not now.\"\" (docs/HUMANIZATION-GATE.md, line 275); \"the ai tell is the short plain statements. feels robotic\" (2026-11-22); \"had to re-arrange so it flowed more naturally\" (2026-11-23); \"you still use a lot of ai patterns like ... \"x but not y\" and so forth\" (2026-11-11)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "The tells themselves are your: you name the list of three, short plain statements and \"x but not y\" as AI patterns, and later the same of \"isn't proof of\" and \"X does not Y\" (your saved preferences). Way 19 already carries the judgment (\"A list of concrete things from life is not this way ... an item goes only where it overlaps another\", his_fixes_brief.md:206-209). What is not your are the numbers used as pass or fail (two to six words, two frames, 2 per 100 words, three suspects before a PASS), and cutting to satisfy a count: two list items went from a published paragraph that read Human, against \"never take out something important in order to pass pangram\" (your saved preferences)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "tools/humanization/his_fixes_brief.md; docs/lessons/; tells registry; docs/HUMANIZATION-GATE.md; docs/HUMANIZATION-TELL-INVENTORY.md; docs/HUMANIZATION-COLD-AUDIT-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C23",
+   "group": "count",
+   "title": "One-case phrases made string tells",
+   "section": "partly, 21 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"\"won't mind\" as a closer ..., cut from his texts in his Pangram history\" (tools/humanization/tells_registry.json:2713, W105, kind \"mechanical\"); \"\"Even\"\", \"\"actually\" (same finding)\", sourced to \"\"Even\" and \"actually\" go with the failing paragraphs, but they don't cause it.\" (tells_registry.json:16, W07, W08); \"a \"but also\" pair\", sourced to \"P34m passed with ... a \"but also\" pair\" (tells_registry.json:379, W41).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Drop or demote the entries with no words of your and no result behind them. For the rest, record what the phrase does (a tidy closer, a portable line, a referent with nothing before it) as a judgment tell with the phrase as its example. Keep as they stand the tells you named yourself: \"safe\" checked each time for need and reference, \"if it's safe\", weekdays and kitchen details, \"one ordinary\", and J90.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "for W105 to W112 only \"i signed back into one of my pangrams if you want to learn from that history\" (2026-11-02); \"even though implies a stronger contrast than a subset of a broader treatment implies\" (2026-11-24); \"pretty much any time you see the word \"safe\" make sure it needs to be there and there's no ambiguitiy about what it's referring to or how one would ensure that\" (2026-11-11); \"Ai is always saying this portable stuff that could go anywhere\" (2026-11-02)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed for W105 to W112 (no words of your name a phrase), for W07, W08 and W41 (each contradicts the result it cites), for W60 and \"Announcing\" (one example, no reason) and for \"capacity\" tied to the string \"free resource\". Not sus: J90 is already a judgment tell that gives your reason (\"a contrast word stronger than the relation it marks\"); W127 is your rule nearly word for word and is still your word (your saved preferences); weekdays and kitchens are your too (your saved preferences: \"AI is always saying\"), as are words you asked to have removed anywhere (\"one ordinary\", your saved preferences)."
+    },
+    {
+     "label": "Question for you",
+     "text": "Should a weekday fail everywhere, or only where the editor added it (a real day in one of your own stories would stay)?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "tells registry; docs/lessons/; tools/humanization/human_tells.md; tools/humanization/his_fixes_brief.md; docs/HUMANIZATION-TELL-INVENTORY.md; docs/HUMANIZATION-GATE.md; docs/HUMANIZATION-OWNER-DELIVERY-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C25",
+   "group": "count",
+   "title": "Headings sharing a word: toc_check string match",
+   "section": "partly, 2 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"`tools/humanization/toc_check.py` lists every heading that shares a word with its parent or the heading before it and every heading a reader marked, and fails until each has a fate, changed or kept with its reason\" (docs/FIXING-AN-ARTICLE.md, line 39).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Keep \"no two headings in a row say or ask the same thing\", judged by the contents readers on meaning. The word match only lists candidates for them; a fate is written for the pairs a reader says are the same and for headings marked hard, nothing else. This fits your later word that headings name \"what question or objection or curiosity we are answering\" for the reader (your saved preferences).",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"why would you put 2 serotonin syndrome headings in a row\" (2026-11-21 13:04 UTC)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "The rule's first sentence is your point (\"no two headings in a row say or ask the same thing\"), and the lesson already says \"code finds the candidates, a reader decides whether they say the same thing\" (docs/lessons/2026-11-21-1304-bad-trips.md, line 11-12). Sus is only the gate: a written fate for every word match, where FIXING says \"a word\" and the brief \"a content word\" (tools/humanization/headings_brief.md, line 94). That is bookkeeping you didn't ask for, and a same-meaning pair in different words is caught only if a reader marks it."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; tools/humanization/headings_brief.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C04",
+   "group": "conflict",
+   "title": "Nothing below Human High: hard gate, Medium chased, approved changes held",
+   "section": "partly, 15 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A paragraph of mine goes into an article only when a check of it by itself ... read Human High in every window ... `tools/humanization/apply_gate.py` checks it from the ledger, and every apply script calls it.\" (SKILL.md, line 191). Against it: \"a Medium one, try, and if the fixes don't bring it to High, put it on the article's later list\" (SKILL.md, line 209) and \"Medium windows are not chased for their own sake\" (docs/lessons/2026-11-06-2350-neuro.md, line 12). And: \"An approval of new sentences inside an AI-reading paragraph can't go in\" (docs/lessons/2026-11-14-2204-neuro.md, line 15).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "One rule for all lanes, AGENTS.md:49's: Low first, then Medium, and neither counts as done; keep fixing while on track up to the budget (your saved preferences), and what still won't come is reported as open work with its link, never as passed. A content change you approved goes in at once and the paragraph's humanizing follows as its own work. Pieces you called Pangram's bugs (a short \"Why?\", splits at \"Dr.\") are left; update SKILL.md:209 and the two old lessons.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"the rule says we can't pass paragraphs that read AI on their own ... i guess you need to stop passing over anything that's not human high because you're not learning\" (2026-11-12); \"i also want you to fix any segments that are not high confidence human if you can\" (2026-10-26); latest, 2026-11-23: \"actually i don't like the medium windows ... i often find the medium windows indicate other issues also\" (AGENTS.md:49; your saved preferences)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "aiming every window of the editor's text at High, Medium included, is your latest word, and AGENTS.md:49 matches it (\"A Medium window is work to do too, after the Low ones ... a turn doesn't end on one as done\"); SKILL.md:209 and lessons gut-2026-11-06a and neuro-2026-11-06c are out of date and contradict it. The sus part is the absolute tool refusal with no \"if you can\", and holding content you approved until an old paragraph reads High. The cluster's own fix (\"a real try and is then listed\") would let Medium stand, which your 2026-11-23 word rules out."
+    },
+    {
+     "label": "Question for you",
+     "text": "When a paragraph of mine is still Medium after the full budget of tries, does it go into the article marked as open, or stay out until it reads High?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "SKILL.md; docs/lessons/; docs/HUMANIZATION-GATE.md; docs/PANGRAM-PRODUCTION-BUDGET-20261020.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C05",
+   "group": "conflict",
+   "title": "When a stuck paragraph goes to him: \"ask as soon as\" against \"keep fixing\"",
+   "section": "confirmed, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Reasoning only Joel has. ... Ask him as soon as the first method is spent, with the page.\" (AGENTS.md, line 102). Against it: \"The wording is mine to fix when it reads AI or doesn't make sense, without asking him first\" (docs/HUMANIZATION-GATE.md:2803, E373) and \"ask Joel early, and only for decisions or knowledge that are his\" (AGENTS.md, line 96).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Replace AGENTS.md:102 with: keep fixing up to the budget and change approach when tries fail the same way; go to you only for knowledge or a decision that is your, or, when every approach is spent, with one or two paragraphs you could teach the most from, each as the best faithful version with what was tried, said in your form (\"I can't find any more AI tells here, and I see some human tells, like these...\").",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"why can't you fix them? why did you even show me these if you see AI tells in them? what is it you need help with?\" (your saved preferences); \"if your'e on the right track you should keep going\" (2026-11-20, your saved preferences); and on asking: \"give your best *faithful* version to me, i'll show you exactly how to fix it\" (your saved preferences); \"for each thing you need help with, you always need to tell me\" (your saved preferences)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "AGENTS.md:102 is drawn from one 2026-10-09 case and was overtaken by E373 and your saved preferences and 44; a lane reading it first hands the work back to you. Lesson bad-trips-2026-11-07c (\"the one or two paragraphs he could teach me the most from ... never more than two at a time\") matches your later words; bad-trips-2026-11-24w asked you a content decision (which point of a medical caution leads), which is your."
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; docs/lessons/; docs/HUMANIZATION-GATE.md; docs/EMULATE-FALLBACK.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C07",
+   "group": "conflict",
+   "title": "Pangram budget: six against ten, paid single paragraphs against free Substack",
+   "section": "partly, 14 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"a paragraph lineage whose latest check is its best so far (the lowest AI likelihood, then the fewest words below Human High) and has a Human window may go on to **ten** tries; one whose latest check read worse than an earlier one, or with no Human window, stops at six\" (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md:9; enforced by `right_track` in tools/humanization/pangram_ledger.py:691). Still at six: \"six is a hard maximum\" (same file:82), \"at most six justified new submissions per paragraph\" (SKILL.md, line 20), \"up to six tries per paragraph lineage\" (docs/FIXING-AN-ARTICLE.md, line 101).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Up to ten tries per paragraph (your number), each past the first with a named reason and in the same direction; a worse reading alone doesn't stop it, a try with no reason does. Every main file says ten. More than a handful of paragraphs, a half or a whole article go free through Substack; the API cap is about five or six paragraphs, a warning just over it, a refusal only for a half or more.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"so we shoudl raise the limit to 10 then? it seems like the point of the limit was to stop you from doing blind tests, but if your'e on the right track you should keep going\" (2026-11-20 18:20 UTC, your saved preferences); later \"pangram can be fickle so when you're not fully fixed yet you might go back and forth on pangram results\" (2026-11-21, your saved preferences)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "confirmed for the score test: \"right track\" was made \"latest score is the best\", which one fickle reading ends, against your 11-21 words; and three main files still say six. Not sus: one paragraph checked alone for a new strategy is your (\"just work on one paragraph at a time so you can see whether your strat is working\", 2026-11-04, FIXING:101), and the API size cap is your (\"not more than like 5-6 paras at a time in general (not half an  article)\", E218, gate:786); only the 1,200 words and the hard refusal are the editor's."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/PANGRAM-PRODUCTION-BUDGET-20261020.md; docs/lessons/; docs/HUMANIZATION-GATE.md; AGENTS.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C08",
+   "group": "conflict",
+   "title": "Safety, caution and reassurance lines: kept, cut, or sent to him?",
+   "section": "confirmed, 8 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Reassurance lines are content, not scaffolding: this article's readers are often struggling. Don't cut one to tighten a paragraph.\" (docs/FIXING-AN-ARTICLE.md, line 30); \"Safety lines (when to call medics, a warning, a dose) are not boilerplate however generic\" and \"For each instruction in a caution that has no version or answer of his behind it ... ask on the card whether it is what he'd tell someone\" (:26); against \"A caution, disclaimer or reassurance goes in only if it changes what the reader does\" (:68); \"No drug amounts or recipes, even inside a warning.\" (:28).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "A safety, caution or reassurance line stays only where it changes what the reader does there and isn't said elsewhere (your 10-23 test), whoever wrote it. A model's caution is checked against your own entries and its source; you are asked only when it contradicts them or following it could hurt or confuse the reader. Your harm-reduction warnings stay as you wrote them.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"all the extra extra ridiculous safety language which gets repeated everywhere\" (2026-10-23, gate E247:2930); \"i do not recommend calling poison control to see about giving charcoal\" (2026-11-25 17:42 UTC); \"it's not instructions FOR mixing, it's instructions AGAINST a dangerous combo. That's called harm reduction.\" (2026-10-11, gate:3096); your saved preferences \"just cut out a ton of obnoxious safety language and caveats\"."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Lines 30 and 26 have no words of your and contradict line 68, which is your. The 11-25 case was one model-written instruction that your own charcoal entry and the editor's source check already contradicted; \"each instruction in a caution\" turns it into a card on most cautions, against \"you're asking me to approve things that are clearly good\" (2026-11-07). Line 28 and E162's \"an amount ... stays out\" are not in your words, and line 26 itself counts \"a dose\" as a safety line."
+    },
+    {
+     "label": "Question for you",
+     "text": "May a warning give an amount or what to take instead, or should those stay out?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; docs/lessons/; docs/CLARITY-READ.md; docs/HUMANIZATION-GATE.md; tells registry"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "group": "conflict",
+   "title": "Whose words: his typed wording, kept lines, and the editor's own guesses",
+   "section": "partly, 13 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Something you judge deliberate without asking goes in too, marked \\\"my reading, not asked\\\" ... the marking page refuses a card on kept words\" (docs/FIXING-AN-ARTICLE.md, line 27); \"The model's text is yours to fix after he humanizes it too: his versions on cards, the lines he kept, the published post.\" (:18); \"makes every em dash, and every en dash with a space beside it, his two hyphens with no spaces\" (docs/HUMANIZATION-GATE.md, line 107).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Only what you said stays goes on the keep-as-is list and blocks a card; the editor's guesses are notes. What you wrote yourself stays, with obvious typos fixed and coinages kept; model text you humanized keeps your decisions and the editor fixes its wording, tested, on a card you can revise. A kept line that readers can't follow is raised with you. Dashes all become \"--\".",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"that's the joke yeah you forgot. i guess you need to somehow keep track of the jokes in an article more durably\" (2026-11-03, your saved preferences); \"'my words' for an AI article, are not my words, unless those were human before we started humanizing ... otherwise it's AI words that i humanized\" and \"your job is to do the fixing, that's the whole point here\" (2026-11-06); \"no everything should be the 2 dashes not em-dash, em-dash is ai\" (2026-11-04)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed: you asked for a record of what you say stays; the editor's unasked guesses get the same blocking force, and \"never with a change\" (bad-trips-2026-11-25o) blocks even a line readers can't follow. Not sus: line 18 is your 11-06 word, and it keeps \"what he decided in it\"; the cluster's fix (your typed wording \"stays ... and then he is shown\") would undo that, and your saved preferences (\"no need to ask me for obvious corrections\"). \"No spaces\" is how your own two were typed (\"handling--we see\"), not something you said. Spelling \"his lines included\" (O15) collides with your saved preferences on coinages."
+    },
+    {
+     "label": "Question for you",
+     "text": "Should \"--\" always have no spaces around it, as in your \"handling--we see\"?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; docs/lessons/; docs/HUMANIZATION-GATE.md; SKILL.md; AGENTS.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C15",
+   "group": "conflict",
+   "title": "Human tell: defined narrower than he said, two definitions live",
+   "section": "partly, 5 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"The human tells it names are only what a model tends not to write, found in his own writing in the paragraph ... when the paragraph has none, it says so instead: \"I can't find any more AI tells here that I know how to fix, and none of it is your own writing. Can you help show me the tells I'm missing?\"\" (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md:99; the same \"found in his own writing\" at :20 and docs/FIXING-AN-ARTICLE.md:104). Older definitions still live: \"only his own writing or a listed human tell\" (docs/HUMANIZATION-GATE.md, line 81); \"Joel's words, a fact he gave, or a rough edge\" (tools/humanization/tell_panel.py, line 40); \"a human tell is his own phrase or something only he would say\" (docs/lessons/2026-11-24-1847-neuro.md, line 35).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "One definition everywhere: a human tell is something a model tends not to write, from your writing, other human writing or the list of real ones; words a model wrote are never one, and a phrase any model writes isn't one whoever wrote it. Drop \"none of it is your own writing\" and way 28's \"what only he could\" clause. Keep your help-request sentence, sent only after the tries are spent, naming the tells that pass the test or saying plainly that none were found.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"in general, if AI wrote it, it can't be a human tell, right? fix that rule... you could make a human tell if you have a list of real human tells or if you're copying from human writing perhaps\" (2026-11-26 00:50); \"\"it's the same kind of thing\" isn't a human tell, ai can write that also ... post-ashwa is a human tell bc ai doesn't tend to reduce the full name\" (2026-11-27 19:16); \"there's no need for me to give you some kind of human experience, that's not what pangram requires\" (2026-11-27 00:55)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed: \"found in his own writing\" is narrower than your \"a list of real human tells or ... copying from human writing\", and three older definitions contradict the newest one (tools/humanization/human_tells.md:3, which matches your latest word). Way 28 already says not to ask for your experience, but still explains a miss by \"couldn't add what only he could, the reason and the point from his experience\" (tools/humanization/his_fixes_brief.md, line 289), the conclusion you rejected. Not confirmed: the cluster's fix drops the question, and that question is your own sentence, which you want on every help request (preferences.md, line 10)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/PANGRAM-PRODUCTION-BUDGET-20261020.md; docs/lessons/; tools/humanization/his_fixes_brief.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C24",
+   "group": "conflict",
+   "title": "Glosses: never in brackets, always in the first sentence, or taken out",
+   "section": "confirmed, 7 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"The explanation goes inside the sentence that first names the term (an appositive, \"called X\", or a \"which\" clause). Never a bare \"(X)\" (E342), and never a sentence after.\" (SKILL.md, line 184); \"adds a bracket only for a term a reader can't know, at most one per passage\" (docs/CLARITY-READ.md:104; docs/HUMANIZATION-GATE.md:1335-1336); \"Answering every fresh read with a gloss turns a paragraph into an explainer, and it reads AI.\" (docs/lessons/2026-11-25-0124-neuro.md, line 14).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Explain a term where the reader first needs it, in whatever form reads easily (in the sentence, a bracket, or a sentence after); don't explain what the words around it already say, and don't put a gloss on every name in a list. No bracket count and no tool refusal. This is the proposed fix, and nothing you said later goes against it.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"it's actually harder to read now with these 2 parentheticals. can you fix the reader?\" (E264); \"since adjunct is not really clear what it's adjuncting for\" (E360); a day after 25a: \"the main issues in your version were lack of explanation, connection, clarity\" (docs/lessons/2026-11-26-0050-neuro.md:23, 2026-11-26)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "SKILL.md's \"never\" rests on two Pangram tries and no words of your, and your own versions keep brackets (\"dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to)\", E375). \"At most one per passage\" is a number; your point was that the brackets explained what the words before already said. 25a is drawn from Pangram windows only, and your next comment asked for more explanation. Your standing word: \"just explain stuff to someone who doesn't already know the hidden links in your prose's thinking\" and \"expand IN A CLARIFYING WAY, not just expanding with filler\" (your saved preferences)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "SKILL.md; docs/MAKING-SENSE.md; docs/lessons/; docs/CLARITY-READ.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C02",
+   "group": "steps",
+   "title": "Per-sentence receipts and link-word checks before every Pangram try",
+   "section": "partly, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"filled in by me sentence by sentence ... Pangram (`pangram_ledger.py predict --receipt RECEIPT.json`) and the marking page (each suggestion's `\"receipt\"`) take nothing of mine without it\" (docs/MAKING-SENSE.md, line 147-150); \"`tools/humanization/sense_receipt.py` refuses a tie that comes after the sentence's first five words\" (docs/lessons/2026-11-22-1721-bad-trips.md, line 20-21).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Keep the making-sense read before every Pangram try, and make each sentence show early how it follows from the one before, judged by reading it, not by counting words. The receipt becomes a short note of that read for the passage, and no tool refuses a small change or your own content for lacking one.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"do we need to devise some kind of making sense protocol rather than attacking this problem case by case perhaps?\" (2026-11-04, gate E360); \"fix the way you work because i'm not telling you the same stuff over and over\" (gate E365); \"S2 doesn't follow from S1 ... what's connecting them? even \"So\" would connect\" and \"I'm reading like 20 words before I understand why I'm reading them\" (2026-11-22)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "the making-sense read before Pangram and saying the link in the sentence's own words are your (also your saved preferences, your saved preferences), so that part is not sus. The editor's own additions are the blocking form for every sentence, the \"first five words\" string test standing in for \"does the reader see how this follows\", and \"Each gap gets answered in the draft\" (MAKING-SENSE.md, line 151-153), against \"expand IN A CLARIFYING WAY, not just expanding with filler\" (your saved preferences) and \"it seems like it's getting slower\" (your saved preferences)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/MAKING-SENSE.md; docs/FIXING-AN-ARTICLE.md; docs/INDEX.md; docs/lessons/; tools/humanization/his_fixes_brief.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C16",
+   "group": "steps",
+   "title": "Contents order: ask him first, move by move, tree tests",
+   "section": "partly, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"So a model's outline is a proposal that goes to him move by move (`docs/FIXING-AN-ARTICLE.md` section 3, item 8), never a reorganization\" (tools/humanization/contents_order_brief.md, line 13); \"So before a model sorts, ask him for a few lines on what each role and part holds, in his words\" (:20); \"A move or a heading's level changes no words and needs no check.\" (:152)",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Read the guide and your answers for what each part holds, ask in one message before the sort only what they leave open, sort with your heuristics, and put the whole proposed order to you once with a reason for each move and a pick. A moved section gets its own check (E197). The contents is read alone before sections move or merge.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i want to save those instructions in joel-articles repo so that next time you can do most of the work for me ... if unsure why i picked something you can ask me\" (2026-11-20 16:39); \"you need to ask the author for their view before the models miss\" (2026-11-20 23:22); \"send me any qeustions that you can't find answered in the article\" (2026-11-21 01:08); \"maybe it would hlep if you look only at the ToC first, have you tried that?\" (2026-11-09 17:22)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed: line 20 asks you about every role and part, against your later \"send me any qeustions that you can't find answered in the article\" (the brief's own line 96 has it; 10 of 11 were answered by the guide). \"move by move ... never a reorganization\" goes against \"do most of the work for me\" and against the item it cites, \"Ask once, with a pick: take it all, take your version ...\" (docs/FIXING-AN-ARTICLE.md, line 56). \"needs no check\" contradicts \"A moved section gets its own Pangram check\" (docs/FIXING-AN-ARTICLE.md:57, gate E197, which rests on a measured case). Not sus: asking before the sort is your own instruction, and reading the contents alone first is your idea. The fresh-reader tree test as a step before anything moves (docs/FIXING-AN-ARTICLE.md:37, :40) is the editor's method; your \"Check now with fable\" asked for one check."
+    },
+    {
+     "label": "Question for you",
+     "text": "Do you want fresh-reader \"where would you look first?\" tests on every contents change, or only when you ask for one?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "tools/humanization/contents_order_brief.md; docs/lessons/; docs/FIXING-AN-ARTICLE.md; tools/humanization/headings_brief.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C17",
+   "group": "steps",
+   "title": "Fresh-reader passes required before every check",
+   "section": "partly, 8 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Before any check of a text of mine, a fresh reader reads it against the eight ways his 112 fixes read on 2026-11-12 differ from the drafts he fixed ... and every sentence it marks is changed first.\" (AGENTS.md, line 33); \"The fresh reads (needed, against his fixes, fit) run again on each new version, and the check waits until they mark nothing the text hasn't answered.\" (SKILL.md, line 195); \"Each marking page carries one such quiz card from now on\" (docs/lessons/2026-11-21-1557-bad-trips.md, bad-trips-2026-11-21f; in no main file)",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "The editor reads its own text against your fixes and gets the sense right before any check (preferences.md, line 49); a fresh read before a text's first check is a help whose marks are each judged, not a gate rerun on every version. Any reader is on the lead's own model. Quizzes without Pangram are offered, not attached to every page.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?\" (2026-11-12 14:45); \"my approach requires not even thinking about pangram at first ... once i fully make it look right, then i can chheck if pangram agrees\" and \"i still don't think you are able to read youur own writing correctly to see what looks ai, that's what i'm trying to teach you. we should do some quizes for you without pangram first maybe\" (2026-11-21 15:57)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed: you asked whether the editor had studied your fixes and said it can't yet read its own writing; the rules hand that reading to fresh readers on every version, though the repo's own calibration says \"two fresh reads were scored against his fixes and neither found what he finds\" (lesson 21f), and \"every sentence it marks is changed\" obeys the reader instead of judging the mark. It is also slower, against preferences.md:9. A \"maybe\" became a card on every page. Not sus: readers on the lead's own model follow your \"is it because you are using dumb readers? not reading it yourself?\" (docs/FIXING-AN-ARTICLE.md:83, gate E294). The stop condition is each mark given a fate, not zero marks, so it can be met."
+    },
+    {
+     "label": "Question for you",
+     "text": "Do you want a reading quiz on every marking page, or a few when you ask?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; SKILL.md; docs/lessons/; docs/FIXING-AN-ARTICLE.md; docs/CLARITY-READ.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C18",
+   "group": "steps",
+   "title": "What needs a card: tallies, prefixes and standing questions",
+   "section": "partly, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Ask him only where the meaning might change, there's a downside to weigh, or the words are his own ... A card says why it goes to him in \"ask_because\" (\"meaning: ...\", \"downside: ...\", \"your own: ...\"), shown to him as \"Why I'm asking\", and `suggestion_review.py check` refuses one without.\" (docs/FIXING-AN-ARTICLE.md, line 19); \"New wording in his article (a heading, a bridge sentence) is his call. Mark it as yours and ask.\" (:31); \"the next page has only what both recommend\" (:78); \"A type he has approved every time (five or more, none revised or rejected) goes to him again only when the card differs from those in meaning or downside.\" (docs/lessons/2026-11-07-1208-bad-trips.md, line 38)",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Ask where your opinion is really needed: the meaning might change, there is a downside, the words are ones you wrote yourself, or only you know the fact; each card says why in plain words, with no fixed prefixes and no count. A tested bridge sentence or structure change that keeps the meaning goes in and is named in the report. Look in the article and your earlier answers before asking; settle reviewer disagreements first and list what stays open with a pick.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"you're asking me to approve things that are clearly good / you should be learning what you actually need to ask my opinion on, like if meaning might have changed or there's a downside to consider\" (2026-11-07 12:08); \"i have not really read yours or GPT's yet because it's a lot of reading and prob no point until you can agree\" (2026-10-25); \"8a not sure why you had to ask that, the whole point is rewording stuff here\" (preferences.md, line 37)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "The first sentence of :19 carries your point: not sus. Confirmed around it: your \"like\" gave examples, and a three-prefix string gate and a five-approval count stand in for the judgment you asked for; :31 sends every new bridge sentence to you, against :19 and preferences.md:37; structure changes are asked in lesson gut-2026-11-07b (which admits \"that part is my reading, not his words\") and not asked in bad-trips-2026-11-07a; \"only what both recommend\" drops disagreements where you said to agree first. Asking you the fact that joins two sentences when the section doesn't hold it (bad-trips-2026-11-25a) is right, after looking in the article and your answers."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/; docs/FIXING-AN-ARTICLE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C20",
+   "group": "steps",
+   "title": "Tell panel forced after two AI reads",
+   "section": "confirmed, 3 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A paragraph that has read AI twice goes to the tell panel (`tools/humanization/tell_panel.py`) before its next try, and `predict` refuses that try until `--panel` names the panel's PANEL.md (gate E346)\" (docs/FIXING-AN-ARTICLE.md, line 101); \"Fix every sentence two of them flag\" (docs/FIXING-AN-ARTICLE.md, line 104).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "After an AI read, make the next obvious sense fix while one exists, whatever the count; no refusal in `predict`. Keep the one part that is your: before a paragraph goes to you for help, fresh readers look for tells and the visible ones are fixed first (your saved preferences). Panel flags are candidates, and none is applied to text that reads Human.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"I do what i know works, and if it doesn't fix it, I just try to find the next obvious thing that shoudl work, and nearly every single time, that leads to passing pangram.\" (E361, 2026-11-05); \"so your readers were all wrong, you don't need any lived experience, you just need it to MAKE SENSE\" (E360); for the panel only: \"so why don't you fix your process before asking for help\" (2026-10-23)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "E346 quotes no words of your, and docs/MAKING-SENSE.md:158-159 says the panel \"comes only when no next fix of this kind is left\" while line 161 says it \"reads after two AI results (E346)\": the two can't both be followed, and the tool enforces the count. E346's own note says readers \"agreed on sentences in a window Pangram read Human (High)\", so \"fix every sentence\" doesn't follow. Your later word goes with E361: the try limit \"was to stop you from doing blind tests, but if your'e on the right track you should keep going\" (your saved preferences)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; docs/MAKING-SENSE.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C26",
+   "group": "steps",
+   "title": "Every-word read with planted errors before publication",
+   "section": "partly, 4 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"Before an article goes into his post, every word is read for sense, and the read is tested with planted errors\" (AGENTS.md:43; steps in SKILL.md:171-177; docs/FIXING-AN-ARTICLE.md:85).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Keep the word-for-sense read as a standard step before a post. Say once whose words a model-drafted article's are (E373: the model's, so the editor fixes them). An obvious wrong word goes in and you are told; only a word whose intended meaning is unclear goes to you.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"do we have more nonsense in here (from emulate i guess)? how are you not catching this?\" (2026-11-03 13:46, GATE:2057), then at 14:52, after the planted-error read had been run and reported to you: \"make sure this closer reading is also part of the general joel-articles skill\" (GATE:2073)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "\"this closer reading\" was the read as it had just been done, planted errors included, and your preferences say \"a close word-by-word read for sense ... a standard step\". So the every-word read is your; the cluster is wrong to call it unasked. Two parts are sus. (a) Whose word \"oily\" was: SKILL.md:171 says \"Words carried over from Joel's published text count as his even where an AI tool drafted them, and \\\"oily\\\" came from there\", and step 5 (SKILL.md, line 177) says \"in an article a model drafted, its published text and his humanized versions are the model's words, gate E373\". (b) A slip \"in his own words ... goes to him with the smallest fix\" (GATE:2069) runs against your later \"no need to ask me for obvious corrections\" (docs/lessons/2026-11-11-2357-bad-trips.md, line 124)."
+    },
+    {
+     "label": "Question for you",
+     "text": "Do you want the planted-error test of the read on every article, or only the close read?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; SKILL.md; docs/FIXING-AN-ARTICLE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C27",
+   "group": "steps",
+   "title": "Blocking gates from August and September with no words of his",
+   "section": "confirmed, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"require bidirectional source↔candidate traceability with **zero unexplained substantive deltas**. Re-run that proof after every detector-driven semantic edit.\" (AGENTS.md, line 57); \"re-run the article-wide architecture regression after every detector-driven edit\" (AGENTS.md, line 59); \"The `deliver` action refuses to export text without a new mechanical linter run, complete T/C tell ledger, and three exact-hash-bound review artifacts\" (SKILL.md, line 272); \"Run **exactly three substantive writing iterations**, then stop and return progress to Joel\" (docs/SUPERVISED-WRITING-ARCHITECTURE.md, line 70).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Keep what you did say: \"never take out something important in order to pass pangram\", and don't show you paragraphs with AI tells the editor can see before trying to fix them (both in preferences). Check a rewrite against your text once per pass, sized to the change; drop the per-edit ledgers, the fixed three iterations and the audit offers unless you want them.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "none of these files quotes you for the rule; the cold-audit gate has only \"Who are you talking to, and why would they care about what you're saying?\" (docs/HUMANIZATION-COLD-AUDIT-GATE.md, line 64), asked about one passage. Later: \"the point of this was that you would learn to do this better and quicker but it seems like it's getting slower\" (preferences)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed as the editor's own machinery, still marked blocking (docs/INDEX.md, line 46) or \"ACTIVE owner-directed workflow\" with no words of your. One part is overstated: the reader-question audit file itself says \"Do not repeatedly offer it during every local edit ... One offer at a meaningful editorial/stabilization boundary is enough\" (docs/READER-QUESTION-AUDIT.md, line 25), so it is three offers, not \"again and again\"."
+    },
+    {
+     "label": "Question for you",
+     "text": "Which of these gates (preservation ledger, architecture ledger, delivery gate, three iterations, reader-question audit offers) do you still want?"
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; SKILL.md; docs/HUMANIZATION-*.md; docs/SUPERVISED-WRITING-ARCHITECTURE.md; docs/READER-QUESTION-AUDIT.md; docs/INDEX.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C30",
+   "group": "steps",
+   "title": "Workflow rules stretched from one remark",
+   "section": "partly, 9 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A Claude worker leaves the delete click to Joel, since its safety rules put permanent deletes in the person's hands\" (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md, line 41); \"refuses to push a branch that changes a shared file (`tools/`, `docs/`, `tests/`, `scripts/`, `.github/`, `AGENTS.md`, `SKILL.md`) unless it says `--merge`\" (GATE:2699); \"what goes to Joel is that link and nothing else\" (GATE:1478); \"At the start of every turn, before other work, read this repository's lane in ... `suggested-fixes/joel-articles/`\" (AGENTS.md, line 133).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "The worker deletes the temporary Substack drafts it made once their results are recorded, and says so (your 2026-10-21 \"yes delete the drafts once definitely done with them\"). The preview link goes to you with whatever you need to use it. The mailbox check stays every turn: that one is your own word (2026-10-31: \"can we make sure you always check what is addressed to you in each turn?\"), and so do lane pull requests merging themselves, tools included (2026-11-14: \"that should happen automatically\").",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"and yes delete the drafts once definitely done with them add taht to the rules.\" (2026-10-21, same line); \"make sure you merge lessons with main branch so everyone is sharing always\" (GATE:2696); \"make sure that's a durable instruction to save me some steps\" (GATE:1474); \"pr 290 has conflicts\" (AGENTS.md, line 135)."
+    },
+    {
+     "label": "Why it looks off",
+     "list": [
+      "Confirmed for four: the drafts rule hands back the job you gave; you said lessons, not tools and CI; \"nothing else\" is added; the every-turn fixes-lane check has no words of your. Not sus for the rest. Links: \"always give me the links\" and \"make sure you're linking to the section anchors whenever they are mentioned\" (docs/lessons/2026-11-23-1724-toc.md, line 4). Turn end: \"ok why did you stop?\" and \"didn't understand why you gave me no cards and quit working tho\" (docs/lessons/2026-11-27-2008-neuro.md, line 14). No tabs in your browser: \"for future just give me the links to click\" (preferences). Merging main each turn: \"each lane is feeding into and reading from the same place\" (preferences).",
+      "The second read called the every-turn mailbox check unasked and asked whether tool changes may merge without you; both are your words already, so neither is a question."
+     ]
+    },
+    {
+     "label": "Where it lives",
+     "text": "AGENTS.md; docs/PANGRAM-PRODUCTION-BUDGET-20261020.md; docs/lessons/; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C06",
+   "group": "stretch",
+   "title": "Cuts and merges made without showing him",
+   "section": "partly, 17 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A repeat goes when cutting it reads better, without a Pangram reason or a card (gate E378 ...)\" (docs/FIXING-AN-ARTICLE.md, line 23); \"once his version holds a point, every other place the guide says it goes\" (docs/lessons/2026-11-11-2357-bad-trips.md, line 33-34); \"each sentence they can lose goes: that it is true, sourced, testable ... is not a reason to keep it\" (AGENTS.md, line 111); \"A paragraph that reads AI in every wording ... is cut as a repeat\" (docs/lessons/2026-11-06-2051-bad-trips.md, line 7-9).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Cut a model-drafted repeat or filler when the guide reads better without it, whatever Pangram says, moving anything only that copy said; a sentence that implies something the reader should do is completed, not cut. Every cut or merge is listed with its before and after so you can put one back, and a cut to text you wrote yourself or to a warning is proposed on the marking page with the \"after\" already fixed (your saved preferences). A Pangram result is never the reason for a cut. No question on the dedup sentence is needed: AGENTS.md:115 reads it as its context does (\"i don't see how we could cut one of those without losing the intended meaning\").",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\" (2026-11-06); \"you can only cut if it isn't losing important meaning or there's no good way to merge\" (2026-10-17, AGENTS.md:115); later: \"don't cut \"sensitivity varies\" ... if it gives the reader nothing to do, we can explain they should try less at first\" (2026-11-20); \"never take out something important in order to pass pangram\" (your saved preferences)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "cutting repeats and filler without waiting for Pangram is your (also your saved preferences), so the cut itself is not sus. \"Without ... a card\" is the editor's addition: your words were about Pangram, not about being shown; \"could lose\" already overcut once (2026-11-20); and 06a starts a cut from a Pangram result. The lessons do keep your condition in part (\"what only it said kept\", \"A repeat that holds a fidelity key goes on a card\", \"a sign his paragraph shares with a fuller medical list is asked, not cut\")."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/FIXING-AN-ARTICLE.md; docs/lessons/; tools/humanization/needed_read_brief.md; AGENTS.md; docs/HUMANIZATION-GATE.md; tells registry"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "group": "stretch",
+   "title": "One content answer stretched to other text or to every article",
+   "section": "partly, 14 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"when he leaves a choice to the reader, every caution that says otherwise changes with it\" (docs/lessons/2026-11-26-1526-neuro.md, line 11); \"A gloss takes the everyday word: \\\"(no joy or desire)\\\" held High\" (docs/lessons/2026-11-27-1545-neuro.md, line 32); \"The medicine is named, not one brand of it.\" (docs/lessons/2026-11-23-1915-bad-trips.md, line 36).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Change what you named. Where your answer plainly contradicts another line of the same article, fix that too and tell you, unless the change adds or drops a drug, caution, dose or source, or changes a gloss you approved: those are shown to you first. A ruling is recorded for its article unless you say wider. No new card on things clearly fine (your 2026-11-07 word).",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"i don't want to say never take 5-HTP with shrooms, that's up to them, and i don't think it shoul dbe a problem in this microdose protocol either\" (2026-11-26); \"73 a  but i also can't recommend starting them\" (2026-11-27); \"or just remove the narcan reference since there are also other brand names even in US\" (2026-11-23)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Confirmed for these: you named shrooms and the editor added LSD, a mechanism with a citation, and cut the \"serotonergic psychedelics\" watch; your chosen 73a said \"(little pleasure or desire)\" and it became \"(no joy or desire)\" for a Pangram reading; one optional remark became a never. Not sus: bad-trips-2026-11-08c, since \"let's make sure this guide is not assuming people are taking a drug\" asks for the whole guide, and the protector/guard part of E274, which your saved preferences holds for your inner child writing."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/; tells registry; tools/humanization/contents_order_brief.md; docs/HUMANIZATION-GATE.md; docs/HUMANIZATION-TELL-INVENTORY.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C19",
+   "group": "stretch",
+   "title": "Evidence and source rules stricter than he said",
+   "section": "partly, 12 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A benefit is claimed only from a result that shows it against placebo, with the harms beside it\" (docs/lessons/2026-11-08-1508-neuro.md, line 16-17); \"it names the form, the dose or the way of taking it that carries the risk, from the study that compared them\" (docs/lessons/2026-11-20-0001-bad-trips.md, line 22-23); \"every open flag is settled with him on a card, and only then is the wording worked on\" (docs/lessons/2026-11-07-0100-neuro.md, line 14); \"It stays out only when he said so, a card he approved proposed it, or nothing left in the article rests on it\" (AGENTS.md, line 113); \"A pointer to a source has to change what the reader does or understands\" (docs/HUMANIZATION-GATE.md, line 716).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "State no benefit or risk wider or vaguer than the sources show; name the form or dose where the evidence tells them apart. Keep E380 and the science-before-wording order as they are; in the proposed fix, \"check claims in proportion to the stakes\" must not weaken that order. Once you say your experience stands, write it as your and send no further source objection on that point. E212 becomes one case: that paragraph read as fluff to you.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"you can't say \"they help some people\" since you showed zero evidence that they do ... the fact that the VA recommends them is not science\" (SC-47, 2026-11-08); \"don't make it seem like niacin in general or \"certain formulations\" causes liver injury. that's not true.\" (2026-11-20); \"if it's not needed fine, if it is put it back ... don't assume a citation was removed on purpose unless it makes sense that it owuld be, ask the user if unsure\" (2026-11-06); \"it looked like fluff, i cut it\" (E212); \"I don't care if the science isn't clear on this yet but I and everyone I know are totally clear about this.\" (2026-11-24)."
+    },
+    {
+     "label": "Why it looks off",
+     "list": [
+      "Confirmed for 08g's closing sentence (the lesson's own heading, \"A card states no benefit its sources don't show\", is your point; \"only against placebo, harms beside it\" is one case made an always), for 20b's \"from the study that compared them\", and for E212 (a test you never gave). Also confirmed for 24i's \"ask for the fact\": 24b had said \"the studies aren't argued again\" and a further objection went to you anyway.",
+      "Not sus: E380 (its three conditions are your \"if it's not needed fine\" and \"ask the user if unsure\"; only the year-string tool is cruder than your \"makes sense\"), E348 (a card with the reason is your \"you'd explain to the author why\"), and 07a's order, which is your own (\"the first thing before humanizing a science article is to make sure the science is right\") and which you repeated later (your saved preferences). Only 07a's card for every open flag is added."
+     ]
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/; AGENTS.md; SKILL.md; docs/MAKING-SENSE.md; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C29",
+   "group": "stretch",
+   "title": "Always-cut rules built from a few of his picks",
+   "section": "partly, 8 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"A line that only comments on the text or on his own caution goes even when it's his joke or his lead-in\" (docs/CLARITY-READ.md, line 226); \"a line that previews or announces what a later section tells is cut, even when it sets that section up\" (docs/CLARITY-READ.md, line 252); \"a second explanation goes even when it's balanced, parallel or more vivid\" (GATE:2026); \"**Cut a sentence that restates, sums up or reassures**, rather than rewording it: his fixes deleted them.\" (GATE:531); \"Cut the hedge or the filler sentence instead of rewording it.\" (docs/EMULATE-FALLBACK.md, line 156).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Cut what explains again something already explained (your definition); an example, gloss or reason that adds understanding stays, and so does a qualifier the claim needs. A sentence that restates or reassures is read for what it does first. Your jokes stay unless you cut them; a line that only explains your joke or comments on the text is offered as a cut on your page.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full of it then.\" (GATE:2019); \"overcompletion is when you already have it explained and then you explain it again.\" (GATE:171); \"as much as possible we should be deduplicating because i feel the article is really too redundant\" (GATE:1169). For E257 and E260 only your picks are recorded, no reason."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Not sus: E328 rests on your own definition, and your preferences want redundancy and needless caveats cut. The two CLARITY-READ lines are the editor's \"My pick on each\" on your marking page, which you approve, so they are not automatic cuts; but \"even when it's his joke\" sits three lines under \"What stays: ... his jokes and stories\" (CLARITY-READ:223), and you gave no reason for those three cuts. Sus: GATE:531 and EMULATE:156 are always-cuts from what your fixes happened to do, against the gate's own E209 (\"Read what a sentence does before calling it a reassurance\") and E210 (\"A cut that changes what a sentence says is not a fix\")."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/CLARITY-READ.md; docs/HUMANIZATION-GATE.md; docs/EMULATE-FALLBACK.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "C31",
+   "group": "stretch",
+   "title": "A test result that shows less than the rule says",
+   "section": "confirmed, 6 flags",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "\"What reads as human to Pangram is what reads easily to his readers.\" (SKILL.md, line 180); \"That was one run per model, so the lead is small but real: give Fable this brief\" (tools/humanization/headings_brief.md:11; docs/FIXING-AN-ARTICLE.md:42); \"A dose or amount said as the case it came from is this way too ... left the reader with no amount; \\\"at that dose\\\" took the step's two Medium windows at once\" (tools/humanization/his_fixes_brief.md:47-49; tell J89, tools/humanization/tells_registry.json:3351).",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Say your method as you give it: make it read well first, then check Pangram; the two often agree and reader sense decides. The headings brief may go to any of the three models. File the dose case as a repeat cut. An alignment card quotes your whole sentence for fidelity, with no Pangram claim.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"awesome i'm glad you're understanding how to write for pangram finally, make sure that's in the repo for all lanes\" (SKILL.md, line 180); \"see if you can make universal instructions that would have produced my heading picks here\" (FIXING:42). Later: \"pangram can be fickle\"; \"it does look AI, but i guess it's ok if it passes\" (GATE:716)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "The equivalence is the editor's sentence, and your own words say the two can part. 134 against 129 of 147 in one run each does not pick a model, and you asked for instructions. \"at that dose\" names no amount either: the lesson's own account is a phrase \"in a sentence that had already said \\\"for ending a trip\\\"\" (docs/lessons/2026-11-24-1420-bad-trips.md, line 12), a repeat removed. E275's reason failed its own test (GATE:1456: the whole sentence \"read High red\")."
+    },
+    {
+     "label": "Where it lives",
+     "text": "SKILL.md; tools/humanization/headings_brief.md; docs/FIXING-AN-ARTICLE.md; tools/humanization/his_fixes_brief.md; tells registry; docs/HUMANIZATION-GATE.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "OLD-GATE",
+   "group": "old",
+   "title": "The old gate (September to early November): mark it historical",
+   "section": "confirmed",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "docs/HUMANIZATION-GATE.md opens \"Status: ACTIVE\" and still says: every reviewer flag is fixed; every paragraph gets a break (a question, an exclamation); first drafts use jokes and asides because they read Human; an emoji placement goes to you for a yes or no; a two-call Pangram budget; a stretch is acted on only once it reads AI twice (E324); a cut you agreed to still waits on a forecast (E343); \"quietly\" is both a fail and a caution; \"Lists themselves are fine\" beside your \"avoid that unless it's really needed\".",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Mark its sections historical in the file, each pointing to where its topic lives now, and settle the contradictions by your latest words: a window that reads AI, Low or Medium once is fixed (no second reading); a cut you agreed to is made; \"quietly\" goes unless it says how something sounds; a list is avoided unless it's really needed; reviewer flags are leads, sense and Pangram are the gates.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"if a section reads ai or human low, we don't need to check it again to verify that, we need to fix it\"; \"remove \"quietly\" that's an ai tell\"; \"it made no difference taking those exclamation phrases out for pangram\"; \"my approach requires not even thinking about pangram at first\"."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Clusters C32 to C34 and five stale items: 41 flags in all; the second read confirmed each."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/HUMANIZATION-GATE.md; docs/INDEX.md calls it \"the working humanization gate\""
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "EMULATE",
+   "group": "old",
+   "title": "Emulate: retired, but parts still read as active",
+   "section": "confirmed",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "docs/EMULATE-FALLBACK.md says both \"RETIRED for new humanization, 2026-11-03\" and \"ACTIVE for every article\", \"they go to Emulate first\"; its shape rules still go into every writer's brief, and one rule prefers Emulate's wording over your published words.",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "Everything but the strict checks of Emulate text already in your articles is marked retired; its shape rules leave the briefs; your published words are never replaced by Emulate's.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"emulate doens't even pass pangram 4.1 very well anymore so that's pointless and emulate has done so much damage to my guides\"; \"make those emulate checks more strict pls for future also\"."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "17 flags; the second read confirmed it."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/EMULATE-FALLBACK.md; docs/INDEX.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  },
+  {
+   "id": "LEFTOVERS",
+   "group": "old",
+   "title": "Three leftovers that contradict newer text",
+   "section": "confirmed",
+   "whose": "a rule I wrote",
+   "blocks": [
+    {
+     "label": "The rule now",
+     "paras": [
+      [
+       [
+        "Lesson gut-2026-11-06f's bold line still gives the instruction you corrected two hours later; docs/CLARITY-READ.md still writes you \"the list, numbered in the article's order\"; docs/INDEX.md names a ChatGPT/Codex \"task-time lesson contract\" for a Somatic lane, with no words of yours.",
+        ""
+       ]
+      ]
+     ]
+    },
+    {
+     "label": "What I'd change it to",
+     "paras": [
+      [
+       [
+        "The headline says the correction; the numbered list goes (the marking page replaced it); the contract is marked historical.",
+        "ins"
+       ]
+      ]
+     ]
+    }
+   ],
+   "fields": [
+    {
+     "label": "What you said",
+     "text": "\"way too dificult, you're giving me half suggestion that are out of context\" (the marking page, 2026-10-25)."
+    },
+    {
+     "label": "Why it looks off",
+     "text": "Four flags; confirmed, except one SKILL.md leftover the second read couldn't find (left alone)."
+    },
+    {
+     "label": "Where it lives",
+     "text": "docs/lessons/2026-11-06-2126-gut.md; docs/CLARITY-READ.md; docs/INDEX.md"
+    }
+   ],
+   "links": [
+    {
+     "text": "This card in the record (GitHub)",
+     "url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md"
+    }
+   ]
+  }
+ ]
+}

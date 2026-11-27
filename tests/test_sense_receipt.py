@@ -349,8 +349,10 @@ class LinkAtTheStart(unittest.TestCase):
 
 
 class HisAnswer(unittest.TestCase):
-    """Lesson bad-trips-2026-11-27k: his "it absorbs almost as well as eating it, especially on sensitive skin" went in
-    as "Its juice works through the skin almost as well as eating the leaf does"."""
+    """Lesson bad-trips-2026-11-27m, correcting k: his "it absorbs almost as well as eating it, especially on sensitive
+    skin" went in as "Its juice works through the skin almost as well as eating the leaf does". What bears on his claim
+    needs a place, a reason or a question; not every word of his reaches the sentence (Joel, 2026-11-27 22:48 UTC: "it's
+    not that every word of my answer has to reach the sentence that says my point")."""
     TEXT = ('The leaf is strong enough that even picking one can relax me if the juice touches sensitive skin. Its juice '
             'works through the skin almost as well as eating the leaf does.')
     SAID = 'it absorbs almost as well as eating it, especially on sensitive skin'
@@ -359,21 +361,29 @@ class HisAnswer(unittest.TestCase):
         r = {'made': '2026-11-27', 'checked': [{'found': found}], 'his_answer': entries}
         return R.his_answer_problems(text, r)
 
-    def test_a_word_he_said_that_the_sentence_dropped_is_named(self):
-        into = 'Its juice works through the skin almost as well as eating the leaf does.'
-        probs = self.problems(self.TEXT, [{'said': self.SAID, 'in': into, 'words': {'absorbs': 'said as "works through"'}}])
-        self.assertTrue(any('"especially"' in x for x in probs), probs)
-        self.assertTrue(any('"sensitive"' in x for x in probs), probs)
-        self.assertFalse(any('"absorbs"' in x for x in probs), probs)
-
-    def test_his_words_in_the_sentence_or_accounted_for_pass(self):
-        text = self.TEXT.replace('through the skin', 'through sensitive skin')
+    def test_words_of_his_are_not_each_required(self):
         into = 'Its juice works through sensitive skin almost as well as eating the leaf does.'
-        words = {'absorbs': 'said as "works through"', 'especially': 'in the sentence before, "especially under my nails"'}
-        self.assertEqual(self.problems(text, [{'said': self.SAID, 'in': into, 'words': words}]), [])
+        text = self.TEXT.replace('through the skin', 'through sensitive skin')
+        self.assertEqual(self.problems(text, [{'said': self.SAID, 'in': into}]), [])
 
-    def test_a_cited_card_needs_his_answer_mapped(self):
-        self.assertTrue(self.problems(self.TEXT, []))
+    def test_a_left_out_part_needs_a_reason_or_a_question(self):
+        into = 'Its juice works through the skin almost as well as eating the leaf does.'
+        probs = self.problems(self.TEXT, [{'said': self.SAID, 'in': into, 'left_out': {'especially on sensitive skin': ''}}])
+        self.assertTrue(any('no reason' in x for x in probs), probs)
+        fine = {'especially on sensitive skin': 'asked: card SKIN-SCOPE, whether the whole leaf works on any skin'}
+        self.assertEqual(self.problems(self.TEXT, [{'said': self.SAID, 'in': into, 'left_out': fine}]), [])
+
+    def test_a_turn_74_receipt_with_words_is_read_as_left_out(self):
+        into = 'Its juice works through the skin almost as well as eating the leaf does.'
+        probs = self.problems(self.TEXT, [{'said': self.SAID, 'in': into, 'words': {'sensitive': ''}}])
+        self.assertTrue(any('no reason' in x for x in probs), probs)
+
+    def test_candidates_list_his_words_the_sentence_lacks(self):
+        into = 'Its juice works through the skin almost as well as eating the leaf does.'
+        self.assertEqual(R.candidates(self.SAID, into), ['absorbs', 'especially', 'sensitive'])
+
+    def test_no_entry_is_required(self):
+        self.assertEqual(self.problems(self.TEXT, []), [])
         self.assertEqual(self.problems(self.TEXT, [], found='his post as of 2026-11-03'), [])
 
     def test_the_sentence_must_be_in_the_text(self):
