@@ -9427,6 +9427,26 @@
           "path": "articles/romance/humanize/fix-20261107/r50/sense/sense-master.md",
           "sha256": "99eafaf44dce37eab77d15681a98b917d2c7c6abc8d0fa6cd481b8f1e91fba02",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/UPDATE-PLAN.json",
+          "sha256": "1d3b29256d26d073d722c56a5f5caeb524176b8f8f119ab2b98be370beba32b8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/dispatch.js",
+          "sha256": "ec59c5bf1fa906fdbd26215aa6d24d048e675f60a405432a9fcebabfd6503f30",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/make_update.py",
+          "sha256": "4f7828ce10b021262be13eab863d1528a1a08334636f07213f6652de6712c74b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r51/update.js",
+          "sha256": "7fb6cb0153b35e7d1478c546c6f09de688987b205b0a1d009da426aca3327fdc",
+          "role": "humanization_working_record"
         }
       ]
     },
