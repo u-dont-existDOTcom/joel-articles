@@ -6,7 +6,7 @@ a promise goes on it the turn it is made, by him or by me, in the words it was m
 each open one is read again: done (with where to see it), still open (with the next step), or dropped (only on his
 word).
 
-Last read through: 2026-11-27, at the end of the turn of his message of 2026-11-27 15:45 UTC ("73 a  but i also can't recommend starting them 74 b").
+Last read through: 2026-11-27, at the end of the turn of his message of 2026-11-27 17:21 UTC ("76 yes, ...").
 
 ## Open
 
@@ -16,8 +16,8 @@ Last read through: 2026-11-27, at the end of the turn of his message of 2026-11-
 | 2 | **Each section checked once its paragraphs are done, then the whole article once.** | the shared budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) | The warnings section after 74b (2026-11-27): Human Written, 0.0% AI, every window High but two Medium ones (card W-COG-SEC). | His card ([the cards page](https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA)); then one more check of the section after that fix. |
 | 3 | **The contradictions check again, and the word-for-sense read, on the finished article** (gates neuro-2026-11-20a, E331). | the shared rules | The contradictions check last ran over `coherence/x1124a` (2026-11-24). | After promise 1. |
 | 4 | **His post updated with the changes he approves, with the title's version and date.** | the lane's goal | Waiting on promises 1 to 3. | Ask him once the article is done. |
-| 13 | **Questions 73 and 74, and the card on the Cognitive Warning, answered and applied.** | mine, 2026-11-26 23:30 turn | 73 and 74 answered (his message of 2026-11-27 15:45 UTC): 74b in at Human High; 73a and his line read below High in nine checks, now card W-LMA-73A; W-COG-SEC still open, on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) and on the other account's. | His answers to the two cards; then each in by itself at Human High. |
-| 14 | **Question 76 ("(will reduce tolerance)" in his Precautions) answered and applied.** | mine, 2026-11-27 15:45 turn | On [the questions page](https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky). | His answer; 76a by script after its check by itself. |
+| 13 | **Questions 73 and 74, and the card on the Cognitive Warning, answered and applied.** | mine, 2026-11-26 23:30 turn | 73 and 74 answered (his message of 2026-11-27 15:45 UTC): 74b in at Human High; 73a and his line read below High in nine checks, now card W-LMA-73A; W-COG-SEC still open; both cards were folded away on the pages until 17:30 UTC and show now on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn). | His answers to the two cards; then each in by itself at Human High. |
+| 14 | **Question 76 ("(will reduce tolerance)" in his Precautions) answered and applied.** | mine, 2026-11-27 15:45 turn | Done 2026-11-27: 76 with his reason in, Human High by itself (https://www.pangram.com/history/bcf604c0-bb07-46c7-9262-d5cec58ed6f9). | Closed at the next read-through. |
 | 6 | **The prediction scorecard is current every turn.** | his standing preference | [SCORECARD.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/SCORECARD.md), rebuilt this turn: 22 calls, 22 right on the headline (Human Written each time), though six of them read a window below High that the call didn't foresee. | Rebuild at the end of every turn. |
 
 ## Done

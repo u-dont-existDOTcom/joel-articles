@@ -662,6 +662,14 @@ def check(review, bl):
         probs += receipt_problems(review, s)
         if s.get('advice') not in ('approve', 'leave', 'ask', 'edit'):
             probs.append('%s: advice must be "approve", "leave", "ask" or "edit"' % sid)
+        # Lesson neuro-2026-11-27f: a "leave" card is a reader's suggestion I'd leave, and the page hides it until he
+        # ticks "The ones a reader flagged and I'd leave"; three teaching cards built as "leave" (x1126c W-COG-SEC,
+        # x1127a W-LMA-73A and W-COG-SEC) never showed. Joel, 2026-11-27 17:21 UTC: "your cards have no card in them btw".
+        if s.get('type') == 'teach' and s.get('advice') == 'leave':
+            probs.append('%s: a teaching card asks for his version, and a "leave" card is hidden until he ticks "The ones '
+                         'a reader flagged and I\'d leave": use advice "approve" with an approve_label such as "use mine '
+                         'anyway" (lesson neuro-2026-11-27f; Joel, 2026-11-27: "your cards have no card in them btw")'
+                         % sid)
         need = ('title', 'question', 'why') if ask else ('title', 'why', 'advice_note') if edit else \
             ('title', 'what', 'why', 'stays', 'deciding')
         for k in need:

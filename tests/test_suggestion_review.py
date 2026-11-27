@@ -93,6 +93,21 @@ class SuggestionReviewTests(unittest.TestCase):
         vague = dict(good, id='CV-1.3', what='')
         self.assertTrue(any('no what' in p for p in R.check(review([vague]), self.bl)))
 
+    def test_a_teaching_card_is_never_a_hidden_leave_card(self):
+        # Lesson neuro-2026-11-27f: "leave" cards are hidden until he ticks a box, so three teaching cards never showed
+        # (Joel, 2026-11-27: "your cards have no card in them btw").
+        para = self.bl[3]
+        r = review([])
+        r['types']['teach'] = {'label': 'For you to teach me', 'about': 'c'}
+        card = {'id': 'W-1', 'type': 'teach', 'title': 'A paragraph', 'advice': 'leave',
+                'spans': [{'block': 3, 'start': 0, 'end': len(para['text'])}], 'inserts': [], 'moves': [],
+                'edits': [{'block': 3, 'before': para['text'], 'after': para['text'].replace('first', 'opening')}],
+                'what': 'Says it.', 'why': 'Tries spent.', 'stays': 'The rest.', 'deciding': 'Your version.'}
+        r['suggestions'] = [card]
+        self.assertTrue(any('teaching card' in p for p in R.check(r, self.bl)))
+        r['suggestions'] = [dict(card, advice='approve', approve_label='use mine anyway')]
+        self.assertFalse(any('teaching card' in p for p in R.check(r, self.bl)))
+
     def test_the_page_marks_the_words_and_carries_the_cards_and_the_form_controls(self):
         para = self.bl[3]
         s = {'id': 'CV-1.1', 'type': 'caveat', 'title': 'A cut', 'advice': 'approve',

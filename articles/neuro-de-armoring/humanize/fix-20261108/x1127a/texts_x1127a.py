@@ -199,3 +199,24 @@ STEP['lma-s5'] = change('lma', ('anhedonia (no desire)', 'anhedonia (no joy or d
 # the stop sign in his idiom merged the paragraph back into one window, as the fold was, but at Medium. The paragraph has
 # had nine checks this turn (W-LMA-73a 4, W-LMA-his 5), past the budget's six, so it goes to him as a teaching card
 # (W-LMA-73A) with steps 3 to 5, my best, and the article keeps the fold until his answer.
+
+# ---- His message of 2026-11-27 17:21 UTC (fix-20261108/joel-20261127-1721-message.txt): "76 yes, and that can be
+# dangerous with non-kratom opioids where overdose is more of a concern but even with kratom you can get side effects
+# when more sensitive." 76a: "(will reduce tolerance)" becomes "(it lowers your tolerance, so your usual dose can hit
+# harder)"; his reason says what "harder" means for each: an overdose risk with opioids, side effects even with kratom.
+# Fitted, the reason is too long for the bracket inside a sentence that already lists four kinds of drug, so it goes in
+# a sentence of its own right after, and the bracket goes. The Precautions read High as 74b left them (#291), so the
+# steps go from there, one piece a check (lesson neuro-2026-11-27a): 76a's bracket, then its overdose half, then the
+# sentence with both halves.
+P74 = NEW['prec']
+PREC76 = {
+    'a': P74.replace('(will reduce tolerance)', '(it lowers your tolerance, so your usual dose can hit harder)'),
+    'b': P74.replace('(will reduce tolerance)', '(it lowers your tolerance, so your usual dose can hit harder, which '
+                     'with opioids can mean an overdose)'),
+    'c': P74.replace('opioids and/or kratom (will reduce tolerance), ', 'opioids and/or kratom, ').replace(
+        " It's not recommended", " Agmatine lowers your tolerance to opioids and kratom, so your usual dose can hit harder, "
+        "which with opioids can mean an overdose, and even with kratom you can get side effects once you're more "
+        "sensitive. It's not recommended"),
+}
+for _k, _v in PREC76.items():
+    assert _v != P74, _k
