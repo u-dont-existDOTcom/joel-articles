@@ -443,3 +443,21 @@ The round's record: [r51](../r51/README.md).
 
 Nothing for v0.9.3. Not run: the love-honestly repository's container gate (Docker); Coolify's build ran the
 container. The other account's private page of the game is still v0.9.1.
+
+## His question of 2026-11-27 22:53 UTC: "is it possible for people to edit a card, add a card, delete a card ? customize their own game?"
+
+Answered: not in v0.9.3. Its 156 cards are built into the file (a saved game is checked against them). Players choose
+who is playing, one phone or two, the route, how deep, how many cards and which topics; during play they can skip a
+card, take "A lighter one instead", pause or finish early; the cards they have played are dealt last until "Forget
+them". On two phones the game code carries the setup and the deck's card ids, with no server.
+
+Put to him as v0.10.0 (an interface change: the design repository's skill first), waiting on his word:
+- "My cards" on the setup screen: write a card (question, optional follow-up, topic, how deep), edit it or delete it.
+- Any built-in card: "Never deal this one" (hidden on that device, with a list to bring cards back) and "Make my own
+  version" (a personal copy to reword; the original stays restorable).
+- Kept in the browser on that device, like the played cards; a file to move them to another phone. In a two-phone game
+  the custom cards in the deck travel inside the game link (longer link), since there's no server.
+- The home screen's promise changes: "The app saves only card and evidence metadata—never your words" becomes true of
+  answers only; the cards a player writes stay on their device.
+- Players' own cards are theirs, not the guide's: they carry no "why this card" from the article, and the official deck
+  stays his to approve.
