@@ -1,0 +1,23 @@
+{
+ "about": "his_checks_r63.py - his Pangram check on round 63's TEACH-B173, as read from the page his link opens (2026-11-27, the",
+ "checks": [
+  {
+   "id": "09e42ca2-b7ef-4439-92f3-402dd6f78314",
+   "what": "his version of B173 by itself",
+   "sha256": "0e8961b382917976a54560153acbdb5f4c88b47e7683eb53d135d46452d86762",
+   "utc": "2026-11-27T19:58:48Z",
+   "version": "4.1",
+   "headline": "Human Written",
+   "ai": 2.1e-35,
+   "windows": [
+    [
+     "Human",
+     "High",
+     84
+    ]
+   ],
+   "words_local": 83,
+   "link": "https://www.pangram.com/history/09e42ca2-b7ef-4439-92f3-402dd6f78314"
+  }
+ ]
+}

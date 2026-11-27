@@ -1,0 +1,168 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "fc30fbf231ecb16f551ac900251d789e5e7e1605a88acc61a6e6074eb7d98494",
+ "text": "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast. By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it.\n\nThe leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end. Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.",
+ "section": "Beach Morning Glory",
+ "reader": "someone sitting with a friend whose psychedelic trip has gone bad enough that they want it over, or whose nausea won't stop, deciding how to give beach morning glory and how much",
+ "sentences": [
+  {
+   "s": "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast.",
+   "payoff": "they know what it is for: ending a psychedelic trip fast, when the trip has to stop",
+   "follows": "the heading, Beach Morning Glory, under Need to Stop the Trip?"
+  },
+  {
+   "s": "By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it.",
+   "payoff": "they get the one species, don't swap in a garden morning glory or another relative, and know they likely can't buy it from just any seller",
+   "follows": "the plant just named by its common name",
+   "link": "By beach morning glory"
+  },
+  {
+   "s": "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.",
+   "payoff": "they keep the juice from the broken end off their own sensitive skin and from under their nails while they handle a leaf",
+   "follows": "the plant and how much of it does what, said before: how strong its leaf is, even its juice on sensitive skin",
+   "link": "The leaf is strong enough"
+  },
+  {
+   "s": "Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.",
+   "payoff": "they have a second way to give it on purpose, on sensitive skin (under the armpits, for example), since it works there almost as well as eating it",
+   "follows": "the juice on his sensitive skin, just said: what it does there, and how to use that",
+   "link": "Its juice"
+  }
+ ],
+ "checked": [
+  {
+   "point": "beach morning glory is Ipomoea pes-caprae, not morning glories in general; the relatives and cousins he tried did not work the same way; as far as he knows nobody else sells it; in his experience it stops a psychedelic trip cold and fast",
+   "found": "his post as of 2026-11-03, B171 and B172; B171 as it read Human High 56 (ecce6d40), unchanged",
+   "still_needed": "yes: they get the right plant and use it when a trip has to end",
+   "fate": "kept"
+  },
+  {
+   "point": "picking a leaf can relax him when the juice from the broken part touches sensitive skin, especially under the fingernails, so he keeps his skin away from the broken end; the juice works through sensitive skin almost as well as eating it; to give it on purpose it can go under the armpits, for example, in about the same amounts as by mouth, or maybe a few drops of the juice",
+   "found": "his round-62 answer (review/r62/ANSWERS-R62-20261127-1716.json, card LEAF-JUICE) and his round-63 answer (review/r63/ANSWERS-R63-20261127-2003.json, card SKIN-AMOUNT): \"you forgot the most important part, sensitive skin... that's why i said under the armpits ... i said like 200mg of leaf or 10mg of the extract (dried juice paste)... maybe a few drops of the juice altho i don't think anyone has the juice\"",
+   "still_needed": "yes: they keep the juice off their own sensitive skin, and can give it through the skin on purpose, in amounts they know",
+   "fate": "changed"
+  }
+ ],
+ "placement": "B171 and the handling paragraph (B174), checked together as in turn 73 (Human High 122, 6026d11b); step 1 of his SKIN-AMOUNT answer, the \"sensitive skin\" my sentence dropped",
+ "opens": {
+  "first_sentence": "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast.",
+  "why_reading": "they know what it is for: ending a psychedelic trip fast, when the trip has to stop"
+ },
+ "same_point": "none: read the section from its heading to the next; the skin route is said only here, the amounts by mouth only in the paragraph before",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md and the section as first drafted with both answers in (reads/need-draft-bmg-sec.txt)",
+  "unneeded": [
+   "though as far as I know nobody else sells it",
+   "I've seen it work on someone else too:",
+   "I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy.",
+   "I was rushing to help her, so I may have given her more than I would give now.",
+   "maybe a few drops of the juice, although I don't think anyone has the juice"
+  ],
+  "kept": {
+   "though as far as I know nobody else sells it": "they know they won't find it for sale, so they look for it growing, under names like railroad vine (the next sentence in the guide); his fact from his post"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (with way 30) and the section as first drafted (reads/his-draft-bmg-sec.txt)",
+  "marked": [
+   {
+    "s": "People can still find it growing in some places, and railroad vine is one name used for it.",
+    "difference": "4, 1: \"in some places\" names no place; two ideas joined"
+   },
+   {
+    "s": "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.",
+    "difference": "1, 4, 12: packed; \"relax me\" vague; no tie to finding the plant"
+   },
+   {
+    "s": "Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put it under the armpits, for example.",
+    "difference": "10, 4: \"it\" could be the juice, the leaf or the paste; \"for example\" leaves other places open"
+   },
+   {
+    "s": "For that I'd use about 200mg of leaf or 10mg of the extract paste (the dried juice), or maybe a few drops of the juice, although I don't think anyone has the juice.",
+    "difference": "10, 19, 4, 7, 15: \"For that\" two ways; three options alike; \"a few drops\" no amount; the juice offered, then said nobody has it"
+   }
+  ],
+  "kept": {
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.": "his handling line as it read High with B171 (bb2893ad) and with his LEAF-JUICE in (6026d11b); \"relax me\" is his word (\"touching the juice is relaxing\"), and the clauses are his: what the juice does, where, and what he does about it; it follows the amounts paragraph now, so it needs no tie to finding the plant",
+   "Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put it under the armpits, for example.": "\"it\" is the plant in whatever form: the next sentence says the amounts, as by mouth (leaf or paste), or drops of fresh juice; \"for example\" is his (\"can put it under armpits for example\")",
+   "People can still find it growing in some places, and railroad vine is one name used for it.": "rewritten as \"People can still find it growing in some places, under names like railroad vine.\": one idea, where to find it and the name to look for; \"some places\" is his, and he named none"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md and the section as first drafted (reads/fit-draft-bmg-sec.txt)",
+  "marked": [
+   {
+    "s": "For that I'd use about 200mg of leaf or 10mg of the extract paste (the dried juice), or maybe a few drops of the juice, although I don't think anyone has the juice.",
+    "found": "CAN'T TELL: no scale, \"a few drops\" vague; MISREAD: \"For that\", and the skin dose looks like a second dose"
+   },
+   {
+    "s": "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste.",
+    "found": "CAN'T TELL: no scale, \"at a time\"; MISREAD: matches the skin amount, so which one ends the trip"
+   },
+   {
+    "s": "But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.",
+    "found": "CAN'T TELL: where a nibble stops"
+   },
+   {
+    "s": "I was rushing to help her, so I may have given her more than I would give now.",
+    "found": "CAN'T TELL: no amount for what she got"
+   }
+  ],
+  "kept": {
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste.": "his amounts, from his version: he gave mg (round 62, NIBBLE-SIZE, when asked for a size a sitter can see); the MISREAD came from the skin amounts said before them, and the skin route now comes after them as \"the same amounts as by mouth\"",
+   "But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.": "his sentence, in his version whole: the narrow margin is what it tells the reader",
+   "I was rushing to help her, so I may have given her more than I would give now.": "not in these texts: B176, his story as it read Human High 86 with B178 (2dfaa7bb)"
+  }
+ },
+ "his_answer": [
+  {
+   "said": "touching the juice is relaxing, especially on sensitive skin, it absorbs almost as well as eating it",
+   "in": "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end. Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.",
+   "words": {
+    "absorbs": "said as \"works through\"",
+    "absorb": "said as \"works through\""
+   }
+  },
+  {
+   "said": "can put it under armpits for example to absorb well",
+   "in": "Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.",
+   "words": {
+    "absorbs": "said as \"works through\"",
+    "absorb": "said as \"works through\""
+   }
+  },
+  {
+   "said": "you forgot the most important part, sensitive skin... that's why i said under the armpits",
+   "in": "Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.",
+   "words": {
+    "forgot": "his note to me on what my sentence had dropped (\"sensitive skin\"), not a claim for the reader; \"sensitive\" and \"armpits\" are in the sentence",
+    "most": "his note to me on what my sentence had dropped (\"sensitive skin\"), not a claim for the reader; \"sensitive\" and \"armpits\" are in the sentence",
+    "important": "his note to me on what my sentence had dropped (\"sensitive skin\"), not a claim for the reader; \"sensitive\" and \"armpits\" are in the sentence",
+    "part": "his note to me on what my sentence had dropped (\"sensitive skin\"), not a claim for the reader; \"sensitive\" and \"armpits\" are in the sentence"
+   }
+  }
+ ],
+ "questions": {
+  "Q1": "PASS: each sentence opens on what it is about (the sledgehammer, which plant, where to find it, the leaf's strength, its juice, the amounts on the skin, the whole leaf, the nibble, the amounts for nausea, how close the end is)",
+  "Q2": "PASS: what he does is said as what he does (\"I keep my skin away\", \"I'd use about the same amounts\", \"I'd try 200mg\", \"I use it for nausea only when\"), and the skin route as what the reader can do",
+  "Q3": "PASS: sensitive skin under the fingernails, the armpits, the same amounts as by mouth, 200mg of leaf at a time, 10mg of the extract paste (the dried juice), railroad vine",
+  "Q4": "PASS: \"the extract paste\" is said as the dried juice where it is first used; \"relax\" and \"smooth\" are his words",
+  "Q5": "PASS: each tie is at the start (\"By beach morning glory\", \"People can still find it\", \"The leaf is strong enough\", \"Its juice\", \"I'd use about the same amounts\", \"A tiny nibble\", \"For nausea\", \"But it takes only a little more\")",
+  "Q6": "PASS: which plant and where to find it, how much does what by mouth, then handling and the skin route, whose amounts point back to the ones just given",
+  "Q7": "PASS: each fact is something a sitter acts on: where to get it, how much by mouth, what to keep off their skin, how to give it through the skin",
+  "Q8": "PASS: no group of items left; the draft's three skin options are now \"the same amounts as by mouth, or a few drops of fresh juice\"",
+  "Q9": "PASS: each step adds one piece of his answers"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

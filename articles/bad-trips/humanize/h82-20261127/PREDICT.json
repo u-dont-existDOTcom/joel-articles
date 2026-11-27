@@ -1,0 +1,149 @@
+{
+ "c6-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.8,
+  "decides": "whether the skin sentence reads High with his \"sensitive skin\" back in it",
+  "tells": [
+   "Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example."
+  ],
+  "human": [
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "receipt": "TEST-c6-bmg-p1p3.receipt.json",
+  "humanized": "try 6 from try 5 (6026d11b, Human High 122): one word, his \"sensitive\" (round 63, SKIN-AMOUNT)",
+  "first_fix": "payoff: the skin that takes it in, his point; join: unchanged; plain: \"sensitive skin\", his words"
+ },
+ "c7-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether his skin amounts, said as the same amounts as by mouth, read High as their own sentence after the skin route",
+  "tells": [
+   "I'd use about the same amounts as by mouth, or maybe a few drops of fresh juice if you have any."
+  ],
+  "human": [
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "receipt": "TEST-c7-bmg-p1p3.receipt.json",
+  "humanized": "try 7 from try 6: \"put the juice\" made \"put it\", and one sentence added, his amounts for the skin (round 63, SKIN-AMOUNT)",
+  "first_fix": "payoff: how much on the skin; join: \"I'd use about the same amounts\" at the start; plain: \"the same amounts as by mouth\" for his \"i said like 200mg of leaf or 10mg of the extract\""
+ },
+ "v1-bmg-p1": {
+  "lineage": "bad-trips Beach Morning Glory, what it is for and which plant (B171 with B172 joined), by itself (h80)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether the first paragraph reads High with where people can still find the plant and a name to look for",
+  "tells": [
+   "People still find it growing in some places, under names like railroad vine."
+  ],
+  "human": [
+   "By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it."
+  ],
+  "receipt": "TEST-v1-bmg-p1.receipt.json",
+  "humanized": "try 3 from try 2 (ecce6d40, Human High 56): one sentence added, from his round-63 comment on TEACH-B173",
+  "first_fix": "payoff: where else to get it; join: \"People still find it\" at the start; plain: \"under names like railroad vine\", his name"
+ },
+ "d1-bmg-b173": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what, his round-63 version (B173), by itself (h82)",
+  "call": "Human",
+  "chance": 0.75,
+  "decides": "whether his version still reads High with what the extract paste is said where it is first used",
+  "tells": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste (the dried juice)."
+  ],
+  "human": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it."
+  ],
+  "receipt": "TEST-d1-bmg-b173.receipt.json",
+  "humanized": "try 1: his TEACH-B173 version (his check 09e42ca2, Human High 84) with \"(the dried juice)\" from his comment",
+  "first_fix": "payoff: what the paste is, where a sitter first meets it; join: unchanged; plain: \"the dried juice\", his words"
+ },
+ "rp1-b173": {
+  "lineage": "bad-trips B173, blind rewrite from his round-63 lesson (replay h82)",
+  "call": "Human",
+  "chance": 0.8,
+  "decides": "whether lesson bad-trips-2026-11-27j, said in general words, lets a fresh writer fix B173 the way his one word did",
+  "tells": [
+   "A tiny nibble can sometimes relieve psychedelic nausea and even improve the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "unchanged": "a fresh Sonnet writer's rewrite of my try 3 of B173 (h81, ddea8d92) from replay/BRIEF.md's first wording alone (replay/OUT-1.md), checked exactly as it gave it"
+ },
+ "rp2-b173": {
+  "lineage": "bad-trips B173, blind rewrite from his round-63 lesson (replay h82)",
+  "call": "Human",
+  "chance": 0.85,
+  "decides": "whether the lesson, said as the brief now says it, lets a fresh writer fix B173 the way his one word did",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even change the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "unchanged": "a fresh Sonnet writer's rewrite of my try 3 of B173 (h81, ddea8d92) from replay/BRIEF.md's second wording alone (replay/OUT-2.md), checked exactly as it gave it"
+ },
+ "sec2-bmg": {
+  "lineage": "bad-trips Beach Morning Glory, the whole section as it stands after turn 72 (B171, B174, B173, B176, B178) (h80)",
+  "scope": "section",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "the section's second check (2 of 2), with his round-62 and round-63 answers in and B174 after B173: whether its five paragraphs, each Human High by itself or with a neighbour, hold High together; in turn 72's check B173's first two sentences read Low and four windows Medium (e1629a55)",
+  "tells": [
+   "I was rushing to help her, so I may have given her more than I would give now."
+  ],
+  "human": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it."
+  ],
+  "unchanged": "the guide's Beach Morning Glory section exactly as it stands after humanize/h82-20261127/apply_h82.py: B171, B173, B174, B176 and B178, without its heading"
+ },
+ "f1-bmg-b173": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what, his round-63 version (B173), by itself (h82)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "whether the amounts paragraph still reads High by itself with \"Eating a whole leaf\", before the section check after the fix",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste (the dried juice)."
+  ],
+  "receipt": "TEST-f1-bmg-b173.receipt.json",
+  "humanized": "try 2 from try 1 (bf3ae1f3, Human High 87): one word, \"Eating\"",
+  "first_fix": "payoff: how the leaf is taken; join: unchanged; plain: \"Eating a whole leaf\"",
+  "diagnosis": "in the section's second check its first two sentences read Medium 36 together (3a2d2b12), as in turn 72's first (Low 36, e1629a55): two openings built the same way (\"A whole leaf can easily end\", \"A tiny nibble can sometimes smooth\"; his fixes, way 2)"
+ },
+ "f1-bmg-p4p5": {
+  "lineage": "bad-trips Beach Morning Glory, the woman and the MDMA limit (B176, B178), together (h80)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether B176 with its last line's payoff first still reads High with B178, before the section check after the fix",
+  "tells": [
+   "I may have given her more than I would give now, though, since I was rushing to help her."
+  ],
+  "human": [
+   "The trips I've seen it stop were psychedelic ones, and I don't yet have data showing that pes-caprae aborts MDMA, so for MDMA, go to [MDMA: Magnesium Alarm](#§mdma-magnesium-alarm) instead."
+  ],
+  "receipt": "TEST-f1-bmg-p4p5.receipt.json",
+  "humanized": "try 4 from try 3 (2dfaa7bb, Human High 86): the last line's two clauses swapped, \"though\" added",
+  "first_fix": "payoff: \"I may have given her more than I would give now\" first; join: \"though\", against her being very happy; plain: unchanged",
+  "diagnosis": "in both section checks B176's last line read Medium 18 in a window of its own (e1629a55, 3a2d2b12): it opens on the reason (\"I was rushing\") before what the reader does with it (his fixes, way 13)"
+ },
+ "sec3-bmg": {
+  "lineage": "bad-trips Beach Morning Glory, the whole section as it stands after turn 72 (B171, B174, B173, B176, B178) (h80)",
+  "scope": "section",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "the section after its second check's two Medium windows were fixed (B173's first two sentences, Medium 36; B176's last line, Medium 18; 3a2d2b12): whether every window reads High",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it."
+  ],
+  "human": [
+   "I may have given her more than I would give now, though, since I was rushing to help her."
+  ],
+  "unchanged": "the guide's Beach Morning Glory section exactly as it stands after humanize/h82-20261127/apply_h82.py fix: B171, B173, B174, B176 and B178, without its heading",
+  "after_fix": "\"Eating a whole leaf\" in B173 (Human High 88 by itself, 9bae6cd1) and B176's last line with its payoff first (Human High 87 with B178, 79f9e21f), the two windows below High in the second check (3a2d2b12)"
+ }
+}

@@ -2891,6 +2891,37 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-27T17:41Z"
+  },
+  {
+   "turn": "2026-11-27T20:03Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ on its default branch (fetched 2026-11-27 20:04 UTC; UDA at 3fce032, unchanged), all six already in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md, OWNER-QUESTIONS.md and PROMISES.md on main: last changed by this lane's turn 71 (650d9093); no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (ReadNotifications, 2026-11-27 20:31 UTC); the session's own background reads came back as their reports"
+    },
+    {
+     "place": "repo",
+     "status": "unreachable",
+     "failed": "GitHub's API answered 403 this session ('GitHub access to this repository is not enabled for this session'; its request for repository access was declined by the permission check, so not asked again). Through git instead: pull requests 563 to 566 merged into main (community, romance twice, somatic additions); lessons neuro-2026-11-27g to l, romance-2026-11-27c and somatic-2026-11-27f read; main's small changes to docs/FIXING-AN-ARTICLE.md (items 7 and 16), docs/HUMANIZATION-GATE.md and the production budget (human tells as what a model tends not to write) touch nothing of this turn's; no pull request ref after 566",
+     "retry": "the next turn, first, through the API"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-27T20:26Z"
   }
  ]
 }

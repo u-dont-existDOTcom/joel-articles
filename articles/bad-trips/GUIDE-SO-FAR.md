@@ -390,13 +390,13 @@ Without an ozone-water purifier--which can cost around $20 on Amazon--boiling wa
 
 ### Beach Morning Glory
 
-In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast. By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it.
+In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast. By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it. People still find it growing in some places, under names like railroad vine.
 
-The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end. Its juice works through the skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.
+Eating a whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it. For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste (the dried juice). But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.
 
-A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it. But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.
+The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end. Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put it under the armpits, for example. I'd use about the same amounts as by mouth, or maybe a few drops of fresh juice if you have any.
 
-I've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy. I was rushing to help her, so I may have given her more than I would give now.
+I've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy. I may have given her more than I would give now, though, since I was rushing to help her.
 
 The trips I've seen it stop were psychedelic ones, and I don't yet have data showing that pes-caprae aborts MDMA, so for MDMA, go to [MDMA: Magnesium Alarm](#§mdma-magnesium-alarm) instead.
 

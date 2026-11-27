@@ -2101,13 +2101,13 @@
   {
    "id": "r62-leaf-juice",
    "status": "applied",
-   "what": "his round-62 LEAF-JUICE answer in B174: the juice relaxes him; it works through the skin almost as well as eating the leaf; to give it on purpose, the juice can go under the armpits, for example (three steps, the last Human High 122 with B171, 6026d11b; humanize/h81-20261127/RESULTS.md)",
+   "what": "his round-62 LEAF-JUICE answer in B174: the juice relaxes him; it works through the skin almost as well as eating the leaf; to give it on purpose, the juice can go under the armpits, for example (three steps, the last Human High 122 with B171, 6026d11b; humanize/h81-20261127/RESULTS.md) Since turn 74 (r63-skin-amount): \"sensitive skin\", \"put it\" for \"put the juice\", since the amounts on the skin are leaf or paste as well as juice.",
    "joel": "2026-11-27 17:16 UTC: his round-62 export (articles/bad-trips/review/r62/ANSWERS-R62-20261127-1716.json), card LEAF-JUICE",
    "applied_by": "humanize/h81-20261127/apply_h81.py",
    "must_contain_exact": [
     "can relax me if the juice",
     "almost as well as eating the leaf does",
-    "you can put the juice under the armpits, for example"
+    "you can put it under the armpits, for example"
    ],
    "must_not_contain": [
     "even picking one can affect me"
@@ -2115,10 +2115,56 @@
   },
   {
    "id": "r62-nibble-size",
-   "status": "pending",
-   "what": "his round-62 NIBBLE-SIZE answer in B173: 200mg of leaf at a time, or 10mg of the extract paste, for nausea; more only if the person doesn't mind the trip getting less intense. With them in, the nibble sentence read Medium 16 in every step and the lineage used its six tries, so his own version of B173 goes in (round 63, TEACH-B173)",
+   "status": "applied",
+   "what": "his round-62 NIBBLE-SIZE answer in B173: 200mg of leaf at a time, or 10mg of the extract paste, for nausea; more only if the person doesn't mind the trip getting less intense. With them in, the nibble sentence read Medium 16 in every step and the lineage used its six tries, so his own version of B173 goes in (round 63, TEACH-B173) In since turn 74: his own version of B173 carries them (r63-teach-b173); his \"more\" is not in it. In since turn 74: his own version of B173 carries them (r63-teach-b173); his \"more\" is not in it.",
    "joel": "2026-11-27 17:16 UTC: his round-62 export (articles/bad-trips/review/r62/ANSWERS-R62-20261127-1716.json), card NIBBLE-SIZE",
-   "waits_for": "his answer to round 63's TEACH-B173"
+   "applied_by": "humanize/h82-20261127/apply_h82.py, in his round-63 TEACH-B173 version",
+   "must_contain_exact": [
+    "200mg of leaf at a time, or 10mg of the extract paste"
+   ]
+  },
+  {
+   "id": "r63-teach-b173",
+   "status": "applied",
+   "what": "his round-63 TEACH-B173 version of B173, whole (his check, Human High 84 in one window, 09e42ca2), with \"(the dried juice)\" from his comment where the extract paste is first named (Human High 87, bf3ae1f3) and \"Eating\" before \"a whole leaf\" after the section's second check (Human High 88, 9bae6cd1; humanize/h82-20261127/RESULTS.md)",
+   "joel": "2026-11-27 20:03 UTC: his round-63 export (articles/bad-trips/review/r63/ANSWERS-R63-20261127-2003.json), card TEACH-B173",
+   "applied_by": "humanize/h82-20261127/apply_h82.py (and its \"fix\")",
+   "must_contain_exact": [
+    "A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it.",
+    "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste (the dried juice).",
+    "But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending."
+   ],
+   "must_not_contain": [
+    "even improve the trip"
+   ]
+  },
+  {
+   "id": "r63-skin-amount",
+   "status": "applied",
+   "what": "his round-63 SKIN-AMOUNT answer in B174: the juice works through sensitive skin (my sentence had said \"the skin\"), and on the skin about the same amounts as by mouth, or maybe a few drops of fresh juice; B174 now follows B173 so its amounts point back (Human High 143 with B171, 3da1f8d2; humanize/h82-20261127/RESULTS.md)",
+   "joel": "2026-11-27 20:03 UTC: his round-63 export (articles/bad-trips/review/r63/ANSWERS-R63-20261127-2003.json), card SKIN-AMOUNT",
+   "applied_by": "humanize/h82-20261127/apply_h82.py",
+   "must_contain_exact": [
+    "Its juice works through sensitive skin almost as well as eating the leaf does",
+    "I'd use about the same amounts as by mouth, or maybe a few drops of fresh juice"
+   ],
+   "must_not_contain": [
+    "works through the skin almost"
+   ]
+  },
+  {
+   "id": "r63-where-to-find",
+   "status": "applied",
+   "what": "from his comment on TEACH-B173, in B171: \"People still find it growing in some places, under names like railroad vine.\" (my reading of his \"ppl can find it in some places growing (railroad vine is one name used)\"; Human High 69 by itself, 0e0bd36d); and his wish that the guide not say he sells the extract paste",
+   "joel": "2026-11-27 20:03 UTC: his round-63 export (articles/bad-trips/review/r63/ANSWERS-R63-20261127-2003.json), card TEACH-B173's comment: \"i don't necessarily want to say i sell it in this guide since then it looks like a sales pitch, altho nobody is selling it other than me but ppl can find it in some places growing (railroad vine is one name used)\"",
+   "applied_by": "humanize/h82-20261127/apply_h82.py",
+   "must_contain_exact": [
+    "railroad vine"
+   ],
+   "must_not_contain": [
+    "I sell",
+    "sold by me"
+   ]
   }
  ]
 }
