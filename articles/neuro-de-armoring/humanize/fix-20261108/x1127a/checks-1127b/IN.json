@@ -1,0 +1,16 @@
+{
+ "lma-t2": {
+  "lineage": "neuro-de-armoring/W-LMA-73a",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, with 73a and his line; try 2: the stop sign said as his advice",
+  "text": "I can't recommend starting lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (little pleasure or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already taking either herb, I'd stop the moment you notice less pleasure or desire than before you started, or any sexual problems.",
+  "chance": 0.6,
+  "receipt": "receipts/LMA-73A-T2.receipt.json",
+  "diagnosis": "try 1 read AI 100% (AI Medium over the first sentence, AI Low over the second: https://www.pangram.com/history/666f323c-0200-4f4f-a54e-be84150a350b), where the fold before it read Human High in one window: what I added made his rough paragraph tidy, a built conditional as the stop sign (\"if you take either herb and notice A, or B, since C, stop D\") and \"that last\" smoothing his \"long after they stop taking them\". This try keeps his first sentence as his line and 73a made it, and says the stop sign as his advice (\"I'd stop the moment you notice ...\", his baseline \"than before you started\").",
+  "decides": "whether it goes in; below High, the next try starts from it and changes a word or two a reader could take two ways",
+  "first_fix": "payoff: the first sentence opens on his advice (not to start either herb), the second ends on when to stop; join: none, two sentences as his; plain: his words and the plain words of question 73",
+  "humanized": "his card version with 73a and his line put in; my words are the stop sign's clause, said as his advice",
+  "human_tells": "his own card version: \"Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do\"",
+  "tells": "the stop sign still lists three things after \"notice\" (\"less pleasure or desire than before you started, or any sexual problems\")"
+ }
+}

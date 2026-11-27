@@ -1,0 +1,26 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "lma-t2": {
+   "uuid": "f3417de9-5888-4720-adc1-66303c140dab",
+   "at": "2026-11-27T16:02:02Z",
+   "headline": "AI Detected",
+   "ai": 0.7639750242233276,
+   "words": 88,
+   "windows": [
+    [
+     "AI-Assisted",
+     "Low",
+     38,
+     "I can't recommend starting lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (little pleasure or desire) and sexual dysfunction long after they stop taking them."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     50,
+     "Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already taking either herb, I'd stop the moment you notice less pleasure or desire than before you started, or any sexual problems."
+    ]
+   ]
+  }
+ }
+}

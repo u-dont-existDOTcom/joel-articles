@@ -1,0 +1,24 @@
+[
+ {
+  "key": "lma-73a",
+  "name": "Lion's mane and ashwagandha, with 73a and his line \"can't recommend starting them\"",
+  "lineage": "neuro-de-armoring/W-LMA-73a",
+  "scope": "paragraph",
+  "words": 79,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "a16af41c66a744616c0b76167bf533c3a556859a6500654ec1e5642cbfc04d14"
+ },
+ {
+  "key": "prec-74b",
+  "name": "Precautions, with 74b (\"on the same day as\")",
+  "lineage": "neuro-de-armoring/W015-his",
+  "scope": "paragraph",
+  "words": 86,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "see the ledger record",
+  "sha256": "c967af32f2d03d2bad00eaefd63442c7e9796cb9be4068362bd48868874382f8"
+ }
+]

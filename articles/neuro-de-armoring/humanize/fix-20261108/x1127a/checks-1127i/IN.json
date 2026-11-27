@@ -1,0 +1,16 @@
+{
+ "lma-s5": {
+  "lineage": "neuro-de-armoring/W-LMA-his",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, step 5: the stop sign in his own idiom, one clause",
+  "text": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so stop either herb right away if you notice any of that.",
+  "chance": 0.5,
+  "receipt": "receipts/LMA-S5.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/panel-lma-s2/PANEL.md",
+  "diagnosis": "step 4 read Human Written, High over his first sentence (73a's gloss in it) and Medium over the second (https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46), where step 3 had its Medium too: what stays the same in both is the stop sign's build, two clauses and two persons (\"if you're already on either herb, I'd quit it as soon as you notice\"), a templated piece of advice. His own stop sign, in his agmatine paragraph, reads High in one clause (\"so stop it right away if you notice\"); this try says it his way.",
+  "decides": "whether the paragraph goes in with 73a; this is the lineage's last try, and below High it goes to him as a teaching card with steps 3 to 5",
+  "first_fix": "payoff: his first sentence opens on his advice; the second ends on when to stop; join: the stop sign in one clause; plain: \"stop either herb right away if you notice any of that\"",
+  "humanized": "his card version as it read High in the fold, 73a's gloss in plain words, and the stop sign in his own idiom",
+  "human_tells": "his own card version: \"I'm not advising lion's mane or ashwagandha\" (advising a thing), \"Post-ashwa\"; his idiom from his agmatine paragraph: \"so stop it right away if you notice\""
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "about": "his answers \"73 a  but i also can't recommend starting them 74 b\" of 2026-11-27 15:45 UTC (fix-20261108/joel-20261127-1545-message.txt): 73a and his line in the herbs warning, 74b in his Precautions",
+ "runs": [
+  {
+   "applied": [
+    {
+     "key": "prec",
+     "whose": "his own Precautions paragraph, with his 74b (\"on the same day as\")",
+     "check": "my check, this turn: https://www.pangram.com/history/df64f39b-0778-436c-a650-efe5d3bfbda5 (Human Written, one window, High, 91 words)",
+     "old": "Do not use agmatine concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+     "new": "Do not use agmatine on the same day as opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues."
+    }
+   ],
+   "before_sha256": "baa77e2d78e8bcaaca9a36f5ff3e7c3cf4e64ea7c2ccca45db227c2564e73275",
+   "after_sha256": "2257d52feb7b53b86538b6b6d48fff56db6348bbb02876e19e5114acdc4955ca"
+  }
+ ]
+}
