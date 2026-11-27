@@ -1,0 +1,168 @@
+{
+ "about": "r50's Pangram web-app checks (2026-11-27, 19:42 to 19:45 UTC; Pangram's record says 14:42 to 14:45 New York time), each text typed by tools/humanization/pangram_page_helpers.js with its SHA-256 checked before the click and read back from his history by SHA-256. Windows: [label, confidence, words, AI likelihood]. Not predicted in pangram-ledger.jsonl first (a miss: the first two were to find out whether the paragraphs read AI alone; the rest tested my changes).",
+ "checks": [
+  {
+   "key": "P1o",
+   "what": "live 20 as it is (the whole-article check's first Medium window is its last line), by itself",
+   "sha256": "4edc36a546a3b7157ec885575e6a482fceadecead4756736f307c4cc518e5d1f",
+   "link": "https://www.pangram.com/history/36aa6a6d-b5c1-4bba-8a68-129dcee268f9",
+   "headline": "AI Detected",
+   "ai": 0.4076,
+   "document_confidence": "Low",
+   "windows": [
+    [
+     "Human",
+     "High",
+     23,
+     "6.90e-29"
+    ],
+    [
+     "Human",
+     "Low",
+     12,
+     "3.40e-7"
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     15,
+     "5.65e-1"
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     16,
+     "1.00e+0"
+    ]
+   ]
+  },
+  {
+   "key": "P1a",
+   "what": "live 20, last two lines joined: \"..., or she’ll start treating every hug like a sales pitch.\"",
+   "sha256": "d4ad962767ea18b3c1866992f5d9b2c20af0c5a702034da745409aa5800ed61f",
+   "link": "https://www.pangram.com/history/1b781222-5eea-48aa-8036-d7bf10e17a2e",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     61,
+     "2.05e-31"
+    ]
+   ]
+  },
+  {
+   "key": "P1b",
+   "what": "live 20: \"..., or else every touch starts to feel like a sales pitch for sex.\"",
+   "sha256": "0f9d811c1618177f834dd0686c6186cfdb744022c3e0a4e9a055d98496d436fd",
+   "link": "https://www.pangram.com/history/f479b41c-bc1f-48e8-acca-cc2a7e250d26",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     63,
+     "1.04e-24"
+    ]
+   ]
+  },
+  {
+   "key": "P1c",
+   "what": "live 20: \"..., or she’ll start treating every touch like a sales pitch.\" (in: \"touch\" covers the hug, cuddle, kiss and back rub)",
+   "sha256": "bd9b824e8e540c6ebb7bd8298d73832cf30d27326aeee93bbaeaf058e83135e4",
+   "link": "https://www.pangram.com/history/52ff7f0c-e151-4e8d-a553-fc4282ee3be5",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     61,
+     "3.49e-29"
+    ]
+   ]
+  },
+  {
+   "key": "P2o",
+   "what": "live 33 as it is (the second Medium window is its first line), by itself",
+   "sha256": "5276854a3b8295323f9acab163fd128910a3daecdff46729d7306972067b02ce",
+   "link": "https://www.pangram.com/history/defcad22-a228-43a1-9e7a-e58878a8146c",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     104,
+     "3.92e-19"
+    ]
+   ]
+  },
+  {
+   "key": "P2a",
+   "what": "live 33, first two sentences joined with \", but\" (in)",
+   "sha256": "59c8f807a48565627d451318a558769554fdef247e362163c8e22c6c1ef42802",
+   "link": "https://www.pangram.com/history/722d3172-fb10-4237-97be-d89a690f5d31",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     105,
+     "9.44e-23"
+    ]
+   ]
+  },
+  {
+   "key": "P2b",
+   "what": "live 33: \"..., which is hard to define, and that’s on purpose. Usually ...\"",
+   "sha256": "3f3afa1c75bb8f1930c6d4a6ef53704b62e1343c4dec4b1dae156c505d8befc8",
+   "link": "https://www.pangram.com/history/a09a7131-d996-4725-ba04-e5cc22faa7e8",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     103,
+     "2.71e-23"
+    ]
+   ]
+  },
+  {
+   "key": "S06c",
+   "what": "\"Affection and the simmer\" (r38's section 06, five paragraphs) with P1c",
+   "sha256": "a122bf59aa7d08c1e02902ca96824efe576e488a8bc091a8b4c12f4a7e9a2019",
+   "link": "https://www.pangram.com/history/27c3b372-bc6e-4443-b057-e593fd1b9821",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     251,
+     "1.30e-37"
+    ]
+   ]
+  },
+  {
+   "key": "S08a",
+   "what": "\"Situationships\" (r38's section 08, four paragraphs) with P2a",
+   "sha256": "52dc9463cfabdb3ca560af57265883cfdd8495c1e3bfcdef15518bb9a9fd3641",
+   "link": "https://www.pangram.com/history/7ff558af-740d-40f9-8dcc-5475da271f17",
+   "headline": "Human Written",
+   "document_confidence": "High",
+   "windows": [
+    [
+     "Human",
+     "High",
+     346,
+     "2.90e-22"
+    ]
+   ]
+  }
+ ]
+}

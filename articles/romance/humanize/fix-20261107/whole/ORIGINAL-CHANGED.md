@@ -969,3 +969,11 @@ The full conversation is so big that almost nobody would have casual sex if they
 ## 200. Labels Are Descriptive, Not Prescriptive (live 38)
 
 Here’s the funny thing many people don’t understand: labels don’t create commitment. They can still expose whether two people think they’re in the same relationship, which matters a lot.
+
+## 201. Affection and the simmer (live 20)
+
+Doug Toft, who has been married for fifty years, has a useful list called 50 Things I Learned from 50 Years of Marriage. One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
+
+## 202. Situationships (live 33)
+
+And then there’s the situationship, which is hard to define because that’s basically the point. Usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend. It feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
