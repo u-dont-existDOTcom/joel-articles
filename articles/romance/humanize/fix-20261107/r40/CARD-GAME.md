@@ -339,7 +339,28 @@ The file went to him in chat (SHA-256 448e0187...), and as the same private page
 
 ### Still to do, each with his word
 
-1. His word on the evidence step; his OK on a version; then the pull request is merged.
+1. ~~His word on the evidence step~~ (yes, 2026-11-27: v0.9.2, below); his OK on a version; then the pull request is merged.
+2. The innerself site vendors the approved file (its `PRODUCT.md` then says that the list of played cards is kept in the
+   browser too, and that the game can be played by one person), and is deployed through Coolify with his go-ahead; the
+   live page is compared with the build.
+3. Not run: the love-honestly repository's container gate, which needs Docker.
+
+## His answer of 2026-11-27 15:45 UTC: v0.9.2
+
+"YES" to the evidence step. The round's record: [r47](../r47/README.md).
+
+- Step 2 of a card, for two people and for one, opens with its heading "What is this answer based on?", the biggest
+  text. Under it, after "Your answer to", the card's question, smaller, in the typeface it has on step 1 (the one-person
+  wording for one person). The instruction keeps its words as the line above the labels.
+- The only new words are "Your answer to". No card, label, step or rule changes.
+- [What changed in v0.9.2](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.9.2/CHANGES.md),
+  in [the same draft pull request](https://github.com/u-dont-existDOTcom/love-honestly/pull/2). The file went to him in
+  chat (SHA-256 018b0efd...), with a before-and-after picture of step 2 on a phone, and as a private page of the account
+  that ran the turn.
+
+### Still to do, each with his word
+
+1. His OK on a version (v0.9.2 carries v0.9.1's changes), or his changes to it; then the pull request is merged.
 2. The innerself site vendors the approved file (its `PRODUCT.md` then says that the list of played cards is kept in the
    browser too, and that the game can be played by one person), and is deployed through Coolify with his go-ahead; the
    live page is compared with the build.
