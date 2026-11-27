@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` is 2257d52f after the turn of his message of 2026-11-27 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b in his Precautions, checked by itself at Human High; the warnings section Human Written with the same two Medium windows; 73a and his line not in yet, a teaching card (W-LMA-73A) with question 76 (`humanize/fix-20261108/x1127a/`, `humanize/HANDOFF-neuro-de-armoring.md`).
+`humanize/HUMANIZED-SO-FAR.md` is 1ab352b7 after the turn of his message of 2026-11-27 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b in his Precautions, checked by itself at Human High; the warnings section Human Written with the same two Medium windows; 73a and his line not in yet, a teaching card (W-LMA-73A) with question 76; and the Anti-Breakthrough in, Human High in one window, the first of the Psychology section's paragraphs this pass puts in (`humanize/fix-20261108/x1127a/`, `humanize/HANDOFF-neuro-de-armoring.md`).
 
 `humanize/HUMANIZED-SO-FAR.md` is baa77e2d after the turn of his message of 2026-11-26 23:30 UTC ("72a"): every warning's label folded into its first sentence, The Rule's and agmatine's openings fixed, each warning Human High by itself, and the warnings section Human Written, 0.0% AI, with two short Medium windows over the Cognitive Warning and the paragraph after it, which a teaching card asks him about (the cards page of 2026-11-27); questions 73 and 74 wait on him (`humanize/OWNER-QUESTIONS.md`). What is left is `humanize/LEFT.md`; promises are in `PROMISES.md`.
 

@@ -1,0 +1,20 @@
+{
+ "rewrite": "read-1127b/REWRITE.md",
+ "original": "read-1127b/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 77,
+   "original_words": 54,
+   "first": "The Anti-Breakthrough, rewritten",
+   "last": "The Anti-Breakthrough, rewritten",
+   "rewrite_blocks": [
+    0,
+    1
+   ],
+   "coverage": [
+    "aaead285455fe8cd"
+   ]
+  }
+ ]
+}

@@ -56,7 +56,7 @@ We grew up building a "role-self" to please and manage the people around us. And
 
 Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.
 
-The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the "hour-long breakthrough." A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix. Dr. Perry's data indicates the "therapeutic window" for a dysregulated brain is often only seconds long.
+The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.
 
 Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. We are not running a marathon; we are doing physical therapy for a broken nervous system. Frequency beats intensity.
 

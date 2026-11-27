@@ -20,7 +20,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 - **2026-11-27, after his message of 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b is in; 73a
   and his line read below High in nine checks and are a teaching card; question 76 and two cards wait on him.**
-  HUMANIZED-SO-FAR.md is 2257d52f; everything of the turn is in `fix-20261108/x1127a/`: the texts and why
+  HUMANIZED-SO-FAR.md is 1ab352b7 (2257d52f after 74b; then the Anti-Breakthrough); everything of the turn is in
+  `fix-20261108/x1127a/`: the texts and why
   (`texts_x1127a.py`: NEW, TRY, STEP), receipts (`build_receipts_x1127a.py`, all PASS), fresh Fable reads (`v1`, and
   `v2` of my fixed version), two tell panels (`panel-lma-t2`, `panel-lma-s2`), checks `checks-1127a` to `checks-1127j`
   (ledger #291 to #301), the apply script (`apply_x1127a.py`, `APPLIED-X1127A.json`), the cards page
@@ -37,7 +38,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   tolerance, so your usual dose can hit harder)"). **This session ran in his other account**, which can't read the
   pages published last turn (questions 58dbe2b1, cards 06cda5c8, where W-COG-SEC's answer would be stored). From this
   account: the questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky (slug
-  3da5703f-cdc3-43fa-9d8b-db8279e48c62, version 1795796475-13c7; the server now refuses a page without a doctype, so
+  3da5703f-cdc3-43fa-9d8b-db8279e48c62, version 1795797134-2635; the server now refuses a page without a doctype, so
   `render_questions.py`'s output is wrapped as a full document first, as `x1127a/neuro-questions.doc.html` is) and the
   cards page https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn (slug 4719d286-ca5a-4311-87a8-a00631b476b5, version
   1795796442-cd92, db and downloads declared, collection "decisions"; published from `REVIEW-X1127A.html`, the full page,
@@ -45,13 +46,21 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   on whichever cards page the account can read (`db_query`, collection "decisions", W-LMA-73A and W-COG-SEC), and his
   message; his version of the herbs warning goes in as his once checked by itself (a new lineage named for it), 76a by
   script after its check by itself, then the section's check. While they wait: the humanizing pass in "Psychology is
-  the Software; Biology is the Hardware." (the bullet of 2026-11-26 15:26 says where each paragraph stands). **UDA**:
+  the Software; Biology is the Hardware.": **the Anti-Breakthrough is in** (P-SW22, two one-change steps from last turn's
+  near miss, `x1127a/sw_x1127a.py`: "Dr." off merged the split window, then its last sentence joined as "which is what I
+  mean by micro-dosing here": https://www.pangram.com/history/31905039-057d-4b64-9c9e-5dbde18dadef, one window, High; comparison read
+  `x1127a/read-1127b`, one finding at 1, kept). Left in the section (the bullet of 2026-11-26 15:26 has the texts and
+  reads): the practice paragraph (`texts_x1126b.NEW['sw23']`, under 50 words, so checked with the Anti-Breakthrough now
+  in: PAIR-SW22-23 read AI twice, so the tell panel first, on its goal-colon opening and its analogy with a
+  where-clause), the one-sixteenth paragraph (P-SW19, AI High on its Void sentence), the underpinnings paragraph (P-SW21,
+  Human Low then AI Low) and the "Underpinning" Principle (PAIR-SW17-18: Medium over its label run into "Dr. Bruce Perry
+  compares ...", which a "Dr." off may merge as it did here). **UDA**:
   this turn couldn't read it (add_repo refused by the session's auto-mode check, a WebFetch approval unanswered), so the
   bootstrap was NOT_LOADED and `suggested-fixes/joel-articles/` unread: read both first next turn. **How the checks
   ran**: the desktop app's browser pane, tab "seed", signed in; `window.__run` from
   `tools/humanization/pangram_page_helpers.js`, and `window.__readIdx` (its source: `x1127a/pangram_read_idx.js`) read
   each result back from his history by SHA-256; `x1126a/save_gui.py` and `x1126a/checks_x1126a.py record` write it into
-  the ledger. Fable readers worked from this account. **Lessons neuro-2026-11-27a to d**
+  the ledger. Fable readers worked from this account. **Lessons neuro-2026-11-27a to e**
   (`docs/lessons/2026-11-27-1545-neuro.md`).
 - **2026-11-27, after his message of 2026-11-26 23:30 UTC ("72a"): every warning's label is folded into its first
   sentence; the warnings section reads Human Written, 0.0% AI, with two short Medium windows; questions 73, 74 and one

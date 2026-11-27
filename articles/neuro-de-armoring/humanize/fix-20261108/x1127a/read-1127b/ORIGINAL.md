@@ -1,0 +1,3 @@
+## The Anti-Breakthrough, as his post has it
+
+The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the "hour-long breakthrough." A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix. Dr. Perry's data indicates the "therapeutic window" for a dysregulated brain is often only seconds long.

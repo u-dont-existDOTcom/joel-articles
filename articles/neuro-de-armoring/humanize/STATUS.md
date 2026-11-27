@@ -17,8 +17,10 @@ session ran in his other account, which can't read last turn's pages.
   https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn): #292 to #295 (W-LMA-73a) AI; #296 to #300 (W-LMA-his) from Human
   Low and AI Low to High then Medium (#299, my best) and one window Medium (#300).
 - **Question 76** ("(will reduce tolerance)"), from the fresh Fable reads of his Precautions with 74b in.
-- **Lessons neuro-2026-11-27a to d** (`docs/lessons/2026-11-27-1545-neuro.md`).
-- **What is left**: `LEFT.md`: 141 paragraphs, 27 Human High by themselves, 63 below, 51 never checked as they stand.
+- **The Psychology section's pass**: the Anti-Breakthrough in (HUMANIZED-SO-FAR.md 2257d52f to 1ab352b7): #302 ("Dr." off,
+  High 62 and Medium 22), #303 (its last sentence joined, one window, High); comparison read `fix-20261108/x1127a/read-1127b`.
+- **Lessons neuro-2026-11-27a to e** (`docs/lessons/2026-11-27-1545-neuro.md`).
+- **What is left**: `LEFT.md`: 141 paragraphs, 28 Human High by themselves, 62 below, 51 never checked as they stand.
 - **Waiting on him**: question 76, cards W-LMA-73A and W-COG-SEC.
 
 ## 2026-11-27, his message of 2026-11-26 23:30 UTC ("72a"): every label folded in; the warnings section from Mostly Human to Human Written

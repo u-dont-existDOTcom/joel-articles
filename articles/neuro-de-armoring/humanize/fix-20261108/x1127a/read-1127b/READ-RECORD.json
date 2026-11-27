@@ -1,0 +1,25 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "read-1127b/REWRITE.md",
+ "coverage": [
+  "aaead285455fe8cd"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "aaead285455fe8cd"
+   ],
+   "now": "So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "kept",
+   "severity 1: the fresh reads of the post's paragraph last turn (x1126b/v1, the comment on texts_x1126b.NEW['sw22']) found that \"cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix\" doesn't say what happens, and that a reader with years of hour-long therapy hears that it harmed them; \"overwhelms an armored nervous system more than it heals it\" says what happens without telling that reader their hours were for nothing. \"Sensitized\" went with the fix: \"armored\" carries the same state here, as the section names it"
+  ]
+ }
+}
