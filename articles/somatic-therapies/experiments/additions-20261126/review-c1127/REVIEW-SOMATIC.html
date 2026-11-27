@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Somatic Guide, 27 November: two new sections for you to teach me</title>
+<style>
+:root{
+  --bg:#f6f4ef;--paper:#fffdfa;--ink:#1e2227;--muted:#5d646d;--line:#dcd5c8;--soft:#efebe3;--head:#fffdfaee;
+  --link:#0b5cad;--focus:#2458a6;
+  --t-reread:#1d4ed8;--t-reread-bg:#dbe7fe;
+  --t-structure:#6d28d9;--t-structure-bg:#ece6fd;
+  --t-caveat:#c2410c;--t-caveat-bg:#ffe8d5;
+  --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
+  --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
+  --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --t-cut:#a21caf;--t-cut-bg:#fae8ff;
+  --t-ask:#0f766e;--t-ask-bg:#d5f5ef;
+  --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
+  --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+.t-reread{--c:var(--t-reread);--cb:var(--t-reread-bg)}
+.t-structure{--c:var(--t-structure);--cb:var(--t-structure-bg)}
+.t-caveat{--c:var(--t-caveat);--cb:var(--t-caveat-bg)}
+.t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
+.t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
+.t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
+.t-cut{--c:var(--t-cut);--cb:var(--t-cut-bg)}
+.t-ask{--c:var(--t-ask);--cb:var(--t-ask-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
+.bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
+.prog{font-size:.84rem;color:var(--muted)}
+.prog b{color:var(--ink)}
+.meter{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;flex-basis:100%}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .2s}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:36px;font-size:.88rem}
+.btn:hover{border-color:var(--muted)}
+.btn.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tools{max-width:78rem;margin:0 auto;padding-top:4px;padding-bottom:10px;display:grid;gap:10px}
+.tools[hidden]{display:none}
+.tools .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .grp>.lab{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.chip{border:1px solid var(--c,var(--line));background:var(--cb,var(--paper));color:var(--ink);border-radius:999px;padding:3px 10px;font-size:.8rem;min-height:30px}
+.chip[aria-pressed="false"]{background:transparent;opacity:.55;text-decoration:line-through}
+.chip .n{font-weight:700}
+.tools select,.tools input[type=search]{border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-height:36px;max-width:100%}
+.tools input[type=search]{width:16rem}
+.check{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.panel{max-width:78rem;margin:0 auto;padding-top:10px;padding-bottom:14px;border-top:1px dashed var(--line)}
+.panel[hidden]{display:none}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.panel textarea{width:100%;min-height:7rem;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.status{font-size:.86rem;color:var(--muted);min-height:1.2em}
+.intro{max-width:46rem;margin:18px auto 6px;font-size:.95rem}
+.intro .box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.intro p{margin:.5em 0}
+.intro .src{font-size:.82rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.store-note{font-size:.82rem;color:var(--muted)}
+main.article{max-width:46rem;margin:0 auto 40vh;font:1.06rem/1.7 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main.article h2,main.article h3,main.article h4,main.article h5,main.article h6{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.25;margin:2.1em 0 .5em}
+main.article h2{font-size:1.45rem}main.article h3{font-size:1.2rem}main.article h4{font-size:1.06rem}main.article h5{font-size:.98rem}main.article h6{font-size:.92rem}
+main.article p,main.article blockquote,.blk.li{margin:.85em 0}
+main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
+.blk.li{display:flex;gap:.55em;padding-left:.4em}
+.blk.li .mk{flex:0 0 auto;font-weight:700}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
+.blk.li .pn{order:-1}
+.native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
+mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl.multi{background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.18) 6px 8px)}
+mark.hl.leave{background:transparent;border-bottom:2px dotted var(--muted)}
+mark.hl.done{background:transparent;border-bottom-style:solid;opacity:.8}
+body:not(.show-leave) mark.hl.leave{border-bottom:none;cursor:text}
+.moving{border-left:4px solid var(--c);padding-left:10px;margin:.6em 0}
+.moving.leave{border-left-color:var(--line)}
+.moving-k{font:700 .72rem system-ui,sans-serif;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
+.marker{font:600 .9rem system-ui,sans-serif;border:2px dashed var(--c);background:var(--cb);border-radius:8px;padding:6px 10px;margin:1.1em 0 .4em}
+.marker.leave{border-color:var(--line);background:transparent;color:var(--muted)}
+.marker .mk-k{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--c)}
+.marker .mk-h{font-size:1rem}
+body:not(.show-leave) .marker.leave,body:not(.show-leave) .card.leave{display:none}
+body:not(.show-leave) .moving.leave{border-left:none;padding-left:0}
+body:not(.show-leave) .moving.leave .moving-k{display:none}
+.card{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:.5em 0 1.5em}
+.card.leave{border-left-color:var(--line);background:var(--soft)}
+.card[hidden]{display:none}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,100%{box-shadow:none}25%{box-shadow:0 0 0 4px var(--c)}}
+.card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.cid{font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.ctitle{font-weight:700;margin-right:auto}
+.pill{font-size:.78rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--pend-bg);color:var(--pend);border:1px solid var(--pend)}
+.card[data-status="approved"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.card[data-status="rejected"] .pill{background:var(--no-bg);color:var(--no);border-color:var(--no)}
+.card[data-status="revise"] .pill{background:var(--rev-bg);color:var(--rev);border-color:var(--rev)}
+.card.leave[data-status="pending"] .pill{background:transparent;color:var(--muted);border-color:var(--line)}
+.card[data-status="approved"]{border-color:var(--ok);border-left-color:var(--c)}
+.card[data-status="revise"]{border-color:var(--rev);border-left-color:var(--c)}
+.link-btn{border:none;background:none;color:var(--link);padding:2px 4px;font-size:.84rem;text-decoration:underline;min-height:28px}
+.changes{margin:8px 0 6px}
+.chg{margin:6px 0}
+.chg-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.dif,.mv-src{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:8px 11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx{font:.95rem/1.5 Georgia,serif;color:var(--muted);padding:2px 11px}
+.mv-arrow{font-weight:700;color:var(--c);padding:0 11px}
+.ins-h{font:700 1.05rem system-ui,sans-serif;margin:4px 0;padding:6px 11px;background:var(--soft);border-radius:8px}
+del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
+ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+ins.br::before{content:"¶ new paragraph"}
+.reads{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:2px 11px;overflow-wrap:anywhere}
+.reads .rd{margin:.6em 0}
+.reads .rd-h{font:700 1.02rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1em 0 .35em}
+.reads .rd-h2{font-size:1.15rem}.reads .rd-h3{font-size:1.08rem}
+.reads .rd-hm{font-weight:400;color:var(--muted);font-size:.8em}
+.reads .rd-note{font:.8rem/1.4 system-ui,sans-serif;color:var(--muted);margin:-.35em 0 .7em}
+.card[data-status="answered"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
+.info .row{margin:3px 0}
+.info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
+.info .warn span:last-child{color:var(--pend)}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.dec{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:38px;font-size:.88rem;font-weight:600}
+.dec.approve{border-color:var(--ok);color:var(--ok)}
+.dec.reject{border-color:var(--no);color:var(--no)}
+.dec.revise{border-color:var(--rev);color:var(--rev)}
+.dec.undo{border-color:var(--pend);color:var(--pend)}
+.card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
+.card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
+.card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
+.dec[hidden]{display:none}
+.yours-wrap,.note-wrap{display:block;margin:6px 0}
+.yours-wrap[hidden]{display:none}
+.card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
+.card textarea.yours{font:1rem/1.55 Georgia,serif;min-height:6.5rem}
+.saved-line{font-size:.78rem;color:var(--muted);min-height:1.1em}
+body.reading .card{display:none}
+.endnote{max-width:46rem;margin:0 auto;font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .name{display:none}
+  .bar{gap:5px 6px;padding-top:6px;padding-bottom:6px}
+  .prog{flex-basis:100%;font-size:.8rem}
+  .bar .btn{padding:4px 9px;min-height:34px;font-size:.82rem}
+  .tools input[type=search]{width:100%}
+  main.article{font-size:1.02rem}
+  .card{padding:9px 10px}
+  .dec{flex:1 1 auto}
+}
+@media print{header.top,.card .decide,.card textarea{display:none}}
+/* review-form-controls-v1: paired colors for light review forms. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]),textarea,select,option,optgroup,[contenteditable="true"]{color-scheme:only light!important;color:#1f2937!important;-webkit-text-fill-color:#1f2937!important;background-color:#ffffff!important;caret-color:#1f2937!important}
+input::placeholder,textarea::placeholder{color:#526174!important;-webkit-text-fill-color:#526174!important;opacity:1}
+select option:checked{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;background-color:#244e72!important}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid #2458a6;outline-offset:2px}
+@media(forced-colors:active){input,textarea,select,option,optgroup,[contenteditable="true"]{forced-color-adjust:auto;color:CanvasText!important;-webkit-text-fill-color:CanvasText!important;background-color:Canvas!important;caret-color:CanvasText!important}input::placeholder,textarea::placeholder{color:GrayText!important;-webkit-text-fill-color:GrayText!important}select option:checked{color:HighlightText!important;-webkit-text-fill-color:HighlightText!important;background-color:Highlight!important}}
+
+</style>
+<style>
+.t-teach{--c:#0e7490;--cb:#d3f1f8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-teach{--c:#67e8f9;--cb:#123a44}}
+:root[data-theme="dark"] .t-teach{--c:#67e8f9;--cb:#123a44}
+</style>
+</head>
+<body class="">
+<header class="top">
+  <div class="bar gut">
+    <span class="name">Somatic Guide, 27 November: two new sections for you to teach me</span>
+    <span class="prog" id="prog" aria-live="polite"></span>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
+    <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
+    <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
+    <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+  <div class="tools gut" id="tools" hidden>
+    <div class="grp"><span class="lab">Show</span><button type="button" class="chip t-teach" data-filter-type="teach" aria-pressed="true" title="A new section whose Pangram tries are spent below High for one or two paragraphs: my best tested version, what each try read, and room for yours.">For you to teach me <span class="n" data-count-type="teach"></span></button></div>
+    <div class="grp"><span class="lab">Status</span>
+      <select id="statusFilter" aria-label="Show suggestions by status">
+        <option value="all">All</option><option value="pending">Not decided yet</option><option value="approved">Approved</option>
+        <option value="rejected">Rejected</option><option value="revise">Revise</option><option value="noted">With a comment</option>
+      </select>
+      <label class="check"><input type="checkbox" id="showLeave"> The ones a reader flagged and I'd leave (<span id="leaveCount"></span>)</label>
+    </div>
+    <div class="grp"><span class="lab">Find</span><input type="search" id="search" placeholder="Words in a suggestion or its paragraph" aria-label="Search">
+      <select id="sectionJump" aria-label="Go to a section"><option value="">Go to a section…</option></select>
+      <label class="check"><input type="checkbox" id="readingMode"> Read the guide without the cards</label>
+    </div>
+  </div>
+  <div class="panel gut" id="savePanel" hidden>
+    <div class="store-note" id="storeNote">Your answers save in this browser as you click.</div>
+    <div class="row"><button type="button" class="btn main" id="copyJson">Copy my answers (JSON)</button><button type="button" class="btn" id="saveJson">Save them as a file</button></div>
+    <div class="row"><label class="btn" for="importFile">Load answers from a file</label><input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button type="button" class="btn" id="pasteToggle">Paste answers instead</button></div>
+    <div id="pasteBox" hidden><textarea id="pasteArea" placeholder="Paste a JSON answers file here"></textarea><div class="row"><button type="button" class="btn" id="pasteLoad">Load the pasted answers</button></div></div>
+    <textarea id="copyArea" hidden readonly aria-label="Your answers as JSON"></textarea>
+    <div class="status" id="saveStatus" aria-live="polite"></div>
+  </div>
+</header>
+<div class="intro gut"><div class="box">
+<p>Your somatic guide as it is live (26 November), with the two new sections whose last paragraphs my tries couldn't get to Human High, each where it would go. Nothing here is in the post yet; the Imagery Rescripting section (your version) reads Human High and waits for these.</p><p>Two cards. Revise opens the section for your version of the paragraphs the card names. Every claim is the same as on the first page; the two changes of meaning are named on the cards.</p>
+<div class="legend" aria-hidden="true"><button type="button" class="chip t-teach" data-filter-type="teach" aria-pressed="true" title="A new section whose Pangram tries are spent below High for one or two paragraphs: my best tested version, what each try read, and room for yours.">For you to teach me <span class="n" data-count-type="teach"></span></button></div>
+<p class="src">This page is a view of what's in Git: <a href="https://somatic.u-dont-exist.com" target="_blank" rel="noopener noreferrer">your live post</a> (version bfacc3ab) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/review-c1127/CARDS-SOMATIC.md" target="_blank" rel="noopener noreferrer">the list of suggestions</a>, built 2026-11-27T20:15:21Z. Your answers go into Git as well, once you tell me you're done.</p>
+</div></div>
+<main class="article gut" id="article">
+<details class="blk cut-blk" id="b0" data-b="0" style="border:2px dashed #b45309;background:#fff7ed;color:#1f2937;border-radius:8px;padding:8px 12px;margin:14px 0"><summary style="cursor:pointer"><b>Left out here to save space: 23 paragraphs, 865 words</b>, from &ldquo;Free Intro Sessions!&rdquo; to &ldquo;&hellip;doesn’t, without making that process itself into an endless spiral.&rdquo;. Click to show them.</summary><div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png</a></div>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Button: &quot;Share&quot;<br><a href="https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing?utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;action=share" target="_blank" rel="noopener noreferrer">https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing?utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;action=share</a></div>
+<h2>Free Intro Sessions!</h2>
+<p><span class="pn">P1</span>I’m pleased to announce that paid subscribers to my substack can get free intro sessions for some of these therapies, provided by my friend Hàle Denizden. Personalized Yin yoga and Somatic Experiencing introductions can be done online (although obviously better in person). Massage and water therapy in-person. Contact her on Instagram to setup your intro.</p>
+<h2>Physical brain health is preliminary</h2>
+<p><span class="pn">P1</span>If you’re one of those people who finds that none of these therapies work on you, you should consider brain health and neuro-inflammation first.</p>
+<p><span class="pn">P2</span>Sleep, meds/drugs, supplements, herbs, pain, nutrition, and general health can all change how much therapy you can tolerate. I have a separate sleep guide here. And then check out my neurological de-armoring guide. They go hand in hand. You don’t necessarily need to wait until your brain is at some ideal level of health before beginning therapy, and therapy should also help you to make the lifestyle changes needed to improve your health in general as well. Everything is depending on everything else.</p>
+<h2>Introduction to this Guide</h2>
+<p><span class="pn">P1</span>While my general approach to healing trauma isreparenting the inner child, I wrote this guide to somatic therapies because sometimes that vulnerable-feeling part of you is more accessible physically than it is mentally, especially at first.</p>
+<p><span class="pn">P2</span>The body was involved in surviving what happened to you, and it has its own innate resolution process. Peter Levine, the founder of Somatic Experiencing therapy, in his book, In An Unspoken Voice, explains that his accidental realization about the need to complete the body’s trauma response was corroborated by a park biologist in Malawi. He told Levine that captured animals who hadn’t trembled and breathed spontaneously before being released were unlikely to survive in the wild.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/69f8be9c-43e1-43d8-ac26-cb9b60612d50_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/69f8be9c-43e1-43d8-ac26-cb9b60612d50_1254x1254.png</a></div>
+<p><span class="pn">P3</span>But discovering the body’s programming isn’t simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, self-massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.</p>
+<p><span class="pn">P4</span>Every year we get like 50 new kinds of therapies, with 100 new kinds of ex-spurts, as my dad called them. Most of them are actually just permutations and combinations of the ones already invented. It becomes a bewildering morass of therapies so frightening to choose from that one needs a meta-therapy after being bombarded by suggestions to pay $250/hr to try the hottest latest one. 😜</p>
+<p><span class="pn">P5</span>So, let me save you $50k right now. Put simply, I find that lasting complex trauma recovery tends to have some obvious layers supporting each other (sequenced like this maybe):</p>
+<p>Understanding your body’s feeling cues, so you can stay present and choose what comes next.</p>
+<p><span class="pn">P6</span>Regulate or discharge accumulated activation energy.</p>
+<p><span class="pn">P7</span>Compassionate exploration of trauma feelings before the story comes in.</p>
+<p><span class="pn">P8</span>Work with memories you can actually point to: the actual events and the triggering events.</p>
+<p><span class="pn">P9</span>Integrate, differentiate, and build a life of meaning. Decide your boundaries, direction, relationships, and overall identity.</p>
+<p><span class="pn">P10</span>Because specific somatic therapies are on a spectrum of physical&lt;-&gt;emotional (or conscious&lt;-&gt;subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don’t all have the same level or type of evidence supporting them, and there’s definitely no scientific roadmap that could survive peer review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine.</p>
+<p><span class="pn">P11</span>I use these therapies partly to make the body safer to inhabit before going into deeper inner-child therapy, where we intentionally re-expose ourselves to traumatic memories in an effort to re-parent the little one-one inside who was hurt.</p>
+<h2>Don’t be so serious, you silly willy!</h2>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/7434b628-9bf3-4015-a2cc-d76227301024_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/7434b628-9bf3-4015-a2cc-d76227301024_1254x1254.png</a></div>
+<p><span class="pn">P1</span>Remember, therapy is not just work. It’s also play! That’s why they call it pl/ork! We often make the most incredible discoveries when we approach things with playful curiosity. For example, here’s a bridge between somatic therapy and inner-child therapy which I recently learned from Professor Baby Sheep:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Post card: &quot;Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑&quot;<br>substack-post</div>
+<p><span class="pn">P2</span>Speaking of silly therapy, I also like Denzel Washington’s advice.</p>
+<p><span class="pn">P3</span>Jules Evans’ post on How to Stop Thinking is particularly provoking, as he details the stories of folks who tried all kinds of therapies to stop ruminating, and eventually found that the best therapy was to stop imagining they needed therapy. Go to yoga class (without assuming it’s therapy), do regular real life stuff, just chill. Ironically, as Jules showcases, this advice has a formally studied therapy behind it, called Meta-Cognitive Therapy (MCT), where you simply notice the thoughts without worrying about what they’re saying (which looks a lot like beginner mindfulness meditation). On the other hand, many people actually do need to analyze their issues, but they’re avoiding doing that because it’s painful.</p>
+<p><span class="pn">P4</span>So the answer is basically the same regardless of what your problem is in life: pay attention to what works and what doesn’t, without making that process itself into an endless spiral.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/a87d9249-741b-4eff-96d4-a91e0db1de8e_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/a87d9249-741b-4eff-96d4-a91e0db1de8e_1254x1254.png</a></div></details>
+<details class="blk cut-blk" id="b1" data-b="1" style="border:2px dashed #b45309;background:#fff7ed;color:#1f2937;border-radius:8px;padding:8px 12px;margin:14px 0"><summary style="cursor:pointer"><b>Left out here to save space: 73 paragraphs, 3621 words</b>, from &ldquo;The Dominant Trauma-Memory Therapies Are Missing Something&rdquo; to &ldquo;&hellip;Sometimes you can miss it if you’re not paying attention.&rdquo;. Click to show them.</summary><h2>The Dominant Trauma-Memory Therapies Are Missing Something</h2>
+<p><span class="pn">P1</span>Currently, as a PTSD or cPTSD patient, your health insurance (if you’re lucky enough to have it) might cover the most scientifically validated trauma therapies: Eye Movement Desensitization and Reprocessing (EMDR) and trauma-focused Cognitive Behavioral Therapies.</p>
+<p><span class="pn">P2</span>All of these focus on the trauma memory itself, reactivating it in order to change the meaning and/or the processing and response to it. Their logic is simple: slowly increase your exposure to painful memories until you can fully re-live the experience without overwhelming your nervous system. The CBT trauma therapies also use regular CBT to re-narrate the meaning of the experiences, so that, for example, being abused as a child no longer creates a story that “I deserve abuse.”</p>
+<p><span class="pn">P3</span>Those therapies do show meaningful impact for many people in terms of reducing hyperarousal, and sometimes dissociation. But there are two main problems with them that Peter Levine, et al. have explained. On the one hand, as Levine points out, exposure desensitization therapy can itself be re-traumatizing, which isn’t well-captured in the positive evidence, because reasons for dropout and adverse events were often poorly or inconsistently reported. On the other hand, even when these trauma-memory approaches “work,” they are working against the body’s understanding of things by creating new cognitive-behavioral patterns that suppress the old conditioned fear responses as they come up. That can produce a reduction of symptoms without solving the root of them, in the same way that disciplining a child can force proper behavior without making it natural.</p>
+<p><span class="pn">P4</span>Another very recently discovered problem with CBT-style therapy is it assumes that people actually have some kind of inner narrative thinking, but that’s not true for everyone. So a CBT therapist might ask how you felt about a situation, and you put it into words even if it never was in words to begin with (you literally just felt it). Now the therapist asks you to change your narration, without realizing that it was created for them right then.</p>
+<p><span class="pn">P5</span>The philosophy behind somatic therapies starts from the other end. It assumes that the body actually knows how to release the tension it has stored. Instead of treating dissociation and hyperarousal as symptom endpoints to reduce, they use them to diagnose the structure of nervous system dysregulation. In Levine’s SIBAM model (In An Unspoken Voice,ch. 7), we can understand how dissociation and hyperarousal actually work by splitting up our ordinary holistic experience into five layers. Dissociation is when these layers are not well-connected. Hyperarousal is when channels are so tightly linked that one rapidly activates the others:</p>
+<p>**Sensation**: feelings inside the body, like tension, balance, heat, etc.</p>
+<p><span class="pn">P6</span>**Image**: what you see, remember, dream</p>
+<p><span class="pn">P7</span>**Behavior**: voluntary, involuntary, and crucially, actions that got aborted mid-stream during the traumatic incident.</p>
+<p><span class="pn">P8</span>**Affect**: emotions, like fear, anger, grief, disgust, and joy. Also bodily feelings like vulnerability, hyper-vigilant panic, or profound relief.</p>
+<p><span class="pn">P9</span>**Meaning**: the story that explains all of these, containing beliefs and judgements.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/e2ff1a6d-9a73-466d-9e69-ce9f5c43d443_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/e2ff1a6d-9a73-466d-9e69-ce9f5c43d443_1254x1254.png</a></div>
+<p><span class="pn">P10</span>With this therapeutic model, one can direct their attention toward individual layers of experience that are either flattened/ignored, or hogging the show.</p>
+<p><span class="pn">P11</span>Levine and many other somatic theorists believe that once the body can fully feel itself and unleash the energy that got stuck, the meaning layer that CBT addresses often handles itself. EMDR also works at the bodily level and allows the meaning level to handle itself, but it uses the body more as a barometer and metabolizer of distress encoded in memory networks rather than as the primary instrument of finishing the action that got blocked by trauma.</p>
+<p><span class="pn">P12</span>However, other somatic therapists and even Levine himself (in academic writing like the article linked), agree that re-evaluating the meanings and narratives around trauma can still be useful for many people, especially if the bottom-up process is honored first or concurrently.</p>
+<h2>Layer 1: Gently Feel Inward and Loosen Up</h2>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/747a4190-aed6-4d6d-8845-2ff177636069_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/747a4190-aed6-4d6d-8845-2ff177636069_1254x1254.png</a></div>
+<h3>Breathwork</h3>
+<p><span class="pn">P1</span>There are many types of breathwork. My favorites are explained on my breathwork page, and I explain that more at the end of this article. But for the purpose of gentle grounding, I’d say the most useful one is Buteyko reduced breathing. By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer. This targets one actual cause of anxiety, which is over-breathing. You can use this any time, not just during a therapy session.</p>
+<p><span class="pn">P2</span>There’s also a type of breathwork that synergizes with sound to help you connect with your emotions, called **Zensing**:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Instagram post</b> — Instagram post: Ida Simone 艺达 on Instagram: &quot;I’ve always loved the sound and se…<br><a href="https://www.instagram.com/p/DeM0MS0Mpch/" target="_blank" rel="noopener noreferrer">https://www.instagram.com/p/DeM0MS0Mpch/</a></div>
+<h3>Somatic Experiencing</h3>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=aDYRkLAAH2U" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=aDYRkLAAH2U</a></div>
+<p><span class="pn">P1</span>I put Somatic Experiencing up at the beginning because it helps people to reconnect with their body, to begin to feel it again. And as you can see from my intro, it’s founder, Peter Levine, has developed what I consider the most comprehensive framework for understanding trauma and the way the body releases it.</p>
+<p><span class="pn">P2</span>Imagine your body is like your child (I keep falling into that analogy 😛). Your child is saying “Mommy, daddy, I need something.” But you’re busy with your work so you don’t hear. After a while, your baby boo is going nuts because you don’t listen, and s/he starts screaming and throwing a fit. Now you yourself are “triggered” or “flooded” and screaming, and you don’t even know why. But if you could just learn to listen to your body before it becomes a crisis, that could solve a lot of problems before they even start!</p>
+<p><span class="pn">P3</span>The usual therapy theory here talks about expanding your “window of tolerance,” but I think my analogy is a better representation of what Levine is trying to say. He uses the concepts of titration (going from the shallow end of the pool slowly deeper), pendulation (going in and out of the deep end to learn safety there), and orientation (coming out of the pool, drying off, noticing you’re safe). That’s the beautiful thing about not actually being in the trauma. Since it’s a memory, you can approach it in an optimal and safe way, bit by bit.</p>
+<p><span class="pn">P4</span>While Levine doesn’t use self-hypnosis in his SE, he has mentioned it can be a valuable fit if done right, which is why I’ve integrated SE into my self-hypnosis guide and app.</p>
+<h5>A real world example of SE saving a life!</h5>
+<p><span class="pn">P1</span>My friend B. is a super intelligent, caring, and hard-working PhD chemist who’s now in 3rd year ivy league med school in Colorado. Ivy league med school work load is absolutely brutal (like some bizarre hazing ritual), and on top of that, various Palestinian family members of his died recently. Plus, he’s been in a relationship recently with a woman with borderline personality for the first time ever. So every kind of stress combined, but he didn’t have time to understand it or deal with it.</p>
+<p><span class="pn">P2</span>Previously, he was a healthy young man. But his body began breaking down and he couldn’t understand why. He had what seemed like a heart attack, a stroke, one-sided paralysis, and all kinds of other “somatic symptoms” as he later understood them. He went to the ER to get checked 3 times in one week. One doctor at the ER told him, “When you’re under a lot of stress, if you don’t listen to your body, your body will figure out a way to get your attention. I think that’s what’s going on here, because there’s nothing wrong in your tests.”</p>
+<p><span class="pn">P3</span>And so B. tried Somatic Experiencing therapy. After just a couple sessions, he was feeling 30% better, and he learned how to pay attention and listen to what his body was asking for. That’s how he went from dying to living again. He concluded from that experience that his medical school training is irrelevant for many health problems because it doesn’t contain the mind-body framework required for understanding this, and it’s a lot more common than doctors might imagine.</p>
+<h5>Try Somatic Experiencing for FREE!</h5>
+<p><span class="pn">P1</span>SE is a therapy you can do for yourself, but it really helps if you have a therapist first, as with most other therapies. As mentioned at the top, as a paid subscriber on my substack, you’re eligible for one free SE intro session with Hâle. She describes what she offers below:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Post card: &quot;Somatic Experiencing therapy, free intro session for paid subscribers! 😇&quot;<br>substack-post</div>
+<h3>Trauma-Sensitive / Restorative Yoga</h3>
+<p><span class="pn">P1</span>After calming down with the breathwork and learning to listen to your body with SE, yoga can help the body-mind connection become more of a two-way conversation, which is more useful in the real world also. After all, we need to move in healthy ways and use our body as well as listen to it. We need to stretch, to have good posture, and to move the energy purposefully in our body so that we are able to meditate (which was the original point of yogic posture training). More on that most important last part here and how it heals trauma:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=6AUgem0g_eg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=6AUgem0g_eg</a></div>
+<p><span class="pn">P2</span>this is interesting, about how prana/energy flow heals trauma in yoga, but most people focus on just stretching and postures</p>
+<p><span class="pn">P3</span>Yoga is also good in other layers of the map: after shaking to help the body settle and rebalance; or after deeper processing for stretching and reconnection.</p>
+<p><span class="pn">P4</span>Trauma-sensitive yoga is not the same as power yoga, hot yoga, personal-trainer yoga (“You can do it, push harder!”), nor is it about forcing you to open your hips &amp; psoas muscles to release your trauma. Instead, I’d go with Yin yoga, which is a slow type that’s more focused on developing the mind-body connection and flexibility than it is on looking like you can do cool poses.</p>
+<p><span class="pn">P5</span>A good teacher for this should give you personalized adjustments to your level of comfort. They should use invitational language, like “you might try…” or “see how it feels when you…” rather than “now stay there, just 10 more seconds!” They won’t be pushing one version of the posture on you, but rather seeing what will work best for your body.</p>
+<p><span class="pn">P6</span>Hâle is offering my paid subscribers one free Yin yoga class. She describes it:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Post card: &quot;Yin “Therapy Yoga” on Thursday: Liberate Your Body! 🧘🏿‍♀️🧘🏿Try A Free Session with Hâle &quot;<br>substack-post</div>
+<h3>Systema: circular breathing &amp; compassionate, relaxing martial arts</h3>
+<p><span class="pn">P1</span>This one you might not expect to find in a somatic therapy article! But it turns out that the parasympathetic nervous system is actually much better than the sympathetic nervous system at not only relaxing, but also fighting. This is highly unintuitive, because almost all known fighting systems are based on the muscular tension built up by the sympathetic nervous system. Systema is the opposite, and it focuses on connecting your breath with your muscles and fascia, so that there is no tension bottleneck anywhere.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=Nar2-nvomAk" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=Nar2-nvomAk</a></div>
+<p><span class="pn">P2</span>The core practice is also spiritual and psychological, having you face your fears of attack in real time, so that relaxation becomes deeper than what normal people are capable of. This system is capable of producing devastating knock-down strikes which cause no lasting injury! However, different Systema teachers emphasize different aspects. Some are more focused on the therapeutic aspect, and some are more focused on the martial aspect, like this:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=BpsWyvGJJxk" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=BpsWyvGJJxk</a></div>
+<h3>Gentle Shaking / TRE</h3>
+<p><span class="pn">P1</span>Somatic Experiencing can include some bodily shaking if that is what your body seems to want to do for completing the original activation energy. There’s also a group of somatic therapies that’s more focused on invoking involuntary shaking. You may have heard of TRE/Trauma Release Exercises, which was founded by Dr. Berceli. It can get chaotic and crazy when taken to its limit, but when you just dip your little toe in, it can help to release some stuck energy. Here’s an intro to TRE:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=YPYUbqEmhMw" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=YPYUbqEmhMw</a></div>
+<p><span class="pn">P2</span>We’ll get more into “shaking medicine” in the next layer.</p>
+<h2>Layer 2: Regulate or Discharge Accumulated Activation Energy</h2>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/97cc0cd0-53b7-42e0-8ccf-7dcc0e57985d_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/97cc0cd0-53b7-42e0-8ccf-7dcc0e57985d_1254x1254.png</a></div>
+<p><span class="pn">P1</span>Now that we’ve felt inward and loosened up with layer 1, perhaps we’ve become aware of some energy that’s wanting to come out. Maybe it doesn’t even care if we’re in a therapy session. So, here are some relatively anytime kind of DIY hacks for that:</p>
+<h3>EFT / Tapping</h3>
+<p><span class="pn">P1</span>The Emotional Freedom Technique (EFT) is a very simple anytime anywhere practice that only takes a few seconds or minutes of just lightly tapping on different parts of you head (NOT with a hammer!). It helps with all kinds of situations. Your pet monitor lizard peed on you. Your inner child ran away from home. You’re in a crowd of strange people who think you’re the weirdo. Maybe you think you’re the weirdo and nobody would want to be with you, and that’s making you freeze, panic, or hot and bothered. Whatever is triggering you, EFT comes to the rescue. It’s not a cure for trauma, but it is a nice present-moment re-orienting button.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=b1eY4vAs1eQ" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=b1eY4vAs1eQ</a></div>
+<h3>Massage and Energy Transmission</h3>
+<p><span class="pn">P1</span>Massage is one of the most obvious, and yet, one of the most oft-overlooked somatic therapies, possibly because it’s also seen as a luxury pampering service that anyone could enjoy. Imagine your partner says, “you need therapy!” And you say, “Yeah babe can you rub my feet?!” 😜 But therapy shouldn’t always be hard work. Touch itself is critical for mental health, as many studies have shown%20and%20state%20(). And in modern society, many people, especially single people, are touch-starved. But it also depends on who is giving the massage, because it’s a mode of energy transmission. Just as you wouldn’t want to eat food made by someone who was angry, you definitely wouldn’t want to get a massage from someone who hates their job or life.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — a video uploaded to the post<br>substack-video:7ed0a83f-bf87-4b65-9a1c-9bccff5784aa</div>
+<p><span class="pn">P2</span>A good massage can be very grounding, while at the same time showing exactly where your tension is stored, and helping to unravel it. Some massage therapies are super aggressive in that domain, like Rolfing, some are fairly aggressive still like Deep Tissue, some are medium-aggressive, like Thai massage, and some, like Swedish Massage, are quite gentle. Choose the level that feels right for you.</p>
+<p><span class="pn">P3</span>On the other hand, not everyone enjoys a massage, and some people are repulsed by being touched. I’d say first try giving yourself a massage, which is also a lot cheaper usually. I love to gently massage my feet, especially when I wake up in the morning. I also love to massage my head, especially after shaving the hair down fairly low, for that ASMR feeling. And if even your own touch doesn’t feel nice, you can try energy feeling non-touch modalities, like Reiki, or “Therapeutic Touch” (which ironically is mainly non-touch).</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — a video uploaded to the post<br>substack-video:7cc4a586-2345-449e-8d1a-636f11793f35</div>
+<h4>Energy Work vs Energy Don’t Work</h4>
+<p><span class="pn">P1</span>Energy work comes in many forms. Some common ones are Reiki and sound healing. I’ve had some incredible, mind-blowing Reiki (from Key, Key’s friend Happy Being, who teaches Pranic Healing in Addis and once from Hâle). Interestingly the Reiki from all of them felt exactly the same, like a blissful magical energy wave, even if they called it by another name.</p>
+<p><span class="pn">P2</span>Hâle and I agree that energy healing is not a substitute for more truly somatic therapy that actually helps you listen to your body and use it in a healthier way. While some people do seem to get profound actual resolution of disease or trauma from these energy sessions, I didn’t get anything other than a beautiful magical feeling while it was happening (and I was physically ill most of the times I received, so I should have noticed a benefit). However, my theory is that if you’ve never been exposed to that kind of magic before, it could really open you up and set off some healing process, sort of like faith healing. And I’m sure if it’s done on a more continuous basis, it would be more healing than just feeling it for a few minutes.</p>
+<p><span class="pn">P3</span>I had one friend who went to a ton of different energy healers. He said about 90% of them have zero ability, and that makes sense to me. Anyone can take a course and then get certified as a Reiki Master, but if you don’t have the actual connection to good energy, you might never even realize that. Here’s one Reiki master that’s popular on YouTube. From this video, it sounded to me like he actually doesn’t know what Reiki feels like. Although I haven’t watched his others. I left a comment, hopefully he doesn’t take it bad:</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/c67573d3-0a67-4a8a-9372-d2a93c2ae06f_693x69.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/c67573d3-0a67-4a8a-9372-d2a93c2ae06f_693x69.png</a></div>
+<p><span class="pn">P4</span>As with massage, **giving your energy to others can be really taxing**, especially if they have a lot of trauma. That’s why energy healers have their protocols for cleansing with salt water and so forth, but I’m still not convinced how well they work. What I do notice about a lot of energy healers (not all), is that their own lives are a wreck and they often either have to quit or limit their sessions only to people who they feel good with. And another thing I notice about real energy healers is they tend to be empaths, in the sense of feeling everyone’s energy all the time without trying. That kind of pushes them to learn powerful self-healing practices, and it also explains why they often tend to be unstable personally (including my first wife, who was incredible at massage and supposedly a Reiki master altho she never gave me any Reiki).</p>
+<h5>Sound Healing</h5>
+<p><span class="pn">P1</span>Sound healing is one type of energy work that doesn’t completely depend on the healer’s own internal connection to whatever this magical universal energy is. You can actually hear their sounds on YouTube/etc and see how good they are. So it’s partly some actual kind of musical talent and partly their connection to good energy. And that’s helpful in one sense, to see who has talent and who doesn’t, but it’s also possible you could be blinded by someone who has incredibly beautiful music, like the psychopath iboga shaman, Sidney Simila, without any actual good energy.</p>
+<p><span class="pn">P2</span>The most authentic and amazing sound healer I know (aside from stars like Chantress Seba) is Hâle’s friend, Asli. Don’t ask her for a session though, she’s not taking new clients. I’ll never forget the “sound healing” session I went to in Philadelphia some years ago. It was literally just someone playing some dumb YouTube sound healing videos on a speaker in a room with a bunch of people, each of whom paid $10. Freakin’ hilarious! That’s what I’m saying though. If you know, you know. If you don’t, you don’t.</p>
+<p><span class="pn">P3</span>But the other truth really is that you don’t necessarily need any talent or magic to make incredible healing sound. A giant gong or sound swordreally can do miracles, for example.</p>
+<div class="blk embed-blk" id="b" data-b="" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=YFjZuaYYYQ0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=YFjZuaYYYQ0</a></div>
+<h3>**Ecstatic Dance &amp; Shaking Qigong** / Shaking Medicine</h3>
+<p><span class="pn">P1</span>Shaking Qigong is a creative fusion of TRE style shaking with qigong. Qigong is an ancient sort of “martial art” designed for health. It looks a bit like Tai Chi, with slow, flowing movements connected to the breath. Qi/Chi means vital energy, and the idea is that health is automatic when your Qi is flowing well. Emotional blocks or physiological blocks can block that Qi flow.</p>
+<p><span class="pn">P2</span>The form I am linking to is a class for $10 per month on Skool which my friend Louka took. I am recommending this specific class because Louka tried many different healing and somatic modalities, including basic TRE, but nothing helped him much until he got into this class. I do not recommend taking the super expensive personal coaching from the teacher of the class unless you can easily afford it.</p>
+<p><span class="pn">P3</span>We already discussed gentle TRE/shaking in Layer 1. Now we’re getting deeper into it. This is what we talked about also in the introduction, how an animal needs to shake off the activation energy from when they were in flight/flight/freeze before they can heal. If the Somatic Experiencing didn’t get that wiggles out of you completely, you’ve come to the right Layer.</p>
+<p><span class="pn">P4</span>Some people think the benefits you get from dance, and especially ecstatic dance, might be connected to the benefits provided by shaking. Both of them contain rhythmic movement, muscular de-armoring, greater mind-body connection, and basically just a release. So if you prefer wild dancing, you can try that. If you prefer to try discharging all this pent up energy in a more organized therapeutic framework, you can try shaking medicine. Either way, it can still get crazy! Personally, I don’t feel super open for dancing unless I’m kinda high, because there’s a social/show aspect to it.</p>
+<p><span class="pn">P5</span>With shaking medicine, we might aim for a regular practice of 10-45 minutes, or whatever you feel resonates. The main thing is you want to be able to settle and orient yourself afterwards. With ecstatic dance, people could sometimes go all night.</p>
+<p><span class="pn">P6</span>I would not consider shaking or dancing to be a full trauma therapy all by itself. I’d say it’s more of an opening tool. It’s also not appropriate for everyone, as it can cause dissociation when overdone. One physical safety note: forceful, rapid back-and-forth neck movement can injure the neck. Make sure you’re supervised and held if you’re going that deep.</p>
+<h3>The Discharge → Settle Stack</h3>
+<p><span class="pn">P1</span>One daily sequence I like is simple:</p>
+<p>**Shaking Qigong / TRE** to discharge excess activation.</p>
+<p><span class="pn">P2</span>**Restorative or gentle yin yoga** to rebalance energy flow and mind-body cooperation.</p>
+<p><span class="pn">P3</span>**Massage** to ground back down lovingly.</p>
+<p><span class="pn">P4</span>**EFT tapping** if there is still emotional activation or mental looping at any point in the day.</p>
+<p><span class="pn">P5</span>I have some stuck energy in my solar plexus because I got beaten up every day in kindergarten, with kids punching me right there. When I wiggle that out, I feel like I can put my hand on there and the other hand on my heart and open up some nice inner-child self-love feedback loop. Everyone will feel something different, but pay attention to what’s new, what’s freeer, what’s nicer than before. Sometimes you can miss it if you’re not paying attention.</p></details>
+<h2 class="blk" id="b2" data-b="2">Layer 3: Compassionate Exploration of Trauma Feelings Before the Story Comes In</h2>
+<div class="blk embed-blk" id="b3" data-b="3" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/fd249efd-22f9-4176-82a1-65c546b194ba_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/fd249efd-22f9-4176-82a1-65c546b194ba_1254x1254.png</a></div>
+<p class="blk" id="b4" data-b="4"><span class="pn">P1</span>After becoming more aware of bodily sensations and doing some cycles of crude discharge/settle, it’s time for some practices that can help you go deeper in a nuanced, loving and gentle way.</p>
+<h3 class="blk" id="b5" data-b="5">Aquatic Bodywork / Water Therapy for Deeper Exploration</h3>
+<p class="blk" id="b6" data-b="6"><span class="pn">P1</span>My friend Hâle is trained in aquatic bodywork (<a href="https://www.instagram.com/reel/DTn5OREjTW-/?stkn=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">see her video</a>). I helped her attend her training. I observed it, and she taught me some also. If you can get to her, you can get a free intro session as a paid subscriber!</p>
+<p class="blk" id="b7" data-b="7"><span class="pn">P2</span>She finds people tend to regress to a much younger state in the water, even to the point of feeling as if they’re back in the womb. We have both been surprised to see how many people are crying during and after their sessions. You’re warm, floating, being held lovingly (assuming you have a good water therapist). It’s also a uniquely powerful physical therapy. The therapist can stretch and move you in directions that would be very hard to reproduce on land. We both agree water therapy is an excellent introduction or bridge to<a href="http://innerchild.u-dont-exist.com" target="_blank" rel="noopener noreferrer">inner child reparenting</a>.</p>
+<p class="blk" id="b8" data-b="8"><span class="pn">P3</span>The thing Hâle worries about is that the emotional effect can outrun the therapist. She doesn’t like dropping somebody straight into a water session cold. She first wants to know what they’re feeling, where they are in their journey, and what they want to work on. Then the water. Afterward, she gives an intuitive massage to close back up what was opened, and return them to their current physical body. And if something is still open, she’s still available for them later to help process.</p>
+<p class="blk" id="b9" data-b="9"><span class="pn">P4</span>I would ask a water therapist about that before I booked: what happens if I come out much more emotionally open than I went in?</p>
+<p class="blk" id="b10" data-b="10"><span class="pn">P5</span>Now before you squawk that water therapy is just another newfangled tomfoolery to make your wallet lighter, or that it’s just the Western misunderstanding of Chinese water torture, there is actual research on WATSU, one branch of aquatic bodywork. A <a href="https://pubmed.ncbi.nlm.nih.gov/39096547/" target="_blank" rel="noopener noreferrer">2024 randomized study</a> found immediate improvements in body awareness, pain and mood after WATSU, and a <a href="https://pubmed.ncbi.nlm.nih.gov/40266503/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">2025 retrospective PTSD study</a> (without control group) in 111 veterans found PTSD symptoms were reduced immediately after a course of trauma-informed aquatic therapy.</p>
+<p class="blk" id="b11" data-b="11"><span class="pn">P6</span>Keep in mind that some people are prone to “swimmer’s ear” infections. There are drops at the pharmacy for this. Ear plugs help, but are not fully protective.</p>
+<h3 class="blk" id="b12" data-b="12">Brainspotting</h3>
+<p class="blk" id="b13" data-b="13"><span class="pn">P1</span>Brainspotting is a lot more accessible for most people than water therapy. You don’t need a pool at home, and you don’t even need a therapist in many cases for this. It’s another type of gentle exploration. It doesn’t go so deep and feel so amazing as water therapy of course, but it does help to find where, in your actual field of vision, do you feel safe vs re-activated.</p>
+<p class="blk" id="b14" data-b="14"><span class="pn">P2</span>It’s a quick and fun practice you can try right now which is especially suitable for diffuse or pre-verbal trauma which might not have an exact memory associated with it:</p>
+<div class="blk embed-blk" id="b15" data-b="15" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=3lFVu4nb5oo" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=3lFVu4nb5oo</a></div>
+<p class="blk" id="b16" data-b="16"><span class="pn">P3</span>**Further reading:** <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/" target="_blank" rel="noopener noreferrer">D’Antoni et al., 2022 — Comparative study of EMDR, Brainspotting, and related methods</a></p>
+<section class="card t-teach" id="c-A1-TEACH" data-id="A1-TEACH" data-type="teach" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-teach" data-filter-type="teach" title="A new section whose Pangram tries are spent below High for one or two paragraphs: my best tested version, what each try read, and room for yours.">For you to teach me</button><span class="cid">A1-TEACH</span><span class="ctitle">Can&#x27;t Stay With a Feeling?: its first paragraph and its booking paragraph, six tries each, below High</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New heading, above the heading &quot;Layer 4: Unstick the Memories You Can Actually Point To&quot;</div><h5 class="ins-h"><ins>Can&#x27;t Stay With a Feeling?</ins></h5><div class="ctx">Layer 4: Unstick the Memories You Can Actually Point To</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Layer 4: Unstick the Memories You Can Actually Point To&quot;</div><div class="ins-h"><ins>If you can feel your body just fine by now but still slip away the moment a feeling comes up in a session (you start explaining it, or agree with whatever the therapist says just to get past it), there&#x27;s [Intensive Short-Term Dynamic Psychotherapy](https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and). The therapist catches you at it each time and asks what you&#x27;re feeling right then.</ins></div><div class="ctx">Layer 4: Unstick the Memories You Can Actually Point To</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Layer 4: Unstick the Memories You Can Actually Point To&quot;</div><div class="ins-h"><ins>It&#x27;s usually anxiety about the feeling that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it&#x27;s getting to be too much for you. If you can only take a little of that anxiety, like most people who try this therapy, you&#x27;d get a slower version of it, where the therapist stops to help you settle whenever the anxiety climbs.</ins></div><div class="ctx">Layer 4: Unstick the Memories You Can Actually Point To</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Layer 4: Unstick the Memories You Can Actually Point To&quot;</div><div class="ins-h"><ins>If it&#x27;s one feeling in particular that scares you, like grief, [Affect Phobia Therapy](https://psykologtidsskriftet.no/node/15971/pdf) treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle.</ins></div><div class="ctx">Layer 4: Unstick the Memories You Can Actually Point To</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Layer 4: Unstick the Memories You Can Actually Point To&quot;</div><div class="ins-h"><ins>And if what you can&#x27;t let in is kindness, when someone cares about you and it just bounces off, there&#x27;s [Accelerated Experiential Dynamic Psychotherapy](https://www.apa.org/pubs/videos/4310759). The therapist works to keep you from feeling alone with whatever comes up, and when some of their care does get in, they ask what that&#x27;s like and where you feel it in your body.</ins></div><div class="ctx">Layer 4: Unstick the Memories You Can Actually Point To</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Layer 4: Unstick the Memories You Can Actually Point To&quot;</div><div class="ins-h"><ins>All three keep steering you back toward your feelings, which can get to be too much. So before booking, I&#x27;d ask the kind of thing I&#x27;d ask a water therapist: &quot;What happens if I get overwhelmed, or if you say I&#x27;m dodging a feeling and I don&#x27;t think I am?&quot; I&#x27;d want them to say they&#x27;d slow down, and that they&#x27;d listen.</ins></div><div class="ctx">Layer 4: Unstick the Memories You Can Actually Point To</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>The new section as it stands, every paragraph checked by itself. Three read Human High: the anxiety paragraph, Affect Phobia Therapy and AEDP. Two are my best of six tries each: the first paragraph (who the section is for, and the therapy built for it), which reads AI, and the booking paragraph (what to ask before booking), which reads Human, Low confidence.</span></div><div class="row"><span class="lab">Pangram read</span> <span>My best first paragraph: <a href="https://www.pangram.com/history/6e616723-4be9-418f-b508-0ae4f56f3bca" target="_blank" rel="noopener noreferrer">AI 91%, two Low windows</a>. My best booking paragraph: <a href="https://www.pangram.com/history/ef39ee2f-d0d5-4cf2-9a26-b2b2726e57de" target="_blank" rel="noopener noreferrer">Human Written, 0% AI, one Low window</a>.</span></div><div class="row"><span class="lab">Pangram on the suggestion</span> <span>Each paragraph by itself: the first <a href="https://www.pangram.com/history/6e616723-4be9-418f-b508-0ae4f56f3bca" target="_blank" rel="noopener noreferrer">AI 91%</a>; the anxiety paragraph <a href="https://www.pangram.com/history/63dc89df-a178-4ad6-94ea-0c9865645849" target="_blank" rel="noopener noreferrer">Human High</a>; Affect Phobia Therapy, checked with the paragraph after it as it is under 50 words, <a href="https://www.pangram.com/history/b4f0fea6-06e1-4076-a6a6-a0589c7d82e1" target="_blank" rel="noopener noreferrer">Human High over it</a>; AEDP <a href="https://www.pangram.com/history/da780877-d112-467b-93fc-fc02004fbc76" target="_blank" rel="noopener noreferrer">Human High</a>; the booking paragraph <a href="https://www.pangram.com/history/ef39ee2f-d0d5-4cf2-9a26-b2b2726e57de" target="_blank" rel="noopener noreferrer">Human Low</a>.</span></div><div class="row"><span class="lab">Why</span> <span>The first paragraph, my six tries: <a href="https://www.pangram.com/history/d24b51d4-8c68-4f97-8939-ce63f875dc7d" target="_blank" rel="noopener noreferrer">AI 100%</a>, <a href="https://www.pangram.com/history/74534b8e-f7aa-4643-b630-5534b7f06bcb" target="_blank" rel="noopener noreferrer">AI 98%</a>, <a href="https://www.pangram.com/history/4e4d68a4-4cff-491a-aae3-74c536c89085" target="_blank" rel="noopener noreferrer">AI 97%</a>, <a href="https://www.pangram.com/history/6e616723-4be9-418f-b508-0ae4f56f3bca" target="_blank" rel="noopener noreferrer">AI 91%, my best</a>, <a href="https://www.pangram.com/history/5aab852f-baa0-4dad-b37d-f1d067240168" target="_blank" rel="noopener noreferrer">AI 100%</a>, and joined into the anxiety paragraph, <a href="https://www.pangram.com/history/29ce9a61-6a1b-46e9-b1e3-3728ddb3a24a" target="_blank" rel="noopener noreferrer">AI 100%</a>, which pulled that paragraph (Human High by itself) to AI too. Three tell panels of fresh readers agreed every version reads as a pitch: a problem, then a named therapy.<br>The booking paragraph, my six tries: <a href="https://www.pangram.com/history/cd740f96-dc28-4ef9-ac3d-dc4d062797b4" target="_blank" rel="noopener noreferrer">AI 100%</a>, <a href="https://www.pangram.com/history/7de1f32a-42f2-469c-9184-a2e9fa8ddc81" target="_blank" rel="noopener noreferrer">Human Low, my best</a>, <a href="https://www.pangram.com/history/1c5a69f4-f539-4e30-9974-074a6c965e49" target="_blank" rel="noopener noreferrer">AI</a> (&quot;hear me out&quot; for &quot;listen&quot;), <a href="https://www.pangram.com/history/ef39ee2f-d0d5-4cf2-9a26-b2b2726e57de" target="_blank" rel="noopener noreferrer">Human Low again</a> (the question in quotes, so its &quot;you&quot; is plainly the therapist), <a href="https://www.pangram.com/history/1fedeee1-2aa0-4b34-832a-1810189b1075" target="_blank" rel="noopener noreferrer">22% AI</a> (&quot;slow down and listen&quot;), <a href="https://www.pangram.com/history/85130339-9f9d-4032-a991-0f099d2cefff" target="_blank" rel="noopener noreferrer">AI 100%</a> (&quot;the feelings you&#x27;d rather slip away from&quot;).<br>I can&#x27;t find more AI tells in either... can you help show me the tells I&#x27;m missing?</span></div><div class="row"><span class="lab">What stays</span> <span>Every paragraph of the guide as it is live. The anxiety, Affect Phobia Therapy and AEDP paragraphs as they read here (Human High), and what the section says: whom each therapy is for, and the two questions to ask before booking.</span></div><div class="row"><span class="lab">Why I&#x27;m asking</span> <span>Downside: the section can&#x27;t go in while its first paragraph reads AI, and my tries for both paragraphs are spent (six each)</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>Your version of the first paragraph and of the booking paragraph (Revise), or the section with my best tries as they read, or holding the section until both read High.</span></div><div class="row advice"><span class="lab">My advice</span> <span><b>Approve.</b> Revise with your version of those two paragraphs if you can: the first says who the section is for (someone who can feel their body by now but slips away from a feeling in a session, by explaining it or agreeing with the therapist) and names Intensive Short-Term Dynamic Psychotherapy; the booking paragraph asks what a therapist does if you get overwhelmed, or if they say you&#x27;re dodging a feeling and you don&#x27;t think you are. If not, I&#x27;d hold the section (Reject) rather than put in a paragraph that reads AI.</span></div><div class="row src"><span class="lab">Found by</span> <span>The checks in your Pangram account, 26 and 27 November; tell panels of fresh Sonnet, Haiku and Fable readers on the first paragraph (three) and the booking paragraph (one); fresh reads of every version against the ways you fix sentences, for need, fit and contradictions</span></div></div>
+<div class="decide" role="group" aria-label="Decision on A1-TEACH"><button type="button" class="dec approve" data-dec="approved">Approve: add it with my best tries anyway</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note, or a question for me (optional): a question can wait here undecided"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-teach" data-s="A1-TEACH"><span class="mk-k">A1-TEACH, new heading:</span> <span class="mk-h">Can&#x27;t Stay With a Feeling?</span></div>
+<div class="marker t-teach" data-s="A1-TEACH"><span class="mk-k">A1-TEACH, new line:</span> <span class="mk-h">If you can feel your body just fine by now but still slip away the moment a feeling comes up in a session (you start explaining it, or agree with whatever the therapist says just to get past it), there&#x27;s [Intensive Short-Term Dynamic Psychotherapy](https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and). The therapist catches you at it each time and asks what you&#x27;re feeling right then.</span></div>
+<div class="marker t-teach" data-s="A1-TEACH"><span class="mk-k">A1-TEACH, new line:</span> <span class="mk-h">It&#x27;s usually anxiety about the feeling that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it&#x27;s getting to be too much for you. If you can only take a little of that anxiety, like most people who try this therapy, you&#x27;d get a slower version of it, where the therapist stops to help you settle whenever the anxiety climbs.</span></div>
+<div class="marker t-teach" data-s="A1-TEACH"><span class="mk-k">A1-TEACH, new line:</span> <span class="mk-h">If it&#x27;s one feeling in particular that scares you, like grief, [Affect Phobia Therapy](https://psykologtidsskriftet.no/node/15971/pdf) treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle.</span></div>
+<div class="marker t-teach" data-s="A1-TEACH"><span class="mk-k">A1-TEACH, new line:</span> <span class="mk-h">And if what you can&#x27;t let in is kindness, when someone cares about you and it just bounces off, there&#x27;s [Accelerated Experiential Dynamic Psychotherapy](https://www.apa.org/pubs/videos/4310759). The therapist works to keep you from feeling alone with whatever comes up, and when some of their care does get in, they ask what that&#x27;s like and where you feel it in your body.</span></div>
+<div class="marker t-teach" data-s="A1-TEACH"><span class="mk-k">A1-TEACH, new line:</span> <span class="mk-h">All three keep steering you back toward your feelings, which can get to be too much. So before booking, I&#x27;d ask the kind of thing I&#x27;d ask a water therapist: &quot;What happens if I get overwhelmed, or if you say I&#x27;m dodging a feeling and I don&#x27;t think I am?&quot; I&#x27;d want them to say they&#x27;d slow down, and that they&#x27;d listen.</span></div>
+<h2 class="blk" id="b17" data-b="17">Layer 4: Unstick the Memories You Can Actually Point To</h2>
+<div class="blk embed-blk" id="b18" data-b="18" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/f7c96726-ec5d-48f4-9a51-41b3197cce08_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/f7c96726-ec5d-48f4-9a51-41b3197cce08_1254x1254.png</a></div>
+<p class="blk" id="b19" data-b="19"><span class="pn">P1</span>This is the part of the map I think of as targeted memory work or “reconsolidation,” which refers to the way we untangle the charged memory, reprocess its significance, and put it back together in a healthier way, while still being honest about what happened. It works best when you are having flashbacks to a specific event, rather than something more general that brainspotting or other prior therapies could touch with a broader brush. The goal here is to reduce the “stickiness” of these memories, so that we don’t get stuck every time they pop up.</p>
+<h3 class="blk" id="b20" data-b="20">Eye Movement Desensitization and Reprocessing</h3>
+<p class="blk" id="b21" data-b="21"><span class="pn">P1</span>EMDR is the main modality designed exactly for reducing the charge held by specific traumatic events, like accidents, assaults, <a href="http://defense.u-dont-exist.com" target="_blank" rel="noopener noreferrer">fights to the death</a>, and so forth. Although it’s not completely understood how it works, the best theory is that by moving the eyes from side to side (or doing some other type of bilateral stimulation), you can split your attention, which weakens the durability of the memory you’re focusing on. In that more flexible state, you can re-encode a positive image (like, “I can handle this.”) onto the event before memory hardens again.</p>
+<div class="blk embed-blk" id="b22" data-b="22" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Video</b> — YouTube video<br><a href="https://www.youtube.com/watch?v=AAjkdkHlzYY" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=AAjkdkHlzYY</a></div>
+<p class="blk" id="b23" data-b="23"><span class="pn">P2</span>While EMDR is often treated as a therapy for anyone with trauma, the truth is that going directly into the trauma memory can sometimes be re-traumatizing. Not everyone handles EMDR well, which is one reason I have all these other layers here. After an EMDR session, it’s a good idea to do some grounding activities.</p>
+<h3 class="blk" id="b24" data-b="24">Hypnosis, the ancestral therapy</h3>
+<div class="blk embed-blk" id="b25" data-b="25" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Post card: &quot;Inner Signal Guide to Self-Hypnosis (&amp; APP), including Reparenting, Conscious-Subconscious Spiritual Communion&quot;<br>substack-post</div>
+<p class="blk" id="b26" data-b="26"><span class="pn">P1</span>Hypnosis is a therapy as old as time itself. While the modern technique of it was discovered by Franz Anton Mesmer in the 1770s, shamans have been using dancing, music, and drugs to induce hypnosis for therapeutic purposes forever. We enter into trance states every night which resemble hypnosis as we go to sleep and as we wake up as well. <a href="http://lucid.u-dont-exist.com" target="_blank" rel="noopener noreferrer">Those states can also be used for deep therapy</a>.</p>
+<p class="blk" id="b27" data-b="27"><span class="pn">P2</span>It’s interesting that EMDR used to be critiqued as a re-branded, minimal distillation of hypnosis. Even when you look at moving the eyes back and forth, that’s almost <em>the</em> classic hypnotic induction. That’s not to say that EMDR is hypnosis or it requires suggestibility, but the idea of splitting your attention is also similar. In hypnosis we use attention splitting to subdue the conscious mind and allow access to the lower-level programming layer in the subconscious.</p>
+<p class="blk" id="b28" data-b="28"><span class="pn">P3</span>I believe hypnosis can be an even more powerful reprogramming tool in many ways than EMDR, but because it depends so heavily on the technique and skill of the therapist (or you if you’re doing self-hypnosis), it is harder to do randomized trials to measure the effect size, which is why insurance generally doesn’t cover it.</p>
+<p class="blk" id="b29" data-b="29"><span class="pn">P4</span>One thing that’s exceptionally useful <em>and</em> dangerous with hypnosis is its ability to give us information we normally don’t have access to. You might have tried many things to understand what happened to you in childhood, and yet you still can’t quite remember. Maybe you can’t even remember your childhood at all. In that case, EMDR might be useless. Hypnosis could be uniquely useful there. But we need to be very careful to treat the memories recovered this way as provisional. They can bring up real feelings for us to work on, but the actual event narratives may be confabulated, and require empirical verification. I would treat the memories like dreams to start with.</p>
+<p class="blk" id="b30" data-b="30"><span class="pn">P5</span>I’m personally not a fan of mainstream command hypnosis, which is why I wrote my <a href="http://hypnosis.u-dont-exist.com" target="_blank" rel="noopener noreferrer">communion self-hypnosis guide</a> that also integrates my inner-child reparenting therapy as well as Somatic Experiencing methods.</p>
+<h2 class="blk" id="b31" data-b="31">Layer 5: Integrate, Differentiate, and Build a Life of Meaning</h2>
+<div class="blk embed-blk" id="b32" data-b="32" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/e47d6a3a-0311-43f6-b503-17e5faa2570c_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/e47d6a3a-0311-43f6-b503-17e5faa2570c_1254x1254.png</a></div>
+<h3 class="blk" id="b33" data-b="33">Narrative and Cognitive Integration</h3>
+<p class="blk" id="b34" data-b="34"><span class="pn">P1</span>Once we’ve tuned into our body, our subconscious, and moved the energy in the ways it needed to move, there’s still the cognitive integration layer, because we’re actually humans, not just animals. This is the part that insurance often does pay for to start with (Cognitive Behavioral Therapy, etc.), although this guide is predicated on the idea that it’s not always the best place to start.</p>
+<p class="blk" id="b35" data-b="35"><span class="pn">P2</span>When I say cognitive integration, I’m talking about revisiting old beliefs, identities, and stories, now that their foundations might have crumbled a bit. We need to rebuild all that so it makes sense now that we’re seeing clearer. When we re-evaluate and start to see that maybe we are actually safe now, we can also take back our power. And at the same time, we might even realize we need to apologize to some folks for painting a picture that we wouldn’t paint about them anymore. We may begin to forgive, and ask for forgiveness. Conversely, we might realize we need to put up better boundaries with people that we let in too easily.</p>
+<p class="blk" id="b36" data-b="36"><span class="pn">P3</span><a href="http://innerchild.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Inner-child reparenting</a> is another form of integration therapy, although it’s more all-encompassing and less purely cognitive, so it can fit in this layer as well as beyond it.</p>
+<section class="card t-teach" id="c-A3-TEACH" data-id="A3-TEACH" data-type="teach" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-teach" data-filter-type="teach" title="A new section whose Pangram tries are spent below High for one or two paragraphs: my best tested version, what each try read, and room for yours.">For you to teach me</button><span class="cid">A3-TEACH</span><span class="ctitle">Pain That Won&#x27;t Quit?: its first paragraph reads High but for its last sentence (Medium)</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New heading, above the heading &quot;Optional High-Intensity State-Shift and Release Practices&quot;</div><h5 class="ins-h"><ins>Pain That Won&#x27;t Quit?</ins></h5><div class="ctx">Optional High-Intensity State-Shift and Release Practices</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional High-Intensity State-Shift and Release Practices&quot;</div><div class="ins-h"><ins>If your pain has lasted months, and a doctor has checked and found no injury or disease to explain it, there are two therapies I&#x27;d look into. In the first, [Pain Reprocessing Therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298), you learn to treat the pain as a false alarm: your brain is making real pain, signaling danger where the doctors haven&#x27;t found any injury. Part of how you learn it&#x27;s a false alarm is by paying close attention to how the pain feels in your body, without being scared of it. You also slowly go back to things you&#x27;ve been avoiding because of it, like going for walks.</ins></div><div class="ctx">Optional High-Intensity State-Shift and Release Practices</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional High-Intensity State-Shift and Release Practices&quot;</div><div class="ins-h"><ins>Pain Reprocessing Therapy&#x27;s first big trial was only in mild to moderate chronic back pain. There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.</ins></div><div class="ctx">Optional High-Intensity State-Shift and Release Practices</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional High-Intensity State-Shift and Release Practices&quot;</div><div class="ins-h"><ins>The second therapy is for pain that seems bound up with stress and feelings about the people in your life. [Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on the feelings directly. Much of the therapy is letting out anger and other feelings you&#x27;ve held back, and rehearsing in role-play what you&#x27;d say to someone you&#x27;ve never stood up to.</ins></div><div class="ctx">Optional High-Intensity State-Shift and Release Practices</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional High-Intensity State-Shift and Release Practices&quot;</div><div class="ins-h"><ins>In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. A 30% drop is a lower bar than getting your pain down to 0 or 1 out of 10, so the two trials&#x27; numbers can&#x27;t be compared.</ins></div><div class="ctx">Optional High-Intensity State-Shift and Release Practices</div></div><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional High-Intensity State-Shift and Release Practices&quot;</div><div class="ins-h"><ins>I haven&#x27;t found a trial comparing the two therapies. So if your pain seems tied to stress or to people in your life, I&#x27;d start with the second, and otherwise with the first. I&#x27;d also ask a therapist where they trained in that therapy, and keep track of how it&#x27;s going the way I describe in the last section, [How I Judge Whether Any of This Is Helping](#§how-i-judge-whether-any-of-this-is-helping).</ins></div><div class="ctx">Optional High-Intensity State-Shift and Release Practices</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>The new branch as it stands. Its first paragraph (whose pain it is for, and the first therapy) reads Human High over its first 88 words and Medium over its last sentence; the other four read Human High by themselves. Two changes of meaning from the version you approved on the first page: the false alarm is now &quot;your brain is making real pain, signaling danger where the doctors haven&#x27;t found any injury&quot;, and &quot;two therapies are worth knowing about&quot; is now &quot;there are two therapies I&#x27;d look into&quot;.</span></div><div class="row"><span class="lab">Pangram read</span> <span>My best first paragraph: <a href="https://www.pangram.com/history/382a6e6b-372e-4f94-a8ec-a454d44492c0" target="_blank" rel="noopener noreferrer">Human Written, 0% AI, High over 88 words, Medium over the last 18</a>.</span></div><div class="row"><span class="lab">Pangram on the suggestion</span> <span>Each paragraph by itself: the first <a href="https://www.pangram.com/history/382a6e6b-372e-4f94-a8ec-a454d44492c0" target="_blank" rel="noopener noreferrer">High 88, Medium 18</a>; the first therapy&#x27;s trial <a href="https://www.pangram.com/history/1f690117-8ab6-47c9-beaf-2e9eaa4ea8c3" target="_blank" rel="noopener noreferrer">Human High</a>; the second therapy <a href="https://www.pangram.com/history/625ebf0c-6a40-42f5-8429-a9f8feffdbbc" target="_blank" rel="noopener noreferrer">Human High</a>; its trial <a href="https://www.pangram.com/history/76768c4b-1a89-46e8-b37d-befaf314177b" target="_blank" rel="noopener noreferrer">Human High</a>; how to choose <a href="https://www.pangram.com/history/0320a0bc-3f6d-4eb1-80c2-5d8b7639c6e9" target="_blank" rel="noopener noreferrer">Human High</a>.</span></div><div class="row"><span class="lab">Why</span> <span>The first paragraph, checked with the paragraph after it until the two were joined: <a href="https://www.pangram.com/history/06b001d4-8d15-4c82-9343-9c99800cf2eb" target="_blank" rel="noopener noreferrer">Human, Medium over the hook</a>, <a href="https://www.pangram.com/history/c805f2d9-ab93-44cc-9b8a-019adcb7517a" target="_blank" rel="noopener noreferrer">Human, Medium</a>, <a href="https://www.pangram.com/history/0615933a-a6eb-4722-8e6b-8222bfea1f27" target="_blank" rel="noopener noreferrer">Human, Medium</a>, <a href="https://www.pangram.com/history/dea167f3-c362-46f5-9c67-732ae95c05cd" target="_blank" rel="noopener noreferrer">AI 100%</a> (the hook joined in), <a href="https://www.pangram.com/history/96db84be-5b7f-48c7-a362-390f75757f59" target="_blank" rel="noopener noreferrer">42% AI</a> (the hook cut), then as one paragraph with the tell panel&#x27;s fixes, <a href="https://www.pangram.com/history/382a6e6b-372e-4f94-a8ec-a454d44492c0" target="_blank" rel="noopener noreferrer">High 88, Medium 18, my best</a>, and &quot;the pain&quot; for &quot;it&quot; in the last sentence, <a href="https://www.pangram.com/history/710b14c4-7fae-4337-9e91-ad39b3168cc1" target="_blank" rel="noopener noreferrer">High 88, Medium 19</a>.<br>My next try joins the last sentence to the one before (&quot;..., without being scared of it, and by slowly going back to things you&#x27;ve been avoiding because of the pain, like going for walks&quot;), which a fresh reader passed; the check rules hold it until the branch&#x27;s own check has taken two small steps from its older near miss, so it waits for your answer here.<br>I can&#x27;t find more AI tells in that last sentence (&quot;You also slowly go back to things you&#x27;ve been avoiding because of it, like going for walks.&quot;)... can you help show me the tells I&#x27;m missing?</span></div><div class="row"><span class="lab">What stays</span> <span>Every paragraph of the guide as it is live; the branch&#x27;s other four paragraphs as they read here (Human High), with both trials&#x27; numbers and their limits.</span></div><div class="row"><span class="lab">Why I&#x27;m asking</span> <span>Downside: one sentence of the branch reads Medium, and the first paragraph&#x27;s tries are spent (seven, the last one no better than the one before)</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>Your version of the first paragraph&#x27;s last sentence (Revise), or the branch with my best try as it reads (one Medium sentence), or holding it until it reads High; and whether the two changes of meaning above say it right.</span></div><div class="row advice"><span class="lab">My advice</span> <span><b>Approve.</b> Revise with your version of the last sentence if you can (it says you also slowly go back to things the pain made you avoid, like walks); the rest can stay as it is. If not, Approve and I&#x27;ll check my join as the branch&#x27;s next try before it goes in.</span></div><div class="row src"><span class="lab">Found by</span> <span>The checks in your Pangram account, 26 and 27 November; a tell panel of fresh Sonnet, Haiku and Fable readers on the first paragraph; fresh reads of every version against the ways you fix sentences, for need, fit and contradictions</span></div></div>
+<div class="decide" role="group" aria-label="Decision on A3-TEACH"><button type="button" class="dec approve" data-dec="approved">Approve: add it with my best try anyway</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note, or a question for me (optional): a question can wait here undecided"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-teach" data-s="A3-TEACH"><span class="mk-k">A3-TEACH, new heading:</span> <span class="mk-h">Pain That Won&#x27;t Quit?</span></div>
+<div class="marker t-teach" data-s="A3-TEACH"><span class="mk-k">A3-TEACH, new line:</span> <span class="mk-h">If your pain has lasted months, and a doctor has checked and found no injury or disease to explain it, there are two therapies I&#x27;d look into. In the first, [Pain Reprocessing Therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298), you learn to treat the pain as a false alarm: your brain is making real pain, signaling danger where the doctors haven&#x27;t found any injury. Part of how you learn it&#x27;s a false alarm is by paying close attention to how the pain feels in your body, without being scared of it. You also slowly go back to things you&#x27;ve been avoiding because of it, like going for walks.</span></div>
+<div class="marker t-teach" data-s="A3-TEACH"><span class="mk-k">A3-TEACH, new line:</span> <span class="mk-h">Pain Reprocessing Therapy&#x27;s first big trial was only in mild to moderate chronic back pain. There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.</span></div>
+<div class="marker t-teach" data-s="A3-TEACH"><span class="mk-k">A3-TEACH, new line:</span> <span class="mk-h">The second therapy is for pain that seems bound up with stress and feelings about the people in your life. [Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on the feelings directly. Much of the therapy is letting out anger and other feelings you&#x27;ve held back, and rehearsing in role-play what you&#x27;d say to someone you&#x27;ve never stood up to.</span></div>
+<div class="marker t-teach" data-s="A3-TEACH"><span class="mk-k">A3-TEACH, new line:</span> <span class="mk-h">In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. A 30% drop is a lower bar than getting your pain down to 0 or 1 out of 10, so the two trials&#x27; numbers can&#x27;t be compared.</span></div>
+<div class="marker t-teach" data-s="A3-TEACH"><span class="mk-k">A3-TEACH, new line:</span> <span class="mk-h">I haven&#x27;t found a trial comparing the two therapies. So if your pain seems tied to stress or to people in your life, I&#x27;d start with the second, and otherwise with the first. I&#x27;d also ask a therapist where they trained in that therapy, and keep track of how it&#x27;s going the way I describe in the last section, [How I Judge Whether Any of This Is Helping](#§how-i-judge-whether-any-of-this-is-helping).</span></div>
+<h2 class="blk" id="b37" data-b="37">Optional High-Intensity State-Shift and Release Practices</h2>
+<div class="blk embed-blk" id="b38" data-b="38" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Picture</b> — a picture in the post<br><a href="https://substack-post-media.s3.amazonaws.com/public/images/5d9c9804-302b-4c0e-b6ac-1d752839d884_1254x1254.png" target="_blank" rel="noopener noreferrer">https://substack-post-media.s3.amazonaws.com/public/images/5d9c9804-302b-4c0e-b6ac-1d752839d884_1254x1254.png</a></div>
+<p class="blk" id="b39" data-b="39"><span class="pn">P1</span>If you feel like somatic therapies are not really cracking you open even after <a href="http://dearmor.u-dont-exist.com" target="_blank" rel="noopener noreferrer">neurological de-armoring</a>, or if they have already started working but you feel you’re ready to dive deeper, here are a few suggestions that I’ve benefited from.</p>
+<p class="blk" id="b40" data-b="40"><span class="pn">P2</span><a href="https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind" target="_blank" rel="noopener noreferrer">Sky Hypnosis</a> is a very quick 10-second technique I modified from the even quicker 2-second technique that went viral on YouTube a while back. It’s exhilarating, but also brings an immense calm which lasts quite a while after, especially if you sit down and meditate at the end.</p>
+<div class="blk embed-blk" id="b41" data-b="41" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Post card: &quot;Try this 10-Second Sky Hypnosis Body/Mind Hack! 🌞🫪🫶🏿&quot;<br>substack-post</div>
+<p class="blk" id="b42" data-b="42"><span class="pn">P3</span><a href="https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best" target="_blank" rel="noopener noreferrer">Vagal Blitz</a> breathwork is a more powerful technique in the same vein. I developed this by modifying <a href="http://wimhofmethod.com" target="_blank" rel="noopener noreferrer">Wim Hof’s breathwork</a> to get the benefits that I sometimes got using his approach to come out more quickly &amp; reliably.</p>
+<div class="blk embed-blk" id="b43" data-b="43" style="border:1px solid #9ca3af;border-radius:8px;padding:6px 10px;margin:10px 0;font-size:.9em"><b>Embed</b> — Post card: &quot;Vagal Blitz Breathwork Gives Best Sleep &amp; Immune Boost Ever!&quot;<br>substack-post</div>
+<p class="blk" id="b44" data-b="44"><span class="pn">P4</span>Safety note: both of these methods are designed to produce lightheadedness, and both of them may be risky if you have heart disease. Practice gently at first to see how safe and manageable it is for you. Use the complete guide for each, and don’t feel like you need to do these if they seem dangerous.</p>
+<h3 class="blk" id="b45" data-b="45">Psychedelics</h3>
+<p class="blk" id="b46" data-b="46"><span class="pn">P1</span>The idea of radically changing your state of mind and body can’t be discussed without mentioning psychedelics. With a high enough dose of these, you won’t even know whether you have a mind and a body or what the difference is!</p>
+<p class="blk" id="b47" data-b="47"><span class="pn">P2</span>I’ve gotten tremendous benefits from using psychedelics, but not just any of them. Especially <a href="http://soma.u-dont-exist.com" target="_blank" rel="noopener noreferrer">loveyhuasca</a>, cactus, and <a href="http://iboga.u-dont-exist.com" target="_blank" rel="noopener noreferrer">iboga</a>. These natural plant allies also have immense health benefits. It seems like every month some new study comes out showing how different psychedelics can treat a vast range of physical illnesses. That’s partly due to actual physiological mechanisms, and partly through the mind-body interaction.</p>
+<p class="blk" id="b48" data-b="48"><span class="pn">P3</span>You can use psychedelics on their own, although they work much better for trauma when carefully integrated into therapy. Go low and go slow, though, because these tools are infinitely powerful, and you can easily end up worse than you went in if you aren’t careful.</p>
+<h3 class="blk" id="b49" data-b="49">Advanced practices can be a bypass</h3>
+<p class="blk" id="b50" data-b="50"><span class="pn">P1</span>Aside from the intensity risk of these optional practices, one must also consider the risk of too much good feelings from them (or from anything else). We can use good feelings as a distraction from actual healing. That’s called bypassing, and it’s often discussed in the context of <a href="http://goenka.u-dont-exist.com" target="_blank" rel="noopener noreferrer">spiritual bypassing</a>. where people use spiritual practices to escape the problems of their personal life.</p>
+<h2 class="blk" id="b51" data-b="51">How I Judge Whether Any of This Is Helping</h2>
+<p class="blk" id="b52" data-b="52"><span class="pn">P1</span>As mentioned in the Intro section, you will be the final judge of what’s helping, obviously. I say obviously, but I’m surprised by how many people try a particular practice or therapy even for many years just because they trust their therapist, with nothing to show for it at the end. Of course, that’s part of being disconnected from yourself. But we need to consciously take agency back here, not just be passive doers or receivers of whatever therapy we’ve paid for or heard about.</p>
+<p class="blk" id="b53" data-b="53"><span class="pn">P2</span>It is good to do some research before jumping into a long course of therapy, especially if it will cost a lot in time or money. But even if you have a zillion studies saying this therapy has a large effect size on the thing you’re treating, it’s still interesting to talk to people who’ve done these therapies and see how they were before vs after. It’s still important to see if they make some kind of sense, and finally, you still have to dip your feet in and see if it’s a fit for you.</p>
+<p class="blk" id="b54" data-b="54"><span class="pn">P3</span>While we’re in the therapy, as well as after, apart from tracking obvious things like how well we’re sleeping or how well we can focus, we should look at whether we have more capacity to meet pain, more honesty, virtue, proper boundaries, and healthier social interactions. Or are we still avoiding grief, conflict, practical difficulties, and relational healing?</p>
+<p class="blk" id="b55" data-b="55"><span class="pn">P4</span>And as for selecting a therapist, word of mouth is one of the best ways. Interview them and see how they respond. Are they able to show you a bit of what they can do and what their philosophy is before charging you? Do they actually seem like they care, or they just want to get a quick $250? If they are soliciting clients, chances are they aren’t very good. Good therapists usually already have too many clients. And that actually pushes them to be less open for extending free sessions, so it’s a bit of a catch-22.</p>
+</main>
+<p class="endnote gut">The end of the guide. When you're done, tell me in the chat; your answers are already saved here, and "Save / send" gives you a copy to paste or keep.</p>
+<script id="review-data" type="application/json">{"format": "joel-suggestion-review-v1", "review_id": "somatic-additions-cards-20261127", "title": "Somatic Guide, 27 November: two new sections for you to teach me", "git_file": "articles/somatic-therapies/experiments/additions-20261126/review-c1127/REVIEW-SOMATIC.html", "article": {"file": "articles/somatic-therapies/experiments/additions-20261126/review-c1127/ARTICLE-SOMATIC.md", "sha256": "bfacc3ab555cc51d20183c1be83c8b4b16de33596f7f45d54d4d23441a40d599"}, "built": "2026-11-27T20:15:21Z", "generator": "suggestion_review.py 1.14 (2026-11-27)", "types": {"teach": {"label": "For you to teach me", "about": "A new section whose Pangram tries are spent below High for one or two paragraphs: my best tested version, what each try read, and room for yours."}}, "suggestions": [{"id": "A1-TEACH", "type": "teach", "title": "Can't Stay With a Feeling?: its first paragraph and its booking paragraph, six tries each, below High", "advice": "approve", "what": "The new section as it stands, every paragraph checked by itself. Three read Human High: the anxiety paragraph, Affect Phobia Therapy and AEDP. Two are my best of six tries each: the first paragraph (who the section is for, and the therapy built for it), which reads AI, and the booking paragraph (what to ask before booking), which reads Human, Low confidence.", "deciding": "Your version of the first paragraph and of the booking paragraph (Revise), or the section with my best tries as they read, or holding the section until both read High.", "decided": null, "question": null, "where": "above the heading \"Layer 4: Unstick the Memories You Can Actually Point To\"", "proposed": "## Can't Stay With a Feeling?\n\nIf you can feel your body just fine by now but still slip away the moment a feeling comes up in a session (you start explaining it, or agree with whatever the therapist says just to get past it), there's [Intensive Short-Term Dynamic Psychotherapy](https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and). The therapist catches you at it each time and asks what you're feeling right then.\n\nIt's usually anxiety about the feeling that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you. If you can only take a little of that anxiety, like most people who try this therapy, you'd get a slower version of it, where the therapist stops to help you settle whenever the anxiety climbs.\n\nIf it's one feeling in particular that scares you, like grief, [Affect Phobia Therapy](https://psykologtidsskriftet.no/node/15971/pdf) treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle.\n\nAnd if what you can't let in is kindness, when someone cares about you and it just bounces off, there's [Accelerated Experiential Dynamic Psychotherapy](https://www.apa.org/pubs/videos/4310759). The therapist works to keep you from feeling alone with whatever comes up, and when some of their care does get in, they ask what that's like and where you feel it in your body.\n\nAll three keep steering you back toward your feelings, which can get to be too much. So before booking, I'd ask the kind of thing I'd ask a water therapist: \"What happens if I get overwhelmed, or if you say I'm dodging a feeling and I don't think I am?\" I'd want them to say they'd slow down, and that they'd listen.", "before": ""}, {"id": "A3-TEACH", "type": "teach", "title": "Pain That Won't Quit?: its first paragraph reads High but for its last sentence (Medium)", "advice": "approve", "what": "The new branch as it stands. Its first paragraph (whose pain it is for, and the first therapy) reads Human High over its first 88 words and Medium over its last sentence; the other four read Human High by themselves. Two changes of meaning from the version you approved on the first page: the false alarm is now \"your brain is making real pain, signaling danger where the doctors haven't found any injury\", and \"two therapies are worth knowing about\" is now \"there are two therapies I'd look into\".", "deciding": "Your version of the first paragraph's last sentence (Revise), or the branch with my best try as it reads (one Medium sentence), or holding it until it reads High; and whether the two changes of meaning above say it right.", "decided": null, "question": null, "where": "above the heading \"Optional High-Intensity State-Shift and Release Practices\"", "proposed": "# Pain That Won't Quit?\n\nIf your pain has lasted months, and a doctor has checked and found no injury or disease to explain it, there are two therapies I'd look into. In the first, [Pain Reprocessing Therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298), you learn to treat the pain as a false alarm: your brain is making real pain, signaling danger where the doctors haven't found any injury. Part of how you learn it's a false alarm is by paying close attention to how the pain feels in your body, without being scared of it. You also slowly go back to things you've been avoiding because of it, like going for walks.\n\nPain Reprocessing Therapy's first big trial was only in mild to moderate chronic back pain. There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.\n\nThe second therapy is for pain that seems bound up with stress and feelings about the people in your life. [Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on the feelings directly. Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.\n\nIn a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. A 30% drop is a lower bar than getting your pain down to 0 or 1 out of 10, so the two trials' numbers can't be compared.\n\nI haven't found a trial comparing the two therapies. So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, [How I Judge Whether Any of This Is Helping](#§how-i-judge-whether-any-of-this-is-helping).", "before": ""}], "sections": [{"b": 2, "level": 1, "text": "Layer 3: Compassionate Exploration of Trauma Feelings Before the Story Comes In"}, {"b": 5, "level": 2, "text": "Aquatic Bodywork / Water Therapy for Deeper Exploration"}, {"b": 12, "level": 2, "text": "Brainspotting"}, {"b": 17, "level": 1, "text": "Layer 4: Unstick the Memories You Can Actually Point To"}, {"b": 20, "level": 2, "text": "Eye Movement Desensitization and Reprocessing"}, {"b": 24, "level": 2, "text": "Hypnosis, the ancestral therapy"}, {"b": 31, "level": 1, "text": "Layer 5: Integrate, Differentiate, and Build a Life of Meaning"}, {"b": 33, "level": 2, "text": "Narrative and Cognitive Integration"}, {"b": 37, "level": 1, "text": "Optional High-Intensity State-Shift and Release Practices"}, {"b": 45, "level": 2, "text": "Psychedelics"}, {"b": 49, "level": 2, "text": "Advanced practices can be a bypass"}, {"b": 51, "level": 1, "text": "How I Judge Whether Any of This Is Helping"}]}</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = JSON.parse(document.getElementById('review-data').textContent);
+  const SUG = {};
+  DATA.suggestions.forEach(s => { SUG[s.id] = s; });
+  const ORDER = DATA.suggestions.map(s => s.id);
+  const STATUSES = ['pending', 'approved', 'rejected', 'revise'];
+  const STORE_KEY = 'joel-suggestion-review-v1:' + DATA.review_id + ':' + DATA.article.sha256.slice(0, 12);
+  const $ = (q, r) => (r || document).querySelector(q);
+  const $$ = (q, r) => Array.from((r || document).querySelectorAll(q));
+  const now = () => new Date().toISOString();
+  const cards = {};
+  $$('.card[data-id]').forEach(c => { cards[c.dataset.id] = c; });
+  const marksById = {};
+  $$('mark.hl[data-s]').forEach(m => m.dataset.s.split(' ').forEach(id => { (marksById[id] = marksById[id] || []).push(m); }));
+
+  // ---------------------------------------------------------------- state
+  let state = {};
+  function blank() { return { status: 'pending', comment: '', text: '', history: [], updated: '' }; }
+  function clean(x) {
+    const st = blank();
+    if (!x || typeof x !== 'object') return st;
+    st.status = STATUSES.includes(x.status) ? x.status : 'pending';
+    st.comment = typeof x.comment === 'string' ? x.comment : '';
+    st.text = typeof x.text === 'string' ? x.text : '';
+    st.history = Array.isArray(x.history) ? x.history.filter(h => h && typeof h === 'object').slice(-50) : [];
+    st.updated = typeof x.updated === 'string' ? x.updated : '';
+    return st;
+  }
+  function initial(id) {
+    const st = blank();
+    const d = SUG[id] && SUG[id].decided;
+    if (d) {
+      st.status = STATUSES.includes(d.status) ? d.status : 'pending';
+      st.text = d.text || '';
+      st.comment = d.comment || '';
+      st.history = [{ from: 'pending', to: st.status, at: d.at || '', by: d.by || '' }];
+    }
+    return st;
+  }
+  function get(id) { if (!state[id]) state[id] = initial(id); return state[id]; }
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const o = JSON.parse(raw);
+      if (o && o.items) Object.keys(o.items).forEach(id => { if (SUG[id]) state[id] = clean(o.items[id]); });
+    }
+  } catch (e) { /* storage blocked: the page still works, answers live in memory */ }
+  let localOk = true;
+  function persistLocal() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ saved: now(), items: state })); localOk = true; }
+    catch (e) { localOk = false; }
+  }
+
+  // ---------------------------------------------------------------- the store (db), when this view has one
+  let db = null, storeState = 'none';
+  const dirty = {}, busy = {}, timers = {}, retried = {};
+  function setStoreNote() {
+    const el = $('#storeNote');
+    if (storeState === 'db') el.textContent = 'Your answers save as you click, to this page (on every device you open it from with this account) and in this browser. Tell me in the chat when you\'re done and I\'ll read them from here; "Copy my answers" gives you a copy to paste anywhere.';
+    else el.textContent = localOk ? 'Your answers save in this browser as you click. To move them to another browser or account, or to send them to me, use "Copy my answers" or "Save them as a file".' : 'This browser won\'t keep answers for this page, so copy or save them before you close it.';
+  }
+  function queueWrite(id, delay) {
+    if (!db) return;
+    dirty[id] = true;
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(() => flush(id), delay || 0);
+  }
+  async function flush(id) {
+    if (!db || busy[id] || !dirty[id]) return;
+    busy[id] = true;
+    try {
+      while (dirty[id] && db) {
+        dirty[id] = false;
+        const body = JSON.parse(JSON.stringify(get(id)));
+        await db.doc('decisions/' + id).set(body);
+      }
+      savedLine(id, 'Saved');
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'unavailable' && !retried[id]) {
+        retried[id] = true; dirty[id] = true;
+        setTimeout(() => { busy[id] = false; flush(id); }, 1200 + Math.random() * 1500);
+        return;
+      }
+      if (code === 'resource_exhausted') { dirty[id] = true; setTimeout(() => { busy[id] = false; flush(id); }, 4000); return; }
+      db = null; storeState = 'none'; setStoreNote();
+      savedLine(id, 'Saved in this browser only');
+    } finally { if (busy[id] === true) busy[id] = false; }
+  }
+  function mergeRemote(id, raw) {
+    const remote = clean(raw);
+    const local = get(id);
+    if ((remote.updated || '') > (local.updated || '')) {
+      state[id] = remote; persistLocal(); renderCard(id, true);
+    } else if ((local.updated || '') > (remote.updated || '')) {
+      queueWrite(id, 0);
+    }
+  }
+  async function initDb() {
+    let api = null;
+    try { if (window.claude && typeof window.claude.use === 'function') api = await window.claude.use('db'); } catch (e) { api = null; }
+    if (!api) { setStoreNote(); return; }
+    db = api; storeState = 'db'; setStoreNote();
+    let first = true;
+    try {
+      db.collection('decisions').onSnapshot(snap => {
+        const seen = new Set();
+        snap.docs.forEach(d => { seen.add(d.id); if (SUG[d.id]) mergeRemote(d.id, d.data()); });
+        if (first) {
+          first = false;
+          Object.keys(state).forEach(id => { if (!seen.has(id) && state[id].updated) queueWrite(id, 0); });
+        }
+        progress();
+      }, () => { db = null; storeState = 'none'; setStoreNote(); });
+    } catch (e) { db = null; storeState = 'none'; setStoreNote(); }
+  }
+
+  // ---------------------------------------------------------------- downloads, when this view has them
+  let dl = null;
+  (async () => { try { if (window.claude && typeof window.claude.use === 'function') dl = await window.claude.use('downloads'); } catch (e) { dl = null; } })();
+
+  // ---------------------------------------------------------------- rendering
+  const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
+  function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
+  function askPill(id) {
+    const c = cards[id]; if (!c) return;
+    const done = !!(get(id).comment || '').trim();
+    c.dataset.status = done ? 'answered' : 'pending';
+    $('.pill', c).textContent = done ? 'Answered' : 'Not answered yet';
+    c.classList.toggle('decided', done);
+    (marksById[id] || []).forEach(m => m.classList.toggle('done', done));
+  }
+  function renderCard(id, fromRemote) {
+    const c = cards[id]; if (!c) return;
+    const st = get(id);
+    if (isAsk(id)) {
+      const nt = $('.note', c);
+      if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+      askPill(id);
+      return;
+    }
+    c.dataset.status = st.status;
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
+    $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    // "Undo my answer" shows only when there is an answer to undo (1.11; Joel, 2026-11-11: "'not approved yet' doesn't
+    // work as a button": it showed, pressed, on every undecided card, where a click did nothing)
+    $$('.dec.undo', c).forEach(b => { b.hidden = st.status === 'pending'; });
+    const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
+    yw.hidden = !(st.status === 'revise' || st.text);
+    if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';
+    if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+    const done = st.status !== 'pending';
+    (marksById[id] || []).forEach(m => {
+      const all = m.dataset.s.split(' ').every(x => get(x).status !== 'pending');
+      m.classList.toggle('done', all);
+    });
+    c.classList.toggle('decided', done);
+  }
+  function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
+  function progress() {
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
+    ORDER.forEach(id => {
+      const st = get(id);
+      if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
+      if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
+      n++;
+      if (st.status !== 'pending') dec++;
+      if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
+    });
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
+      + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
+    $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
+    const counts = {};
+    ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
+    $$('[data-count-type]').forEach(el => { el.textContent = counts[el.dataset.countType] || 0; });
+  }
+
+  // ---------------------------------------------------------------- decisions and notes
+  function decide(id, to) {
+    const st = get(id);
+    const from = st.status;
+    if (from === to) return;
+    st.history.push({ from: from, to: to, at: now() });
+    st.status = to; st.updated = now();
+    if (to === 'revise' && !st.text) st.text = SUG[id].proposed || '';
+    persistLocal(); renderCard(id); progress(); queueWrite(id, 0);
+    savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+    if (to === 'revise') { const yt = $('.yours', cards[id]); if (yt) { yt.focus(); } }
+  }
+  ORDER.forEach(id => {
+    const c = cards[id]; if (!c) return;
+    $$('.dec', c).forEach(b => b.addEventListener('click', () => decide(id, b.dataset.dec)));
+    const typed = (field, el) => {
+      const st = get(id);
+      st[field] = el.value; st.updated = now();
+      persistLocal(); queueWrite(id, 900);
+      savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      if (isAsk(id)) askPill(id);
+      progress();
+    };
+    const yt = $('.yours', c), nt = $('.note', c);
+    yt.addEventListener('input', () => typed('text', yt));
+    nt.addEventListener('input', () => typed('comment', nt));
+    [yt, nt].forEach(el => el.addEventListener('blur', () => { if (dirty[id]) { clearTimeout(timers[id]); flush(id); } }));
+    const fold = $('.fold', c), body = $('.card-body', c);
+    fold.addEventListener('click', () => {
+      body.hidden = !body.hidden;
+      fold.textContent = body.hidden ? 'Open' : 'Fold';
+      fold.setAttribute('aria-expanded', String(!body.hidden));
+    });
+  });
+
+  // ---------------------------------------------------------------- moving around
+  // The cards in the order they stand on the page, not the order of REVIEW.json: Next and Previous move down and up the
+  // page. (Joel, 2026-11-03 19:12 UTC, on the gut article's r01 page: "your next button is skipping questions fix that".
+  // The list came from ORDER, the suggestions' file order, which put the three question cards last although one sat near
+  // the top of the article and the others between decision cards, so Next passed over them.)
+  function visibleCards() { return $$('.card[data-id]').filter(c => cards[c.dataset.id] === c && !c.hidden && c.offsetParent !== null); }
+  function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
+  function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
+  function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
+  function step(dir) {
+    if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
+    if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
+      const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
+      goTo(next);
+      return;
+    }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
+  }
+  $('#nextBtn').addEventListener('click', () => step(1));
+  $('#prevBtn').addEventListener('click', () => step(-1));
+  document.addEventListener('click', e => {
+    const m = e.target.closest('mark.hl[data-s]');
+    if (m && !e.target.closest('a')) {
+      const id = m.dataset.s.split(' ')[0];
+      const c = cards[id];
+      if (c && SUG[id].advice === 'leave' && !document.body.classList.contains('show-leave')) return;
+      if (c) {
+        if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+        if (c.hidden) { c.hidden = false; }
+        goTo(c);
+      }
+      return;
+    }
+    const g = e.target.closest('[data-go]');
+    if (g) {
+      const t = document.getElementById(g.dataset.go);
+      if (t) { if (t.classList.contains('card')) goTo(t); else { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); flash(t); } }
+    }
+  });
+
+  // ---------------------------------------------------------------- filters
+  const hiddenTypes = new Set();
+  function applyFilters() {
+    const status = $('#statusFilter').value;
+    const q = $('#search').value.trim().toLowerCase();
+    ORDER.forEach(id => {
+      const c = cards[id]; if (!c) return;
+      const st = get(id);
+      let show = !hiddenTypes.has(SUG[id].type);
+      if (show && status !== 'all') show = status === 'noted' ? !!(st.comment || st.text) : st.status === status;
+      if (show && q) {
+        const b = document.getElementById('b' + c.dataset.block);
+        const hay = (c.textContent + ' ' + (b ? b.textContent : '') + ' ' + st.comment + ' ' + st.text).toLowerCase();
+        show = hay.includes(q);
+      }
+      c.hidden = !show;
+    });
+    Object.keys(DATA.types).forEach(t => document.body.classList.toggle('hide-t-' + t, hiddenTypes.has(t)));
+  }
+  $$('[data-filter-type]').forEach(b => b.addEventListener('click', e => {
+    const t = b.dataset.filterType;
+    if (b.closest('.card')) { e.stopPropagation(); }
+    if (hiddenTypes.has(t)) hiddenTypes.delete(t); else hiddenTypes.add(t);
+    $$('.tools [data-filter-type="' + t + '"]').forEach(x => x.setAttribute('aria-pressed', String(!hiddenTypes.has(t))));
+    applyFilters();
+  }));
+  $('#statusFilter').addEventListener('change', applyFilters);
+  let searchTimer = null;
+  $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilters, 200); });
+  $('#showLeave').addEventListener('change', e => { document.body.classList.toggle('show-leave', e.target.checked); });
+  $('#readingMode').addEventListener('change', e => { document.body.classList.toggle('reading', e.target.checked); });
+  const sel = $('#sectionJump');
+  DATA.sections.forEach(s => {
+    const o = document.createElement('option');
+    o.value = 'b' + s.b; o.textContent = (s.level >= 3 ? '   ' : '') + s.text;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => { const t = document.getElementById(sel.value); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); sel.value = ''; });
+  function togglePanel(btn, panel) {
+    const open = panel.hidden;
+    panel.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+  }
+  $('#toolsBtn').addEventListener('click', () => togglePanel($('#toolsBtn'), $('#tools')));
+  $('#saveBtn').addEventListener('click', () => togglePanel($('#saveBtn'), $('#savePanel')));
+
+  // ---------------------------------------------------------------- export and import
+  function answers() {
+    const counts = { approved: 0, rejected: 0, revise: 0, pending: 0 };
+    const items = ORDER.map(id => {
+      const s = SUG[id], st = get(id);
+      counts[st.status]++;
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: isAsk(id) ? ((st.comment || '').trim() ? 'answered' : 'pending') : st.status,
+        question: s.question || undefined,
+        your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
+        history: st.history, updated: st.updated };
+    });
+    return { format: 'joel-suggestion-review-answers-v1', review_id: DATA.review_id, title: DATA.title, git_file: DATA.git_file,
+      article: DATA.article, built: DATA.built, generator: DATA.generator, exported_at: now(), counts: counts, items: items };
+  }
+  function status(msg) { $('#saveStatus').textContent = msg; }
+  function showCopyArea(text) {
+    const ta = $('#copyArea'); ta.hidden = false; ta.value = text; ta.focus(); ta.select();
+  }
+  $('#copyJson').addEventListener('click', () => {
+    const text = JSON.stringify(answers(), null, 1);
+    let done = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => { done = true; status('Copied. Paste it into the chat, or into this page on another account with "Paste answers instead".'); $('#copyArea').hidden = true; },
+          () => { showCopyArea(text); status('This view blocked copying: the answers are selected below, so copy them with your keyboard or the menu.'); });
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    if (!done) { showCopyArea(text); status('The answers are selected below: copy them with your keyboard or the menu.'); }
+  });
+  $('#saveJson').addEventListener('click', async () => {
+    const text = JSON.stringify(answers(), null, 1);
+    const name = (DATA.review_id || 'review') + '-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    if (dl) {
+      try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { status('Not saved.'); return; }
+        if (e && e.code === 'rate_limited') { status('A save is already waiting for you to confirm.'); return; }
+      }
+    }
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status('Saving ' + name + '. If nothing downloads, use "Copy my answers" instead.');
+    } catch (e) { showCopyArea(text); status('Saving files is blocked here: the answers are selected below to copy.'); }
+  });
+  function load(text) {
+    let o;
+    try { o = JSON.parse(text); } catch (e) { status('That isn\'t a JSON answers file.'); return; }
+    if (!o || o.format !== 'joel-suggestion-review-answers-v1' || !Array.isArray(o.items)) { status('That isn\'t an answers file from this page.'); return; }
+    if (o.review_id !== DATA.review_id) { status('Those answers are for a different review (' + o.review_id + '), so nothing was loaded.'); return; }
+    if (!o.article || o.article.sha256 !== DATA.article.sha256) { status('Those answers are for a different version of the guide, so nothing was loaded: send them to me and I\'ll carry them over.'); return; }
+    let n = 0; const unknown = [];
+    o.items.forEach(it => {
+      if (!it || !SUG[it.id]) { if (it && it.id) unknown.push(it.id); return; }
+      const st = get(it.id);
+      const to = STATUSES.includes(it.status) ? it.status : 'pending';
+      if (to === 'pending' && !it.comment && !it.your_version && st.status === 'pending' && !st.comment && !st.text) return;
+      if (to !== st.status) st.history.push({ from: st.status, to: to, at: now(), by: 'loaded from a file' });
+      st.status = to; st.comment = typeof it.comment === 'string' ? it.comment : '';
+      st.text = typeof it.your_version === 'string' ? it.your_version : '';
+      st.updated = now(); n++;
+      queueWrite(it.id, 0);
+    });
+    persistLocal(); renderAll(); applyFilters();
+    status('Loaded ' + n + ' answer' + (n === 1 ? '' : 's') + (unknown.length ? '; ' + unknown.length + ' not on this page (' + unknown.slice(0, 5).join(', ') + ')' : '') + '.');
+  }
+  $('#importFile').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0]; if (!f) return;
+    const r = new FileReader(); r.onload = () => { load(String(r.result)); e.target.value = ''; }; r.readAsText(f);
+  });
+  $('#pasteToggle').addEventListener('click', () => { const b = $('#pasteBox'); b.hidden = !b.hidden; if (!b.hidden) $('#pasteArea').focus(); });
+  $('#pasteLoad').addEventListener('click', () => load($('#pasteArea').value));
+
+  window.__review = { answers: answers, load: load, state: () => state };
+  renderAll(); applyFilters(); setStoreNote(); initDb();
+})();
+</script>
+</body>
+</html>

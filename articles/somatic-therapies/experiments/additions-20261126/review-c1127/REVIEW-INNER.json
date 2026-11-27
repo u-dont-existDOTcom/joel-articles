@@ -1,0 +1,93 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-child-pointers-cards-20261127",
+ "title": "Inner Child Guide, 27 November: two pointers to the somatic guide's new sections",
+ "intro": [
+  "Your inner child guide as it is live today (27 November), with the two pointers to the somatic guide's new sections, each where it would go: the end of Re-do Trauma Memories and the end of Physical Pain?. Long stretches with no card fold into a box that opens. Nothing here is in the post yet.",
+  "Two cards: Imagery Rescripting (Human High) for your eye, and the pain therapies, whose second sentence my tries couldn't get above Medium, for your version."
+ ],
+ "git_file": "articles/somatic-therapies/experiments/additions-20261126/review-c1127/REVIEW-INNER.html",
+ "article": {
+  "file": "articles/somatic-therapies/experiments/additions-20261126/review-c1127/ARTICLE-INNER.md",
+  "sha256": "76e4120afc86c342efd2df925e014466818ae5edc6bff91ba83beee32bbe5ece"
+ },
+ "whole": {
+  "file": "articles/somatic-therapies/experiments/additions-20261126/IC-WHOLE-LIVE-20261127.md",
+  "sha256": "1b89d70d958fc42d2506547262a1c3c1d1a60bbfc97fee4e8b417a241b1eef02"
+ },
+ "built": "2026-11-27T20:15:21Z",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/review-c1127/CARDS-INNER.md"
+ },
+ "types": {
+  "addition": {
+   "label": "New paragraph",
+   "about": "A paragraph the guide doesn't have yet, shown where it would go."
+  },
+  "teach": {
+   "label": "For you to teach me",
+   "about": "A paragraph whose Pangram tries are spent below High: my best tested version, what each try read, and room for yours."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "IC1",
+   "type": "addition",
+   "advice": "approve",
+   "approve_label": "add it",
+   "title": "Re-do Trauma Memories: a pointer to Imagery Rescripting",
+   "inserts": [
+    {
+     "before": 7,
+     "kind": "p",
+     "text": "If a memory feels too big to redo on your own, there's an actual clinical therapy for that, called [Imagery Rescripting](https://ibogaqueen.substack.com/i/201523223/imagery-rescripting), which I only found out about after I wrote this section. The therapist steps into the memory as the ideal adult, protecting and nurturing your inner child, until you learn to do that yourself.",
+     "seq": 0
+    }
+   ],
+   "card_after": 6,
+   "what": "A paragraph of its own at the end of the section, after your J. example: for a memory too big to redo on your own, Imagery Rescripting, linked to its new section in your somatic guide, and what the therapist does in it. Its aside \"which I only found out about after I wrote this section\" is your line from the Imagery Rescripting section you wrote for the somatic guide.",
+   "why": "It reads [Human Written, 0% AI, one High window](https://www.pangram.com/history/cfb9154d-4b26-4e87-ad84-b4112676c8f0) by itself, after three tries with a Medium second sentence ([1](https://www.pangram.com/history/9af27523-3ac6-452d-aa8f-b08441054702), [2](https://www.pangram.com/history/e2f5b150-fe52-40ff-8109-61804c63bd87), [3](https://www.pangram.com/history/6f326772-9c3d-478f-99fc-d5949125b7ce)); your aside carried it.",
+   "reading": "[Human Written, 0% AI, one High window](https://www.pangram.com/history/cfb9154d-4b26-4e87-ad84-b4112676c8f0).",
+   "tested": "By itself: [Human High, 56 words](https://www.pangram.com/history/cfb9154d-4b26-4e87-ad84-b4112676c8f0).",
+   "stays": "Every paragraph of the section, your J. example included.",
+   "deciding": "Whether the section points to the somatic guide's Imagery Rescripting here, with your aside in it.",
+   "advice_note": "I'd add it: it reads Human High, and it goes in with the somatic guide's new sections.",
+   "ask_because": "meaning: it adds a paragraph with your own line in it to your inner child guide",
+   "whose": "his own: the aside \"which I only found out about after I wrote this section\", from his version of the somatic guide's Imagery Rescripting section (his answers of 27 November); the rest of the paragraph is mine",
+   "found_by": "Fresh reads against the ways you fix sentences, for need, fit and contradictions; the checks in your Pangram account",
+   "receipt": [
+    "articles/somatic-therapies/experiments/additions-20261126/review-c1127/receipts/IC1.receipt.json"
+   ]
+  },
+  {
+   "id": "IC2-TEACH",
+   "type": "teach",
+   "advice": "approve",
+   "approve_label": "add my best try anyway",
+   "title": "Physical Pain?: a pointer to the two pain therapies, six tries, its second sentence Medium",
+   "inserts": [
+    {
+     "before": 16,
+     "kind": "p",
+     "text": "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in [my somatic guide](https://ibogaqueen.substack.com/i/201523223/pain-that-wont-quit), Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy. They both treat the pain as real, and they've helped people with long-lasting back, muscle and joint pain.",
+     "seq": 0
+    }
+   ],
+   "card_after": 15,
+   "what": "A paragraph of its own at the end of the section, after your advice not to stop the investigation: what to try meanwhile, the two pain therapies in your somatic guide (linked), and why they're worth it. Its first sentence reads Human High; the second (\"They both treat the pain as real, and they've helped people with long-lasting back, muscle and joint pain.\"), Medium.",
+   "why": "My tries, after two earlier forms that read [AI](https://www.pangram.com/history/c4b90cd8-2adc-4d39-973b-ae905bb7cd91) and [52% AI](https://www.pangram.com/history/acb8fc15-87b0-4e5f-a784-1d12c54bf18f): [AI](https://www.pangram.com/history/e267be27-30ce-4593-9f9a-dae0e261e553), [High 38, Medium 20, my best](https://www.pangram.com/history/0f422892-5de8-43b0-8cb2-bfe4b5045d27), then each a change to the second sentence: \"in their trials most people ... got better\" [High 38, Low 23](https://www.pangram.com/history/24c2a0ba-a6c0-47f0-91a9-92d7055797a6); \"see the pain as real\" [High 38, Low 20](https://www.pangram.com/history/17eec1c6-00cc-485f-ac1c-ebf21725e259); \"between them\" [37% AI](https://www.pangram.com/history/af0a6004-2934-4510-89ce-1d546552b28e); and, after a tell panel that agreed the reassurance reads as a stock phrase, your word \"imaginary\" (\"Neither one sees the pain as imaginary\") [AI 90%](https://www.pangram.com/history/866e6d04-dc99-464b-b787-d537cb8d8926), which pulled the first sentence down too.\nI can't find more AI tells in the second sentence. The one human tell I can name is in the first: \"I go into in my somatic guide\", where a model smooths the doubled preposition (\"that I cover in my somatic guide\")... can you help show me the tells I'm missing?",
+   "reading": "[Human Written, 0% AI, High over 38 words, Medium over the last 20](https://www.pangram.com/history/0f422892-5de8-43b0-8cb2-bfe4b5045d27).",
+   "tested": "By itself: [High 38, Medium 20](https://www.pangram.com/history/0f422892-5de8-43b0-8cb2-bfe4b5045d27).",
+   "stays": "Every paragraph of the section, your advice to keep investigating included; the first sentence as it reads (High).",
+   "deciding": "Your version of the second sentence (Revise), or my best as it reads (one Medium sentence), or holding it until it reads High.",
+   "advice_note": "Revise with your version of the second sentence if you can: it says why the two are worth trying (neither treats the pain as imaginary, and they've helped people with pain like this). If not, Approve and it goes in with its Medium sentence, or Reject and it waits.",
+   "ask_because": "downside: one sentence reads Medium, and my tries are spent (six)",
+   "found_by": "The checks in your Pangram account, 26 and 27 November; a tell panel of fresh Sonnet, Haiku and Fable readers; fresh reads of every version against the ways you fix sentences, for need, fit and contradictions",
+   "receipt": [
+    "articles/somatic-therapies/experiments/additions-20261126/review-c1127/receipts/IC2.receipt.json"
+   ]
+  }
+ ]
+}

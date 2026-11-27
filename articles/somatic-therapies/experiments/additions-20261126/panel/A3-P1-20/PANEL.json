@@ -1,0 +1,60 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If your pain has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.",
+  "In the first, Pain Reprocessing Therapy, you learn to treat the pain as a false alarm.",
+  "It's real, but it's your brain signaling danger where the doctors haven't found any injury.",
+  "Part of how you learn that is by paying close attention to how the pain feels in your body without fearing it.",
+  "Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph runs in a very even explainer order (condition, announcement, definition, reassurance, step one, step two), each sentence carrying exactly one point at a similar medium length, with no aside, opinion or detail that only this writer would have. The steady second-person \"you learn / you go back\" voice is clear but neutral, which is what makes it read as polished more than as written by someone."
+  ],
+  "haiku": [
+   "The paragraph is evenly balanced, with each sentence neatly set up and resolved, which gives it a polished, generic arc from condition to explanation to gradual return. Its voice is a general \"you\" with no specific speaker or particular detail, so it reads as produced rather than written from experience."
+  ],
+  "sonnet": [
+   "The paragraph moves in even, medium-length sentences through a tidy setup, definition, reassurance and next-step order, with no digression, no rough edge and no personal voice. Every sentence has the same calm, explanatory tone."
+  ]
+ },
+ "human_clean": []
+}
