@@ -22,7 +22,7 @@ the brainstem as you go from calm to alarm, fear and terror. One search isn't pr
 - c) Something else (say what).
 
 **🟣 78. The red line's condition in that paragraph.** It went in as "That happens once your heart rate climbs above its
-usual resting rate, or its variability drops (a smartwatch shows both), and it lasts until you calm down"
+usual resting rate, or the time between its beats varies less (a smartwatch shows both), and it lasts until you calm down"
 ([one window, High](https://www.pangram.com/history/ef537748-af2f-4cc0-92ee-80d4cb5bd35a)). A fresh reader beside your
 post says that reads as any rise, exercise included, where your post means a raised rate at rest ("when the resting
 heart rate is elevated"). It mirrors your 62a test ("back down to your usual resting rate, and under 90 BPM"). My

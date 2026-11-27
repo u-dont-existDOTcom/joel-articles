@@ -38,5 +38,18 @@
    "same_as_original": false
   }
  ],
- "dispositions": {}
+ "dispositions": {
+  "F1.1": [
+   "his",
+   "question 78 on his page: the sentence mirrors his 62a test (\"back down to your usual resting rate, and under 90 BPM\"); the clearer \"stays above its usual resting rate even while you sit still\" read AI Low (P032#345)"
+  ],
+  "F1.2": [
+   "kept",
+   "severity 1: the paragraph before gives the line the \"So\" follows from"
+  ],
+  "F1.3": [
+   "fixed",
+   "the paragraph went back to its text before the turn (APPLIED-X1127C.json, \"reverted\"); my version that keeps the meaning is on card W-P033"
+  ]
+ }
 }

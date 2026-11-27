@@ -44,7 +44,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   beside the post (`read-1127g`, `h`, `i`; the last has severity 1 only), the apply script (`apply_x1127c.py`, with
   W020 in `not_cautions`: the intro's "must" warns of nothing), the cards page (`build_cards_x1127c.py`,
   `REVIEW-X1127C.*`, published to https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 1795823173-9edb, card
-  checked visible in headless Chrome), the questions page (version 1795823180-0856). **In**: P030 with P032 (#339, one
+  checked visible in headless Chrome), the questions page (version 1795823572-1f47); the comparison gate passes (read-1127g's
+  F1.1 is his, question 78). **How it was pushed**: a git bundle of the turn's commits copied to his laptop
+  (`~/claude-acceptance-transfer/neuro-x1127c.bundle`, folder access granted 23:47 UTC), a fresh clone there
+  (`~/claude-acceptance-transfer/joel-articles-neuro-x1127c`), the bundle pulled fast-forward, and `lane_push.py` run there with
+  his GitHub sign-in. **In**: P030 with P032 (#339, one
   window High), P032 (#340, one window High). **Back**: P033, whose one-window-High try (#343) changed what it says
   ("holds the armor in place"; the post: DeltaFosB is the armor); the faithful version reads High, Low 47, High (#346);
   six of six tries used. **The slip**: I ran the comparison read after the checks that put P032 and P033 in, not

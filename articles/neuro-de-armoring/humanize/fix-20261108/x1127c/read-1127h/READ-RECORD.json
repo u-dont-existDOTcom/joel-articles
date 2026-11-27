@@ -48,5 +48,10 @@
    "same_as_original": false
   }
  ],
- "dispositions": {}
+ "dispositions": {
+  "F1.2": [
+   "fixed",
+   "P033 went back to its text before the turn; the card's version opens without \"So\""
+  ]
+ }
 }
