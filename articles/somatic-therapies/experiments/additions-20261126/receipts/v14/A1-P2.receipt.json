@@ -1,0 +1,89 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "ab291940c28747e58572251f30d45f2ebdaece87b62cfb7413f59b4d166ddb07",
+ "text": "It's usually anxiety about the feeling that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you. If you can only handle a little of that anxiety, like most people who try this therapy, you'd get a slower version of it, where the therapist stops to help you settle whenever it climbs.",
+ "section": "Can't Stay With a Feeling?",
+ "reader": "an adult working through the guide who can feel their body by now but slips away from feelings in therapy sessions, deciding whether to look for one of these therapists, which one, and how to vet one",
+ "sentences": [
+  {
+   "s": "It's usually anxiety about the feeling that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+   "payoff": "they learn that anxiety about the feeling is behind the slipping away, and that the therapist watches for it so it doesn't get to be too much",
+   "follows": "it says what the therapy watches while it turns them back"
+  },
+  {
+   "s": "If you can only handle a little of that anxiety, like most people who try this therapy, you'd get a slower version of it, where the therapist stops to help you settle whenever it climbs.",
+   "payoff": "they know a slower version exists, that it's the usual one, and what it does when the anxiety climbs",
+   "follows": "it says what happens when the anxiety the sentence before named is too much",
+   "link": "If you can only handle a little of that anxiety"
+  }
+ ],
+ "checked": [
+  {
+   "point": "ISTDP points out avoidance as it happens and turns the patient back toward the feeling; anxiety about the feeling drives the avoidance; the therapist watches it in tense muscles, sighing and foggy thinking; most patients have low anxiety tolerance and get a graded, slower format",
+   "found": "Abbass 2021, Tidsskrift for Norsk Psykologforening (https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and)",
+   "still_needed": "yes: they picture a session and know they won't be pushed past what they can take",
+   "fate": "changed"
+  }
+ ],
+ "placement": "after the paragraph that names the first therapy; its \"also\" adds the watching to the turning back",
+ "opens": {
+  "first_sentence": "It's usually anxiety about the feeling that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+  "why_reading": "they learn that anxiety about the feeling is behind the slipping away, and that the therapist watches for it so it doesn't get to be too much"
+ },
+ "same_point": "none: read the section from its heading to the next; only this paragraph says what keeps ISTDP bearable",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md and READ-14.md; none found a sentence its reader doesn't need",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-10.md, -11.md, READ-12.md and READ-14.md (draft 9's marks on A3 in READ-HIS-FIXES-9.md, by Sonnet); each acted on",
+  "marked": [
+   {
+    "s": "It's usually anxiety that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+    "difference": "READ-12: \"anxiety\" with no object"
+   },
+   {
+    "s": "Part of how you learn it is by paying close attention to how the pain feels in your body.",
+    "difference": "READ-12: ways 14 and 11, the attention they already pay all day, and the means first"
+   },
+   {
+    "s": "The therapist also watches for signs of the anxiety that's making you slip away, like tense muscles, sighing, or your thinking going foggy.",
+    "difference": "READ-HIS-FIXES-11: anxiety comes in as if said; the watching's purpose comes later"
+   },
+   {
+    "s": "Most people who try this therapy can't take much of that anxiety, so they get a slower version, where the therapist stops to help them settle whenever it climbs.",
+    "difference": "READ-HIS-FIXES-11: \"most people ... they\" leaves the reader outside"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh readers, given tools/humanization/fit_read_brief.md and a contradictions check (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md and READ-14.md; draft 9's in READ-NEEDED-FIT-9.md)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on the reader's case (\"Even once you can feel your body just fine\", \"If it's one feeling\", \"And if what you can't let in\") or on what the therapy does",
+  "Q2": "PASS: look into the therapy; ask what they do when you slip away or get overwhelmed, and whether you can say they read you wrong; keep looking if there's no room",
+  "Q3": "PASS: the anxiety is \"about the feeling\"; the signs are named; \"their answer\" is to those questions",
+  "Q4": "PASS: each therapy is said by what it does in the sentence that names it",
+  "Q5": "PASS: \"For that\", \"It's usually anxiety about the feeling\", \"If you can only handle\", \"And if\", \"Before booking\", \"If there's no room\"",
+  "Q6": "PASS: the case, then three therapies by case, then how to vet one",
+  "Q7": "PASS: each therapy is for a case the reader can recognize",
+  "Q8": "PASS: the three signs are anxiety signs the source names",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

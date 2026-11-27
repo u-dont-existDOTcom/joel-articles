@@ -1,0 +1,207 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "7f46ed6791a6547ddf241265de623fa821e673d5de8a3a47bd96af22de567601",
+ "text": "Maybe pain is what brought you to this guide. If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.\n\nIn Pain Reprocessing Therapy, you learn to treat the pain, though real, as a false alarm, your brain signaling danger where the doctors haven't found any. Part of how you learn that is by paying close attention to how the pain feels in your body without fearing it. Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks.\n\nPain Reprocessing Therapy's first big trial was only in mild to moderate chronic back pain. There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.\n\nThe second therapy is for pain that seems bound up with stress and feelings about the people in your life. Emotional Awareness and Expression Therapy works on the feelings directly. Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.\n\nIn a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. A 30% drop is a lower bar than 0 or 1 out of 10, so the two trials' numbers can't be compared.\n\nI haven't found a trial comparing the two. So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "Maybe pain is what brought you to this guide.",
+   "payoff": "readers in pain recognize that this section is for them",
+   "follows": "it opens the section on the reader's own reason"
+  },
+  {
+   "s": "If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.",
+   "payoff": "they check whether their pain fits and learn two therapies are coming",
+   "follows": "it narrows the section to whose pain it is for",
+   "link": "If yours"
+  },
+  {
+   "s": "In Pain Reprocessing Therapy, you learn to treat the pain, though real, as a false alarm, your brain signaling danger where the doctors haven't found any.",
+   "payoff": "they learn what the first therapy teaches about their pain, told it is real and where the false alarm rests",
+   "follows": "it names the first of the two therapies the paragraph before promised",
+   "link": "none: it opens a new paragraph on the first of the two therapies the paragraph before promised"
+  },
+  {
+   "s": "Part of how you learn that is by paying close attention to how the pain feels in your body without fearing it.",
+   "payoff": "they learn the first thing they'd do in it, and how it differs from the noticing they already do",
+   "follows": "it says how the learning the sentence before named happens",
+   "link": "Part of how you learn that"
+  },
+  {
+   "s": "Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks.",
+   "payoff": "they learn the second thing they'd do: go back to what they have been avoiding",
+   "follows": "it gives the next step after the attention",
+   "link": "Then"
+  },
+  {
+   "s": "Pain Reprocessing Therapy's first big trial was only in mild to moderate chronic back pain.",
+   "payoff": "they learn whether the evidence covers their kind of pain",
+   "follows": "after what the therapy is, the limit of its evidence",
+   "link": "none: it opens a new paragraph on the evidence, naming the therapy again"
+  },
+  {
+   "s": "There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.",
+   "payoff": "they see how big the effect was and that it mostly lasted",
+   "follows": "it gives the trial's result",
+   "link": "There"
+  },
+  {
+   "s": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life.",
+   "payoff": "they learn which pain the second therapy is for",
+   "follows": "it turns to the second of the two therapies",
+   "link": "The second therapy"
+  },
+  {
+   "s": "Emotional Awareness and Expression Therapy works on the feelings directly.",
+   "payoff": "they learn its name and that it works on the feelings",
+   "follows": "it names the therapy for the case just set out",
+   "link": "none: it names the therapy for the case the sentence before set out, the step the reader expects"
+  },
+  {
+   "s": "Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.",
+   "payoff": "they picture what a session asks: letting out held-back feelings and rehearsing a hard conversation",
+   "follows": "it says what working on the feelings means",
+   "link": "Much of the therapy"
+  },
+  {
+   "s": "In a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT.",
+   "payoff": "they learn whom the evidence covers and the result against CBT",
+   "follows": "after what the therapy is, its evidence",
+   "link": "none: it opens a new paragraph on the second therapy's evidence, the step the reader expects after what it is"
+  },
+  {
+   "s": "A 30% drop is a lower bar than 0 or 1 out of 10, so the two trials' numbers can't be compared.",
+   "payoff": "they don't set the two trials' numbers side by side",
+   "follows": "it heads off the comparison the two numbers invite",
+   "link": "A 30% drop"
+  },
+  {
+   "s": "I haven't found a trial comparing the two.",
+   "payoff": "they know no trial says which of the two is better",
+   "follows": "it closes the evidence with the missing comparison",
+   "link": "none: it opens a new paragraph on choosing between the two, after both therapies' evidence"
+  },
+  {
+   "s": "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.",
+   "payoff": "they know which to start with, by what their pain seems tied to",
+   "follows": "with no trial between them, it gives the way to choose",
+   "link": "So"
+  },
+  {
+   "s": "I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+   "payoff": "they know to ask about training and to track it as the guide's last section says",
+   "follows": "it gives the steps after choosing",
+   "link": "I'd also"
+  }
+ ],
+ "checked": [
+  {
+   "point": "PRT: reappraisal of pain sensations and of the beliefs that the pain means harm; a graded return to feared activities; mild to moderate chronic back pain; 66% vs 20% pain-free or nearly, gains largely held at one year",
+   "found": "Ashar et al. 2022, JAMA Psychiatry 79(1):13-23 (https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298): \"guided reappraisal of pain sensations\", \"fear- and avoidance-inducing beliefs\"; NIH Research Matters, 2021-11-02",
+   "still_needed": "yes: they weigh it for their own pain",
+   "fate": "changed"
+  },
+  {
+   "point": "EAET: emotional expression and role-play of hard conversations; 126 veterans aged 60 to 95 with muscle and joint pain; 63% vs 17% with at least 30% less pain",
+   "found": "Yarns et al. 2024, JAMA Network Open (https://clinicaltrials.gov/study/NCT03918642)",
+   "still_needed": "yes: they weigh it for their own pain and age",
+   "fate": "kept"
+  },
+  {
+   "point": "no trial compares PRT and EAET",
+   "found": "the research lane's search and mine, 2026-11-26: none found",
+   "still_needed": "yes: they choose by their own pain instead of by a winner",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the whole new section, an h1 after Layer 5's last paragraph, before the optional high-intensity practices, so it isn't read as part of Layer 5",
+ "opens": {
+  "first_sentence": "Maybe pain is what brought you to this guide.",
+  "why_reading": "readers in pain recognize that this section is for them"
+ },
+ "same_point": "none: read the section from its heading to the next; each paragraph makes its own point (whose pain; PRT; its evidence; EAET; its evidence; how to choose)",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md and READ-12.md; none found a sentence its reader doesn't need",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-10.md, -11.md and READ-12.md (draft 9's marks on A3 in READ-HIS-FIXES-9.md, by Sonnet); each acted on",
+  "marked": [
+   {
+    "s": "There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "I haven't found a trial comparing the two.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "It's usually anxiety that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+    "difference": "READ-12: \"anxiety\" with no object"
+   },
+   {
+    "s": "Part of how you learn it is by paying close attention to how the pain feels in your body.",
+    "difference": "READ-12: ways 14 and 11, the attention they already pay all day, and the means first"
+   },
+   {
+    "s": "The therapist also watches for signs of the anxiety that's making you slip away, like tense muscles, sighing, or your thinking going foggy.",
+    "difference": "READ-HIS-FIXES-11: anxiety comes in as if said; the watching's purpose comes later"
+   },
+   {
+    "s": "Most people who try this therapy can't take much of that anxiety, so they get a slower version, where the therapist stops to help them settle whenever it climbs.",
+    "difference": "READ-HIS-FIXES-11: \"most people ... they\" leaves the reader outside"
+   }
+  ],
+  "kept": {
+   "There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in a Human High window there, so it stays word for word",
+   "I haven't found a trial comparing the two.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in the Medium window of 34 words, whose turn comes after the Low windows",
+   "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in the Medium window of 34 words; the readers' fix (naming the two therapies) is the next change for that window once the Low windows read High",
+   "I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in a Human High window there (\"that therapy\" is the one you picked, as the sentence before says)"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh readers, given tools/humanization/fit_read_brief.md and a contradictions check (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md and READ-12.md; draft 9's in READ-NEEDED-FIT-9.md)",
+  "marked": [
+   {
+    "s": "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.",
+    "found": "see kept"
+   }
+  ],
+  "kept": {
+   "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); READ-NEEDED-FIT-9, 11 (the \"So\", and back pain only): the choice rests on the sentence before (no trial between them) and on what each is for, said in each paragraph; the next small change in its window"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the case first, then each therapy by what you do in it, its evidence limit first",
+  "Q2": "PASS: start with the one that fits; ask about training; track it",
+  "Q3": "PASS: \"mild to moderate chronic back pain\", \"veterans aged 60 and up\", \"0 or 1 out of 10\"",
+  "Q4": "PASS: \"false alarm\" is said in the sentence that uses it",
+  "Q5": "PASS: \"Part of how you learn that\", \"Then\", \"There\", \"The second therapy\", \"So\"",
+  "Q6": "PASS: whose pain, therapy one and its evidence, therapy two and its evidence, how to choose",
+  "Q7": "PASS: their pain and their choice",
+  "Q8": "N/A: no list of items",
+  "Q9": "PASS: the false alarm and how you learn it are two sentences"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "64c72572a452082750f830dd2edd6f3bf33e275cfeb7dd27affe7426eb262ba6",
+ "text": "I haven't found a trial comparing the two therapies. So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "I haven't found a trial comparing the two therapies.",
+   "payoff": "they know no trial says which of the two is better",
+   "follows": "it closes the evidence with the missing comparison"
+  },
+  {
+   "s": "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.",
+   "payoff": "they know which to start with, by what their pain seems tied to",
+   "follows": "with no trial between them, it gives the way to choose",
+   "link": "So"
+  },
+  {
+   "s": "I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+   "payoff": "they know to ask about training and to track it as the guide's last section says",
+   "follows": "it gives the steps after choosing",
+   "link": "I'd also"
+  }
+ ],
+ "checked": [
+  {
+   "point": "no trial compares PRT and EAET",
+   "found": "the research lane's search and mine, 2026-11-26: none found",
+   "still_needed": "yes: they choose by their own pain instead of by a winner",
+   "fate": "kept"
+  }
+ ],
+ "placement": "last in the section, before the optional high-intensity practices; how to choose between the two",
+ "opens": {
+  "first_sentence": "I haven't found a trial comparing the two therapies.",
+  "why_reading": "they know no trial says which of the two is better"
+ },
+ "same_point": "none: read the section from its heading to the next; the other paragraphs say what each is and its evidence",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md and READ-14.md; none found a sentence its reader doesn't need",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-10.md, -11.md, READ-12.md and READ-14.md (draft 9's marks on A3 in READ-HIS-FIXES-9.md, by Sonnet); each acted on",
+  "marked": [
+   {
+    "s": "I haven't found a trial comparing the two therapies.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+    "difference": "see KEEP"
+   },
+   {
+    "s": "It's usually anxiety that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+    "difference": "READ-12: \"anxiety\" with no object"
+   },
+   {
+    "s": "Part of how you learn it is by paying close attention to how the pain feels in your body.",
+    "difference": "READ-12: ways 14 and 11, the attention they already pay all day, and the means first"
+   },
+   {
+    "s": "The therapist also watches for signs of the anxiety that's making you slip away, like tense muscles, sighing, or your thinking going foggy.",
+    "difference": "READ-HIS-FIXES-11: anxiety comes in as if said; the watching's purpose comes later"
+   },
+   {
+    "s": "Most people who try this therapy can't take much of that anxiety, so they get a slower version, where the therapist stops to help them settle whenever it climbs.",
+    "difference": "READ-HIS-FIXES-11: \"most people ... they\" leaves the reader outside"
+   }
+  ],
+  "kept": {
+   "I haven't found a trial comparing the two therapies.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in the Medium window of 34 words, whose turn comes after the Low windows",
+   "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in the Medium window of 34 words; the readers' fix (naming the two therapies) is the next change for that window once the Low windows read High",
+   "I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); it sat in a Human High window there (\"that therapy\" is the one you picked, as the sentence before says)"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh readers, given tools/humanization/fit_read_brief.md and a contradictions check (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md and READ-14.md; draft 9's in READ-NEEDED-FIT-9.md)",
+  "marked": [
+   {
+    "s": "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.",
+    "found": "see kept"
+   }
+  ],
+  "kept": {
+   "So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first.": "A3 is the near miss he approved on the card (Mostly Human, 3% AI, https://www.pangram.com/history/2ead9bf4-482d-487d-bb34-b40ceb60f1e3): one or two words a check (lesson bad-trips-2026-11-19b); READ-NEEDED-FIT-9, 11 (the \"So\", and back pain only): the choice rests on the sentence before (no trial between them) and on what each is for, said in each paragraph; the next small change in its window"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the case first, then each therapy by what you do in it, its evidence limit first",
+  "Q2": "PASS: start with the one that fits; ask about training; track it",
+  "Q3": "PASS: \"mild to moderate chronic back pain\", \"veterans aged 60 and up\", \"getting your pain down to 0 or 1 out of 10\"",
+  "Q4": "PASS: \"false alarm\" is said in the sentence that uses it",
+  "Q5": "PASS: \"Part of how you learn that\", \"Then\", \"There\", \"The second therapy\", \"So\"",
+  "Q6": "PASS: whose pain, therapy one and its evidence, therapy two and its evidence, how to choose",
+  "Q7": "PASS: their pain and their choice",
+  "Q8": "N/A: no list of items",
+  "Q9": "PASS: the false alarm and how you learn it are two sentences"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
