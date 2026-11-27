@@ -9677,7 +9677,7 @@
         },
         {
           "path": "articles/somatic-therapies/experiments/additions-20261126/RESULTS.md",
-          "sha256": "7699f522d035c2ded6022526ec131c03ef99b88fbedc182020ade17fee94bfb0",
+          "sha256": "5c9f5c5dfd12dee0d50f4b8fd6f17e623c02009fa54465927d31bf1ecd6c98c7",
           "role": "detector_experiment_result"
         },
         {
@@ -9987,7 +9987,7 @@
         },
         {
           "path": "articles/somatic-therapies/humanize/pangram-ledger.jsonl",
-          "sha256": "e0b3bd9ea1eab6f57842ef8461e0e8870435f856fd5b8036737b4620ecc8e04d",
+          "sha256": "3d94cb615a19294a79803c78c844cab72d7150b32d7325d038b9b94dc5074591",
           "role": "humanization_working_record"
         },
         {
@@ -11838,6 +11838,126 @@
         {
           "path": "articles/somatic-therapies/experiments/additions-20261126/texts/v29/A1-SEC.txt",
           "sha256": "b2888784b2e705ced3709dabb6872091f017f7992d7d02a87fa7db1da76827aa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/ADDITIONS-30.json",
+          "sha256": "cdd3002cbae8461cf06d84c88eda87597c4e28dbafba040de8388e697b4e8e84",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/build_cards_c1127b.py",
+          "sha256": "952a2f2303d6502385431efbbbff9d9d23f53d613c78d8405632d83854bfc7f8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/fill_receipts_v30.py",
+          "sha256": "a470959060a725a791cc8862cd4ca8d65cc4a174713bf78098ed6038e1e420b8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/pangram/RESULTS-add1127-16.json",
+          "sha256": "306b65610a4cf1bcd96276091cfb76685953236c58c1d9062115653a7aa28136",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/READ-30.md",
+          "sha256": "90ab5bad64e876f774e1e531847355a8e75ab0ca708584dee8512f72eab4aa73",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/drafts30-numbered.txt",
+          "sha256": "253855f68408553a18a4ef50966175be0cc198fff8e74a1e8ec1911f7bfe48d8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/receipts/v30/A1-SEC.receipt.json",
+          "sha256": "d6d00c2808e4e63dfae1e2a3fd750593fb1f58499d8f9c1d489d44754fe2355a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/ARTICLE-SOMATIC.md",
+          "sha256": "c6018d2901cadaae276146aa65ad48b0aa66e931ce51c643d82628f229ead467",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/CARDS-A1.md",
+          "sha256": "726276cc371a6ec8572b848b470a1d8e61a8dd1226a8ddd6bb9c0fa5417e2ea8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/REVIEW-A1-artifact.html",
+          "sha256": "f0135b9d89c93908091e64567f65c90fbe12334b55a9ba57d5f7a9aed20287ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/REVIEW-A1.html",
+          "sha256": "cbb90b7378791a107ebdd57cee8c3c8cc34cfe33b1364fea03c0cd601b9c0de9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/REVIEW-A1.json",
+          "sha256": "fc7a1cd4957976569137b54220bc6d7f3e23b677ef27bd7573ac7b61d5df06e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P1.receipt.json",
+          "sha256": "2ff5eec12e99b52f52c3873bfebe396d045ecbdaeef717029097b4d71e747972",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P1.txt",
+          "sha256": "c14102e51b8dac2dbb459c5add4a0f0db20a7ba717e5a2475f2cd0bd32486d44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P2.receipt.json",
+          "sha256": "cc137f4838182f2422d487a755479ae19e424a6955bbf6781a7eb362de1a8780",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P2.txt",
+          "sha256": "a7113c316d245a526b3eb0a048128df9fdb94235d010cc640217ffb15149b901",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P3.receipt.json",
+          "sha256": "2d2c0b91aae86d0f11014fb4b8256a2cb33de0f845f8c0eef1f89f580ee166b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P3.txt",
+          "sha256": "cae6b13f40371c2119083f5674ad40c430486428a93ff96cbb15cfccb54e3059",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P4.receipt.json",
+          "sha256": "f73e9c35a3797d302f8bd51f4224633eca15fac52b0e8a28a77e756f0e565fbe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P4.txt",
+          "sha256": "1600bc1ad6fd35a1bb8ead1c55c2f0936d04aa64b379d274debdaab6a948c6c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P5.receipt.json",
+          "sha256": "f8ae49519eb98aa2f2c730cc52b0f1c7a497d23b16b77507a7f6c3248ee1c10b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P5.txt",
+          "sha256": "83b35510c8427f3525c818ce21cf901677b549eb195519f089cf6748a2da4f75",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/scripts/make_draft30.py",
+          "sha256": "ea4644c3e07be5811e37ca0e6fc821053c93848fe330b74dcaa75cd2c60e59c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/texts/v30/A1-SEC.txt",
+          "sha256": "ca04525b7f595d6e555a6133f8d5c7154d90bdaa711cec073d94c48f9dec2b8c",
           "role": "humanization_working_record"
         }
       ]
