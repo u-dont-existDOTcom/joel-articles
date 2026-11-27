@@ -1,0 +1,30 @@
+{
+ "pair2223-s3": {
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "name": "The Anti-Breakthrough with the practice sentence, the last try: from the near miss, \"I'd do\"",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nIn practice, I'd do 30 seconds of slow breathing, twenty times a day.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW22-23-6.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-pair2223/PANEL.md",
+  "diagnosis": "the near miss (#313) read Medium over the Anti-Breakthrough's last sentence with \"In practice, that means 30 seconds ...\"; two steps that changed the practice sentence more read worse (#315 AI, #316 Low); this one changes only \"that means\", which says what something means right after \"what I mean by\", into his advice (\"I'd do\")",
+  "decides": "whether it goes in; below High, the pair's tries are spent and the practice sentence goes to him as a teaching card with the tries",
+  "tells": "\"In practice,\" before his advice",
+  "first_fix": "payoff: the sentence says what the reader does; join: \"In practice\" ties it to the doses just named; plain: \"I'd do\" for \"that means\", no meaning said twice",
+  "humanized": "the near miss's practice sentence with \"I'd do\" for \"that means\""
+ },
+ "sw19-s4": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, step 4 from #312: the closing figure said plainly",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will feel worse than it did with the armor on. Gather a tribe of people you're close to and see most days, or you'll eventually reach for the armor again just to get through the loneliness.",
+  "chance": 0.35,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S4.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "step 2 (#312), the lineage's best near miss, read AI High over its last sentence; the panel called \"just to survive the cold\" a dramatic closing image, and the fresh read of my rewrite called \"the cold\" a new label for the loneliness; this step says it plainly and changes nothing else",
+  "decides": "whether the last sentence moves; either way the near-miss steps from #312 are then spent, and the last try is the rewrite (texts_x1127b.STEP['sw19-r1'], with its read)",
+  "tells": "the before-and-after sentence still alone; \"Gather a tribe ..., or you'll ...\" an order with a threat",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"the loneliness\" for \"the cold\"",
+  "humanized": "step 2 with its closing figure said plainly"
+ }
+}

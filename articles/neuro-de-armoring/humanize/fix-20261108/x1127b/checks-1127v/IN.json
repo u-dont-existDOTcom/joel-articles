@@ -1,0 +1,16 @@
+{
+ "sw19-s5": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, step 5 from #317: \"will tend to feel worse\"",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. Gather a tribe of people you're close to and see most days, or you'll eventually reach for the armor again just to get through the loneliness.",
+  "chance": 0.4,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S5.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "step 4 (#317), the best yet, read AI Low over the last two sentences; the panel called the before-and-after sentence a flat prediction stated as settled fact, and his fix of the Cognitive Warning said such a thing as a tendency (\"you'll tend to\"); one change, two words",
+  "decides": "whether the last two sentences move out of AI; the next step, if any, is the order with a threat in the last",
+  "tells": "\"Gather a tribe ..., or you'll ...\" an order with a threat, unchanged",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"will tend to feel worse\" for a flat \"will feel worse\"",
+  "humanized": "step 4 with the before-and-after sentence said as a tendency"
+ }
+}

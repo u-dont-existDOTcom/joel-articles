@@ -1,0 +1,3 @@
+## The underpinnings paragraph, his card version of 2026-11-03
+
+Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.

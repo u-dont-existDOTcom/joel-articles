@@ -1,0 +1,16 @@
+{
+ "sw21-s3": {
+  "lineage": "neuro-de-armoring/P-SW21",
+  "scope": "paragraph",
+  "name": "The underpinnings paragraph, step 3 from #324: HDAC inhibition said with the ketones",
+  "text": "Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that works like a metabolic solvent that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB, which block HDACs) so we can dig under the house and pour a new foundation, and eventually work on the psychology upstairs.",
+  "chance": 0.3,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW21-S3.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw21-s2/PANEL.md",
+  "diagnosis": "step 2 (#324), the best near miss, read Human Low over the first sentence and AI Low over the second; the reads: a reader can't tell which of the solvent, the HDAC inhibition and the ketones does what; BHB is what blocks the HDACs (section C), so this step moves the HDACs to the ketones, a move and two words",
+  "decides": "whether saying which does what moves the second window; one more small step, then the rewrite (texts_x1127b.STEP['sw21-r1'], read and receipted)",
+  "tells": "the first sentence's \"X, not Y\"; the second still one chain of clauses",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"(BHB, which block HDACs)\" says what the ketones do, where \"via HDAC inhibition\" hung off the solvent",
+  "humanized": "step 2 with the HDAC inhibition said where the ketones are"
+ }
+}

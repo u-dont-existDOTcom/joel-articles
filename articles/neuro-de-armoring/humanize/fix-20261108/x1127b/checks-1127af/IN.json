@@ -1,0 +1,15 @@
+{
+ "sw16-17": {
+  "lineage": "neuro-de-armoring/PAIR-SW16-17",
+  "scope": "pair",
+  "name": "The \"Underpinning\" Principle as step 2 has it, with the paragraph before it",
+  "text": "Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the \"code\" (your thoughts and behaviors), while the \"motherboard\" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after 5 specific neuro-biological problems (A to E below) before you go working on the psychology (well, alongside).\n\nThe \"Underpinning\" Principle: Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling, and you can't hang curtains in a collapsing house.",
+  "chance": 0.7,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW16-17-S2.receipt.json",
+  "diagnosis": "step 2 of PAIR-SW17-18 (#327) read the whole Principle High; its one Medium window was the Gibson paragraph's opening question, which opens the part under its own heading (left out of that pair) and reads High in its own paragraph (#261); the Principle's neighbour in its own part is the paragraph before it, his version, High by itself (#259)",
+  "decides": "whether the Principle goes in: a pair check of it with its neighbour, every window High",
+  "tells": "S2's two glosses at the same place (the read against his fixes)",
+  "first_fix": "payoff: unchanged from step 2; join: the curtains line joined to the sentence it draws on; plain: \"Bruce Perry\" without the title, the label marked off by a colon",
+  "humanized": "the post's Principle with \"Dr.\" off, the label marked off and the curtains line joined (PAIR-SW17-18 steps 1 and 2)"
+ }
+}

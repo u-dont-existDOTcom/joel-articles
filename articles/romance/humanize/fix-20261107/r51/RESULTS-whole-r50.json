@@ -1,0 +1,57 @@
+{
+ "about": "His whole-article check of the r50 draft A (pasted 2026-11-27 19:55 UTC), with his Pangram extension, 2026-11-27 20:11:27 UTC (15:11 New York time in Pangram's record); read back from the feed's API (web.pangram.com/api/feed/view/<id>) in the built-in browser. Its text is the r50 draft A's rendered text exactly (SHA-256 0e9e7cb6..., whole/DRAFTS.json \"r50\"). Draft B stands at its r49 check (r50/RESULTS-whole-r49.json: six windows, all Human High), its text unchanged. Windows: [label, confidence, Pangram's word count, first words ... last words]. Model 4.1.",
+ "A": {
+  "link": "https://www.pangram.com/feed/0795a354-3a4a-47b7-be7e-e6a6867ce8a1",
+  "headline": "Human Written",
+  "document_confidence": "High",
+  "ai_fraction": 9.171810337885474e-22,
+  "text_sha256": "0e9e7cb66f43906f3ed8d08d83b1537b9a09312aa17cc06f92383c6001d7433b",
+  "chars": 61994,
+  "segments": 1,
+  "windows": [
+   [
+    "Human",
+    "High",
+    1780,
+    "I asked my dad about sex ... you too. Congratulations, now it’s mutual."
+   ],
+   [
+    "Human",
+    "High",
+    1730,
+    "A lot of “I only want ... were both the same age. 😜"
+   ],
+   [
+    "Human",
+    "High",
+    1756,
+    "It’s reasonable for a woman to ... the missing middle I’m talking about."
+   ],
+   [
+    "Human",
+    "High",
+    1757,
+    "Well, it didn’t exactly solve the ... who used to say I was."
+   ],
+   [
+    "Human",
+    "High",
+    1781,
+    "I’ve learned to get nervous when ... to be co-created between particular people."
+   ],
+   [
+    "Human",
+    "High",
+    1750,
+    "The strangest part was that Bee’s ... functional, then I’ve made her Mom."
+   ],
+   [
+    "Human",
+    "High",
+    560,
+    "All three women told me at ... Pillars Don’t Hold The Roof Up."
+   ]
+  ]
+ },
+ "medium": "None. The two one-sentence segments of r49 (live 20's last line, live 33's first) are gone: all seven windows share one AI likelihood (1.01e-21), one segment (lesson romance-2026-11-27b)."
+}

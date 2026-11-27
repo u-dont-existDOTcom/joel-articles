@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` is 1d94ed03 after his message of 2026-11-27 19:17 UTC: his versions on cards W-LMA-73A (the herbs warning) and W-COG-SEC (the Cognitive Warning and the paragraph after it) in as he checked them, each Human High in one window; no question open and no card waiting; next, the rest of "Psychology is the Software; Biology is the Hardware." (`humanize/HANDOFF-neuro-de-armoring.md`).
+`humanize/HUMANIZED-SO-FAR.md` is f8bfa190 after his message of 2026-11-27 20:08 UTC (the underpinnings paragraph and the "Underpinning" Principle in at Human High; the one-sixteenth paragraph and the daily practice reached one Medium window each and are cards W-SW19 and W-SW23), and since his message of 2026-11-27 19:17 UTC: his versions on cards W-LMA-73A (the herbs warning) and W-COG-SEC (the Cognitive Warning and the paragraph after it) in as he checked them, each Human High in one window; no question open and no card waiting; next, the rest of "Psychology is the Software; Biology is the Hardware." (`humanize/HANDOFF-neuro-de-armoring.md`).
 
 `humanize/HUMANIZED-SO-FAR.md` is e0a76c6a after his message of 2026-11-27 17:21 UTC: his 76 in with his reason, Human High by itself; the warnings section Human Written with one Medium window; the cards page fixed (its cards had been folded away); no question open (`humanize/HANDOFF-neuro-de-armoring.md`).
 

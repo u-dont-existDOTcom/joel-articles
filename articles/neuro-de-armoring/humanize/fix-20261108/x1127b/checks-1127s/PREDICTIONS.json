@@ -1,0 +1,24 @@
+[
+ {
+  "key": "sw19-s3",
+  "name": "The one-sixteenth paragraph, step 3: its last two sentences",
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "words": 83,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "see the ledger record",
+  "sha256": "ed14f1c736796f8c42c15fffcd7043b39c0651431d3691c00bdd48ab868aa180"
+ },
+ {
+  "key": "pair2223-s1",
+  "name": "The Anti-Breakthrough with the practice sentence, step 1 from its near miss",
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "words": 93,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "5c6cc2228f5a0133baea337ac3319240485077b7f35ad6a3ace7e22574859653"
+ }
+]
