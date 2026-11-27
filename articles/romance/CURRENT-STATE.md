@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-26
+Updated: 2026-11-27
 
 ## Goal
 
@@ -318,11 +318,26 @@ with his OK and no email.
   that line starts where the heading starts. No card, label or rule changes. 104 browser checks, run twice. Put to him:
   the same rule on the "What is this answer based on?" step (my recommendation: apply it). The file went to him.
   Nothing in the article changed. Lesson romance-2026-11-26d (the biggest text says what the screen is about).
+- 2026-11-27 (15:45 UTC, `humanize/fix-20261107/r47/`): "YES" to the evidence step. The game's v0.9.2: step 2, for two
+  people and for one, opens with its heading "What is this answer based on?", the biggest text; the card's question is
+  under it, smaller, after "Your answer to"; the instruction keeps its words as the line above the labels. No card,
+  label or rule changes. Seven deliberate breakages caught; 146 browser checks (43 new), run twice. The file and a
+  before-and-after picture went to him, and the game as a private page of this account. Nothing in the article
+  changed. No lesson: his answer took the recommendation as it was.
+- 2026-11-27 (16:17 UTC, `humanize/fix-20261107/r48/`): playing alone, he found it "weird" that the question came back
+  a third time. The game's v0.9.3: one person answers on step 1, aloud or in writing, then labels what the answer rests
+  on, then the follow-up; the couples' game unchanged. Seven deliberate breakages caught; 156 browser checks, run
+  twice. The file, a step-by-step picture and the republished page went to him. At his "add that uda rule and any other
+  lessons for uda": universal-dev-architecture draft pull request 506 (the chat-frame testing rule owed since
+  2026-11-25, approval batches read for him, judged items whole, corrections to every copy) and four items in the
+  design repository's lane. Nothing in the article changed. Lesson romance-2026-11-27a (a carried-over step stays only
+  where its reason holds).
 
 ## Next step
 
-His word on the game's v0.9.1 and on the evidence step (`r40/CARD-GAME.md`, "Still to do"; `r46/README.md`). Then the pull request is merged, the
-innerself site vendors the file, and the site is deployed with his go-ahead. From now on, a turn that changes the article
+His OK on a version of the game (v0.9.3 carries v0.9.1's and v0.9.2's changes), or his changes to it
+(`r40/CARD-GAME.md`, "Still to do"; `r48/README.md`). Then the pull request is merged, the innerself site vendors the
+file, and the site is deployed with his go-ahead. From now on, a turn that changes the article
 checks the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else is pending: the drafts pasted
 again for his whole-article check (not before: "no point checking the drafts until we are done"), then his post updated
 with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, his new opening's video and

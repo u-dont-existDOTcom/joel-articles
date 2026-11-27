@@ -1,5 +1,28 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-27, his message of 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b in; 73a a teaching card
+
+His message word for word: `fix-20261108/joel-20261127-1545-message.txt`. **The mailbox** ("2026-11-27 15:45"): UDA
+unreachable this turn (add_repo refused by the session's auto-mode check; a WebFetch approval unanswered), so the
+bootstrap was NOT_LOADED; main merged first (87e90c44: somatic 555 with lesson somatic-2026-11-27a, Pangram never needs
+his experience; romance and bad trips); pull request 545 unchanged; no new comments or issues; no notifications. This
+session ran in his other account, which can't read last turn's pages.
+
+- **In** (`fix-20261108/x1127a/apply_x1127a.py`, `APPLIED-X1127A.json`; HUMANIZED-SO-FAR.md baa77e2d to 2257d52f): 74b, his
+  Precautions "on the same day as" (#291, Human High in one window). Fidelity PASS (an owner_changes entry), keep-as-is
+  PASS (K5, his 74b).
+- **The section**: #301 Human Written, 0.0% AI, the same two Medium windows as #289 (the Cognitive Warning and the faces
+  sentence).
+- **Not in**: 73a and his line (card W-LMA-73A, `fix-20261108/x1127a/REVIEW-X1127A.md`,
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn): #292 to #295 (W-LMA-73a) AI; #296 to #300 (W-LMA-his) from Human
+  Low and AI Low to High then Medium (#299, my best) and one window Medium (#300).
+- **Question 76** ("(will reduce tolerance)"), from the fresh Fable reads of his Precautions with 74b in.
+- **The Psychology section's pass**: the Anti-Breakthrough in (HUMANIZED-SO-FAR.md 2257d52f to 1ab352b7): #302 ("Dr." off,
+  High 62 and Medium 22), #303 (its last sentence joined, one window, High); comparison read `fix-20261108/x1127a/read-1127b`.
+- **Lessons neuro-2026-11-27a to e** (`docs/lessons/2026-11-27-1545-neuro.md`).
+- **What is left**: `LEFT.md`: 141 paragraphs, 28 Human High by themselves, 62 below, 51 never checked as they stand.
+- **Waiting on him**: question 76, cards W-LMA-73A and W-COG-SEC.
+
 ## 2026-11-27, his message of 2026-11-26 23:30 UTC ("72a"): every label folded in; the warnings section from Mostly Human to Human Written
 
 His message word for word: `fix-20261108/joel-20261126-2330-message.txt`. **The mailbox** ("2026-11-26 23:30"): UDA

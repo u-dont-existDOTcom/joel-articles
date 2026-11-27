@@ -1,0 +1,31 @@
+{
+ "about": "his answers \"73 a  but i also can't recommend starting them 74 b\" of 2026-11-27 15:45 UTC (fix-20261108/joel-20261127-1545-message.txt): 73a and his line in the herbs warning, 74b in his Precautions",
+ "runs": [
+  {
+   "applied": [
+    {
+     "key": "prec",
+     "whose": "his own Precautions paragraph, with his 74b (\"on the same day as\")",
+     "check": "my check, this turn: https://www.pangram.com/history/df64f39b-0778-436c-a650-efe5d3bfbda5 (Human Written, one window, High, 91 words)",
+     "old": "Do not use agmatine concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+     "new": "Do not use agmatine on the same day as opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues."
+    }
+   ],
+   "before_sha256": "baa77e2d78e8bcaaca9a36f5ff3e7c3cf4e64ea7c2ccca45db227c2564e73275",
+   "after_sha256": "2257d52feb7b53b86538b6b6d48fff56db6348bbb02876e19e5114acdc4955ca"
+  },
+  {
+   "applied": [
+    {
+     "key": "sw22",
+     "whose": "mine: my version of the post's Anti-Breakthrough (texts_x1126b.NEW['sw22'], fixed for sense from the fresh reads x1126b/v1), \"Dr.\" off and its last sentence joined",
+     "check": "my check, this turn: https://www.pangram.com/history/31905039-057d-4b64-9c9e-5dbde18dadef (Human Written, one window, High, 81 words; P-SW22 try 4); comparison read x1127a/read-1127b (one finding, severity 1, kept)",
+     "old": "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the \"hour-long breakthrough.\" A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix. Dr. Perry's data indicates the \"therapeutic window\" for a dysregulated brain is often only seconds long.",
+     "new": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here."
+    }
+   ],
+   "before_sha256": "2257d52feb7b53b86538b6b6d48fff56db6348bbb02876e19e5114acdc4955ca",
+   "after_sha256": "1ab352b77d0389111d3b07786b5a22ec222b5c621081b8a9decb25ab6f7ed3a2"
+  }
+ ]
+}

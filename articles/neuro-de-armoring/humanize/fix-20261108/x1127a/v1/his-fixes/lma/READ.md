@@ -1,0 +1,8 @@
+MARKED:
+- S1: 1 — three ideas in one sentence (can't recommend, why people take them, what some report), with the "even though" clause as an aside between commas; his way gives the popularity its own clause or drops it, so the sentence runs straight from "can't recommend" to the reason.
+- S1: 4 — "sexual dysfunction" is a category word next to a glossed "anhedonia", and "long after" gives no idea of how long; his way says what happens (what stops working) and roughly how long people say it lasts.
+- S2: 10 — "it's the same kind of thing" has a singular "it" after the plural "are rare" and names nothing; "if you take either" sits right after "SSRIs and finasteride", so a quick reader can take "either" as those two drugs, and "stop it" inherits the doubt. His way names them: "if you take either herb, stop taking it".
+- S2: 12 — the "So" doesn't follow. S1 says the effects last long after people stop, so why would stopping help? Nothing in the text says stopping at the first sign may keep it from lasting; that link is missing. Nothing either says "post-ashwa and post-lion's mane syndrome" is what S1 just described.
+- S2: 21 — "Post-ashwa and post-lion's mane syndrome" is a label dropped in unexplained, and "the same kind of thing SSRIs and finasteride can do" points at a comparison without saying what those drugs do (the same loss of pleasure and sexual function that stays after stopping); his way says the thing itself.
+- S2: 8 — "so if you take either, stop it if you notice ..." stacks two ifs; his way has one condition and the act ("so if you take either herb and notice ..., stop").
+- S2: 7 — the stop sign names only "less pleasure or desire"; the sexual dysfunction from S1 is left out of what the reader should watch for.

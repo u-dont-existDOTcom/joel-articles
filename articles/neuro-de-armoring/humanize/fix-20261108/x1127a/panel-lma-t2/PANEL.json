@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I can't recommend starting lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (little pleasure or desire) and sexual dysfunction long after they stop taking them.",
+  "Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already taking either herb, I'd stop the moment you notice less pleasure or desire than before you started, or any sexual problems."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "fable": [
+   "Both sentences are long and built the same way, each a chain of evenly weighted clauses (verdict, concession, reason; then caveat, comparison, condition, instruction) joined by \"even though\", \"because\", \"but\", \"so if\", with nothing left out and nothing out of order. That completeness and the matched length of the two sentences read more machine-made than any single phrase does."
+  ],
+  "haiku": [
+   "Each sentence is a long, evenly balanced stack of clauses that resolves on a neat note, so the paragraph reads polished and argument-shaped rather than like a person talking through a worry. The risk, the analogy and the advice arrive in an orderly sequence that feels assembled."
+  ],
+  "sonnet": [
+   "The paragraph is two long, evenly built sentences, each packing a claim, a hedge and a consequence, so the rhythm is smooth and uniform with no digression or uneven beat. It also moves in a tidy warning, qualifier, instruction order that feels templated."
+  ]
+ },
+ "human_clean": []
+}

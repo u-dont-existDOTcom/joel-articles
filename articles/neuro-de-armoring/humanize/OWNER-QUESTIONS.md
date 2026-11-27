@@ -1,9 +1,10 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-27, after your message of 2026-11-26 23:30 UTC ("72a").
-**Open questions: 2** (73, 74). **For you to do**: one card on [the cards page](https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA)
-(the same card in Git: [REVIEW-X1126C.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/REVIEW-X1126C.md)): the Cognitive Warning and the paragraph after it,
-the only place the warnings section still reads below High.
+Last updated 2026-11-27, after your message of 2026-11-27 15:45 UTC ("73 a  but i also can't recommend starting them
+74 b").
+**Open questions: 1** (76). **For you to do**: two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)
+(the same cards in Git: [REVIEW-X1127A.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.md)): the herbs warning with your 73a, and the Cognitive
+Warning. The second is also on last turn's page in your other account; answer it on either.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -12,36 +13,57 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-Both come from fresh readers of your own versions, read this turn after the fold; I changed nothing in them but the
-label, as they are your words.
+**🟣 76. "(will reduce tolerance)" in your Precautions: say what it means for the reader?** Three fresh readers of your
+Precautions with 74b in, one of them a reader who takes kratom some days, took "(will reduce tolerance)" as a plus
+(needing less) or couldn't tell whose tolerance to what. The danger is that a usual opioid or kratom dose hits harder.
 
-**🟣 73. Lion's mane and ashwagandha: stop them, or only don't start?** A fresh reader who already takes lion's mane
-couldn't tell from "I'm not advising lion's mane or ashwagandha" whether to stop, and found nothing to do in "it's
-something to keep in mind". The same reader took "anhedonia (no desire)" as low sex drive alone; anhedonia is losing the
-ability to feel pleasure, wanting included.
-
-- a) Say what to watch for, the way your agmatine paragraph does ("stop it right away if you notice you're flatter"):
-  "... so if you take either, stop it if you notice you feel less pleasure or desire than before", and gloss
-  "anhedonia (little pleasure or desire)". (My pick: it gives the reader something to do, and it matches your agmatine
-  stop signs.)
-- b) Say only not to start them: "I wouldn't start lion's mane or ashwagandha, even though ...".
-- c) Keep it as it is.
-
-**🟣 74. Your Precautions: how far apart is "concurrently"?** A fresh reader who takes kratom some days couldn't tell how
-far apart counts as "concurrently" (the same day? the same weeks?), and found nothing to do in "Use with extreme
-caution".
-
-- a) "Do not use agmatine in the same weeks as opioids and/or kratom ..." (My pick: agmatine is optional, so the
-  stricter reading costs a reader only the add-on, and they can't tell which you meant.)
-- b) "on the same day as".
-- c) Keep "concurrently".
-- And for "Use with extreme caution": add "and ask your doctor first" (my pick), or keep it.
+- a) "(it lowers your tolerance, so your usual dose can hit harder)" (My pick: it says the danger in the reader's terms,
+  where the reader is the one who takes the dose.)
+- b) Keep "(will reduce tolerance)".
 
 ## For you to do
 
-- 🟠 **The card on [the cards page](https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA)**: the Cognitive Warning and the paragraph
-  after it ([the card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/REVIEW-X1126C.md)). By themselves they read Human High; in the section two windows over
-  them read Human Medium, and my tries for the pair are spent this turn. Your version, the join I tried, or leave them.
+- 🟠 **Two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.md)):
+  - **W-LMA-73A**: your herbs warning with 73a and your line. My best reads High over your first sentence and Medium
+    over the second; your version, my best as it reads, or leave it.
+  - **W-COG-SEC**: the Cognitive Warning and the paragraph after it, the same card as last turn's: the section's two
+    Medium windows are still there after 74b.
+
+## Your message of 2026-11-27 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"), and what I did
+
+- 🟢 **74b is in**: "Do not use agmatine on the same day as opioids and/or kratom ..." ([what went
+  in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/APPLIED-X1127A.json)); by itself it reads [Human Written, one window, High](https://www.pangram.com/history/df64f39b-0778-436c-a650-efe5d3bfbda5).
+  "Use with extreme caution" stays as you wrote it: you didn't pick "and ask your doctor first", so I didn't add it.
+- 🟢 **The warnings section after 74b**: [Human Written, 0.0% AI](https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431), every
+  window High but the same two Medium ones as before, over "You will assume everyone can see your anxiety, which they
+  mostly can't" and over the faces sentence (card W-COG-SEC).
+- 🟠 **73a and your line aren't in yet: they're card W-LMA-73A.** As it stands your herbs warning reads
+  [Human High in one window](https://www.pangram.com/history/0d102087-7015-4501-bf13-f8c40fec8d21), and every way I put 73a in read lower
+  ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/checks-1127i/RESULTS.md) and the eight before it). Your "I'm not advising lion's mane or ashwagandha"
+  (advising a thing, not a person) is what carries the paragraph: "I can't recommend starting" and "anyone to start"
+  each made it read AI or weaker. With your first sentence kept and only the gloss changed it stays High: "(no joy or
+  desire)" held where "(no pleasure or desire)" didn't. The stop sign's sentence read Human Medium every way I said it,
+  even in your own idiom from your agmatine paragraph ("so stop either herb right away if you notice any of that").
+  My best: [High, then Medium](https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46).
+- 🔵 **How my best says your line**: with your own opening, "I'm not advising lion's mane or ashwagandha", and a stop
+  sign for the reader already on one ("so if you're already on either herb, I'd quit it as soon as you notice any of
+  that"), which is what question 73's reader couldn't tell. "Any of that" points back at both effects your first
+  sentence names, so the stop sign covers the sexual problems too, not only less pleasure or desire. Say on the card
+  if you want "starting" said outright, or the stop sign narrower.
+- 🔵 **Thoughts from the fresh reads of your Precautions with 74b, not questions**: a reader took "It's not recommended
+  for use in pregnancy or breast-feeding" as agmatine only, which it is, and wondered whether the rest of the protocol
+  is fine then; if the whole protocol isn't for pregnancy or breast-feeding, the disclaimer at the top could say so.
+  Readers also couldn't tell what "extreme caution" asks of them, whether their pills count as nitrates or PDE-5
+  inhibitors, or what a "complex psychoactive stack" is ([the reads](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/v1/fit/prec/READ.md)).
+- 🟢 **The humanizing pass in "Psychology is the Software; Biology is the Hardware." goes on**: the Anti-Breakthrough
+  is in. Taking "Dr." off "Perry finds" joined the window Pangram had split there, and its last sentence now says "which
+  is what I mean by micro-dosing here": [Human Written, one window, High](https://www.pangram.com/history/31905039-057d-4b64-9c9e-5dbde18dadef)
+  ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/APPLIED-X1127A.json)). Read beside your post, it says the hour of trauma work "overwhelms an armored
+  nervous system more than it heals it" where you had "a flood, not a fix" ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/read-1127b/READER-1.md)): kept,
+  since last turn's readers heard your line as telling someone with years of hour-long therapy that it harmed them.
+- 🔵 **Next, mine**: the rest of that section while the cards wait (the practice paragraph, the one-sixteenth
+  paragraph, the underpinnings paragraph and the "Underpinning" Principle;
+  [what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/LEFT.md): 28 of 141 paragraphs read Human High by themselves).
 
 ## Your message of 2026-11-26 23:30 UTC ("72a"), and what I did
 

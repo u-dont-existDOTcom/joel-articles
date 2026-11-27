@@ -16,7 +16,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram 4.1 (web app) | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
-| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 75 | 59 (79%) | 31% | 69% | 83% | 0.167 (base 0.213, 75) |
+| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 88 | 66 (75%) | 33% | 67% | 85% | 0.183 (base 0.221, 88) |
 | Pangram 4.1 (web app, his account, Claude in Chrome in his browser) | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
@@ -243,17 +243,17 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 39 (78%) | 18% | 82% | 96% | 0.162 (base 0.148, 50) |
-| the latest 100 | 75 | 59 (79%) | 31% | 69% | 83% | 0.167 (base 0.213, 75) |
-| all | 75 | 59 (79%) | 31% | 69% | 83% | 0.167 (base 0.213, 75) |
+| the latest 50 | 50 | 35 (70%) | 28% | 72% | 98% | 0.192 (base 0.202, 50) |
+| the latest 100 | 88 | 66 (75%) | 33% | 67% | 85% | 0.183 (base 0.221, 88) |
+| all | 88 | 66 (75%) | 33% | 67% | 85% | 0.183 (base 0.221, 88) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 57 | 47 (82%) | 32% | 68% | 79% | 0.156 (base 0.216, 57) |
+| paragraph | 69 | 53 (77%) | 35% | 65% | 83% | 0.176 (base 0.227, 69) |
 | pair | 12 | 9 (75%) | 17% | 83% | 92% | 0.184 (base 0.139, 12) |
-| section | 4 | 3 (75%) | 25% | 75% | 100% | 0.211 (base 0.188, 4) |
+| section | 5 | 4 (80%) | 20% | 80% | 100% | 0.219 (base 0.160, 5) |
 | stretch | 2 | 0 (0%) | 100% | 0% | 100% | 0.305 (base 0.000, 2) |
 
 Calibration:
@@ -261,9 +261,9 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 5 | 0.29 | 20% |
-| 0.4 to 0.6 | 44 | 0.53 | 57% |
-| 0.6 to 0.8 | 35 | 0.66 | 94% |
-| 0.8 to 1.0 | 5 | 0.81 | 100% |
+| 0.4 to 0.6 | 54 | 0.53 | 57% |
+| 0.6 to 0.8 | 42 | 0.65 | 83% |
+| 0.8 to 1.0 | 6 | 0.81 | 100% |
 
 ## Pangram 4.1 (web app, his account, Claude in Chrome in his browser)
 
@@ -289,7 +289,7 @@ Calibration:
 | 0.6 to 0.8 | 6 | 0.65 | 100% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
-## Misses since the ledger (46)
+## Misses since the ledger (52)
 
 | cause | misses |
 |---|---|
@@ -301,17 +301,17 @@ Calibration:
 | my changes to try 5's Medium and Low sentences read AI | 1 |
 | another family's writer changed the build | 1 |
 | ambiguity | 1 |
+| my additions made his rough paragraph tidy | 1 |
+| the stop sign echoed the first sentence; a declining opening | 1 |
+| a crisp stop sign in place of his slack ending | 1 |
+| the paragraph split into windows; four changes at once | 1 |
+| two small changes weakened his first sentence | 1 |
+| his line alone still weakened his opening | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [pair-cog-proj4](https://www.pangram.com/history/d3e4d207-f93b-4ba5-a7c1-d319c4de6074) | neuro-de-armoring/PAIR-COG-PROJ, 1 | Human | AI or mixed | context |
-| [elec7](https://www.pangram.com/history/107fdac9-c18d-4518-a639-09950f338556) | neuro-de-armoring/W-ELEC, 2 | AI | Human | shape |
-| [pair-cog-proj8](https://www.pangram.com/history/bda984c5-6d7a-4260-9134-7a1ac5800bbb) | neuro-de-armoring/PAIR-COG-PROJ, 3 | AI | Human | shape |
-| [pair-rule-cog9](https://www.pangram.com/history/d733d10c-8ca8-4761-8e03-4ad19be07015) | neuro-de-armoring/PAIR-RULE-COG, 1 | AI | Human | context |
-| [pair-cog-faces1](https://www.pangram.com/history/b6d8d555-f4a6-4408-a264-c8a1b0dd2c1c) | neuro-de-armoring/PAIR-COG-FACES, 1 | AI | Human | shape |
-| [warnings-sec1](https://www.pangram.com/history/b0684e96-0fc7-45a7-9a84-6ce66bc9958b) | neuro-de-armoring/SEC-WARNINGS, 1 | Human | AI or mixed | shape |
 | [grp-rule-agm1](https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e) | neuro-de-armoring/STRETCH-RULE-AGM, 1 | Human | AI or mixed | shape |
 | [grp-rule-agm2](https://www.pangram.com/history/b9f4952c-eb3b-456d-a757-9b9ed17a259f) | neuro-de-armoring/STRETCH-RULE-AGM, 2 | Human | AI or mixed | shape |
 | [intro1-asis](https://www.pangram.com/history/eff5042e-92e4-42bc-9304-babc88e32c26) | neuro-de-armoring/P-INTRO1, 1 | AI | Human | shape |
@@ -321,6 +321,12 @@ The latest:
 | [sw22-23](https://www.pangram.com/history/3ad85ece-63b0-4c1a-bad6-df492b74835b) | neuro-de-armoring/PAIR-SW22-23, 1 | Human | AI or mixed | shape |
 | [sw19b](https://www.pangram.com/history/cd2c9d6b-ada6-44c9-b29c-67292c104927) | neuro-de-armoring/P-SW19, 2 | Human | AI or mixed | shape |
 | [sw22-23b](https://www.pangram.com/history/d91d27ac-0519-4188-a9ab-5ff119d64467) | neuro-de-armoring/PAIR-SW22-23, 2 | Human | AI or mixed | shape |
+| [lma-73a](https://www.pangram.com/history/666f323c-0200-4f4f-a54e-be84150a350b) | neuro-de-armoring/W-LMA-73a, 1 | Human | AI or mixed | my additions made his rough paragraph tidy |
+| [lma-t2](https://www.pangram.com/history/f3417de9-5888-4720-adc1-66303c140dab) | neuro-de-armoring/W-LMA-73a, 2 | Human | AI or mixed | the stop sign echoed the first sentence; a declining opening |
+| [lma-t3](https://www.pangram.com/history/a4917d66-e42f-4533-8713-e72d039f379c) | neuro-de-armoring/W-LMA-73a, 3 | Human | AI or mixed | a crisp stop sign in place of his slack ending |
+| [lma-t4](https://www.pangram.com/history/35b9a7c1-f6cb-4de9-8424-82b918c1b4c9) | neuro-de-armoring/W-LMA-73a, 4 | Human | AI or mixed | the paragraph split into windows; four changes at once |
+| [lma-s1](https://www.pangram.com/history/d2357d72-aa6f-4a8c-9ff1-ab3e53ac084b) | neuro-de-armoring/W-LMA-his, 2 | Human | AI or mixed | two small changes weakened his first sentence |
+| [lma-s2](https://www.pangram.com/history/e48fb85c-ea18-48c5-b61a-7066b4069dec) | neuro-de-armoring/W-LMA-his, 3 | Human | AI or mixed | his line alone still weakened his opening |
 
 ## Lineages still open (tries used of the cap)
 
@@ -414,4 +420,5 @@ The latest:
 | neuro-de-armoring/P-SW19 | paragraph | 2 of 6 | Mixed |
 | neuro-de-armoring/P-SW21 | paragraph | 1 of 6 | Mixed |
 | neuro-de-armoring/PAIR-SW22-23 | pair | 2 of 6 | AI |
+| neuro-de-armoring/W-LMA-73a | paragraph | 4 of 6 | Mixed |
 

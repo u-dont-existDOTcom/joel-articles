@@ -1,0 +1,16 @@
+{
+ "lma-s4": {
+  "lineage": "neuro-de-armoring/W-LMA-his",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, step 4: 73a's gloss in plain words, \"I'd quit it\"",
+  "text": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already on either herb, I'd quit it as soon as you notice any of that.",
+  "chance": 0.55,
+  "receipt": "receipts/LMA-S4.receipt.json",
+  "diagnosis": "step 3 read Human Written, High over his first sentence and Medium over the second (https://www.pangram.com/history/2cd62104-8545-4d8c-ad06-c468ec2e4786): a near miss. In the second, \"I'd quit as soon as you notice\" leaves a reader to guess what is quit: \"I'd quit it\". 73a's gloss is still missing, which a reader needs now that the stop sign points back at it: \"(no joy or desire)\", plain words where \"(no pleasure or desire)\" weakened the first sentence (step 1). Two words.",
+  "decides": "whether both small changes hold: if not, which window moved says which",
+  "first_fix": "payoff: his first sentence opens on his advice; the second ends on what to do if already on one; join: none; plain: \"no joy or desire\", \"I'd quit it\"",
+  "humanized": "his card version as it read High in the fold, 73a's stop sign after his reason, and 73a's gloss in plain words",
+  "human_tells": "his own card version: \"I'm not advising lion's mane or ashwagandha\" (advising a thing), \"Post-ashwa\"",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/panel-lma-s2/PANEL.md"
+ }
+}

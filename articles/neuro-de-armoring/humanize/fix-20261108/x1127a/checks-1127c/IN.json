@@ -1,0 +1,16 @@
+{
+ "lma-t3": {
+  "lineage": "neuro-de-armoring/W-LMA-73a",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, with 73a and his line; try 3: the panel's agreed tells of mine fixed",
+  "text": "I'm not advising anyone to start lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no pleasure or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already on either herb and notice any of that starting, I'd quit it.",
+  "chance": 0.6,
+  "receipt": "receipts/LMA-73A-T3.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/panel-lma-t2/PANEL.md",
+  "diagnosis": "try 2 read AI Detected, 76% (AI-Assisted Low over the first sentence, AI-Generated Low over the second: https://www.pangram.com/history/f3417de9-5888-4720-adc1-66303c140dab); the tell panel (panel-lma-t2) agreed on both: the stop sign repeated the first sentence's two symptoms in order (a model closing its loop), \"I can't recommend\" read as an assistant declining, and the measured gloss. This try: his own opening for his line (\"I'm not advising anyone to start\"), the gloss as blunt as his \"(no desire)\" with pleasure in it, and a stop sign that points back instead of repeating (\"notice any of that starting, I'd quit it\").",
+  "decides": "whether it goes in; below High, the next try starts from it and changes a word or two a reader could take two ways",
+  "first_fix": "payoff: the first sentence opens on his advice (nobody should start either herb), the second ends on when to quit; join: none, two sentences as his; plain: \"any of that starting\", \"I'd quit it\"",
+  "humanized": "his card version with 73a and his line put in, said in his own opening; my words are the stop sign",
+  "human_tells": "his own card version: \"I'm not advising\", \"Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do\""
+ }
+}
