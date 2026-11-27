@@ -1,0 +1,41 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "prec-74b": {
+   "uuid": "df64f39b-0778-436c-a650-efe5d3bfbda5",
+   "at": "2026-11-27T15:59:56Z",
+   "headline": "Human Written",
+   "ai": 0,
+   "words": 91,
+   "windows": [
+    [
+     "Human",
+     "High",
+     91,
+     "Do not use agmatine on the same day as opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues."
+    ]
+   ]
+  },
+  "lma-73a": {
+   "uuid": "666f323c-0200-4f4f-a54e-be84150a350b",
+   "at": "2026-11-27T15:59:46Z",
+   "headline": "AI Generated",
+   "ai": 1,
+   "words": 86,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     40,
+     "I can't recommend starting lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (little pleasure or desire) and sexual dysfunction that last long after they stop taking them."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     46,
+     "Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you take either herb and notice less pleasure or desire, or any sexual problems, since you started it, stop taking it."
+    ]
+   ]
+  }
+ }
+}

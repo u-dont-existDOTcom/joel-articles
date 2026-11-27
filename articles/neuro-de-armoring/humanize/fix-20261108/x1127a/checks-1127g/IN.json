@@ -1,0 +1,16 @@
+{
+ "lma-s3": {
+  "lineage": "neuro-de-armoring/W-LMA-his",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, step 3 from the fold: his first sentence as it read High, 73a's stop sign for the reader already on one",
+  "text": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already on either herb, I'd quit as soon as you notice any of that.",
+  "chance": 0.55,
+  "receipt": "receipts/LMA-S3.receipt.json",
+  "diagnosis": "step 2 (his line alone) read Human Medium and Human Low (https://www.pangram.com/history/e48fb85c-ea18-48c5-b61a-7066b4069dec), step 1 (his line and the gloss) Human Low and AI Low: both changes weaken his first sentence, whose \"I'm not advising lion's mane\" (advising a thing) is his own turn of phrase, and once it weakens his second splits off and reads Low or AI. His line's meaning is carried by his own opening with a stop sign addressed to the reader already on one; this step keeps his first sentence as it read High and puts 73a's stop sign in place of his slack ending. The tell panel on step 2 (panel-lma-s2, three readers) agreed on its closing \"so it's something to keep in mind\" (a generic takeaway) and on \"I'm not advising anyone to start\" (a disclaimer opener); this step takes both out, and keeps \"(no desire)\", which all three read as human.",
+  "decides": "whether the stop sign holds with his first sentence as it read High; then the gloss as a step of its own",
+  "first_fix": "payoff: his first sentence opens on his advice; the second ends on what to do if already on one; join: none; plain: \"I'd quit as soon as you notice any of that\"",
+  "humanized": "his card version as it read High in the fold, with 73a's stop sign in place of his slack ending",
+  "human_tells": "his own card version: \"I'm not advising lion's mane or ashwagandha\" (advising a thing), \"(no desire)\"",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/panel-lma-s2/PANEL.md"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "lma-t4": {
+  "lineage": "neuro-de-armoring/W-LMA-73a",
+  "scope": "paragraph",
+  "name": "Lion's mane and ashwagandha, with 73a and his line; try 4: his slack ending kept, the stop sign in his voice after it",
+  "text": "I'm not advising anyone to start lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no pleasure or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind. If I were already on either herb, I'd quit the day I noticed any of that.",
+  "chance": 0.55,
+  "receipt": "receipts/LMA-73A-T4.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/panel-lma-t2/PANEL.md",
+  "diagnosis": "tries 1 to 3 all read AI (try 3 AI High in one window: https://www.pangram.com/history/a4917d66-e42f-4533-8713-e72d039f379c), and what they share against the fold (Human High) is that a crisp stop sign took the place of his slack ending \"so it's something to keep in mind\"; his fixes end slack (bad-trips-2026-11-07j). This try keeps his two sentences as they read High, with only his line (\"anyone to start\") and 73a's gloss in them, and adds the stop sign as its own short sentence in his first-person voice (\"If I were already on either herb, I'd quit the day I noticed any of that\").",
+  "decides": "whether it goes in; below High, the next try starts from it and changes a word or two a reader could take two ways",
+  "first_fix": "payoff: the first sentence opens on his advice (nobody should start either herb), the last says what he would do if on one; join: none, his two sentences as they read High; plain: \"any of that\", \"I'd quit\"",
+  "humanized": "his card version with his line and 73a's gloss in, word for word otherwise, and my stop sign after it in his voice",
+  "human_tells": "his own card version, as it read High in the fold: \"I'm not advising\", \"so it's something to keep in mind\""
+ }
+}

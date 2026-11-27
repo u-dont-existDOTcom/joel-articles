@@ -1983,6 +1983,42 @@
     }
    ],
    "recorded_utc": "2026-11-27T00:19Z"
+  },
+  {
+   "turn": "2026-11-27T15:45Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 87e90c44: since this lane's last turn 553 (bad trips), 554 (this lane's 72a turn, merged 00:23 UTC) and 555 (somatic additions: lesson somatic-2026-11-27a, Pangram never needs his experience; AGENTS.md, tools/humanization/his_fixes_brief.md way 28 and lesson romance-2026-11-24a's last step changed) merged; 545 (somatic research, another lane) open, unchanged since 2026-11-26 16:04 UTC; no new issue or review comments since 2026-11-27 00:00 UTC and no new issues (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no one else changed HANDOFF-neuro-de-armoring.md or OWNER-QUESTIONS.md since this lane's last commit (main's articles/neuro-de-armoring matches 7499e3e8); this session runs in his other account: the questions page 58dbe2b1 and the cards page 06cda5c8 (card W-COG-SEC's stored answers) answer 'not found' from it, and it owns the older questions page 8cWv5mbXY8y53RL1nhvzky (version 1795557708-9eee), which this turn republishes"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "this session's add_repo for universal-dev-architecture was refused by the session's auto-mode check ('Unauthorized Access'), and a WebFetch of its raw AGENTS.md needed an approval nobody answered (15:47 UTC), so neither its live AGENTS.md nor suggested-fixes/joel-articles/ could be read; the UDA bootstrap is NOT_LOADED this turn",
+     "retry": "next turn, at its start, once Joel has written again"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 2026-11-27 15:45 UTC: '73 a  but i also can't recommend starting them 74 b'",
+     "outcome": "73a with his line fitted into the herbs warning, 74b in his Precautions; each checked by itself, then the warnings section's check; the W-COG-SEC card's answer can't be read from this account"
+    }
+   ],
+   "recorded_utc": "2026-11-27T15:52Z"
   }
  ]
 }

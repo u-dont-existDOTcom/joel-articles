@@ -18,6 +18,41 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-27, after his message of 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b is in; 73a
+  and his line read below High in nine checks and are a teaching card; question 76 and two cards wait on him.**
+  HUMANIZED-SO-FAR.md is 2257d52f; everything of the turn is in `fix-20261108/x1127a/`: the texts and why
+  (`texts_x1127a.py`: NEW, TRY, STEP), receipts (`build_receipts_x1127a.py`, all PASS), fresh Fable reads (`v1`, and
+  `v2` of my fixed version), two tell panels (`panel-lma-t2`, `panel-lma-s2`), checks `checks-1127a` to `checks-1127j`
+  (ledger #291 to #301), the apply script (`apply_x1127a.py`, `APPLIED-X1127A.json`), the cards page
+  (`build_cards_x1127a.py`, `REVIEW-X1127A.*`). **In**: 74b, his Precautions "on the same day as"
+  (https://www.pangram.com/history/df64f39b-0778-436c-a650-efe5d3bfbda5, one window, High; keep-as-is K5; a fidelity owner_changes entry). **The
+  warnings section after 74b** (`--after-fix`): Human Written, 0.0% AI, the same two Medium windows over the Cognitive
+  Warning and the faces sentence (https://www.pangram.com/history/97ac98d1-e65d-4272-b9d7-426879391431). **Not in: 73a and his line, card
+  W-LMA-73A.** The herbs warning as it stands (the fold, #274) reads High in one window. Lineage W-LMA-73a (a lineage of
+  its own for the whole answer, lesson neuro-2026-11-27a says why not to) read AI four times (#292 to #295); lineage
+  W-LMA-his, one piece a check (#296 to #300): his opening must stay ("anyone to start" weakens it), "(no joy or desire)"
+  holds High, and the stop sign's sentence stays Medium; my best is step 4 (https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46:
+  High, then Medium), the text `texts_x1127a.STEP['lma-s4']`. W-LMA-his is spent (6 of 6) and the paragraph is past
+  the budget's six this turn. **Question 76**: "(will reduce tolerance)" in his Precautions (a: "(it lowers your
+  tolerance, so your usual dose can hit harder)"). **This session ran in his other account**, which can't read the
+  pages published last turn (questions 58dbe2b1, cards 06cda5c8, where W-COG-SEC's answer would be stored). From this
+  account: the questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky (slug
+  3da5703f-cdc3-43fa-9d8b-db8279e48c62, version 1795796475-13c7; the server now refuses a page without a doctype, so
+  `render_questions.py`'s output is wrapped as a full document first, as `x1127a/neuro-questions.doc.html` is) and the
+  cards page https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn (slug 4719d286-ca5a-4311-87a8-a00631b476b5, version
+  1795796442-cd92, db and downloads declared, collection "decisions"; published from `REVIEW-X1127A.html`, the full page,
+  as the artifact view lacks a doctype), with both cards. **Next**: every turn first, the mailbox, the stored answers
+  on whichever cards page the account can read (`db_query`, collection "decisions", W-LMA-73A and W-COG-SEC), and his
+  message; his version of the herbs warning goes in as his once checked by itself (a new lineage named for it), 76a by
+  script after its check by itself, then the section's check. While they wait: the humanizing pass in "Psychology is
+  the Software; Biology is the Hardware." (the bullet of 2026-11-26 15:26 says where each paragraph stands). **UDA**:
+  this turn couldn't read it (add_repo refused by the session's auto-mode check, a WebFetch approval unanswered), so the
+  bootstrap was NOT_LOADED and `suggested-fixes/joel-articles/` unread: read both first next turn. **How the checks
+  ran**: the desktop app's browser pane, tab "seed", signed in; `window.__run` from
+  `tools/humanization/pangram_page_helpers.js`, and `window.__readIdx` (its source: `x1127a/pangram_read_idx.js`) read
+  each result back from his history by SHA-256; `x1126a/save_gui.py` and `x1126a/checks_x1126a.py record` write it into
+  the ledger. Fable readers worked from this account. **Lessons neuro-2026-11-27a to d**
+  (`docs/lessons/2026-11-27-1545-neuro.md`).
 - **2026-11-27, after his message of 2026-11-26 23:30 UTC ("72a"): every warning's label is folded into its first
   sentence; the warnings section reads Human Written, 0.0% AI, with two short Medium windows; questions 73, 74 and one
   card wait on him.** HUMANIZED-SO-FAR.md is baa77e2d; everything of the turn is in `fix-20261108/x1126c/`: the texts
