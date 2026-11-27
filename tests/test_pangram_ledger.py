@@ -638,6 +638,28 @@ class SenseGate(unittest.TestCase):
         best = L.best_near_miss(L.lineage_view(L.state(L.read(self.ledger)), 'G'))
         self.assertEqual(best['text'], pathlib.Path(t2).read_text(encoding='utf-8').rstrip('\n'))
 
+    def test_the_near_miss_ranks_likelihoods_as_the_web_app_shows_them(self):
+        """Lesson bad-trips-2026-11-27i: through the API a Human text's likelihood comes unrounded, so a try with a Medium
+        window (2.6e-31) ranked above one that read High in every window (7e-29); rounded to whole percent they tie, and
+        the words below High decide."""
+        def human(windows, lk):
+            last = L.read(self.ledger)[-1]
+            with open(self.ledger, 'a', encoding='utf-8') as f:
+                f.write(json.dumps({'type': 'result', 'prediction': last['id'], 'at': 'x', 'sha256': last['sha256'],
+                                    'verdict': 'Human', 'link': 'https://www.pangram.com/history/u%d' % self.n,
+                                    'right': True, 'likelihood': lk, 'windows': windows}) + '\n')
+        t1, r1 = self.files('A whole leaf can easily end the trip and may keep you from tripping for days afterward.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        human([{'label': 'Human Written', 'confidence': 'High', 'words': 17}], 7.08e-29)
+        t2, r2 = self.files('Eating a whole leaf can easily end the trip and may keep you from tripping for days afterward.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'how the leaf is taken')), 0)
+        human([{'label': 'Human Written', 'confidence': 'High', 'words': 10},
+               {'label': 'Human Written', 'confidence': 'Medium', 'words': 8}], 2.63e-31)
+        best = L.best_near_miss(L.lineage_view(L.state(L.read(self.ledger)), 'G'))
+        self.assertEqual(best['text'], pathlib.Path(t1).read_text(encoding='utf-8').rstrip('\n'))
+        self.assertEqual(L.shown_likelihood(2.63e-31), 0.0)
+        self.assertEqual(L.shown_likelihood(None), 1.0)
+
     def test_a_try_adds_no_word_the_linter_flags_as_overused(self):
         """Lesson bad-trips-2026-11-20e: my try added "ordinary"; he took it out and the paragraph read Human High."""
         t1, r1 = self.files('Samsara offers no shortage of difficult experiences to process.')

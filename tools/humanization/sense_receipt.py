@@ -74,6 +74,16 @@ The fields:
              doesn't help the reader. fix that durably."). Every point in "checked" marked "yes" says the same:
              "yes: they ..." for what the reader does with it, not why the claim holds. In every receipt make writes from
              2026-11-08.
+  his_answer for a text that carries his answers to a round's cards: [{"said": his words, quoted from his answer, one
+             claim at a time; "in": the sentence (or sentences) of this text that carry that claim; "words": {a word of
+             his that "in" doesn't have: where it went or why it is out}}]. Each word of four letters or more that he
+             said (but a few like "that" and "with") is in "in", or "words" says where it went. Lesson
+             bad-trips-2026-11-27k (Joel, 2026-11-27 19:54 UTC, on round 63's SKIN-AMOUNT: "you forgot the most important
+             part, sensitive skin... that's why i said under the armpits"): his "it absorbs almost as well as eating it,
+             especially on sensitive skin" went in as "Its juice works through the skin almost as well as eating the leaf
+             does", and nothing checked that his words reached the sentence that says the claim. In every receipt make
+             writes from 2026-11-27 20:30 UTC (make writes the key), and in every one from 2026-11-28; a receipt whose
+             checked points cite a round's card ("card LEAF-JUICE") lists at least one.
   link       on every sentence of mine after the first: the words in that sentence that tie it to the one before or to
              the reader's case ("One reason to think about, is that", "So to address that", "because"), quoted from the
              sentence; or "none: why it needs none" (a list item, a new step the reader expects). The code checks only
@@ -115,6 +125,14 @@ HIS_FIXES_FROM = '2026-11-12'
 # better sense check in general". The receipts make writes carry the field from that hour; a receipt made before it with
 # no field is read as it was.
 FIT_FROM = '2026-11-13'
+# Lesson bad-trips-2026-11-27k: from this day every receipt maps each claim of his answers to the sentence that carries it
+HIS_ANSWER_FROM = '2026-11-28'
+HIS_ANSWER_STOP = {'that', 'this', 'with', 'from', 'have', 'when', 'what', 'them', 'they', 'their', 'there', 'then',
+                   'than', 'into', 'just', 'would', 'could', 'should', 'about', 'because', 'which', 'while', 'your',
+                   'were', 'been', 'being', 'does', "doesn't", "don't", "i'd", "it's", 'also', 'altho', 'although',
+                   'though', 'like', 'said', 'example', "that's", "there's", "what's", "i'm", "i've", "can't", "won't",
+                   "isn't", "didn't"}
+CARD_CITED = re.compile(r'\bcard [A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+\b')
 # Lesson bad-trips-2026-11-22a (Joel, 2026-11-22 17:21 UTC, on my sentence after "Serotonin syndrome comes from too much
 # serotonin, so I'd stop anything suspected of adding more": "S2 doesn't follow from S1. you really don't see that? what's
 # connecting them? even "So" would connect", and on "Even if they take an antidepressant every day ...": "I'm reading like 20
@@ -223,6 +241,7 @@ def make(text, section='', reader='', his_text='', whose=''):
         'needed': {'reader': '', 'unneeded': [], 'kept': {}},
         'his_fixes': {'reader': '', 'marked': [], 'kept': {}},
         'fit': {'reader': '', 'marked': [], 'kept': {}},
+        'his_answer': [],
         'questions': {q: '' for q in QUESTIONS},
         'question_text': QUESTIONS,
     }, **({'his_whose': whose} if his else {}))
@@ -326,6 +345,8 @@ def check(text, receipt):
         p += his_fixes_problems(text, receipt)
     if mine and ('fit' in receipt or (receipt.get('made') or '') >= FIT_FROM):
         p += fit_problems(text, receipt)
+    if 'his_answer' in receipt or (receipt.get('made') or '') >= HIS_ANSWER_FROM:
+        p += his_answer_problems(text, receipt)
     qs = receipt.get('questions') or {}
     for q in QUESTIONS:
         a = (qs.get(q) or '').strip()
@@ -411,6 +432,50 @@ def fit_problems(text, receipt):
         if any(u in x or x in u for x in have) and len((kept.get(u) or '').strip()) < 25:
             p.append('fit: "%s" was marked (%s) and is still in the text; %s' % (
                 u[:70], (m.get('found') if isinstance(m, dict) else '') or '?', why))
+    return p
+
+
+def his_words(said):
+    """The words of SAID that must reach the sentence carrying his claim: four letters or more, lower case, but a few
+    words that carry no claim (HIS_ANSWER_STOP)."""
+    out = []
+    for w in re.findall(r"[A-Za-z][A-Za-z'’]+", said or ''):
+        w = w.lower().replace('’', "'").strip("'")
+        if len(w) >= 4 and w not in HIS_ANSWER_STOP and w not in out:
+            out.append(w)
+    return out
+
+
+def his_answer_problems(text, receipt):
+    """Lesson bad-trips-2026-11-27k: each claim of his answers is mapped to the sentence that carries it, and every word
+    he said for it is in that sentence or accounted for (a word of his matches a word there that starts with its first
+    five letters, so "relaxing" finds "relax" and "name" finds "names")."""
+    p = []
+    why = ('his answer\'s words go into the sentence that says his claim, or the receipt says where each went (lesson '
+           'bad-trips-2026-11-27k; Joel, 2026-11-27: "you forgot the most important part, sensitive skin")')
+    entries = receipt.get('his_answer') or []
+    cited = any(CARD_CITED.search(c.get('found') or '') for c in receipt.get('checked', []))
+    if cited and not entries:
+        p.append('his_answer: the checked points cite a round\'s card, so map each claim of his answer to the sentence that '
+                 'carries it ({"said": his words, "in": the sentence, "words": {his word: where it went}}); ' + why)
+    flat = re.sub(r'\s+', ' ', text)
+    for e in entries:
+        said, into = (e.get('said') or '').strip(), re.sub(r'\s+', ' ', (e.get('in') or '').strip())
+        if not said or not into:
+            p.append('his_answer: each entry needs "said" (his words) and "in" (the sentence of the text that carries '
+                     'them); ' + why)
+            continue
+        if into not in flat:
+            p.append('his_answer: "%s" is not in the text; quote the sentence that carries his "%s"' % (into[:60], said[:40]))
+            continue
+        have = [w.lower().replace('’', "'") for w in re.findall(r"[A-Za-z][A-Za-z'’]+", into)]
+        told = e.get('words') or {}
+        for w in his_words(said):
+            if any(x.startswith(w[:5]) for x in have):
+                continue
+            if len((told.get(w) or '').strip()) < 12:
+                p.append('his_answer: his "%s" (in "%s") is not in the sentence that carries it; put it there, or say in '
+                         '"words" where it went or why it is out; %s' % (w, said[:60], why))
     return p
 
 

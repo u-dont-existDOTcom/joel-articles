@@ -192,5 +192,28 @@ class Catalog(unittest.TestCase):
         self.assertTrue(lines[1].startswith('old-form: 1 links to sections of the same post'))
 
 
+class ArticleBothWays(unittest.TestCase):
+    """Lesson bad-trips-2026-11-27g: a paragraph's new text, written from a test file without links, lost its section
+    link, and links added in another turn were never catalogued; `links --article` checks both ways."""
+    CAT = {'post': {'base': 'https://x.substack.com', 'id': '1'},
+           'headings': [{'level': 3, 'text': 'Activated Charcoal', 'anchor': 'activated-charcoal'},
+                        {'level': 2, 'text': 'Call Medics For', 'anchor': 'call-medics-for'}],
+           'links': [{'in': 'ZeoCharge', 'block': 'B154', 'text': 'activated charcoal', 'href': '#§activated-charcoal'}]}
+
+    def test_a_catalogued_link_the_article_lost_is_named(self):
+        probs = sl.article_check(self.CAT, 'which then requires activated charcoal to reduce gut histamine.')
+        self.assertEqual(len(probs), 1)
+        self.assertIn('went missing', probs[0][1])
+
+    def test_an_uncatalogued_link_is_named_and_a_matching_article_passes(self):
+        md = ('which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine. See '
+              '[the list to call medics for](#§call-medics-for).')
+        probs = sl.article_check(self.CAT, md)
+        self.assertEqual([p[0]['text'] for p in probs], ['the list to call medics for'])
+        self.assertEqual(sl.article_check(self.CAT, md.split(' See ')[0]), [])
+        self.assertEqual(sl.article_check(self.CAT, md.split(' See ')[0].replace('[activated', '[*activated')
+                                          .replace('charcoal]', 'charcoal*]')), [])   # italics are the same words
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,309 @@
+{
+ "his-b155-b156": {
+  "lineage": "bad-trips ZeoCharge & Ferment, his round-61 B155 with B156 as the guide has it, together (h80)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "the plan's check of his TEACH-B155 version through the API with the paragraph after it: whether his B155 holds High beside B156, and whether B156's two short lines (the ozone gas line, the less-and-more line) stay below High beside it; if they do, the joined B156 (a3-b156) is what goes in",
+  "tells": [
+   "I mean ozonating water, never inhaling ozone gas.",
+   "Less time didn't work as well, and more time didn't noticeably improve the zeolite."
+  ],
+  "human": [
+   "his own B155, Human High by itself (00eb45f1) and with B158 (54b91410)"
+  ],
+  "unchanged": "his round-61 TEACH-B155 version (now B155) and the guide's B156 exactly as they stand"
+ },
+ "asis-b171-b172": {
+  "lineage": "bad-trips Beach Morning Glory, its first two paragraphs (B171, B172) as they stand, together (h80)",
+  "call": "AI",
+  "chance": 0.25,
+  "decides": "each paragraph by itself as it stands first (lesson 19b); these two are under 50 words, so they are read together; never checked as they stand",
+  "tells": [
+   "The distinction matters.",
+   "Its primary role in this guide is not ordinary nausea control."
+  ],
+  "human": [
+   "As far as I know, nobody else sells it."
+  ],
+  "unchanged": "the guide's B171 and B172 exactly as they stand"
+ },
+ "asis-b173-b174": {
+  "lineage": "bad-trips Beach Morning Glory, the nibble and the leaf-juice paragraphs (B173, B174) as they stand, together (h80)",
+  "call": "AI",
+  "chance": 0.3,
+  "decides": "each by itself as it stands first; B173 is under 50 words, so it is read with B174; both read AI in the section-wide checks (Low windows)",
+  "tells": [
+   "but the difference between that amount and a trip-aborting amount is narrow.",
+   "Avoiding contact with the broken portion prevents that effect."
+  ],
+  "human": [
+   "especially under the fingernails"
+  ],
+  "unchanged": "the guide's B173 and B174 exactly as they stand"
+ },
+ "asis-b175-b176": {
+  "lineage": "bad-trips Beach Morning Glory, the whole-leaf and the woman paragraphs (B175, B176) as they stand, together (h80)",
+  "call": "AI",
+  "chance": 0.25,
+  "decides": "each by itself as it stands first; B175 is under 50 words, so it is read with B176",
+  "tells": [
+   "This was not only personal.",
+   "That helped convince me the effect wasn't limited to my body."
+  ],
+  "human": [
+   "I was rushing to help and may have given more than I would now."
+  ],
+  "unchanged": "the guide's B175 and B176 exactly as they stand"
+ },
+ "asis-b176-b178": {
+  "lineage": "bad-trips Beach Morning Glory, the woman and the MDMA paragraphs (B176, B178) as they stand, together (h80)",
+  "call": "AI",
+  "chance": 0.2,
+  "decides": "each by itself as it stands first; B178 is under 50 words, so it is read with B176, the paragraph before it",
+  "tells": [
+   "I do not yet have data showing that pes-caprae aborts MDMA.",
+   "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms."
+  ],
+  "human": [
+   "I was rushing to help and may have given more than I would now."
+  ],
+  "unchanged": "the guide's B176 and B178 exactly as they stand"
+ },
+ "a3-b158": {
+  "lineage": "bad-trips ZeoCharge & Ferment, how he takes zeolite (B158), by itself (h79)",
+  "call": "Human",
+  "chance": 0.85,
+  "decides": "whether his FROM-POST answer, the rubbing said as zeolite mixed in water, keeps B158 High by itself as try 2 read (fe031537); it goes in only if every window is High",
+  "tells": [
+   "Rubbing zeolite mixed in water on my body, or just holding its jar in my hand, helps me too."
+  ],
+  "human": [
+   "his words \"mix in water\" (round 61, FROM-POST) and \"HOLD the zeolite in your hand\" (his ZeoCharge post)"
+  ],
+  "receipt": "TEST-a3-b158.receipt.json",
+  "humanized": "try 3 from try 2 (fe031537, Human High 68 by itself): only the rubbing sentence changes, \"the zeolite\" said as \"zeolite mixed in water\", four words of 69",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"zeolite mixed in water\", his \"mix in water\"",
+  "diagnosis": "not a fix of a window: try 2 read High in every window; the change is his answer, a fact the sentence lacked"
+ },
+ "sec2-zeo": {
+  "lineage": "bad-trips ZeoCharge & Ferment, the whole section as it stands after turn 71 (B153, B154, B158, B155, B156, B157) (h79)",
+  "scope": "section",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "the section's second check (2 of 2), as it stands after his round-61 B155 and B158's rubbing line: whether the three short lines that read Medium in the first (b9d02255) hold High now that his B155 sits before B156 (his B155 with B156 read High in one window, dc4e6e82); a window below High names what to fix next, with one more check after each fix (--after-fix, his 28a)",
+  "tells": [
+   "I use glass for ozonating and storing it whenever I can.",
+   "Less time didn't work as well, and more time didn't noticeably improve the zeolite."
+  ],
+  "human": [
+   "his round-61 B155 and his round-60 answer 2.1 in B154"
+  ],
+  "unchanged": "the guide's ZeoCharge & Ferment section exactly as it stands after review/r61/apply_r61.py (B155 his, B158 with the rubbing line): B153 to B157, without its heading"
+ },
+ "a1-bmg-p1": {
+  "humanized": "try 1 in my words from the section as it stands (AI in three of its four checks: afe9064a, 50b1ee5e, 55e4ae84; Human Medium and Low in 0c5cdf23), written from the three fresh reads (reads/*-asis-bmg-sec.txt): the two announcing lines cut, B172 joined to B171, B175 moved to the start of B173, every tie at a sentence's start, the MDMA list cut to its link",
+  "first_fix": "payoff: each sentence opens on its point (\"In my experience, beach morning glory is the ultimate sledgehammer\", \"A whole leaf can easily end the trip\", \"I've seen it work on someone else too\"); join: \"I've seen it work on someone else too: I once gave ...\", B172 into B171, B175 into B173; plain: \"dysphoria\" said as \"nauseous and miserable\", \"a trip-aborting amount\" as \"a little more than a nibble\", \"Avoiding contact with the broken portion\" as \"I keep my skin away from the broken end\"",
+  "diagnosis": "as it stands the section reads AI: announcing lines (\"The distinction matters.\", \"This was not only personal.\"), \"not X\" statements, a sentence packing three ideas, ties that come late or not at all, and a run of eight category words (the his-fixes read); its as-is checks put the AI windows on exactly those lines",
+  "lineage": "bad-trips Beach Morning Glory, what it is for and which plant (B171 with B172 joined), by itself (h80)",
+  "call": "Human",
+  "chance": 0.55,
+  "decides": "whether the first paragraph, its point first and its two announcing lines gone, reads Human High by itself; as it stands with B172 it read AI Low 57 (afe9064a)",
+  "tells": [
+   "By beach morning glory I mean Ipomoea pes-caprae, not morning glories in general, since none of the many relatives and cousins I tried worked the same way."
+  ],
+  "human": [
+   "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast."
+  ],
+  "receipt": "TEST-a1-bmg-p1.receipt.json"
+ },
+ "a1-bmg-p2": {
+  "humanized": "try 1 in my words from the section as it stands (AI in three of its four checks: afe9064a, 50b1ee5e, 55e4ae84; Human Medium and Low in 0c5cdf23), written from the three fresh reads (reads/*-asis-bmg-sec.txt): the two announcing lines cut, B172 joined to B171, B175 moved to the start of B173, every tie at a sentence's start, the MDMA list cut to its link",
+  "first_fix": "payoff: each sentence opens on its point (\"In my experience, beach morning glory is the ultimate sledgehammer\", \"A whole leaf can easily end the trip\", \"I've seen it work on someone else too\"); join: \"I've seen it work on someone else too: I once gave ...\", B172 into B171, B175 into B173; plain: \"dysphoria\" said as \"nauseous and miserable\", \"a trip-aborting amount\" as \"a little more than a nibble\", \"Avoiding contact with the broken portion\" as \"I keep my skin away from the broken end\"",
+  "diagnosis": "as it stands the section reads AI: announcing lines (\"The distinction matters.\", \"This was not only personal.\"), \"not X\" statements, a sentence packing three ideas, ties that come late or not at all, and a run of eight category words (the his-fixes read); its as-is checks put the AI windows on exactly those lines",
+  "lineage": "bad-trips Beach Morning Glory, how much does what (B173 with B175 moved in), by itself (h80)",
+  "call": "Human",
+  "chance": 0.55,
+  "decides": "whether the amounts paragraph, the whole leaf first and the nibble sentence split, reads Human High by itself; B173 as it stands read Human Medium with B174 (0c5cdf23), B175 AI-Assisted Medium with B176 (50b1ee5e)",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it."
+  ],
+  "human": [
+   "But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending."
+  ],
+  "receipt": "TEST-a1-bmg-p2.receipt.json"
+ },
+ "a1-bmg-p2p3": {
+  "humanized": "try 1 in my words from the section as it stands (AI in three of its four checks: afe9064a, 50b1ee5e, 55e4ae84; Human Medium and Low in 0c5cdf23), written from the three fresh reads (reads/*-asis-bmg-sec.txt): the two announcing lines cut, B172 joined to B171, B175 moved to the start of B173, every tie at a sentence's start, the MDMA list cut to its link",
+  "first_fix": "payoff: each sentence opens on its point (\"In my experience, beach morning glory is the ultimate sledgehammer\", \"A whole leaf can easily end the trip\", \"I've seen it work on someone else too\"); join: \"I've seen it work on someone else too: I once gave ...\", B172 into B171, B175 into B173; plain: \"dysphoria\" said as \"nauseous and miserable\", \"a trip-aborting amount\" as \"a little more than a nibble\", \"Avoiding contact with the broken portion\" as \"I keep my skin away from the broken end\"",
+  "diagnosis": "as it stands the section reads AI: announcing lines (\"The distinction matters.\", \"This was not only personal.\"), \"not X\" statements, a sentence packing three ideas, ties that come late or not at all, and a run of eight category words (the his-fixes read); its as-is checks put the AI windows on exactly those lines",
+  "lineage": "bad-trips Beach Morning Glory, how much does what and handling the leaf (B173, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.5,
+  "decides": "whether the handling paragraph (36 words, so read with the paragraph before) reads Human High; as it stands its last line read Human Low (0c5cdf23)",
+  "tells": [
+   "The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "human": [
+   "especially under my fingernails"
+  ],
+  "receipt": "TEST-a1-bmg-p2p3.receipt.json"
+ },
+ "a1-bmg-p4p5": {
+  "humanized": "try 1 in my words from the section as it stands (AI in three of its four checks: afe9064a, 50b1ee5e, 55e4ae84; Human Medium and Low in 0c5cdf23), written from the three fresh reads (reads/*-asis-bmg-sec.txt): the two announcing lines cut, B172 joined to B171, B175 moved to the start of B173, every tie at a sentence's start, the MDMA list cut to its link",
+  "first_fix": "payoff: each sentence opens on its point (\"In my experience, beach morning glory is the ultimate sledgehammer\", \"A whole leaf can easily end the trip\", \"I've seen it work on someone else too\"); join: \"I've seen it work on someone else too: I once gave ...\", B172 into B171, B175 into B173; plain: \"dysphoria\" said as \"nauseous and miserable\", \"a trip-aborting amount\" as \"a little more than a nibble\", \"Avoiding contact with the broken portion\" as \"I keep my skin away from the broken end\"",
+  "diagnosis": "as it stands the section reads AI: announcing lines (\"The distinction matters.\", \"This was not only personal.\"), \"not X\" statements, a sentence packing three ideas, ties that come late or not at all, and a run of eight category words (the his-fixes read); its as-is checks put the AI windows on exactly those lines",
+  "lineage": "bad-trips Beach Morning Glory, the woman and the MDMA limit (B176, B178), together (h80)",
+  "call": "AI",
+  "chance": 0.45,
+  "decides": "whether the woman paragraph, its point first, and the MDMA line, tied to it and with its list cut, read Human High; as they stand they read AI in every window (55e4ae84)",
+  "tells": [
+   "I was rushing to help her and may have given more than I would now."
+  ],
+  "human": [
+   "I've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy."
+  ],
+  "receipt": "TEST-a1-bmg-p4p5.receipt.json"
+ },
+ "a2-bmg-p1": {
+  "lineage": "bad-trips Beach Morning Glory, what it is for and which plant (B171 with B172 joined), by itself (h80)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "whether the short last line, joined to the sentence before with \"though\", leaves its Medium window (try 1, c747346c: High 46, Medium 11 on \"It isn't sold anywhere else, as far as I know.\")",
+  "tells": [
+   "though as far as I know nobody else sells it."
+  ],
+  "human": [
+   "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast."
+  ],
+  "receipt": "TEST-a2-bmg-p1.receipt.json",
+  "humanized": "try 2 from try 1 (c747346c, Human High 46 and Medium 11): the short last line joins the sentence before, 9 words of 54 changed",
+  "first_fix": "payoff: unchanged; join: \"..., though as far as I know nobody else sells it\"; plain: \"nobody else sells it\", the post's words",
+  "diagnosis": "try 1 read Medium 11 on its short last line alone, a sentence that carries one thought, which his fixes join to the sentence that draws its point (lesson bad-trips-2026-11-27d)"
+ },
+ "b1-bmg-p3p4": {
+  "lineage": "bad-trips Beach Morning Glory, handling the leaf and the woman (B174, B176), together (h80)",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "whether the handling paragraph (36 words, so read with a neighbour) reads High beside the paragraph after it; beside the paragraph before it, it read Human Low 36 (16784f2b), while the woman paragraph read High with the MDMA line (7a332a1b)",
+  "tells": [
+   "The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "human": [
+   "especially under my fingernails"
+  ],
+  "receipt": "TEST-b1-bmg-p3p4.receipt.json",
+  "humanized": "the try-1 texts of B174 and B176, unchanged, read together: the handling paragraph's other neighbour",
+  "first_fix": "payoff: unchanged from try 1 (\"The leaf is strong enough\", \"I've seen it work on someone else too\"); join: unchanged; plain: unchanged",
+  "diagnosis": "try 1 of the handling paragraph read Human Low beside the amounts paragraph, which read High by itself (6bc70ed9) but Low and Medium beside it: the pairing, not one sentence, may be what read Low, so the other neighbour first"
+ },
+ "b2-bmg-p3p4": {
+  "humanized": "try 2 of the woman paragraph from try 1: its last sentence says how the rush led to the amount, \"and may have given\" made \", so I may have given her\", 4 words of 50",
+  "first_fix": "payoff: unchanged; join: \", so I may have given her more than I would now\" ties the amount to the rush; plain: unchanged",
+  "diagnosis": "beside the handling paragraph the last sentence read Human Low 15 (60554a64): a sentence that adds a fact with \"and\" where it is the result of the one before (way 12); beside the MDMA line it read High (7a332a1b)",
+  "lineage": "bad-trips Beach Morning Glory, handling the leaf and the woman (B174, B176), together (h80)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether the woman paragraph's last sentence, tied to the rush, leaves its Low window beside the handling paragraph, so B174 has a check with every window High",
+  "tells": [
+   "I was rushing to help her, so I may have given her more than I would now."
+  ],
+  "human": [
+   "especially under my fingernails"
+  ],
+  "receipt": "TEST-b2-bmg-p3p4.receipt.json"
+ },
+ "a2-bmg-p4p5": {
+  "humanized": "try 2 of the woman paragraph from try 1: its last sentence says how the rush led to the amount, \"and may have given\" made \", so I may have given her\", 4 words of 50",
+  "first_fix": "payoff: unchanged; join: \", so I may have given her more than I would now\" ties the amount to the rush; plain: unchanged",
+  "diagnosis": "beside the handling paragraph the last sentence read Human Low 15 (60554a64): a sentence that adds a fact with \"and\" where it is the result of the one before (way 12); beside the MDMA line it read High (7a332a1b)",
+  "lineage": "bad-trips Beach Morning Glory, the woman and the MDMA limit (B176, B178), together (h80)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "whether the woman paragraph's try 2 still reads High beside the MDMA line, as try 1 did (7a332a1b)",
+  "tells": [
+   "I was rushing to help her, so I may have given her more than I would now."
+  ],
+  "human": [
+   "I've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy."
+  ],
+  "receipt": "TEST-a2-bmg-p4p5.receipt.json"
+ },
+ "b3-bmg-p3p4": {
+  "humanized": "try 3 of the woman paragraph from try 2 (e1ccdb68, High 72 and Medium 17 on the rushing sentence): one word, \"more than I would now\" made \"more than I would give now\"; a join of the sentence was refused by the ledger (21% after a near miss)",
+  "first_fix": "payoff: unchanged; join: unchanged (refused after a near miss); plain: \"than I would give now\", the verb the reader had to supply",
+  "diagnosis": "the rushing sentence read Low 15 (60554a64) and Medium 17 (e1ccdb68) when it ended a check and High inside one (7a332a1b, caae0369); the one place a reader could take it two ways is \"more than I would now\", which leaves its verb out",
+  "lineage": "bad-trips Beach Morning Glory, handling the leaf and the woman (B174, B176), together (h80)",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "whether the joined woman paragraph leaves the Medium window at the end of the pair, so the handling paragraph (B174) has a check with every window High",
+  "tells": [
+   "I was rushing to help her, so I may have given her more than I would give now."
+  ],
+  "human": [
+   "especially under my fingernails"
+  ],
+  "receipt": "TEST-b3-bmg-p3p4.receipt.json"
+ },
+ "a3-bmg-p4p5": {
+  "humanized": "try 3 of the woman paragraph from try 2 (e1ccdb68, High 72 and Medium 17 on the rushing sentence): one word, \"more than I would now\" made \"more than I would give now\"; a join of the sentence was refused by the ledger (21% after a near miss)",
+  "first_fix": "payoff: unchanged; join: unchanged (refused after a near miss); plain: \"than I would give now\", the verb the reader had to supply",
+  "diagnosis": "the rushing sentence read Low 15 (60554a64) and Medium 17 (e1ccdb68) when it ended a check and High inside one (7a332a1b, caae0369); the one place a reader could take it two ways is \"more than I would now\", which leaves its verb out",
+  "lineage": "bad-trips Beach Morning Glory, the woman and the MDMA limit (B176, B178), together (h80)",
+  "call": "Human",
+  "chance": 0.75,
+  "decides": "whether the joined woman paragraph still reads High beside the MDMA line, as tries 1 and 2 did (7a332a1b, caae0369)",
+  "tells": [
+   "I was rushing to help her, so I may have given her more than I would give now."
+  ],
+  "human": [
+   "The trips I've seen it stop were psychedelic ones"
+  ],
+  "receipt": "TEST-a3-bmg-p4p5.receipt.json"
+ },
+ "c1-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether the handling paragraph, moved up after the first paragraph, reads High with every window High beside it; beside the woman paragraph its own words read High three times but the pair always ended on a line below High",
+  "tells": [
+   "The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "human": [
+   "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast."
+  ],
+  "receipt": "TEST-c1-bmg-p1p3.receipt.json",
+  "humanized": "the first paragraph's try 2 (ecce6d40, Human High 56) and the handling paragraph's try 1, unchanged, in a new order: the handling paragraph moved up before the amounts",
+  "first_fix": "payoff: unchanged (\"The leaf is strong enough\" now follows the sledgehammer); join: unchanged; plain: unchanged",
+  "diagnosis": "the handling paragraph's words read High in every check beside the woman paragraph; what stayed below High was that paragraph's last line at the end of the pair, so the handling paragraph goes where it belongs in the reader's order, after which plant"
+ },
+ "sec1-bmg": {
+  "lineage": "bad-trips Beach Morning Glory, the whole section as it stands after turn 72 (B171, B174, B173, B176, B178) (h80)",
+  "scope": "section",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "the section check after its paragraphs' checks (the production budget's first section check): whether its five paragraphs, each Human High by itself or with a neighbour, hold High together; a window below High names what to fix next",
+  "tells": [
+   "I was rushing to help her, so I may have given her more than I would give now."
+  ],
+  "human": [
+   "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast."
+  ],
+  "unchanged": "the guide's Beach Morning Glory section exactly as it stands after humanize/h80-20261127/apply_h80.py: B171, B174, B173, B176 and B178, without its heading"
+ },
+ "a2-bmg-p2": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what (B173 with B175 moved in), by itself (h80)",
+  "call": "Human",
+  "chance": 0.8,
+  "decides": "whether the amounts paragraph, its two openings no longer built the same way, still reads High by itself, before the section check that showed its first two sentences Low (e1629a55)",
+  "tells": [
+   "A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward."
+  ],
+  "human": [
+   "But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending."
+  ],
+  "receipt": "TEST-a2-bmg-p2.receipt.json",
+  "humanized": "try 2 from try 1 (6bc70ed9, Human High 67 by itself): three words, \"can sometimes smooth\" made \"sometimes smooths\" and \"improve\" \"improves\"",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"sometimes smooths\", the hedge said once",
+  "diagnosis": "beside the handling paragraph, the first two sentences read Low twice (16784f2b; the section, e1629a55): two sentences built the same way, \"A whole leaf can easily end\" and \"A tiny nibble can sometimes smooth\" (his fixes, way 2), with a third \"can\" in the handling paragraph before them"
+ }
+}

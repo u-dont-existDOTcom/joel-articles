@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a; the twenty-ninth, from his fix of the bad trips guide's kidney paragraph, lesson bad-trips-2026-11-25b). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a; the twenty-ninth, from his fix of the bad trips guide's kidney paragraph, lesson bad-trips-2026-11-25b; the thirtieth, from his fix of its beach morning glory amounts, lesson bad-trips-2026-11-27j). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, one from his Two Pillars fix, 2026-11-24, and one from his kidney paragraph, 2026-11-25). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, one from his Two Pillars fix, 2026-11-24, one from his kidney paragraph, 2026-11-25, and one from his beach morning glory amounts, 2026-11-27). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -300,6 +300,17 @@ that still reads the first way.
    opioids" apart from the opioid already named, read AI Low; "(or any other MAOI)" beside the brews and "the painkiller
    tramadol and some other opioids" took the whole paragraph to High (lesson bad-trips-2026-11-25b). For each item, write
    what it belongs with, and mark it if something stands between them.
+30. **A word that pulls against what the paragraph mainly says the thing does.** A verb or adjective that says the thing
+   does something that sounds like the opposite of the paragraph's main point about it: a remedy the paragraph says ends
+   a trip "can even improve the trip", and the reader stops to ask how both can be true. He changed "improve" to
+   "smooth" ("how can something which ends a trip also 'improve' the trip? that sounds opposite perhaps. smooth the trip
+   makes more sense, and is more accurate also"), and that one word took the sentence's window from Medium to the whole
+   paragraph Human High in one window, where my two changes to how the sentences were built had not (lesson
+   bad-trips-2026-11-27j). Find what the paragraph mainly says the thing does; then, for each word that says what it does
+   or how it acts, mark it if it sounds like the opposite, and say what it does with a word the passage already has, as
+   he did (way 10). In the blind test, a writer told only "a word whose sense clashes with the rest" changed the wrong
+   word; told this way, one found "improve" but wrote "change", which says less than his word, and the sentence stayed
+   Medium (h82 replay).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

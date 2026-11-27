@@ -346,3 +346,37 @@ class LinkAtTheStart(unittest.TestCase):
     def test_none_with_a_reason_still_passes(self):
         r = self.receipt(self.LATE, 'none: a new step, which the reader expects after the one before', '2026-11-22')
         self.assertFalse(any(x.startswith('link for') for x in R.check(self.LATE, r)))
+
+
+class HisAnswer(unittest.TestCase):
+    """Lesson bad-trips-2026-11-27k: his "it absorbs almost as well as eating it, especially on sensitive skin" went in
+    as "Its juice works through the skin almost as well as eating the leaf does"."""
+    TEXT = ('The leaf is strong enough that even picking one can relax me if the juice touches sensitive skin. Its juice '
+            'works through the skin almost as well as eating the leaf does.')
+    SAID = 'it absorbs almost as well as eating it, especially on sensitive skin'
+
+    def problems(self, text, entries, found='review/r62/ANSWERS-R62.json, card LEAF-JUICE: his words'):
+        r = {'made': '2026-11-27', 'checked': [{'found': found}], 'his_answer': entries}
+        return R.his_answer_problems(text, r)
+
+    def test_a_word_he_said_that_the_sentence_dropped_is_named(self):
+        into = 'Its juice works through the skin almost as well as eating the leaf does.'
+        probs = self.problems(self.TEXT, [{'said': self.SAID, 'in': into, 'words': {'absorbs': 'said as "works through"'}}])
+        self.assertTrue(any('"especially"' in x for x in probs), probs)
+        self.assertTrue(any('"sensitive"' in x for x in probs), probs)
+        self.assertFalse(any('"absorbs"' in x for x in probs), probs)
+
+    def test_his_words_in_the_sentence_or_accounted_for_pass(self):
+        text = self.TEXT.replace('through the skin', 'through sensitive skin')
+        into = 'Its juice works through sensitive skin almost as well as eating the leaf does.'
+        words = {'absorbs': 'said as "works through"', 'especially': 'in the sentence before, "especially under my nails"'}
+        self.assertEqual(self.problems(text, [{'said': self.SAID, 'in': into, 'words': words}]), [])
+
+    def test_a_cited_card_needs_his_answer_mapped(self):
+        self.assertTrue(self.problems(self.TEXT, []))
+        self.assertEqual(self.problems(self.TEXT, [], found='his post as of 2026-11-03'), [])
+
+    def test_the_sentence_must_be_in_the_text(self):
+        probs = self.problems(self.TEXT, [{'said': self.SAID, 'in': 'Nothing like this is in the text.'}])
+        self.assertTrue(any('not in the text' in x for x in probs), probs)
+

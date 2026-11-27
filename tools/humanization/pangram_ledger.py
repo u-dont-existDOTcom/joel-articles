@@ -659,6 +659,15 @@ def below_high_words(windows):
                and not (str(w.get('label', '')).startswith('Human') and w.get('confidence') == 'High'))
 
 
+def shown_likelihood(lk):
+    """A result's AI likelihood as the web app shows it, in whole percent (None counts as 100%). Lesson
+    bad-trips-2026-11-27i: the API (pangram_api.py) gives a Human text's likelihood unrounded, 1e-29 or 2e-31, so the
+    tie that best_near_miss breaks on the words below High never happened, and on turn 73 a try with a Medium window
+    (Beach Morning Glory's amounts, 2.6e-31, ddea8d92) ranked above the same paragraph's try that read High in every
+    window (7e-29, 6bc70ed9), which is the turn-50 slip again through another door."""
+    return 1.0 if lk is None else round(float(lk), 2)
+
+
 def best_near_miss(line):
     """Lesson bad-trips-2026-11-19b: the try of the lineage that read best (lowest AI likelihood) among those with a Human
     window, or None. Joel's round-41 versions started from my first tries, each with a Human window (79% and 87% AI), and
@@ -673,8 +682,7 @@ def best_near_miss(line):
         ws = r.get('windows') or []
         if not p.get('text') or not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):
             continue
-        lk = r.get('likelihood')
-        rank = (1.0 if lk is None else lk, below_high_words(ws))
+        rank = (shown_likelihood(r.get('likelihood')), below_high_words(ws))
         if best is None or rank < best[1]:
             best = (p, rank)
     return best[0] if best else None
@@ -691,8 +699,7 @@ def right_track(line):
         return False
     def rank(p):
         r = p.get('result') or {}
-        lk = r.get('likelihood')
-        return (1.0 if lk is None else lk, below_high_words(r.get('windows') or []))
+        return (shown_likelihood(r.get('likelihood')), below_high_words(r.get('windows') or []))
     last = done[-1]
     ws = (last.get('result') or {}).get('windows') or []
     if not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):

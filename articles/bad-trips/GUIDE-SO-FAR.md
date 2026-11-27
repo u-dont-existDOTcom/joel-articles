@@ -251,11 +251,11 @@ After all, nausea and diarrhea are common on psychedelics, and people generally 
 
 Zeolite and the [ZHoly3O](http://zholy3o.u-dont-exist.com/) ferment are often my first thoughts when the trip feels like a sick stomach, with nausea or diarrhea and that toxic heaviness or dirty body-feeling, or like mental hell driven by gut hell. I'd think of them for parasite die-off too.
 
-The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments. I found fermented beet made with apple vinegar and salt was best so far, though kimchi and kombucha also helped. Most yogurts weren't fermented enough to work, and apple vinegar by itself only helped a little. Smelling the ferment helps a lot, and drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.
+The ZHoly3O ferment contains more than just fermented beet juice, but you can ferment your own beet juice or even use other ferments. I found fermented beet made with apple vinegar and salt was best so far, though kimchi and kombucha also helped. Most yogurts weren't fermented enough to work, and apple vinegar by itself only helped a little. Smelling the ferment helps a lot, and drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires [activated charcoal](#§activated-charcoal) to reduce gut histamine.
 
-Most sober people don't feel much from zeolite, but when the trip is toxic or the gut is driving it, the effect is easy to feel. I put a spoonful of zeolite into a cup of water or juice and sip slowly (some people need a teaspoon, others a tablespoon). Rubbing the zeolite on my body, or just holding its jar in my hand, helps me too.
+Most sober people don't feel much from zeolite, but when the trip is toxic or the gut is driving it, the effect is easy to feel. I put a spoonful of zeolite into a cup of water or juice and sip slowly (some people need a teaspoon, others a tablespoon). Rubbing zeolite mixed in water on my body, or just holding its jar in my hand, helps me too.
 
-In my experiments, zeolite has to be prepared correctly. I use powdered zeolite rather than nano-liquid zeolite. Many products did nothing for me, and quality mattered enormously. Most zeolites have clogged pores because they haven't been cleaned.
+In my experiments, zeolite must have its pores cleaned correctly, or else it's useless. I use powdered zeolite rather than nano-liquid zeolite, because there's almost nothing in that liquid, and it's generally not cleaned either. Only one brand of zeolite I tried actually worked without needing to be ozonated, although that brand didn't have the best lab results for metals.
 
 For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic. I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me, however much zeolite was in the water. Less time didn't work as well, and more time didn't noticeably improve the zeolite.
 
@@ -263,11 +263,11 @@ Zeolite binds metals, which is part of why it is used for heavy-metal removal, s
 
 ### Activated Charcoal
 
-Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point. It can also flatten or reduce a trip, so I don't treat charcoal and zeolite as interchangeable.
+I don't treat charcoal and zeolite as interchangeable, because drugs bind to activated charcoal as well as gut toxins, so it can flatten or reduce a trip.
 
-When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant. When I want to preserve the trip while improving the gut feeling, I prefer [zeolite](#§zeocharge-and-ferment).
+So if someone took too much, or the gut itself is toxic, I give charcoal. If the trip is going fine and only the gut feels bad, I give [zeolite](#§zeocharge-and-ferment), which leaves the trip alone.
 
-Charcoal can also adsorb medications somebody depends on. I would use it cautiously around necessary medicines and tell the medics if charcoal was taken.
+Medicines bind to charcoal too, so I'd think twice before giving it to someone who depends on one, and I'd tell any medics who come that charcoal was taken.
 
 ---
 
@@ -390,19 +390,15 @@ Without an ozone-water purifier--which can cost around $20 on Amazon--boiling wa
 
 ### Beach Morning Glory
 
-By beach morning glory I mean *Ipomoea pes-caprae*, rather than morning-glory plants in general. The distinction matters. I have tried many related plants and cousins, and they did not work the same way. As far as I know, nobody else sells it.
+In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast. By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it. People still find it growing in some places, under names like railroad vine.
 
-Its primary role in this guide is not ordinary nausea control. In my experience, *Ipomoea pes-caprae* is the ultimate sledgehammer for stopping a psychedelic trip cold and fast.
+Eating a whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it. For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste (the dried juice). But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.
 
-A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow. I use it for nausea only when the person is comfortable with the possibility that the trip may end.
+The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end. Its juice works through sensitive skin almost as well as eating the leaf does, so to give it on purpose, you can put it under the armpits, for example. I'd use about the same amounts as by mouth, or maybe a few drops of fresh juice if you have any.
 
-Even picking a leaf can affect me when the broken juicy part touches sensitive skin, especially under the fingernails. Avoiding contact with the broken portion prevents that effect.
+I've seen it work on someone else too: I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy. I may have given her more than I would give now, though, since I was rushing to help her.
 
-A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.
-
-This was not only personal. I once gave beach morning glory to a woman experiencing nausea and dysphoria during a psychedelic state. I was rushing to help and may have given more than I would now. Within a couple of minutes she shifted from miserable to very happy. That helped convince me the effect wasn't limited to my body.
-
-I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains [a separate branch](#§mdma-magnesium-alarm) centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.
+The trips I've seen it stop were psychedelic ones, and I don't yet have data showing that pes-caprae aborts MDMA, so for MDMA, go to [MDMA: Magnesium Alarm](#§mdma-magnesium-alarm) instead.
 
 ---
 

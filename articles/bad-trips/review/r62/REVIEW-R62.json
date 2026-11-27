@@ -1,0 +1,117 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r62",
+ "title": "Bad Trips Guide, Round 62",
+ "intro": [
+  "Round 62 (2026-11-27). Your three round-61 answers are in. Your own B155 went in whole: you had checked it [by itself](https://www.pangram.com/history/00eb45f1-8b99-4337-929b-b4489859cf23) and [with the paragraph before it](https://www.pangram.com/history/54b91410-ee03-4ebe-969b-03777505918f), both Human High in one window, and with the ozone paragraph after it, it reads [Human High in one window](https://www.pangram.com/history/dc4e6e82-d4cd-49cc-a0e0-14ede9962595) through the API too. Activated Charcoal is in as my version (your \"a\"), and from now on the warning check frees a line whose only warning word is no caution, each one named with its reason. I read your FROM-POST answer as (a), so the 5g line stays out, and the rubbing line now says \"zeolite mixed in water\" ([Human High by itself](https://www.pangram.com/history/e067e728-1f20-4c3f-bf99-96430965defd)). [Each point and where it went](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r61/RESULTS-R61.md).",
+  "With your B155 in, the whole of ZeoCharge & Ferment reads [Human High in one window](https://www.pangram.com/history/7447e8b4-1a7f-46f0-bf4b-c33046e98efe), so its three short lines needed no change. Then Beach Morning Glory: as it stood it read AI ([its last two paragraphs](https://www.pangram.com/history/55e4ae84-ccba-40f7-9156-b6a358c99a43)). Every paragraph of my rewrite reads Human High by itself or with a neighbour, and the section reads [Human](https://www.pangram.com/history/e1629a55-218a-4f9a-a755-c7cdced59265), with some windows still at Medium and one at Low, which I keep working on. Two things in it only you can say are the cards below ([every check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h80-20261127/RESULTS.md); [what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h80-20261127/LEFT.md))."
+ ],
+ "git_file": "articles/bad-trips/review/r62/REVIEW-R62.html",
+ "article": {
+  "file": "articles/bad-trips/review/r62/PAGE-R62.md",
+  "sha256": "ca2cbf5ffedfcd268a92a97b003e105d09a3a8c94fcd6eec90dadc5b01343955"
+ },
+ "built": "2026-11-27",
+ "whole": {
+  "file": "articles/bad-trips/review/r62/PAGE-R62.md",
+  "sha256": "ca2cbf5ffedfcd268a92a97b003e105d09a3a8c94fcd6eec90dadc5b01343955"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r62/REVIEW-R62.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r62/REVIEW-R62.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "quiz": {
+   "label": "Quiz",
+   "about": "my reading of my own sentences, written before any Pangram check, for you to score (your suggestion of 2026-11-21)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "LEAF-JUICE",
+   "type": "question",
+   "advice": "ask",
+   "title": "1. Beach Morning Glory: what does the juice do when it touches your skin?",
+   "whose": "the post's paragraph, drafted by a model from his practice, rewritten in turn 72 (Human High with the paragraph before it)",
+   "question": "The handling line says even picking a leaf \"can affect me\" when the juice from the broken part touches sensitive skin, especially under the fingernails. A fresh reader couldn't tell what that effect is.\n(a) you feel the plant's effect, as you would from eating some (a trip starts to end); (b) a skin reaction, like a rash or a sting; or say it as you'd say it, and it goes into that sentence.",
+   "why": "a sitter who picks or breaks leaves needs to know what to watch for in themselves",
+   "stays": "the line as it reads now (highlighted), which is in the guide",
+   "advice_note": "(a) or (b), or the effect as you'd describe it: I can't tell which from your post",
+   "spans": [
+    {
+     "block": 230,
+     "start": 0,
+     "end": 196
+    }
+   ]
+  },
+  {
+   "id": "NIBBLE-SIZE",
+   "type": "question",
+   "advice": "ask",
+   "title": "2. Beach Morning Glory: how big is the nibble for nausea?",
+   "whose": "the post's paragraph, drafted by a model from his practice, rewritten in turn 72 (Human High by itself)",
+   "question": "A fresh reader sitting with a friend couldn't judge \"a tiny nibble\" against the amount that ends a trip, and the paragraph says it takes only a little more than a nibble to end one, so a sitter could easily give too much.\nHow big is the nibble you'd give for nausea? Write it as you'd say it, as something a sitter can see (a part of a leaf, say), and it goes into that sentence. Or (a): leave it as \"a tiny nibble\".",
+   "why": "the amount is yours, and a sitter who guesses too big ends the trip they meant to keep going",
+   "stays": "the paragraph as it reads now (highlighted), which is in the guide",
+   "advice_note": "a size you'd name: the whole leaf now comes first, so the reader has one amount to judge by, but not the nibble's",
+   "spans": [
+    {
+     "block": 231,
+     "start": 0,
+     "end": 353
+    }
+   ]
+  }
+ ]
+}

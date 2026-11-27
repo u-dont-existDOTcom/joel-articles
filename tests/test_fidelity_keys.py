@@ -207,3 +207,41 @@ class CitationsLost(unittest.TestCase):
 
     def test_the_citation_put_back_passes_with_no_entry(self):
         self.assertTrue(fk.check(self.keys, self.MASTER)['pass'])
+
+
+class NotCautions(unittest.TestCase):
+    """Joel, 2026-11-27, the bad trips guide's round 61, CHARCOAL-WORDS "a": "from now on a line whose only warning word
+    isn't a caution may be said in other words, as long as every fact stays"."""
+    MASTER = ("Activated charcoal can help gut toxicity, but it adsorbs drugs. It can flatten a trip.\n\n"
+              "When the goal is to stop a toxic gut situation, charcoal may be relevant. Do not give DMSO by mouth.\n")
+    MINE = ("Drugs bind to activated charcoal as well as gut toxins, so it can flatten a trip.\n\n"
+            "If the gut itself is toxic, I give charcoal. Do not give DMSO by mouth.\n")
+
+    def setUp(self):
+        self.keys = fk.extract(self.MASTER)
+        self.ids = {u['what'].split()[0]: u['id'] for u in self.keys['units']}
+        self.entries = [
+            {'unit': self.ids['Activated'], 'cues': ['toxicity'], 'by': 'his CHARCOAL-WORDS "a"',
+             'why': '"toxicity" names what charcoal helps; nothing in the line tells the reader not to do something'},
+            {'unit': self.ids['When'], 'cues': ['stop'], 'by': 'his CHARCOAL-WORDS "a"',
+             'why': '"stop" is what the reader wants charcoal for, not an instruction to stop'}]
+
+    def test_a_line_whose_warning_word_is_no_caution_may_be_reworded(self):
+        self.assertFalse(fk.check(self.keys, self.MINE)['pass'])          # held word for word by default
+        r = fk.check(dict(self.keys, not_cautions=self.entries), self.MINE)
+        self.assertTrue(r['pass'], r)
+        self.assertEqual(r['not_cautions'], sorted(e['unit'] for e in self.entries))
+
+    def test_a_real_caution_beside_it_stays_held_and_so_do_the_facts(self):
+        keys = dict(self.keys, not_cautions=self.entries)
+        self.assertFalse(fk.check(keys, self.MINE.replace('Do not give DMSO by mouth.', 'Give DMSO by mouth.'))['pass'])
+        self.assertFalse(fk.check(keys, self.MINE.replace(' Do not give DMSO by mouth.', ''))['pass'])   # DMSO lost
+
+    def test_an_entry_needs_its_reason_its_source_and_every_warning_word_of_the_line(self):
+        for bad in (dict(self.entries[0], why=''), dict(self.entries[0], by=''), dict(self.entries[0], unit='W999'),
+                    dict(self.entries[0], cues=[])):
+            with self.assertRaises(ValueError):
+                fk.check(dict(self.keys, not_cautions=[bad]), self.MINE)
+        keys = fk.extract("Stop the charcoal if there is any risk of choking.\n")
+        with self.assertRaises(ValueError):                              # "risk" is in the line too, and not named
+            fk.check(dict(keys, not_cautions=[{'unit': 'W001', 'cues': ['stop'], 'by': 'x', 'why': 'y'}]), "Charcoal.\n")

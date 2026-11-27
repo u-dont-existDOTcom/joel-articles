@@ -1,0 +1,22 @@
+NEEDS:
+S1: Tells the reader what the plant does (stops a psychedelic trip fast), so they know why they would use it.
+S2: Tells the reader which exact species to look for (*Ipomoea pes-caprae*) and that other morning glories won't do the same. The "though ... nobody else sells it" tail doesn't follow from the first half, and the reader can lose it.
+S3: Says where it can be found (growing in some places) and gives the other name, railroad vine, to look for.
+S4: Handling warning. It implies keeping your skin away from the broken end of the leaf and especially away from sensitive spots like under the fingernails.
+S5: Explains that the juice acts through sensitive skin almost like eating the leaf, and gives the armpit as the place to apply it.
+S6: Gives the skin dose, about 200mg of leaf or 10mg of extract paste. The "maybe a few drops of the juice, although I don't think anyone has the juice" clause gives the reader nothing usable, so cut it.
+S7: Says what a whole leaf by mouth does: it ends the trip and may keep you from tripping for days.
+S8: Says what a tiny nibble does: it can ease nausea and sometimes smooth the trip without ending it.
+S9: Gives the nausea dose, 200mg of leaf or 10mg of extract paste at a time.
+S10: Warns that a little more than a nibble ends the trip. It implies using it for nausea only if the person accepts the trip may end, and otherwise starting smaller.
+S11: Nothing. It only leads into the anecdote.
+S12: Nothing. It is a single case, and the effects are already stated in S7 and S8.
+S13: Nothing. It qualifies the anecdote's dose, and the reader already has doses in S6 and S9.
+S14: Tells the reader not to rely on it for MDMA and to use the other section instead. Its link text is split from S15 mid-link ("[MDMA:" then "Magnesium Alarm](...)"), which breaks the link.
+S15: Completes the link and the pointer to the MDMA section (see S14).
+
+UNNEEDED:
+- S2: "By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it." — The species and "not other morning glories" are needed, but the "though ... nobody else sells it" tail doesn't connect to what comes before it. The "relatives and cousins" wording also repeats itself, so the reader can lose the tail and the repetition.
+- S11: "I've seen it work on someone else too:" — It is only a lead-in to an anecdote the reader doesn't need.
+- S12: "I once gave beach morning glory to a woman who was nauseous and miserable on a psychedelic, and within a couple of minutes she was very happy." — It is a single case, and what the plant does is already covered by S7 and S8.
+- S13: "I was rushing to help her, so I may have given her more than I would give now." — It qualifies a dose in an anecdote the reader doesn't need, and the reader already has doses in S6 and S9.

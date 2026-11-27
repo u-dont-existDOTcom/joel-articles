@@ -46,6 +46,7 @@ on a heading. `build` makes a catalog from the post's HTML (its body as Substack
   python3 tools/humanization/section_links.py build --html BODY.html --base URL --post ID [--source TEXT] > CATALOG
 """
 import argparse
+import collections
 import urllib.parse
 import html.parser
 import json
@@ -168,6 +169,26 @@ def links_check(cat):
     return out
 
 
+def article_check(cat, article_md):
+    """[(link, problem)] between the catalog and the article it catalogues: a catalogued link whose words no longer carry it
+    in the article, and a link to the article's own sections that the catalog doesn't list. Lesson bad-trips-2026-11-27g:
+    turn 71 put his ferments answer into a paragraph from a test file written without links, and the paragraph's
+    "activated charcoal" link went with it; turn 70 had added four links the catalog never listed, so a rename would
+    have missed them. `links` only asked whether each catalogued link lands on a heading."""
+    def plain(t):
+        return t.replace('*', '')
+    found = collections.Counter((plain(t), h) for t, h in re.findall(r'\[([^\]]+)\]\((#§[^)\s]+)\)', article_md))
+    want = collections.Counter((plain(ln['text']), ln['href']) for ln in cat['links'] if same_post(ln['href']))
+    out = []
+    for (t, h), n in (want - found).items():
+        out.append(({'text': t, 'href': h}, 'catalogued %d time(s) more than the article carries it: the link went missing '
+                                             'from its words, or the catalog is stale' % n))
+    for (t, h), n in (found - want).items():
+        out.append(({'text': t, 'href': h}, 'in the article %d time(s) more than the catalog lists it: catalogue it '
+                                             '(block, words, href), so a heading\'s rename finds it' % n))
+    return out
+
+
 def notice_lines(root='.'):
     """One line for each post whose catalog still has links to its own sections in the form that loads the page again
     (lesson toc-2026-11-25c). lane_push.py prints them at every push, so the lane that owns the post sees it; it never
@@ -254,7 +275,8 @@ def main(argv=None):
     g = sub.add_parser('anchor'); g.add_argument('heading')
     b = sub.add_parser('url'); b.add_argument('base'); b.add_argument('post_id'); b.add_argument('heading')
     c = sub.add_parser('check'); c.add_argument('article')
-    d = sub.add_parser('links'); d.add_argument('catalog')
+    d = sub.add_parser('links'); d.add_argument('catalog'); d.add_argument('--article', help='the article the catalog is for: '
+                                                                           'also check every link both ways (lesson bad-trips-2026-11-27g)')
     e = sub.add_parser('rename'); e.add_argument('catalog'); e.add_argument('key'); e.add_argument('new_heading')
     e.add_argument('--write', action='store_true')
     f = sub.add_parser('build'); f.add_argument('--html', required=True); f.add_argument('--base', required=True)
@@ -263,9 +285,12 @@ def main(argv=None):
     if args.cmd == 'links':
         cat = json.loads(pathlib.Path(args.catalog).read_text(encoding='utf-8'))
         probs = links_check(cat)
+        if args.article:
+            probs += article_check(cat, pathlib.Path(args.article).read_text(encoding='utf-8'))
         for ln, why in probs:
             print('%s: "%s" -> %s' % (ln.get('in', ''), ln['text'], why))
-        print('%d of %d links to fix' % (len(probs), len(cat['links'])) if probs else 'all %d links land on a heading' % len(cat['links']))
+        print('%d of %d links to fix' % (len(probs), len(cat['links'])) if probs else 'all %d links land on a heading%s' % (
+            len(cat['links']), ', and the article carries each, with none uncatalogued' if args.article else ''))
         return 1 if probs else 0
     if args.cmd == 'rename':
         path = pathlib.Path(args.catalog)

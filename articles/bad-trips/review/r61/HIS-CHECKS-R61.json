@@ -1,0 +1,41 @@
+{
+ "about": "his_checks_r61.py - his two Pangram checks on round 61's TEACH-B155, as read from the pages his links open (2026-11-27,",
+ "checks": [
+  {
+   "id": "00eb45f1-8b99-4337-929b-b4489859cf23",
+   "what": "his version of B155 by itself",
+   "sha256": "0e73132b4f62c1310467ecbb1816440186eab7ef924d86abd5e07a34eaba2c0a",
+   "utc": "2026-11-27T15:31:52Z",
+   "version": "4.1",
+   "headline": "Human Written",
+   "ai": 3.6e-26,
+   "windows": [
+    [
+     "Human",
+     "High",
+     65
+    ]
+   ],
+   "words_local": 60,
+   "link": "https://www.pangram.com/history/00eb45f1-8b99-4337-929b-b4489859cf23"
+  },
+  {
+   "id": "54b91410-ee03-4ebe-969b-03777505918f",
+   "what": "B158 as the guide had it (turn 71), then his version of B155",
+   "sha256": "be71360674d78aebfc2c15c07245f3f7304a12fe837011ee1198afda9a2123d7",
+   "utc": "2026-11-27T15:32:48Z",
+   "version": "4.1",
+   "headline": "Human Written",
+   "ai": 5.6e-29,
+   "windows": [
+    [
+     "Human",
+     "High",
+     133
+    ]
+   ],
+   "words_local": 127,
+   "link": "https://www.pangram.com/history/54b91410-ee03-4ebe-969b-03777505918f"
+  }
+ ]
+}

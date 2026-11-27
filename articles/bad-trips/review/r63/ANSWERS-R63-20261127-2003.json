@@ -1,0 +1,56 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r63",
+ "title": "Bad Trips Guide, Round 63",
+ "git_file": "articles/bad-trips/review/r63/REVIEW-R63.html",
+ "article": {
+  "file": "articles/bad-trips/review/r63/PAGE-R63.md",
+  "sha256": "edfb91840d2f147d82d2516fd10e57bd017ec89a9b134ae6b036c49aed185fd4"
+ },
+ "built": "2026-11-27",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-27T20:03:09.666Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "TEACH-B173",
+   "type": "teach",
+   "title": "2. Beach Morning Glory: the amounts paragraph, with your amounts in",
+   "where": "Beach Morning Glory, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even smooth the trip without ending it. For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste. But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.",
+   "comment": "i sell the extract paste, it's the dried juice, altho i don't necessarily want to say i sell it in this guide since then it looks like a sales pitch, altho nobody is selling it other than me but ppl can find it in some places growing (railroad vine is one name used)\n\nso the issue here was a lack of clarity. how can something which ends a trip also 'improve' the trip? that sounds opposite  perhaps. smooth the trip makes more sense, and is more accurate also. i'm somewhat sure i didn't write \"improves\" the trip, that sounds like ai slopping my thoughts\n\nhttps://www.pangram.com/history/09e42ca2-b7ef-4439-92f3-402dd6f78314?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it. But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.",
+   "before": "A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it. But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-27T19:54:47.393Z"
+    }
+   ],
+   "updated": "2026-11-27T20:02:58.516Z"
+  },
+  {
+   "id": "SKIN-AMOUNT",
+   "type": "question",
+   "title": "1. Beach Morning Glory: how much juice on the skin?",
+   "where": "Beach Morning Glory, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The handling paragraph now says the juice \"works through the skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.\" A fresh reader couldn't tell how much juice to put there, and since it works almost as well as eating, too much could end the trip.\nHow much would you use, the juice of how much leaf, say? Write it as you'd say it, and it goes into that sentence. Or (a): leave it as it is.",
+   "your_version": "",
+   "comment": "you forgot the most important part, sensitive skin... that's why i said under the armpits. so when picking the leaf, it only absorbs under my fingernails for example. \ni said like 200mg of leaf or 10mg of the extract (dried juice paste)... maybe a few drops  of the juice altho i don't think anyone has the juice",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-27T19:54:19.867Z"
+  }
+ ]
+}
