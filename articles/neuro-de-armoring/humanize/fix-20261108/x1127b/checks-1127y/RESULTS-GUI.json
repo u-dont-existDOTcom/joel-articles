@@ -1,0 +1,26 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "sw19-s8": {
+   "uuid": "9d20e313-4158-4abe-a581-1921a281f0ef",
+   "at": "2026-11-27T20:30:18Z",
+   "headline": "Human Written",
+   "ai": 2.2187905233549046e-15,
+   "words": 91,
+   "windows": [
+    [
+     "Human",
+     "High",
+     61,
+     "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on."
+    ],
+    [
+     "Human",
+     "Medium",
+     30,
+     "So start gathering a tribe of people you're close to and see most days, or you'll eventually put the armor back on just to get through the loneliness."
+    ]
+   ]
+  }
+ }
+}

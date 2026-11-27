@@ -1,0 +1,31 @@
+{
+ "sw19-s2": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, from my try 2: the Void sentence, then the tell panel's agreed tells",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will feel worse than it did with the armor on. Gather a tribe of people you're close to and see most days, or you'll eventually reach for the armor again just to survive the cold.",
+  "chance": 0.45,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S2.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "my try 2 (#266) read Human Medium over its first sentence, AI High over the Void sentence (a pointer to the guide itself and a colon gloss) and AI Medium over the last two; the Void sentence is said plainly with the name in brackets, then the panel's agreed tells within the near-miss limit: \"may feel\" (a hedge), the tribe's appositive gloss, and the brain reaching for the armor (lesson neuro-2026-11-27i)",
+  "decides": "whether the Void sentence and the last sentence move out of AI; below High, the next step joins the before-and-after sentence to the act it calls for",
+  "tells": "the before-and-after sentence still stands alone (\"Once you've de-armored, going back to a lonely life will feel worse than it did with the armor on.\"); the first sentence, Human Medium in try 2, unchanged",
+  "first_fix": "payoff: the Void sentence opens on the emptiness the reader feels, then its name in brackets; join: \"So\" ties it to the ratio, \"since\" joins its reason; plain: \"a tribe of people you're close to and see most days\" without the gloss, and the person, not the brain, reaches for the armor",
+  "humanized": "my try 2 (texts_x1126b.NEW['sw19']) with the Void sentence and the tell panel's agreed tells fixed within the near-miss limit"
+ },
+ "pair2223": {
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "name": "The Anti-Breakthrough as it went in, with the practice paragraph as one plain sentence",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nIn practice, that means 30 seconds of slow breathing, twenty times a day.",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW22-23-3.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-pair2223/PANEL.md",
+  "diagnosis": "try 2 (#268) read AI in every window: its practice paragraph opened on a goal and a colon and ended on an analogy with a where-clause; my next draft said the point a fourth time with a second \"since ... more than\" clause, which the tell panel agreed on; the Anti-Breakthrough has gone in at Human High by itself (P-SW22 step 2, https://www.pangram.com/history/31905039-057d-4b64-9c9e-5dbde18dadef), so it stays as it is",
+  "decides": "whether it goes in; below High, the next try starts from it and changes a word or two a reader could take two ways",
+  "tells": "the panel's flags on the Anti-Breakthrough, left since it read Human High by itself (\"which is what I mean by micro-dosing here\" as a signpost; \"So for now ...\" with its \"since\" clause)",
+  "first_fix": "payoff: the practice sentence opens on what the reader does (\"In practice, that means 30 seconds ...\"); join: \"In practice, that\" points at the doses of a few seconds just named; plain: \"slow breathing\" for \"regulated breathing\", no reason said twice, no slogan",
+  "humanized": "the post's practice paragraph rewritten from the reads of it (x1126b/v1/*/sw23), of my first draft (x1127b/v1/his-fixes/sw23n) and the tell panel on my second (x1127b/panel-pair2223)",
+  "big_change": "the practice paragraph's try #268 read AI in every window, with no Human window to start small steps from, so its words are rewritten from the reads; the Anti-Breakthrough is the version that went in at Human High"
+ }
+}

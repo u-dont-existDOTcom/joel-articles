@@ -1,0 +1,7 @@
+MARKED:
+- S1: 10 — "That" opens the sentence with nothing in it saying what works out to one-sixteenth, and "the grown-ups per child that our brains evolved with" can be read as the child our brains evolved with. His way would name the thing counted and what it is compared with, e.g. "a child today gets about one-sixteenth of the grown-ups that a child had when our brains evolved".
+- S2: 10, 22 — "that's real" could mean the feeling is real or the "Void" is a real thing, and "it's that missing company" points back at "company", a word S1 never used (S1 says grown-ups per child). His way would name it with words the passage already has, e.g. "what you're feeling is those missing grown-ups / the company we evolved with".
+- S3: 10, 12 — "It also means" could point at the one-sixteenth figure or at the emptiness being real, and nothing says how de-armoring follows from either (that the armor was numbing the loneliness). His way would say what the "It" is and give that link first.
+- S3: 1 — three ideas are packed into one sentence: it hurts more without the armor, you need a tribe, or the armor goes back on. His way would give the tribe its own clause as the thing to do, tied by "so".
+- S3: 6 — it ends on a figure, "just to survive the cold", where "the cold" is a new label for the loneliness. His way would end on the act (finding the people you're close to and see most days) or say "the loneliness" plainly.
+(Fable, 2026-11-27, given only v1/his-fixes/sw19r1/BRIEF.txt; its reply as it came)

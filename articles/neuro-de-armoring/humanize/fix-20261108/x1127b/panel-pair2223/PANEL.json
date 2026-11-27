@@ -1,0 +1,53 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds.",
+  "So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it.",
+  "Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.",
+  "So your goal is 30 seconds of slow and steady breathing, twenty times a day, since short sessions done often help an armored nervous system more than one long session does."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph makes one point (short doses beat long sessions) four times, and each sentence has the same build: claim, comma, justifying clause. That evenness, with no sentence left unexplained and none noticeably shorter or rougher than the rest, is the main machine-made signal; the wording itself is plain and mostly unflashy."
+  ],
+  "haiku": [
+   "The sentences are evenly weighted and each ends on a qualifying clause, and the argument moves in a neat problem, pivot, definition, instruction arc with the last sentence restating the middle. That tidy, balanced shape reads machine-made even though the individual phrasing is plain."
+  ],
+  "sonnet": [
+   "The paragraph is built as claim, then reason, then claim, then reason, and nearly every sentence ends in a \"since...\" or \"more than...\" clause. The rhythm is even and the sentences are about the same length, and every idea gets an explanation. The voice stays neutral and instructional, with no tangents, asides or uneven moments. The last two sentences also say nearly the same thing, so the paragraph repeats itself while looking organized."
+  ]
+ },
+ "human_clean": []
+}

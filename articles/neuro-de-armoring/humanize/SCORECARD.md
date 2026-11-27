@@ -16,7 +16,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram 4.1 (web app) | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
-| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 96 | 72 (75%) | 31% | 69% | 85% | 0.183 (base 0.215, 96) |
+| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 107 | 80 (75%) | 33% | 67% | 83% | 0.189 (base 0.220, 107) |
 | Pangram 4.1 (web app, his account, Claude in Chrome in his browser) | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
@@ -243,16 +243,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 36 (72%) | 26% | 74% | 98% | 0.182 (base 0.192, 50) |
-| the latest 100 | 96 | 72 (75%) | 31% | 69% | 85% | 0.183 (base 0.215, 96) |
-| all | 96 | 72 (75%) | 31% | 69% | 85% | 0.183 (base 0.215, 96) |
+| the latest 50 | 50 | 39 (78%) | 24% | 76% | 90% | 0.194 (base 0.182, 50) |
+| the latest 100 | 100 | 75 (75%) | 33% | 67% | 84% | 0.186 (base 0.221, 100) |
+| all | 107 | 80 (75%) | 33% | 67% | 83% | 0.189 (base 0.220, 107) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 75 | 58 (77%) | 33% | 67% | 84% | 0.175 (base 0.222, 75) |
-| pair | 13 | 9 (69%) | 15% | 85% | 85% | 0.193 (base 0.130, 13) |
+| paragraph | 82 | 64 (78%) | 34% | 66% | 80% | 0.179 (base 0.225, 82) |
+| pair | 17 | 11 (65%) | 24% | 76% | 88% | 0.213 (base 0.180, 17) |
 | section | 6 | 5 (83%) | 17% | 83% | 100% | 0.224 (base 0.139, 6) |
 | stretch | 2 | 0 (0%) | 100% | 0% | 100% | 0.305 (base 0.000, 2) |
 
@@ -260,9 +260,9 @@ Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 5 | 0.29 | 20% |
-| 0.4 to 0.6 | 59 | 0.53 | 59% |
-| 0.6 to 0.8 | 46 | 0.65 | 85% |
+| 0.2 to 0.4 | 6 | 0.30 | 17% |
+| 0.4 to 0.6 | 67 | 0.53 | 60% |
+| 0.6 to 0.8 | 49 | 0.65 | 82% |
 | 0.8 to 1.0 | 6 | 0.81 | 100% |
 
 ## Pangram 4.1 (web app, his account, Claude in Chrome in his browser)
@@ -289,11 +289,11 @@ Calibration:
 | 0.6 to 0.8 | 6 | 0.65 | 100% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
-## Misses since the ledger (54)
+## Misses since the ledger (57)
 
 | cause | misses |
 |---|---|
-| not explained yet | 19 |
+| not explained yet | 20 |
 | shape | 17 |
 | register | 4 |
 | context | 2 |
@@ -309,14 +309,13 @@ Calibration:
 | his line alone still weakened his opening | 1 |
 | a tell I underweighted: a repeat | 1 |
 | the fix outweighed the tells I named | 1 |
+| the attached sentence changes the whole pair's reading | 1 |
+| an added clause split the near miss's window | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [intro1-asis](https://www.pangram.com/history/eff5042e-92e4-42bc-9304-babc88e32c26) | neuro-de-armoring/P-INTRO1, 1 | AI | Human | shape |
-| [sw19](https://www.pangram.com/history/17283e5a-247e-44c0-b2c8-e8f6a90d845f) | neuro-de-armoring/P-SW19, 1 | Human | AI or mixed | register |
-| [sw21](https://www.pangram.com/history/59682079-eaf9-4049-b366-98ac3f421bcd) | neuro-de-armoring/P-SW21, 1 | Human | AI or mixed | register |
 | [sw22](https://www.pangram.com/history/f013d185-1715-4d08-be76-2c95aee521f1) | neuro-de-armoring/P-SW22, 1 | Human | AI or mixed | shape |
 | [sw22-23](https://www.pangram.com/history/3ad85ece-63b0-4c1a-bad6-df492b74835b) | neuro-de-armoring/PAIR-SW22-23, 1 | Human | AI or mixed | shape |
 | [sw19b](https://www.pangram.com/history/cd2c9d6b-ada6-44c9-b29c-67292c104927) | neuro-de-armoring/P-SW19, 2 | Human | AI or mixed | shape |
@@ -329,6 +328,9 @@ The latest:
 | [lma-s2](https://www.pangram.com/history/e48fb85c-ea18-48c5-b61a-7066b4069dec) | neuro-de-armoring/W-LMA-his, 3 | Human | AI or mixed | his line alone still weakened his opening |
 | [bl-lma](https://www.pangram.com/history/b88b1fce-db98-4e8b-9615-062fb097c8ac) | neuro-de-armoring/W-LMA-73A-blind (replay x1127a), 1 | Human | AI or mixed | a tell I underweighted: a repeat |
 | [bl-cog](https://www.pangram.com/history/44991128-07f5-4096-9c95-c5f6a4ca5d85) | neuro-de-armoring/PAIR-COG-blind (replay x1127a), 1 | AI | Human | the fix outweighed the tells I named |
+| [pair2223-s1](https://www.pangram.com/history/17aa8876-097f-43dd-a2f2-654c38d0bb89) | neuro-de-armoring/PAIR-SW22-23, 4 | Human | AI or mixed | the attached sentence changes the whole pair's reading |
+| [pair2223-s2](https://www.pangram.com/history/beae5fbb-2ab5-4cda-a264-cf5017db761c) | neuro-de-armoring/PAIR-SW22-23, 5 | Human | AI or mixed | an added clause split the near miss's window |
+| [sw19-s5](https://www.pangram.com/history/84d12e88-4359-49bd-a3e8-ed6306e429f3) | neuro-de-armoring/P-SW19, 6 | AI | Human | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -419,9 +421,7 @@ The latest:
 | neuro-de-armoring/W-AGMINTRO-blind (x1126a) | paragraph | 1 of 6 | AI |
 | neuro-de-armoring/W-HTPTOP-blind (x1126a) | paragraph | 1 of 6 | Mixed |
 | neuro-de-armoring/STRETCH-RULE-AGM | stretch | 2 of 2 | Mixed |
-| neuro-de-armoring/P-SW19 | paragraph | 2 of 6 | Mixed |
 | neuro-de-armoring/P-SW21 | paragraph | 1 of 6 | Mixed |
-| neuro-de-armoring/PAIR-SW22-23 | pair | 2 of 6 | AI |
 | neuro-de-armoring/W-LMA-73a | paragraph | 4 of 6 | Mixed |
 | neuro-de-armoring/W-LMA-73A-blind (replay x1127a) | paragraph | 1 of 6 | Mixed |
 

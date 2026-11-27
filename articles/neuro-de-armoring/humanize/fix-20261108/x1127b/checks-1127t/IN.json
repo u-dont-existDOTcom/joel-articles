@@ -1,0 +1,31 @@
+{
+ "sw19-r1": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, rewritten after the near-miss steps were spent",
+  "text": "So a child today gets about one-sixteenth of the grown-ups that a child had when our brains evolved (Perry, 2023). If you often feel empty (the \"Void\"), that feeling is real, since you're living with a fraction of the people we're built to have around us. That loneliness is what the armor has been numbing, so once you've de-armored, going back to a lonely life will hurt more than it did with the armor on. So I'd find a tribe of people you're close to and see most days, or you'll end up putting the armor back on just to get through the loneliness.",
+  "chance": 0.45,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-R1.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "two steps of at most 20% from try 2 (#312, #314) each read AI Detected, the last two sentences AI Medium and AI High whatever was changed in them; the reads said why: the paragraph never said what works out to one-sixteenth, \"real\" and \"company\" were open, and the link from the shortfall to de-armoring (the armor numbs the loneliness) was never said; the rewrite says each, from the reads and lessons neuro-2026-11-27h to k",
+  "decides": "whether it goes in; below High, its windows say where the last try goes (one left)",
+  "tells": "four sentences that still go fact, feeling, consequence, act; \"the \"Void\"\" in brackets",
+  "first_fix": "payoff: the first sentence says what the reader learns (a child today gets about a sixteenth of the grown-ups); join: \"So\" ties it to the ratio before, \"That loneliness\" ties the third to the second, \"So I'd\" the advice to the third; plain: \"that feeling is real\", \"the people we're built to have around us\", \"the loneliness\" for \"the cold\"",
+  "humanized": "the post's one-sixteenth paragraph rewritten from its reads (x1126b/v1/*/sw19), the tell panel (x1127b/panel-sw19-s1) and the fresh read of my first rewrite (x1127b/v1/his-fixes/sw19r1)",
+  "big_change": "two steps of at most 20% from the near miss (#312, #314) read AI Detected, so the near-miss steps are spent (the ledger's rule) and the paragraph is rewritten from its reads"
+ },
+ "pair2223-s2": {
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "name": "The Anti-Breakthrough with the practice sentence, step 2 from its near miss",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nIn practice, that means 30 seconds of slow breathing to feel safe in your body, twenty times a day.",
+  "chance": 0.6,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW22-23-5.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-pair2223/PANEL.md",
+  "diagnosis": "the near miss (#313) read Medium over \"Instead, ... micro-dosing here.\" with \"In practice, that means 30 seconds of slow breathing, twenty times a day.\"; step 1 (#315) said what a dose is in other words and read AI; what the near miss leaves out is what the dose is of (the post's \"Micro-Dosing Safety\"), so a reader can take the breathing for the healing work itself; one clause says it",
+  "decides": "whether it goes in; below High, the last try of this lineage starts from the better of #313 and this",
+  "tells": "a purpose clause (\"to feel safe in your body\") inside the schedule",
+  "first_fix": "payoff: the sentence opens on what the reader does; join: \"In practice, that\" picks up the doses just named; plain: \"to feel safe in your body\" says what each dose is of",
+  "humanized": "the near miss's practice sentence with what the dose is of"
+ }
+}

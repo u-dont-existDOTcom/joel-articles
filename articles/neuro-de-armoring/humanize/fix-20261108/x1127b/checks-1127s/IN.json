@@ -1,0 +1,30 @@
+{
+ "sw19-s3": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, step 3: its last two sentences",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. And once you've de-armored, going back to a lonely life will feel worse than it did with the armor on. I'd gather a tribe of people you're close to and see most days, because without them you'll eventually reach for the armor again just to survive the cold.",
+  "chance": 0.4,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S3.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "step 2 (#312) read the Void sentence AI Low (AI High in try 2) but the before-and-after sentence AI Medium and the last AI High: the first stands alone, and the last is an order with a threat after \"or\" (the panel's agreed tells on both); step 3 ties the first to what came before with \"And\" and says the last as his advice with its reason",
+  "decides": "whether the last two sentences move out of AI; if not, the near-miss steps are spent (two of at most 20% checked) and the paragraph is rewritten from its reads",
+  "tells": "the first sentence, Human Medium, unchanged; \"just to survive the cold\", the post's closing image, kept",
+  "first_fix": "payoff: the advice opens on what to do (\"I'd gather a tribe ...\"); join: \"And\" ties the before-and-after sentence to the Void sentence, \"because\" joins the advice to its reason; plain: no threat after \"or\"",
+  "humanized": "my try 2 (texts_x1126b.NEW['sw19']) with its Void sentence, the panel's agreed tells and now its last two sentences fixed within the near-miss limit"
+ },
+ "pair2223-s1": {
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "name": "The Anti-Breakthrough with the practice sentence, step 1 from its near miss",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nEach dose is 30 seconds of slow breathing, and you do twenty of them a day.",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW22-23-4.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-pair2223/PANEL.md",
+  "diagnosis": "try 3 (#313) read Human Written, High over the first two sentences and Medium over \"Instead, ... micro-dosing here.\" with \"In practice, that means ...\": what something means said twice in a row; the practice sentence now says what each dose is, on the word the sentence before ends on (the panel ran on the draft before #313)",
+  "decides": "whether it goes in; below High, the next try starts from it and changes a word or two a reader could take two ways",
+  "tells": "\"you do twenty of them a day\" after a comma",
+  "first_fix": "payoff: the sentence opens on what each dose is; join: \"Each dose\" picks up \"doses\" from the sentence before; plain: no \"means\" after \"what I mean by\"",
+  "humanized": "the practice sentence of #313 said as what a dose is"
+ }
+}

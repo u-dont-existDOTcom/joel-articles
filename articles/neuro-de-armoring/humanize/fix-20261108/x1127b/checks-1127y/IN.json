@@ -1,0 +1,16 @@
+{
+ "sw19-s8": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, step 8 from #321: \"start gathering\"",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So start gathering a tribe of people you're close to and see most days, or you'll eventually put the armor back on just to get through the loneliness.",
+  "chance": 0.5,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S8.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "steps 6 and 7 (#320, #321) read every window High but the last sentence, Medium; the image change didn't move it; what a reader who lives alone could get wrong is that the tribe is something they must already have (the fit read of the post's version: \"MISREAD: don't bother alone\"); \"start\" says where they begin, one word",
+  "decides": "whether the last sentence reaches High; if so, the paragraph goes in",
+  "tells": "\"or you'll eventually ...\" a consequence after \"or\"",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"start gathering\" says the act can begin now",
+  "humanized": "step 7 with \"start gathering\""
+ }
+}

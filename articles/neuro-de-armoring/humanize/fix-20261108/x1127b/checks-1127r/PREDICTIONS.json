@@ -1,0 +1,24 @@
+[
+ {
+  "key": "sw19-s2",
+  "name": "The one-sixteenth paragraph, from my try 2: the Void sentence, then the tell panel's agreed tells",
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "words": 79,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "90ce8e2fd98d021d11f1deadce82766630be1dd43b32826a00683fc0073fdc8a"
+ },
+ {
+  "key": "pair2223",
+  "name": "The Anti-Breakthrough as it went in, with the practice paragraph as one plain sentence",
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "words": 90,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "e092d67207310e82f269285056fc057dcdb88d801a3ab3bad9c718b6eada2455"
+ }
+]

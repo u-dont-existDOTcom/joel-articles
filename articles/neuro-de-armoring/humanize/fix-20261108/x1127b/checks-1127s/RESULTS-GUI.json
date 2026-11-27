@@ -1,0 +1,59 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "pair2223-s1": {
+   "uuid": "17aa8876-097f-43dd-a2f2-654c38d0bb89",
+   "at": "2026-11-27T20:21:40Z",
+   "headline": "AI Detected",
+   "ai": 0.6600512266159058,
+   "words": 97,
+   "windows": [
+    [
+     "Human",
+     "Low",
+     26,
+     "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     36,
+     "So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     35,
+     "Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\nEach dose is 30 seconds of slow breathing, and you do twenty of them a day."
+    ]
+   ]
+  },
+  "sw19-s3": {
+   "uuid": "69a96e75-59df-47ce-a2e0-c23604b426eb",
+   "at": "2026-11-27T20:21:30Z",
+   "headline": "AI Detected",
+   "ai": 0.7667386531829834,
+   "words": 91,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     20,
+     "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023)."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     18,
+     "So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     53,
+     "And once you've de-armored, going back to a lonely life will feel worse than it did with the armor on. I'd gather a tribe of people you're close to and see most days, because without them you'll eventually reach for the armor again just to survive the cold."
+    ]
+   ]
+  }
+ }
+}

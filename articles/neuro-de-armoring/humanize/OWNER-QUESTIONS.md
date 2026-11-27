@@ -1,7 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-27, after your message of 2026-11-27 19:17 UTC (your versions on the two cards, and UDA's link).
-**Open questions: 0.** **For you to do**: nothing right now.
+Last updated 2026-11-27, after your message of 2026-11-27 20:08 UTC ("ok why did you stop? ...").
+**Open questions: 0.** **For you to do**: two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) (the same cards in Git:
+[REVIEW-X1127B.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/REVIEW-X1127B.md)): the one-sixteenth paragraph and the daily practice.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -14,7 +15,31 @@ None right now.
 
 ## For you to do
 
-Nothing right now.
+- 🟠 **Two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/REVIEW-X1127B.md)), each with
+  one Medium window left after its tries:
+  - **W-SW19**: the one-sixteenth paragraph. My best reads High over its first three sentences and Medium over its
+    last ("So gather a tribe ..."). Revise with your version, use my best anyway, or Reject.
+  - **W-SW23**: the daily practice after the Anti-Breakthrough. My best reads High over the Anti-Breakthrough's first
+    two sentences and Medium over its last with the practice sentence; the box holds both paragraphs.
+
+## Your message of 2026-11-27 20:08 UTC ("ok why did you stop? i don't see any way to add a repo here."), and what I did
+
+- 🟢 **Why I stopped, and going on.** I treated your answers as the turn's work and left the Psychology section for
+  "next turn", which was no reason to stop (the same mistake as the bad trips lane's "quit working"; lesson
+  neuro-2026-11-27n). This turn went on with the section.
+- 🟢 **The repo.** There's no way for you to add one here, and nothing for you to do: attaching is my tool, and the
+  session's automatic safety check refuses it for universal-dev-architecture, a plain read-only copy too, so I'm not
+  working around it. UDA's main rules load from the link you pasted; only its folder of suggestions from other projects
+  stays unread.
+- 🟢 **The one-sixteenth paragraph**: from [AI High as it stands](https://www.pangram.com/history/17283e5a-247e-44c0-b2c8-e8f6a90d845f) to
+  [every window High but its last sentence](https://www.pangram.com/history/9f18c4aa-12e3-4806-a13d-57c8ebe5b439) in seven checks. Your "you'll
+  tend to" from the Cognitive Warning, used on its "will feel worse", took it from [AI 55%](https://www.pangram.com/history/22a255ee-3d48-4afd-8b51-6d3ac3251feb) to
+  [Human Written](https://www.pangram.com/history/84d12e88-4359-49bd-a3e8-ed6306e429f3), so your lesson carried to a paragraph you never
+  touched. Its last sentence stayed Medium through three more tries: card W-SW19.
+- 🟢 **The daily practice**: as one plain sentence after the Anti-Breakthrough, [High, then Medium over the last two
+  sentences](https://www.pangram.com/history/1b4480e7-f060-4462-89bb-7be42ead2f3a); every word I added to it read worse. Card W-SW23.
+- 🔵 **Next, mine**: the "Underpinning" Principle (its three fresh reads are done) and the underpinnings paragraph,
+  then the cards' answers when they come.
 
 ## Your message of 2026-11-27 19:17 UTC (your versions on the two cards, and UDA's link), and what I did
 

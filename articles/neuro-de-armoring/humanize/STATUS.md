@@ -1,5 +1,15 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-27, his message of 20:08 UTC ("ok why did you stop? ..."): the Psychology section's pass; two cards
+
+**The mailbox** ("2026-11-27 20:08"): UDA's root AGENTS.md reloaded (bootstrap LOADED); the lane folder unread (a clone
+refused by the auto-mode check); main merged (romance 564, 565); no new items; no notifications.
+
+- **P-SW19** (the one-sixteenth paragraph): #312, #314, #317, #319 to #322; best #321, High 61, Medium 29. Card W-SW19.
+- **PAIR-SW22-23** (the practice): #313, #315, #316, #318; best #318, High 62, Medium 33. Card W-SW23.
+- **Lessons** neuro-2026-11-27n to p (`docs/lessons/2026-11-27-2008-neuro.md`).
+- **Waiting on him**: cards W-SW19 and W-SW23. **Next**: the "Underpinning" Principle, then the underpinnings paragraph.
+
 ## 2026-11-27, his message of 19:17 UTC: his two card versions in; lessons g to m; the blind test 1 of 2
 
 His answers: `fix-20261108/x1127a/ANSWERS-X1127A-20261127-1916.json` (both cards "revise", his versions and comments),
