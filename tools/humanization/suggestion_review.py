@@ -115,7 +115,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.13 (2026-11-23)'
+GENERATOR = 'suggestion_review.py 1.14 (2026-11-27)'  # 1.14: a teaching card's box holds every paragraph it marks
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
@@ -1211,6 +1211,14 @@ def proposed_text(s, bl):
         return '\n\n'.join(bl[i]['text'] for i in sorted({sp['block'] for sp in s['spans']}))
     if s.get('reads'):
         return '\n\n'.join(reads_mark(r) + r['text'] for r in s['reads'])
+    if s.get('type') == 'teach' and s.get('spans'):
+        # lesson neuro-2026-11-27l: a teaching card's box holds every paragraph the card marks, with my edit where I made
+        # one. Card W-COG-SEC marked two paragraphs but its box held only my join of the first, which read High by itself,
+        # and not the paragraph whose window read Medium (Joel, 2026-11-27 19:16 UTC: "idk why you asked me to fix teh
+        # human high part?"; he fixed both)
+        after = {e['block']: e['after'] for e in s.get('edits', [])}
+        blocks = sorted({sp['block'] for sp in s['spans']} | set(after))
+        return '\n\n'.join(after.get(i, bl[i]['text']) for i in blocks if after.get(i, bl[i]['text']))
     parts = []
     for ins in s.get('inserts', []):
         parts.append(('#' * int(ins['kind'][1]) + ' ' if ins['kind'] != 'p' else '') + ins['text'])
@@ -1223,8 +1231,13 @@ def proposed_text(s, bl):
 
 
 def before_text(s, bl):
-    if s.get('reads') or s.get('advice') == 'edit':   # the whole passage as it is now: every block it marks, in the article's order
-        return '\n\n'.join(bl[i]['text'] for i in sorted({sp['block'] for sp in s.get('spans', [])}))
+    if s.get('reads') or s.get('advice') == 'edit' or (s.get('type') == 'teach' and s.get('spans')):
+        # the whole passage as it is now: every block it marks, in the article's order (a teaching card's too, lesson
+        # neuro-2026-11-27l)
+        blocks = {sp['block'] for sp in s.get('spans', [])}
+        if s.get('type') == 'teach':
+            blocks |= {e['block'] for e in s.get('edits', [])}
+        return '\n\n'.join(bl[i]['text'] for i in sorted(blocks))
     return '\n\n'.join(bl[e['block']]['text'] for e in s.get('edits', []))
 
 

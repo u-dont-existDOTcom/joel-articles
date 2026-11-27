@@ -1,0 +1,26 @@
+{
+ "bl-lma": {
+  "lineage": "neuro-de-armoring/W-LMA-73A-blind (replay x1127a)",
+  "scope": "paragraph",
+  "name": "Blind rewrite of the herbs warning (replay)",
+  "text": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but they can last long after you stop, which is the same kind of thing SSRIs and finasteride can do, so if you're already on either herb, I'd quit it as soon as you notice any of those symptoms.",
+  "chance": 0.5,
+  "unchanged": "a fresh Fable writer's rewrite of my last try (W-LMA-his#299) as it stood before his fix, from replay/BRIEF.md alone (replay/OUT.md), checked exactly as written",
+  "diagnosis": "the writer answered the \"but\" with \"they can last long after you stop\", which says the first sentence's \"long after they stop taking them\" again, and kept \"which is the same kind of thing SSRIs and finasteride can do\"; my last try read High then Medium over that sentence (https://www.pangram.com/history/c785d020-2ff6-40d6-9ee7-669c1ca39a46)",
+  "decides": "whether the lessons of his fix alone (lessons neuro-2026-11-27h to k, replay/BRIEF.md) let a fresh writer that never saw his version take my last try to Human High (AGENTS.md, lesson romance-2026-11-22h)",
+  "tells": "said twice: \"they can last long after you stop\" after \"long after they stop taking them\"; \"the same kind of thing\" kept, so the likeness still says nothing about the rarity",
+  "human_tells": "his clipped \"Post-ashwa\" (a model writes the full name, \"post-ashwagandha syndrome\")"
+ },
+ "bl-cog": {
+  "lineage": "neuro-de-armoring/PAIR-COG-blind (replay x1127a)",
+  "scope": "pair",
+  "name": "Blind rewrite of the Cognitive Warning and the paragraph after it (replay)",
+  "text": "As you de-armor, you'll tend to feel naked and exposed, and you'll tend to assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, in his book Mindwise, calls this assumption the \"Illusion of Transparency.\"\n\nAlso, you'll tend to think people are judging you when they're mostly just thinking about themselves, because while you're armored you project the threat you feel onto neutral faces. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.45,
+  "unchanged": "a fresh Fable writer's rewrite of my last try (PAIR-COG-FACES#290) as it stood before his fix, from replay/BRIEF.md alone (replay/OUT.md), checked exactly as written",
+  "diagnosis": "the writer gave the projecting to the person (\"while you're armored you project the threat you feel onto neutral faces\") and opened the second paragraph on a joiner (\"Also,\"), as his fix did, but put \"you'll tend to\" twice into the first paragraph's one sentence and added \"in his book\" and \"this assumption\"; my last try read the first paragraph High and the second Medium (https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf)",
+  "decides": "whether the lessons of his fix alone (lessons neuro-2026-11-27h to k, replay/BRIEF.md) let a fresh writer that never saw his version take my last try to Human High (AGENTS.md, lesson romance-2026-11-22h)",
+  "tells": "\"you'll tend to feel ... and you'll tend to assume\": one sentence built twice the same way; \"calls this assumption\" names a label; \"Also,\" as a bare opener",
+  "human_tells": "his writing: the Cognitive Warning with his 68a credit to Epley and his 62a heart-rate test"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "cog2-his": {
+   "uuid": "3ad025d1-2809-4ed7-b166-9094436cb627",
+   "at": "2026-11-27T19:42:15Z",
+   "headline": "Human Written",
+   "ai": 3.1336431847723413e-30,
+   "words": 90,
+   "windows": [
+    [
+     "Human",
+     "High",
+     90,
+     "On top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the nonsensical threat you feel onto others. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below)."
+    ]
+   ]
+  }
+ }
+}

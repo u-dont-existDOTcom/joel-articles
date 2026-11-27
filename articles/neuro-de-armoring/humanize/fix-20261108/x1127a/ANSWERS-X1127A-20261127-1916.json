@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261127-x1127a",
+ "title": "Neuro De-Armoring Cards, 27 November (2): the herbs warning with 73a, and the Cognitive Warning, for you to teach me",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "e0a76c6ad148e92bf10b1e050b04b2750b1156e87898e261dbaac9f5c497af3f"
+ },
+ "built": "2026-11-27T17:30:11Z",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-27T19:16:57.234Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "W-LMA-73A",
+   "type": "teach",
+   "title": "Lion's mane and ashwagandha with 73a: nine tries, my best High then Medium",
+   "where": "A Complete Guide to Bio-De-Armoring, P9",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but we know about this phenomenon already from SSRIs and finasteride users, so if you're already on either herb, I'd quit it as soon as you notice any of that.",
+   "comment": "\"it's the same kind of thing\" isn't a human tell, ai can write that also. we should have some better heuristics to understand human tells. same for \"advising lion's mane\" how would that be a human tell? what is your rule i don't understand\n\npost-ashwa is a human tell bc ai doesn't tend to reduce the full name\n\nthe issue was lack of clarity, why would this being the same kind of thing as that be realted to why its rare or something? what was that but trying to show? i fixed it\n\nhttps://www.pangram.com/history/ea117cc8-2952-4876-8bfd-859d93c08b25?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n",
+   "my_version": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so if you're already on either herb, I'd quit it as soon as you notice any of that.",
+   "before": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-27T19:10:13.952Z"
+    }
+   ],
+   "updated": "2026-11-27T19:16:45.041Z"
+  },
+  {
+   "id": "W-COG-SEC",
+   "type": "teach",
+   "title": "The Cognitive Warning and the paragraph after it: High by themselves, one Medium window in the section",
+   "where": "A Complete Guide to Bio-De-Armoring, P7",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nOn top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the nonsensical threat you feel onto others. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "comment": "idk why you asked me to fix teh human high part? \n\nfirst change was to strengthen the lead in, which strangely made the next part read high conf: https://www.pangram.com/history/67b7b8c3-8ac3-406c-97c6-642983098574?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni felt like it was a bit hard to follow the long sentence so i split it up, which pangram didn't like: https://www.pangram.com/history/c144f420-4d10-4ba8-96b4-bd5572d71d37?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nand here i see pangram doesn't like when things (brain) are doing things that people should be doing, it sees it like our abstract concept agency rule: https://www.pangram.com/history/7ef34838-3d6f-40af-a53f-e9cbc5b7a76a?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nand now one word to clarify fixes it all:\n\nhttps://www.pangram.com/history/c642954e-7d04-4337-b8c1-f47ea33f68be?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\"",
+   "before": "As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-27T19:00:16.512Z"
+    }
+   ],
+   "updated": "2026-11-27T19:09:56.952Z"
+  }
+ ]
+}
