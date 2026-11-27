@@ -9677,7 +9677,7 @@
         },
         {
           "path": "articles/somatic-therapies/experiments/additions-20261126/RESULTS.md",
-          "sha256": "7699f522d035c2ded6022526ec131c03ef99b88fbedc182020ade17fee94bfb0",
+          "sha256": "5c9f5c5dfd12dee0d50f4b8fd6f17e623c02009fa54465927d31bf1ecd6c98c7",
           "role": "detector_experiment_result"
         },
         {
@@ -9987,7 +9987,7 @@
         },
         {
           "path": "articles/somatic-therapies/humanize/pangram-ledger.jsonl",
-          "sha256": "e0b3bd9ea1eab6f57842ef8461e0e8870435f856fd5b8036737b4620ecc8e04d",
+          "sha256": "3d94cb615a19294a79803c78c844cab72d7150b32d7325d038b9b94dc5074591",
           "role": "humanization_working_record"
         },
         {
@@ -11838,6 +11838,126 @@
         {
           "path": "articles/somatic-therapies/experiments/additions-20261126/texts/v29/A1-SEC.txt",
           "sha256": "b2888784b2e705ced3709dabb6872091f017f7992d7d02a87fa7db1da76827aa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/ADDITIONS-30.json",
+          "sha256": "cdd3002cbae8461cf06d84c88eda87597c4e28dbafba040de8388e697b4e8e84",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/build_cards_c1127b.py",
+          "sha256": "952a2f2303d6502385431efbbbff9d9d23f53d613c78d8405632d83854bfc7f8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/fill_receipts_v30.py",
+          "sha256": "a470959060a725a791cc8862cd4ca8d65cc4a174713bf78098ed6038e1e420b8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/pangram/RESULTS-add1127-16.json",
+          "sha256": "306b65610a4cf1bcd96276091cfb76685953236c58c1d9062115653a7aa28136",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/READ-30.md",
+          "sha256": "90ab5bad64e876f774e1e531847355a8e75ab0ca708584dee8512f72eab4aa73",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/drafts30-numbered.txt",
+          "sha256": "253855f68408553a18a4ef50966175be0cc198fff8e74a1e8ec1911f7bfe48d8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/receipts/v30/A1-SEC.receipt.json",
+          "sha256": "d6d00c2808e4e63dfae1e2a3fd750593fb1f58499d8f9c1d489d44754fe2355a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/ARTICLE-SOMATIC.md",
+          "sha256": "c6018d2901cadaae276146aa65ad48b0aa66e931ce51c643d82628f229ead467",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/CARDS-A1.md",
+          "sha256": "726276cc371a6ec8572b848b470a1d8e61a8dd1226a8ddd6bb9c0fa5417e2ea8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/REVIEW-A1-artifact.html",
+          "sha256": "f0135b9d89c93908091e64567f65c90fbe12334b55a9ba57d5f7a9aed20287ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/REVIEW-A1.html",
+          "sha256": "cbb90b7378791a107ebdd57cee8c3c8cc34cfe33b1364fea03c0cd601b9c0de9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/REVIEW-A1.json",
+          "sha256": "fc7a1cd4957976569137b54220bc6d7f3e23b677ef27bd7573ac7b61d5df06e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P1.receipt.json",
+          "sha256": "2ff5eec12e99b52f52c3873bfebe396d045ecbdaeef717029097b4d71e747972",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P1.txt",
+          "sha256": "c14102e51b8dac2dbb459c5add4a0f0db20a7ba717e5a2475f2cd0bd32486d44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P2.receipt.json",
+          "sha256": "cc137f4838182f2422d487a755479ae19e424a6955bbf6781a7eb362de1a8780",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P2.txt",
+          "sha256": "a7113c316d245a526b3eb0a048128df9fdb94235d010cc640217ffb15149b901",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P3.receipt.json",
+          "sha256": "2d2c0b91aae86d0f11014fb4b8256a2cb33de0f845f8c0eef1f89f580ee166b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P3.txt",
+          "sha256": "cae6b13f40371c2119083f5674ad40c430486428a93ff96cbb15cfccb54e3059",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P4.receipt.json",
+          "sha256": "f73e9c35a3797d302f8bd51f4224633eca15fac52b0e8a28a77e756f0e565fbe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P4.txt",
+          "sha256": "1600bc1ad6fd35a1bb8ead1c55c2f0936d04aa64b379d274debdaab6a948c6c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P5.receipt.json",
+          "sha256": "f8ae49519eb98aa2f2c730cc52b0f1c7a497d23b16b77507a7f6c3248ee1c10b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/review-c1127b/receipts/A1-P5.txt",
+          "sha256": "83b35510c8427f3525c818ce21cf901677b549eb195519f089cf6748a2da4f75",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/scripts/make_draft30.py",
+          "sha256": "ea4644c3e07be5811e37ca0e6fc821053c93848fe330b74dcaa75cd2c60e59c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/texts/v30/A1-SEC.txt",
+          "sha256": "ca04525b7f595d6e555a6133f8d5c7154d90bdaa711cec073d94c48f9dec2b8c",
           "role": "humanization_working_record"
         }
       ]
@@ -139152,7 +139272,7 @@
         },
         "current_state": {
           "path": "articles/bad-trips/CURRENT-STATE.md",
-          "sha256": "6867c6ff2b19791f0749e288f670e615178c0823c8f36187a491dee5fa93b0a7"
+          "sha256": "59858edc08975bde48f274d7c93d9fa5171d655d99a16bee5748bc8e629a3f91"
         }
       },
       "review": {
@@ -139181,7 +139301,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "d4320200ee402076740c6bf9744181af24b36f812d7eae0d8686710c73beb186",
+          "sha256": "cbb24e27355585a74262bf046651dbf3bb507f788431be186c4f549dad5efaab",
           "role": "humanization_working_record"
         },
         {
@@ -139191,7 +139311,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-QUESTIONS.md",
-          "sha256": "cabbfebc1bd5e09aca3d36664f0fe398798ee373ea9f7922f62fbccce09a79e0",
+          "sha256": "887fbcd2133d974685dbe120d6987e8dd598403cfd0467d8bcdb271a1cb247cf",
           "role": "owner_questions_page"
         },
         {
@@ -139241,7 +139361,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/pangram-ledger.jsonl",
-          "sha256": "6f34bee6f9e52853f561f8e289d4d91df4527b59259b05dd2efde7f500827e81",
+          "sha256": "fd98a6d14d23c0f99ecf7bec37ba0447560a08f804ffa3803984d379513439a0",
           "role": "humanization_working_record"
         },
         {
@@ -139346,7 +139466,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-EDITS.json",
-          "sha256": "d73c23b3ef70dececc3f6c593e8b04409396af72a548a04a8f389637050310b7",
+          "sha256": "211835ba6aaa3e4d6a9dc0128370375a5f28b3fd06806c3c3acb2579da3ef2a7",
           "role": "owner_edits_ledger"
         },
         {
@@ -162101,7 +162221,7 @@
         },
         {
           "path": "articles/bad-trips/PROMISES.md",
-          "sha256": "f295fd93c0efe22394a55a0f3d15baf91945265434fea3fc734518e2913c5541",
+          "sha256": "94506457556c0ac6617564a7b4d45561b50a3fbedbe61000e4607a52e1a4e78a",
           "role": "humanization_working_record"
         },
         {
@@ -164767,6 +164887,141 @@
         {
           "path": "articles/bad-trips/review/r63/record_r63.py",
           "sha256": "4c37ecb86055fb0bff9645a136467f89ba26a872e55cc220ee5ef17331a93d99",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/PREDICT.json",
+          "sha256": "a7f83fd295ba70539d9a5e9c5153b9721253530d1540ca488359975bc618ba56",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/RESULTS-h83a.json",
+          "sha256": "12de94d2749aab1c2f09f1467985e31bbc12b3462c2cb52f6e7a9f5230c3fdc3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/RESULTS-h83b.json",
+          "sha256": "bc11024eea7ef21c4c800c5989356b00ab4df1902f704fedf0747fd76f5f6f8a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/RESULTS-h83c.json",
+          "sha256": "5bb3a27cd6bfcd764fc08447d5df323113f590f640839358d3c07b99beae1b93",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-ctl1-b173.txt",
+          "sha256": "cfb955a724fc9de18eaaf8dda3595d005091d08a42aa5d071a265425aa8a8a39",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-n0-b214-b215.txt",
+          "sha256": "ae4cbe7ebc2ef4b51f3657572e128d800b0330d524a7c731ff1c9c6a683d9bda",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-ns1-b171.txt",
+          "sha256": "e1cadc9f9936cf354abb9568bca01000c861a5d10876fb57b0420832b86cfa64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-ns1-b211-b212.txt",
+          "sha256": "89960a87c329d20c88078d6f0e2f8ee4f4e56660fb2204e5cdf80ac90d4125e5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-rp3-b173.txt",
+          "sha256": "e6288218f2db64b489dcc7ca76247edb63d61db9c02ef8c3494b640277ce9080",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-rp4-b173.txt",
+          "sha256": "0624f9b7c193e37532a649bcc0cc0a271c3904e838f9738d574c87ed5f633369",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEXTS-h83a.json",
+          "sha256": "0f2ad54ff3bd02f7a3606fd25c75ce9acf48c8e4fb5edd0c183aaf28600cb8c5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEXTS-h83b.json",
+          "sha256": "f9f16319e12220396ca740d615f7bf0ec1f35eb8d19e5ef548ae8a57f4e818eb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEXTS-h83c.json",
+          "sha256": "3a21dee3ff3af9d444961694e7e03d2fd1fba9240327b5ebfd1d4df6113d1f21",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/laptop-h83a.jsonl",
+          "sha256": "85569f51f792a21c3f3ffa1268e0c374c9288c4be904361b8e233b7d43cec4c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/laptop-h83b.jsonl",
+          "sha256": "478ad1499cc07ebd8c7cf32252adae0f271c72b48da94ce383ed6ca35a0ac4bb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/laptop-h83c.jsonl",
+          "sha256": "76fd02273e88edfb2d4a02df7d8a9e86f7d1b31deb96c60b2a926fa5467d7a64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/reads/READS-ns1.md",
+          "sha256": "a845cc5bf2861d181d155946d82d0c2ae9e0996a2b5f05fbadcf691259f8603c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/reads/sec-bmg-ns1.txt",
+          "sha256": "311b525a70b1f9d073b420d795134f06c51bd9b053b514d59c857b6af9e8b49c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/reads/sec-niacin-ns1.txt",
+          "sha256": "51b537d0fcaa1397d5344d47db5d729a72994210dbc8962437b33669c14f59fd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/BRIEF.md",
+          "sha256": "4371eef9a6a74dcde0adb45e84ef98b141720151b91ba43e26825e2e3a201c66",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/OUT-1.md",
+          "sha256": "f6e2e6e08db5882077ca2f0924aead4df51fe060b3721c543a2cf6eea43454b2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/OUT-2.md",
+          "sha256": "7bceeddd11d3f1da6cd73a176da8044311bf4e1695db1eb4e75c22370c60bba5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/OUT-3.md",
+          "sha256": "f2d4a779dfe4dc80463de772818b6178518405a20a75e925af176602eba7d898",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/PARA.txt",
+          "sha256": "de9b5d54d61fdc66b9d2a1bf10dd0f486598131035290f34fef7a8095dcad31b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/PROMPT.txt",
+          "sha256": "5a2ffb9dee0bdc95d6351e239b87cb518c1bbd7bd3c0d908c3596e828d4d8063",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/RESULTS.md",
+          "sha256": "526112369f848d3ec0c46df387b1a0493de151ce3461f15a13c2f330fac34851",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/run.py",
+          "sha256": "b58aa2b9615dca2833eaa5dd3fe232804acdc15d3e8071b435ee376cf75b809a",
           "role": "humanization_working_record"
         }
       ]

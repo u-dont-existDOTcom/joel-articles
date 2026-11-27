@@ -74,16 +74,28 @@ The fields:
              doesn't help the reader. fix that durably."). Every point in "checked" marked "yes" says the same:
              "yes: they ..." for what the reader does with it, not why the claim holds. In every receipt make writes from
              2026-11-08.
-  his_answer for a text that carries his answers to a round's cards: [{"said": his words, quoted from his answer, one
-             claim at a time; "in": the sentence (or sentences) of this text that carry that claim; "words": {a word of
-             his that "in" doesn't have: where it went or why it is out}}]. Each word of four letters or more that he
-             said (but a few like "that" and "with") is in "in", or "words" says where it went. Lesson
-             bad-trips-2026-11-27k (Joel, 2026-11-27 19:54 UTC, on round 63's SKIN-AMOUNT: "you forgot the most important
-             part, sensitive skin... that's why i said under the armpits"): his "it absorbs almost as well as eating it,
-             especially on sensitive skin" went in as "Its juice works through the skin almost as well as eating the leaf
-             does", and nothing checked that his words reached the sentence that says the claim. In every receipt make
-             writes from 2026-11-27 20:30 UTC (make writes the key), and in every one from 2026-11-28; a receipt whose
-             checked points cite a round's card ("card LEAF-JUICE") lists at least one.
+  his_answer for a text that carries his answers to a round's cards, written only where something relevant he said is
+             dropped: [{"said": his words, quoted from his answer; "in": the sentence (or sentences) of this text that
+             carry that claim; "left_out": {what he said there that is relevant and that "in" doesn't say, in his
+             words: where it went, why it is out, or "asked: <card id>" when I'm not sure it is relevant}}]. Not every
+             word of his reaches the sentence: he often says things beside the point, so what he means is read first.
+             Something relevant to his point (a condition, a scope, a reason) stays with it, or has a reason to go, or he
+             is asked; the clearest sign that it is relevant is that the sentence doesn't make sense or say what he
+             meant without it. Lesson
+             bad-trips-2026-11-27m, correcting k (Joel, 2026-11-27 22:48 UTC: "it's not that every word of my answer has
+             to reach the sentence that says my point, but clearly if i'm saying something which is relevant and then
+             you're removing that, you'd need to have a reason for removing it. if you're unsure, you'd ask. i often do
+             say a lot of things which aren't super relevant so you should try to understand. in this case it was pretty
+             clear because what you wrote didn't make sense without that"). The case: his "it absorbs almost as well as
+             eating it, especially on sensitive skin" went in as "Its juice works through the skin almost as well as
+             eating the leaf does", which isn't true of skin in general and left his "under the armpits" unexplained
+             (19:54 UTC: "you forgot the most important part, sensitive skin... that's why i said under the armpits").
+             The code checks only that each entry is whole and each "left_out" item has a reason; whether something
+             bears on the claim is a reader's call, and `candidates` lists the words of his that the sentence doesn't
+             have, as candidates for that read, never as a test. A receipt made in turn 74 with "words" is read as
+             "left_out". make writes the key, empty; nothing requires an entry (the check of each relevant drop is the
+             read, and the 22:48 UTC rules check of lesson m: "record it only where a relevant thing is actually
+             dropped").
   link       on every sentence of mine after the first: the words in that sentence that tie it to the one before or to
              the reader's case ("One reason to think about, is that", "So to address that", "because"), quoted from the
              sentence; or "none: why it needs none" (a list item, a new step the reader expects). The code checks only
@@ -436,8 +448,9 @@ def fit_problems(text, receipt):
 
 
 def his_words(said):
-    """The words of SAID that must reach the sentence carrying his claim: four letters or more, lower case, but a few
-    words that carry no claim (HIS_ANSWER_STOP)."""
+    """The words of SAID worth a look when the sentence carrying his claim doesn't have them: four letters or more,
+    lower case, but a few words that carry no claim (HIS_ANSWER_STOP). Candidates for a reader's call, never a test
+    (lesson bad-trips-2026-11-27m)."""
     out = []
     for w in re.findall(r"[A-Za-z][A-Za-z'’]+", said or ''):
         w = w.lower().replace('’', "'").strip("'")
@@ -446,18 +459,23 @@ def his_words(said):
     return out
 
 
+def candidates(said, into):
+    """The words of his (SAID) that the sentence carrying his claim (INTO) doesn't have, for a reader to look at: a word
+    of his matches a word there that starts with its first five letters, so "relaxing" finds "relax"."""
+    have = [w.lower().replace('’', "'") for w in re.findall(r"[A-Za-z][A-Za-z'’]+", into or '')]
+    return [w for w in his_words(said) if not any(x.startswith(w[:5]) for x in have)]
+
+
 def his_answer_problems(text, receipt):
-    """Lesson bad-trips-2026-11-27k: each claim of his answers is mapped to the sentence that carries it, and every word
-    he said for it is in that sentence or accounted for (a word of his matches a word there that starts with its first
-    five letters, so "relaxing" finds "relax" and "name" finds "names")."""
+    """Lesson bad-trips-2026-11-27m (correcting k): where something relevant he said is dropped from the sentence that
+    carries his claim, the entry says where it went, why it is out, or the card that asks him. Whether something is
+    relevant is a reader's call: the code checks that each entry is whole and each left-out item has a reason, and never
+    that his words are all there, nor that there are entries."""
     p = []
-    why = ('his answer\'s words go into the sentence that says his claim, or the receipt says where each went (lesson '
-           'bad-trips-2026-11-27k; Joel, 2026-11-27: "you forgot the most important part, sensitive skin")')
+    why = ('what he says that bears on his claim stays with it, or the receipt gives the reason it goes, or asks him '
+           '(lesson bad-trips-2026-11-27m; Joel, 2026-11-27 22:48 UTC: "if i\'m saying something which is relevant and '
+           'then you\'re removing that, you\'d need to have a reason for removing it. if you\'re unsure, you\'d ask")')
     entries = receipt.get('his_answer') or []
-    cited = any(CARD_CITED.search(c.get('found') or '') for c in receipt.get('checked', []))
-    if cited and not entries:
-        p.append('his_answer: the checked points cite a round\'s card, so map each claim of his answer to the sentence that '
-                 'carries it ({"said": his words, "in": the sentence, "words": {his word: where it went}}); ' + why)
     flat = re.sub(r'\s+', ' ', text)
     for e in entries:
         said, into = (e.get('said') or '').strip(), re.sub(r'\s+', ' ', (e.get('in') or '').strip())
@@ -468,14 +486,14 @@ def his_answer_problems(text, receipt):
         if into not in flat:
             p.append('his_answer: "%s" is not in the text; quote the sentence that carries his "%s"' % (into[:60], said[:40]))
             continue
-        have = [w.lower().replace('’', "'") for w in re.findall(r"[A-Za-z][A-Za-z'’]+", into)]
-        told = e.get('words') or {}
-        for w in his_words(said):
-            if any(x.startswith(w[:5]) for x in have):
-                continue
-            if len((told.get(w) or '').strip()) < 12:
-                p.append('his_answer: his "%s" (in "%s") is not in the sentence that carries it; put it there, or say in '
-                         '"words" where it went or why it is out; %s' % (w, said[:60], why))
+        out = e.get('left_out', e.get('words')) or {}
+        if not isinstance(out, dict):
+            p.append('his_answer: "left_out" is {his words: where they went, why they are out, or "asked: CARD"}; ' + why)
+            continue
+        for k, v in out.items():
+            if len((v or '').strip()) < 12:
+                p.append('his_answer: his "%s" (in "%s") is left out with no reason; say where it went, why it is out, or '
+                         'ask him ("asked: CARD"); %s' % (k[:50], said[:60], why))
     return p
 
 
@@ -499,7 +517,14 @@ def main(argv=None):
     c = sub.add_parser('check')
     c.add_argument('text')
     c.add_argument('receipt')
+    w = sub.add_parser('candidates', help='the words of his answer that the sentence carrying it does not have, as '
+                       'candidates for the read of what bears on his claim (lesson bad-trips-2026-11-27m); never a test')
+    w.add_argument('said')
+    w.add_argument('sentence')
     a = ap.parse_args(argv)
+    if a.cmd == 'candidates':
+        print(', '.join(candidates(a.said, a.sentence)) or '(none)')
+        return 0
     if a.cmd == 'make':
         text = pathlib.Path(a.text).read_text(encoding='utf-8').rstrip('\n')
         his = pathlib.Path(a.his).read_text(encoding='utf-8') if a.his else ''
