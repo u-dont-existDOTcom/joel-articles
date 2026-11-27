@@ -1,0 +1,15 @@
+{
+ "sw22-s1": {
+  "lineage": "neuro-de-armoring/P-SW22",
+  "scope": "paragraph",
+  "name": "The Anti-Breakthrough, step 1 from its near miss: \"Dr.\" off",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, and those small doses are what I mean by micro-dosing here.",
+  "chance": 0.6,
+  "receipt": "receipts/SW22-S1.receipt.json",
+  "diagnosis": "try 2 (#267) read Human: High 25 words, Medium 2 words over \"Perry finds.\", High 36, Medium 22 over the last sentence (https://www.pangram.com/history/36898004-2c24-40f5-9e53-f005d95b8a1d). The two-word window is the split Pangram makes at \"Dr.\"; the title comes off (his 71 took it off Epley), one word, and the last sentence waits for its own step.",
+  "decides": "whether the first sentence reads as one High window without the split; then the last sentence's step",
+  "first_fix": "payoff: the first sentence opens on what an alarmed brain can take in; join: none; plain: \"Perry finds\"",
+  "humanized": "my version of the post's Anti-Breakthrough that read Human (#267), one word off",
+  "human_tells": "none of his words in it: my version of the post's paragraph"
+ }
+}
