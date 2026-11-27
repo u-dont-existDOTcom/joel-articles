@@ -1,0 +1,15 @@
+{
+ "prec-76a": {
+  "lineage": "neuro-de-armoring/W015-his",
+  "scope": "paragraph",
+  "name": "Precautions, step 1 of 76: his 76a bracket",
+  "text": "Do not use agmatine on the same day as opioids and/or kratom (it lowers your tolerance, so your usual dose can hit harder), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+  "chance": 0.7,
+  "receipt": "receipts/PREC-76A.receipt.json",
+  "diagnosis": "his answer 76 changes the paragraph that read High with 74b (#291: https://www.pangram.com/history/df64f39b-0778-436c-a650-efe5d3bfbda5); one piece a check from there (lesson neuro-2026-11-27a): first 76a's bracket, \"(it lowers your tolerance, so your usual dose can hit harder)\"",
+  "decides": "whether 76a holds High; then the overdose half of his reason, then his reason in a sentence of its own",
+  "first_fix": "payoff: the bracket says what lower tolerance does to the reader's usual dose; join: none; plain: \"your usual dose can hit harder\"",
+  "humanized": "his own Precautions with 74b and 76a's bracket",
+  "human_tells": "his own paragraph: \"Do not use agmatine ... clonidine and/or guanfacine, blood pressure lowering medications\""
+ }
+}

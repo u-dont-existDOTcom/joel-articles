@@ -2858,6 +2858,13 @@
    "numbers_lost": [],
    "numbers_new": [],
    "keys_lost": {}
+  },
+  {
+   "by": "fix-20261108/joel-20261127-1721-message.txt, answer 76 (OWNER-QUESTIONS.md, question 76, option a, with his reason), applied by fix-20261108/x1127a/apply_x1127a.py (prec76)",
+   "why": "76: his \"(will reduce tolerance)\" becomes a sentence of its own after the list, \"Agmatine lowers your tolerance to opioids and kratom, so your usual dose can hit harder, which with opioids can mean an overdose, and even with kratom you can get side effects once you're more sensitive\" (warning W008); his reason was too long for the bracket. No held key moves (fidelity_keys.py check PASS); the entry records his decision.",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {}
   }
  ],
  "warning_words": {

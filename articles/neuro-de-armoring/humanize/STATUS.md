@@ -1,5 +1,19 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-27, his message of 17:21 UTC: 76 in with his reason; the cards page fixed; UDA explained
+
+His message word for word: `fix-20261108/joel-20261127-1721-message.txt`. **The mailbox** ("2026-11-27 17:21"): UDA
+unreachable again (add_repo refused as "Undermining Oversight"; a WebFetch approval unanswered), bootstrap NOT_LOADED;
+main merged first (romance 559, somatic additions 560 with lesson somatic-2026-11-27c); no comments; no notifications.
+
+- **In** (HUMANIZED-SO-FAR.md 1ab352b7 to e0a76c6a): 76 with his reason, #304 (76a), #305 (with the overdose half), #306
+  (his reason in a sentence of its own, as it went in), each Human High in one window. Fidelity PASS (an owner_changes
+  entry), keep-as-is PASS (K6), comparison gate PASS (`fix-20261108/x1127a/read-1127c`, no findings).
+- **The section**: #307 Human Written, 0.0% AI, one Medium window (the faces sentence; card W-COG-SEC).
+- **The cards page**: both cards were "leave" cards, folded away; rebuilt as "approve" cards and republished; the
+  page builder refuses a "leave" teaching card from now on (lesson neuro-2026-11-27f).
+- **Waiting on him**: cards W-LMA-73A and W-COG-SEC; no question open.
+
 ## 2026-11-27, his message of 15:45 UTC ("73 a  but i also can't recommend starting them 74 b"): 74b in; 73a a teaching card
 
 His message word for word: `fix-20261108/joel-20261127-1545-message.txt`. **The mailbox** ("2026-11-27 15:45"): UDA

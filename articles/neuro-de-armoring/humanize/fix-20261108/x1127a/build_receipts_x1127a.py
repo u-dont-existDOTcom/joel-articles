@@ -449,7 +449,59 @@ def lma_s5():
         t=T.plain(T.STEP['lma-s5']))
 
 
-ALL = {'lma': lma, 'prec': prec, 'lma-2': lma2, 'lma-3': lma3, 'lma-4': lma4, 'lma-s1': lma_s1, 'lma-s2': lma_s2, 'lma-s3': lma_s3, 'lma-s4': lma_s4, 'lma-s5': lma_s5}
+MSG76 = ('his answer "76 yes, and that can be dangerous with non-kratom opioids where overdose is more of a concern but even '
+         'with kratom you can get side effects when more sensitive" of 2026-11-27 17:21 UTC '
+         '(fix-20261108/joel-20261127-1721-message.txt)')
+TOL_KEPT = ('his own sentence with 74b, and ' + MSG76 + ' put in where the readers marked "(will reduce tolerance)" as a plus '
+            'to a kratom user (question 76); its other marks are on his own words and stay, as the 74b receipt says')
+
+
+def prec76(name, v):
+    spec = {'Do not use agmatine': ('they check what they take against the drugs named, and don\'t take agmatine on the '
+                                    'same day as any of them without a physician who can weigh the interactions' +
+                                    ('' if v == 'c' else ', knowing why for opioids and kratom: their usual dose can hit '
+                                     'harder' + (', and with opioids that can mean an overdose' if v == 'b' else '')),
+                                    'it names the medications the warning before says agmatine interacts with', None)}
+    if v == 'c':
+        spec['Agmatine lowers your'] = ('they learn why opioids and kratom are first on the list: their usual dose can hit '
+                                        'harder, an overdose risk with opioids and side effects even with kratom',
+                                        'it says what the first two on the list do with agmatine', 'Agmatine lowers your '
+                                        'tolerance')
+    spec['It\'s not recommended'] = ('they leave agmatine out while pregnant or breast-feeding', 'it adds the next group '
+                                     'who should not take it', 'none: the next item of his precautions, which run as a '
+                                     'list of who should not take it')
+    spec['Use with extreme'] = ('they take extra care, or leave it out, after a psychotic episode, with low blood pressure, '
+                                'or with kidney or liver problems', 'it gives the last group, those for whom it needs '
+                                'extreme caution', 'none: the last item of his precautions list, those who need extreme '
+                                'caution')
+    return R.his(
+        name, 'prec', 'his Precautions paragraph with 74b and 76' + {'a': 'a', 'b': 'a and the overdose half of his reason',
+                                                                       'c': 'a and his reason, in a sentence of its own'}[v],
+        'who takes some medication, or kratom some days, and is deciding whether agmatine is worth trying', spec,
+        'they learn which medications agmatine must not share a day with, and why for opioids and kratom',
+        [('the drugs and groups to keep agmatine away from', R.CARD['prec'] + '; the article\'s agmatine section names the '
+          'same', 'yes: they check their own medications and conditions against it', 'kept'),
+         ('agmatine lowers tolerance to opioids', 'his post ("will reduce tolerance"), and his answer 76 for what that '
+          'means for opioids and kratom', 'yes: they know their usual opioid or kratom dose can hit harder with agmatine', 'kept')],
+        [],
+        [(1, '1, 2, 4, 10, 5, 13, 7, 29: four drug groups in one sentence, built alike; "complex psychoactive stacks"; '
+             '"(will reduce tolerance)" two ways; the rule before its reason; no reason for the blood pressure drugs; '
+             '"other" with nothing it is other than'),
+         (2, '5, 12: an authority\'s passive; a new case standing alone'),
+         (3, '4, 15, 5, 1, 19, 16: "extreme caution" names no act; label wording about patients; three unlike '
+             'conditions; low blood pressure apart from the blood pressure drugs')],
+        [(1, 'CAN\'T TELL what counts as a "complex psychoactive stack", a "competent" doctor, nitrates or PDE-5 '
+             'inhibitors among my pills; MISREAD: "will reduce tolerance" sounds like a plus to a kratom user'),
+         (2, 'MISREAD: "It\'s" as agmatine only, so the rest of the protocol sounds fine in pregnancy'),
+         (3, 'CAN\'T TELL what "extreme caution" asks, what "lower end" blood pressure is; FROM: drug-label wording')],
+        'read the section for agmatine\'s interactions: the warning before says it interacts with more medications, '
+        'and this names them; the article\'s agmatine section gives the same list',
+        'right after the agmatine warning, where the post has it', changed=(1,), also={1: TOL_KEPT, 2: PREC_KEPT[2],
+                                                                                      3: PREC_KEPT[3]},
+        t=T.plain(T.PREC76[v]))
+
+
+ALL = {'lma': lma, 'prec': prec, 'lma-2': lma2, 'lma-3': lma3, 'lma-4': lma4, 'lma-s1': lma_s1, 'lma-s2': lma_s2, 'lma-s3': lma_s3, 'lma-s4': lma_s4, 'lma-s5': lma_s5, 'prec-76a': lambda: prec76('PREC-76A', 'a'), 'prec-76b': lambda: prec76('PREC-76B', 'b'), 'prec-76c': lambda: prec76('PREC-76C', 'c')}
 
 if __name__ == '__main__':
     keys = sys.argv[1:] or list(ALL)
