@@ -1,0 +1,129 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "523da9b1fe84b560f898eaad8cf4b8104bd68e687a721784cc1c1fe1990e4ec4",
+ "text": "So a child today gets about one-sixteenth of the grown-ups that a child had when our brains evolved (Perry, 2023). If you often feel empty (the \"Void\"), that feeling is real, since you're living with a fraction of the people we're built to have around us. That loneliness is what the armor has been numbing, so once you've de-armored, going back to a lonely life will hurt more than it did with the armor on. So I'd find a tribe of people you're close to and see most days, or you'll end up putting the armor back on just to get through the loneliness.",
+ "section": "Psychology is the Software; Biology is the Hardware., after Perry's ratio of grown-ups to children",
+ "reader": "an adult with trauma who has done years of therapy and still gets triggered, reading why the protocol starts with the body, who lives mostly alone",
+ "sentences": [
+  {
+   "s": "So a child today gets about one-sixteenth of the grown-ups that a child had when our brains evolved (Perry, 2023).",
+   "payoff": "they learn a child today gets about a sixteenth of the grown-ups a child had when our brains evolved, from Perry's ratio just before",
+   "follows": "it works out the ratio the paragraph before gives"
+  },
+  {
+   "s": "If you often feel empty (the \"Void\"), that feeling is real, since you're living with a fraction of the people we're built to have around us.",
+   "payoff": "they learn the emptiness they may feel is real and what it is, and that the guide calls it the Void",
+   "follows": "it says what that shortfall feels like",
+   "link": "none: it turns from the child to the reader, whose feeling it names"
+  },
+  {
+   "s": "That loneliness is what the armor has been numbing, so once you've de-armored, going back to a lonely life will hurt more than it did with the armor on.",
+   "payoff": "they learn the armor has been numbing that loneliness, so a lonely life will hurt more once it is off",
+   "follows": "it says what the shortfall means after de-armoring, and why",
+   "link": "That loneliness"
+  },
+  {
+   "s": "So I'd find a tribe of people you're close to and see most days, or you'll end up putting the armor back on just to get through the loneliness.",
+   "payoff": "they find people they're close to and see most days, and know the armor comes back without them",
+   "follows": "it gives the act the sentence before calls for, as his advice",
+   "link": "So"
+  }
+ ],
+ "checked": [
+  {
+   "point": "about one-sixteenth of the grown-ups per child",
+   "found": "Perry's ratio in the paragraph before (4 mature adults per child then, 1 immature adult per 4 children now) and his approved card SC-24 (Perry, 2023)",
+   "still_needed": "yes: they see the size of the shortfall",
+   "fate": "kept"
+  },
+  {
+   "point": "the Void",
+   "found": "the guide's own term for the gray, empty state (Scenario C, Weeks 3 to 7)",
+   "still_needed": "yes: they know the emptiness has a name they will meet again",
+   "fate": "kept"
+  },
+  {
+   "point": "the armor has been numbing the loneliness",
+   "found": "his post: without a tribe the brain reaches for the armor again \"just to survive the cold\"",
+   "still_needed": "yes: they see why a lonely life hurts more once the armor is off",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the Gibson and Perry paragraph, where the post has it",
+ "opens": {
+  "first_sentence": "So a child today gets about one-sixteenth of the grown-ups that a child had when our brains evolved (Perry, 2023).",
+  "why_reading": "they learn how little company modern life gives us, and what to do about it once they de-armor"
+ },
+ "same_point": "his post's line, with his approved card SC-24's figure and source: we live on far less of the company our biology expects, the Void is real, a de-armored person can't go back to a lonely life, and without a tribe the armor comes back to survive the loneliness (\"just to survive the cold\")",
+ "needed": {
+  "reader": "a fresh reader (Fable, 2026-11-26) given tools/humanization/needed_read_brief.md and only the paragraph as it stood, one sentence a line (x1126b/v1/needed/sw19/READ.md)",
+  "unneeded": [
+   "The \"Void\" you feel is real.",
+   "You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold."
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Fable, 2026-11-26) given tools/humanization/his_fixes_brief.md and only the paragraph as it stood, one sentence a line (x1126b/v1/his-fixes/sw19/READ.md), the tell panel on my step 1 (x1127b/panel-sw19-s1/PANEL.md), and a fresh reader (Fable, 2026-11-27) of my first rewrite (x1127b/v1/his-fixes/sw19r1/READ.md)",
+  "marked": [
+   {
+    "s": "We are operating on about one-sixteenth of the relational density our biology requires (Perry, 2023).",
+    "difference": "4, 21, 11: \"relational density\" counts nothing; opens on the measure"
+   },
+   {
+    "s": "The \"Void\" you feel is real.",
+    "difference": "18, 12, 10: a short line tied to nothing; \"Void\" and \"real\" unexplained"
+   },
+   {
+    "s": "Once you have de-armored, you cannot simply return to a lonely life.",
+    "difference": "3, 14, 10, 27: \"cannot simply return\" corrects nobody; reads two ways"
+   },
+   {
+    "s": "You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+    "difference": "5, 13, 21, 4, 15, 1, 10, 6: a rule with no act; labels; a wise-sounding end"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh reader (Fable, 2026-11-26) given tools/humanization/fit_read_brief.md and only the paragraph as it stood, one sentence a line (x1126b/v1/fit/sw19/READ.md)",
+  "marked": [
+   {
+    "s": "We are operating on about one-sixteenth of the relational density our biology requires (Perry, 2023).",
+    "found": "CAN'T TELL what it counts; FROM: a number with no source said"
+   },
+   {
+    "s": "Once you have de-armored, you cannot simply return to a lonely life.",
+    "found": "CAN'T TELL when it applies; MISREAD: life will be unbearable"
+   },
+   {
+    "s": "You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+    "found": "CAN'T TELL how many or how often; MISREAD: don't bother alone"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

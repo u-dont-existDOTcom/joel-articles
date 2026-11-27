@@ -1,0 +1,20 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127d/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127d/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 31,
+   "original_words": 30,
+   "first": "The Cognitive Warning, with the join his version on card W-COG-SEC kept",
+   "last": "The Cognitive Warning, with the join his version on card W-COG-SEC kept",
+   "rewrite_blocks": [
+    0,
+    1
+   ],
+   "coverage": [
+    "fcfc56d18e80e858"
+   ]
+  }
+ ]
+}

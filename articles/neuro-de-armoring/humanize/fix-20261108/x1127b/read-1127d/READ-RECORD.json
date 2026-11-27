@@ -1,0 +1,20 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127d/REWRITE.md",
+ "coverage": [
+  "fcfc56d18e80e858"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "fcfc56d18e80e858"
+   ],
+   "now": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\"",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {}
+}

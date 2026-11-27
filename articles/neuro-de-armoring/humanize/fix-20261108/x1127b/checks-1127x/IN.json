@@ -1,0 +1,16 @@
+{
+ "sw19-s7": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, step 7 from #320: \"put the armor back on\"",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and see most days, or you'll eventually put the armor back on just to get through the loneliness.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S7.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "step 6 (#320) read every window High but the last sentence, Medium; the panel called its end a designed closing image (\"reach for the armor again ...\"); the plain figure is putting the armor back on, three words",
+  "decides": "whether the last sentence reaches High; if so, the paragraph goes in",
+  "tells": "\"or you'll eventually ...\" still a consequence after \"or\"",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"put the armor back on\" for \"reach for the armor again\"",
+  "humanized": "step 6 with the plain figure"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "sw19-s6": {
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "name": "The one-sixteenth paragraph, step 6 from #319: \"So gather\"",
+  "text": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and see most days, or you'll eventually reach for the armor again just to get through the loneliness.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW19-S6.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw19-s1/PANEL.md",
+  "diagnosis": "step 5 (#319), the best yet, read Human Written, Medium over the before-and-after sentence and Low over the last; the last is an order standing alone after it, with nothing saying it follows; \"So\" ties it to the sentence before (lesson neuro-2026-11-27j), one word",
+  "decides": "whether the last sentence moves to High; the next step is the before-and-after sentence's Medium",
+  "tells": "the before-and-after sentence, Human Medium, unchanged; \"or you'll eventually reach for the armor again\" a threat after \"or\"",
+  "first_fix": "payoff: unchanged; join: \"So\" ties the act to the sentence that calls for it; plain: unchanged",
+  "humanized": "step 5 with its last sentence joined by \"So\""
+ }
+}

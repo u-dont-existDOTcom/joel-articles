@@ -1,0 +1,96 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 1,
+    "total_line": 1
+   }
+  },
+  "findings": 1,
+  "by_severity": {
+   "1": 1
+  },
+  "by_kind": {
+   "unclear": 1
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 1,
+  "paragraphs_hit": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\"",
+   "published": "As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\"",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "With the two sentences joined, \"this\" points back over the feeling and the assumption together, where before it sat right after the assumption that Epley's term names; a reader still gets it.",
+   "now_found": 0.5,
+   "now_blocks": [
+    1
+   ],
+   "where": [
+    "The Cognitive Warning, with the join his version on card W-COG-SEC kept, P1"
+   ],
+   "block_hashes": [
+    "fcfc56d18e80e858"
+   ],
+   "pub_found": 0.67,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null,
+   "changes": [
+    {
+     "sha": "591dcddf",
+     "date": "2026-11-27",
+     "subject": "Neuro de-armoring: his two card versions in as he checked them; a human tell is what a model tends not to write (human_tells.md, the ledger ",
+     "dropped": [
+      "As you de-armor, you will feel naked and exposed.",
+      "You will assume everyone can see your anxiety, which they mostly can't."
+     ],
+     "added": [
+      "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't."
+     ]
+    },
+    {
+     "sha": "ab901c6e",
+     "date": "2026-11-27",
+     "subject": "Neuro de-armoring: 72a, every warning's label folded in; the warnings section from Mostly Human to Human Written; questions 73, 74 and one t",
+     "dropped": [
+      "Cognitive Warning:"
+     ],
+     "added": []
+    },
+    {
+     "sha": "b711c0e2",
+     "date": "2026-11-26",
+     "subject": "Neuro de-armoring: his three card versions and answers 66 to 69 in; every warning at the top Human High; the human-tells rule fixed at its s",
+     "dropped": [
+      "You will assume everyone can see your anxiety."
+     ],
+     "added": [
+      "You will assume everyone can see your anxiety, which they mostly can't."
+     ]
+    },
+    {
+     "sha": "65075841",
+     "date": "2026-11-24",
+     "subject": "Merge pull request #503 from u-dont-existDOTcom/claude/bad-trips-20261105",
+     "first_seen": true,
+     "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety. Dr. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\""
+    }
+   ]
+  }
+ ]
+}

@@ -6,7 +6,7 @@ a promise goes on it the turn it is made, by him or by me, in the words it was m
 each open one is read again: done (with where to see it), still open (with the next step), or dropped (only on his
 word).
 
-Last read through: 2026-11-27, at the end of the turn of his message of 2026-11-27 19:17 UTC (his versions on the two cards).
+Last read through: 2026-11-27, at the end of the turn of his message of 2026-11-27 20:08 UTC ("ok why did you stop? ...").
 
 ## Open
 
@@ -16,6 +16,7 @@ Last read through: 2026-11-27, at the end of the turn of his message of 2026-11-
 | 2 | **Each section checked once its paragraphs are done, then the whole article once.** | the shared budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) | The warnings section after 76 (2026-11-27): Human Written, 0.0% AI, every window High but one Medium, over the faces sentence, which his version has since rewritten (his check of it: one window, High). With his versions in, the section is 1,203 words, over the web app's limit, so its next check is the whole article's. | The whole-article check on Substack, once every paragraph reads Human High by itself. |
 | 3 | **The contradictions check again, and the word-for-sense read, on the finished article** (gates neuro-2026-11-20a, E331). | the shared rules | The contradictions check last ran over `coherence/x1124a` (2026-11-24). | After promise 1. |
 | 4 | **His post updated with the changes he approves, with the title's version and date.** | the lane's goal | Waiting on promises 1 to 3. | Ask him once the article is done. |
+| 16 | **Cards W-SW19 (the one-sixteenth paragraph) and W-SW23 (the daily practice) answered and applied.** | mine, 2026-11-27 20:08 turn | Both on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), each with one Medium window left after its tries. | His answers; each in at Human High by itself. |
 | 6 | **The prediction scorecard is current every turn.** | his standing preference | [SCORECARD.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/SCORECARD.md), rebuilt at the end of the turn of his message of 2026-11-27 19:17 UTC. | Rebuild at the end of every turn. |
 
 ## Done

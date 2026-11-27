@@ -1,0 +1,24 @@
+[
+ {
+  "key": "pair2223-s3",
+  "name": "The Anti-Breakthrough with the practice sentence, the last try: from the near miss, \"I'd do\"",
+  "lineage": "neuro-de-armoring/PAIR-SW22-23",
+  "scope": "pair",
+  "words": 90,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "77b54488da8836671bbd79f74ca3b1f66b546c49b22021d9bf980777b58c6311"
+ },
+ {
+  "key": "sw19-s4",
+  "name": "The one-sixteenth paragraph, step 4 from #312: the closing figure said plainly",
+  "lineage": "neuro-de-armoring/P-SW19",
+  "scope": "paragraph",
+  "words": 80,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "see the ledger record",
+  "sha256": "ecbb6d01354636e1c9d1223e00057b0ab4df65a3f98efba38afab76009fcc05e"
+ }
+]

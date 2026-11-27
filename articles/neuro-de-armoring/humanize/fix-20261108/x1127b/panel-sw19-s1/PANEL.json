@@ -1,0 +1,53 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023).",
+  "So the emptiness you may feel (the \"Void\") is real, since it's what that missing company feels like.",
+  "Once you've de-armored, going back to a lonely life will feel worse than it did with the armor on.",
+  "Gather a tribe around you, people you're close to and see most days, or your brain will eventually reach for the armor again just to survive the cold."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "fable": [
+   "The four sentences march through a fixed sequence of fact, validation, warning and instruction-with-consequence, each about the same length and each fully resolved, so the paragraph feels outlined before it was written. The voice is uniformly calm and reassuring with no wobble, aside or loose end, and the cold/armor imagery is kept perfectly consistent to the last word."
+  ],
+  "haiku": [
+   "The paragraph runs a predictable four-part sequence (statistic, validation, reframe, prescription) in four sentences of similar length with no asides, fragments or digressions, which gives it a smooth, templated shape. The voice is conversational, though, so the machine feel is mostly in the structure rather than the wording."
+  ],
+  "sonnet": [
+   "It is a compact four-sentence arc that goes statistic, then emotional reframe, then warning, then prescription, with every sentence the same medium length and a clean, even rhythm. The voice stays an abstract, consoling, instructional \"you\" with no personal detail, no mess and no digression, and the lines are built to be quotable."
+  ]
+ },
+ "human_clean": [
+  "Void"
+ ]
+}
