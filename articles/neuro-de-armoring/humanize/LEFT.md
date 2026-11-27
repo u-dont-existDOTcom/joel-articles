@@ -1,16 +1,14 @@
 # Neuro de-armoring: what is left to humanize
 
-Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), 1d94ed03) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
+Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), f8bfa190) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
 
-141 paragraphs of 8 words or more. Human High by itself: 29; under 50 words and inside a text that read Human High: 1; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 60; never checked as they stand: 51.
+141 paragraphs of 8 words or more. Human High by itself: 30; under 50 words and inside a text that read Human High: 2; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 58; never checked as they stand: 51.
 
 A paragraph listed here has no check of its present words that read Human High in every window. Paragraph numbers count the paragraphs of 8 words or more, from the top.
 
-## Psychology is the Software; Biology is the Hardware. (4 left)
+## Psychology is the Software; Biology is the Hardware. (2 left)
 
-- P17 (44 words) "The "Underpinning" Principle Dr. Bruce Perry compares treating trauma …": inside a larger text: Human Medium, Human High, Human Medium, Human High, Human Medium, Human High ([the check](https://www.pangram.com/history/fbca5c0c-2de5-44ae-8172-d041973cb42c))
 - P19 (58 words) "We are operating on about one-sixteenth of the relational density our …": by itself: AI High ([the check](https://www.pangram.com/history/17283e5a-247e-44c0-b2c8-e8f6a90d845f))
-- P21 (58 words) "Neurological De-Armoring is about fixing the underpinnings, not redeco…": by itself: Human Low, AI Low ([the check](https://www.pangram.com/history/59682079-eaf9-4049-b366-98ac3f421bcd))
 - P23 (33 words) "Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, t…": inside a larger text: AI High, AI Medium, AI High, AI Medium ([the check](https://www.pangram.com/history/3ad85ece-63b0-4c1a-bad6-df492b74835b))
 
 ## Part 1: THE SCIENCE (Why We Do This) (1 left)

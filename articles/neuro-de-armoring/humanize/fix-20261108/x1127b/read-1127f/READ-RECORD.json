@@ -1,0 +1,20 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127f/REWRITE.md",
+ "coverage": [
+  "c475db1301750e54"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "c475db1301750e54"
+   ],
+   "now": "The \"Underpinning\" Principle: Bruce Perry compares treating trauma to building a house.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {}
+}

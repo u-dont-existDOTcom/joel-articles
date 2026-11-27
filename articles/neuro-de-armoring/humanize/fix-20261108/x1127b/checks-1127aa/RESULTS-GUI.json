@@ -1,0 +1,26 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "sw21-s2": {
+   "uuid": "fce546f2-99e5-47a3-b38f-a2ec75d14e15",
+   "at": "2026-11-27T20:40:48Z",
+   "headline": "AI Detected",
+   "ai": 0.7878788113594055,
+   "words": 57,
+   "windows": [
+    [
+     "Human",
+     "Low",
+     10,
+     "Neurological De-Armoring is about fixing the underpinnings, not redecorating."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     47,
+     "It's a protocol that works like a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) so we can dig under the house and pour a new foundation, and eventually work on the psychology upstairs."
+    ]
+   ]
+  }
+ }
+}

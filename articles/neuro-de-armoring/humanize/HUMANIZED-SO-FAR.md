@@ -44,7 +44,7 @@ Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a 
 
 Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the "code" (your thoughts and behaviors), while the "motherboard" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after 5 specific neuro-biological problems ([A to E below](https://ibogaqueen.substack.com/i/181671197/part-1-the-science-why-we-do-this)) before you go working on the psychology (well, alongside).
 
-The "Underpinning" Principle Dr. Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.
+The "Underpinning" Principle: Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling, and you can't hang curtains in a collapsing house.
 
 The Modern "Role-Self" vs. The Ancient "True-Self"
 
@@ -54,7 +54,7 @@ We are operating on about one-sixteenth of the relational density our biology re
 
 We grew up building a "role-self" to please and manage the people around us. And the role-self psychology gets locked in physiologically by Dopamine and DeltaFosB, which also underlie addictions, so it's a vicious cycle as both create the other. That's why I built this protocol, to go after the chemistry holding the false persona in place, so the person you were before the trauma (your "True-Self") can come back out.
 
-Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.
+Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that works like a metabolic solvent that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB, which block HDACs) so we can dig under the house and pour a new foundation, and eventually work on the psychology upstairs.
 
 The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.
 

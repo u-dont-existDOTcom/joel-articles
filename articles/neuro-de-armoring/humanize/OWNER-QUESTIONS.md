@@ -38,8 +38,19 @@ None right now.
   touched. Its last sentence stayed Medium through three more tries: card W-SW19.
 - 🟢 **The daily practice**: as one plain sentence after the Anti-Breakthrough, [High, then Medium over the last two
   sentences](https://www.pangram.com/history/1b4480e7-f060-4462-89bb-7be42ead2f3a); every word I added to it read worse. Card W-SW23.
-- 🔵 **Next, mine**: the "Underpinning" Principle (its three fresh reads are done) and the underpinnings paragraph,
-  then the cards' answers when they come.
+- 🟢 **The underpinnings paragraph is in** ("Neurological De-Armoring is about fixing the underpinnings ..."), Human
+  High in one window ([check](https://www.pangram.com/history/8a7cf54b-2112-41e5-94ab-b14087a373f1)). The change that did it says which part
+  does what: "supplementing Ketones (BHB, which block HDACs)" where your card version had "via HDAC inhibition" hanging
+  off the solvent. Two smaller steps came first: "so we can dig ... and pour ..., and eventually ...", "works like" for
+  "serves as", and "the psychology upstairs" for "the psychological software upstairs" ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/APPLIED-X1127B.json)).
+  Your "underpinnings" stays: "foundation" in its place read [AI 100%](https://www.pangram.com/history/0dcc395b-86a9-4a0c-8d04-8d56a7ebcd83).
+- 🟢 **The "Underpinning" Principle is in**, Human High in one window with the paragraph before it
+  ([check](https://www.pangram.com/history/29eb7cd5-f1bd-4ce8-80e4-6a8e33e42277)): "Dr." off Perry and a colon after the label, then the curtains
+  line joined to the sentence it said again ("... is crumbling, and you can't hang curtains in a collapsing house").
+  That leaves "Psychology is the Software; Biology is the Hardware." with every paragraph in at High or on one of the two
+  cards.
+- 🔵 **Next, mine**: your answers to the two cards when they come; then Part 1, the science, from
+  [the list of what's left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/LEFT.md).
 
 ## Your message of 2026-11-27 19:17 UTC (your versions on the two cards, and UDA's link), and what I did
 

@@ -1,0 +1,15 @@
+{
+ "sw21-s1": {
+  "lineage": "neuro-de-armoring/P-SW21",
+  "scope": "paragraph",
+  "name": "The underpinnings paragraph, step 1 from his card version: the same word for the same thing",
+  "text": "Neurological De-Armoring is about fixing the foundation, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house and pour a new foundation, so we can eventually update the psychological software upstairs.",
+  "chance": 0.3,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW21-S1.receipt.json",
+  "diagnosis": "his card version (#263) read Human Low over the first sentence and AI Low over the second; the reads: \"underpinnings\" in the first and \"foundation\" in the second are two words for one thing, and a stray comma splits \"dig under the house, and pour\"; this step changes those only, the near-miss rule's first small step",
+  "decides": "whether one word moves the first window; the second step takes the second sentence's hung clauses, then the rewrite",
+  "tells": "the second sentence as it was: one chain of hung clauses with four pictures, the means before the payoff (\"serves as a metabolic solvent, via HDAC inhibition, that softens ... by using ... to allow us to ...\"); the first, \"X, not Y\"",
+  "first_fix": "payoff: unchanged in this step; join: unchanged; plain: \"the foundation\" for \"the underpinnings\", the word the next sentence uses",
+  "humanized": "his card version with the same word for the same thing and a stray comma gone"
+ }
+}

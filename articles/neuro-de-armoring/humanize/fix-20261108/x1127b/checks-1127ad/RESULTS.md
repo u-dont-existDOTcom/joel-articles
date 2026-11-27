@@ -1,0 +1,16 @@
+# The Underpinning Principle, step 1 (2026-11-27)
+
+Each text checked by itself in Pangram's web app (Pangram 4.1 (web app, his account, in the desktop app's browser pane)). Predictions were written first (PREDICTIONS.md). Each window's confidence is given; a window that reads Human at less than High is work to do (E278), Low first.
+
+| text | words | mine | result | windows | link |
+|---|---|---|---|---|---|
+| sw17-s1: The "Underpinning" Principle with the Gibson paragraph, step 1: "Dr." off, the label marked off | 158 | Human (0.55) | Human Written, 0.0% AI | Human (High, 35 words), Human (Medium, 15 words), Human (High, 108 words) | [result](https://www.pangram.com/history/45b4feb9-8030-40e0-bfd6-547069ed7b55) |
+
+## sw17-s1: The "Underpinning" Principle with the Gibson paragraph, step 1: "Dr." off, the label marked off
+
+Human Written, 0.0% AI: https://www.pangram.com/history/45b4feb9-8030-40e0-bfd6-547069ed7b55
+
+- Human (High, 35 words): The "Underpinning" Principle: Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. ...
+- Human (Medium, 15 words): You cannot hang curtains in a collapsing house.
+Why does the brain build this armor?
+- Human (High, 108 words): Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents survive by creating a "Role-Self"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: "It takes a village to raise a child." The modern large society with only one or two people caring for the children is vastly insufficient. As Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our "enriched" environments offer 1 immature adult to 4 children. ...

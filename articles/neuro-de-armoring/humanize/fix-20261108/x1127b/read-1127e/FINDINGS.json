@@ -1,0 +1,64 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 1,
+    "total_line": 1
+   }
+  },
+  "findings": 1,
+  "by_severity": {
+   "1": 1
+  },
+  "by_kind": {
+   "vaguer": 1
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 1,
+  "paragraphs_hit": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "It's a protocol that works like a metabolic solvent that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB, which block HDACs) so we can dig under the house and pour a new foundation, and eventually work on the psychology upstairs.",
+   "published": "It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"work on the psychology upstairs\" drops the tie that \"update the psychological software\" made to the section's heading (psychology is the software), though the point, the psychology after the foundation, is still said.",
+   "now_found": 1.0,
+   "now_blocks": [
+    1
+   ],
+   "where": [
+    "The underpinnings paragraph, as it went in (step 3), P1"
+   ],
+   "block_hashes": [
+    "040a6466aec47117"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null,
+   "changes": [
+    {
+     "sha": "65075841",
+     "date": "2026-11-24",
+     "subject": "Merge pull request #503 from u-dont-existDOTcom/claude/bad-trips-20261105",
+     "first_seen": true,
+     "text": "Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs."
+    }
+   ]
+  }
+ ]
+}

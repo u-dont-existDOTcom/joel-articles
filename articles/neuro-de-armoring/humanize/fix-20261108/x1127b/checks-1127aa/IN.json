@@ -1,0 +1,16 @@
+{
+ "sw21-s2": {
+  "lineage": "neuro-de-armoring/P-SW21",
+  "scope": "paragraph",
+  "name": "The underpinnings paragraph, step 2 from his card version: the second sentence's tail, and the panel's agreed tells",
+  "text": "Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that works like a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) so we can dig under the house and pour a new foundation, and eventually work on the psychology upstairs.",
+  "chance": 0.35,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW21-S2.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw21-s2/PANEL.md",
+  "diagnosis": "step 1 (#323) put \"the foundation\" for his \"underpinnings\" and both windows read worse (AI Low, AI High), so his word stays; this step, from his version again, takes the second sentence's tail (\"to allow us to dig\" hanging off the ketones, the stray comma, \"so we can\" twice) and, within the near-miss limit, the panel's agreed \"serves as\" and the house turning into software at the end",
+  "decides": "whether the second sentence moves out of AI; either way the near-miss steps from his version are then spent and the next try is the rewrite from the reads",
+  "tells": "the first sentence's \"X, not Y\" (all three panel readers); the mechanism terms in one chain",
+  "first_fix": "payoff: unchanged; join: \"so we can dig ... and pour ..., and eventually work on ...\" one chain of what follows; plain: \"works like\" for \"serves as\", \"the psychology upstairs\" for \"the psychological software upstairs\"",
+  "humanized": "his card version with the second sentence's tail and the panel's two agreed tells fixed within the near-miss limit"
+ }
+}

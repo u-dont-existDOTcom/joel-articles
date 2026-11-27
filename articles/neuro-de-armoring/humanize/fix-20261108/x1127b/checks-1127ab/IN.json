@@ -1,0 +1,17 @@
+{
+ "sw21-r1": {
+  "lineage": "neuro-de-armoring/P-SW21",
+  "scope": "paragraph",
+  "name": "The underpinnings paragraph, rewritten from its reads after two small steps",
+  "text": "In Perry's picture, the brainstem is the foundation of the house, and Neurological De-Armoring works on it before any redecorating upstairs. Trauma leaves that foundation set hard, like concrete, so the protocol softens it the way a solvent would, by calming glutamate (the brain's main \"go\" signal) and adding the ketone BHB, which blocks enzymes called HDACs that can keep new learning from sticking. Then we can dig out the old concrete and pour a new foundation, and only after that work on the psychology upstairs.",
+  "chance": 0.4,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW21-R1.receipt.json",
+  "panel": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/panel-sw21-s2/PANEL.md",
+  "diagnosis": "his version (#263) and two small steps from it (#323, #324) read AI over the second sentence whatever its words; the reads say why: one chain of hung clauses carrying four pictures and three unexplained mechanisms, the means before the payoff, and no picture named; the rewrite names Perry's house first, says what trauma set hard and how the protocol softens it, each mechanism with what it does, then the new foundation and the psychology after",
+  "decides": "whether it goes in; below High, its windows say where the next try goes",
+  "tells": "a 45-word second sentence still carrying the two mechanisms; the glutamate gloss in brackets",
+  "first_fix": "payoff: the first sentence says what the protocol works on (the brainstem, the foundation of Perry's house); join: \"that foundation\" ties the second to the first, \"Then\" the third to the second; plain: each mechanism with what it does, \"dig out the old concrete\" for \"dig under the house\"",
+  "humanized": "his card version rewritten from its reads (x1126b/v1/*/sw21), the panel on step 2 (x1127b/panel-sw21-s2) and the fresh read of my first rewrite (x1127b/v1/his-fixes/sw21r1)",
+  "big_change": "two small steps from his version (#323, #324) are checked, each AI over the second sentence, so the near-miss steps are spent (the ledger's rule) and the paragraph is rewritten from its reads"
+ }
+}

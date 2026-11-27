@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Neurological De-Armoring is about fixing the underpinnings, not redecorating.",
+  "It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) so we can dig under the house and pour a new foundation, and eventually update the psychological software upstairs."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph is a short thesis line followed by one long sentence that tries to hold the definition, three mechanisms and a three-step metaphor at once, so it reads like a compressed abstract rather than someone explaining. The alternation of jargon and homely image (\"HDAC inhibition\" next to \"dig under the house\") is evenly balanced in a way that feels assembled, with no point where the writer pauses, qualifies or speaks from experience."
+  ],
+  "haiku": [
+   "The paragraph is built as a balanced, quotable set of images, with each sentence closing on a neat metaphor (foundation, software, concrete), which is a pattern common in polished AI prose. The voice is generic and promotional rather than specific, since it names no experience, example or limit of the claim."
+  ],
+  "sonnet": [
+   "The paragraph is one long, smooth sentence-chain built to a formula: bold thesis, jargon list, then a metaphor that keeps extending. Nothing in it is specific, hesitant or personal, and every clause points the same way, which gives it a polished, even rhythm."
+  ]
+ },
+ "human_clean": []
+}

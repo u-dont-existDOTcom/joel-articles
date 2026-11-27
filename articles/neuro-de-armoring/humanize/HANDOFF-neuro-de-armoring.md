@@ -20,8 +20,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 - **2026-11-27, after his message of 20:08 UTC ("ok why did you stop? i don't see any way to add a repo here."): the
   Psychology section's pass went on; the one-sixteenth paragraph and the daily practice each reached one Medium window and
-  are two teaching cards (W-SW19, W-SW23); lessons neuro-2026-11-27n to p.** HUMANIZED-SO-FAR.md is unchanged (1d94ed03):
-  nothing of mine read High in every window this turn. Everything is in `fix-20261108/x1127b/`: texts and why
+  are two teaching cards (W-SW19, W-SW23); the underpinnings paragraph and the "Underpinning" Principle went in at Human
+  High; every paragraph of the section is in at High or on a card; lessons neuro-2026-11-27n to r.** HUMANIZED-SO-FAR.md
+  is f8bfa190: the Principle in (PAIR-SW17-18 step 2, checked with the paragraph before it as PAIR-SW16-17, #328,
+  https://www.pangram.com/history/29eb7cd5-f1bd-4ce8-80e4-6a8e33e42277, one window, High; comparison read `read-1127f`;
+  the Gibson paragraph keeps "Dr." until its own check), after P-SW21 step 3 in (`x1127b/apply_x1127b.py`, `APPLIED-X1127B.json`; #325,
+  https://www.pangram.com/history/8a7cf54b-2112-41e5-94ab-b14087a373f1, one window, High; comparison read `read-1127e`, one
+  finding, severity 1: "the psychology upstairs" drops the tie to the heading's "software"). The texts module reads its
+  OLD from `OLD-X1127B.json` (the article at 1d94ed03), so it doesn't move once a paragraph goes in. Everything is in `fix-20261108/x1127b/`: texts and why
   (`texts_x1127b.py`: OLD, STEP sw19-s1 to s8 and r1, NEW sw23 to sw23-s3), receipts (`build_receipts_x1127b.py`), fresh
   reads (`v1`: the three of the "Underpinning" Principle, one of my practice draft, one of my one-sixteenth rewrite), two
   tell panels (`panel-sw19-s1`, `panel-pair2223`), checks `checks-1127r` to `checks-1127y` (ledger #312 to #322; the
@@ -35,11 +41,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   root AGENTS.md reloaded from his raw link; a shallow clone of the repository was refused by the auto-mode check
   ("Undermining Oversight"), so the lane folder stays unread and is not worked around. **Next**: the mailbox, his message
   or the cards' answers (db collection "decisions" on slug 4719d286-ca5a-4311-87a8-a00631b476b5, review
-  neuro-de-armoring-cards-20261127-x1127b); then PAIR-SW17-18, the "Underpinning" Principle (reads in `x1127b/v1/*/sw17`:
-  the label run in, "Underpinning" unexplained, the source before the point, S2 packed with two glosses and EMDR said to
-  work on thoughts, "crumbling" read as brain damage, the curtains line a wise closer that says S2 again and reads as
-  "therapy is pointless"; #260 is a near miss, so small steps first, and its receipt needs every sentence of the pair,
-  the Gibson paragraph's seven too), then P-SW21 (the underpinnings paragraph, reads in `x1126b/v1/*/sw21`).
+  neuro-de-armoring-cards-20261127-x1127b); then Part 1 (THE SCIENCE) from LEFT.md. The Principle's reads (`x1127b/v1/*/sw17`) still mark S2 (two glosses at the
+  same place, EMDR said to work on thoughts, "crumbling" read as brain damage) though it reads High: a sense pass for his
+  card, not for Pangram. P-SW21 is done (its unused rewrite, `STEP['sw21-r1']`, stays in the texts).
 - **2026-11-27, after his message of 19:17 UTC (the cards page's answers: both cards "revise" with his versions and
   comments; the raw link to UDA's AGENTS.md): both his versions are in as he checked them; lessons neuro-2026-11-27g to m
   and three shared tool changes; the blind test 1 of 2 at Human High; no question open, no card waiting.**

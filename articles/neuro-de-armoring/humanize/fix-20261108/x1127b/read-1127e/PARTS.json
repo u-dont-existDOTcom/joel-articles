@@ -1,0 +1,20 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127e/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127e/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 55,
+   "original_words": 58,
+   "first": "The underpinnings paragraph, as it went in (step 3)",
+   "last": "The underpinnings paragraph, as it went in (step 3)",
+   "rewrite_blocks": [
+    0,
+    1
+   ],
+   "coverage": [
+    "040a6466aec47117"
+   ]
+  }
+ ]
+}
