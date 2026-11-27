@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 200 changes, 218 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 202 changes, 219 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -2555,4 +2555,28 @@ Read by my tested change R41-09-opener (MINE-R41.json): [result](https://www.pan
 **New:**
 
 > You can call someone your boyfriend or girlfriend for years and still have one foot out the door, but at least the word shows pretty fast whether you both think you’re in the same relationship.
+
+## 201. Affection and the simmer (live 20)
+
+Read by my tested change R50-20 (MINE-R50.json): [result](https://www.pangram.com/history/27c3b372-bc6e-4443-b057-e593fd1b9821).
+
+**Live:**
+
+> Doug Toft, who has been married for fifty years, has a useful list called 50 Things I Learned from 50 Years of Marriage. One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
+
+**New:**
+
+> Doug Toft, who has been married for fifty years, has a useful list called 50 Things I Learned from 50 Years of Marriage. One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there, or she’ll start treating every touch like a sales pitch.
+
+## 202. Situationships (live 33)
+
+Read by my tested change R50-33 (MINE-R50.json): [result](https://www.pangram.com/history/7ff558af-740d-40f9-8dcc-5475da271f17).
+
+**Live:**
+
+> And then there’s the situationship, which is hard to define because that’s basically the point. Usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend. It feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
+
+**New:**
+
+> And then there’s the situationship, which is hard to define because that’s basically the point, but usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend, so it feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
 

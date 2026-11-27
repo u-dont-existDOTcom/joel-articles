@@ -948,6 +948,46 @@
     }
    ],
    "recorded_utc": "2026-11-27T17:26Z"
+  },
+  {
+   "turn": "2026-11-27T19:27Z",
+   "lines_of_work": [
+    "romance article",
+    "the card game (love-honestly, innerself)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 3fce032, fetched again at this turn's start: unchanged; its joel-articles, love-honestly and innerself lanes as before"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 17:14: joel-articles only other lanes' #560 and #562 and this lane's #561 (merged); love-honestly only this lane's pull request 2 (merged); innerself only this lane's pull request 4 (merged this turn on his go); UDA pull request 506 only this lane's own comment; no reviews anywhere"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note's last change was this lane's own write of the 17:14 turn (17:32 UTC); no edits by anyone else"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 19:27 UTC: go, and his two whole-article check links (draft A, draft B)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his go for the game",
+     "outcome": "innerself pull request 4 merged (4f084198); deploy through Coolify waits on a sign-in to Coolify in the browser pane (the tunnel is open on his laptop)"
+    },
+    {
+     "item": "his whole-article check of the r49 drafts",
+     "outcome": "recorded in r50/RESULTS-whole-r49.json: both Human Written, High; A's two Medium one-sentence windows worked on (live 20 read AI by itself), tested changes in as r50/MINE-R50.json; draft A to be pasted again for his run"
+    }
+   ],
+   "recorded_utc": "2026-11-27T19:47Z"
   }
  ]
 }

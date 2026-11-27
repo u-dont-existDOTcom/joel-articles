@@ -406,3 +406,24 @@ The round's record: [r49](../r49/README.md).
    card there.
 2. Not run: the love-honestly repository's container gate and innerself's container check, which need Docker; they run
    with the deployment.
+
+## His message of 2026-11-27 19:27 UTC: "go"
+
+The round's record: [r50](../r50/README.md).
+
+- [innerself pull request 4](https://github.com/u-dont-existDOTcom/innerself/pull/4) merged (4f084198). The live site was
+  built from main 085180a (its homepage byte for byte the build's), so deploying main adds only the game. The build of
+  4f084198 passed `npm test`; its `/love-honestly/` page has SHA-256 343ee6e4..., the homepage unchanged (c6bc88b4...).
+- The deploy: Coolify's dashboard is reachable only through the SSH tunnel from his laptop (`sites`,
+  `docs/HANDOFF-INVENTORY.md`; its API is off by design). The tunnel is open on his laptop; the browser pane isn't signed in
+  to Coolify, and a sign-in is his to type.
+- The two sections the article's r50 changes touch: the cards that name them (`sex-affection-simmer`,
+  `clarity-undefined-thing`, `solo-uneven-love`) say nothing the changes alter.
+
+### Still to do, each with his word
+
+1. Coolify signed in in the browser pane (his step); then deploy "InnerSelf — active site" from main, compare the live
+   `/love-honestly/` page with the build and play a card there, and record the deployed commit in innerself's
+   `DEPLOYMENT.md` and the sites registry (`registry/sites/innerself.json` still names 684f0139).
+2. Not run: the love-honestly repository's container gate and innerself's container check, which need Docker; Coolify's
+   build runs the container.

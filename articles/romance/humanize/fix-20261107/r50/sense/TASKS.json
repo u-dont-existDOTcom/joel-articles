@@ -1,0 +1,13 @@
+[
+ {
+  "part": 1,
+  "blocks": [
+   0,
+   10
+  ],
+  "words": 573,
+  "part_file": "/home/claude/scratch/r50/sense/parts/PART-1.md",
+  "read_file": "/home/claude/scratch/r50/sense/reads/READ-1.json",
+  "task": "Read /home/claude/scratch/r50/sense/BRIEF.md, then /home/claude/scratch/r50/sense/parts/PART-1.md, and write /home/claude/scratch/r50/sense/reads/READ-1.json as the brief says."
+ }
+]

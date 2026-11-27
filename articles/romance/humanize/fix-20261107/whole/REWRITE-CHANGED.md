@@ -937,3 +937,11 @@ I can’t decide what is okay for anybody else. I can say that most people who d
 ## 200. Labels Are Descriptive, Not Prescriptive (live 38)
 
 You can call someone your boyfriend or girlfriend for years and still have one foot out the door, but at least the word shows pretty fast whether you both think you’re in the same relationship.
+
+## 201. Affection and the simmer (live 20)
+
+Doug Toft, who has been married for fifty years, has a useful list called 50 Things I Learned from 50 Years of Marriage. One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there, or she’ll start treating every touch like a sales pitch.
+
+## 202. Situationships (live 33)
+
+And then there’s the situationship, which is hard to define because that’s basically the point, but usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend, so it feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
