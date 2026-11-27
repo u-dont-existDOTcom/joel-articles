@@ -1,0 +1,43 @@
+{
+ "rp3-b173": {
+  "lineage": "bad-trips B173, blind rewrite from the corrected way 30 (replay h83)",
+  "call": "Human",
+  "chance": 0.75,
+  "decides": "whether lesson bad-trips-2026-11-27l (the accurate word for what a thing does), said in general words without the tested word, lets a fresh Fable writer fix B173 the way his one word did; both writers gave this same paragraph",
+  "tells": [
+   "A tiny nibble can sometimes settle psychedelic nausea and even improve the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "unchanged": "two fresh Fable writers' rewrite of my try 3 of B173 (h81, ddea8d92) from replay/BRIEF.md alone (replay/OUT-1.md, OUT-2.md: the same paragraph), checked exactly as they gave it"
+ },
+ "rp4-b173": {
+  "lineage": "bad-trips B173, blind rewrite from the corrected way 30 (replay h83)",
+  "call": "Human",
+  "chance": 0.8,
+  "decides": "whether way 30 with the blind test's addition (what the thing does is often in the paragraph already, at a larger dose) lets a fresh Fable writer find the accurate word his fix found",
+  "tells": [
+   "A tiny nibble can sometimes settle psychedelic nausea and even soften the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "unchanged": "a third fresh Fable writer's rewrite of my try 3 of B173 (h81, ddea8d92) from replay/BRIEF.md's second wording (replay/OUT-3.md), checked exactly as it gave it",
+  "diagnosis": "the first two writers kept \"improve\", the word his fix changed, as saying what it does seemed to add a fact; this way says the larger dose already says it, and the writer changed \"improve\" to \"soften\""
+ },
+ "ctl1-b173": {
+  "lineage": "bad-trips B173, blind rewrite from the corrected way 30 (replay h83)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "the control for the third writer's Medium 36: only \"improve\" changed, to its accurate \"soften\", with his \"smooth\" for the nausea kept, as his fix kept it; whether any accurate word does what his did, or the writer's second change (\"settle\") cost the window",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even soften the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "unchanged": "my try 3 of B173 (h81, ddea8d92) with one word changed, \"improve\" to the third writer's \"soften\" (a control, not a blind rewrite)",
+  "diagnosis": "the third writer's text changed two words, \"smooth\" to \"settle\" for the nausea as well as \"improve\" to \"soften\", and read Medium 36 over its first two sentences (2e5539c8); his fix changed one, and read High 84 in one window (09e42ca2)"
+ }
+}
