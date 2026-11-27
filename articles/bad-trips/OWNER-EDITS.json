@@ -2097,6 +2097,28 @@
     "If the zeolite dose at 5g",
     "charcoal may be relevant"
    ]
+  },
+  {
+   "id": "r62-leaf-juice",
+   "status": "applied",
+   "what": "his round-62 LEAF-JUICE answer in B174: the juice relaxes him; it works through the skin almost as well as eating the leaf; to give it on purpose, the juice can go under the armpits, for example (three steps, the last Human High 122 with B171, 6026d11b; humanize/h81-20261127/RESULTS.md)",
+   "joel": "2026-11-27 17:16 UTC: his round-62 export (articles/bad-trips/review/r62/ANSWERS-R62-20261127-1716.json), card LEAF-JUICE",
+   "applied_by": "humanize/h81-20261127/apply_h81.py",
+   "must_contain_exact": [
+    "can relax me if the juice",
+    "almost as well as eating the leaf does",
+    "you can put the juice under the armpits, for example"
+   ],
+   "must_not_contain": [
+    "even picking one can affect me"
+   ]
+  },
+  {
+   "id": "r62-nibble-size",
+   "status": "pending",
+   "what": "his round-62 NIBBLE-SIZE answer in B173: 200mg of leaf at a time, or 10mg of the extract paste, for nausea; more only if the person doesn't mind the trip getting less intense. With them in, the nibble sentence read Medium 16 in every step and the lineage used its six tries, so his own version of B173 goes in (round 63, TEACH-B173)",
+   "joel": "2026-11-27 17:16 UTC: his round-62 export (articles/bad-trips/review/r62/ANSWERS-R62-20261127-1716.json), card NIBBLE-SIZE",
+   "waits_for": "his answer to round 63's TEACH-B173"
   }
  ]
 }

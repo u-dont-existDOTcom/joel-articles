@@ -1,0 +1,129 @@
+{
+ "c2-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.8,
+  "decides": "whether the handling paragraph with his word for what the juice does (\"relax\", round 62 LEAF-JUICE) still reads High with B171, as it did (bb2893ad), before the next piece of his answer goes in",
+  "tells": [
+   "In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast."
+  ],
+  "human": [
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "receipt": "TEST-c2-bmg-p1p3.receipt.json",
+  "humanized": "try 2 from try 1 (bb2893ad, Human High 92): one word, his \"relaxing\" for \"affect\" (round 62, LEAF-JUICE)",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"relax\", what the juice does, for \"affect\""
+ },
+ "c3-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "whether his second piece, that the juice works through the skin almost as well as eating it, reads High in a sentence of its own after the handling line",
+  "tells": [
+   "Its juice works through the skin almost as well as eating it does."
+  ],
+  "human": [
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "receipt": "TEST-c3-bmg-p1p3.receipt.json",
+  "humanized": "try 3 from try 2: one sentence added, his \"it absorbs almost as well as eating it\" (round 62, LEAF-JUICE)",
+  "first_fix": "payoff: the skin counts as a dose; join: \"Its juice\" at the start; plain: \"works through the skin\" for \"absorbs\""
+ },
+ "a3-bmg-p2": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what (B173 with B175 moved in), by itself (h80)",
+  "call": "Human",
+  "chance": 0.7,
+  "decides": "whether the amounts paragraph with his amounts for nausea (round 62, NIBBLE-SIZE) in a sentence of their own still reads High by itself, as try 1 did (6bc70ed9)",
+  "tells": [
+   "A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward.",
+   "A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "receipt": "TEST-a3-bmg-p2.receipt.json",
+  "humanized": "try 3 from try 1 (6bc70ed9, Human High 67): one sentence added, his amounts for nausea (round 62, NIBBLE-SIZE); try 2's three words stay out (it read Medium 35, 99d65f8f)",
+  "first_fix": "payoff: how much to start with; join: \"For nausea\" at the start; plain: his amounts, his verb \"try\""
+ },
+ "a4-bmg-p2": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what (B173 with B175 moved in), by itself (h80)",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "whether his \"more if they don't mind reducing trip intensity\" reads High as its own sentence after his amounts, and whether the nibble sentence's Medium window in try 3 (16 words, ddea8d92) holds once the paragraph is longer",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it.",
+   "I'd give more than that only if the person doesn't mind their trip getting less intense."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "receipt": "TEST-a4-bmg-p2.receipt.json",
+  "humanized": "try 4 from try 3: one sentence added, his \"(more if they don't mind reducing trip intensity)\" (round 62, NIBBLE-SIZE)",
+  "first_fix": "payoff: when to go past the amounts; join: \"I'd give more than that\" at the start; plain: \"less intense\" for \"reducing trip intensity\"",
+  "diagnosis": "try 3 read High but for the nibble sentence, Medium 16 in a window of its own (ddea8d92); the sentence is as it was in try 1 (High 67 as one window) and is built like the one before it (\"A whole leaf can easily end\", \"A tiny nibble can sometimes smooth\", his fixes way 2); this step adds his next piece and leaves it alone"
+ },
+ "c4-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "whether the juice sentence reads High once \"it\" says which thing is eaten, before his armpits go in",
+  "tells": [
+   "Its juice works through the skin almost as well as eating the leaf does."
+  ],
+  "human": [
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "receipt": "TEST-c4-bmg-p1p3.receipt.json",
+  "humanized": "try 4 from try 3: \"eating it\" made \"eating the leaf\"",
+  "first_fix": "payoff: unchanged; join: unchanged; plain: \"the leaf\" for an \"it\" that could be the juice or the leaf",
+  "diagnosis": "try 3 read High but for its new sentence, Medium 13 in a window of its own (5884722d): \"eating it\" could be eating the juice or the leaf"
+ },
+ "c5-bmg-p1p3": {
+  "lineage": "bad-trips Beach Morning Glory, which plant and handling the leaf (B171, B174), together (h80)",
+  "call": "Human",
+  "chance": 0.65,
+  "decides": "whether his third piece, the armpits as one way to give it on purpose, reads High joined to the sentence it follows from",
+  "tells": [
+   "Its juice works through the skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example."
+  ],
+  "human": [
+   "The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end."
+  ],
+  "receipt": "TEST-c5-bmg-p1p3.receipt.json",
+  "humanized": "try 5 from try 4: a clause added, his \"can put it under armpits for example\" (round 62, LEAF-JUICE)",
+  "first_fix": "payoff: a second way to give it; join: \"so to give it on purpose\"; plain: \"under the armpits, for example\", his words",
+  "diagnosis": "tries 3 and 4 read High but for the juice sentence, Medium 13 and 14 in a window of its own (5884722d, 0253376f); his armpits, the next piece of his answer, go into that sentence"
+ },
+ "a5-bmg-p2": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what (B173 with B175 moved in), by itself (h80)",
+  "call": "Human",
+  "chance": 0.6,
+  "decides": "whether the nibble sentence reads High once it is built differently from the whole-leaf sentence before it",
+  "tells": [
+   "A tiny nibble, though, can sometimes smooth psychedelic nausea and even improve the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "receipt": "TEST-a5-bmg-p2.receipt.json",
+  "humanized": "try 5 from try 4: one word, \"though\" after the nibble sentence's subject",
+  "first_fix": "payoff: unchanged; join: \"A tiny nibble, though\", the contrast with the whole leaf at the start; plain: unchanged",
+  "diagnosis": "tries 3 and 4 read High but for the nibble sentence, Medium 16 in a window of its own (ddea8d92, 10d2a2a5), as it is in try 1; it is built like the sentence before it (\"A whole leaf can easily end\", \"A tiny nibble can sometimes smooth\"; his fixes, way 2)"
+ },
+ "a6-bmg-p2": {
+  "lineage": "bad-trips Beach Morning Glory, how much does what (B173 with B175 moved in), by itself (h80)",
+  "call": "Human",
+  "chance": 0.55,
+  "decides": "whether the first two sentences read High once the whole-leaf one says how the leaf is taken and no longer mirrors the nibble one",
+  "tells": [
+   "A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it."
+  ],
+  "human": [
+   "For nausea I'd try 200mg of leaf at a time, or 10mg of the extract paste."
+  ],
+  "receipt": "TEST-a6-bmg-p2.receipt.json",
+  "humanized": "try 6 from try 4 (10d2a2a5): one word, \"Eating\" before \"a whole leaf\"; try 5's \"though\" out",
+  "first_fix": "payoff: how the leaf is taken; join: unchanged; plain: \"Eating a whole leaf\", the route said",
+  "diagnosis": "the first two sentences mirror each other (\"A whole leaf can easily end\", \"A tiny nibble can sometimes smooth\"; his fixes, way 2): alone the nibble one read Medium 16 (10d2a2a5), joined by \"though\" the pair read Low 37 (b771d740); the fresh his-fixes read of the draft asked that the whole-leaf sentence say how the leaf is taken"
+ }
+}

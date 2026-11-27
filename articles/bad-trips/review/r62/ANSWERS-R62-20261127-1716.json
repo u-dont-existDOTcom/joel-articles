@@ -1,0 +1,51 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r62",
+ "title": "Bad Trips Guide, Round 62",
+ "git_file": "articles/bad-trips/review/r62/REVIEW-R62.html",
+ "article": {
+  "file": "articles/bad-trips/review/r62/PAGE-R62.md",
+  "sha256": "ca2cbf5ffedfcd268a92a97b003e105d09a3a8c94fcd6eec90dadc5b01343955"
+ },
+ "built": "2026-11-27",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-27T17:16:13.036Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "LEAF-JUICE",
+   "type": "question",
+   "title": "1. Beach Morning Glory: what does the juice do when it touches your skin?",
+   "where": "Beach Morning Glory, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The handling line says even picking a leaf \"can affect me\" when the juice from the broken part touches sensitive skin, especially under the fingernails. A fresh reader couldn't tell what that effect is.\n(a) you feel the plant's effect, as you would from eating some (a trip starts to end); (b) a skin reaction, like a rash or a sting; or say it as you'd say it, and it goes into that sentence.",
+   "your_version": "",
+   "comment": "touching the juice is relaxing, especially on sensitive skin, it absorbs almost as well as eating it. can put it under armpits for example to absorb well",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-27T17:15:15.229Z"
+  },
+  {
+   "id": "NIBBLE-SIZE",
+   "type": "question",
+   "title": "2. Beach Morning Glory: how big is the nibble for nausea?",
+   "where": "Beach Morning Glory, P3",
+   "advice": "ask",
+   "status": "answered",
+   "question": "A fresh reader sitting with a friend couldn't judge \"a tiny nibble\" against the amount that ends a trip, and the paragraph says it takes only a little more than a nibble to end one, so a sitter could easily give too much.\nHow big is the nibble you'd give for nausea? Write it as you'd say it, as something a sitter can see (a part of a leaf, say), and it goes into that sentence. Or (a): leave it as \"a tiny nibble\".",
+   "your_version": "",
+   "comment": "i'd try 10mg at a time for nausea of the extract paste, or 200mg leaf at a time (more if they don't mind reducing trip intensity)",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-27T17:16:07.726Z"
+  }
+ ]
+}

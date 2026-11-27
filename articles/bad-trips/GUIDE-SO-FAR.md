@@ -392,7 +392,7 @@ Without an ozone-water purifier--which can cost around $20 on Amazon--boiling wa
 
 In my experience, beach morning glory is the ultimate sledgehammer for stopping a psychedelic trip cold and fast. By beach morning glory I mean *Ipomoea pes-caprae*, not morning glories in general, since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it.
 
-The leaf is strong enough that even picking one can affect me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end.
+The leaf is strong enough that even picking one can relax me if the juice from the broken part touches sensitive skin, especially under my fingernails, so I keep my skin away from the broken end. Its juice works through the skin almost as well as eating the leaf does, so to give it on purpose, you can put the juice under the armpits, for example.
 
 A whole leaf can easily end the trip and, in my experience, may keep you from tripping for days afterward. A tiny nibble can sometimes smooth psychedelic nausea and even improve the trip without ending it. But it takes only a little more than a nibble to end the trip, so I use it for nausea only when the person is okay with their trip possibly ending.
 

@@ -2860,6 +2860,37 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-27T16:30Z"
+  },
+  {
+   "turn": "2026-11-27T17:16Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ on its default branch (fetched 2026-11-27 17:40 UTC; UDA at 3fce032, unchanged), all six already in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md, OWNER-QUESTIONS.md and PROMISES.md on main: last changed by this lane's turn 71 (650d9093); no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (ReadNotifications, 2026-11-27 17:41 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "unreachable",
+     "failed": "GitHub's API answered 403 again ('GitHub access to this repository is not enabled for this session'; the session's request for repository access was declined by its permission check earlier this session, so not asked again). Through git instead: pull requests 560 to 562 merged into main (somatic additions, romance, community with the neuro lane's 3b9e9b1ff); lessons neuro-2026-11-27a to f, somatic's four and romance-2026-11-27a read; 3b9e9b1ff changed tools/humanization/suggestion_review.py to refuse a teaching card with advice leave, and round 63's TEACH-B173 uses edit; no pull request ref after 562",
+     "retry": "the next turn, first, through the API"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-27T17:41Z"
   }
  ]
 }
