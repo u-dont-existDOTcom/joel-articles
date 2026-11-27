@@ -117,7 +117,8 @@ def checks():
     for f in HERE.glob('fix-*/**/HIS-CHECKS-*.json'):
         for c in json.loads(f.read_text(encoding='utf-8')).get('checks', []):
             ws = [(str(w[0]), str(w[1])) for w in c.get('windows', [])]
-            out.append((str(c.get('at') or '2026-11-24T18:40:00Z'), c.get('text_sha256') or '', '', ws,
+            # the text he checked, when the record has it (x1127a's do), so a short paragraph inside it counts
+            out.append((str(c.get('at') or '2026-11-24T18:40:00Z'), c.get('text_sha256') or '', c.get('prompt') or '', ws,
                         'https://www.pangram.com/history/' + c['uuid'], 'his own check, card ' + str(c.get('card')),
                         {'headline': c.get('headline')}))
     out.sort(key=lambda x: x[0])

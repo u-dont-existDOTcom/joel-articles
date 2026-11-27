@@ -1,5 +1,23 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-27, his message of 19:17 UTC: his two card versions in; lessons g to m; the blind test 1 of 2
+
+His answers: `fix-20261108/x1127a/ANSWERS-X1127A-20261127-1916.json` (both cards "revise", his versions and comments),
+and the raw link to UDA's AGENTS.md. **The mailbox** ("2026-11-27 19:17"): UDA's root AGENTS.md read from his link
+(bootstrap LOADED), its lane folder unreachable (API 403); main merged (562); no new items; no notifications.
+
+- **In** (HUMANIZED-SO-FAR.md e0a76c6a to 1d94ed03): his herbs warning (his check ea117cc8) and his Cognitive Warning
+  with the paragraph after it (his checks 67b7b8c3, c144f420, 7ef34838, c642954e), each Human High in one window, the
+  two links put back (`apply_his_x1127a.py`). Fidelity PASS (two owner_changes entries), keep-as-is PASS (K7, K8).
+- **Shared**: `tools/humanization/human_tells.md` and the human-tell rule in the gate, the budget, FIXING-AN-ARTICLE and
+  tell_panel.py; `pangram_ledger.py` refuses a human tell naming a phrase without a model's version; `suggestion_review.py`
+  1.14 puts every marked block in a teaching card's box; his_fixes_brief.md ways 10, 12, 21 and registry J81. Tests pass.
+- **Lessons** neuro-2026-11-27g to m (`docs/lessons/2026-11-27-1917-neuro.md`); d and b corrected.
+- **The blind test** (`fix-20261108/x1127a/replay/RESULTS.md`, #308 to #310): 1 of 2 at Human High.
+- **The warnings section**: every paragraph Human High by itself (#311, his paragraph alone); LEFT.md: 29 of 141 alone,
+  1 inside; its whole-section check waits for the article's (1,203 words, over the web app's limit).
+- **Waiting on him**: nothing. **Next**: the Psychology section's pass.
+
 ## 2026-11-27, his message of 17:21 UTC: 76 in with his reason; the cards page fixed; UDA explained
 
 His message word for word: `fix-20261108/joel-20261127-1721-message.txt`. **The mailbox** ("2026-11-27 17:21"): UDA

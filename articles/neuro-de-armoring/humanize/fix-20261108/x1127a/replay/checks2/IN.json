@@ -1,0 +1,14 @@
+{
+ "bl2-lma": {
+  "lineage": "neuro-de-armoring/W-LMA-73A-blind2 (replay x1127a)",
+  "scope": "paragraph",
+  "name": "Second blind rewrite of the herbs warning (replay, lesson h with its limit)",
+  "text": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so I believe the reports. If you're already on either herb, I'd quit it as soon as you notice any of those symptoms.",
+  "chance": 0.5,
+  "unchanged": "a fresh Fable writer's rewrite of my last try (W-LMA-his#299) from replay/BRIEF2.md alone, checked exactly as written",
+  "diagnosis": "with rule 1's limit the writer said what the likeness shows (\"so I believe the reports\") instead of saying the first sentence again, and split the stop sign into a sentence of its own; \"the same kind of thing\" is still there, which in my last try read Medium",
+  "decides": "whether lesson h stated with its limit (lesson neuro-2026-11-27m) lets a fresh writer take my last try to Human High (AGENTS.md, lesson romance-2026-11-22h)",
+  "tells": "\"it's the same kind of thing\" kept; \"so I believe the reports\" is a stance added in a clause of three words",
+  "human_tells": "his clipped \"Post-ashwa\" (a model writes the full name, \"post-ashwagandha syndrome\")"
+ }
+}

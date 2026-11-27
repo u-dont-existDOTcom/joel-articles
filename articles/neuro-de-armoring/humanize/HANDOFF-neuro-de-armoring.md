@@ -18,6 +18,33 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-27, after his message of 19:17 UTC (the cards page's answers: both cards "revise" with his versions and
+  comments; the raw link to UDA's AGENTS.md): both his versions are in as he checked them; lessons neuro-2026-11-27g to m
+  and three shared tool changes; the blind test 1 of 2 at Human High; no question open, no card waiting.**
+  HUMANIZED-SO-FAR.md is 1d94ed03. Everything of the turn is in `fix-20261108/x1127a/`: his answers
+  (`ANSWERS-X1127A-20261127-1916.json`), his five checks read back from his history (`HIS-CHECKS-X1127A.json`), the apply
+  script (`apply_his_x1127a.py`, run with `--write`; `APPLIED-X1127A.json`), keep-as-is K7 ("Post-ashwa") and K8
+  ("nonsensical"), two fidelity owner_changes entries (fidelity_keys.py check PASS). **His comments, answered**: the
+  human-tell rule was "anything of his", which named phrases a model writes too; now a human tell is what a model tends
+  not to write, named with what a model would write instead (`tools/humanization/human_tells.md`; HUMANIZATION-GATE,
+  PANGRAM-PRODUCTION-BUDGET, FIXING-AN-ARTICLE item 7, tell_panel.py; `pangram_ledger.py predict` refuses a human tell
+  naming a phrase without "a model ...", with its test). "Why did you ask me to fix the High part": the card's box held
+  only my edited block; `suggestion_review.py` 1.14 fills a teaching card's box with every block it marks (test).
+  **Lessons** `docs/lessons/2026-11-27-1917-neuro.md` (g to m; d and b of 15:45 corrected in place); his_fixes_brief.md
+  ways 10, 12 and 21 and the registry's J81 carry them. **The blind test** (`x1127a/replay/RESULTS.md`, ledger #308 to
+  #310): the pair High from lessons h to k alone; the herbs warning AI 53.6% (it restated the first sentence), then with
+  lesson m a High "but" clause and a Medium stop sign split off. **The warnings section**: every paragraph Human High by
+  itself now (his paragraph after the Cognitive Warning checked alone, #311,
+  https://www.pangram.com/history/3ad025d1-2809-4ed7-b166-9094436cb627; coverage.py reads the text of his checks now, so
+  his pair check covers the Cognitive Warning), off LEFT.md; as a whole it is 1,203 words, over the web app's limit (the
+  ledger refuses it), so its check waits for the whole-article check on Substack. **UDA**: root AGENTS.md
+  read from his link with curl (raw.githubusercontent.com works for that repository); the lane folder
+  `suggested-fixes/joel-articles/` still can't be listed (API 403, repository not attached). **Next**: the mailbox, his
+  message; then the Psychology section's pass, in this order: PAIR-SW17-18 (the "Underpinning" Principle: Medium over
+  "Dr. Bruce Perry compares ..." and over "You cannot hang curtains in a collapsing house. Why does the brain build this
+  armor?", and the "As Dr." split, #260), P-SW19 (the one-sixteenth paragraph, AI High on its Void sentence, #266),
+  P-SW21 (the underpinnings paragraph, AI Low, #263), the practice paragraph (PAIR-SW22-23 #268; SW22 is in), each with
+  the fresh reads first and a brief that carries the joining rule along with lessons h to m.
 - **2026-11-27, after his message of 17:21 UTC ("76 yes, and that can be dangerous with non-kratom opioids where
   overdose is more of a concern but even with kratom you can get side effects when more sensitive. your cards have no
   card in them btw / why can't we load UDA?"): 76 is in with his reason; the cards page fixed (both cards were hidden);

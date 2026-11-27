@@ -34,7 +34,9 @@ its tries (six for a paragraph, pair, heading or sentence; two for a section, st
 lineage has no result yet (recover it from Pangram's History, or `void` it if it was never sent); an earlier try of the
 lineage failed and no diagnosis is given; the last two results of the lineage were misses and neither is explained (stop and
 ask Joel: "I can't find AI tells here, and here are the human tells I see, but it doesn't pass. Can you explain?",
-naming as human tells only his own writing or features on a list drawn from human writing); or the
+naming as human tells only what a model tends not to write, each with what a model would write instead:
+tools/humanization/human_tells.md); a human tell quotes a phrase without saying what a model would write in its place
+(lesson neuro-2026-11-27g); or the
 same text (same SHA-256) was already submitted in the lineage (read the cached result instead). A forecast is never a
 reason to skip a check a rule requires, and the counter is the floor of the budget rule, not all of it: the rule's diagnosis
 and stop conditions still need a person's judgment.
@@ -241,9 +243,19 @@ def refusals(recs, rec, text=None):
         out.append('the chance is of a 100% Human result, not the confidence in the call: a Human call needs at least 0.5 '
                    'and an AI call at most 0.5 (got ' + str(rec['chance']) + ' for a ' + rec['call'] + ' call)')
     if not rec.get('tells') and not rec.get('human_tells'):
-        out.append('no evidence: name the AI tells in the actual words, and any human tells (only his own writing or a feature '
-                   'on a list of real human tells drawn from human writing: words a model wrote are never one, lesson '
-                   'neuro-2026-11-26a)')
+        out.append('no evidence: name the AI tells in the actual words, and any human tells (something a model tends not to '
+                   'write, found in his own writing, with what a model would write instead: tools/humanization/'
+                   'human_tells.md; words a model wrote are never one, lesson neuro-2026-11-26a)')
+    # lesson neuro-2026-11-27g: a human tell is something a model tends not to write, not any phrase of his; one that
+    # names a phrase says what a model would write in its place (Joel, 2026-11-27 19:16 UTC: "\"it's the same kind of
+    # thing\" isn't a human tell, ai can write that also ... post-ashwa is a human tell bc ai doesn't tend to reduce the
+    # full name"). A long quote that only shows which paragraph of his is in the text names no phrase and passes.
+    for h in rec.get('human_tells') or []:
+        named = [a or b for a, b in re.findall(r'"([^"]{2,}?)"|\u201c([^\u201d]{2,}?)\u201d', h) if len((a or b).split()) <= 10]
+        if named and not re.search(r'\ba model\b|\bmodels\b', h, re.I):
+            out.append('human tell %r names a phrase without what a model would write in its place: a human tell is '
+                       'something a model tends not to write, not any phrase of his; add "(a model writes ...)" or drop the '
+                       'phrase (tools/humanization/human_tells.md; lesson neuro-2026-11-27g)' % h[:90])
     scope = rec['scope']
     # E218, E325 (Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits"): a half,
     # a whole article or anything over 1,200 words is checked free in a temporary Substack draft, never through the API
@@ -1082,9 +1094,10 @@ def main(argv=None):
                    'a Human call is at least 0.5, an AI call at most 0.5')
     p.add_argument('--tells', action='append')
     p.add_argument('--human-tells', action='append',
-                   help='only his own writing in the text (his words, a version or line of his, a fact he gave) or a '
-                        'feature on a list of real human tells drawn from human writing; never words a model wrote, '
-                        'however rough (lesson neuro-2026-11-26a)')
+                   help='something a model tends not to write, found in his own writing, with what a model would write '
+                        'in its place ("Post-ashwa" (a model writes "post-ashwagandha syndrome")); never words a model '
+                        'wrote, however rough, and not a phrase of his any model writes (tools/humanization/'
+                        'human_tells.md; lessons neuro-2026-11-26a, neuro-2026-11-27g)')
     p.add_argument('--diagnosis')
     p.add_argument('--decides')
     p.add_argument('--key')

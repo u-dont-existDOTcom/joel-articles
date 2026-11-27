@@ -95,7 +95,10 @@ that still reads the first way.
    passage already had, and added nothing (romance, 2026-11-23, lesson romance-2026-11-23h). A run of "maybe ..."
    possibilities just before "that question" is the question, with or without a question mark ("i don't think the
    question is so hard to understand after maybe this or maybe that"); saying it again as "whether ..." says it twice,
-   which is what the blind rewrite of that passage did. For every such word, write what it could mean here, and mark it
+   which is what the blind rewrite of that passage did. A feeling the reader projects can read as a real one: "you
+   project the threat you feel onto others" leaves open whether the threat is there, and his one word, "the nonsensical
+   threat you feel", took that window from Human Medium to one window High (neuro de-armoring, 2026-11-27: "one word to
+   clarify fixes it all"; lesson neuro-2026-11-27k). For every such word, write what it could mean here, and mark it
    if a quick reader could take it either way.
 11. **The means before the payoff.** A sentence that opens on the tool, the source or the method, and only then says
    what the reader gets from it. He fixed "We can use the same Hunter criteria that clinicians use to diagnose
@@ -124,6 +127,13 @@ that still reads the first way.
    be far more worried about taking the MDMA which depletes it" says what the MDMA has to do with the magnesium, and it
    was the first change that moved the reading ("nothing helped pangram until i tied the 2nd sentence to the first";
    lesson bad-trips-2026-11-25a). When the text holds nothing that joins the two, mark the turn and say what is missing.
+   A "but" answers what it turns from: after "Post-ashwa and post-lion's mane syndrome are rare", my "but it's the same
+   kind of thing SSRIs and finasteride can do" didn't say what the likeness does to the rarity; his "but we know about
+   this phenomenon already from SSRIs and finasteride users" (rare, and known to be real) took the paragraph from High
+   and Medium to one window High, with my stop sign after it unchanged (neuro de-armoring, 2026-11-27: "why would this
+   being the same kind of thing as that be realted to why its rare"; lesson neuro-2026-11-27h). The answer is new:
+   a blind rewrite that met this by saying the first sentence again ("rare, but they can last long after you stop")
+   read AI Low (lesson neuro-2026-11-27m).
 13. **Leaves the reader wondering why they're reading it.** A sentence or step that opens on what to do, or on a fact,
    before saying what in the situation calls for it. He opened the fluids step on why fluids come up at all, tied to the
    step before: my "Give fluids only if they're fully alert, able to swallow and not vomiting" became his "Overstimulating
@@ -205,7 +215,12 @@ that still reads the first way.
 
 21. **A label for the thing instead of the thing.** A sentence that names a concept for what happened ("'she lied' only
    named the momentary behavior"), an abstract noun that acts ("safety gives the space for desire"; "her jealousy was not
-   simply tracking what I was doing"), or a question about categories ("What counts as betrayal, and what's just a sign
+   simply tracking what I was doing"), a body part doing what the person does ("your armored brain projects the threat
+   it feels onto neutral faces"; he gave the act to the person, "when your brain is armored up, you project the threat
+   you feel onto others", and its window went from Human Low to Human Medium: "pangram doesn't like when things (brain)
+   are doing things that people should be doing, it sees it like our abstract concept agency rule", neuro de-armoring,
+   2026-11-27, lesson neuro-2026-11-27i; a brain that fires, releases or adapts is physiology, not this), or a question
+   about categories ("What counts as betrayal, and what's just a sign
    we need a serious talk?"). He says the thing itself: "Non-strategic lying is literally diagnosed as 'pathological
    lying'", "her jealousy wasn't about what I was doing then and there", "Is that, in and of itself, a betrayal, since
    it's not under our control?" (2026-11-22: "sort of vagued and weird, didn't really understand like what was it trying

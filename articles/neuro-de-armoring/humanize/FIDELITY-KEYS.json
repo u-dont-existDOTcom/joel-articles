@@ -2865,6 +2865,20 @@
    "numbers_lost": [],
    "numbers_new": [],
    "keys_lost": {}
+  },
+  {
+   "by": "card W-LMA-73A, his version (fix-20261108/x1127a/ANSWERS-X1127A-20261127-1916.json), applied by fix-20261108/x1127a/apply_his_x1127a.py",
+   "why": "his herbs warning with 73a: \"(no desire)\" becomes \"(no joy or desire)\"; \"it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind\" becomes \"we know about this phenomenon already from SSRIs and finasteride users, so if you're already on either herb, I'd quit it as soon as you notice any of that\". His check: https://www.pangram.com/history/ea117cc8-2952-4876-8bfd-859d93c08b25 (Human Written, one window, High, 79 words).",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {}
+  },
+  {
+   "by": "card W-COG-SEC, his version (fix-20261108/x1127a/ANSWERS-X1127A-20261127-1916.json), applied by fix-20261108/x1127a/apply_his_x1127a.py",
+   "why": "his Cognitive Warning and the paragraph after it: the first two sentences joined; \"Your armored brain also projects the threat it feels onto neutral faces, so you will think people are judging you when ...\" becomes \"On top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the nonsensical threat you feel onto others.\"; the heart-rate test, the 90 BPM and both links stay. His check: https://www.pangram.com/history/c642954e-7d04-4337-b8c1-f47ea33f68be (Human Written, one window, High, 123 words).",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {}
   }
  ],
  "warning_words": {

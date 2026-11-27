@@ -1,9 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-27, after your message of 2026-11-27 17:21 UTC ("76 yes, ...", the cards, UDA).
-**Open questions: 0.** **For you to do**: two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)
-(the same cards in Git: [REVIEW-X1127A.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.md)): the herbs warning with your 73a, and the Cognitive
-Warning. They show now; before, the page had folded them away.
+Last updated 2026-11-27, after your message of 2026-11-27 19:17 UTC (your versions on the two cards, and UDA's link).
+**Open questions: 0.** **For you to do**: nothing right now.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -16,11 +14,45 @@ None right now.
 
 ## For you to do
 
-- 🟠 **Two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/REVIEW-X1127A.md)):
-  - **W-LMA-73A**: your herbs warning with 73a and your line. My best reads High over your first sentence and Medium
-    over the second; Revise with your version, use my best anyway, or Reject to leave it as it is.
-  - **W-COG-SEC**: the Cognitive Warning and the paragraph after it. After 76 the section has one Medium window left,
-    over the faces sentence.
+Nothing right now.
+
+## Your message of 2026-11-27 19:17 UTC (your versions on the two cards, and UDA's link), and what I did
+
+- 🟢 **Both your versions are in, as you checked them** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/APPLIED-X1127A.json)): the herbs warning
+  ([your check](https://www.pangram.com/history/ea117cc8-2952-4876-8bfd-859d93c08b25)) and the Cognitive Warning with the paragraph after it
+  ([your last check](https://www.pangram.com/history/c642954e-7d04-4337-b8c1-f47ea33f68be)), each Human Written in one High window; the
+  *Mindwise* and "Metabolic Red Line" links are back where they were. "Post-ashwa" and "the nonsensical threat you feel"
+  are on the keep-as-is list (K7, K8), so no later pass spells the name out or trims the word.
+- 🟢 **What my rule for human tells was, and the new one.** The rule I followed (lesson neuro-2026-11-26a, from your
+  comment the day before) counted anything you wrote as a human tell, so I named phrases of yours that sat in windows
+  reading High. That's no real rule: a window reads High for all its words, and a model writes "it's the same kind of
+  thing" and "I'm not advising lion's mane" too. The rule now: a human tell is something a model tends not to write, and
+  each one comes with what a model would write instead ("Post-ashwa": a model writes "post-ashwagandha syndrome").
+  [The list of your examples, and of what isn't one](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/human_tells.md); the rules for every lane say so,
+  and the prediction ledger refuses a human tell that names a phrase without a model's version beside it
+  (lesson neuro-2026-11-27g).
+- 🟢 **Why the card asked you to fix the High part.** The card marked both paragraphs, but its box held only the line I
+  had changed (my join of the Cognitive Warning, High by itself), not the paragraph whose window read Medium. The page
+  builder now fills a teaching card's box with every paragraph the card marks, for every lane (lesson neuro-2026-11-27l).
+- 🟢 **What your fixes taught, in the rules every lane reads** ([the lessons](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-27-1917-neuro.md)):
+  a "but" says what it changes about what it turns from (your "we know about this phenomenon already from SSRIs and
+  finasteride users"; the herbs warning's Medium was there, not in the stop sign, which corrects my lesson of 15:45); a
+  body part doing what a person does reads like an abstract noun doing it (your "you project", not "your brain
+  projects"); the joiner and "you'll tend to"; and the one word that rules out a wrong reading ("nonsensical").
+- 🟢 **The blind test of those lessons** ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/replay/RESULTS.md)): a fresh
+  writer that never saw your versions rewrote both from the lessons alone. The Cognitive Warning pair read
+  [one High window](https://www.pangram.com/history/44991128-07f5-4096-9c95-c5f6a4ca5d85). The herbs warning read
+  [AI 53.6%](https://www.pangram.com/history/b88b1fce-db98-4e8b-9615-062fb097c8ac): it met the "but" rule by saying the first sentence again.
+  With that limit added, a second writer's "but" clause read High and its stop sign, split into a sentence of its own,
+  [Medium](https://www.pangram.com/history/a415022f-2d1f-4023-af9d-ddf8e9be9bd0), where yours keeps it joined.
+- 🟢 **UDA loaded this turn** from the link you pasted. Its folder of suggestions for this repository still can't be
+  listed: that needs the repository attached to the session, which the session's safety check keeps refusing.
+- 🟢 **Every paragraph of the warnings section now reads Human High by itself** (your paragraph after the Cognitive
+  Warning, checked alone too: [one window, High](https://www.pangram.com/history/3ad025d1-2809-4ed7-b166-9094436cb627)), so the section is off
+  [the list of what's left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/LEFT.md). 🔵 With your versions in, the section is 1,203 words, over the web
+  app's limit, so its check as a whole goes with the article to Substack's free check at the end.
+- 🔵 **Next, mine**: the rest of "Psychology is the Software; Biology is the Hardware.": the "Underpinning" Principle,
+  the one-sixteenth paragraph, the underpinnings paragraph and the practice paragraph.
 
 ## Your message of 2026-11-27 17:21 UTC ("76 yes, ...", the cards, UDA), and what I did
 

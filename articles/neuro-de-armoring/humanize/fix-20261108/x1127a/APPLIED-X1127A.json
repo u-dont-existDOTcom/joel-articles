@@ -39,6 +39,28 @@
    ],
    "before_sha256": "1ab352b77d0389111d3b07786b5a22ec222b5c621081b8a9decb25ab6f7ed3a2",
    "after_sha256": "e0a76c6ad148e92bf10b1e050b04b2750b1156e87898e261dbaac9f5c497af3f"
+  },
+  {
+   "applied": [
+    {
+     "key": "W-LMA-73A",
+     "whose": "his version on the card, as he checked it",
+     "check": "his check: https://www.pangram.com/history/ea117cc8-2952-4876-8bfd-859d93c08b25 (Human Written, one window, High, 79 words)",
+     "old": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+     "new": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but we know about this phenomenon already from SSRIs and finasteride users, so if you're already on either herb, I'd quit it as soon as you notice any of that."
+    },
+    {
+     "key": "W-COG-SEC",
+     "whose": "his version on the card, as he checked it, with the two links Pangram can't see put back",
+     "check": "his checks, four steps: https://www.pangram.com/history/67b7b8c3-8ac3-406c-97c6-642983098574, https://www.pangram.com/history/c144f420-4d10-4ba8-96b4-bd5572d71d37, https://www.pangram.com/history/7ef34838-3d6f-40af-a53f-e9cbc5b7a76a, https://www.pangram.com/history/c642954e-7d04-4337-b8c1-f47ea33f68be (the last Human Written, one window, High, 123 words)",
+     "old": "As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\"\n\nYour armored brain also projects the threat it feels onto neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the [\"Metabolic Red Line\"](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) below).",
+     "new": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the \"Illusion of Transparency.\"\n\nOn top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the nonsensical threat you feel onto others. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the [\"Metabolic Red Line\"](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) below)."
+    }
+   ],
+   "answers": "x1127a/ANSWERS-X1127A-20261127-1916.json",
+   "his_checks": "x1127a/HIS-CHECKS-X1127A.json",
+   "before_sha256": "e0a76c6ad148e92bf10b1e050b04b2750b1156e87898e261dbaac9f5c497af3f",
+   "after_sha256": "1d94ed032309107a2d996b7ca86a83532dbf188f5ec656d0aabc5175c1631b3c"
   }
  ]
 }
