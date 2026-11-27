@@ -2917,5 +2917,15 @@
    "date": "2026-11-04",
    "by": "the lane, fixing its own key (Joel's standing preference: fix his obvious typos)"
   }
+ ],
+ "not_cautions": [
+  {
+   "unit": "W020",
+   "cues": [
+    "must"
+   ],
+   "by": "lesson bad-trips-2026-11-27f (his CHARCOAL-WORDS answer \"a\", 2026-11-27 15:34 UTC: \"from now on a line whose only warning word isn't a caution may be said in other words, as long as every fact stays\"), applied by fix-20261108/x1127c/apply_x1127c.py",
+   "why": "Part 1's intro line: \"must\" is in \"you must understand ... before applying the tools\", an instruction to read the science first, not a caution; trauma, withdrawal and chronic stress stay in the line"
+  }
  ]
 }

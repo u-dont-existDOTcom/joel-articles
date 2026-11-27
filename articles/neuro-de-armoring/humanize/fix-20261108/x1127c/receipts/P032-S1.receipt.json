@@ -1,0 +1,103 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "11addda721af948a458a457a0a7460f4ffd51cc3358ac5ac87cbe7f108fdaccf",
+ "text": "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your resting heart rate is higher than usual, or the time between beats varies less than usual (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+ "section": "A. The Metabolic Red Line (in Part 1: THE SCIENCE)",
+ "reader": "an adult with trauma who has done years of therapy (CBT, EMDR) and still gets triggered, starting the science behind this protocol's tools",
+ "sentences": [
+  {
+   "s": "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive.",
+   "payoff": "they learn why they couldn't talk themselves out of a trigger: blood flow leaves the part of the brain that reasons for the part that keeps them alive",
+   "follows": "it opens the first failure, A, on something the reader has lived"
+  },
+  {
+   "s": "That happens once your resting heart rate is higher than usual, or the time between beats varies less than usual (a smartwatch shows both), and it lasts until you calm down.",
+   "payoff": "they learn when it happens (a resting heart rate higher than usual, or the time between beats varying less than usual, both of which a smartwatch shows) and that it passes once they calm down",
+   "follows": "it says when the shift the sentence before describes happens, and how long it lasts",
+   "link": "That happens"
+  },
+  {
+   "s": "Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+   "payoff": "they learn the names the protocol uses for that point and for the state past it, which come back later (the red-line test in Part 4)",
+   "follows": "it names what the two sentences before describe",
+   "link": "the point where that happens"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Perry's \"Metabolic Red Line\" and his \"Fear\" state",
+   "found": "one web search (2026-11-27 23:3x UTC, \"Bruce Perry \"metabolic red line\" heart rate trauma\") found no use of the term by Perry; his model is state-dependent functioning, with fear one of its states (calm, arousal, alarm, fear, terror); not an absence claim: one search",
+   "still_needed": "yes: they learn the name the protocol uses for the line, and whose idea it is; the attribution stays as the post has it and goes to Joel as a question",
+   "fate": "kept"
+  },
+  {
+   "point": "the line in the reader's terms: heart rate above its usual resting rate",
+   "found": "his 62a: the red line's test reads \"back down to your usual resting rate, and under 90 BPM\" in its three places (x1124b)",
+   "still_needed": "yes: they know what crossing the line means for them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the first paragraph under A, where the post has it",
+ "opens": {
+  "first_sentence": "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive.",
+  "why_reading": "they recognize their own failure to talk themselves out of a trigger, and learn why it happens"
+ },
+ "same_point": "none: read A from its heading to B (the red line: what it is, then what it means for trauma work)",
+ "needed": {
+  "reader": "a fresh reader (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md and only the paragraph as it stood, one sentence a line (x1127c/v1/needed/p032/READ.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md and only the paragraph as it stood, one sentence a line (x1127c/v1/his-fixes/p032/READ.md)",
+  "marked": [
+   {
+    "s": "If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect.",
+    "difference": "21, 16: \"anatomy overrides intellect\", two abstract nouns acting, said again by S2"
+   },
+   {
+    "s": "Dr. Perry describes a \"Metabolic Red Line\" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of \"Fear\"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.",
+    "difference": "5, 11, 1, 2, 4, 10: Perry and his term before the reader; packed; glosses built alike; past what; \"(a state of \"Fear\")\""
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh reader (Fable, 2026-11-27) given tools/humanization/fit_read_brief.md and only the paragraph as it stood, one sentence a line (x1127c/v1/fit/p032/READ.md)",
+  "marked": [
+   {
+    "s": "If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect.",
+    "found": "MISREAD: \"anatomy overrides intellect\" reads as always"
+   },
+   {
+    "s": "Dr. Perry describes a \"Metabolic Red Line\" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of \"Fear\"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.",
+    "found": "ANYWAY: heart rate up after coffee; CAN'T TELL: HRV, no number, \"resting\" is measured calm; FROM: wearable readings; MISREAD: blood flow shifting sounds like damage"
+   }
+  ],
+  "kept": {}
+ },
+ "his_answer": [],
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point or on the reader's own case",
+  "Q2": "PASS: the one instruction (work on trauma only under the line) says what it is for: not adding armor",
+  "Q3": "PASS: each thing is named exactly (the part that reasons, the Cortex, the Brainstem, the line, the protein)",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used (catecholamines as stress chemicals, the window of tolerance as working under the line)",
+  "Q5": "PASS: each \"so\", \"and\" and \"though\" turns on the clause before it",
+  "Q6": "PASS: the claim, then why, then the limit (may, isn't settled)",
+  "Q7": "PASS: each fact is about what happens to the reader when triggered",
+  "Q8": "N/A: no group or list inside these paragraphs but the protocol's scope (trauma, withdrawal or chronic stress)",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

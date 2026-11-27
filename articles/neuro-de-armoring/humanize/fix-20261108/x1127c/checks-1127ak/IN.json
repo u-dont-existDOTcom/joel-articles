@@ -1,0 +1,16 @@
+{
+ "p033d": {
+  "lineage": "neuro-de-armoring/P033",
+  "scope": "paragraph",
+  "name": "The Red Line's second paragraph by itself, try 4: the label as an aside",
+  "text": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain. There they switch on DeltaFosB, the protein researchers suspect holds the armor in place. Only work on your trauma while you're under that line (what trauma therapists call your \"window of tolerance\").",
+  "chance": 0.55,
+  "receipt": "/home/claude/repos/joel/articles/neuro-de-armoring/humanize/fix-20261108/x1127c/receipts/P033-S1.receipt.json",
+  "diagnosis": "from try 3 (#341: High 50, Low 35 over the DeltaFosB sentence and the advice): the advice ends on a label hung on the end (\"which trauma therapists call staying in your window of tolerance\", way 21); the thing first, the label in brackets after it",
+  "decides": "whether the label as an aside takes the last window from Low to High",
+  "tells": "\"instead of taking it off\" (a contrast, though it answers what the reader expects processing to do); a long second sentence",
+  "human_tells": "none to name: the words are mine and the post's",
+  "first_fix": "payoff: the claim, then why (above the line), then what to do; join: the caveat into the clause it qualifies (\"though the research on that isn't settled\"); plain: \"set off the making of DeltaFosB\" for \"transcribe new DeltaFosB proteins\", \"stress chemicals called catecholamines\", \"only work on your trauma while you're under that line\" for \"staying within a manageable window of tolerance rather than overwhelming activation\"",
+  "humanized": "the claim, then why, then what to do, in the reader's order; the packed second sentence split where \"There they\" carries on; the Nucleus Accumbens explained where the article first uses it (\"a reward center deep in the brain\"); catecholamines as \"stress chemicals\"; the caveat joined to the clause it qualifies; the advice an order, not \"I'd ... your trauma\", which read as the writer working on the reader's trauma"
+ }
+}

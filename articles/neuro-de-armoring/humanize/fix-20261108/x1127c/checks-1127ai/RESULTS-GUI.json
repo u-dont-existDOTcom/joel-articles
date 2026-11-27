@@ -1,0 +1,86 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "p033b": {
+   "uuid": "f55e9c83-ee35-48be-973e-ace0616ee952",
+   "at": "2026-11-27T23:33:21Z",
+   "headline": "Human Written",
+   "ai": 5.8755782461616946e-09,
+   "words": 88,
+   "windows": [
+    [
+     "Human",
+     "High",
+     50,
+     "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain."
+    ],
+    [
+     "Human",
+     "Low",
+     17,
+     "There they set off the making of DeltaFosB, the protein researchers suspect holds the armor in place."
+    ],
+    [
+     "Human",
+     "Medium",
+     21,
+     "Only work on your trauma while you're under that line, which trauma therapists call staying in your \"window of tolerance\"."
+    ]
+   ]
+  },
+  "p032b": {
+   "uuid": "ed515fbb-e7ef-4f9a-8da5-982e87ea6b54",
+   "at": "2026-11-27T23:33:10Z",
+   "headline": "AI Assisted",
+   "ai": 0.057961154729127884,
+   "words": 92,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     41,
+     "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive."
+    ],
+    [
+     "Human",
+     "Low",
+     28,
+     "That happens once your heart rate climbs above its usual resting rate, or its variability drops (a smartwatch shows both), and the shift lasts until you calm down."
+    ],
+    [
+     "Human",
+     "Low",
+     23,
+     "Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\"."
+    ]
+   ]
+  },
+  "p030-032b": {
+   "uuid": "34468ef6-941a-440d-ac18-5ec048a9f604",
+   "at": "2026-11-27T23:33:02Z",
+   "headline": "AI Detected",
+   "ai": 0.8110770583152771,
+   "words": 127,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     76,
+     "To see what each tool does, let's look first at what goes wrong in the brain under trauma, withdrawal or chronic stress, since those \"Hardware Failures\" are what this protocol is built to fix.\nIf you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     28,
+     "That happens once your heart rate climbs above its usual resting rate, or its variability drops (a smartwatch shows both), and the shift lasts until you calm down."
+    ],
+    [
+     "Human",
+     "Low",
+     23,
+     "Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\"."
+    ]
+   ]
+  }
+ }
+}

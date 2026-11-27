@@ -62,11 +62,11 @@ In practice, I'd do something like 30 seconds of slow breathing, 20 times a day.
 
 ### Part 1: THE SCIENCE (Why We Do This)
 
-Before applying the tools, you must understand what actually goes wrong in the brain during trauma, withdrawal or chronic stress, the "Hardware Failures" the tools are for.
+To see what the tools in this protocol do, let's look first at what goes wrong in the brain under trauma, withdrawal or chronic stress, since that's what they're built to fix.
 
 #### A. The Metabolic Red Line
 
-If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect. Dr. Perry describes a "Metabolic Red Line" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of "Fear"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.
+If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your heart rate climbs above its usual resting rate, or the time between its beats varies less (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a "Metabolic Red Line" for the traumatized brain, and calls the state past it "Fear".
 
 So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. That's why many trauma therapies emphasize staying within a manageable "window of tolerance" rather than overwhelming activation. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the "armor" itself (DeltaFosB may be the master switch, but the research isn't settled).
 

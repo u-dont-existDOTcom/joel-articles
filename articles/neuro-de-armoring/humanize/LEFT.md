@@ -1,22 +1,23 @@
 # Neuro de-armoring: what is left to humanize
 
-Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), 9383da82) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
+Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), 8a930251) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
 
-141 paragraphs of 8 words or more. Human High by itself: 30; under 50 words and inside a text that read Human High: 3; 50 words or more and only checked inside a larger text: 1; latest check below Human High: 56; never checked as they stand: 51.
+141 paragraphs of 8 words or more. Human High by itself: 31; under 50 words and inside a text that read Human High: 1; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 58; never checked as they stand: 51.
 
 A paragraph listed here has no check of its present words that read Human High in every window. Paragraph numbers count the paragraphs of 8 words or more, from the top.
 
-## Psychology is the Software; Biology is the Hardware. (1 left)
+## Psychology is the Software; Biology is the Hardware. (3 left)
 
-- P22 (75 words) "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often…": only inside a larger text that read Human High ([the check](https://www.pangram.com/history/6bdc6163-1943-4de6-87d1-d398f4431bee))
+- P17 (44 words) "The "Underpinning" Principle: Bruce Perry compares treating trauma to …": inside a larger text: Human High, Human Medium, Human High, Human Medium, Human High ([the check](https://www.pangram.com/history/85991f56-54f1-4d71-a3e2-7bdab75f2e90))
+- P22 (75 words) "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often…": by itself: Human High, Human Medium ([the check](https://www.pangram.com/history/6d65ae17-7542-4c20-b62b-0a12a7b7d7a6))
+- P23 (15 words) "In practice, I'd do something like 30 seconds of slow breathing, 20 ti…": inside a larger text: Human High, Human Medium, Human High, Human Medium, Human High ([the check](https://www.pangram.com/history/85991f56-54f1-4d71-a3e2-7bdab75f2e90))
 
 ## Part 1: THE SCIENCE (Why We Do This) (1 left)
 
-- P24 (27 words) "Before applying the tools, you must understand what actually goes wron…": inside a larger text: Human Written (windows not recorded) ([the check](https://www.pangram.com/history/b1594a9f-6c90-4dcd-b117-68c50f21df5e))
+- P24 (32 words) "To see what the tools in this protocol do, let's look first at what go…": inside a larger text: AI Medium, AI High, Human Medium ([the check](https://www.pangram.com/history/07fa6dcf-eef0-45d0-8de7-133568a045a3))
 
-## A. The Metabolic Red Line (2 left)
+## A. The Metabolic Red Line (1 left)
 
-- P25 (64 words) "If you've tried to talk yourself out of a trigger and couldn't, that's…": by itself: Human Medium ([the check](https://www.pangram.com/history/eeb2d730-ca9e-41ea-815e-6163350f8aee))
 - P26 (77 words) "So if you try to process trauma while you're above this red line, you'…": never checked as it stands
 
 ## B. The "Overheating" CPU: Glutamate Excitotoxicity (6 left)

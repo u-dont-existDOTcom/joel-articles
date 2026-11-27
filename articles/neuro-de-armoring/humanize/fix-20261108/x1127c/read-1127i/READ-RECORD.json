@@ -1,0 +1,42 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1127c/read-1127i/REWRITE.md",
+ "coverage": [
+  "1747f4ead9d77a52",
+  "c59307207f17c4c0",
+  "fca4fe31fb48acc6"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "1747f4ead9d77a52"
+   ],
+   "now": "That happens once your heart rate stays above its usual resting rate even while you sit still, or the time between beats varies less than usual (a smartwatch shows both), and it lasts until you calm down.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "1747f4ead9d77a52"
+   ],
+   "now": "Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "c59307207f17c4c0"
+   ],
+   "now": "Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain, where they build up DeltaFosB, the protein this protocol treats as the armor itself, though research hasn't settled whether it is.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {}
+}

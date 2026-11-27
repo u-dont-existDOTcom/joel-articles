@@ -1,0 +1,52 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1127c/read-1127h/REWRITE.md",
+ "coverage": [
+  "7d6c03f62c0d968b",
+  "becb16f3ec87d153",
+  "fca4fe31fb48acc6"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "becb16f3ec87d153"
+   ],
+   "now": "That happens once your heart rate stays above its usual resting rate even while you sit still, or the time between its beats varies less than usual (a smartwatch shows both), and it lasts until you calm down.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "7d6c03f62c0d968b"
+   ],
+   "now": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "7d6c03f62c0d968b"
+   ],
+   "now": "Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain, where they build up DeltaFosB, the protein this protocol treats as the armor itself, though the research on that isn't settled.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "7d6c03f62c0d968b"
+   ],
+   "now": "Only work on your trauma while you're under that line (what trauma therapists call your \"window of tolerance\").",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {}
+}

@@ -1,0 +1,35 @@
+[
+ {
+  "key": "p030-032c",
+  "name": "Part 1's intro line with the Red Line's first paragraph, try 3: the label said as the thing, HRV in plain words",
+  "lineage": "neuro-de-armoring/PAIR-030-032",
+  "scope": "pair",
+  "words": 124,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "3ae8cb80a9810ab1ecf0f0ee01de388c8aea5f228beb3bd028fcd0073afc579f"
+ },
+ {
+  "key": "p032c",
+  "name": "The Red Line's first paragraph by itself, try 4: heart-rate variability in plain words",
+  "lineage": "neuro-de-armoring/P032",
+  "scope": "paragraph",
+  "words": 92,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "8ddcc9daa651d60502b540a9ddb18b8d0e7f991f10e28ff08d92024d6764d429"
+ },
+ {
+  "key": "p033c",
+  "name": "The Red Line's second paragraph by itself, try 3: \"switch on\"",
+  "lineage": "neuro-de-armoring/P033",
+  "scope": "paragraph",
+  "words": 82,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "7b1560207ab31f79168f808d21bdbee03caf5f10618786fc78320775c623e90d"
+ }
+]

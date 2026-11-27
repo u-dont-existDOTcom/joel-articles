@@ -1,0 +1,24 @@
+[
+ {
+  "key": "p22-his",
+  "name": "The Anti-Breakthrough by itself, as his W-SW23 version left it",
+  "lineage": "neuro-de-armoring/P-SW22",
+  "scope": "paragraph",
+  "words": 75,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "97b35d79aca9b9f8f9502dabc1ff3bb85fae0df04e67158460a2a0ba15831034"
+ },
+ {
+  "key": "sec-psych",
+  "name": "Psychology is the Software; Biology is the Hardware. (the section check after its paragraphs went in)",
+  "lineage": "neuro-de-armoring/SEC-PSYCH",
+  "scope": "section",
+  "words": 563,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "10b1e1a14c5203e2cc001b45e366c4060fb5fb06926c36b7e43bdb415d6ab621"
+ }
+]
