@@ -1,0 +1,24 @@
+[
+ {
+  "key": "ethno-f2a",
+  "name": "Ethnobotanicals, folded, its second and third sentences joined by \"so\"",
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "words": 100,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "96b58b39efaf7a491764afdf55a2229bec595ac6e1149f28de1ceff5d13d845c"
+ },
+ {
+  "key": "rule-f3b",
+  "name": "The Rule, folded, its second and third sentences joined by \"so\"",
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "words": 74,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "4b011ccaf05aa8a6db6e11be8da40eff8bbe9794d4e8803837719f0861f6883a"
+ }
+]

@@ -1,0 +1,13 @@
+[
+ {
+  "key": "cog-faces-f3",
+  "name": "Cognitive Warning, its first two sentences joined, with the paragraph after it, whose first sentence leads with what the reader will think",
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "words": 108,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "45d8f7809350be9371a022b07498ca77acc05f39d4a0cb76f541c28994e24fca"
+ }
+]

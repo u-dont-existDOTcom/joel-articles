@@ -1,0 +1,16 @@
+{
+ "cog-faces-f3": {
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "name": "Cognitive Warning, its first two sentences joined, with the paragraph after it, whose first sentence leads with what the reader will think",
+  "text": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYou will also think people are judging you when they're mostly just thinking about themselves, because your armored brain projects the threat it feels onto neutral faces. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.6,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/PAIR-COG-FACES-F3.receipt.json",
+  "diagnosis": "in the section's check after the faces fix (https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc) the Cognitive Warning's short sentences split into windows of 13 and 9 words, \"You will assume everyone can see your anxiety, which they mostly can't\" Human Medium, and the faces sentence stayed Human Medium with his verb back. Two small tries from the pair's best are checked (#273, #288), so this one makes the two fixes left: the Cognitive Warning's first two sentences joined (the join its read asked for), and the faces sentence's point first, in his post's words.",
+  "decides": "whether this goes in before the section's check after this fix; below High, the pair stays as it read High",
+  "first_fix": "payoff: the faces sentence leads with what the reader will think (people judging them), the reason after it; join: the Cognitive Warning's two short sentences joined by \"and\", as his fixes join short sentences that carry one thought; plain: his post's \"projects ... onto\" kept",
+  "tells": "\"projects the threat it feels onto neutral faces\" (a mechanism phrase)",
+  "human_tells": "his post's \"You will think people are judging you\" and \"you will feel naked and exposed\"",
+  "humanized": "the label folded in (72a); the Cognitive Warning's first two sentences joined; the faces sentence reordered, point first; every other word as it read Human High"
+ }
+}

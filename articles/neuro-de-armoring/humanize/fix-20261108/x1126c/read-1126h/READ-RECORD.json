@@ -1,0 +1,38 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1126c/read-1126h/REWRITE.md",
+ "coverage": [
+  "101ed2c91c7edebc",
+  "21ad2bf0ad806523",
+  "2565b73d6e2870de",
+  "261afdcd8973f251",
+  "2e346664cfe2bd2d",
+  "401643625d7d9f8e",
+  "4aa1db46e4061a68",
+  "555c3f1ccd0d8337",
+  "6a1e876bea9549a5",
+  "86eb60dc3f424be5",
+  "8f94b52e58b1f781",
+  "a3b5ee5f81fc5e23",
+  "e0e0d0fd9d7954d7",
+  "e28b5f71054f6527"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "101ed2c91c7edebc"
+   ],
+   "now": "A new romance or high-stakes drama gives you the rush of \"Exciting Love\", which spikes Phasic Dopamine and puts the armor right back up, so this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "kept",
+   "severity 1: the contrast is carried by the two names, \"Boring Love\" one sentence before \"Exciting Love\"; \"The other kind, 'Exciting Love', is ...\" was the definition built like the one before it that read AI High in the stretch without labels (https://www.pangram.com/history/b9f4952c-eb3b-456d-a757-9b9ed17a259f), which 72a asked me to fix; the paragraph reads Human High by itself and in the section with this wording"
+  ]
+ }
+}

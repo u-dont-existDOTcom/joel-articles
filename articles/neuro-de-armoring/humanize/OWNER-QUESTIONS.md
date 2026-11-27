@@ -1,8 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-26, after your message of 15:26 UTC.
-**Open questions: 1** (72). **For you to do**: nothing. Every warning at the top reads Human High by itself; checked
-together as a section, five of them in the middle read below High, which is question 72.
+Last updated 2026-11-27, after your message of 2026-11-26 23:30 UTC ("72a").
+**Open questions: 2** (73, 74). **For you to do**: one card on [the cards page](https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA)
+(the same card in Git: [REVIEW-X1126C.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/REVIEW-X1126C.md)): the Cognitive Warning and the paragraph after it,
+the only place the warnings section still reads below High.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,25 +12,69 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 72. The labels in the middle of the warnings: fold them into the first sentence?** Checked as a section, the
-warnings at the top read Mostly Human ([6% AI](https://www.pangram.com/history/b0684e96-0fc7-45a7-9a84-6ce66bc9958b)): High over the first four and
-the last four, Low or AI Low over the five from The Rule to the agmatine warning. Each of those five reads Human High by
-itself, but together they read [AI, 90%](https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e), and with their labels taken off
-("The Rule:", "Cognitive Warning:", "Lion's Mane & Ashwagandha:", "Agmatine Warning (The 'Voltage Regulator'):")
-[28%](https://www.pangram.com/history/b9f4952c-eb3b-456d-a757-9b9ed17a259f). A run of "Label: claim" paragraphs is the shape of a generated list of
-tips. What still read AI without the labels: The Rule's opening ("Seek 'Boring Love', meaning ... The other kind,
-'Exciting Love', is ...") and the agmatine opening right after the herbs.
+Both come from fresh readers of your own versions, read this turn after the fold; I changed nothing in them but the
+label, as they are your words.
 
-- a) Fold each label into its warning's first sentence, opening on the subject, with your nicknames kept in the
-  sentence ("Agmatine, the 'voltage regulator', acts like a brake ...", "The isolation trap is ..."), for all eleven so
-  they match; then I fix The Rule's and agmatine's openings and run the section's last check. (My pick: the test cut
-  the AI read from 90% to 28%, and each warning still opens on its subject, so a reader can still scan the list.)
-- b) Keep the labels as they are; I work only on the sentences after them. The labels' share of the AI read stays.
-- c) Make each label a small heading of its own. They would show in Substack's contents sidebar, eleven more entries.
+**🟣 73. Lion's mane and ashwagandha: stop them, or only don't start?** A fresh reader who already takes lion's mane
+couldn't tell from "I'm not advising lion's mane or ashwagandha" whether to stop, and found nothing to do in "it's
+something to keep in mind". The same reader took "anhedonia (no desire)" as low sex drive alone; anhedonia is losing the
+ability to feel pleasure, wanting included.
+
+- a) Say what to watch for, the way your agmatine paragraph does ("stop it right away if you notice you're flatter"):
+  "... so if you take either, stop it if you notice you feel less pleasure or desire than before", and gloss
+  "anhedonia (little pleasure or desire)". (My pick: it gives the reader something to do, and it matches your agmatine
+  stop signs.)
+- b) Say only not to start them: "I wouldn't start lion's mane or ashwagandha, even though ...".
+- c) Keep it as it is.
+
+**🟣 74. Your Precautions: how far apart is "concurrently"?** A fresh reader who takes kratom some days couldn't tell how
+far apart counts as "concurrently" (the same day? the same weeks?), and found nothing to do in "Use with extreme
+caution".
+
+- a) "Do not use agmatine in the same weeks as opioids and/or kratom ..." (My pick: agmatine is optional, so the
+  stricter reading costs a reader only the add-on, and they can't tell which you meant.)
+- b) "on the same day as".
+- c) Keep "concurrently".
+- And for "Use with extreme caution": add "and ask your doctor first" (my pick), or keep it.
 
 ## For you to do
 
-- 🟢 Nothing.
+- 🟠 **The card on [the cards page](https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA)**: the Cognitive Warning and the paragraph
+  after it ([the card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/REVIEW-X1126C.md)). By themselves they read Human High; in the section two windows over
+  them read Human Medium, and my tries for the pair are spent this turn. Your version, the join I tried, or leave them.
+
+## Your message of 2026-11-26 23:30 UTC ("72a"), and what I did
+
+- 🟢 **Every label folded into its warning's first sentence**, opening on its subject, your nicknames kept in the
+  sentence: "Agmatine, the 'voltage regulator', acts like a brake ...", "But don't isolate completely (the isolation
+  trap), because ...". Ten labels; the "⚠️ CRITICAL MEDICAL DISCLAIMER:" line stays as the list's title (I counted it as
+  the eleventh in question 72, but it heads the list rather than one warning). Each warning was checked by itself and
+  went in only at Human High in one window ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/APPLIED-X1126C.json); [the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/checks-1126r/RESULTS.md)).
+- 🟢 **Two needed a second try.** The Isolation Trap with your nickname moved into its third sentence read two Medium
+  windows ([check](https://www.pangram.com/history/1b56b276-2c25-4f76-893c-26049942c2b8)); your own third sentence back, with "(the isolation trap)" after
+  its don't the way your label had it, read High ([check](https://www.pangram.com/history/d0307fad-8033-4600-a211-55a5fbe847aa)). Your Precautions,
+  once the label was gone, read Human Low over "Not recommended for use in pregnancy ... Use with extreme caution ...",
+  fragments with no subject ([check](https://www.pangram.com/history/60d582cd-02cb-4328-a574-dc87abe2aacd)); "It's not recommended ..." took it back to
+  High ([check](https://www.pangram.com/history/6fd9e6f1-1e19-481c-8a65-618ec3e54bf5)), your "Use with extreme caution" word for word.
+- 🟢 **The Rule's and agmatine's openings fixed**: The Rule's second sentence now opens on what brings it ("A new romance
+  or high-stakes drama gives you the rush of 'Exciting Love', which spikes Phasic Dopamine and puts the armor right back
+  up, so this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner
+  you have"; [check](https://www.pangram.com/history/46e550c9-24ef-48f2-aa42-01fd2bf9cdde)); the agmatine warning says this one the protocol does use,
+  after the herbs it leaves out ("which is why we do use it in this protocol"; [check](https://www.pangram.com/history/90af11fc-5156-43fb-8737-b132481f3e30)).
+- 🟢 **The section's last check**: from Mostly Human, 6% AI ([before](https://www.pangram.com/history/b0684e96-0fc7-45a7-9a84-6ce66bc9958b)) to
+  [Human Written, 0.0% AI](https://www.pangram.com/history/9160d721-d82e-4630-b102-859fff5f5f2e), every window High but two short ones. Joining each of
+  those to the sentence that draws its point ("..., so never combine iboga ...", "..., so this may not be a good time
+  ...") made both High, and the Medium window moved to the paragraph after the Cognitive Warning
+  ([check](https://www.pangram.com/history/22895a18-b8a4-4455-8301-c1580fe2b9cc)); with your post's "projects ... onto" back in place of my "reads ...
+  into" it split over the Cognitive Warning's two short sentences ([check](https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc)). That is
+  the card above.
+- 🟢 **Read beside how they stood**: a fresh reader found one place the warnings read less clearly than before (The
+  Rule's "The other kind" is gone; the two names still set them against each other), which I kept
+  ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/read-1126h/READER-1.md)). The fidelity keys record your 72a for the label words (W001, W003, W005, W007,
+  W012), and the keep-as-is list now holds "Agmatine, the 'voltage regulator'," as your name for it (K2).
+- 🔵 **Thoughts from the fresh reads of your versions, not questions**: in the 5-HTP warning, "don't mix everything
+  together all at once" left a reader unsure what to stagger and by how long (your weekly schedule further down may be
+  the answer, and a pointer to it would do); I named "it" as 5-HTP in its last line, where a reader took it as the list.
 
 ## Your message of 2026-11-26 15:26 UTC, and what I did
 

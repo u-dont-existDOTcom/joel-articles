@@ -1,0 +1,13 @@
+[
+ {
+  "key": "warnings-sec4",
+  "name": "The warnings at the top after the faces sentence's fix: the check after this fix",
+  "lineage": "neuro-de-armoring/SEC-WARNINGS",
+  "scope": "section",
+  "words": 1144,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "86f591a82afa39add24cf5379305530b75454f06565cde0833223fe24ad15291"
+ }
+]

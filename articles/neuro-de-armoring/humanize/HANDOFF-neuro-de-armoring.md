@@ -18,6 +18,29 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-27, after his message of 2026-11-26 23:30 UTC ("72a"): every warning's label is folded into its first
+  sentence; the warnings section reads Human Written, 0.0% AI, with two short Medium windows; questions 73, 74 and one
+  card wait on him.** HUMANIZED-SO-FAR.md is baa77e2d; everything of the turn is in `fix-20261108/x1126c/`: the texts
+  and why (`texts_x1126c.py`: FOLD, TRY2, COG2, FACES2; snapshots `OLD-X1126C.json`, `OLD-FACES-X1126C.txt`), receipts
+  (`build_receipts_x1126c.py`, all PASS), fresh Sonnet reads of his five versions (`v1`), checks `checks-1126r` to
+  `checks-1126z` (ledger #269 to #290), the apply script with four runs (`apply_x1126c.py`, `APPLIED-X1126C.json`), the
+  comparison read (`read-1126h`), the cards page (`build_cards_x1126c.py`, `REVIEW-X1126C.*`, published from this account
+  at https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA, slug 06cda5c8-039c-4a1d-a046-4f38640b0087, version
+  1795738438-c483, with db, downloads and user declared). **The section's checks** (SEC-WARNINGS, `--after-fix` each
+  time): https://www.pangram.com/history/9160d721-d82e-4630-b102-859fff5f5f2e, then
+  https://www.pangram.com/history/22895a18-b8a4-4455-8301-c1580fe2b9cc, then
+  https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc (Medium over "You will assume everyone can see
+  your anxiety ..." and over the faces sentence). PAIR-COG-FACES is spent this turn (off the right track after #290).
+  **Questions 73, 74** and the card W-COG-SEC (the questions page, version 1795738695-8b52). **Next**: his answers to 73,
+  74 and the card, each change checked by itself, then one more check of the warnings section; while they wait, the
+  humanizing pass in "Psychology is the Software; Biology is the Hardware." (the bullet below says where each paragraph
+  stands). **How**: the checks ran in the desktop app's browser pane (tab "seed", signed in), `window.__run` and
+  `window.__readIdx` as before; one unanswered try per lineage, so variants go one at a time; the batch helper now passes
+  `after_fix`. The questions page is rendered with
+  `python3 articles/intentional-communities/candidate/tools/render_questions.py OWNER-QUESTIONS.md neuro-questions.html "Neuro De-Armoring Questions"`
+  (run in this folder) and republished to slug 58dbe2b1-e3fe-4917-b586-b4837460b7a1. Fable's usage limit was reached
+  this turn (it resets 2026-12-01 14:00, Africa/Nouakchott), so the fresh readers were Sonnet. **Lessons neuro-2026-11-26m
+  to q** (`docs/lessons/2026-11-26-2330-neuro.md`).
 - **2026-11-26, after his message of 15:26 UTC (70a, 71 ok; "i don't want to say never take 5-HTP with shrooms, that's
   up to them"): his answer is in; the warnings section's first check read Mostly Human; question 72 waits on him.**
   HUMANIZED-SO-FAR.md is fce359ca; everything of the turn is in `fix-20261108/x1126b/` (texts and why, receipts, the

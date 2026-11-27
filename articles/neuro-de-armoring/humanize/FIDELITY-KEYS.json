@@ -2815,6 +2815,42 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261108/joel-20261126-2330-message.txt, answer 72a (OWNER-QUESTIONS.md, question 72), applied by fix-20261108/x1126c/apply_x1126c.py",
+   "why": "72a: each warning's label folded into its first sentence, opening on its subject, his nicknames kept in the sentence (\"the isolation trap\", \"the voltage regulator\"), so the labels' words go: \"Electrolytes:\" (W001), \"Behavioral Warning\" (W003), \"Cognitive Warning\" (W005), \"Agmatine Warning\" (W007), \"... Warning for Psychedelic Users\" (W012). Each warning itself stays, word for word after its label.",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {
+    "W001": [
+     [
+      "electrolytes"
+     ]
+    ],
+    "W003": [
+     [
+      "warning"
+     ]
+    ],
+    "W005": [
+     [
+      "warning"
+     ],
+     [
+      "cognitive"
+     ]
+    ],
+    "W007": [
+     [
+      "warning"
+     ]
+    ],
+    "W012": [
+     [
+      "warning"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {

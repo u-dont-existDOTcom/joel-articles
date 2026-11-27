@@ -1,0 +1,13 @@
+[
+ {
+  "key": "warnings-sec3",
+  "name": "The warnings at the top after the two joins: the check after this fix",
+  "lineage": "neuro-de-armoring/SEC-WARNINGS",
+  "scope": "section",
+  "words": 1144,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "f2fda50078bf69cb85133805b64b7b031e1005431391cca2c453870eb6facd10"
+ }
+]

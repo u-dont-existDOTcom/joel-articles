@@ -1,14 +1,15 @@
 # Neuro de-armoring: what is left to humanize
 
-Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), fce359ca) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
+Computed by [coverage.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/coverage.py) from the article as it stands ([HUMANIZED-SO-FAR.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md), baa77e2d) and every recorded Pangram check ([the ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/pangram-ledger.jsonl) and his own checks).
 
-141 paragraphs of 8 words or more. Human High by itself: 28; under 50 words and inside a text that read Human High: 0; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 62; never checked as they stand: 51.
+141 paragraphs of 8 words or more. Human High by itself: 27; under 50 words and inside a text that read Human High: 0; 50 words or more and only checked inside a larger text: 0; latest check below Human High: 63; never checked as they stand: 51.
 
 A paragraph listed here has no check of its present words that read Human High in every window. Paragraph numbers count the paragraphs of 8 words or more, from the top.
 
-## A Complete Guide to Bio-De-Armoring (1 left)
+## A Complete Guide to Bio-De-Armoring (2 left)
 
-- P8 (32 words) "Cognitive Warning: As you de-armor, you will feel naked and exposed. Y…": inside a larger text: AI High, Human Low, AI Low, AI High ([the check](https://www.pangram.com/history/7b98691f-cf13-4576-8979-1362f2e6009e))
+- P8 (30 words) "As you de-armor, you will feel naked and exposed. You will assume ever…": inside a larger text: Human High, Human Medium, Human High, Human Medium, Human High ([the check](https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc))
+- P9 (77 words) "Your armored brain also projects the threat it feels onto neutral face…": inside a larger text: Human High, Human Medium, Human High, Human Medium, Human High ([the check](https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc))
 
 ## Psychology is the Software; Biology is the Hardware. (5 left)
 

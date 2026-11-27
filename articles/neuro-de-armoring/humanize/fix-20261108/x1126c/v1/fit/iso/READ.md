@@ -1,0 +1,3 @@
+- S1: ANYWAY - / CAN'T TELL - / FROM - / MISREAD yes, "starving your brain" of dopamine sounds like a harsh deprivation or a danger, and "demands" sounds like a hard rule, until the reader works out it only means taking a break from novelty-chasing
+- S2: ANYWAY - / CAN'T TELL - / FROM - / MISREAD yes, for a reader who withdraws when things get hard, "hole up alone" reads as permission and a recommendation; a quick reader may take it as the answer and only the "But" in S3 reverses it
+- S3: ANYWAY - / CAN'T TELL yes, "cutting yourself off completely" has no line (no friends for a week? no texts?), and the reader can't tell whether the cortisol spike is happening to them or whether their current alone-time already counts / FROM - / MISREAD -

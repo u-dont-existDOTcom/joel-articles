@@ -16,7 +16,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram 4.1 (web app) | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
-| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 53 | 37 (70%) | 43% | 57% | 75% | 0.194 (base 0.246, 53) |
+| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 75 | 59 (79%) | 31% | 69% | 83% | 0.167 (base 0.213, 75) |
 | Pangram 4.1 (web app, his account, Claude in Chrome in his browser) | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
@@ -243,17 +243,17 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 35 (70%) | 44% | 56% | 78% | 0.189 (base 0.246, 50) |
-| the latest 100 | 53 | 37 (70%) | 43% | 57% | 75% | 0.194 (base 0.246, 53) |
-| all | 53 | 37 (70%) | 43% | 57% | 75% | 0.194 (base 0.246, 53) |
+| the latest 50 | 50 | 39 (78%) | 18% | 82% | 96% | 0.162 (base 0.148, 50) |
+| the latest 100 | 75 | 59 (79%) | 31% | 69% | 83% | 0.167 (base 0.213, 75) |
+| all | 75 | 59 (79%) | 31% | 69% | 83% | 0.167 (base 0.213, 75) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 41 | 31 (76%) | 44% | 56% | 71% | 0.183 (base 0.246, 41) |
-| pair | 9 | 6 (67%) | 22% | 78% | 89% | 0.203 (base 0.173, 9) |
-| section | 1 | 0 (0%) | 100% | 0% | 100% | 0.360 (base 0.000, 1) |
+| paragraph | 57 | 47 (82%) | 32% | 68% | 79% | 0.156 (base 0.216, 57) |
+| pair | 12 | 9 (75%) | 17% | 83% | 92% | 0.184 (base 0.139, 12) |
+| section | 4 | 3 (75%) | 25% | 75% | 100% | 0.211 (base 0.188, 4) |
 | stretch | 2 | 0 (0%) | 100% | 0% | 100% | 0.305 (base 0.000, 2) |
 
 Calibration:
@@ -261,9 +261,9 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 5 | 0.29 | 20% |
-| 0.4 to 0.6 | 40 | 0.52 | 52% |
-| 0.6 to 0.8 | 17 | 0.64 | 88% |
-| 0.8 to 1.0 | 2 | 0.82 | 100% |
+| 0.4 to 0.6 | 44 | 0.53 | 57% |
+| 0.6 to 0.8 | 35 | 0.66 | 94% |
+| 0.8 to 1.0 | 5 | 0.81 | 100% |
 
 ## Pangram 4.1 (web app, his account, Claude in Chrome in his browser)
 
@@ -410,7 +410,6 @@ The latest:
 | neuro-de-armoring/W-ISO-blind (x1126a) | paragraph | 1 of 6 | AI |
 | neuro-de-armoring/W-AGMINTRO-blind (x1126a) | paragraph | 1 of 6 | AI |
 | neuro-de-armoring/W-HTPTOP-blind (x1126a) | paragraph | 1 of 6 | Mixed |
-| neuro-de-armoring/SEC-WARNINGS | section | 1 of 2 | Mixed |
 | neuro-de-armoring/STRETCH-RULE-AGM | stretch | 2 of 2 | Mixed |
 | neuro-de-armoring/P-SW19 | paragraph | 2 of 6 | Mixed |
 | neuro-de-armoring/P-SW21 | paragraph | 1 of 6 | Mixed |

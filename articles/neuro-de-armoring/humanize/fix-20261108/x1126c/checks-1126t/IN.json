@@ -1,0 +1,16 @@
+{
+ "prec-f3": {
+  "lineage": "neuro-de-armoring/W015-his",
+  "scope": "paragraph",
+  "name": "Precautions, try 3: the subject named in the first of its two last sentences only, his \"Use with extreme caution\" kept",
+  "text": "Do not use agmatine concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/PREC-F3.receipt.json",
+  "diagnosis": "try 2 (https://www.pangram.com/history/f2c7211d-0412-40cc-b6ee-d77946543489) read Human High with \"It's\" and \"Use it with extreme caution\"; the fidelity keys hold warning W009 to his words \"use with extreme caution\" (his card X-15), which the \"it\" broke. This try keeps his words in the last sentence and names the subject in the one before (\"It's not recommended ...\"), the change that gave the run of fragments its subject.",
+  "decides": "whether this goes in in place of try 2, keeping his caution words; below High, try 2 stays out and the question goes to him",
+  "first_fix": "payoff: the second sentence says whose precaution it is (\"It's\"), and the third keeps his words; join: none; plain: none, his words stay but for \"It's\"",
+  "tells": "\"Use with extreme caution in those with\" (supplement-label wording, his)",
+  "human_tells": "his own paragraph: \"without having a physician competent to consider the likelihoods of problematic interactions\"",
+  "humanized": "the label folded into the first sentence (72a), and \"It's\" before his \"not recommended\", after the fold read Human Low over his two last sentences; every other word is his"
+ }
+}
