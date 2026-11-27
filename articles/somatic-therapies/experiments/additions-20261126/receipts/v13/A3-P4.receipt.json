@@ -1,0 +1,95 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "9de11305d30421e29a4497639ce0a8c11d21a3ce56d4e76acadbe1927f9c4970",
+ "text": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life. Emotional Awareness and Expression Therapy works on the feelings directly. Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.",
+ "section": "Pain That Won't Quit?",
+ "reader": "an adult whose pain has lasted months with no injury or disease found to explain it, who came to the guide partly for that pain, deciding whether one of two pain therapies fits them, and which",
+ "sentences": [
+  {
+   "s": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life.",
+   "payoff": "they learn which pain the second therapy is for",
+   "follows": "it turns to the second of the two therapies"
+  },
+  {
+   "s": "Emotional Awareness and Expression Therapy works on the feelings directly.",
+   "payoff": "they learn its name and that it works on the feelings",
+   "follows": "it names the therapy for the case just set out",
+   "link": "none: it names the therapy for the case the sentence before set out, the step the reader expects"
+  },
+  {
+   "s": "Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.",
+   "payoff": "they picture what a session asks: letting out held-back feelings and rehearsing a hard conversation",
+   "follows": "it says what working on the feelings means",
+   "link": "Much of the therapy"
+  }
+ ],
+ "checked": [
+  {
+   "point": "EAET: emotional expression and role-play of hard conversations; 126 veterans aged 60 to 95 with muscle and joint pain; 63% vs 17% with at least 30% less pain",
+   "found": "Yarns et al. 2024, JAMA Network Open (https://clinicaltrials.gov/study/NCT03918642)",
+   "still_needed": "yes: they weigh it for their own pain and age",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the first therapy and its evidence; \"The second therapy\" turns to the other",
+ "opens": {
+  "first_sentence": "The second therapy is for pain that seems bound up with stress and feelings about the people in your life.",
+  "why_reading": "they learn which pain the second therapy is for"
+ },
+ "same_point": "none: read the section from its heading to the next; the first therapy is in the second and third paragraphs",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md and READ-12.md; none found a sentence its reader doesn't need",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-10.md, -11.md and READ-12.md (draft 9's marks on A3 in READ-HIS-FIXES-9.md, by Sonnet); each acted on",
+  "marked": [
+   {
+    "s": "It's usually anxiety that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+    "difference": "READ-12: \"anxiety\" with no object"
+   },
+   {
+    "s": "Part of how you learn it is by paying close attention to how the pain feels in your body.",
+    "difference": "READ-12: ways 14 and 11, the attention they already pay all day, and the means first"
+   },
+   {
+    "s": "The therapist also watches for signs of the anxiety that's making you slip away, like tense muscles, sighing, or your thinking going foggy.",
+    "difference": "READ-HIS-FIXES-11: anxiety comes in as if said; the watching's purpose comes later"
+   },
+   {
+    "s": "Most people who try this therapy can't take much of that anxiety, so they get a slower version, where the therapist stops to help them settle whenever it climbs.",
+    "difference": "READ-HIS-FIXES-11: \"most people ... they\" leaves the reader outside"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh readers, given tools/humanization/fit_read_brief.md and a contradictions check (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md and READ-12.md; draft 9's in READ-NEEDED-FIT-9.md)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the case first, then each therapy by what you do in it, its evidence limit first",
+  "Q2": "PASS: start with the one that fits; ask about training; track it",
+  "Q3": "PASS: \"mild to moderate chronic back pain\", \"veterans aged 60 and up\", \"0 or 1 out of 10\"",
+  "Q4": "PASS: \"false alarm\" is said in the sentence that uses it",
+  "Q5": "PASS: \"Part of how you learn that\", \"Then\", \"There\", \"The second therapy\", \"So\"",
+  "Q6": "PASS: whose pain, therapy one and its evidence, therapy two and its evidence, how to choose",
+  "Q7": "PASS: their pain and their choice",
+  "Q8": "N/A: no list of items",
+  "Q9": "PASS: the false alarm and how you learn it are two sentences"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
