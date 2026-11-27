@@ -11,6 +11,11 @@ From 2026-11-06, a lane's lessons from one message of Joel's go in a file of the
   lesson in any lane is ..." is kept by hand.
 - **The form:** a `#` heading saying whose message it was and when, his words, then each lesson as a bullet that starts
   `- **<name>. <the rule in one sentence>.**`, as in the gate.
+- **Before a lesson file goes to main**, a fresh reader reads it with `tools/humanization/rules_check_brief.md` (lesson
+  bad-trips-2026-11-27n, my own addition, on his questions page to confirm; Joel, 2026-11-27: "i often assume you're
+  understanding the lessons"); a flag about his meaning goes to him, the others are fixed, or the lesson says why it
+  stands. A lesson's method is the reason he gave in his words; what his fix merely happened to do (a size, a position,
+  a reused word) is the method only where his words or the case show it is why the fix works.
 - **Numbers:** E1 to E380 keep theirs, in the gate. E379 is here (`2026-11-06-1948-gut.md`). `lane_push.py` still
   refuses a numbered lesson that main already gave another lane's.
 
