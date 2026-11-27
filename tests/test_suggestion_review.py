@@ -108,6 +108,19 @@ class SuggestionReviewTests(unittest.TestCase):
         r['suggestions'] = [dict(card, advice='approve', approve_label='use mine anyway')]
         self.assertFalse(any('teaching card' in p for p in R.check(r, self.bl)))
 
+    def test_a_teaching_cards_box_holds_every_paragraph_it_marks(self):
+        # Lesson neuro-2026-11-27l: card W-COG-SEC marked two paragraphs, but its box held only my edit of the first,
+        # which read High, not the paragraph whose window read Medium (Joel, 2026-11-27: "idk why you asked me to fix teh
+        # human high part?").
+        a, b = self.bl[3]['text'], self.bl[4]['text']
+        card = {'id': 'W-2', 'type': 'teach', 'advice': 'approve',
+                'spans': [{'block': 3, 'start': 0, 'end': len(a)}, {'block': 4, 'start': 0, 'end': len(b)}],
+                'edits': [{'block': 3, 'before': a, 'after': a + ' Joined.'}]}
+        self.assertEqual(R.proposed_text(card, self.bl), a + ' Joined.\n\n' + b)
+        self.assertEqual(R.before_text(card, self.bl), a + '\n\n' + b)
+        other = dict(card, type='rewrite')
+        self.assertEqual(R.proposed_text(other, self.bl), a + ' Joined.')
+
     def test_the_page_marks_the_words_and_carries_the_cards_and_the_form_controls(self):
         para = self.bl[3]
         s = {'id': 'CV-1.1', 'type': 'caveat', 'title': 'A cut', 'advice': 'approve',

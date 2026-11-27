@@ -1,0 +1,41 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy, which both treat the pain as real and between them have helped people with long-lasting back, muscle and joint pain."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph is a single 58-word sentence that carries the condition, the recommendation, a cross-reference, both names, a reassurance and an evidence claim in a fixed order, with nothing left out and nothing left over. That completeness, every clause doing a job and the sentence closing on a neat list, is more machine-made than any one phrase in it."
+  ],
+  "haiku": [
+   "The paragraph is one long sentence built as a condition, a recommendation and a balanced summary, and each part closes neatly, which is a common model build. Its voice is cautious and even, with few specific details, though the plainer wording in places pulls against that."
+  ],
+  "sonnet": [
+   "The paragraph is one long sentence, with a conditional opening, a main recommendation and a trailing clause, and every part is even, balanced and finished, with no stumble, aside or uneven beat. It reads as a single polished piece of advice that tucks its reassurance and evidence into the end."
+  ]
+ },
+ "human_clean": [
+  "I go into in my somatic guide",
+  "into in",
+  "I'd also try",
+  "I'd also try",
+  "I go into in my somatic guide",
+  "I'd also try",
+  "the two talk therapies I go into in my somatic guide",
+  "I go into"
+ ]
+}

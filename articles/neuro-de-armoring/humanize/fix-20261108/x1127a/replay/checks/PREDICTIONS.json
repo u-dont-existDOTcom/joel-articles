@@ -1,0 +1,24 @@
+[
+ {
+  "key": "bl-lma",
+  "name": "Blind rewrite of the herbs warning (replay)",
+  "lineage": "neuro-de-armoring/W-LMA-73A-blind (replay x1127a)",
+  "scope": "paragraph",
+  "words": 80,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "3bfeece96faa91fa95169decb35ef682d91494a145564b33384a156953441434"
+ },
+ {
+  "key": "bl-cog",
+  "name": "Blind rewrite of the Cognitive Warning and the paragraph after it (replay)",
+  "lineage": "neuro-de-armoring/PAIR-COG-blind (replay x1127a)",
+  "scope": "pair",
+  "words": 116,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "bb8a567efb683b2239485ac5ee43508e00898a9b0c7bb625fc41348917cbaa73"
+ }
+]

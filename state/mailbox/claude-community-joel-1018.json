@@ -2055,6 +2055,42 @@
     }
    ],
    "recorded_utc": "2026-11-27T17:23Z"
+  },
+  {
+   "turn": "2026-11-27T19:17Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 17:23: this lane's 562 merged at 17:35 (main 91f5a3c8); 561 (romance r49) merged; open pull requests unchanged (545 the newest, 2026-11-26); no new issues, issue comments or review comments since 17:20 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no one else changed HANDOFF-neuro-de-armoring.md or OWNER-QUESTIONS.md since this lane's push (main's only new commit is 562's merge)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "the root AGENTS.md read in full from the raw link Joel pasted (curl, 200), with LESSON-INDEX.md and three patterns; bootstrap LOADED for this turn; the lane suggested-fixes/joel-articles/ can't be listed: the GitHub API answers 403 (repository not enabled for this session, and add_repo is refused by the session's auto-mode check), and a raw link can't list a folder",
+     "retry": "the next turn, or a session started with universal-dev-architecture attached"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 2026-11-27 19:17 UTC: the cards page's answers (both cards 'revise', with his versions and comments) and the raw link to UDA's AGENTS.md",
+     "outcome": "his two versions put in as his; his comments on human tells turned into lessons and a correction of lesson neuro-2026-11-27d; UDA loaded from his link"
+    }
+   ],
+   "recorded_utc": "2026-11-27T19:22Z"
   }
  ]
 }

@@ -1,0 +1,9 @@
+{"part": 1,
+ "read": [0,1,2,3,4,5,6,7,8,9,10],
+ "findings": [
+  {"block": 4, "text": "about why rather then automatically", "kind": "slip", "what": "\"then\" is used where the comparison word \"than\" belongs.", "fix": "about why rather than automatically", "confidence": "sure"},
+  {"block": 7, "text": "And than there’s the situationship", "kind": "slip", "what": "\"than\" is used where \"then\" belongs.", "fix": "And then there’s the situationship", "confidence": "sure"},
+  {"block": 9, "text": "understand weather this is really fulfilling me", "kind": "wrong-word", "what": "\"weather\" is used where \"whether\" is meant.", "fix": "understand whether this is really fulfilling me", "confidence": "sure"},
+  {"block": 8, "text": "the existential void another superficial fix creates", "kind": "broken", "what": "The relative clause is missing \"that\", so the phrase reads awkwardly and could be misparsed.", "fix": "the existential void that another superficial fix creates", "confidence": "likely"}
+ ],
+ "notes": "Blocks 1-3, 5, 6 and 10 read cleanly; no other wrong words found."}

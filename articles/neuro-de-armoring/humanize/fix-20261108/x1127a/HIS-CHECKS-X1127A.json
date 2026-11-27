@@ -1,0 +1,146 @@
+{
+ "about": "His own Pangram checks of his two card versions (cards W-LMA-73A and W-COG-SEC, answered 2026-11-27 19:16 UTC: ANSWERS-X1127A-20261127-1916.json), read back from his account's history (web.pangram.com/api/history/<uuid>/) in the desktop app's browser pane, 2026-11-27 after 19:17 UTC. Each prompt is the text as he typed it; each window's text is the prompt's slice Pangram reports. Each check has the fields coverage.py reads (uuid, at as his history gives it, text_sha256 of the prompt, windows as [label, confidence, words, where]).",
+ "checks": [
+  {
+   "card": "W-LMA-73A",
+   "step": "his version",
+   "link": "https://www.pangram.com/history/ea117cc8-2952-4876-8bfd-859d93c08b25",
+   "sha256": "6b5a941ef2730f5726fcf90516d623da71ba79ac25157780a5d792c2459bee3d",
+   "headline": "Human Written",
+   "ai": 0,
+   "words": 79,
+   "windows": [
+    [
+     "Human",
+     "High",
+     79,
+     "the whole paragraph"
+    ]
+   ],
+   "prompt": "I'm not advising lion's mane or ashwagandha, even though they're popular herbs for focus and stress, because some people report anhedonia (no joy or desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but we know about this phenomenon already from SSRIs and finasteride users, so if you're already on either herb, I'd quit it as soon as you notice any of that.",
+   "uuid": "ea117cc8-2952-4876-8bfd-859d93c08b25",
+   "at": "2026-11-27T14:15:55.907218-05:00",
+   "text_sha256": "6b5a941ef2730f5726fcf90516d623da71ba79ac25157780a5d792c2459bee3d"
+  },
+  {
+   "card": "W-COG-SEC",
+   "step": "1: the lead-in strengthened (\"On top of that, you'll tend to think people are judging you, when they're mostly just thinking about themselves, because your armored brain projects ...\")",
+   "link": "https://www.pangram.com/history/67b7b8c3-8ac3-406c-97c6-642983098574",
+   "sha256": "99b7100b43704bdac0856553d7647d55c876024c46c498fdd25c5126d11d1c2f",
+   "headline": "Human Written",
+   "ai": 1.4477690422377842e-14,
+   "words": 116,
+   "windows": [
+    [
+     "Human",
+     "High",
+     33,
+     "the Cognitive Warning"
+    ],
+    [
+     "Human",
+     "Medium",
+     33,
+     "On top of that, you'll tend to think people are judging you, when they're mostly just thinking about themselves, because your armored brain projects the threat it feels onto neutral faces"
+    ],
+    [
+     "Human",
+     "High",
+     50,
+     "So during this protocol, do not trust your social intuition: ... (see the \"Metabolic Red Line\" below)"
+    ]
+   ],
+   "prompt": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nOn top of that, you'll tend to think people are judging you, when they're mostly just thinking about themselves, because your armored brain projects the threat it feels onto neutral faces. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "uuid": "67b7b8c3-8ac3-406c-97c6-642983098574",
+   "at": "2026-11-27T14:03:43.408247-05:00",
+   "text_sha256": "99b7100b43704bdac0856553d7647d55c876024c46c498fdd25c5126d11d1c2f"
+  },
+  {
+   "card": "W-COG-SEC",
+   "step": "2: the long sentence split (\"... themselves. That's because your armored brain projects the threat it feels onto neutral faces.\")",
+   "link": "https://www.pangram.com/history/c144f420-4d10-4ba8-96b4-bd5572d71d37",
+   "sha256": "d4624c0ac747d50eab19047cbf434259c151666ed54fb67532db9d416f8466f4",
+   "headline": "AI Detected",
+   "ai": 0.23111897706985474,
+   "words": 119,
+   "windows": [
+    [
+     "Human",
+     "High",
+     33,
+     "the Cognitive Warning"
+    ],
+    [
+     "Human",
+     "Low",
+     22,
+     "On top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves"
+    ],
+    [
+     "Human",
+     "Low",
+     64,
+     "That's because your armored brain projects the threat it feels onto neutral faces. So during this protocol, ... (see the \"Metabolic Red Line\" below)"
+    ]
+   ],
+   "prompt": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nOn top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because your armored brain projects the threat it feels onto neutral faces. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "uuid": "c144f420-4d10-4ba8-96b4-bd5572d71d37",
+   "at": "2026-11-27T14:05:21.870837-05:00",
+   "text_sha256": "d4624c0ac747d50eab19047cbf434259c151666ed54fb67532db9d416f8466f4"
+  },
+  {
+   "card": "W-COG-SEC",
+   "step": "3: the person, not the brain, does the projecting (\"That's because when your brain is armored up, you project the threat you feel onto others.\")",
+   "link": "https://www.pangram.com/history/7ef34838-3d6f-40af-a53f-e9cbc5b7a76a",
+   "sha256": "e4e9dbf3cf70bee5b669ed4181acba445753520e9bbc5c53f288d04e6cf1369a",
+   "headline": "Human Written",
+   "ai": 2.0838030330124283e-14,
+   "words": 122,
+   "windows": [
+    [
+     "Human",
+     "High",
+     33,
+     "the Cognitive Warning"
+    ],
+    [
+     "Human",
+     "Medium",
+     39,
+     "On top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the threat you feel onto others"
+    ],
+    [
+     "Human",
+     "High",
+     50,
+     "So during this protocol, do not trust your social intuition: ... (see the \"Metabolic Red Line\" below)"
+    ]
+   ],
+   "prompt": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nOn top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the threat you feel onto others. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "uuid": "7ef34838-3d6f-40af-a53f-e9cbc5b7a76a",
+   "at": "2026-11-27T14:07:46.892132-05:00",
+   "text_sha256": "e4e9dbf3cf70bee5b669ed4181acba445753520e9bbc5c53f288d04e6cf1369a"
+  },
+  {
+   "card": "W-COG-SEC",
+   "step": "4, his version: one word (\"the nonsensical threat you feel\")",
+   "link": "https://www.pangram.com/history/c642954e-7d04-4337-b8c1-f47ea33f68be",
+   "sha256": "1ffbcea192b857cde42d0525c9135cbf150bd891876ff4f4f7722dbf0a4c7588",
+   "headline": "Human Written",
+   "ai": 6.499107560487655e-23,
+   "words": 123,
+   "windows": [
+    [
+     "Human",
+     "High",
+     123,
+     "both paragraphs"
+    ]
+   ],
+   "prompt": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nOn top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the nonsensical threat you feel onto others. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "uuid": "c642954e-7d04-4337-b8c1-f47ea33f68be",
+   "at": "2026-11-27T14:09:27.195646-05:00",
+   "text_sha256": "1ffbcea192b857cde42d0525c9135cbf150bd891876ff4f4f7722dbf0a4c7588"
+  }
+ ]
+}

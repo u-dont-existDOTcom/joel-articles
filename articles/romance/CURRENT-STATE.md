@@ -339,15 +339,27 @@ with his OK and no email.
   errors found all three and nothing else; nothing to fix, `r49/sense/TRACE.md`); drafts A and B cleared and pasted
   again from b0c80524 (218 replacements), each secret link's rendered text checked (`whole/DRAFTS.json`, "r49"); the two
   links went to him for his whole-article check. Lesson romance-2026-11-27a, left out of r48's push, goes in.
+- 2026-11-27 (19:27 UTC, `humanize/fix-20261107/r50/`): "go" and his whole-article check of the r49 drafts. The
+  game: innerself pull request 4 merged (4f084198; the live site was main 085180a, built byte for byte, so the deploy
+  adds only the game); the Coolify deploy waits on a sign-in to Coolify in the browser pane (the SSH tunnel is open on
+  his laptop; Coolify's API is off by design). The article: both drafts read Human Written, High
+  (`r50/RESULTS-whole-r49.json`, every window): B six windows all High; A two Medium one-sentence windows, the same two
+  as at r39. Each was a segment Pangram split off; live 20 read AI Detected (41%) by itself, its last line
+  AI-Generated. Both fixed the way his fixes show and in as `r50/MINE-R50.json` (each paragraph and section Human
+  High, `r50/CHECKS-R50.json`; sense read 3/3 planted errors, nothing in the changes; no card changes). Draft A pasted
+  again for his run (`whole/DRAFTS.json`, "r50"). Lessons romance-2026-11-27b and c.
 
 ## Next step
 
-1. His whole-article check on the two r49 drafts (his extension on the two secret links he was given); then his post
-   updated with his OK (no email): the changed paragraphs merged into the editor HTML
-   (`tools/humanization/substack_merge.py`), 366's link to Esther Perel's post, the reel embedded after 149, his new
-   opening's video and links, the typography swap and the "Updated" date; he deletes the two drafts.
-2. The game, on his go: merge innerself pull request 4, deploy it through Coolify, compare the live page with the build
-   (minus the two inserted blocks, byte for byte), and play a card there (`r40/CARD-GAME.md`, "Still to do").
+1. The game: once Coolify is signed in in the browser pane (his step), deploy InnerSelf's main (4f084198) through
+   Coolify (tunnel: `sites/docs/HANDOFF-INVENTORY.md`), compare the live page with the build (`dist/love-honestly/`
+   SHA-256 343ee6e4..., the homepage unchanged), play a card there, and record the deployed commit in innerself's
+   DEPLOYMENT.md and the sites registry (`r40/CARD-GAME.md`, "Still to do").
+2. His extension on the r50 draft A (B stands at r49: all High). Every window High: his post updated with his OK (no
+   email): the changed paragraphs merged into the editor HTML (`tools/humanization/substack_merge.py`), 366's link to
+   Esther Perel's post, the reel embedded after 149, his new opening's video and links, the typography swap and the
+   "Updated" date; he deletes the two drafts. A window below High: its paragraph by itself first (lesson
+   romance-2026-11-27b).
 
 From now on, a turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`).
 

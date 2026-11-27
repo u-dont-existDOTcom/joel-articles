@@ -3214,12 +3214,16 @@
   },
   {
    "id": "J81",
-   "tell": "a label for the thing instead of the thing: a concept named for what happened, an abstract noun that acts, a question about categories, \"announcing\"",
+   "tell": "a label for the thing instead of the thing: a concept named for what happened, an abstract noun that acts, a body part doing what the person does, a question about categories, \"announcing\"",
    "kind": "judgment",
    "sources": [
     {
      "file": "docs/lessons/2026-11-22-2224-romance.md",
      "quote": "that other ai tell of an abstract concept doing something"
+    },
+    {
+     "file": "docs/lessons/2026-11-27-1917-neuro.md",
+     "quote": "pangram doesn't like when things (brain) are doing things that people should be doing"
     }
    ],
    "reason": "whether a sentence says the thing or a label for it is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-first way)"

@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If you can feel your body just fine by now but still slip away the moment a feeling comes up in a session (you start explaining it, or agree with whatever the therapist says just to get past it), there's Intensive Short-Term Dynamic Psychotherapy.",
+  "The therapist catches you at it each time and asks what you're feeling right then."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "fable": [
+   "The paragraph is built as a clean two-step, one sentence that diagnoses the reader and one that states the method, with nothing left over, and that economy is the main machine-like thing about it. The signals are weak, though: the voice is plain and conversational, without the usual model vocabulary or a closing flourish."
+  ],
+  "haiku": [
+   "The paragraph is two tidy sentences with a clean setup, a parenthetical, and a resolution, and its even rhythm reads like polished explainer prose rather than a particular person's voice."
+  ],
+  "sonnet": [
+   "The paragraph is built as a condition followed by a solution, \"If you ... there's X\", and then one sentence that explains the solution. The two sentences are even in length and both resolve cleanly, with no tangent, hedge or uneven beat."
+  ]
+ },
+ "human_clean": []
+}

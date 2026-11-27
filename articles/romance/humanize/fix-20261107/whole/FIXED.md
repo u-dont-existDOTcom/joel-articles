@@ -48,7 +48,7 @@ I remember reading a Christian magazine’s letter from a newlywed Christian wom
 
 ## Affection and the simmer
 
-Doug Toft, who has been married for fifty years, has a useful list called [50 Things I Learned from 50 Years of Marriage](https://dougtoft.substack.com/p/50-things-i-learned-from-50-years). One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
+Doug Toft, who has been married for fifty years, has a useful list called [50 Things I Learned from 50 Years of Marriage](https://dougtoft.substack.com/p/50-things-i-learned-from-50-years). One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there, or she’ll start treating every touch like a sales pitch.
 
 Kim Anami calls the sexual current between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). Maybe she texts from work, “I can’t wait to touch you.” Maybe he tells her what he wants to do later. If we supposedly want each other but hardly ever flirt or let each other know it, that’s called taking each other for granted. Great sex probably isn’t going to materialize out of nowhere at bedtime just based on the flirting you did 5 years ago.
 
@@ -76,7 +76,7 @@ A lot of “I only want fun” really means, “This is the only version of the 
 
 ### Situationships
 
-And then there’s the situationship, which is hard to define because that’s basically the point. Usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend, so it feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
+And then there’s the situationship, which is hard to define because that’s basically the point, but usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend, so it feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
 
 It can go either way, but often the man wants to keep things undefined while the woman wants a big diamond ring, partly because she’s the one risking pregnancy (and maybe she can at least sell the ring later if things don't work out). Whoever keeps things undefined gets the fun without the responsibility, supposedly, but people still get pregnant and attached, whatever they call the relationship. And the one who's trying to keep things undefined still ends up with the existential void another superficial fix creates.
 

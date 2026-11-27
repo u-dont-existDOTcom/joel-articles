@@ -1,0 +1,22 @@
+[
+ {
+  "block": 8,
+  "text": "the existential void another superficial fix creates",
+  "kind": "broken",
+  "what": "The relative clause is missing \"that\", so the phrase reads awkwardly and could be misparsed.",
+  "fix": "the existential void that another superficial fix creates",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "The relative clause is missing \"that\", so the phrase reads awkwardly and could be misparsed.",
+    "fix": "the existential void that another superficial fix creates",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

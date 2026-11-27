@@ -43,6 +43,16 @@ class Ledger(unittest.TestCase):
         return L.main(['result', self.ledger, '--sha', L.sha256(body), '--verdict', verdict,
                        '--link', 'https://www.pangram.com/history/x%d' % self.n])
 
+    def test_a_human_tell_says_what_a_model_would_write_instead(self):
+        # Lesson neuro-2026-11-27g (Joel, 2026-11-27: "\"it's the same kind of thing\" isn't a human tell, ai can write
+        # that also ... post-ashwa is a human tell bc ai doesn't tend to reduce the full name").
+        rec = {'tells': ['a list of three'], 'scope': 'paragraph', 'call': 'Human', 'chance': 0.6, 'lineage': 'P1'}
+        bad = L.refusals([], dict(rec, human_tells=['his "it\'s the same kind of thing"']))
+        self.assertTrue(any('what a model would write' in r for r in bad))
+        good = L.refusals([], dict(rec, human_tells=['his clipped "Post-ashwa" (a model writes "post-ashwagandha syndrome")',
+                                                    'his writing: his card version of the herbs warning']))
+        self.assertFalse(any('what a model would write' in r for r in good))
+
     def test_compact_results_keep_their_windows(self):
         """The web app reader's compact form gives the windows as one string; read character by character, every result
         was Mixed (2026-11-01, batch s1101). A correction run records the right verdict after the wrong one."""

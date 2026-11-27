@@ -17,6 +17,13 @@
 // confidence H, M or L, separated by ";"), to be read out in pieces and saved as the lane's WINDOWS.txt; the text is then
 // rebuilt from the pasted payload (tools/humanization/substack_check_text.py result), which checks it against that SHA-256.
 //
+// 2026-11-27 (the romance lane, lessons romance-2026-11-27b and c): the feed's API answers from any pangram.com tab of
+// the built-in browser: await fetch('https://web.pangram.com/api/feed/view/<uuid>', {credentials: 'include'}).then(r =>
+// r.json()) returns the same result as response_payload (no trailing slash: with one it is a 404). WebFetch of the
+// feed link gets only the page's title. Windows that share one ai_likelihood are one segment; a one-sentence window
+// with a likelihood of its own, well above the windows beside it, is the sentence Pangram split off: check its
+// paragraph by itself (docs/FIXING-AN-ARTICLE.md, item 16).
+//
 // 2026-10-23 (the hypnosis guide's recheck A3 and Nibbāna's third recheck): the page no longer had any
 // span[class*="text-segm"] element, the one this script started its search from, so it found nothing. It now looks for
 // the props from that span when there is one, and otherwise from every element of the page's main part (then of the

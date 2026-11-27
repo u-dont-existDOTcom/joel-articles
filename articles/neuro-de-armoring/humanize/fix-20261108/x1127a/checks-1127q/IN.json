@@ -1,0 +1,14 @@
+{
+ "cog2-his": {
+  "lineage": "neuro-de-armoring/P-COG2-his",
+  "scope": "paragraph",
+  "name": "His paragraph after the Cognitive Warning, by itself, as it went in",
+  "text": "On top of that, you'll tend to think people are judging you, when really they're mostly just thinking about themselves. That's because when your brain is armored up, you project the nonsensical threat you feel onto others. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.7,
+  "unchanged": "his version on card W-COG-SEC as it went in (HUMANIZED-SO-FAR.md 1d94ed03); his check had it with the Cognitive Warning before it (c642954e, one window, High); this is its own check, which coverage.py asks of a paragraph of 50 words or more",
+  "diagnosis": "his pair check read one window, High; by itself the paragraph opens on \"On top of that\", which points back to a paragraph the check leaves out",
+  "decides": "whether his paragraph reads Human High by itself; below High, it goes to him as it is his own version",
+  "tells": "it opens on \"On top of that\" with the paragraph it adds to left out of the check",
+  "human_tells": "his \"the nonsensical threat you feel\" (a model writes \"the threat you feel\" and leaves whether it is real to the reader)"
+ }
+}

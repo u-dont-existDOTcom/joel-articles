@@ -1,0 +1,120 @@
+{
+ "about": "His whole-article check of the r49 drafts (pasted 2026-11-27 17:14 UTC turn), with his Pangram extension, 2026-11-27 19:26:46 and 19:26:55 UTC (14:26 New York time in Pangram's record); read back from Pangram's feed API (web.pangram.com/api/feed/view/<id>) in the built-in browser by me. Each check's text is the draft's rendered text exactly: A's SHA-256 is the one whole/DRAFTS.json's r49 rendered check recorded; B's has the 57,048 characters that check counted. Windows: [label, confidence, Pangram's word count, first words ... last words]. Model 4.1 (\"default\").",
+ "A": {
+  "link": "https://www.pangram.com/feed/1a5fcb3a-949b-4ad7-8117-b48f4d21db49",
+  "headline": "Human Written",
+  "document_confidence": "High",
+  "ai_fraction": 3.156036714656524e-15,
+  "text_sha256": "7d7354f7e094d5d512ab65d2f579ec0ae3fa4cdd92f06068c705afaba1846731",
+  "chars": 62034,
+  "windows": [
+   [
+    "Human",
+    "High",
+    1412,
+    "I asked my dad about sex ... be allowed to end right there."
+   ],
+   [
+    "Human",
+    "Medium",
+    16,
+    "If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure."
+   ],
+   [
+    "Human",
+    "High",
+    484,
+    "Kim Anami calls the sexual current ... was hoping that when it doesn’t."
+   ],
+   [
+    "Human",
+    "Medium",
+    17,
+    "And then there’s the situationship, which is hard to define because that’s basically the point."
+   ],
+   [
+    "Human",
+    "High",
+    1760,
+    "Usually it’s a happenstance relationship based ... legitimacy, or help running the house."
+   ],
+   [
+    "Human",
+    "High",
+    1777,
+    "And hey, sometimes being objectified is ... leave because maybe she’s pregnant, etc."
+   ],
+   [
+    "Human",
+    "High",
+    1761,
+    "Maybe I’m not representative of the ... them, she isn’t ready for me."
+   ],
+   [
+    "Human",
+    "High",
+    1794,
+    "If she says, “Can you talk ... your bodies respond to each other."
+   ],
+   [
+    "Human",
+    "High",
+    1747,
+    "It was during my first marriage ... have been really confused back then!”"
+   ],
+   [
+    "Human",
+    "High",
+    437,
+    "I also have to admit, I ... Pillars Don’t Hold The Roof Up."
+   ]
+  ]
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/e8d99033-318d-4a92-9910-719ddccd48a5",
+  "headline": "Human Written",
+  "document_confidence": "High",
+  "ai_fraction": 6.914501291145926e-21,
+  "text_sha256": "77321e5f3f37ef6b570cd7808e817b36261eb0d534f3c62727fec9a17ad793c2",
+  "chars": 57048,
+  "windows": [
+   [
+    "Human",
+    "High",
+    1773,
+    "Much of this article so far ... kinds of beauty as she ages."
+   ],
+   [
+    "Human",
+    "High",
+    1740,
+    "Anami talks a lot about women ... most vulnerable corner of the heart."
+   ],
+   [
+    "Human",
+    "High",
+    1712,
+    "When Key felt understood by me ... you’ll do, but feelings aren’t contractual."
+   ],
+   [
+    "Human",
+    "High",
+    1651,
+    "It’s hard to find sexually monogamous ... without the work to do that."
+   ],
+   [
+    "Human",
+    "High",
+    1684,
+    "Probably one of the most important ... on each side who were partial."
+   ],
+   [
+    "Human",
+    "High",
+    1439,
+    "Many say it’s best to save ... hearts regardless of whether it ends."
+   ]
+  ]
+ },
+ "medium": "A's two Medium windows are the same two one-sentence windows as in r39 (live 20's last sentence and live 33's first), unchanged text. Pangram's segments show why: windows that share one AI likelihood are one segment (B's six windows, A's windows 4 to 9), and each of the two sentences is a segment of its own with an AI likelihood (1.9e-12, 5.5e-15) seven to thirteen orders above the text beside it (1.4e-25, 1.3e-19, 1.8e-21). B's r39 Medium sentence (\"But if you're already married with children ...\") is unchanged in r49 but no longer a segment of its own: B now reads as one segment. Checked by itself (r50/README.md), live 20 reads AI Detected (41%), its last sentence AI-Generated: the Medium window was pointing at a paragraph that reads AI alone."
+}

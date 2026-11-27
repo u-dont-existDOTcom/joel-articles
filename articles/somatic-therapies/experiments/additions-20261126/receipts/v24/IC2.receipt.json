@@ -1,0 +1,101 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "2796349af7a7eb7b6b756885cd8670e74b3659b726b88ab3b441b9a4f9717b15",
+ "text": "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy. Neither one sees the pain as imaginary, and they've helped people with long-lasting back, muscle and joint pain.",
+ "section": "Physical Pain? (inner child guide)",
+ "reader": "an adult with pain attacks that tests keep explaining away, reading the inner child guide's Physical Pain section, deciding what to try while the doctors keep looking",
+ "sentences": [
+  {
+   "s": "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy.",
+   "payoff": "they get one of two therapies to try if the tests keep coming back normal, without stopping the search, and where to read about them",
+   "follows": "it follows the advice not to stop investigating with what to do meanwhile"
+  },
+  {
+   "s": "Neither one sees the pain as imaginary, and they've helped people with long-lasting back, muscle and joint pain.",
+   "payoff": "they hear that neither therapy sees the pain as imaginary, his section's word, and what kinds of pain they've helped",
+   "follows": "it says why the two are worth trying",
+   "link": "Neither one"
+  }
+ ],
+ "checked": [
+  {
+   "point": "both therapies tell patients the pain is real, made by the brain",
+   "found": "VA Eastern Colorado, \"All Pain is Real\" (https://www.va.gov/eastern-colorado-health-care/programs/understanding-chronic-pain-what-you-need-to-know/); Lumley and Schubiner 2019, EAET for chronic pain (https://pmc.ncbi.nlm.nih.gov/articles/PMC7309024): the brain generates or amplifies primary pain",
+   "still_needed": "yes: they hear the guide is not calling their pain imaginary",
+   "fate": "kept"
+  },
+  {
+   "point": "PRT: reappraisal of pain sensations and of the beliefs that the pain means harm; a graded return to feared activities; mild to moderate chronic back pain; 66% vs 20% pain-free or nearly, gains largely held at one year",
+   "found": "Ashar et al. 2022, JAMA Psychiatry 79(1):13-23 (https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298): \"guided reappraisal of pain sensations\", \"fear- and avoidance-inducing beliefs\"; NIH Research Matters, 2021-11-02",
+   "still_needed": "yes: they weigh it for their own pain",
+   "fate": "changed"
+  },
+  {
+   "point": "EAET: emotional expression and role-play of hard conversations; 126 veterans aged 60 to 95 with muscle and joint pain; 63% vs 17% with at least 30% less pain",
+   "found": "Yarns et al. 2024, JAMA Network Open (https://clinicaltrials.gov/study/NCT03918642)",
+   "still_needed": "yes: they weigh it for their own pain and age",
+   "fate": "kept"
+  }
+ ],
+ "placement": "a paragraph of its own at the end of Physical Pain?, after his advice not to stop the investigation; its \"that investigation\" points to that",
+ "opens": {
+  "first_sentence": "If the tests keep coming back normal while that investigation goes on, I'd also try one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy.",
+  "why_reading": "they get one of two therapies to try if the tests keep coming back normal, without stopping the search, and where to read about them"
+ },
+ "same_point": "none: read the section from its heading to the next; no other paragraph names these therapies",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md, READ-14.md, READ-16.md, READ-18.md, READ-19.md, READ-20.md, READ-20b.md, READ-21.md, READ-22.md, READ-23.md and READ-24.md; none found a sentence its reader doesn't need",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh readers (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md, the live guide and the text one sentence a line: articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-10.md, -11.md, READ-12.md, READ-14.md, READ-16.md, READ-18.md, READ-19.md, READ-20.md, READ-20b.md, READ-21.md, READ-22.md, READ-23.md and READ-24.md (draft 9's marks on A3 in READ-HIS-FIXES-9.md, by Sonnet); each acted on",
+  "marked": [
+   {
+    "s": "It's usually anxiety that makes you slip away, so the therapist also watches for its signs, like tense muscles, sighing, or your thinking going foggy, to tell when it's getting to be too much for you.",
+    "difference": "READ-12: \"anxiety\" with no object"
+   },
+   {
+    "s": "Part of how you learn it is by paying close attention to how the pain feels in your body.",
+    "difference": "READ-12: ways 14 and 11, the attention they already pay all day, and the means first"
+   },
+   {
+    "s": "The therapist also watches for signs of the anxiety that's making you slip away, like tense muscles, sighing, or your thinking going foggy.",
+    "difference": "READ-HIS-FIXES-11: anxiety comes in as if said; the watching's purpose comes later"
+   },
+   {
+    "s": "Most people who try this therapy can't take much of that anxiety, so they get a slower version, where the therapist stops to help them settle whenever it climbs.",
+    "difference": "READ-HIS-FIXES-11: \"most people ... they\" leaves the reader outside"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh readers, given tools/humanization/fit_read_brief.md and a contradictions check (articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-10.md, -11.md, READ-12.md, READ-14.md, READ-16.md, READ-18.md, READ-19.md, READ-20.md, READ-20b.md, READ-21.md, READ-22.md, READ-23.md and READ-24.md; draft 9's in READ-NEEDED-FIT-9.md)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: when first (\"If the tests keep coming back normal while that investigation goes on\"), then the act",
+  "Q2": "PASS: try one of the two therapies, named, while the doctors keep looking; read more in the somatic guide, linked",
+  "Q3": "PASS: \"the two talk therapies I go into in my somatic guide\", named",
+  "Q4": "PASS: \"talk therapies\", then \"Neither one sees the pain as imaginary\" says what kind they are",
+  "Q5": "PASS: \"that investigation\" picks up his sentence before; \"Neither one\" the two named",
+  "Q6": "PASS: when, what to try and where to read more, then why the two",
+  "Q7": "PASS: the reader whose tests come back normal",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
