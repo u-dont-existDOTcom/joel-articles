@@ -55,8 +55,15 @@ Precautions with 74b in, one of them a reader who takes kratom some days, took "
   is fine then; if the whole protocol isn't for pregnancy or breast-feeding, the disclaimer at the top could say so.
   Readers also couldn't tell what "extreme caution" asks of them, whether their pills count as nitrates or PDE-5
   inhibitors, or what a "complex psychoactive stack" is ([the reads](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/v1/fit/prec/READ.md)).
-- 🔵 **Next, mine**: the humanizing pass in "Psychology is the Software; Biology is the Hardware." while the cards wait
-  ([what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/LEFT.md)).
+- 🟢 **The humanizing pass in "Psychology is the Software; Biology is the Hardware." goes on**: the Anti-Breakthrough
+  is in. Taking "Dr." off "Perry finds" joined the window Pangram had split there, and its last sentence now says "which
+  is what I mean by micro-dosing here": [Human Written, one window, High](https://www.pangram.com/history/31905039-057d-4b64-9c9e-5dbde18dadef)
+  ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/APPLIED-X1127A.json)). Read beside your post, it says the hour of trauma work "overwhelms an armored
+  nervous system more than it heals it" where you had "a flood, not a fix" ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127a/read-1127b/READER-1.md)): kept,
+  since last turn's readers heard your line as telling someone with years of hour-long therapy that it harmed them.
+- 🔵 **Next, mine**: the rest of that section while the cards wait (the practice paragraph, the one-sixteenth
+  paragraph, the underpinnings paragraph and the "Underpinning" Principle;
+  [what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/LEFT.md): 28 of 141 paragraphs read Human High by themselves).
 
 ## Your message of 2026-11-26 23:30 UTC ("72a"), and what I did
 

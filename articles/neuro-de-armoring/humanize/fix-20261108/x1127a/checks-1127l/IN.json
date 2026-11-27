@@ -1,0 +1,15 @@
+{
+ "sw22-s2": {
+  "lineage": "neuro-de-armoring/P-SW22",
+  "scope": "paragraph",
+  "name": "The Anti-Breakthrough, step 2: its last sentence spoken, not a definition",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.",
+  "chance": 0.6,
+  "receipt": "receipts/SW22-S2.receipt.json",
+  "diagnosis": "step 1 read Human Written, High over the first two sentences and Medium over the last (https://www.pangram.com/history/97d19f12-4aa9-4349-ae0f-ac29b81f1e72): \"and those small doses are what I mean by micro-dosing here\" says \"doses\" again, as a definition, and \"those small doses\" can be read as drug doses; \"which is what I mean by micro-dosing here\" points at the doses of seconds just named.",
+  "decides": "whether the paragraph reads High in every window and goes in",
+  "first_fix": "payoff: unchanged; join: the definition joined to the doses it names (\"which is what I mean\"); plain: no new word",
+  "humanized": "my version of the post's Anti-Breakthrough, from its near miss, two small steps",
+  "human_tells": "none of his words in it: my version of the post's paragraph"
+ }
+}

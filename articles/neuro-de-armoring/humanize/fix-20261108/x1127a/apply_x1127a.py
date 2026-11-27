@@ -52,3 +52,17 @@ if __name__ == '__main__':
         k, link, how = sys.argv[i + 1:i + 4]
         run('lma', T.OLD['lma'], T.TRY[k], 'his card version, with his 73a and his line "i also can\'t recommend starting '
             'them" put in; the stop sign\'s words are mine (%s)' % k, 'my check, this turn: %s (%s)' % (link, how), write)
+
+
+def sw22(write):
+    """The humanizing pass in "Psychology is the Software; Biology is the Hardware.": the Anti-Breakthrough, from its near
+    miss of last turn (#267), two one-change steps (sw_x1127a.STEP), the second Human High in one window."""
+    import sw_x1127a as W
+    run('sw22', W.T.OLD['sw22'], W.STEP['sw22-s2'], 'mine: my version of the post\'s Anti-Breakthrough (texts_x1126b.NEW'
+        '[\'sw22\'], fixed for sense from the fresh reads x1126b/v1), "Dr." off and its last sentence joined',
+        'my check, this turn: https://www.pangram.com/history/31905039-057d-4b64-9c9e-5dbde18dadef (Human Written, one '
+        'window, High, 81 words; P-SW22 try 4); comparison read x1127a/read-1127b (one finding, severity 1, kept)', write)
+
+
+if __name__ == '__main__' and '--sw22' in sys.argv:
+    sw22('--write' in sys.argv)

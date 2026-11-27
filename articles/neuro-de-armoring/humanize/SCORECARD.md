@@ -16,7 +16,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram 4.1 (web app) | 21 | 11 (52%) | 48% | 52% | 90% | 0.212 (base 0.249, 21) |
-| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 86 | 64 (74%) | 34% | 66% | 85% | 0.183 (base 0.223, 86) |
+| Pangram 4.1 (web app, his account, in the desktop app's browser pane) | 88 | 66 (75%) | 33% | 67% | 85% | 0.183 (base 0.221, 88) |
 | Pangram 4.1 (web app, his account, Claude in Chrome in his browser) | 29 | 22 (76%) | 52% | 48% | 45% | 0.179 (base 0.250, 29) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
@@ -243,15 +243,15 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 34 (68%) | 30% | 70% | 98% | 0.194 (base 0.210, 50) |
-| the latest 100 | 86 | 64 (74%) | 34% | 66% | 85% | 0.183 (base 0.223, 86) |
-| all | 86 | 64 (74%) | 34% | 66% | 85% | 0.183 (base 0.223, 86) |
+| the latest 50 | 50 | 35 (70%) | 28% | 72% | 98% | 0.192 (base 0.202, 50) |
+| the latest 100 | 88 | 66 (75%) | 33% | 67% | 85% | 0.183 (base 0.221, 88) |
+| all | 88 | 66 (75%) | 33% | 67% | 85% | 0.183 (base 0.221, 88) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 67 | 51 (76%) | 36% | 64% | 82% | 0.177 (base 0.230, 67) |
+| paragraph | 69 | 53 (77%) | 35% | 65% | 83% | 0.176 (base 0.227, 69) |
 | pair | 12 | 9 (75%) | 17% | 83% | 92% | 0.184 (base 0.139, 12) |
 | section | 5 | 4 (80%) | 20% | 80% | 100% | 0.219 (base 0.160, 5) |
 | stretch | 2 | 0 (0%) | 100% | 0% | 100% | 0.305 (base 0.000, 2) |
@@ -261,8 +261,8 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 5 | 0.29 | 20% |
-| 0.4 to 0.6 | 52 | 0.53 | 56% |
-| 0.6 to 0.8 | 40 | 0.66 | 82% |
+| 0.4 to 0.6 | 54 | 0.53 | 57% |
+| 0.6 to 0.8 | 42 | 0.65 | 83% |
 | 0.8 to 1.0 | 6 | 0.81 | 100% |
 
 ## Pangram 4.1 (web app, his account, Claude in Chrome in his browser)
