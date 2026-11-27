@@ -116,5 +116,29 @@
    "html_sha256": "0592ec0e4fa0258efca6694ce109dd71b6551e6b9c3f51cc03624f6657781277",
    "rendered_check": "the secret link (cache key romance-r49-b-1127) rendered 174 lines, 57,048 characters: the built text with its quotes curled except line 4's opening quote before \"for safety and legal reasons\" (curled the wrong way by the paste) and line 23's double space before the emoji (made single), the two editor effects r40 recorded"
   }
+ ],
+ "r50": [
+  {
+   "part": "A",
+   "draft": 223926381,
+   "commit": "d08e4e819dbad4762dcd2aad15a26b767e2fc956",
+   "replacements": 219,
+   "lines": 203,
+   "chars": 61994,
+   "text_sha256": "596617dba7a1d080ee9369ed4d936b947fbb4cd2d54622838d590abce33f7de3",
+   "html_sha256": "6fffd6a794c4b2367255f9291d19fb25e9c95789cb0f7f209689d1e2afc1a213",
+   "rendered_check": "cleared (ctrl+a, Delete) and pasted again at 19:55 UTC with r50's two changes (live 20 and 33); the secret link (cache key romance-r50-a-1127) rendered 203 lines, 61,994 characters, SHA-256 0e9e7cb66f43..., the built text with its quotes curled: matched; both changes in it, the old line 20 gone"
+  },
+  {
+   "part": "B",
+   "draft": 223926513,
+   "commit": "d08e4e819dbad4762dcd2aad15a26b767e2fc956",
+   "replacements": 219,
+   "lines": 174,
+   "chars": 57049,
+   "text_sha256": "b873d247bd80e07eab3a2a13c919f793a50b1ef49ba75756422fed18fb62048d",
+   "html_sha256": "0592ec0e4fa0258efca6694ce109dd71b6551e6b9c3f51cc03624f6657781277",
+   "rendered_check": "not pasted again: the builder at this commit gives r49's text and HTML byte for byte, and his check of the r49 draft read every window Human High (r50/RESULTS-whole-r49.json)"
+  }
  ]
 }
