@@ -348,18 +348,22 @@ with his OK and no email.
   AI-Generated. Both fixed the way his fixes show and in as `r50/MINE-R50.json` (each paragraph and section Human
   High, `r50/CHECKS-R50.json`; sense read 3/3 planted errors, nothing in the changes; no card changes). Draft A pasted
   again for his run (`whole/DRAFTS.json`, "r50"). Lessons romance-2026-11-27b and c.
+- 2026-11-27 (20:11 UTC, `humanize/fix-20261107/r51/`): "signed in", "yes update the post", and his check of the
+  r50 draft A: seven windows, every one Human High, one segment (`r51/RESULTS-whole-r50.json`). The game is live:
+  Coolify deployment 5l88fjtyxcisbrcpubmdybg5 of innerself 4f084198; `/love-honestly/` is the build byte for byte; a
+  card played for one and for two; recorded in innerself's DEPLOYMENT.md and the sites registry. His post is updated
+  with no email (`r51/README.md`, `r51/LIVE-CHECK-20261127.json`): one transaction in its editor from
+  `r51/UPDATE-PLAN.json` (219 changed paragraphs, the reel after 149, his opening's video, 366's link, the typography
+  swap), title and social title "Updated Nov 27, 2026"; its 441 paragraphs equal the plan's. Lessons
+  romance-2026-11-27d and e.
 
 ## Next step
 
-1. The game: once Coolify is signed in in the browser pane (his step), deploy InnerSelf's main (4f084198) through
-   Coolify (tunnel: `sites/docs/HANDOFF-INVENTORY.md`), compare the live page with the build (`dist/love-honestly/`
-   SHA-256 343ee6e4..., the homepage unchanged), play a card there, and record the deployed commit in innerself's
-   DEPLOYMENT.md and the sites registry (`r40/CARD-GAME.md`, "Still to do").
-2. His extension on the r50 draft A (B stands at r49: all High). Every window High: his post updated with his OK (no
-   email): the changed paragraphs merged into the editor HTML (`tools/humanization/substack_merge.py`), 366's link to
-   Esther Perel's post, the reel embedded after 149, his new opening's video and links, the typography swap and the
-   "Updated" date; he deletes the two drafts. A window below High: its paragraph by itself first (lesson
-   romance-2026-11-27b).
+Nothing waits on me. He deletes the two temporary drafts (A 223926381 and B 223926513; B has the reel pasted at its
+end, from making its embed). The live post is now the fixed version: any later change to the article starts from a
+fresh copy of the live post (`live-check/`), not from `whole/LIVE-INDEX.txt`, `LIVE-POST-BLOCKS-20261123.jsonl` or
+`whole/REPLACEMENTS.json`, which describe the post before r51. The game is live at v0.9.3; a new version goes the
+same way (love-honestly pull request, his OK, innerself vendoring, his go, Coolify through the tunnel).
 
 From now on, a turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`).
 

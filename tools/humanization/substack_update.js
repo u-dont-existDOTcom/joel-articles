@@ -12,6 +12,11 @@
 //      the page until the address is the share page (.../share-center?alreadyPublished=true); the caller's script is cut
 //      off by that move, which is the sign it went. The proof is then the live post: fetch /api/v1/posts/by-id/<id> and
 //      read updated_at and the body, never the click.
+// His date rule ("you can always update that date when updating a post") covers the social title too (lesson
+// romance-2026-11-27d): the browser tab and share previews take the post's social_title, a field the editor doesn't
+// show and a title edit never touches. Before or after Update, read /api/v1/drafts/<id> and give any date in
+// social_title (or search_engine_title) the new one: fetch('/api/v1/drafts/<id>', {method: 'PUT', credentials:
+// 'include', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({social_title: ...})}) goes live at once.
 window.__updateNow = async (opt) => {
   opt = opt || {};
   const wait = ms => new Promise(r => setTimeout(r, ms));

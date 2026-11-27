@@ -70,7 +70,7 @@ await (async () => {
     if (!target || target.button || target.node.type.name !== 'paragraph') return Object.assign(out, {why: 'paragraph ' + o.n + ' is not a paragraph'});
     const parent = doc.resolve(target.pos).parent.type.name;
     if (o.html.length !== 1 && parent !== 'doc') return Object.assign(out, {why: 'paragraph ' + o.n + ' (in a ' + parent + ') is removed or split'});
-    const frag = parsePs(o.html);
+    const frag = o.html.length ? parsePs(o.html) : Fragment.empty;   // the parser gives an empty body one paragraph
     if (frag.childCount !== o.html.length || [...Array(frag.childCount).keys()].some((k) => frag.child(k).type.name !== 'paragraph')) return Object.assign(out, {why: 'paragraph ' + o.n + ' parsed to ' + frag.childCount + ' blocks'});
     jobs.push({n: o.n, pos: target.pos, node: target.node, frag, parent});
   }

@@ -427,3 +427,19 @@ The round's record: [r50](../r50/README.md).
    `DEPLOYMENT.md` and the sites registry (`registry/sites/innerself.json` still names 684f0139).
 2. Not run: the love-honestly repository's container gate and innerself's container check, which need Docker; Coolify's
    build runs the container.
+
+## His message of 2026-11-27 20:11 UTC: "signed in"
+
+The round's record: [r51](../r51/README.md).
+
+- Deployed: Coolify deployment `5l88fjtyxcisbrcpubmdybg5` of innerself `4f084198` (main), finished at 20:13 UTC. The
+  live `https://innerself.love/love-honestly/` is the build byte for byte (SHA-256 343ee6e4...); the homepage is
+  unchanged. One card played on the live page for one person and one for two on one phone.
+- Recorded in innerself's `DEPLOYMENT.md` (its pull request 5) and the sites registry (its pull request 4: the site's
+  deployed commit, the game's source v0.9.3 at love-honestly ea879f2b, its recovery ref). The tunnel is closed; the
+  browser pane stays signed in to Coolify for the next deployment.
+
+### Still to do
+
+Nothing for v0.9.3. Not run: the love-honestly repository's container gate (Docker); Coolify's build ran the
+container. The other account's private page of the game is still v0.9.1.
