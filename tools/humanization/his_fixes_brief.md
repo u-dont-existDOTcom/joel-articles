@@ -272,6 +272,9 @@ that still reads the first way.
    become the most isolated."); the friend who knows both went next to the shared confidant's downside; the limit went
    last. Blind writers given this as the order got the section from AI to Human but not to High: they kept a list and a
    label, and couldn't add what only he could, the reason and the point from his experience (lesson romance-2026-11-24a).
+   That is no reason to ask him for his experience to get past Pangram: Pangram doesn't need it, and the tries come first
+   (lesson somatic-2026-11-27a; Joel, 2026-11-27: "there's no need for me to give you some kind of human experience,
+   that's not what pangram requires").
 
 29. **A list item away from what it belongs with.** An item at the end of a list that is really about the thing before
    the list, or a word like "other" with nothing nearby that it is other than. His "not to mention potential muscle
