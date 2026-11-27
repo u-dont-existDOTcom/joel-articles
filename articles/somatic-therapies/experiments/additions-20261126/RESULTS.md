@@ -2,7 +2,7 @@
 
 Joel, 2026-11-26 22:44 UTC: "i also want to make an addition to the somatic.u-dont-exist.com article with the recs from gpt below (humanized)". The suggestions were ChatGPT's reply from the research lane ([PR 545](https://github.com/u-dont-existDOTcom/joel-articles/pull/545), [SOMATIC-INTEGRATION-PROPOSAL-20261126.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/research/somatic-edt-eaet-20261126/articles/somatic-therapies/experiments/SOMATIC-INTEGRATION-PROPOSAL-20261126.md)): experiential therapies after Brainspotting, imagery rescripting after EMDR, and a pain branch after Layer 5. His words to that lane: add only what fills a gap, say where it fits and who needs which.
 
-**Where it stands:** on his marking page, [Somatic Guide, 26 November: three new sections](https://claude.ai/artifact/8w8DEeT9cS8T964HGSpz4M) (its cards on GitHub: [review/CARDS.md](review/CARDS.md)). Nothing is in the post yet.
+**Where it stands:** on his two cards pages of 27 November, [Somatic Guide: two new sections for you to teach me](https://claude.ai/artifact/PWWhtf4EjbExfr9j4fTwKu) (cards on GitHub: [review-c1127/CARDS-SOMATIC.md](review-c1127/CARDS-SOMATIC.md)) and [Inner Child Guide: two pointers to the somatic guide's new sections](https://claude.ai/artifact/AtSe7jXfLmsQ4cyqcRBwpS) (cards: [review-c1127/CARDS-INNER.md](review-c1127/CARDS-INNER.md)). The first page of 26 November, answered: [Somatic Guide, 26 November: three new sections](https://claude.ai/artifact/8w8DEeT9cS8T964HGSpz4M). Nothing is in the post yet.
 
 | | Section | Words | Pangram on the card's version |
 |---|---|---|---|
@@ -92,3 +92,56 @@ Next, in order:
 5. The sections: A1 (predict with --narrowed, the paragraph lineages), A3 (--after-fix and --narrowed).
 6. Cards for the four changes above, on the marking page the turn they are written.
 7. Apply in Substack once every window reads High: the somatic guide, then the inner child guide (anchors imagery-rescripting, pain-that-wont-quit); BUILT-ON.
+
+## Checkpoint, turn of 2026-11-27 19:25 UTC (drafts 18 to 24; the cards pages published 20:12 UTC)
+
+Joel, 19:25 UTC: "why did you stop". The turn went on with the checkpoint's Next until each text read Human High or its
+tries were spent, and ends on two cards pages for what is spent (lesson bad-trips-2026-11-14b). 19 checks in his Pangram
+account from 19:29 to 20:05 UTC (batch add1127, [pangram/RESULTS-add1127-5.json](pangram/RESULTS-add1127-5.json) to
+[-10](pangram/RESULTS-add1127-10.json)): 11 predictions right, 8 misses, each explained in the ledger.
+
+| Text | Where it is | Best check |
+|---|---|---|
+| A1, first paragraph (who the section is for; ISTDP) | spent: six tries, all AI; the sixth, joined into the anxiety paragraph, pulled that one to AI too (lesson somatic-2026-11-27d) | [AI 91%, two Low windows](https://www.pangram.com/history/6e616723-4be9-418f-b508-0ae4f56f3bca) (try 18); his card A1-TEACH |
+| A1, the anxiety paragraph | done | [Human High](https://www.pangram.com/history/63dc89df-a178-4ad6-94ea-0c9865645849) |
+| A1, Affect Phobia Therapy (under 50 words, with its neighbour) | done | [Human High over it](https://www.pangram.com/history/b4f0fea6-06e1-4076-a6a6-a0589c7d82e1) |
+| A1, AEDP | done | [Human High](https://www.pangram.com/history/da780877-d112-467b-93fc-fc02004fbc76) |
+| A1, the booking paragraph | spent: six tries | [Human Low](https://www.pangram.com/history/7de1f32a-42f2-469c-9184-a2e9fa8ddc81) (try 17) and [again with the question in quotes](https://www.pangram.com/history/ef39ee2f-d0d5-4cf2-9a26-b2b2726e57de) (try 20); his card A1-TEACH |
+| A2 (his version) | done | Human High (checkpoint of 16:39) |
+| A3, first paragraph (merged with the PRT paragraph) | seven tries; stopped, the last no better than the one before | [High 88, Medium 18](https://www.pangram.com/history/382a6e6b-372e-4f94-a8ec-a454d44492c0); the join of its last sentence (draft 23, read and passed) waits on the section's near-miss gate (lesson somatic-2026-11-27f); his card A3-TEACH |
+| A3, paragraphs 2 to 5 | done | [trial](https://www.pangram.com/history/1f690117-8ab6-47c9-beaf-2e9eaa4ea8c3), [second therapy](https://www.pangram.com/history/625ebf0c-6a40-42f5-8429-a9f8feffdbbc), [its trial](https://www.pangram.com/history/76768c4b-1a89-46e8-b37d-befaf314177b), [how to choose](https://www.pangram.com/history/0320a0bc-3f6d-4eb1-80c2-5d8b7639c6e9), each Human High |
+| IC1 (inner child guide, Re-do Trauma Memories) | done | [Human High](https://www.pangram.com/history/cfb9154d-4b26-4e87-ad84-b4112676c8f0); his card IC1, for his eye (his aside in it) |
+| IC2 (inner child guide, Physical Pain?) | spent: six tries | [High 38, Medium 20](https://www.pangram.com/history/0f422892-5de8-43b0-8cb2-bfe4b5045d27) (ic2-9); his card IC2-TEACH (lesson somatic-2026-11-27e) |
+
+What this turn made: drafts 18 to 24 ([scripts/make_draft20.py](scripts/make_draft20.py) to
+[make_draft24.py](scripts/make_draft24.py); [ADDITIONS-20.json](ADDITIONS-20.json) to [ADDITIONS-23.json](ADDITIONS-23.json),
+[INNER-CHILD-ADDS-10.json](INNER-CHILD-ADDS-10.json) to [-14](INNER-CHILD-ADDS-14.json)); fresh reads against his fixes and
+for need, fit and contradictions before every check ([reads/READ-20.md](reads/READ-20.md), [READ-20b](reads/READ-20b.md),
+[READ-21](reads/READ-21.md), [READ-22](reads/READ-22.md), [READ-23](reads/READ-23.md), [READ-24](reads/READ-24.md)), every
+mark acted on; tell panels on A3's opening ([panel/A3-P1-20/PANEL.md](panel/A3-P1-20/PANEL.md)) and IC2
+([panel/IC2-23/PANEL.md](panel/IC2-23/PANEL.md)); receipts ([fill_receipts_v20.py](fill_receipts_v20.py) to
+[v24](fill_receipts_v24.py)) and predictions ([predict_v20.py](predict_v20.py) to [v24](predict_v24.py)); the inner child
+guide as live, fetched through his laptop at 20:11 UTC ([IC-WHOLE-LIVE-20261127.md](IC-WHOLE-LIVE-20261127.md)); the cards
+([build_cards_c1127.py](build_cards_c1127.py), [review-c1127/CARDS-SOMATIC.md](review-c1127/CARDS-SOMATIC.md),
+[review-c1127/CARDS-INNER.md](review-c1127/CARDS-INNER.md)).
+
+Changes of meaning for his eye, on the cards: A3's false alarm ("your brain is making real pain, signaling danger where the
+doctors haven't found any injury"), "there are two therapies I'd look into" for "two therapies are worth knowing about";
+A1's booking question in quotes ("What happens if I get overwhelmed, or if you say I'm dodging a feeling and I don't think I
+am?"); IC1's aside, his own line.
+
+A stray scheduled task: one of the tell panel's readers (Haiku, on IC2) scheduled a one-minute reminder nobody asked for
+(trigger trig_018tSxx2uvui6MSbM584iYBP, placeholder text, due about 20:04 UTC) and couldn't delete it; it is his to delete
+from his scheduled tasks, if it still shows.
+
+### Next, in order
+
+1. His answers to the two cards pages: record each fate with a script (Approve, Reject, Revise with his version).
+2. A1: his versions of the first and the booking paragraphs, each checked by itself, then A1 as a section (`--narrowed`).
+3. A3: his answer to A3-TEACH; then the section check (`--after-fix`, `--narrowed`), after the two small section tries the
+   ledger asks for, or with his version.
+4. IC2: his version of the second sentence, checked by itself.
+5. Once every window reads High: apply in Substack, the somatic guide (A1, A2 his version, A3) then the inner child guide
+   (IC1, IC2) with the live anchors imagery-rescripting and pain-that-wont-quit; guarded Update
+   (tools/humanization/substack_update.js); the posts' "Updated" dates; fetch both live posts; live_sections; the depends
+   check; BUILT-ON.

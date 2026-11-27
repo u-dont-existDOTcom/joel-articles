@@ -1,0 +1,46 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "All three keep steering you back toward your feelings, which can get to be too much.",
+  "I would ask a therapist about that before I booked: what happens if I get overwhelmed, or if you say I'm dodging a feeling and I don't think I am?",
+  "I'd want them to say they'd slow down, and that they'd listen."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "fable": [
+   "The three sentences run problem, what to ask, the answer to hope for, each about the same length, and that neat arc with a reassuring last beat is the only machine-like thing about it. The voice itself is plain and personal, and nothing in the wording is strongly machine-made."
+  ],
+  "haiku": [
+   "Nothing much reads machine-made as a whole. The paragraph is short, stays on one concrete scenario, and keeps one voice, though its evenly balanced sentence shapes give it a slightly tidied rhythm."
+  ],
+  "sonnet": [
+   "The paragraph is built as a clean problem, advice, reassurance sequence in three evenly sized sentences, and every sentence is smooth and balanced, so the rhythm feels templated. The voice stays careful and reassuring throughout and has little that is particular or surprising."
+  ]
+ },
+ "human_clean": []
+}
