@@ -1,0 +1,20 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "prec-f3": {
+   "uuid": "6fd9e6f1-1e19-481c-8a65-618ec3e54bf5",
+   "at": "2026-11-26T18:58:51.948457-05:00",
+   "headline": "Human Written",
+   "ai": 7.878099966434122e-40,
+   "words": 88,
+   "windows": [
+    [
+     "Human",
+     "High",
+     88,
+     "Do not use agmatine concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. It's not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues."
+    ]
+   ]
+  }
+ }
+}

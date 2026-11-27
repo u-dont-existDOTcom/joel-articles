@@ -1,0 +1,147 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-27",
+ "text_sha256": "d8091794355adf7962518f4c909cfd1156d24e5521dd70665c7092124f6eb752",
+ "text": "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty. The easiest way for most folks to take a break from that is to hole up alone. But don't isolate completely (the isolation trap), because that actually spikes cortisol, the chronic stress hormone. And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove. Calm company, like nature walk buddies, goes the other way, anchoring you via oxytocin, the bonding hormone. Good friends are ultimately more vital than any brain repair protocol.",
+ "section": "A Complete Guide to Bio-De-Armoring, the warnings at the top: the Behavioral Warning, his nickname \"the isolation trap\" kept in its third sentence; his own third sentence as his card has it, with his nickname after its don't, in brackets, as his label had it",
+ "reader": "an adult with trauma or an addiction who has read the short introduction and is reading the warnings before starting the protocol, who tends to withdraw from people when working on themselves",
+ "sentences": [
+  {
+   "s": "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty.",
+   "payoff": "they learn the protocol asks them to cut the dopamine of chasing novelty, and what that dopamine does",
+   "follows": "it is the next warning after the plant medicines, the first about behavior"
+  },
+  {
+   "s": "The easiest way for most folks to take a break from that is to hole up alone.",
+   "payoff": "they recognize the temptation the warning is about: to cut excitement by holing up alone",
+   "follows": "it names the easiest way to do what the sentence before asks",
+   "link": "The easiest way"
+  },
+  {
+   "s": "But don't isolate completely (the isolation trap), because that actually spikes cortisol, the chronic stress hormone.",
+   "payoff": "they don't cut themselves off completely, and know why: it spikes cortisol, the chronic stress hormone; his nickname names the mistake",
+   "follows": "it turns against the temptation just named",
+   "link": "But"
+  },
+  {
+   "s": "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove.",
+   "payoff": "they learn what the cortisol does: it locks back in place the armor the protocol is removing",
+   "follows": "it says why a cortisol spike matters here",
+   "link": "And cortisol"
+  },
+  {
+   "s": "Calm company, like nature walk buddies, goes the other way, anchoring you via oxytocin, the bonding hormone.",
+   "payoff": "they seek calm company, like a friend to walk in nature with, which works the other way",
+   "follows": "it gives what to do in place of isolating",
+   "link": "none: it turns from the don't to what to do instead, the step a reader expects after a don't"
+  },
+  {
+   "s": "Good friends are ultimately more vital than any brain repair protocol.",
+   "payoff": "they put their friendships ahead of the protocol when the two pull apart",
+   "follows": "it ends the warning on his weighing of friends against the protocol",
+   "link": "Good friends"
+  }
+ ],
+ "checked": [
+  {
+   "point": "isolation raises cortisol, which sensitizes the brain to glutamate",
+   "found": "his own card version (his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json)); the article's section B on glutamate",
+   "still_needed": "yes: they see why cutting people off works against the protocol",
+   "fate": "kept"
+  }
+ ],
+ "placement": "fourth, where the post has it, with its rule after it",
+ "opens": {
+  "first_sentence": "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty.",
+  "why_reading": "they learn what the protocol asks them to give up, which the warning's trap comes from"
+ },
+ "same_point": "read the section for isolation and company: the rule right after it says which company, and the Aftermath says to build a tribe once de-armored; neither says why isolation harms; his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds its label into its first sentence",
+ "needed": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26; Fable's usage limit was reached) given tools/humanization/needed_read_brief.md and only the fold, one sentence a line (x1126c/v1/needed/iso/READ.md)",
+  "unneeded": [
+   "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove."
+  ],
+  "kept": {
+   "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove.": "they learn isolating locks back in the armor the protocol is removing, which makes this a warning of the protocol's and not general advice; his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26; Fable's usage limit was reached) given tools/humanization/his_fixes_brief.md and only the fold, one sentence a line (x1126c/v1/his-fixes/iso/READ.md)",
+  "marked": [
+   {
+    "s": "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty.",
+    "difference": "5, 1: opens on the protocol's demand, the reader outside it; \"Phasic\" with a definition"
+   },
+   {
+    "s": "The easiest way for most folks to take a break from that is to hole up alone.",
+    "difference": "10: \"a break from that\" points at the dopamine or the chase"
+   },
+   {
+    "s": "But don't fall into the isolation trap of cutting yourself off completely, because that actually spikes cortisol, the chronic stress hormone.",
+    "difference": "21: \"the isolation trap\" a label (his nickname, kept in the sentence by 72a)"
+   },
+   {
+    "s": "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove.",
+    "difference": "4, 1: glutamate unexplained; three ideas"
+   },
+   {
+    "s": "Calm company, like nature walk buddies, goes the other way, anchoring you via oxytocin, the bonding hormone.",
+    "difference": "2, 10: two hormones glossed the same way"
+   },
+   {
+    "s": "Good friends are ultimately more vital than any brain repair protocol.",
+    "difference": "6: a wise-sounding end, no act"
+   }
+  ],
+  "kept": {
+   "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix",
+   "The easiest way for most folks to take a break from that is to hole up alone.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix",
+   "And cortisol sensitizes your brain to glutamate, thus locking the old neural armor in place that we're trying to gently remove.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix",
+   "Calm company, like nature walk buddies, goes the other way, anchoring you via oxytocin, the bonding hormone.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix",
+   "Good friends are ultimately more vital than any brain repair protocol.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix"
+  }
+ },
+ "fit": {
+  "reader": "a fresh reader (Sonnet, 2026-11-26; Fable's usage limit was reached) given tools/humanization/fit_read_brief.md and only the fold, one sentence a line (x1126c/v1/fit/iso/READ.md)",
+  "marked": [
+   {
+    "s": "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty.",
+    "found": "MISREAD: \"starving your brain\" sounds like a harsh deprivation until read as a break from novelty"
+   },
+   {
+    "s": "The easiest way for most folks to take a break from that is to hole up alone.",
+    "found": "MISREAD: \"hole up alone\" reads as permission until S3's \"But\""
+   },
+   {
+    "s": "But don't fall into the isolation trap of cutting yourself off completely, because that actually spikes cortisol, the chronic stress hormone.",
+    "found": "CAN'T TELL where \"completely\" begins"
+   }
+  ],
+  "kept": {
+   "This neural de-armoring protocol demands starving your brain of \"Phasic\" Dopamine, which works in the brain to produce learning and excitement when chasing novelty.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix",
+   "The easiest way for most folks to take a break from that is to hole up alone.": "his own sentence, from his card on the Behavioral Warning, in his answers of 2026-11-26 00:50 UTC (x1125a/ANSWERS-X1125A-20261126-0050.json), unchanged in this step but for the label his answer \"72a\" of 2026-11-26 23:30 UTC (fix-20261108/joel-20261126-2330-message.txt) folds in; a change to his own words goes to him first (AGENTS.md: a tested change goes in without a card \"unless ... the words are his own\"), so this mark goes to him in the turn's report with my best fix"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

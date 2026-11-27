@@ -1,0 +1,46 @@
+[
+ {
+  "key": "iso-f2a",
+  "name": "Behavioral Warning, try 2: his own third sentence back, his nickname in brackets after its don't",
+  "lineage": "neuro-de-armoring/W-ISO-his",
+  "scope": "paragraph",
+  "words": 106,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "d8091794355adf7962518f4c909cfd1156d24e5521dd70665c7092124f6eb752"
+ },
+ {
+  "key": "prec-f2a",
+  "name": "Precautions, try 2: its last two sentences given their subject (\"It's\", \"it\")",
+  "lineage": "neuro-de-armoring/W015-his",
+  "scope": "paragraph",
+  "words": 84,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "5a663525c66f7c675c420495d22a9bfd4d7925cafc56d58c04ba3de92b67229b"
+ },
+ {
+  "key": "rule-f2a",
+  "name": "The Rule, folded, its second sentence opening on what brings \"Exciting Love\"",
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "words": 74,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "5de457976b28951d894eb645bb89f1d94d8af082abef38bd130f7e2ed31e6f52"
+ },
+ {
+  "key": "agm-f2a",
+  "name": "Agmatine warning, folded, its opening tied to the herbs the protocol leaves out",
+  "lineage": "neuro-de-armoring/W-AGMINTRO-his",
+  "scope": "paragraph",
+  "words": 80,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "c8ef61b93508c526d8eecdf1b7548ee1c9559cb8589654734bce4e80823aa723"
+ }
+]

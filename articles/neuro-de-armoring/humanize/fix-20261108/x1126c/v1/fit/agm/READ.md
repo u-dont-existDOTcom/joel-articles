@@ -1,0 +1,2 @@
+- S2: ANYWAY - / CAN'T TELL yes, it says agmatine interacts with "a lot more medications" but never names which, so I can't tell whether my blood pressure medication is one of them, or whether to skip it / FROM - / MISREAD -
+- S3: ANYWAY - / CAN'T TELL yes, it lists receptors and pathways (imidazoline/alpha-2, nitric oxide, opioid) and says "treat it with caution", but I can't tell from that whether my blood pressure pill acts on any of them or what caution means for me (check with a doctor, skip it, lower dose) / FROM - / MISREAD -

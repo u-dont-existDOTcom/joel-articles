@@ -1,0 +1,70 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261127-x1126c",
+ "title": "Neuro De-Armoring Cards, 27 November: the Cognitive Warning in the warnings section, for you to teach me",
+ "intro": [
+  "After 72a every warning at the top reads Human High by itself, and the section reads Human Written, 0.0% AI. Two windows still read Human Medium, both in the Cognitive Warning and the paragraph after it. It's the whole article, so you can read them where they go.",
+  "One card. No compound, dose, unit or timing changes anywhere."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1126c/REVIEW-X1126C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "baa77e2d78e8bcaaca9a36f5ff3e7c3cf4e64ea7c2ccca45db227c2564e73275"
+ },
+ "whole": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "baa77e2d78e8bcaaca9a36f5ff3e7c3cf4e64ea7c2ccca45db227c2564e73275"
+ },
+ "built": "2026-11-27T00:12:22Z",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/trauma-and-addiction-why-neurological",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/REVIEW-X1126C.md"
+ },
+ "types": {
+  "teach": {
+   "label": "For you to teach me",
+   "about": "A text of mine whose Pangram tries are spent below High: my best tested version, what each read, and room for yours."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "W-COG-SEC",
+   "type": "teach",
+   "advice": "leave",
+   "approve_label": "use the join",
+   "title": "The Cognitive Warning and the paragraph after it: High by themselves, two Medium windows in the section",
+   "spans": [
+    {
+     "block": 13,
+     "start": 0,
+     "end": 192
+    },
+    {
+     "block": 14,
+     "start": 0,
+     "end": 451
+    }
+   ],
+   "edits": [
+    {
+     "block": 13,
+     "before": "As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\"",
+     "after": "As you de-armor, you will feel naked and exposed, and you will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, *Mindwise*, calls this the \"Illusion of Transparency.\""
+    }
+   ],
+   "what": "The Cognitive Warning (you will feel exposed and assume everyone sees your anxiety; Epley calls it the Illusion of Transparency) and the paragraph after it (you will think people are judging you; don't trust your read of a room until your heart rate is down). Your label is folded in, as 72a asked.",
+   "why": "Checked as a section the warnings now read [Human Written, 0.0% AI](https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc): every window High but two, both here, \"You will assume everyone can see your anxiety, which they mostly can't\" (13 words) and \"Your armored brain also projects the threat it feels onto neutral faces, so you will think people are judging you when they're mostly just thinking about themselves\" (28 words), each Human Medium. By themselves the two read Human High ([with the label folded in](https://www.pangram.com/history/69498d51-4485-47ad-b3be-c50dd04d2c7f); [with your post's \"projects ... onto\" back in place of my \"reads ... into\"](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e)). My last try joined the Cognitive Warning's first two sentences and put the faces sentence's point first: [the join read High in its own window, the faces paragraph Human Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf). That was the pair's last try for this turn (its latest read worse, so the ledger stops it). I can't find more AI tells here that are mine; the short sentences split into small windows when the section is read whole. Can you show me what you'd change?",
+   "reading": "In the section: [Human Written, 0.0% AI](https://www.pangram.com/history/f2364b2b-f464-45de-a68a-f80f938b5ddc), Human Medium over \"You will assume everyone can see your anxiety, which they mostly can't\" and over the faces sentence; every other window High.",
+   "tested": "The join, in my last try of the two paragraphs: [its window read Human High, the faces paragraph after it Human Medium](https://www.pangram.com/history/23fbc3f5-ab5b-4e90-bceb-08e3354afedf) (that try also moved the faces sentence's point first, which I would not keep). As they stand they read [Human High by themselves](https://www.pangram.com/history/787fc317-0dc4-47a4-87e8-2c9ac3df278e).",
+   "stays": "Epley's credit, as your 68a has it; \"naked and exposed\"; the heart-rate test (back to your usual resting rate, and under 90 BPM); the link to the Metabolic Red Line.",
+   "deciding": "Your version of the two paragraphs, or the join of the first two sentences, or leaving them as they are.",
+   "advice_note": "Leave it as it is, unless you give your version: each paragraph reads Human High by itself, and the join alone is untested in the section. If you write yours, the two short sentences of the Cognitive Warning are where the section's windows split.",
+   "ask_because": "downside: two windows of the warnings section stay Human Medium, and my tries for these two paragraphs are spent this turn",
+   "found_by": "The section's last check of 2026-11-27, after 72a; the checks in his Pangram account",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/COG-J.receipt.json"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "ethno-f2a": {
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "name": "Ethnobotanicals, folded, its second and third sentences joined by \"so\"",
+  "text": "The plant medicines in this protocol are iboga (an African root bark) and psilocybin mushrooms. Both are illegal in many jurisdictions and carry risks, and iboga can be dangerous for your heart, so never combine iboga with most medications (especially heart & psych meds). If you take any medication, ask an AI whether it's one of them, since AI is pretty good at that (my full iboga guide here lists some of them, and the iboga microdosing protocol is here). Ask the AI about the mushrooms too, since lithium, for one, has been tied to seizures when taken with psychedelics.",
+  "chance": 0.7,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/ETHNO-F2A.receipt.json",
+  "diagnosis": "the fold read Human High by itself (https://www.pangram.com/history/7dada8cf-90a9-40b5-88f1-b2637462237d); in the section's last check (https://www.pangram.com/history/9160d721-d82e-4630-b102-859fff5f5f2e) its second sentence alone read Human Medium (\"Both are illegal in many jurisdictions and carry risks, and iboga can be dangerous for your heart\"), a short sentence whose point the next one draws (\"So never combine iboga ...\"). His usual fix joins them.",
+  "decides": "whether this goes in before the section's check after this fix; below High, the paragraph stays as it read High by itself and the Medium window is the next pass's work",
+  "first_fix": "payoff: the rule that follows from the heart danger now ends the same sentence; join: the second and third sentences joined by \"so\", as his fixes join short sentences that carry one thought; plain: none, no paraphrase in it",
+  "tells": "\"carry risks\" (names none; his post's words)",
+  "human_tells": "his post's words \"illegal in many jurisdictions and carry risks\" and \"(especially heart & psych meds)\"; his line \"since AI is pretty good at that\"",
+  "humanized": "his usual fix on the one window below High in the section: the short sentence joined to the one its point leads to, by \"so\"; every other word as it read Human High"
+ },
+ "rule-f3b": {
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "name": "The Rule, folded, its second and third sentences joined by \"so\"",
+  "text": "My rule for now is to seek \"Boring Love\", meaning parallel play (like reading next to someone) and touch that feels safe to you. A new romance or high-stakes drama gives you the rush of \"Exciting Love\", which spikes Phasic Dopamine and puts the armor right back up, so this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have.",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/RULE-F3B.receipt.json",
+  "diagnosis": "try 2 read Human High by itself (https://www.pangram.com/history/71736380-8f72-43e4-89cc-ff3378253463); in the section's last check (https://www.pangram.com/history/9160d721-d82e-4630-b102-859fff5f5f2e) its second sentence read Human Medium (\"A new romance or high-stakes drama gives you the rush of 'Exciting Love', which spikes Phasic Dopamine and puts the armor right back up\"; AI High in the stretch before), a sentence whose point the next one draws (\"So this may not be a good time ...\"). His usual fix joins them; the two stay named in the join, as an earlier comparison read asked (read-1126c F1.2).",
+  "decides": "whether this goes in before the section's check after this fix; below High, the paragraph stays as it read High by itself and the Medium window is the next pass's work",
+  "first_fix": "payoff: what follows for the reader now ends the sentence that gives the danger; join: the second and third sentences joined by \"so\"; plain: none, no paraphrase in it",
+  "tells": "\"meaning parallel play\" (a gloss after a coined name)",
+  "human_tells": "his post's names \"Boring Love\" and \"Exciting Love\"; his 66: \"just maybe not a good time to jump into it\"",
+  "humanized": "his usual fix on the one window below High in the section: the short sentence joined to the one its point leads to, by \"so\"; every other word as it read Human High"
+ }
+}

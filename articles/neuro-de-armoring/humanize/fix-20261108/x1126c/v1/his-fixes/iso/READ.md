@@ -1,0 +1,7 @@
+MARKED:
+- S1: 5 — Opens on the protocol "demanding" something, with the reader outside it; his way would start from the reader's situation (why they'd cut excitement) and then name what the protocol asks. Also 1 — "Phasic" dopamine plus "learning and excitement when chasing novelty" packs several ideas into one clause; he would give each its own clause saying what happens.
+- S2: 10 — "a break from that" could point to phasic dopamine or to chasing novelty; he would name it ("a break from chasing novelty").
+- S3: 21 — "the isolation trap" is a label for the thing; he would say what happens (cutting yourself off completely raises cortisol, the chronic stress hormone).
+- S4: 4 — "sensitizes your brain to glutamate" leaves glutamate unexplained and gives no concrete consequence for the reader; he would explain the term in the sentence and say what it does. Also 1 — cortisol, glutamate, locking in armor and removal are packed into one sentence.
+- S5: 2 — "cortisol, the chronic stress hormone" and "oxytocin, the bonding hormone" repeat the same bracketed-explanation shape at the same place; he would build them differently. Also 10 — "goes the other way" could mean the opposite effect on cortisol or the opposite of isolating, and nothing names what.
+- S6: 6 — Ends on a line that sounds wise ("ultimately more vital than any brain repair protocol") instead of what to do; he would end on an act, such as who to call or walk with.

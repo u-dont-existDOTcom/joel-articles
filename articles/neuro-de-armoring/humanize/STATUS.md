@@ -1,5 +1,31 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-27, his message of 2026-11-26 23:30 UTC ("72a"): every label folded in; the warnings section from Mostly Human to Human Written
+
+His message word for word: `fix-20261108/joel-20261126-2330-message.txt`. **The mailbox** ("2026-11-26 23:30"): UDA
+AGENTS.md read live (main 3fce032, unchanged), LESSON-INDEX as before; the six suggested fixes all in the ledger; main
+moved during the turn (romance 549 and 551, somatic additions 550: one romance lesson and pangram_lanes.json, nothing
+this lane uses) and was merged before the push; pull request 545 unchanged; no comments on this lane's pull requests; no
+notifications.
+
+- **In** (`fix-20261108/x1126c/apply_x1126c.py`, four runs in `APPLIED-X1126C.json`; HUMANIZED-SO-FAR.md fce359ca to baa77e2d): the
+  ten labels folded into first sentences (#269 to #278, each Human High in one window); the Isolation Trap's second try
+  (#279: his third sentence back with "(the isolation trap)"); The Rule's second sentence opening on what brings Exciting
+  Love (#281) and joined to the next by "so" (#286); the agmatine opening's "do" (#282); the Precautions' "It's" (#283,
+  his "use with extreme caution" kept for fidelity key W009); the plant medicines' second and third sentences joined
+  (#285); the faces sentence's "projects ... onto", his post's verb (#288). Fidelity PASS (72a recorded for the label
+  words), keep-as-is PASS (K2 moved to the folded name), comparison gate PASS (`fix-20261108/x1126c/read-1126h`: one finding, rated 1, kept).
+- **The section**: #284 Human Written, 0.0% AI, two Medium windows; #287 after the joins, one Medium window (the faces
+  sentence); #289 after the faces fix, two short Medium windows over the Cognitive Warning and the faces sentence. The
+  pair's tries are spent (PAIR-COG-FACES off the right track after #290, the point-first reorder, Medium): the teaching
+  card W-COG-SEC (`fix-20261108/x1126c/REVIEW-X1126C.md`, https://claude.ai/artifact/1qj6x1HXnnRytFE3oU8inA).
+- **Questions 73 and 74** (his lion's mane line: stop or don't start; his Precautions: how far apart is "concurrently"),
+  from the fresh Sonnet reads of his five versions (`fix-20261108/x1126c/v1`; Fable's limit was reached until 2026-12-01 14:00).
+- **Lessons neuro-2026-11-26m to q** (`docs/lessons/2026-11-26-2330-neuro.md`).
+- **What is left**: `LEFT.md`: 141 paragraphs, 27 Human High by themselves, 63 below, 51 never checked as they stand.
+- **Waiting on him**: questions 73 and 74, the card. Predictions #269 to #290: 22 of 22 right on the headline, six with
+  a window below High the call didn't foresee.
+
 ## 2026-11-26, his message of 15:26 UTC: 70a and 71; no "never" for 5-HTP with mushrooms; the warnings checked as a section
 
 His message word for word: `fix-20261108/joel-20261126-1526-message.txt`. **The mailbox first** ("2026-11-26 15:26"):

@@ -1,0 +1,16 @@
+{
+ "cog-faces-f2": {
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "name": "Cognitive Warning (30 words), folded, with the paragraph after it, its \"reads ... into\" back to his post's \"projects ... onto\"",
+  "text": "As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety, which they mostly can't. Nicholas Epley, Mindwise, calls this the \"Illusion of Transparency.\"\n\nYour armored brain also projects the threat it feels onto neutral faces, so you will think people are judging you when they're mostly just thinking about themselves. So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+  "chance": 0.65,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1126c/receipts/PAIR-COG-FACES-F2.receipt.json",
+  "diagnosis": "the pair read Human High by itself (https://www.pangram.com/history/69498d51-4485-47ad-b3be-c50dd04d2c7f); in the section's check after the joins (https://www.pangram.com/history/22895a18-b8a4-4455-8301-c1580fe2b9cc) the second paragraph's first sentence read Human Medium. Its \"reads the threat it feels into neutral faces\" is my paraphrase of his post's \"projects its own internal threat level onto neutral faces\"; this try puts his verb back, two words, as the near-miss rule allows.",
+  "decides": "whether this goes in before the section's check after this fix; below High, the pair stays as it read High",
+  "first_fix": "payoff: already leads, the sentence ties back with \"also\" and ends on what the reader will think; join: none, it stays one sentence; plain: my \"reads ... into\" went back to his post's plain \"projects ... onto\"",
+  "tells": "\"the threat it feels\" (a mechanism phrase)",
+  "human_tells": "his post's \"You will think people are judging you\" and \"you will feel naked and exposed\"",
+  "humanized": "the label folded into the first sentence (72a); in the second paragraph, my paraphrase \"reads ... into\" back to his post's \"projects ... onto\"; every other word as it read Human High"
+ }
+}

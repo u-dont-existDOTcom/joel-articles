@@ -1,0 +1,55 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 1,
+    "total_line": 1
+   }
+  },
+  "findings": 1,
+  "by_severity": {
+   "1": 1
+  },
+  "by_kind": {
+   "vaguer": 1
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 14,
+  "paragraphs_hit": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "A new romance or high-stakes drama gives you the rush of \"Exciting Love\", which spikes Phasic Dopamine and puts the armor right back up, so this may not be a good time to jump into a new romance or drama, though there's no need to leave the partner you have.",
+   "published": "The other kind, \"Exciting Love\", is the rush of a new romance or high-stakes drama, which spikes Phasic Dopamine and puts the armor right back up.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"The other kind\" is gone, so the reader no longer sees at once that Exciting Love is the opposite of Boring Love, and the term is now defined as something a romance \"gives you\" instead of as a kind of love.",
+   "now_found": 1.0,
+   "now_blocks": [
+    6
+   ],
+   "where": [
+    "The warnings at the top, each label folded into its first sentence (72a), P6"
+   ],
+   "block_hashes": [
+    "101ed2c91c7edebc"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    6
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  }
+ ]
+}

@@ -1948,6 +1948,41 @@
     }
    ],
    "recorded_utc": "2026-11-26T15:54Z"
+  },
+  {
+   "turn": "2026-11-26T23:30Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all already in docs/suggested-fixes-ledger.md; no new item; UDA main at 3fce032 (root AGENTS.md read live at the start of the turn)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main moved during the turn to 782b461d (romance 549 and 551, somatic additions 550, bad trips 552: lessons romance-2026-11-26d and bad-trips-2026-11-27a to e, docs/FIXING-AN-ARTICLE.md's warning check before a rewrite is checked, pangram_lanes.json); merged into this branch before the push, and this turn's lessons o and p point to bad-trips-2026-11-27c and d, learned the same night; pull request 545 (somatic research, another lane) unchanged; no new comments or reviews on this lane's pull requests since 2026-11-26 15:50 UTC, and no new issues (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no one else changed HANDOFF-neuro-de-armoring.md or OWNER-QUESTIONS.md since this lane's last commit (6c6a3330)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (read during the turn)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 23:30 UTC: 72a",
+     "outcome": "done: ten labels folded into first sentences, each warning Human High by itself; The Rule's and agmatine's openings fixed; the warnings section from Mostly Human 6% to Human Written 0.0% AI with two short Medium windows, which a teaching card asks him about; questions 73 and 74 from the fresh reads of his versions"
+    }
+   ],
+   "recorded_utc": "2026-11-27T00:19Z"
   }
  ]
 }

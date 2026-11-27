@@ -1,0 +1,13 @@
+MARKED:
+- S1: 1 — Three ideas in one sentence (leaving the herbs out, a concession that they're popular, and the reason). His way gives each its own clause, or its own sentence, with what the reader should do.
+- S1: 4 — "some people report" (who, how many), "long after they stop" (how long), "sexual dysfunction" (what happens) and "anhedonia (no desire)" (anhedonia is loss of pleasure, so the gloss names something else) are all vague. His way says what the reader would notice and over what time span.
+- S1: 9 — It gives the finding ("some people report...") before the limit that decides whether it matters to the reader (it is rare, per S2). The limit sits in the next sentence. His way puts what decides relevance first and says what the claim rests on, e.g. "based on reports from ...".
+- S1: 10 — "they're popular" points at the herbs, but "they stop taking them" needs "they" to be people and "them" to be the herbs. A quick reader could take "they" either way.
+- S2: 1 — Packs the coined names "Post-ashwa and post-lion's mane syndrome", a rarity claim, a comparison to two drug classes, and a takeaway into one sentence. His way gives each its own clause with what happens.
+- S2: 4 — "the same kind of thing SSRIs and finasteride can do" never says what they do. "something to keep in mind" does not say what to keep in mind. SSRIs and finasteride are not explained for a reader who doesn't know them.
+- S2: 6 — Ends on a summing-up that sounds wise ("so it's something to keep in mind") instead of an action. His way ends on what to do, or cuts the line.
+- S2: 7 — "Rare" and "same kind as SSRIs" are true but give the reader nothing to act on. It never says what to do if they notice the effect, or whether this changes their choice of herbs.
+- S2: 9 — "are rare" is stated with nothing it rests on. His way gives the claim and then the basis in plain words.
+- S2: 10 — "it's the same kind of thing" and "it's something" could point at the syndrome, at its rarity, or at the effect described in S1. A quick reader could take them either way.
+- S2: 12 — It opens on a named syndrome as if it were a new point. Nothing says this is the name for the effect S1 just described. The closing "so" rests on "rare but similar to SSRIs", which does not lead to "keep in mind" (rare would argue for less concern). His way says what the "so" follows from.
+- S2: 21 — "Post-ashwa and post-lion's mane syndrome" and "the same kind of thing" are labels for the thing in place of the thing itself (loss of desire and sexual function after stopping). His way says what happens.

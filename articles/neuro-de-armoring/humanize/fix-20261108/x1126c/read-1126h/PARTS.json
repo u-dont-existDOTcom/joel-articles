@@ -1,0 +1,33 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1126c/read-1126h/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1126c/read-1126h/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 1139,
+   "original_words": 1157,
+   "first": "The warnings at the top, each label folded into its first sentence (72a)",
+   "last": "The warnings at the top, each label folded into its first sentence (72a)",
+   "rewrite_blocks": [
+    0,
+    14
+   ],
+   "coverage": [
+    "401643625d7d9f8e",
+    "4aa1db46e4061a68",
+    "8f94b52e58b1f781",
+    "555c3f1ccd0d8337",
+    "86eb60dc3f424be5",
+    "101ed2c91c7edebc",
+    "2e346664cfe2bd2d",
+    "a3b5ee5f81fc5e23",
+    "6a1e876bea9549a5",
+    "261afdcd8973f251",
+    "e28b5f71054f6527",
+    "2565b73d6e2870de",
+    "21ad2bf0ad806523",
+    "e0e0d0fd9d7954d7"
+   ]
+  }
+ ]
+}

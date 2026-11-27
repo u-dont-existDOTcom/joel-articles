@@ -1,0 +1,14 @@
+MARKED:
+- S1: 1 — Packs four groups of drugs, two parentheticals and a physician condition into one sentence; his way gives each group its own clause saying what happens (for example, what the combination does) and what to do.
+- S1: 19 — A list of four items (opioids/kratom, clonidine/guanfacine, blood pressure drugs, "complex psychoactive stacks") with "and/or" pairs inside, read as a listicle; his way keeps the items that carry the point and gives one a case from life.
+- S1: 4 — "other complex psychoactive stacks" is vague about what counts (the parenthetical only says "anything that works on the brain"), and "competent to consider the likelihoods of problematic interactions" does not say what the physician should check or why. His way names the things.
+- S1: 10 — "(will reduce tolerance)" could point at the opioids/kratom, at agmatine, or at the person's tolerance, and a reader cannot tell whether it is a benefit or a danger. His way names whose tolerance and what follows from it.
+- S1: 5 — Opens on a bare rule ("Do not use agmatine concurrently with ...") with the reader outside it. His way opens with the reader's situation, for example "If you take any of these, ...".
+- S1: 13 — Opens on what to do before saying what in the reader's situation calls for it, and never says why these combinations are a problem.
+- S2: 12 — A new case ("pregnancy or breast-feeding") standing on its own as if a new point, with nothing saying how it follows from the interaction warnings before it.
+- S2: 7 — States "not recommended" with no reason and no instruction, so the reader cannot act on it (who recommends against it, and what to do instead).
+- S3: 19 — A list of three risk groups (prior psychotic episode, lower end blood pressure, kidney or liver issues), the last one itself a pair.
+- S3: 15 — "Use with extreme caution" gives the reader nothing to do; his way says what caution means (for example, check with a physician first, or start with a small dose and watch for a specific sign).
+- S3: 4 — "lower end blood pressure" and "kidney or liver issues" are vague about what counts (a low reading? which problems?), and "extreme caution" does not say how much or in what way.
+- S3: 12 — Another case of the same kind standing alone; nothing says how it follows from S2 or why these groups come next.
+- S3: 13 — Gives the groups without saying what in each situation calls for caution (what the agmatine could do to them).

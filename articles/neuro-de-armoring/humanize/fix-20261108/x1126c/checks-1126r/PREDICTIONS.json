@@ -1,0 +1,112 @@
+[
+ {
+  "key": "dmso-f1",
+  "name": "DMSO Safety, its label folded in",
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "words": 146,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "see the ledger record",
+  "sha256": "475b23262840b5014483666eb268a5050ed1616b7104b3c8a3aa715ac6640c02"
+ },
+ {
+  "key": "elec-f1",
+  "name": "Electrolytes, its label folded in",
+  "lineage": "neuro-de-armoring/W-ELEC",
+  "scope": "paragraph",
+  "words": 58,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "see the ledger record",
+  "sha256": "e2cc3dcba4be7ef9cc18dd81caa251d9b167c8e307b310535242bcf2145a3a95"
+ },
+ {
+  "key": "ethno-f1",
+  "name": "Ethnobotanicals, its label folded in",
+  "lineage": "neuro-de-armoring/W-ETHNO",
+  "scope": "paragraph",
+  "words": 100,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "see the ledger record",
+  "sha256": "440258c520a89141374ea32b44740334f539b0f7eae6eadd33a1e13a7c0aba86"
+ },
+ {
+  "key": "iso-f1",
+  "name": "Behavioral Warning, its label folded in, \"the isolation trap\" kept in its third sentence",
+  "lineage": "neuro-de-armoring/W-ISO-his",
+  "scope": "paragraph",
+  "words": 111,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "cf22e6b6130d113c46cd067a83db9e9e219a688f72bc50096aa75a78755bccfe"
+ },
+ {
+  "key": "rule-f1",
+  "name": "The Rule, its label folded in",
+  "lineage": "neuro-de-armoring/W-RULE",
+  "scope": "paragraph",
+  "words": 76,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "71021ae369a5da8e20ff178ff180b2c18d699ee64c874957165a6a55f2d446a8"
+ },
+ {
+  "key": "cog-faces-f1",
+  "name": "Cognitive Warning (30 words), its label folded in, with the paragraph after it",
+  "lineage": "neuro-de-armoring/PAIR-COG-FACES",
+  "scope": "pair",
+  "words": 107,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "15cf9cf28d5f1cabe27640a1af892354b973fc58e59e4f2d2f759fec0a105ee8"
+ },
+ {
+  "key": "lma-f1",
+  "name": "Lion's Mane & Ashwagandha, its label folded in",
+  "lineage": "neuro-de-armoring/W-LMA-his",
+  "scope": "paragraph",
+  "words": 58,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "c9749eb4aae3e13478792aca69f55081f81b4946280dd2c43b1d7b0de197e4d4"
+ },
+ {
+  "key": "agm-f1",
+  "name": "Agmatine Warning, its label folded in, \"the voltage regulator\" kept in its first sentence",
+  "lineage": "neuro-de-armoring/W-AGMINTRO-his",
+  "scope": "paragraph",
+  "words": 79,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "see the ledger record",
+  "sha256": "d2f2096025b59e35dbadfd98808083dc268a626e8fafe21db7b534054124b5f7"
+ },
+ {
+  "key": "prec-f1",
+  "name": "Precautions, its label folded in, agmatine named",
+  "lineage": "neuro-de-armoring/W015-his",
+  "scope": "paragraph",
+  "words": 82,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "566ae215e2437aa43713f957f26e5478e40825d35fddb4f4725cdd34012ada27"
+ },
+ {
+  "key": "htp-f1",
+  "name": "The warning for psychedelic users, its label folded in, \"it\" named as 5-HTP",
+  "lineage": "neuro-de-armoring/W-HTPTOP-his",
+  "scope": "paragraph",
+  "words": 118,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "see the ledger record",
+  "sha256": "dbd0585f51c55654c447d44b51e1b1c6e012da35729a712c4c6e8776edd64952"
+ }
+]

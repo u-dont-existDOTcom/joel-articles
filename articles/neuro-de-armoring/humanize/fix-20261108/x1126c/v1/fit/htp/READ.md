@@ -1,0 +1,5 @@
+- S1: ANYWAY - / CAN'T TELL yes, "don't mix everything together all at once" doesn't say which things to stagger or by how long, so I couldn't plan a start order / FROM - / MISREAD yes, "change how strongly psychedelics hit you" doesn't say stronger or weaker, so it could alarm or reassure wrongly
+- S2: ANYWAY - / CAN'T TELL yes, I can't tell whether psilocybin counts as "anything else that raises serotonin levels" (S4's list doesn't name it), and I know I take an SSRI / FROM - / MISREAD -
+- S3: ANYWAY - / CAN'T TELL yes, it names serotonin syndrome but gives no signs I could recognize in myself, only a pointer to another section / FROM - / MISREAD -
+- S4: ANYWAY - / CAN'T TELL yes, my SSRI is on the list, but it doesn't say what to do (skip 5-HTP, talk to my prescriber, stop the SSRI), and it doesn't say whether psilocybin is covered / FROM - / MISREAD -
+- S5: ANYWAY - / CAN'T TELL yes, "anywhere near iboga" gives no time gap, so I can't tell how far apart is safe / FROM - / MISREAD yes, "it" could be read as the whole list of drugs or as 5-HTP, and a quick reader could take it either way
