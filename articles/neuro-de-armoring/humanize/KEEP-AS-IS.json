@@ -81,6 +81,36 @@
    "when": "2026-11-27 19:16 UTC",
    "where": "card W-COG-SEC, his comment (fix-20261108/x1127a/ANSWERS-X1127A-20261127-1916.json)",
    "basis": "his answer"
+  },
+  {
+   "id": "K9",
+   "kind": "choice",
+   "quote": "people you're close to and who you hang with on most days",
+   "what": "his fix of a clause that was hard to parse: with the second \"who you\" left out (\"close to and see most days\"), a reader can take \"see most days\" as something the people do; a pass that trims words would take \"who you\" out again, and \"hang with\" is his plain word for spending time with them",
+   "joel": "who you're close to and see most days was hard to parse. i fixed it",
+   "when": "2026-11-27 22:59 UTC",
+   "where": "card W-SW19, his comment (fix-20261108/x1127b/ANSWERS-X1127B-20261127-2259.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K10",
+   "kind": "choice",
+   "quote": "which is another dimension of micro-dosing",
+   "what": "his tie between doses of seconds and micro-dosing as readers know it (small doses of a substance): the protocol extends the idea to time, it does not redefine the word; \"what I mean by micro-dosing here\" pointed at nothing a reader had and took the word from its usual sense",
+   "joel": "last line of 1st para was unclear with what it referred to (no context), and even with the article context it was unclear since i'm not usually talking about time when talking about microdosing (nor are ppl usually talking about it that way",
+   "when": "2026-11-27 22:59 UTC",
+   "where": "card W-SW23, his comment (fix-20261108/x1127b/ANSWERS-X1127B-20261127-2259.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K11",
+   "kind": "choice",
+   "quote": "I'd do something like 30 seconds of slow breathing, 20 times a day",
+   "what": "his rough figure for a daily practice: \"something like\" looks like a hedge to cut, and it is what makes the line honest, since nobody does exactly 30 seconds 20 times; \"20\" is a numeral on purpose (a model spells it out)",
+   "joel": "for the last line, you forgot not to spell out twenty i think that's also a repo rule, ai is always spelling numbers out ... but that didn't help. what helped was \"something like\" since nobody could actually do exactly 30 seconds 20 times, that's unreasonable",
+   "when": "2026-11-27 22:59 UTC",
+   "where": "card W-SW23, his comment (fix-20261108/x1127b/ANSWERS-X1127B-20261127-2259.json)",
+   "basis": "his answer"
   }
  ],
  "cuts": [

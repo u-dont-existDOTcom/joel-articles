@@ -26,6 +26,28 @@
    ],
    "before_sha256": "731f5711e0b85c2cd7452f215bcaee1af82ae1c914966675537742e075fd0909",
    "after_sha256": "f8bfa190764df3cad0f3e1e102daed6868be03dc193fb098ad8890cf87d7016b"
+  },
+  {
+   "applied": [
+    {
+     "key": "W-SW19",
+     "whose": "his version on the card, as he checked it, with the link on \"Perry, 2023\" put back",
+     "check": "his check: https://www.pangram.com/history/51ceffa5-98f3-4fd5-b160-e438f540d9d8 (Human Written, one window, High, 94 words)",
+     "old": "We are operating on about one-sixteenth of the relational density our biology requires ([Perry, 2023](https://issuu.com/familyjusticegroup/docs/20230629_journal_final/s/27001732)). The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+     "new": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with ([Perry, 2023](https://issuu.com/familyjusticegroup/docs/20230629_journal_final/s/27001732)). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and who you hang with on most days, or you'll eventually put the armor back on just to get through the loneliness."
+    },
+    {
+     "key": "W-SW23",
+     "whose": "his version on the card, as he checked it (the Anti-Breakthrough and the practice paragraph)",
+     "check": "his checks, three steps: https://www.pangram.com/history/dd157d47-19a1-40a5-95af-1d5d6a9440e3, https://www.pangram.com/history/75361775-0680-4db9-835b-5d71b387ce59, https://www.pangram.com/history/6bdc6163-1943-4de6-87d1-d398f4431bee (the last Human Written, one window, High, 95 words)",
+     "old": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nYour goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. We are not running a marathon; we are doing physical therapy for a broken nervous system. Frequency beats intensity.",
+     "new": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is another dimension of micro-dosing.\n\nIn practice, I'd do something like 30 seconds of slow breathing, 20 times a day."
+    }
+   ],
+   "answers": "x1127b/ANSWERS-X1127B-20261127-2259.json",
+   "his_checks": "x1127b/HIS-CHECKS-X1127B.json",
+   "before_sha256": "f8bfa190764df3cad0f3e1e102daed6868be03dc193fb098ad8890cf87d7016b",
+   "after_sha256": "9383da8219a4f1d0a256c111a93c1161e1ee110e6c55273a83e6d5823dbc4f1c"
   }
  ]
 }

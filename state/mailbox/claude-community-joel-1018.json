@@ -2127,6 +2127,42 @@
     }
    ],
    "recorded_utc": "2026-11-27T20:09Z"
+  },
+  {
+   "turn": "2026-11-27T22:59Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ listed from a read-only git clone of UDA main (3fce032): six items, all six already in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no one else changed articles/neuro-de-armoring/ (HANDOFF-neuro-de-armoring.md, OWNER-QUESTIONS.md) on main since this lane's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    },
+    {
+     "place": "repo",
+     "status": "unreachable",
+     "failed": "partly read: from git refs, pull requests 566 to 573 since this lane's last push (570, b4c42b4) are all merged into main (somatic, romance r51, three INDEX hash, bad trips turn 75, somatic 22:26, card game), and main is merged (fast-forward to 8dc30ee); new issues, comments and reviews unread: GitHub's REST API answers 403 'GitHub access to this repository is not enabled for this session' (23:01 UTC), and attaching the repository (add_repo) was refused by the session's auto-mode check as 'Unauthorized Access' (23:00 UTC), so it is left unread rather than worked around",
+     "retry": "the next turn, or a session where the repository can be attached"
+    }
+   ],
+   "items": [
+    {
+     "item": "his cards-page export of 2026-11-27 22:59 UTC (review neuro-de-armoring-cards-20261127-x1127b: W-SW19 and W-SW23 both 'revise', his versions with three Pangram checks and comments)",
+     "outcome": "applying this turn: his versions in as he checked them, his checks read back, lessons from his comments with their blind test"
+    }
+   ],
+   "recorded_utc": "2026-11-27T23:03Z"
   }
  ]
 }

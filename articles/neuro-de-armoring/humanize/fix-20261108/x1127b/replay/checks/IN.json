@@ -1,0 +1,26 @@
+{
+ "bl-sw19": {
+  "lineage": "neuro-de-armoring/W-SW19-blind (replay x1127b)",
+  "scope": "paragraph",
+  "name": "Blind rewrite of the one-sixteenth paragraph (replay)",
+  "text": "That works out to about 1/16th of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and who you see most days, or you'll eventually put the armor back on just to get through the loneliness.",
+  "chance": 0.65,
+  "unchanged": "a fresh Fable writer's rewrite of my last try (P-SW19#321) as it stood before his fix, from replay/BRIEF.md alone (replay/OUT.md), checked exactly as written",
+  "diagnosis": "the writer said \"who you\" again, so \"see most days\" can only hang from the \"who\" clause, as his fix did; it kept \"see\" where he wrote \"hang with on\", and wrote \"one-sixteenth\" as \"1/16th\", which the brief allowed; my last try read High, then Medium over the tribe sentence (https://www.pangram.com/history/9f18c4aa-12e3-4806-a13d-57c8ebe5b439)",
+  "decides": "whether the lessons of his fix alone (lessons neuro-2026-11-27s to w, replay/BRIEF.md) let a fresh writer that never saw his version take my last try to Human High (AGENTS.md, lesson romance-2026-11-22h)",
+  "tells": "\"1/16th\", a figure from a study turned into digits with an ordinal ending; \"see most days\", plain but the verb a model picks",
+  "human_tells": "none to name: the words are mine and the writer's, and nothing of his is in it"
+ },
+ "bl-sw23": {
+  "lineage": "neuro-de-armoring/PAIR-SW22-23-blind (replay x1127b)",
+  "scope": "pair",
+  "name": "Blind rewrite of the Anti-Breakthrough and the practice line (replay)",
+  "text": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is another kind of micro-dosing, with healing work instead of a drug.\n\nIn practice, I'd do something like 30 seconds of slow breathing, about 20 times a day.",
+  "chance": 0.55,
+  "unchanged": "a fresh Fable writer's rewrite of my last try (PAIR-SW22-23#318) as it stood before his fix, from replay/BRIEF.md alone (replay/OUT.md), checked exactly as written",
+  "diagnosis": "the writer tied micro-dosing to the sense readers know (\"another kind of micro-dosing\"), as his fix did, but added a contrast tail (\"with healing work instead of a drug\"); it gave the practice line \"something like\" and a second hedge, \"about 20\"; my last try read High, then Medium over the Anti-Breakthrough's last sentence and the practice line (https://www.pangram.com/history/1b4480e7-f060-4462-89bb-7be42ead2f3a)",
+  "decides": "whether the lessons of his fix alone (lessons neuro-2026-11-27s to w, replay/BRIEF.md) let a fresh writer that never saw his version take my last try to Human High (AGENTS.md, lesson romance-2026-11-22h)",
+  "tells": "\"with healing work instead of a drug\", an X-instead-of-Y tail explaining the tie; two hedges on one figure (\"something like ..., about 20\")",
+  "human_tells": "none of mine to name: the words are mine and the writer's"
+ }
+}

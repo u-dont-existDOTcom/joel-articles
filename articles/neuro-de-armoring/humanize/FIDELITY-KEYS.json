@@ -2879,6 +2879,31 @@
    "numbers_lost": [],
    "numbers_new": [],
    "keys_lost": {}
+  },
+  {
+   "by": "card W-SW19, his version (fix-20261108/x1127b/ANSWERS-X1127B-20261127-2259.json), applied by fix-20261108/x1127b/apply_his_x1127b.py",
+   "why": "the one-sixteenth paragraph, his version of my step 7: the post's \"relational density our biology requires\" becomes \"the grown-ups per child that our brains evolved with\"; \"You must aggressively engineer a \"High-Density\" social environment (A Tribe)\" becomes \"gather a tribe of people you're close to and who you hang with on most days\"; \"the brain will eventually reach for the armor again just to survive the cold\" becomes \"you'll eventually put the armor back on just to get through the loneliness\"; Perry 2023 and its link stay. His check: https://www.pangram.com/history/51ceffa5-98f3-4fd5-b160-e438f540d9d8 (Human Written, one window, High, 94 words). The warning's meaning stays (gather a tribe, or you put the armor back on): its words \"aggressively\" and \"High-Density\" go with the post's sentence.",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {
+    "W019": [
+     [
+      "aggressively"
+     ],
+     [
+      "high-density"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "card W-SW23, his version (fix-20261108/x1127b/ANSWERS-X1127B-20261127-2259.json), applied by fix-20261108/x1127b/apply_his_x1127b.py",
+   "why": "the Anti-Breakthrough's last clause becomes \"which is another dimension of micro-dosing\", and the post's practice paragraph (\"Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. We are not running a marathon; we are doing physical therapy for a broken nervous system. Frequency beats intensity.\") becomes \"In practice, I'd do something like 30 seconds of slow breathing, 20 times a day.\"; the 30 seconds and the 20 times a day stay (twenty now a numeral). His checks: https://www.pangram.com/history/dd157d47-19a1-40a5-95af-1d5d6a9440e3, https://www.pangram.com/history/75361775-0680-4db9-835b-5d71b387ce59, https://www.pangram.com/history/6bdc6163-1943-4de6-87d1-d398f4431bee (the last Human Written, one window, High, 95 words).",
+   "numbers_lost": [],
+   "numbers_new": [
+    "20times"
+   ],
+   "keys_lost": {}
   }
  ],
  "warning_words": {

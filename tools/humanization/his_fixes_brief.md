@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a; the twenty-ninth, from his fix of the bad trips guide's kidney paragraph, lesson bad-trips-2026-11-25b; the thirtieth, from his fix of its beach morning glory amounts, lesson bad-trips-2026-11-27j). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a; the twenty-ninth, from his fix of the bad trips guide's kidney paragraph, lesson bad-trips-2026-11-25b; the thirtieth, from his fix of its beach morning glory amounts, lesson bad-trips-2026-11-27j; the thirty-first and thirty-second, from his fixes of the neuro de-armoring protocol's Psychology section, lessons neuro-2026-11-27t and u; the verb that hangs from the order in the tenth, lesson neuro-2026-11-27s). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, one from his Two Pillars fix, 2026-11-24, one from his kidney paragraph, 2026-11-25, and one from his beach morning glory amounts, 2026-11-27). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, one from his Two Pillars fix, 2026-11-24, one from his kidney paragraph, 2026-11-25, one from his beach morning glory amounts, 2026-11-27, and two from his fixes of the neuro de-armoring protocol, 2026-11-27). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -98,8 +98,14 @@ that still reads the first way.
    which is what the blind rewrite of that passage did. A feeling the reader projects can read as a real one: "you
    project the threat you feel onto others" leaves open whether the threat is there, and his one word, "the nonsensical
    threat you feel", took that window from Human Medium to one window High (neuro de-armoring, 2026-11-27: "one word to
-   clarify fixes it all"; lesson neuro-2026-11-27k). For every such word, write what it could mean here, and mark it
-   if a quick reader could take it either way.
+   clarify fixes it all"; lesson neuro-2026-11-27k). A second verb after "and" can hang from the wrong clause: "So
+   gather a tribe of people you're close to and see most days" lets "and see most days" read as a second order beside
+   "gather"; he said the relative words again, "people you're close to and who you hang with on most days" ("who you're
+   close to and see most days was hard to parse"), and the paragraph went from a Medium window over that sentence to one
+   window, High (neuro de-armoring, 2026-11-27, lesson neuro-2026-11-27s). For every such word, write what it could
+   mean here, and mark it if a quick reader could take it either way; for every "and" that joins two verbs inside a
+   "who" or "that" clause, or right after an order, write what the second verb hangs from, and mark it if a quick
+   reader could hang it from the order.
 11. **The means before the payoff.** A sentence that opens on the tool, the source or the method, and only then says
    what the reader gets from it. He fixed "We can use the same Hunter criteria that clinicians use to diagnose
    serotonin syndrome." into "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist
@@ -311,6 +317,25 @@ that still reads the first way.
    he did (way 10). In the blind test, a writer told only "a word whose sense clashes with the rest" changed the wrong
    word; told this way, one found "improve" but wrote "change", which says less than his word, and the sentence stayed
    Medium (h82 replay).
+31. **A word readers know in one sense, used for something else.** A word the reader brings a sense to (micro-dosing:
+   small doses of a substance), used here for something else (doses of a few seconds of healing work), with "what I mean
+   by X here" to claim it. He tied the new use to the one readers know: "this protocol works in doses of a few seconds,
+   which is another dimension of micro-dosing" for my "which is what I mean by micro-dosing here" ("it was unclear
+   since i'm not usually talking about time when talking about microdosing (nor are ppl usually talking about it that
+   way"), and the paragraph read one High window where my clause had sat under a Medium one (lesson
+   neuro-2026-11-27t). Three readers had marked my clause as a gloss of an obvious word; the word wasn't obvious, it was
+   used in a new sense. For each word the text defines, labels or claims for itself, write the sense a reader brings to
+   it, and mark it if the text uses it otherwise without saying how the two connect ("another kind of", "the same idea
+   applied to", what the two share).
+32. **An exact figure for something nobody does exactly.** A count, a length of time or a number of times a day for a
+   practice the reader will only do roughly, said as if it were measured: "In practice, I'd do 30 seconds of slow
+   breathing, 20 times a day." read Medium; his "I'd do something like 30 seconds of slow breathing, 20 times a day."
+   read one High window ("nobody could actually do exactly 30 seconds 20 times, that's unreasonable"; lesson
+   neuro-2026-11-27u). Mark a figure for a habit, an exercise or a routine of the reader's that a person would only
+   approximate, and say it as the rough figure it is ("something like", "about", "a few"), with one such word for the
+   line: his one "something like" covers both of its figures, where a blind writer's "something like 30 seconds ...,
+   about 20 times a day" said it twice (lesson neuro-2026-11-27x). Never mark a dose, an amount of a substance, a limit,
+   a timing that a warning rests on, or a figure from a study: those stay exact.
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never
