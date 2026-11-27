@@ -1,0 +1,41 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-27T00:55Z",
+   "lines_of_work": [
+    "the somatic additions: his answers to the marking page; two inner child sentences he asked for; the repo rule he asked to take out"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ fetched (universal-dev-architecture unchanged at 3fce032): the same 6 items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 2026-11-26 23:36 UTC: pull requests 551 (romance) and 552 to 554 (bad trips, neuro de-armoring) merged, none addressed to this lane; 545 open, no reviews; no new issue or comment"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "somatic-therapies.md as this lane left it at 23:35 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "5 notices: pull requests 548 and 550 merged, checks passed; nothing to act on"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-27T01:01Z"
+  }
+ ]
+}

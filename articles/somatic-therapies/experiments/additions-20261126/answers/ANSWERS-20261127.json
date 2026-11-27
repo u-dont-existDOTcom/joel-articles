@@ -1,0 +1,91 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "somatic-additions-20261126",
+ "title": "Somatic Guide, 26 November: three new sections from ChatGPT’s suggestions",
+ "git_file": "articles/somatic-therapies/experiments/additions-20261126/review/REVIEW.html",
+ "article": {
+  "file": "articles/somatic-therapies/experiments/additions-20261126/review/ARTICLE.md",
+  "sha256": "bfacc3ab555cc51d20183c1be83c8b4b16de33596f7f45d54d4d23441a40d599"
+ },
+ "built": "2026-11-26T23:30:13Z",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-27T00:55:00.494Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "A1",
+   "type": "addition",
+   "title": "New section after Brainspotting: “Can’t Stay With a Feeling?”",
+   "where": "above the heading \"Layer 4: Unstick the Memories You Can Actually Point To\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "why are you suddenly thinking you need a human experience, that's not true, i'm so confused why you're saying this bc yopu've humanized tons of stuff without that now already\n\nbut certainly if you find stuff in the article already like you said that you could echo that might make sense\n",
+   "my_version": "## Can't Stay With a Feeling?\n\nBy now you might feel your body just fine, and still, the moment a real feeling comes up in a session, you slide away from it. Maybe you start explaining the feeling instead of feeling it, or you agree with whatever the therapist says so you don't have to stay in it. What helps then is a therapist who catches you sliding away and brings you back to the feeling, and a few talk therapies are built around doing exactly that.\n\nIn [Intensive Short-Term Dynamic Psychotherapy](https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and), the therapist calls out each slide right as it happens and keeps turning you back toward the feeling. All the while they watch your body for signs of anxiety (tense muscles, sighing, a foggy head), to see how much you can take. Most people who come to it would find the full version too much, so they usually get a slower one, where the therapist helps them settle whenever the anxiety climbs too high.\n\nIf it's one feeling in particular that scares you, like grief, [Affect Phobia Therapy](https://psykologtidsskriftet.no/node/15971/pdf) treats that fear a lot like a phobia, getting you used to the feeling bit by bit, at a pace your anxiety can handle. [Accelerated Experiential Dynamic Psychotherapy](https://www.apa.org/pubs/videos/4310759) is for when you can't let kindness in, when someone cares about you and it just bounces off. The therapist first makes sure you don't feel alone with the feelings that come up, then follows how they feel in your body.\n\nAs with water therapy, I'd ask before booking: \"What do you do when I start moving away from a feeling, and what if I get overwhelmed?\" If the answer leaves no room for you to slow down, or to disagree with them about what you're feeling, keep looking.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-27T00:50:56.456Z"
+    }
+   ],
+   "updated": "2026-11-27T00:54:53.767Z"
+  },
+  {
+   "id": "A2",
+   "type": "addition",
+   "title": "New section after EMDR: “Imagery Rescripting”",
+   "where": "above the heading \"Hypnosis, the ancestral therapy\"",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "## Imagery Rescripting\n\nThis therapy is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide. Instead of EMDR's mechanical approach. The Imagery Rescripting therapist is there with you as you explain the scene, and they step in as the ideal adult, protecting and nurturing your inner child. Then you learn to do that yourself. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.\n\nFrom [a trial](https://pubmed.ncbi.nlm.nih.gov/32892758/)  on 155 patients, it looks like it works on average about as well as EMDR, although that doesn't tell us if it works better or worse for you or anyone else. ",
+   "comment": "you should also add a mention in the inner child guide that what i'm talking about is an actual clinical therapy called Imagery Rescripting and link to info on it (although I didn't know it was a therapy when i wrote about it)\n\ni rewrote your version which was redundant and scattered and generally Ai structured, you should have tried before asking me. try on the others. there's no need for me to give you some kind of human experience, that's not what pangram requires. is that still in the repo rules? take that out. human experience is good to put in where it would genuinely be helpful for the reader, but pangram does not require it (although it can help pangram also). \n\nthis is human high: https://www.pangram.com/history/36d19d5d-dd1c-453f-850a-5d41835bf330?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "## Imagery Rescripting\n\nIf one scene from your childhood still leaves you feeling small and helpless when it comes back, imagery rescripting lets you walk back into it, this time with backup. You picture the scene again, and somebody steps in to protect you or to give you what you needed back then, first the therapist and later you as an adult. Rescripting is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide.\n\nDoes it work? For adults whose PTSD started in childhood, about as well as EMDR. [A trial](https://pubmed.ncbi.nlm.nih.gov/32892758/) gave 155 of them one or the other, and their PTSD symptoms came down about equally. The new version won't tell you what really happened, since you know you're imagining it; what changes is how the memory feels afterward. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-26T23:50:31.372Z"
+    },
+    {
+     "from": "rejected",
+     "to": "approved",
+     "at": "2026-11-26T23:50:46.058Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-26T23:52:15.653Z"
+    }
+   ],
+   "updated": "2026-11-27T00:50:08.352Z"
+  },
+  {
+   "id": "A3",
+   "type": "addition",
+   "title": "New branch after Layer 5: “Pain That Won’t Quit?”",
+   "where": "above the heading \"Optional High-Intensity State-Shift and Release Practices\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "we should also briefly mention these in the secftion on pain that won't go away in inner child guide and link to this section of the somatic guide for more on them (just like a sentence or so maybe)",
+   "my_version": "# Pain That Won't Quit?\n\nMaybe pain is what brought you to this guide. If yours has lasted months, and a doctor has checked and found no injury or disease to explain it, two therapies are worth knowing about.\n\nIn [Pain Reprocessing Therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298), you learn that the pain is a false alarm, your brain signaling danger where there isn't any, partly by paying close attention to how it feels in your body. Then, a little at a time, you go back to things you've been avoiding because of it, like going for walks.\n\nPain Reprocessing Therapy's first big trial was only in mild to moderate chronic back pain. There, 66% of the people who got four weeks of the therapy rated their pain 0 or 1 out of 10 afterward, compared to 20% of those given a placebo shot, and the gains mostly held a year later.\n\nThe second therapy is for pain that seems bound up with stress and feelings about the people in your life. [Emotional Awareness and Expression Therapy](https://clinicaltrials.gov/study/NCT03918642) works on those feelings directly. Much of the therapy is letting out anger and other feelings you've held back, and rehearsing in role-play what you'd say to someone you've never stood up to.\n\nIn a 2024 trial of veterans aged 60 and up, this therapy beat CBT: 63% had their pain drop by at least 30% afterward, compared to 17% with CBT. That's a lower bar than 0 or 1 out of 10, so the two trials' numbers can't be compared.\n\nI haven't found a trial comparing the two. So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, [How I Judge Whether Any of This Is Helping](#§how-i-judge-whether-any-of-this-is-helping).",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-26T23:51:29.957Z"
+    }
+   ],
+   "updated": "2026-11-26T23:52:02.846Z"
+  }
+ ]
+}

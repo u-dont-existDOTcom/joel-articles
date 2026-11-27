@@ -9447,7 +9447,7 @@
         },
         {
           "path": "articles/somatic-therapies/experiments/additions-20261126/RESULTS.md",
-          "sha256": "4de377351df8c6200e5e5f491d890279794933aee382588fbdcdec1f27cfc6e9",
+          "sha256": "0f975a7839c4fd2c592e5a95ff239643d89108b2b5612b85d7f5a1a9335bed23",
           "role": "detector_experiment_result"
         },
         {
@@ -9763,6 +9763,46 @@
         {
           "path": "articles/somatic-therapies/humanize/SCORECARD.md",
           "sha256": "ca69d478090afdd030eeb53593742b39a3c475120e0c89c026d2c26357db8295",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/ADDITIONS-9.json",
+          "sha256": "9a2956f888f878e902fcc6e0239298f3fc5cce0384d6b393c593b5e791bac2b3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/INNER-CHILD-ADDS-1.json",
+          "sha256": "b1514419c2b28ad62c63f3dcdc0b33e97b87687bc2c4400c052e588839135d46",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/answers/ANSWERS-20261127.json",
+          "sha256": "afc652d27089c40438dc8cdb4c434a6eb0a1b1bf0e6a0066401f3c2c4fd6e603",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/READ-HIS-FIXES-9.md",
+          "sha256": "ae0f12183de79c91a9ba57ce27195fd7f9ac8ce3b1afd515b90cac12302fd06c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/READ-NEEDED-FIT-9.md",
+          "sha256": "b843abe423df0744b14ac4733419852135f9da557f7f4fa84fbf3747e5d5a719",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/drafts9-numbered.txt",
+          "sha256": "0fe13e952c5fa8e1f7b0ebc58f228a0775835ade68c26921d8b1e63de31a959f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/reads/inner-child-context.md",
+          "sha256": "5a75d121d34611923e8e203fe93b19c7a357a83c756bd6874a56341d41974587",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/additions-20261126/replay/BRIEF.md",
+          "sha256": "0a09afbda5b400243a82ef2e512bb0ac88859ab0309f5fb321fb0bc74bea6f85",
           "role": "humanization_working_record"
         }
       ]
