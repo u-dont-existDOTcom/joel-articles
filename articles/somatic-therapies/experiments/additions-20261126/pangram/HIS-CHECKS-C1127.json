@@ -1,0 +1,12 @@
+{
+ "about": "Joel's own checks of his versions on the cards of 27 November (his answers of 22:19 and 22:26 UTC), read back from his Pangram history in the desktop app's browser pane on 27 November: the text each check read, its headline, AI likelihood and windows (label, confidence, words). Times are UTC.",
+ "items": {
+  "a1-p1-his": {"link": "https://www.pangram.com/history/94d585ca-53e5-434a-84f9-8546e789bcc0", "utc": "20:30:13", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "High", 66]], "what": "A1's first paragraph, his version"},
+  "a1-p5-his1": {"link": "https://www.pangram.com/history/5b3e751b-6c54-40b1-9700-d6a4a1db0d66", "utc": "20:34:52", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "Medium", 55], ["Human", "Low", 15]], "what": "A1's booking paragraph, his first fix (\"too intense sometimes\")"},
+  "a1-p5-his2": {"link": "https://www.pangram.com/history/598494c2-0559-4fb2-8ce8-2794d1373d9c", "utc": "20:39:36", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "High", 72]], "what": "A1's booking paragraph, his version (the last line clarified)"},
+  "a3-p1-his": {"link": "https://www.pangram.com/history/0e055571-6bcd-40d3-b68e-e70303643ec7", "utc": "20:42:46", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "High", 110]], "what": "A3's first paragraph, his fix of its last sentence (\"As you're able, you then slowly go back ...\")"},
+  "a3-sec-his1": {"link": "https://www.pangram.com/history/af216ff4-17c5-4d40-9229-08b8c075ab67", "utc": "20:44:05", "headline": "Human Written", "ai": 0.0009, "windows": [["Human", "Low", 5], ["Human", "Medium", 28], ["Human", "High", 68], ["Human", "Medium", 22], ["Human", "High", 55], ["Human", "Low", 20], ["Human", "High", 15], ["Human", "Low", 32], ["Human", "Low", 29], ["Human", "Medium", 38], ["Human", "High", 71]], "what": "A3 as a section with only that fix"},
+  "a3-sec-his2": {"link": "https://www.pangram.com/history/52e2bc03-984c-418c-ad46-26a999df6526", "utc": "22:17:42", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "Medium", 5], ["Human", "High", 386]], "what": "A3 as a section, his version (the heading Medium, which he isn't worried about)"},
+  "ic2-his": {"link": "https://www.pangram.com/history/81b522f7-4574-4678-87e9-9ea7f544d323", "utc": "22:25:30", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "High", 63]], "what": "IC2, his version"}
+ }
+}
