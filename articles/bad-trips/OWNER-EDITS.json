@@ -2165,6 +2165,15 @@
     "I sell",
     "sold by me"
    ]
+  },
+  {
+   "id": "r63-no-sale",
+   "status": "pending",
+   "what": "his round-63 wish that the guide not say he sells the plant, still not applied in two places (found in turn 75): B212 \"I include it because most people don't have access to *Ipomoea pes-caprae*, although I supply it.\" and B171 \"... since none of the many relatives and cousins I tried worked the same way, though as far as I know nobody else sells it.\" Each clause comes out; r63-where-to-find's must_not_contain (\"I sell\", \"sold by me\") matched neither wording, a string test standing in for his meaning (lesson bad-trips-2026-11-27m)",
+   "joel": "2026-11-27 20:03 UTC: his round-63 export, card TEACH-B173's comment: \"i don't necessarily want to say i sell it in this guide since then it looks like a sales pitch, altho nobody is selling it other than me\"",
+   "applied_by": "",
+   "must_contain_exact": [],
+   "must_not_contain": []
   }
  ]
 }

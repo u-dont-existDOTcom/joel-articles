@@ -5,7 +5,7 @@ to finish". This is that list for this lane, kept the way [the contents lane kee
 a promise goes on it the turn it is made, by him or by me, in the words it was made in. Every turn, before the reply, each
 open one is read again: done (with where to see it), still open (with the next step), or dropped (only on his word).
 
-Last read through: 2026-11-27, at the end of turn 72 (his round-61 export of 15:34 UTC).
+Last read through: 2026-11-27, at the end of turn 75 (his message of 22:48 UTC).
 
 ## Open
 
@@ -17,13 +17,15 @@ Last read through: 2026-11-27, at the end of turn 72 (his round-61 export of 15:
 | 6 | **An overcompletion read and the word-for-sense read of the finished guide** (gates E328, E331). | mine, CURRENT-STATE's Remaining | The overcompletion read ran once on 2026-11-08, before the humanize pass. | After promise 3, on the guide as it then stands. |
 | 7 | **His post updated with the guide, with the title's version and date** (gate E323). | his rule; on [the owner-edits ledger](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/OWNER-EDITS.json) as waiting | Waiting on promises 3 to 6 and his approval of the finished guide. | One edit of the post, the way the contents lane edits; the live post read back after. |
 | 8 | **The three headings whose anchors are not yet seen on a rendered page** (brackets or "≠" in the heading). | mine, turn 58 | `section_links.py check` names them. No link in the guide points at one. | Read each anchor from the contents sidebar once the guide is in the post. |
-| 15 | **Turns 72 to 74 on GitHub.** | mine, turn 72: this session's permission check declined write access to the repository | Each turn is in the session's clone, and the Git bundle he has in the chat (turn 74's) holds all three. | Pushed with the lane's push once he allows it; until then the next session starts from that bundle. |
-| 10 | **The laptop note says where the work stands.** `~/claude-acceptance-transfer/handoffs/bad-trips-guide.md` | his, turn 68's message: "this chat couldn't update the laptop note" | Updated at the end of turn 72. | Every turn. |
+| 17 | **The rules audit: his answers on its page, each approved fix in every file its rule lives in.** | his, 2026-11-27 22:48: "go over all your rules with fable double checking ... then ask me about the ones that look sus" | The audit ran and [the page](https://claude.ai/artifact/VcUmGfK8DfxM1yp9KoTY96) is out: 37 cards ([the same on GitHub](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/rules-audit/2026-11-27/QUESTIONS.md)). | His JSON from the page, then the fixes in one pass. |
+| 18 | **The guide doesn't say he sells the plant.** | his, round 63 (2026-11-27 20:03): "i don't necessarily want to say i sell it in this guide since then it looks like a sales pitch" | Still in two places: B212 "although I supply it", B171 "nobody else sells it" (found in turn 75). The fresh reads with both clauses out are done. | Each paragraph checked by itself with the clause out, then in, and named in the report. |
+| 10 | **The laptop note says where the work stands.** `~/claude-acceptance-transfer/handoffs/bad-trips-guide.md` | his, turn 68's message: "this chat couldn't update the laptop note" | Updated at the end of turn 75. | Every turn. |
 
 ## Done
 
 | # | Promise | Made | Done | Where to see it |
 |---|---|---|---|---|
+| 15 | **Turns 72 to 74 on GitHub.** | mine, turn 72 | 2026-11-27, turn 75 | Applied from his bundle and pushed with the lane's push ([pull request 571](https://github.com/u-dont-existDOTcom/joel-articles/pull/571), merged). |
 | 16 | **Round 63's two cards answered and in.** | mine, turn 73 | 2026-11-27, turn 74 | His B173 version whole (with "(the dried juice)" and "Eating"), SKIN-AMOUNT in B174. [RESULTS-R63.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r63/RESULTS-R63.md) |
 | 14 | **Round 62's two cards answered and in.** | mine, turn 72 | 2026-11-27, turn 73 | Both answered: LEAF-JUICE in B174 (Human High 122 with B171, 6026d11b); NIBBLE-SIZE went in step by step until B173 used its six tries, so it goes on as round 63's TEACH-B173 (promise 16). [RESULTS-R62.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r62/RESULTS-R62.md) |
 | 1 | **Turns 68 and 69 are on GitHub.** | mine, turn 68 (2026-11-25 01:24): the chat's permission check declined write access to the repository | 2026-11-25, turn 69 | He allowed write access when asked ("Yes, push"); both turns went up with the lane's push and a pull request, main merged first. [The handoff on main](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/HANDOFF-bad-trips.md) says turn 69 once the pull request has merged itself. |

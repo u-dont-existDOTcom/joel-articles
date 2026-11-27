@@ -301,21 +301,24 @@ that still reads the first way.
    opioids" apart from the opioid already named, read AI Low; "(or any other MAOI)" beside the brews and "the painkiller
    tramadol and some other opioids" took the whole paragraph to High (lesson bad-trips-2026-11-25b). For each item, write
    what it belongs with, and mark it if something stands between them.
-30. **A vague word for what a thing does, which the reader fills in with its usual sense.** A verb that judges
-   ("improve", "help", "affect") or says only that something happens ("change"), where the passage needs what the thing
-   actually does. The reader fills the gap with the word's everyday sense, and that can point the wrong way: of a remedy
-   that lowers a trip's intensity without ending it, "can even improve the trip" reads as "boost the trip", beside a
-   paragraph about ending trips. He changed "improve" to "smooth" ("how can something which ends a trip also 'improve' the
-   trip? that sounds opposite perhaps. smooth the trip makes more sense, and is more accurate also"), and that one word
-   took the paragraph from a Medium window to Human High in one window, where my two changes to how the sentences were
-   built had not. His reason is accuracy, not reuse (2026-11-27 22:48 UTC: "it's not about using the same word. it's about
-   using a word that's accurate ... "change" doesn't mean much. "improves" is not what smoothes means, it's more vague. if
-   we are talking about something that reduces intensity, then "improves" sounds a bit strange when usaully ppl would
-   think that means boosts for the trip"; lessons bad-trips-2026-11-27j, l). For each word that says what something does,
-   write what it actually does here (lowers the intensity, ends it, starts it, eases the nausea); mark the word if it says
-   less than that, or if its everyday sense could take a reader somewhere else; the fix is the word that says exactly what
-   the thing does, whether or not the passage has it already. In the first blind test a writer who found "improve" wrote
-   "change", vaguer still, and the sentence stayed Medium (h82 replay).
+30. **A vague word for what a thing does, which the reader fills in with its usual sense.** A verb that judges or says
+   only that something happens, where the reader needs to know what the thing actually does, and its everyday sense can
+   point the wrong way: of a remedy that lowers a trip's intensity without ending it, "can even improve the trip" reads
+   as "boost the trip", beside a paragraph about ending trips. He changed "improve" to "smooth" ("how can something which
+   ends a trip also 'improve' the trip? that sounds opposite perhaps. smooth the trip makes more sense, and is more
+   accurate also"). His reason is accuracy, for the reader, not reuse (2026-11-27 22:48 UTC: "it's not about using the
+   same word. it's about using a word that's accurate ... "change" doesn't mean much. "improves" is not what smoothes
+   means, it's more vague. if we are talking about something that reduces intensity, then "improves" sounds a bit
+   strange when usaully ppl would think that means boosts for the trip"; lessons bad-trips-2026-11-27j, l). Mark such a
+   word where a reader could take it the wrong way or needs to know what the thing does (words like "improve", "help",
+   "affect" and "change" are examples, not suspects: a plain "help" that is clear stays), and use the word that says
+   exactly what the thing does, whether or not the passage has it already. What it does comes from what the passage or
+   he says; when neither says it, it is a question for him or a source, never an inference (he knew the nibble lowers
+   the intensity; a reader of the paragraph can't). For Pangram: his "smooth" took the paragraph from a Medium window to
+   Human High in one window, but "soften", as accurate, read Medium 16 like "improve" (h83 replay); why is not known, so
+   accuracy is the reader's reason, not a Pangram rule. In the blind tests, one writer who found "improve" wrote
+   "change", vaguer still (h82), and two found it and asked for the author's word instead of guessing, which is right
+   (h83).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

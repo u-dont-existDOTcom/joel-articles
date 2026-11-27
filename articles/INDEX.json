@@ -139301,7 +139301,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "d4320200ee402076740c6bf9744181af24b36f812d7eae0d8686710c73beb186",
+          "sha256": "cbb24e27355585a74262bf046651dbf3bb507f788431be186c4f549dad5efaab",
           "role": "humanization_working_record"
         },
         {
@@ -139361,7 +139361,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/pangram-ledger.jsonl",
-          "sha256": "6f34bee6f9e52853f561f8e289d4d91df4527b59259b05dd2efde7f500827e81",
+          "sha256": "fd98a6d14d23c0f99ecf7bec37ba0447560a08f804ffa3803984d379513439a0",
           "role": "humanization_working_record"
         },
         {
@@ -139466,7 +139466,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-EDITS.json",
-          "sha256": "d73c23b3ef70dececc3f6c593e8b04409396af72a548a04a8f389637050310b7",
+          "sha256": "211835ba6aaa3e4d6a9dc0128370375a5f28b3fd06806c3c3acb2579da3ef2a7",
           "role": "owner_edits_ledger"
         },
         {
@@ -162221,7 +162221,7 @@
         },
         {
           "path": "articles/bad-trips/PROMISES.md",
-          "sha256": "f295fd93c0efe22394a55a0f3d15baf91945265434fea3fc734518e2913c5541",
+          "sha256": "94506457556c0ac6617564a7b4d45561b50a3fbedbe61000e4607a52e1a4e78a",
           "role": "humanization_working_record"
         },
         {
@@ -164887,6 +164887,141 @@
         {
           "path": "articles/bad-trips/review/r63/record_r63.py",
           "sha256": "4c37ecb86055fb0bff9645a136467f89ba26a872e55cc220ee5ef17331a93d99",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/PREDICT.json",
+          "sha256": "a7f83fd295ba70539d9a5e9c5153b9721253530d1540ca488359975bc618ba56",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/RESULTS-h83a.json",
+          "sha256": "12de94d2749aab1c2f09f1467985e31bbc12b3462c2cb52f6e7a9f5230c3fdc3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/RESULTS-h83b.json",
+          "sha256": "bc11024eea7ef21c4c800c5989356b00ab4df1902f704fedf0747fd76f5f6f8a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/RESULTS-h83c.json",
+          "sha256": "5bb3a27cd6bfcd764fc08447d5df323113f590f640839358d3c07b99beae1b93",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-ctl1-b173.txt",
+          "sha256": "cfb955a724fc9de18eaaf8dda3595d005091d08a42aa5d071a265425aa8a8a39",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-n0-b214-b215.txt",
+          "sha256": "ae4cbe7ebc2ef4b51f3657572e128d800b0330d524a7c731ff1c9c6a683d9bda",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-ns1-b171.txt",
+          "sha256": "e1cadc9f9936cf354abb9568bca01000c861a5d10876fb57b0420832b86cfa64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-ns1-b211-b212.txt",
+          "sha256": "89960a87c329d20c88078d6f0e2f8ee4f4e56660fb2204e5cdf80ac90d4125e5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-rp3-b173.txt",
+          "sha256": "e6288218f2db64b489dcc7ca76247edb63d61db9c02ef8c3494b640277ce9080",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEST-rp4-b173.txt",
+          "sha256": "0624f9b7c193e37532a649bcc0cc0a271c3904e838f9738d574c87ed5f633369",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEXTS-h83a.json",
+          "sha256": "0f2ad54ff3bd02f7a3606fd25c75ce9acf48c8e4fb5edd0c183aaf28600cb8c5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEXTS-h83b.json",
+          "sha256": "f9f16319e12220396ca740d615f7bf0ec1f35eb8d19e5ef548ae8a57f4e818eb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/TEXTS-h83c.json",
+          "sha256": "3a21dee3ff3af9d444961694e7e03d2fd1fba9240327b5ebfd1d4df6113d1f21",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/laptop-h83a.jsonl",
+          "sha256": "85569f51f792a21c3f3ffa1268e0c374c9288c4be904361b8e233b7d43cec4c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/laptop-h83b.jsonl",
+          "sha256": "478ad1499cc07ebd8c7cf32252adae0f271c72b48da94ce383ed6ca35a0ac4bb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/laptop-h83c.jsonl",
+          "sha256": "76fd02273e88edfb2d4a02df7d8a9e86f7d1b31deb96c60b2a926fa5467d7a64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/reads/READS-ns1.md",
+          "sha256": "a845cc5bf2861d181d155946d82d0c2ae9e0996a2b5f05fbadcf691259f8603c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/reads/sec-bmg-ns1.txt",
+          "sha256": "311b525a70b1f9d073b420d795134f06c51bd9b053b514d59c857b6af9e8b49c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/reads/sec-niacin-ns1.txt",
+          "sha256": "51b537d0fcaa1397d5344d47db5d729a72994210dbc8962437b33669c14f59fd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/BRIEF.md",
+          "sha256": "4371eef9a6a74dcde0adb45e84ef98b141720151b91ba43e26825e2e3a201c66",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/OUT-1.md",
+          "sha256": "f6e2e6e08db5882077ca2f0924aead4df51fe060b3721c543a2cf6eea43454b2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/OUT-2.md",
+          "sha256": "7bceeddd11d3f1da6cd73a176da8044311bf4e1695db1eb4e75c22370c60bba5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/OUT-3.md",
+          "sha256": "f2d4a779dfe4dc80463de772818b6178518405a20a75e925af176602eba7d898",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/PARA.txt",
+          "sha256": "de9b5d54d61fdc66b9d2a1bf10dd0f486598131035290f34fef7a8095dcad31b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/PROMPT.txt",
+          "sha256": "5a2ffb9dee0bdc95d6351e239b87cb518c1bbd7bd3c0d908c3596e828d4d8063",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/replay/RESULTS.md",
+          "sha256": "526112369f848d3ec0c46df387b1a0493de151ce3461f15a13c2f330fac34851",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h83-20261127/run.py",
+          "sha256": "b58aa2b9615dca2833eaa5dd3fe232804acdc15d3e8071b435ee376cf75b809a",
           "role": "humanization_working_record"
         }
       ]
