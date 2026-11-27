@@ -1,0 +1,20 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/read-1127e/REWRITE.md",
+ "coverage": [
+  "040a6466aec47117"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "040a6466aec47117"
+   ],
+   "now": "It's a protocol that works like a metabolic solvent that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB, which block HDACs) so we can dig under the house and pour a new foundation, and eventually work on the psychology upstairs.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {}
+}

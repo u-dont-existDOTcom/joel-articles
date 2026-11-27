@@ -1,0 +1,15 @@
+{
+ "sw17-s1": {
+  "lineage": "neuro-de-armoring/PAIR-SW17-18",
+  "scope": "pair",
+  "name": "The \"Underpinning\" Principle with the Gibson paragraph, step 1: \"Dr.\" off, the label marked off",
+  "text": "The \"Underpinning\" Principle: Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.\n\nWhy does the brain build this armor? Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents survive by creating a \"Role-Self\"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: \"It takes a village to raise a child.\" The modern large society with only one or two people caring for the children is vastly insufficient. As Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our \"enriched\" environments offer 1 immature adult to 4 children.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW17-18-S1.receipt.json",
+  "diagnosis": "the pair as it stands (#260) read Human with three Medium windows: over the label and Perry's first sentence, over the curtains line with the Gibson paragraph's question, and over \"As Dr.\" (two words, the split Pangram makes at the title); \"Dr.\" off joined that split in the Anti-Breakthrough (lesson neuro-2026-11-27e) and for Epley (his 71), and the fit read took the label run into \"Dr. Bruce Perry\" as a title for Perry",
+  "decides": "whether the splits at the title close and the label's window moves; the next step is the curtains line",
+  "tells": "the curtains line (\"You cannot hang curtains in a collapsing house.\") and the question after it, unchanged; S2's two glosses",
+  "first_fix": "payoff: unchanged in this step; join: unchanged; plain: \"Bruce Perry\" without the title, and a colon after the label so it reads as the label",
+  "humanized": "the post's Principle and Gibson paragraph with the title off Perry and the label marked off"
+ }
+}

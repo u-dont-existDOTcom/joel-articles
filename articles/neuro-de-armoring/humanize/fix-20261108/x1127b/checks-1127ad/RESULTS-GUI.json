@@ -1,0 +1,32 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "sw17-s1": {
+   "uuid": "45b4feb9-8030-40e0-bfd6-547069ed7b55",
+   "at": "2026-11-27T20:46:30Z",
+   "headline": "Human Written",
+   "ai": 9.330514659511291e-12,
+   "words": 158,
+   "windows": [
+    [
+     "Human",
+     "High",
+     35,
+     "The \"Underpinning\" Principle: Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling."
+    ],
+    [
+     "Human",
+     "Medium",
+     15,
+     "You cannot hang curtains in a collapsing house.\nWhy does the brain build this armor?"
+    ],
+    [
+     "Human",
+     "High",
+     108,
+     "Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents survive by creating a \"Role-Self\"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: \"It takes a village to raise a child.\" The modern large society with only one or two people caring for the children is vastly insufficient. As Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our \"enriched\" environments offer 1 immature adult to 4 children."
+    ]
+   ]
+  }
+ }
+}

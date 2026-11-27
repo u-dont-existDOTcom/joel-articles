@@ -29,14 +29,10 @@ def block(start):
     return b
 
 
-OLD = {
-    'sw17': block('The "Underpinning" Principle'),
-    'sw18': block('Why does the brain build this armor?'),
-    'sw19': block('We are operating on about one-sixteenth'),
-    'sw21': block('Neurological De-Armoring is about fixing'),
-    'sw22': block('The Anti-Breakthrough (Micro-Dosing):'),
-    'sw23': block('Your goal is Micro-Dosing Safety'),
-}
+# the paragraphs as the article had them at the start of this turn (1d94ed03), saved so the texts don't move once one of
+# them goes in
+import json as _json
+OLD = _json.loads((HERE / 'OLD-X1127B.json').read_text(encoding='utf-8'))['old']
 
 # P-SW19: my try 2 (#266, https://www.pangram.com/history/cd2c9d6b-ada6-44c9-b29c-67292c104927) read Human Medium over its
 # first sentence, AI High over the Void sentence and AI Medium over the last two: the near miss each step starts from.
@@ -193,3 +189,103 @@ assert STEP['sw19-s7'] != STEP['sw19-s6']
 # where they begin (lesson neuro-2026-11-27k, one word).
 STEP['sw19-s8'] = STEP['sw19-s7'].replace('So gather a tribe of people', 'So start gathering a tribe of people')
 assert STEP['sw19-s8'] != STEP['sw19-s7']
+
+
+# P-SW21, the underpinnings paragraph (his card version of 2026-11-03, #263, https://www.pangram.com/history/59682079-eaf9-4049-b366-98ac3f421bcd:
+# Human Low over the first sentence, AI Low over the second). A near miss, so two steps of at most 20% come before a
+# rewrite. The reads of it (x1126b/v1/*/sw21): two words for one thing ("underpinnings" in S1, "foundation" in S2), and S2
+# a chain of hung clauses (a stray comma in "dig under the house, and pour"), the means before the payoff, four pictures
+# for one thing, and "to allow us to dig" hanging off the ketones. Step 1, what a reader could take two ways: the same
+# word for the same thing, and the stray comma.
+SW21_263 = OLD['sw21']
+STEP['sw21-s1'] = (SW21_263.replace('is about fixing the underpinnings, not redecorating.', 'is about fixing the foundation, '
+                                    'not redecorating.')
+                   .replace('dig under the house, and pour a new foundation', 'dig under the house and pour a new '
+                            'foundation'))
+assert STEP['sw21-s1'] != SW21_263
+
+# Step 1 (#323, https://www.pangram.com/history/0dcc395b-86a9-4a0c-8d04-8d56a7ebcd83) read AI Generated, 100%: AI Low
+# over the first sentence (Human Low in his version) and AI High over the second (AI Low): "the foundation" for his
+# "underpinnings" made both read worse, so his word stays. Step 2, from his version again, the second sentence's tail:
+# "to allow us to dig" hangs off the ketones (the needed read), the stray comma, and "so we can" said for the dig and
+# again for the update; said as "so we can dig ... and pour ..., and eventually update ...".
+STEP['sw21-s2'] = SW21_263.replace('to allow us to dig under the house, and pour a new foundation, so we can eventually '
+                                   'update the psychological software upstairs.',
+                                   'so we can dig under the house and pour a new foundation, and eventually update the '
+                                   'psychological software upstairs.')
+assert STEP['sw21-s2'] != SW21_263
+
+# The tell panel on step 2 (panel-sw21-s2: Fable, Sonnet, Haiku) agreed on both sentences: "serves as" for "is" (all
+# three), and the house picture turning into software at the end (all three); within the near-miss limit, "works like"
+# for "serves as", and the house held to the end ("the psychology upstairs").
+DRAFT['sw21-s2'] = STEP['sw21-s2']
+STEP['sw21-s2'] = (STEP['sw21-s2'].replace('It\'s a protocol that serves as a metabolic solvent', 'It\'s a protocol that works '
+                                           'like a metabolic solvent')
+                   .replace('and eventually update the psychological software upstairs.', 'and eventually work on the '
+                            'psychology upstairs.'))
+assert STEP['sw21-s2'] != DRAFT['sw21-s2']
+
+# Step 2 (#324, https://www.pangram.com/history/fce546f2-99e5-47a3-b38f-a2ec75d14e15) read as his version did: Human Low
+# over the first sentence, AI Low over the second. The two small steps from his version are checked, so the second
+# sentence is rewritten from the reads (x1126b/v1/*/sw21): one house picture held from start to finish (what has set hard,
+# what the protocol does to it, what goes in its place, the work upstairs after), each mechanism with a few plain words
+# on what it does, the softening said as the protocol's act, and "concrete" as what trauma set hard, not the foundation.
+# His first sentence stays (the only Human window).
+STEP['sw21-r1'] = ("Neurological De-Armoring is about fixing the underpinnings, not redecorating. Trauma leaves the "
+                   "brainstem set hard, like concrete, and the protocol softens it the way a solvent would, by calming "
+                   "glutamate (the brain's main \"go\" signal) and with ketones (BHB), which block HDACs, the enzymes that "
+                   "can keep new learning from sticking. Then we can dig under the house and pour a new foundation, and "
+                   "only after that work on the psychology upstairs.")
+
+# The fresh read of that rewrite (v1/his-fixes/sw21r1, Fable) marked all three sentences: "X, not Y" answering no worry,
+# and "underpinnings" of nothing named; one sentence packing the picture and every mechanism, two glosses built alike,
+# "which block HDACs" pointing two ways, what new learning has to do with the concrete unsaid; "the house" with nothing
+# saying the brainstem is its foundation, and digging under a softened foundation to pour a new one. Each is changed: the
+# picture named first (Perry's house, section's paragraph two), the old concrete dug out before the new is poured.
+DRAFT['sw21-r1'] = STEP['sw21-r1']
+STEP['sw21-r1'] = ("In Perry's picture, the brainstem is the foundation of the house, and Neurological De-Armoring works on "
+                   "it before any redecorating upstairs. Trauma leaves that foundation set hard, like concrete, so the "
+                   "protocol softens it the way a solvent would, by calming glutamate (the brain's main \"go\" signal) and "
+                   "adding the ketone BHB, which blocks enzymes called HDACs that can keep new learning from sticking. "
+                   "Then we can dig out the old concrete and pour a new foundation, and only after that work on the "
+                   "psychology upstairs.")
+
+# The ledger takes step 2 (#324) as the best near miss, so two more steps of at most 20% from it come before the rewrite
+# above. Step 3, what a reader could take two ways (the read: "which of the three does what"): HDAC inhibition is said
+# where the ketones are, since BHB is what blocks the HDACs (section C).
+SW21_324 = STEP['sw21-s2']
+STEP['sw21-s3'] = (SW21_324.replace('works like a metabolic solvent, via HDAC inhibition, that softens', 'works like a '
+                                    'metabolic solvent that softens')
+                   .replace('supplementing Ketones (BHB) so we can', 'supplementing Ketones (BHB, which block HDACs) so '
+                            'we can'))
+assert STEP['sw21-s3'] != SW21_324
+
+
+# PAIR-SW17-18, the "Underpinning" Principle with the Gibson paragraph after it (#260,
+# https://www.pangram.com/history/fbca5c0c-2de5-44ae-8172-d041973cb42c: Human Medium over the label and Perry's first
+# sentence, High, Medium over "You cannot hang curtains in a collapsing house. Why does the brain build this armor?", High,
+# Medium over "As Dr.", High). A near miss, so small steps first. Step 1, the splits: "Dr." off Perry in both places (the
+# window Pangram splits at the title, as his 71 took it off Epley and lesson neuro-2026-11-27e off Perry in the
+# Anti-Breakthrough), and the label marked off with a colon, as the Anti-Breakthrough's is (the fit read took "The
+# "Underpinning" Principle Dr. Bruce Perry" as a title for Perry).
+STEP['sw17-s1'] = OLD['sw17'].replace('The "Underpinning" Principle Dr. Bruce Perry compares', 'The "Underpinning" '
+                                      'Principle: Bruce Perry compares')
+STEP['sw18-s1'] = OLD['sw18'].replace('As Dr. Bruce Perry explains', 'As Bruce Perry explains')
+assert STEP['sw17-s1'] != OLD['sw17'] and STEP['sw18-s1'] != OLD['sw18']
+
+# Step 1 (#326, https://www.pangram.com/history/45b4feb9-8030-40e0-bfd6-547069ed7b55) read Human Written: High over the
+# label and the first two sentences, Medium over "You cannot hang curtains in a collapsing house." with the Gibson
+# paragraph's question, High over the rest: the splits at "Dr." closed. Step 2, the curtains line: a short line standing
+# alone that says the sentence before again (the read against his fixes, ways 6, 18, 16): joined to the sentence it draws
+# on (lesson neuro-2026-11-26o), its "cannot" said the way he talks.
+STEP['sw17-s2'] = STEP['sw17-s1'].replace('while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a '
+                                          'collapsing house.', 'while the foundation (the Brainstem) is crumbling, and you '
+                                          'can\'t hang curtains in a collapsing house.')
+assert STEP['sw17-s2'] != STEP['sw17-s1']
+
+# Step 2 (#327, https://www.pangram.com/history/7316e9b0-455f-4fb4-9bdc-0ec0b33fad13) read the whole Principle High (45
+# words) and the Gibson paragraph High but for its opening question, "Why does the brain build this armor?", Human
+# Medium (7 words); that question opens the part under its own heading ("The Modern "Role-Self" vs. The Ancient
+# "True-Self""), which the pair check leaves out, and the Gibson paragraph reads High by itself (#261). The Principle sits
+# in the same part as the paragraph before it, his own version of 2026-11-06 (High by itself, #259), so it is checked
+# with that neighbour: lineage PAIR-SW16-17.

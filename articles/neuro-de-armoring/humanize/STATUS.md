@@ -7,8 +7,10 @@ refused by the auto-mode check); main merged (romance 564, 565); no new items; n
 
 - **P-SW19** (the one-sixteenth paragraph): #312, #314, #317, #319 to #322; best #321, High 61, Medium 29. Card W-SW19.
 - **PAIR-SW22-23** (the practice): #313, #315, #316, #318; best #318, High 62, Medium 33. Card W-SW23.
-- **Lessons** neuro-2026-11-27n to p (`docs/lessons/2026-11-27-2008-neuro.md`).
-- **Waiting on him**: cards W-SW19 and W-SW23. **Next**: the "Underpinning" Principle, then the underpinnings paragraph.
+- **P-SW21** (the underpinnings paragraph): #323, #324, #325; step 3 Human High in one window, in (1d94ed03 to 731f5711).
+- **PAIR-SW17-18 / PAIR-SW16-17** (the "Underpinning" Principle): #326, #327, #328; in at Human High (731f5711 to f8bfa190).
+- **Lessons** neuro-2026-11-27n to r (`docs/lessons/2026-11-27-2008-neuro.md`).
+- **Waiting on him**: cards W-SW19 and W-SW23. **Next**: Part 1, the science.
 
 ## 2026-11-27, his message of 19:17 UTC: his two card versions in; lessons g to m; the blind test 1 of 2
 

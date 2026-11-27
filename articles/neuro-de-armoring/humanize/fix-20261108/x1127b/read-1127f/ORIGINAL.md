@@ -1,0 +1,3 @@
+## The "Underpinning" Principle, as his post has it
+
+The "Underpinning" Principle Dr. Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.

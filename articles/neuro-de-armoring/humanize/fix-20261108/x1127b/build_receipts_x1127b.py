@@ -270,3 +270,242 @@ if __name__ == '__main__' and 'cards' in sys.argv:
     bad += sw23_alone('SW23-S3-CARD', T.NEW['sw23-s3'])
     print('\n'.join(bad))
     print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+
+def v1sw21(n):
+    """The underpinnings paragraph's sentences as its reads had them (x1126b/v1/*/sw21/TEXT.txt)."""
+    return B.S.sentences((HERE.parent / 'x1126b' / 'v1' / 'his-fixes' / 'sw21' / 'TEXT.txt').read_text(encoding='utf-8')
+                         .strip())[n - 1]
+
+
+STEP21 = ('unchanged in this step: the paragraph read with a Human window (#263), so its changes go a word or two a '
+          'check (the ledger\'s near-miss rule), and this sentence\'s rewrite from the reads comes after two such steps')
+
+
+def sw21_step(name, text, changed):
+    """A step from his card version (#263). CHANGED: the numbers of the reads' sentences this step rewords."""
+    kept_h = {v1sw21(n): STEP21 for n in (1, 2) if n not in changed}
+    return B.build(
+        name, text, SEC + ', after the role-self paragraph', WHO,
+        {'Neurological De-Armoring': ('they learn the protocol works on what their mind stands on, not on the thoughts '
+                                      'above it', 'the section\'s point, said as the house', None),
+         'It\'s a protocol': ('they learn what the protocol does to the brainstem and why it comes before the psychology',
+                              'it says how the foundation gets fixed', 'It\'s')},
+        'they learn the protocol works on the brain\'s foundation before the psychology',
+        [('HDAC inhibition', 'the article\'s section C ("The ketone BHB blocks enzymes called HDACs", Shimazu 2013)',
+          'yes: they learn the ketones do the softening, which section C explains', 'kept'),
+         ('Ketones (BHB)', 'the protocol\'s BHB supplements and keto diet (the science sections)', 'yes: they know the '
+          'ketones are part of what they take', 'kept')],
+        {'reader': rsw('needed', 'sw21'), 'unneeded': [v1sw21(2)],
+         'kept': {v1sw21(2): ('the reader needs its job, the only sentence that says what the protocol does to the brain '
+                              '(the needed read listed it for its words, not its job); its words are the next steps\'')}},
+        {'reader': rsw('his-fixes', 'sw21'),
+         'marked': [{'s': v1sw21(1), 'difference': '3, 4, 21, 16: "X, not Y"; underpinnings of what; a label; said again '
+                                                    'in S2'},
+                    {'s': v1sw21(2), 'difference': '1, 4, 10, 11, 13, 21, 8: one chain carrying four pictures; terms '
+                                                    'unexplained; which does what; the means first'}],
+         'kept': kept_h},
+        {'reader': rsw('fit', 'sw21'),
+         'marked': [{'s': v1sw21(2), 'found': 'CAN\'T TELL what HDAC inhibition and glutamate modulation are or what the '
+                                               'concrete is; FROM: textbook terms; MISREAD: dissolving my brain'}],
+         'kept': {v1sw21(2): STEP21} if 2 not in changed else {}},
+        'his card version of 2026-11-03: the protocol fixes the foundation, not the decor; it softens what has set hard in '
+        'the brainstem with glutamate modulation and ketones (BHB, which block HDACs), so a new foundation can go in and '
+        'the psychological work can follow',
+        'after the role-self paragraph, where his card version has it')
+
+
+if __name__ == '__main__' and 'sw21s1' in sys.argv:
+    bad = sw21_step('SW21-S1', T.plain(T.STEP['sw21-s1']), (1,))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+if __name__ == '__main__' and 'sw21s2' in sys.argv:
+    bad = sw21_step('SW21-S2', T.plain(T.STEP['sw21-s2']), (2,))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+
+def sw21_rewrite(name, text):
+    """The rewrite after the two small steps from his version (#323, #324), from the reads of his version, the panel
+    on step 2 and the fresh read of my first rewrite."""
+    return B.build(
+        name, text, SEC + ', after the role-self paragraph', WHO,
+        {'In Perry\'s picture': ('they learn the protocol works on the brainstem, the foundation in Perry\'s house, before '
+                                 'the psychology upstairs', 'it names the picture the section began with', 'none: it '
+                                 'turns from why the protocol was built to what it works on, in the section\'s picture'),
+         'Trauma leaves that': ('they learn what is wrong with that foundation and how the protocol softens it, with what '
+                                'each part does', 'it says what the protocol does to the foundation', 'none: it says what '
+                                'is wrong with the foundation the sentence before named'),
+         'Then we can': ('they learn the old concrete comes out and a new foundation goes in, and the psychology comes '
+                         'after', 'it gives what the softening is for', 'Then')},
+        'they learn what the protocol does to the brain, in the house picture, before the psychology',
+        [('HDACs, which BHB blocks, can keep new learning from sticking', 'the article\'s section C ("The ketone BHB '
+          'blocks enzymes called HDACs", Shimazu 2013; an HDAC blocker made new learning last in mice, Whittle & '
+          'Singewald 2014)', 'yes: they learn why the ketone is in the protocol', 'kept'),
+         ('calming glutamate', 'the protocol\'s glutamate shield (Part 3) and section B', 'yes: they learn the other half '
+          'of what the protocol does to the brainstem', 'kept'),
+         ('the brainstem as the foundation of Perry\'s house', 'the section\'s second paragraph (Perry compares treating '
+          'trauma to building a house; the foundation is the brainstem)', 'yes: they hold one picture through the '
+          'paragraph', 'kept')],
+        {'reader': rsw('needed', 'sw21'), 'unneeded': [v1sw21(2)],
+         'kept': {v1sw21(2): 'the reader needs its job, what the protocol does to the brain, now in the house picture'}},
+        {'reader': rsw('his-fixes', 'sw21') + ', the tell panel on step 2 (x1127b/panel-sw21-s2/PANEL.md), and a fresh '
+                   'reader (Fable, 2026-11-27) of my first rewrite (x1127b/v1/his-fixes/sw21r1/READ.md)',
+         'marked': [{'s': v1sw21(1), 'difference': '3, 4, 21, 16: "X, not Y"; underpinnings of what; a label; said again '
+                                                    'in S2'},
+                    {'s': v1sw21(2), 'difference': '1, 4, 10, 11, 13, 21, 8: one chain carrying four pictures; terms '
+                                                    'unexplained; which does what; the means first'}],
+         'kept': {}},
+        {'reader': rsw('fit', 'sw21'),
+         'marked': [{'s': v1sw21(2), 'found': 'CAN\'T TELL what HDAC inhibition and glutamate modulation are or what the '
+                                               'concrete is; FROM: textbook terms; MISREAD: dissolving my brain'}],
+         'kept': {}},
+        'his card version of 2026-11-03: the protocol fixes the foundation, not the decor; it softens what has set hard in '
+        'the brainstem with glutamate modulation and ketones (BHB, which block HDACs), so a new foundation can go in and '
+        'the psychological work can follow',
+        'after the role-self paragraph, where his card version has it')
+
+
+if __name__ == '__main__' and 'sw21r' in sys.argv:
+    bad = sw21_rewrite('SW21-R1', T.plain(T.STEP['sw21-r1']))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+
+if __name__ == '__main__' and 'sw21s3' in sys.argv:
+    bad = sw21_step('SW21-S3', T.plain(T.STEP['sw21-s3']), (2,))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+
+def v1sw17(n):
+    return B.S.sentences((HERE / 'v1' / 'his-fixes' / 'sw17' / 'TEXT.txt').read_text(encoding='utf-8').strip())[n - 1]
+
+
+STEP17 = ('unchanged in this step: the pair read with Human windows (#260), so its changes go a word or two a check (the '
+          'ledger\'s near-miss rule); this sentence\'s fix from the reads comes in the next steps')
+
+
+JOINED17 = ('its words are kept in this step, with the curtains line joined to it: the pair read with Human windows, so '
+            'its changes go a word or two a check (the ledger\'s near-miss rule), and its two glosses come next')
+
+
+def pair1718(name, text):
+    """A step of the "Underpinning" Principle with the Gibson paragraph after it (the Principle is under 50 words)."""
+    spec = {'The "Underpinning" Principle': ('they learn Perry compares treating trauma to building a house', 'the '
+                                            'section\'s second point: why therapy aimed at thoughts can fail', None),
+            'Standard CBT': ('they learn thought-aimed therapies work on the cortex while the brainstem, the foundation, '
+                             'is damaged' + (', and that the foundation comes first' if 'and you can\'t hang' in text
+                                             else ''), 'it says what the house picture means for therapy', 'none: it '
+                             'fills in the picture the sentence before names'),
+            'You cannot hang curtains': ('they learn the foundation comes first', 'it says what follows from the picture',
+                                         'none: it draws the picture\'s consequence'),
+            'Why does the brain build this armor?': ('they ask where the armor comes from', 'the next part of the section, '
+                                                    'under its own heading', 'none: a new part of the section'),
+            'Psychologist Lindsay Gibson explains': ('they learn children of emotionally immature parents build a '
+                                                     'Role-Self to please and manage them', 'it answers the question',
+                                                     'none: it answers the question before it'),
+            'But we can\'t just blame': ('they learn their parents aren\'t the whole cause', 'it turns from the parents '
+                                         'to the society', 'But'),
+            'It really is true what they say': ('they learn the saying that it takes a village', 'it says what the '
+                                               'parents were missing', 'none: it gives the saying the sentence before '
+                                               'leads to'),
+            'The modern large society': ('they learn one or two caregivers aren\'t enough', 'it says how modern life '
+                                         'falls short of the village', 'none: it applies the saying to now'),
+            'As Bruce Perry explains': ('they learn the ratio our brains evolved with, 4 adults to a child', 'it gives the '
+                                        'number behind the village', 'As'),
+            'Today, our': ('they learn today\'s ratio, 1 immature adult to 4 children', 'it gives the number for now',
+                           'Today')}
+    marked = {1: '4, 10, 11, 13: the source before the point; "Underpinning" unexplained',
+              2: '1, 2, 4, 21: two glosses at the same place; category words; therapies doing the act',
+              3: '6, 18, 16: a short wise-sounding line saying S2 again'}
+    return B.build(
+        name, text, SEC + ', the "Underpinning" Principle and the Gibson paragraph after it', WHO, spec,
+        'they learn why therapy aimed at thoughts can fail while the brain\'s foundation is damaged',
+        [('Perry compares treating trauma to building a house', 'his post, from Perry', 'yes: they hold the picture the '
+          'section uses', 'kept'),
+         ('4 mature adults to 1 child then, 1 immature adult to 4 children now', 'his post, from Perry (his approved card '
+          'SC-24, Perry 2023)', 'yes: they see how far short modern life falls', 'kept')],
+        {'reader': 'a fresh reader (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md and only the '
+                   'Principle as it stood (x1127b/v1/needed/sw17/READ.md)', 'unneeded': [], 'kept': {}},
+        {'reader': 'a fresh reader (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md and only the Principle '
+                   'as it stood (x1127b/v1/his-fixes/sw17/READ.md)',
+         'marked': [{'s': v1sw17(n), 'difference': d} for n, d in marked.items()],
+         'kept': ({v1sw17(2): JOINED17} if 'and you can\'t hang' in text else {v1sw17(n): STEP17 for n in (2, 3)})},
+        {'reader': 'a fresh reader (Fable, 2026-11-27) given tools/humanization/fit_read_brief.md and only the Principle '
+                   'as it stood (x1127b/v1/fit/sw17/READ.md)',
+         'marked': [{'s': v1sw17(2), 'found': 'CAN\'T TELL how I\'d know my brainstem is crumbling; FROM: EMDR is not '
+                                               'thought work; MISREAD: brain damage, my therapy wasted'},
+                    {'s': v1sw17(3), 'found': 'MISREAD: therapy is pointless until the body is fixed'}],
+         'kept': ({v1sw17(2): JOINED17} if 'and you can\'t hang' in text else {v1sw17(n): STEP17 for n in (2, 3)})},
+        'his post: Perry\'s house, therapies that decorate while the foundation crumbles; why the brain builds armor '
+        '(Gibson\'s Role-Self), the village, and Perry\'s ratios',
+        'where the post has them')
+
+
+if __name__ == '__main__' and 'sw17s1' in sys.argv:
+    bad = pair1718('SW17-18-S1', T.pair_plain(T.STEP['sw17-s1'], T.STEP['sw18-s1']))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+
+if __name__ == '__main__' and 'sw17s2' in sys.argv:
+    bad = pair1718('SW17-18-S2', T.pair_plain(T.STEP['sw17-s2'], T.STEP['sw18-s1']))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')
+
+
+
+def pair1617(name, text):
+    """The Principle as step 2 has it, with the paragraph before it (his own version of 2026-11-06, Human High by itself,
+    #259); the Principle is under 50 words."""
+    spec = {'Have you done years': ('they ask whether years of therapy have left them still triggered', 'the section\'s '
+                                    'opening question, to the reader', None),
+            'One reason to think about': ('they learn therapy rewrites the code while the motherboard is overheating or '
+                                          'damaged', 'it answers the question', 'none: it answers the question before it'),
+            'So to address that': ('they learn the protocol goes after five problems in the brain before, or alongside, '
+                                   'the psychology', 'it gives what the protocol does about it', 'So'),
+            'The "Underpinning" Principle': ('they learn Perry compares treating trauma to building a house', 'the same '
+                                            'point in Perry\'s picture', 'none: the Principle\'s label opens it, the same '
+                                            'point in another picture'),
+            'Standard CBT': ('they learn thought-aimed therapies work on the cortex while the brainstem, the foundation, '
+                             'is damaged, and that the foundation comes first', 'it says what the house picture means for '
+                             'therapy', 'none: it fills in the picture the sentence before names')}
+    return B.build(
+        name, text, SEC + ', its first paragraph and the "Underpinning" Principle', WHO, spec,
+        'they ask whether years of therapy have left them still triggered, and learn why that can happen',
+        [('Perry compares treating trauma to building a house', 'his post, from Perry', 'yes: they hold the picture the '
+          'section uses', 'kept'),
+         ('5 specific neuro-biological problems', 'his version of 2026-11-06 (A to E below)', 'yes: they follow the link to '
+          'the five problems, A to E, that come next', 'kept')],
+        {'reader': 'a fresh reader (Fable, 2026-11-27) given tools/humanization/needed_read_brief.md and only the '
+                   'Principle as it stood (x1127b/v1/needed/sw17/READ.md)', 'unneeded': [], 'kept': {}},
+        {'reader': 'a fresh reader (Fable, 2026-11-27) given tools/humanization/his_fixes_brief.md and only the Principle '
+                   'as it stood (x1127b/v1/his-fixes/sw17/READ.md)',
+         'marked': [{'s': v1sw17(n), 'difference': d} for n, d in (
+             (1, '4, 10, 11, 13: the source before the point; "Underpinning" unexplained'),
+             (2, '1, 2, 4, 21: two glosses at the same place; category words; therapies doing the act'),
+             (3, '6, 18, 16: a short wise-sounding line saying S2 again'))],
+         'kept': {v1sw17(2): JOINED17}},
+        {'reader': 'a fresh reader (Fable, 2026-11-27) given tools/humanization/fit_read_brief.md and only the Principle '
+                   'as it stood (x1127b/v1/fit/sw17/READ.md)',
+         'marked': [{'s': v1sw17(2), 'found': 'CAN\'T TELL how I\'d know my brainstem is crumbling; FROM: EMDR is not '
+                                               'thought work; MISREAD: brain damage, my therapy wasted'},
+                    {'s': v1sw17(3), 'found': 'MISREAD: therapy is pointless until the body is fixed'}],
+         'kept': {v1sw17(2): JOINED17}},
+        'his version of the section\'s first paragraph (2026-11-06), and his post\'s Principle: Perry\'s house, therapies '
+        'that decorate while the foundation crumbles',
+        'where the post has them')
+
+
+if __name__ == '__main__' and 'sw1617' in sys.argv:
+    bad = pair1617('SW16-17-S2', T.pair_plain(T.OLD['sw16'], T.STEP['sw17-s2']))
+    print('\n'.join(bad))
+    print('receipts:', 'FAIL' if bad else 'PASS')

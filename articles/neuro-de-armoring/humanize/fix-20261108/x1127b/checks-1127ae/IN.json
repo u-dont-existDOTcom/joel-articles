@@ -1,0 +1,15 @@
+{
+ "sw17-s2": {
+  "lineage": "neuro-de-armoring/PAIR-SW17-18",
+  "scope": "pair",
+  "name": "The \"Underpinning\" Principle with the Gibson paragraph, step 2: the curtains line joined",
+  "text": "The \"Underpinning\" Principle: Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling, and you can't hang curtains in a collapsing house.\n\nWhy does the brain build this armor? Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents survive by creating a \"Role-Self\"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: \"It takes a village to raise a child.\" The modern large society with only one or two people caring for the children is vastly insufficient. As Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our \"enriched\" environments offer 1 immature adult to 4 children.",
+  "chance": 0.55,
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/receipts/SW17-18-S2.receipt.json",
+  "diagnosis": "step 1 (#326) read every window High but one, Medium over \"You cannot hang curtains in a collapsing house.\" with the Gibson paragraph's question; the read against his fixes called the curtains line a short wise-sounding line standing alone that says the sentence before again; joined to that sentence with \"and\", \"can't\" as he talks",
+  "decides": "whether the last Medium window goes; if it stays, it is the question's (\"Why does the brain build this armor?\"), next",
+  "tells": "the Gibson paragraph's opening question, unchanged",
+  "first_fix": "payoff: unchanged; join: the curtains line joined with \", and\" to the sentence it draws on; plain: \"can't\" for \"cannot\"",
+  "humanized": "step 1 with the curtains line joined to the sentence before"
+ }
+}
