@@ -10,6 +10,15 @@ Rules that make an article easy and worthwhile to read; they come before anythin
 
 The reader always knows what is being said, why they are reading it, and how it follows.
 
+#### R-gauge-audience | Gauge the audience: it decides how much to explain
+- **Rule:** Before deciding how much to explain, gauge who the article is for, from the article and from where it will be published. Where it sets out to teach general readers (his posts), terms and the links the prose leaves unsaid are explained for someone who doesn't know the subject; a research paper for peer review, or a comment on a forum of people who know the field (SuttaCentral's, say), assumes what its readers know. How much to explain, gloss or unpack follows from that. Only if the article and its venue both leave it open is he asked, in the same message as the research question (R-studies-where-expected).
+- **Why:** Joel, 2026-11-28: "for "explain for someone who doesn't know" that depends of course on the article. like if you already see in the article i'm trying to teach people about stuff, then that determines the level of explanation required. gauge the audience. if it's a research paper for peer review obv that's not the same audience right... if it's a comment on SuttaCentral forums obviously i'm not going to explain everything the way i would in my nibbana post for the general readers."
+- **Checked by:** judgment; the audience is noted when work on an article begins.
+- **Stages:** start, sense
+- **Links:** comes before R-explain-hidden-links; comes before R-gloss; comes before R-unpack-lists; goes with R-studies-where-expected
+- **Status:** active
+- **Record:** 2026-11-28, his message of 15:23 UTC.
+
 #### R-payoff-first | The reader knows early why they are reading this
 - **Rule:** At each sentence and paragraph, ask whether the reader knows early why they are reading it, without having to reach the end. The ways he has done it (opening on the reader's own case, the deciding limit first, the purpose before the means) are examples to consider, not forms to require. He is not asked again what "payoff first" means.
 - **Why:** Joel, 2026-11-04: "the fix was to give the reader payoff sooner so they understand why they should read ... we have to read all the way to the end of the sentence before we understand why we were reading the sentence ... how come i keep explaining this and you keep forgetting?" Joel, 2026-11-21: "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this"
@@ -30,15 +39,15 @@ The reader always knows what is being said, why they are reading it, and how it 
 - **Status:** active
 - **Record:** 2026-11-28, audit card C03, approved, with his note (quoted above).
 
-#### R-explain-hidden-links | Explain for someone who doesn't know the subject
-- **Rule:** Compressed text is explained for a reader who doesn't know the subject, with the links the prose leaves unsaid spelled out. An expansion has to clarify; it never pads.
+#### R-explain-hidden-links | Explain for the reader the article is written for
+- **Rule:** Compressed text is explained to the level the article's audience needs (R-gauge-audience): for readers who don't know the subject, the links the prose leaves unsaid are spelled out. An expansion has to clarify; it never pads.
 - **Why:** Joel, saved preference: "just explain stuff to someone who doesn't already know the hidden links in your prose's thinking" and "expand IN A CLARIFYING WAY, not just expanding with filler, everything should have a purpose ... clarity is paramount"
 - **Checked by:** judgment.
 - **Stages:** sense, humanize
-- **Links:** goes with R-gloss; goes with R-unpack-lists
+- **Links:** builds on R-gauge-audience; goes with R-gloss; goes with R-unpack-lists
 - **Replaces:** his saved preferences
 - **Status:** active
-- **Record:** his saved preference.
+- **Record:** his saved preference; 2026-11-28, made to depend on the audience (his message of 15:23 UTC).
 
 #### R-accurate-word | The word that says exactly what the thing does
 - **Rule:** Use the accurate, natural word for what something does or is, whether or not the passage already has that word. A vaguer word, or one whose everyday sense could send the reader elsewhere, is replaced. A word is not swapped for a paraphrase to get past Pangram.
@@ -46,7 +55,7 @@ The reader always knows what is being said, why they are reading it, and how it 
 - **Example:** before "improves the trip" / after "smooth the trip"; before "turned straight into" / after "converted into"; before "tone" / after "receptors"
 - **Checked by:** judgment.
 - **Stages:** sense, humanize
-- **Links:** goes with R-clear-it; goes with R-lesson-reason-not-feature
+- **Links:** goes with R-clear-it; goes with R-lesson-reason-not-feature; goes with R-emphasis-only-where-called-for
 - **Replaces:** audit cards S1, C14, C21; ways 10 and 30 of the fixes brief; "The plain word" in SKILL.md and AGENTS.md; the three-part first-fix declaration; lessons bad-trips-2026-11-27j and l, neuro-2026-11-26 (plain word)
 - **Status:** active
 - **Record:** 2026-11-28, audit cards S1 and C14, approved.
@@ -63,7 +72,7 @@ The reader always knows what is being said, why they are reading it, and how it 
 - **Record:** 2026-11-28, audit card S1, approved, with his note (quoted above).
 
 #### R-gloss | Explain a term where the reader first needs it
-- **Rule:** A term the reader may not know is explained where they first need it, in whatever form reads easily: inside the sentence, in a bracket, or in a sentence after. Don't explain what the words around it already say, and don't put an explanation on every name in a list.
+- **Rule:** A term this article's reader may not know (R-gauge-audience) is explained where they first need it, in whatever form reads easily: inside the sentence, in a bracket, or in a sentence after. Don't explain what the words around it already say, and don't put an explanation on every name in a list.
 - **Why:** Joel (old gate, no date recorded): "it's actually harder to read now with these 2 parentheticals. can you fix the reader?" Joel, 2026-11-26: "the main issues in your version were lack of explanation, connection, clarity"
 - **Checked by:** judgment; no bracket count and no tool refusal.
 - **Stages:** sense, humanize
@@ -113,15 +122,15 @@ The reader always knows what is being said, why they are reading it, and how it 
 - **Record:** unchanged.
 
 #### R-close-read | A close word-by-word read for sense before a post
-- **Rule:** Before an article goes into his post, every word is read for sense, to catch a real word standing where another belongs. An obvious wrong word is fixed and he is told; a word whose intended meaning is unclear goes to him.
+- **Rule:** Before an article goes into his post, every word is read for sense, to catch a real word standing where another belongs. An obvious wrong word is fixed and he is told; a word whose intended meaning is unclear goes to him. The read is tested with planted errors, as it is now.
 - **Why:** Joel, 2026-11-03: "do we have more nonsense in here (from emulate i guess)? how are you not catching this?" and "make sure this closer reading is also part of the general joel-articles skill"
 - **Example:** before "oily" / after "old"
 - **Checked by:** judgment.
 - **Stages:** sense, show
 - **Links:** goes with R-his-own-text-stays
 - **Replaces:** audit card C26; gate E331; SKILL.md "Word-for-sense read before publication"; his saved preferences
-- **Status:** open question: does he want the read tested with planted errors on every article, or only the close read? Until he answers, the close read is always done and the planted-error test stays as it is.
-- **Record:** 2026-11-28, audit card C26, approved.
+- **Status:** active
+- **Record:** 2026-11-28, audit card C26, approved; then 2026-11-28, his answers on the open questions (15:23 UTC): approved (the planted-error test stays).
 
 ### 1.2 Say it once
 
@@ -158,14 +167,14 @@ Each point is made in one place, and what repeats or only fills space goes.
 - **Record:** his saved preference; 2026-11-28, audit card C21, approved.
 
 #### R-shared-links-and-passages | Across his Substack, one link per thing and one copy per shared passage
-- **Rule:** Whenever an article mentions something he has a reference link for, it links that link; an article that mentions another of his articles links it; a passage several articles share is kept once.
-- **Why:** Joel, 2026-11-20: "anytime i mention it in any article you already know to link that one, or if any article mentions another, it links that, or if there are things that should be like snippets that are the same in different articles we can store them once rather than twice"
+- **Rule:** Whenever an article mentions something he has a reference link for, it links that link; an article that mentions another of his articles links it, and where it speaks of one part of that article, it links that part (the section's anchor), asking him when unsure which part; a passage several articles share is kept once.
+- **Why:** Joel, 2026-11-20: "anytime i mention it in any article you already know to link that one, or if any article mentions another, it links that, or if there are things that should be like snippets that are the same in different articles we can store them once rather than twice" Joel, 2026-11-28: "for linking to other substack posts, if i'm specifcally talkinbg about one part of it, link to that part that's relevant (ask if unsure)"
 - **Checked by:** judgment.
 - **Stages:** sense, record
-- **Links:** goes with R-link-not-repeat
+- **Links:** goes with R-link-not-repeat; goes with R-anchor-links
 - **Replaces:** his saved preferences
 - **Status:** open question: he is still deciding on a system to track this across the Substack. Until then, the links he has named are used wherever their subject comes up.
-- **Record:** his saved preference.
+- **Record:** his saved preference; 2026-11-28, links to the part meant (his message of 15:23 UTC).
 
 ### 1.3 Lists
 
@@ -181,15 +190,15 @@ When a list helps the reader and when it reads like a machine's.
 - **Status:** active
 - **Record:** 2026-11-28, audit card OLD-GATE, approved.
 
-#### R-unpack-lists | Unpack a compressed list where its items need explaining
-- **Rule:** Where a list holds things that aren't obvious and could use explaining, unpack it so each item is a particular thing said to this reader. Don't unpack every list as a routine: a plain run of names (fifteen medicines to avoid) can stay a list. His two list paragraphs are examples, not a form.
-- **Why:** Joel, 2026-11-07: "high conf human on first try. seems like you didn't even try to make it less like a massive robotic compressed list." Joel, 2026-11-28: "i wouldn't necessarily unpack every list robotically, that could be bloating things obviously like say we have a list of contraindications, we can list 15 meds and pangram is fine with that, no need to unpack each one, but if the list contains things that aren't so obvious and could use explaining, then that's part of the clarifying rule"
+#### R-unpack-lists | Unpack a list where its audience needs each item explained
+- **Rule:** Whether a list stays a list depends on its audience (R-gauge-audience). Where the reader needs to know how to act on each item, or may not know what an item means, each item is unpacked into a particular thing said to this reader. Where they only need the names (fifteen medicines to avoid), it stays a list; don't unpack every list as a routine. His two list paragraphs are examples, not a form.
+- **Why:** Joel, 2026-11-07: "high conf human on first try. seems like you didn't even try to make it less like a massive robotic compressed list." Joel, 2026-11-28: "i wouldn't necessarily unpack every list robotically, that could be bloating things obviously like say we have a list of contraindications, we can list 15 meds and pangram is fine with that, no need to unpack each one, but if the list contains things that aren't so obvious and could use explaining, then that's part of the clarifying rule" and "re: compressed, that rule looks too general. it depends on the audience. does the audience need to know how to act on each item? then you can't just use a compressed list. do they know what the items mean? etc."
 - **Checked by:** judgment.
 - **Stages:** sense, humanize
-- **Links:** builds on R-explain-hidden-links; goes with R-lists-not-overfull
+- **Links:** builds on R-gauge-audience; builds on R-explain-hidden-links; goes with R-lists-not-overfull
 - **Replaces:** audit card C13; lessons bad-trips-2026-11-07j, bad-trips-2026-11-12a and f; the list frames in SKILL.md and AGENTS.md; "these six come before any other rewrite"
 - **Status:** active
-- **Record:** 2026-11-28, audit card C13, approved, with his note (quoted above).
+- **Record:** 2026-11-28, audit card C13, approved, with his note (quoted above); made to depend on the audience by his message of 15:23 UTC.
 
 #### R-lists-not-overfull | Don't fill a list to cover every hole
 - **Rule:** An AI list tends to hold too much. Look for a balance: one word can sometimes say two items, and an item that is beside the point or explained elsewhere can go. What the reader has to check for themselves stays, "etc." only ends a run of examples of one thing, and a firm don't stays firm where someone could get hurt.
@@ -236,14 +245,14 @@ How few cautions an article carries, where they sit, and which ones stay.
 - **Record:** 2026-11-28, audit card C08, to revise: the card's "or following it could hurt or confuse the reader" is dropped, as his note says.
 
 #### R-his-warnings-stay | His harm-reduction warnings stay, by meaning and facts
-- **Rule:** A warning Joel wrote against a dangerous combination stays in the article. Its words may change while the humanizing is done, as long as every fact stays: what, when, how much. Where it repeats another of his warnings, moving it to one place or cutting the repeat is proposed to him (R-few-cautions).
+- **Rule:** A warning Joel wrote against a dangerous combination stays in the article. Its words may change while the humanizing is done, as long as every fact stays: what, when, how much. Amounts he wrote stay, and the editor adds none. Where it repeats another of his warnings, moving it to one place or cutting the repeat is proposed to him (R-few-cautions).
 - **Why:** Joel, 2026-10-11: "it's not instructions FOR mixing, it's instructions AGAINST a dangerous combo. That's called harm reduction." Joel, 2026-11-04: "8a not sure why you had to ask that, the whole point is rewording stuff here"
 - **Checked by:** judgment.
 - **Stages:** sense, humanize
 - **Links:** goes with R-keep-what-he-meant; goes with R-few-cautions
 - **Replaces:** audit cards C08, C10; gates E162, E358; "No drug amounts or recipes, even inside a warning" and "held word for word" in FIXING-AN-ARTICLE.md; his saved preferences
-- **Status:** open question: may a warning give an amount, or what to take instead? Until he answers, amounts he wrote stay and the editor adds none.
-- **Record:** 2026-11-28, audit cards C08 (to revise) and C10 (approved).
+- **Status:** active
+- **Record:** 2026-11-28, audit cards C08 (to revise) and C10 (approved); then 2026-11-28, his answers on the open questions (15:23 UTC): approved (no amounts added).
 
 ### 1.5 Evidence and sources
 
@@ -270,13 +279,13 @@ What an article claims, what backs it, and how much research it carries.
 - **Record:** 2026-11-28, audit card C19, approved.
 
 #### R-studies-where-expected | Cite a study only where the reader expects evidence, and ask at the start how much research the article carries
-- **Rule:** Looking up a study to back a point can be good, but it looks odd where the reader wouldn't expect one. Add evidence where it fits the context, and ask Joel when that is unclear. When work on an article begins, ask him how much research evidence should go into it.
+- **Rule:** Looking up a study to back a point can be good, but it looks odd where the reader wouldn't expect one. Add evidence where it fits the context, and ask Joel when that is unclear. When work on an article begins, ask him one plain question, how much research evidence goes in: none (his experience and reasoning carry it); a little, only where a reader would expect a source; or full citations for every claim of fact. The answer decides whether studies are looked up at all, and where.
 - **Why:** Joel, 2026-11-28: "one thing i notice is you tend to try to look up studies to give evidence, which can be good, but sometimes it can look weird if that's not what the reader would expect there. so try to make sure that is appropriate in context and if unclear you can ask the author. probably also good at the beginning of any article to ask how much research evidence shoudl go into the article. you can brainstorm this also"
 - **Checked by:** judgment.
 - **Stages:** start, sense
 - **Replaces:** audit card C19; gate E212 (now one case)
-- **Status:** open question: how to ask about research at the start, and what the answers mean for the work, is still to brainstorm with him. Until then, one plain question at the start.
-- **Record:** 2026-11-28, audit card C19, approved, with his note (quoted above).
+- **Status:** active
+- **Record:** 2026-11-28, audit card C19, approved, with his note (quoted above); then 2026-11-28, his answers on the open questions (15:23 UTC): approved (the one question with three answers).
 
 #### R-his-experience-stands | Once he says his experience stands, it is written as his
 - **Rule:** When Joel says a point rests on his experience and stands, it is written as his, and no further source objection is sent on it.
@@ -319,7 +328,7 @@ What makes the prose sound like Joel and like a person.
 - **Stages:** humanize, show, record
 - **Links:** builds on R-human-tell; goes with R-humor-lesson; goes with R-no-invented-life; goes with R-marking-page
 - **Replaces:** audit card C15
-- **Status:** to build, higher priority (his words)
+- **Status:** to build, and of the things still to build it stays the higher priority (card C15). His fixes teach the Pangram rules first (R-his-kept-words-teach-pangram); his words are used now wherever the editor knows them, and he is asked once when to start building the attempts.
 - **Record:** 2026-11-28, audit card C15, to revise, written as his note says.
 
 #### R-humor-lesson | A lesson on writing more human jokes
@@ -376,25 +385,25 @@ Headings and the table of contents, read the way a reader scans them.
 - **Status:** active
 - **Record:** his saved preference.
 
-#### R-no-twin-headings | No two headings in a row say or ask the same thing
-- **Rule:** Two headings in a row don't say or ask the same thing, judged on meaning by a reader. A shared word only suggests pairs to look at; a decision is written down only for pairs a reader finds the same and for headings marked hard.
-- **Why:** Joel, 2026-11-21: "why would you put 2 serotonin syndrome headings in a row"
+#### R-no-twin-headings | No two headings say the same thing, and twins are a sign to look at their sections
+- **Rule:** No two headings in an article say or ask the same thing, ideally, wherever they sit; there may be exceptions. Two that do are a sign to read the prose of both sections: they may need merging, or one may be cut back and point to the other (R-link-not-repeat). Sameness is judged on meaning by a reader; a shared word only suggests pairs to look at.
+- **Why:** Joel, 2026-11-21: "why would you put 2 serotonin syndrome headings in a row" Joel, 2026-11-28: "re: headings, really no two headings should say the same thing, ideally. there might be exceptions but in general i mean. that's also an indicator to check the prose in those sections to see if the sections should be merged or one should be reduced and point to the other or something like that."
 - **Checked by:** the contents check lists candidates; a reader decides.
 - **Stages:** sense
-- **Links:** builds on R-headings-answer-reader
+- **Links:** builds on R-headings-answer-reader; goes with R-link-not-repeat; goes with R-cut-repeats
 - **Replaces:** audit card C25; the shared-word gate in the contents check; lesson bad-trips-2026-11-21 (headings)
 - **Status:** active
-- **Record:** 2026-11-28, audit card C25, approved.
+- **Record:** 2026-11-28, audit card C25, approved; widened from "in a row" to the whole article by his message of 15:23 UTC.
 
 #### R-contents-order | Sort the contents with his reasons, and show him the whole order once
-- **Rule:** To reorder an article, first read the contents alone, then the guide and his answers for what each part holds. Ask him, in one message before sorting, only what those leave open. Sort with his heuristics and put the whole proposed order to him once, with a reason for each move and a pick. A section that moves gets its own Pangram check.
+- **Rule:** To reorder an article, first read the contents alone, then the guide and his answers for what each part holds. Ask him, in one message before sorting, only what those leave open. Sort with his heuristics and put the whole proposed order to him once, with a reason for each move and a pick. A section that moves gets its own Pangram check. Fresh readers are tested on the contents ("where would you look first?") only when he asks.
 - **Why:** Joel, 2026-11-20: "i want to save those instructions in joel-articles repo so that next time you can do most of the work for me ... if unsure why i picked something you can ask me" Joel, 2026-11-21: "send me any qeustions that you can't find answered in the article"
 - **Checked by:** judgment; Joel's answer on the proposed order.
 - **Stages:** start, sense, show
 - **Links:** goes with R-ask-when-needed; goes with R-anchor-links
 - **Replaces:** audit card C16; the contents-order brief ("move by move", "ask him ... what each role and part holds", "needs no check"); gate E197; FIXING-AN-ARTICLE.md section 3 item 8
-- **Status:** open question: does he want fresh-reader "where would you look first?" tests on every contents change, or only when he asks? Until he answers, one is run when he asks.
-- **Record:** 2026-11-28, audit card C16, approved.
+- **Status:** active
+- **Record:** 2026-11-28, audit card C16, approved; then 2026-11-28, his answers on the open questions (15:23 UTC): approved (reader tests only when he asks).
 
 #### R-text-under-link-heading | Text under a link heading gets a heading of its own in a contents proposal
 - **Rule:** In a contents run, read what sits under each heading that is a link. Where text does, the proposal gives that text a heading of its own, keeps the link as a heading above it or as a plain line, and the readers test it; the heading goes on his picks page like every other, since headings are his to pick.
@@ -432,14 +441,14 @@ The ways Joel's fixes read differently from the drafts he fixed, and how the edi
 - **Record:** 2026-11-28, audit card C17, to revise, written as his note says.
 
 #### R-fixes-searchable | His fixes are easy to search for the ones that could help
-- **Rule:** His before-and-afters should be easy to search, so the editor can pull the fixes most likely to help with the passage in front of it. How (a graph, or another way) is still to work out with him.
+- **Rule:** His before-and-afters are kept in an index, one line each, saying what the passage lacked (from the ways his fixes differ from the editor's drafts) and what he did. Before the editor rewrites a passage, a reader picks from the index the fixes closest to it by meaning, and the editor reads those in full. A graph only if the index isn't enough.
 - **Why:** Joel, 2026-11-28: "we should also try to make some kind of graph for the fixes so that it's easy to find which fixes might be most helpful, although maybe graph is the wrong approach, i'm not sure how to make the fixes searchable exactly."
 - **Checked by:** nothing yet.
 - **Stages:** humanize, record
 - **Links:** goes with R-read-against-his-fixes; goes with R-mimic-pangram
 - **Replaces:** audit card C17 (his note)
-- **Status:** to build; open question: how to make the fixes searchable is to work out with him.
-- **Record:** 2026-11-28, audit card C17, to revise, written as his note says.
+- **Status:** to build (the way he approved)
+- **Record:** 2026-11-28, audit card C17, to revise, written as his note says; then 2026-11-28, his answers on the open questions (15:23 UTC): approved (the index).
 
 ## 2 His words and meaning
 
@@ -450,14 +459,14 @@ Rules that keep what Joel wrote, decided and meant.
 Which words are Joel's to keep and which are the editor's to fix.
 
 #### R-model-text-is-mine | A model's text is the editor's to fix, even after he humanized it
-- **Rule:** In an article a model drafted, the words are the model's unless they were his before the humanizing began. In wording he humanized himself, what he decided stays; the editor fixes the rest of that wording itself, tested, and it goes in like any tested change (R-tested-change-goes-in), on a card only where the fix could change something he decided. It is never handed back to him as his words to fix.
-- **Why:** Joel, 2026-11-06: "'my words' for an AI article, are not my words, unless those were human before we started humanizing ... otherwise it's AI words that i humanized" and "your job is to do the fixing, that's the whole point here"
+- **Rule:** In an article a model drafted, the words are the model's unless they were his before the humanizing began. In wording he humanized himself, what he decided stays; the editor fixes the rest of that wording itself, tested, and it goes in like any tested change (R-tested-change-goes-in). He is asked only where the editor is unsure the fix still says what he was saying, or where a fix may only have made AI slop pass Pangram: passing that way is a sign the passage lacks the author's voice (R-slop-that-passed). It is never handed back to him as his words to fix.
+- **Why:** Joel, 2026-11-06: "'my words' for an AI article, are not my words, unless those were human before we started humanizing ... otherwise it's AI words that i humanized" and "your job is to do the fixing, that's the whole point here" Joel, 2026-11-28: "right you only need to ask me if you're unsure if it still says what i was saying, OR if you think you might have just "fixed" some ai slop so it passes pangram, but it's an indicator that it lacks the author's voice."
 - **Checked by:** judgment.
 - **Stages:** humanize, show
-- **Links:** goes with R-his-own-text-stays; goes with R-stuck-paragraph; goes with R-tested-change-goes-in
+- **Links:** goes with R-his-own-text-stays; goes with R-stuck-paragraph; goes with R-tested-change-goes-in; goes with R-slop-that-passed
 - **Replaces:** audit cards C12, C26; gate E373; "words from his published text count as his even where an AI tool drafted them" in AGENTS.md and SKILL.md
-- **Status:** open question: card C12 said a fix to wording he humanized goes "on a card you can revise"; card C18 says a tested change goes in without one. Which does he want for wording he humanized? Until he answers, his typed words hold ("you're asking me to approve things that are clearly good"; "your job is to do the fixing"): it goes in and is reported, with a card only where the fix could change something he decided.
-- **Record:** 2026-11-28, audit card C12, approved; its "on a card you can revise" is the open question above, since C12 and C18 are both approvals without a note.
+- **Status:** active
+- **Record:** 2026-11-28, audit card C12, approved; then 2026-11-28, his answers on the open questions (15:23 UTC): approved (a fix goes in and is reported), with his note.
 
 #### R-his-own-text-stays | What he wrote himself stays, with obvious slips fixed
 - **Rule:** Text Joel wrote himself stays. An obvious slip (a typo, a doubled word, a missing word) is fixed without asking; a word he invented is kept.
@@ -541,15 +550,15 @@ The editor may change words; it may not change what he means.
 - **Stages:** humanize, check
 - **Links:** builds on R-never-cut-important; goes with R-quicker-not-slower
 - **Replaces:** audit card C27; AGENTS.md "After any rewrite of his sentences ... a fresh reader reads it beside his own text"; the compare read in FIXING-AN-ARTICLE.md section 5; the preservation gate, the architecture gate, the delivery gate, the cold-audit gate, the supervised-writing file's three iterations, the reader-question audit offers
-- **Status:** open question: which of those old gates (preservation ledger, architecture ledger, delivery gate, three iterations, reader-question audit offers) does he still want? Until he answers, none of them blocks, and the one compare per pass holds.
-- **Record:** 2026-11-28, audit card C27, approved, with his note: "some of this can be mergeed". The compare that two other rules each asked for is this one check.
+- **Status:** active
+- **Record:** 2026-11-28, audit card C27, approved, with his note: "some of this can be mergeed". The compare that two other rules each asked for is this one check. Then 2026-11-28, his answers on the open questions (15:23 UTC): approved, none of the old gates.
 
 ### 2.3 His changes and corrections
 
 What the editor does when Joel changes or corrects something.
 
 #### R-learn-from-his-changes | When he shows a change, fix the process that missed it
-- **Rule:** When Joel shows a change and the editor agrees with it, the editor works out what the passage lacked (a named thing, the reason, the exact word) and fixes its own process so it could have made the change itself, apart from knowledge only he has.
+- **Rule:** When Joel shows a change and the editor agrees with it, the editor works out what the passage lacked (a named thing, the reason, the exact word) and fixes its own process so it could have made the change itself, apart from knowledge only he has. Where an edit of his is mixed, a fact only he has beside wording the editor could have fixed, the wording fix is learned from too (R-slop-that-passed).
 - **Why:** Joel, saved preference: "it's a rule i hope that when i show you changes (and you agree) you need to fix yourself so you could have figured it out yourself (minus info you couldn't have, like my own experience)" Joel, 2026-11-03: "i'd like you to learn as much as possible from my edits and reorgs to see all the things you could have done yourself"
 - **Checked by:** judgment; the lesson's test on his paragraphs.
 - **Stages:** record
@@ -557,6 +566,25 @@ What the editor does when Joel changes or corrects something.
 - **Replaces:** his saved preferences; audit card C28
 - **Status:** active
 - **Record:** his saved preference.
+
+#### R-his-kept-words-teach-pangram | When he keeps the editor's words, he is teaching Pangram, not his voice
+- **Rule:** When Joel keeps the editor's words in a fix, that shows those words can pass Pangram; it doesn't show they match his voice. For now his fixes train the editor on what Pangram reads; using his words and idiosyncrasies would be better, and he sees that as the next training step, after the more important Pangram rules are down, since word choice can carry a passage past Pangram and hide a general rule it breaks. Where he has put his own words in and it is unclear which change moved the reading, and a lesson would rest on it, minimal pairs (one change per check) show what did what.
+- **Why:** Joel, 2026-11-28: "regarding word choice, i notice i'm often trying to keep your words to show you that your words also can pass pangram, but that doesn't mean your word choice is matching my voice. so i'm training yoo to understand pangram at this point more than training you to write like me, so keep that in mind. if you used my words and idiosyncracies that would be better, but i'm thinking that is the next training step after we get the more important pangram rules down. because it's easy to overlook the general pangram rules otherwise as it might pass things just based on the word choice sometimes. sometimes i might be putting my words in rather than training you, in which case you might want to run some mimimal pairs to understand what did what."
+- **Checked by:** judgment; minimal pairs in Pangram where a lesson rests on which of his changes moved the reading.
+- **Stages:** humanize, record
+- **Links:** goes with R-learn-from-his-changes; goes with R-lesson-reason-not-feature; comes before R-human-tell-attempts; comes before R-lesson-tested
+- **Status:** active
+- **Record:** 2026-11-28, his message of 15:23 UTC.
+
+#### R-slop-that-passed | His edits of text that passed Pangram are kept and learned from
+- **Rule:** Whenever Joel edits a section because it doesn't get his points across, the edit is recorded with the version he fixed and how it read in Pangram (docs/slop-that-passed/), and the editor works out, in specific terms, what that version lacked or did: his point missing, a description where the reader needed what to do, abstract or empty words, a tidy closer, a hedge that dilutes the point, a vague pointer, and so on. Each reason is the editor's reading until he confirms it. Text that reads Human High can still be AI slop; from these records the editor learns to see it before he does. An edit is put down to "what only he could add" only for the fact or story itself; whatever else the edit fixed is recorded as a fault the editor could have seen.
+- **Why:** Joel, 2026-11-28: "i also want you to keep track of whenever i edit a section because it doesn't get my points across, try to develop some understanding of which sections might be ai slop even if they pass pangram high conf. you surely already have many of my edits like this saved but probably you haven't been using them if they didn't directly help with pangram, you prob just tagged them as "only author could do this" but should have tagged as "pangram passed ai slop" or whatever else you can figure out more specifically about why i might have edited it."
+- **Checked by:** a fresh reader tags each edit; Joel confirms or corrects the reasons.
+- **Stages:** sense, record
+- **Links:** builds on R-learn-from-his-changes; goes with R-read-against-his-fixes; goes with R-fixes-searchable; goes with R-model-text-is-mine
+- **Replaces:** the "only he could have known" tag in the old gate and the lessons (re-tagged 2026-11-28)
+- **Status:** active
+- **Record:** 2026-11-28, his note on the open questions (15:23 UTC); the record starts with his edit of the romance guide's "Things get tricky fast" and the re-tag of 27 places.
 
 #### R-approved-goes-in | What he approved or agreed to is made at once
 - **Rule:** A content change Joel approved goes into the article at once; humanizing the paragraph around it follows as its own work. A cut he agreed to is made.
@@ -611,14 +639,14 @@ How a Pangram result is read and what counts as done.
 - **Record:** his saved preference.
 
 #### R-every-window-high | Every window of the editor's text is aimed at Human High
-- **Rule:** A window that reads AI, or Human at Low or Medium confidence, is work to do and doesn't count as done; one such reading is enough, with no second check to confirm it. The editor keeps fixing while it is on track, and what still won't come is reported as open work with its link, never as passed. Some pieces aren't worth fixing, because Pangram has bugs: a short "Why?" often reads Medium, and such pieces are left. A split at "Dr." may be closed by dropping the title, especially where the person was already introduced with it; that is a hack, so it comes last (R-hacks-last).
-- **Why:** Joel, 2026-11-23: "actually i don't like the medium windows ... i often find the medium windows indicate other issues also" Joel (old gate, no date recorded): "if a section reads ai or human low, we don't need to check it again to verify that, we need to fix it" Joel, 2026-11-06: "some things are not worth fixing, pangram has some bugs, like "Why?" often reads as medium, etc."
-- **Checked by:** the record of Pangram checks; judgment on what is still open.
+- **Rule:** A window that reads AI, or Human at Low or Medium confidence, is work to do and doesn't count as done; one such reading is enough, with no second check to confirm it. The editor keeps fixing while it is on track. A paragraph of the editor's that is still short of High when its tries are spent stays out of the article and is reported as open work with its link, never as passed; a window reading Medium that is only a heading, a word or a phrase doesn't hold it out, while one with a whole sentence does. Content he approved still goes in at once (R-approved-goes-in), and its paragraph is then open work. Some pieces aren't worth fixing, because Pangram has bugs: a short "Why?" often reads Medium, and such pieces are left. A split at "Dr." may be closed by dropping the title, especially where the person was already introduced with it; that is a hack, so it comes last (R-hacks-last).
+- **Why:** Joel, 2026-11-23: "actually i don't like the medium windows ... i often find the medium windows indicate other issues also" Joel (old gate, no date recorded): "if a section reads ai or human low, we don't need to check it again to verify that, we need to fix it" Joel, 2026-11-06: "some things are not worth fixing, pangram has some bugs, like "Why?" often reads as medium, etc." Joel, 2026-11-28: "unless it's just a heading or a word or phrase, but a whole sentence at least yeah that's more important to fix"
+- **Checked by:** the record of Pangram checks; the apply gate holds out a paragraph short of High, but for a Medium window that is only a heading, a word or a phrase; judgment on what is still open.
 - **Stages:** humanize, check, show
 - **Links:** builds on R-record-confidence; goes with R-budget; goes with R-approved-goes-in; goes with R-hacks-last
 - **Replaces:** audit card C04; his saved preferences; the apply step's absolute refusal; "put it on the article's later list" in SKILL.md; lessons gut-2026-11-06a, neuro-2026-11-06c, romance-2026-11-23i; audit card OLD-GATE; gates E306, E324
-- **Status:** open question: when a paragraph of the editor's is still Medium after the full budget of tries, does it go into the article marked as open, or stay out until it reads High? Until he answers, it stays out, as his words of 2026-11-12 ask ("i guess you need to stop passing over anything that's not human high"; the apply gate holds it), and is reported as open work with its link.
-- **Record:** 2026-11-28, audit cards C04 and OLD-GATE, approved. The card's "splits at "Dr." are left" (a bare approval) is read with his typed note on C28, which holds over it: the title may be dropped, as a hack, last.
+- **Status:** active
+- **Record:** 2026-11-28, audit cards C04 and OLD-GATE, approved. The card's "splits at "Dr." are left" (a bare approval) is read with his typed note on C28, which holds over it: the title may be dropped, as a hack, last. Then 2026-11-28, his answers on the open questions (15:23 UTC): approved (it stays out until High), with his note on headings, words and phrases.
 
 #### R-no-hiding-paragraphs | A paragraph that reads AI alone isn't hidden inside a section that passes
 - **Rule:** A paragraph that fails Pangram by itself doesn't count as passed because the section around it passes.
@@ -685,14 +713,14 @@ How to choose the next try when a text still reads AI.
 - **Record:** 2026-11-28, audit card OLD-GATE, approved.
 
 #### R-mimic-pangram | Work out how to mimic the way Pangram reads text
-- **Rule:** Work out with Joel how the editor could mimic the way Pangram analyzes text statistically. He raised it in the same note as making his fixes searchable.
+- **Rule:** Train a small stand-in on the record of Pangram checks (hundreds of texts with how each read), test it on checks it hasn't seen, and report how well it predicts Pangram. If it predicts well, it helps choose what to fix before a check is spent; it never takes Pangram's place.
 - **Why:** Joel, 2026-11-28: "i'm curious how we can mimic the way pangram analyzes text statistically."
 - **Checked by:** nothing yet.
 - **Stages:** check, record
 - **Links:** goes with R-fixes-searchable; goes with R-predict-before-recheck
 - **Replaces:** audit card C17 (his note)
-- **Status:** to build; open question: how, to explore with him.
-- **Record:** 2026-11-28, audit card C17, to revise, from his note.
+- **Status:** to build (the way he approved)
+- **Record:** 2026-11-28, audit card C17, to revise, from his note; then 2026-11-28, his answers on the open questions (15:23 UTC): approved (the stand-in).
 
 #### R-no-lived-experience-needed | Passing Pangram never needs his lived experience
 - **Rule:** No card asks Joel for his experience to get a text past Pangram. His experience goes in where it would really help the reader.
@@ -738,6 +766,16 @@ Words and shapes that read as AI, each read by a person before anything changes.
 - **Status:** active
 - **Record:** 2026-11-28, audit card C11, to revise: this part is the card's proposal (he approved the card's direction); his note was on "one" plus a noun, now R-one-for-a.
 
+#### R-emphasis-only-where-called-for | Emphasis only where the context calls for it
+- **Rule:** Emphasis added to sound human reads as AI. "Straight into" is a frequent one: it is emphatic, and it doesn't mean "converted into". An emphatic word goes in only where the context calls for more emphasis; otherwise the plain accurate word does the work (R-accurate-word).
+- **Why:** Joel, 2026-11-28: "btw"straight into" is a high freq ai tell, sounds often like you're trying to sound human but straight into is emphatic, don't overuse emphasis to sound more human unless the context calls for more emphasis. it's not synonymous with "converted into""
+- **Example:** before "turned straight into" / after "converted into"
+- **Checked by:** the linter notes "straight into"; judgment decides.
+- **Stages:** humanize
+- **Links:** goes with R-accurate-word; goes with R-overused-words
+- **Status:** active
+- **Record:** 2026-11-28, his message of 15:23 UTC.
+
 #### R-one-ordinary | "One ordinary" and "one honest action" go wherever they appear
 - **Rule:** These two phrases are removed wherever they appear.
 - **Why:** Joel, 2026-11-03: "we gotta remove "one ordinary" anywhere lol so ai"
@@ -759,34 +797,34 @@ Words and shapes that read as AI, each read by a person before anything changes.
 - **Record:** 2026-11-28, audit card C11, to revise, written as his note says.
 
 #### R-x-does-not-y | Rework "X does not Y" statements, keeping what they deny
-- **Rule:** A flat "X does not Y" statement is reworked by default, in any wording that keeps what it denies, and kept where it is the clearest way to say the thing. A denial of fact or of safety is not softened into a "might" for the detector.
+- **Rule:** The abstract kind of "X does not Y" (""I saw it" does not create a duty to act") is reworked by default, in any wording that keeps what it denies, and kept where it is the clearest way to say the thing; a plain negative is judged case by case. A denial of fact or of safety is not softened into a "might" for the detector.
 - **Why:** Joel, saved preference: "let's make sure "X does not Y" is changed in general that's super ai, humans don't use that so much"
 - **Checked by:** the linter warns; judgment decides.
 - **Stages:** humanize
 - **Links:** goes with R-overused-words; goes with R-keep-what-he-meant
 - **Replaces:** audit cards C11, C21; his saved preferences; lesson bad-trips-2026-11-07d
-- **Status:** open question: is "X does not Y" every plain negative statement, or the abstract kind like ""I saw it" does not create a duty to act"? Until he answers, the abstract kind is reworked and a plain negative is judged case by case.
-- **Record:** 2026-11-28, audit cards C11 (to revise) and C21 (approved).
+- **Status:** active
+- **Record:** 2026-11-28, audit cards C11 (to revise) and C21 (approved); then 2026-11-28, his answers on the open questions (15:23 UTC): approved (the abstract kind by default, a plain negative case by case).
 
 #### R-kitchen-and-weekdays | Kitchen details and added weekdays are AI signs
-- **Rule:** A kitchen detail reads as AI, and adding a day of the week to it makes two signs. A date range is not a human tell.
+- **Rule:** A kitchen detail reads as AI, and adding a day of the week to it makes two signs. A weekday the editor added goes; a real day in one of his own stories stays. A date range is not a human tell.
 - **Why:** Joel, saved preference: ""in the kitchen" is what AI always says. kitchen this, kitchen that... how is a date range a human tell?"
 - **Checked by:** the linter warns; judgment decides.
 - **Stages:** humanize
 - **Links:** goes with R-no-invented-life; goes with R-phrase-tells
 - **Replaces:** his saved preferences; audit card C23
-- **Status:** open question: should a weekday fail everywhere, or only where the editor added it (a real day in one of his own stories would stay)? Until he answers, one the editor added goes and one in his own story stays.
-- **Record:** his saved preference; 2026-11-28, audit card C23, approved.
+- **Status:** active
+- **Record:** his saved preference; 2026-11-28, audit card C23, approved; then 2026-11-28, his answers on the open questions (15:23 UTC): approved.
 
 #### R-dashes-and-quotes | Two hyphens for every dash, straight quotes and apostrophes
-- **Rule:** In all his articles every dash becomes his two hyphens "--", and curly quote marks and apostrophes are straightened.
+- **Rule:** In all his articles every dash becomes his two hyphens "--", with no spaces around them, as he types them, and curly quote marks and apostrophes are straightened.
 - **Why:** Joel, 2026-11-04: "no everything should be the 2 dashes not em-dash, em-dash is ai" Joel, saved preference: "yes the curly apostrophes are an AI tell i know that"
 - **Example:** his own: "handling--we see"
 - **Checked by:** the linter blocks an em dash or a curly mark.
 - **Stages:** humanize, show
 - **Replaces:** audit card C12; his saved preferences; tell O15
-- **Status:** open question: should "--" always have no spaces around it, as in his "handling--we see"? Until he answers, no spaces, as he types it.
-- **Record:** 2026-11-28, audit card C12, approved.
+- **Status:** active
+- **Record:** 2026-11-28, audit card C12, approved; then 2026-11-28, his answers on the open questions (15:23 UTC): approved (no spaces).
 
 ### 3.5 Budget and routes
 
@@ -1088,6 +1126,15 @@ How a rule is made, checked, and kept in one place.
 - **Replaces:** AGENTS.md "One set of humanization rules for every article"; the rule copies in AGENTS.md, SKILL.md, the briefs, the lessons and the old gate
 - **Status:** active
 - **Record:** 2026-11-28, his request for the tree; audit card C07, approved, with his note (quoted above).
+
+#### R-replies-read | His replies on the tree are read and answered every turn
+- **Rule:** The tree's human view has a reply box under every rule. The lane that keeps the tree reads his replies at the start of every turn, with the mailbox check, and each reply gets its fate in the tree the turn it is read: the rule changed, a question back to him, or the reason it stays. The replies and their fates are kept in Git.
+- **Why:** Joel, 2026-11-28: "make the rule tree something i can reply to."
+- **Checked by:** the reply record in Git (rules/replies/).
+- **Stages:** start, record
+- **Links:** goes with R-tree-is-home; goes with R-mailbox-check; goes with R-git-is-the-record
+- **Status:** active
+- **Record:** 2026-11-28, his message of 15:23 UTC.
 
 #### R-lessons-to-main | A lesson is shared the turn it is made
 - **Rule:** A new lesson goes into the shared copy, and into this tree as a new rule or a change to one, the turn it is made.

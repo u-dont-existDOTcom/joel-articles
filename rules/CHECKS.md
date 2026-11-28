@@ -1,6 +1,6 @@
 # Rule tree: the build's checks
 
-Built 2026-11-28 11:13 UTC from `rules/TREE.md` (SHA-256 08249c6420a9).
+Built 2026-11-28 15:41 UTC from `rules/TREE.md` (SHA-256 e3286db5fecc).
 
 ## Problems
 

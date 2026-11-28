@@ -2999,6 +2999,52 @@
     }
    ],
    "recorded_utc": "2026-11-28T10:30Z"
+  },
+  {
+   "turn": "2026-11-28T15:23Z",
+   "lines_of_work": [
+    "rule tree: his answers on its 12 open questions",
+    "rule tree: his comments on six rules, replies on the view",
+    "pangram-passed AI slop (his romance edit)",
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ (UDA at 3fce032, unchanged), all six in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 76's push: only pull request 583 (this lane's, merged at ade29e00); no new pull requests, issues, issue comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md, OWNER-QUESTIONS.md, PROMISES.md: last changed by this lane's turn 76; no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "His answers on the rule tree's 12 open questions (export 2026-11-28 15:23 UTC): 12 approved, notes on two",
+     "outcome": "this turn: each decision in the tree, his two notes applied (rules, apply gate)"
+    },
+    {
+     "item": "His message of 15:23 UTC: replies on the tree; audience decides explanation; straight into; links to a post's part; headings; compressed lists; his kept words teach Pangram first; should the rules look more human?",
+     "outcome": "this turn: each in the tree; the view takes replies; the last answered in the reply with a test offered"
+    },
+    {
+     "item": "His romance edit of Things Get Tricky Fast, and keeping track of pangram-passed AI slop",
+     "outcome": "this turn: saved word for word, compared with the version he fixed, the slop record started; his text goes to the romance lane"
+    }
+   ],
+   "recorded_utc": "2026-11-28T15:25Z"
   }
  ]
 }

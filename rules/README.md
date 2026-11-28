@@ -4,13 +4,13 @@ Every rule the editor follows on Joel's articles, once, in a branch named for wh
 
 **The human view** (the tree, a map of the links, and what every term means): https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk
 
-The source is [TREE.md](TREE.md); `python3 rules/build_tree.py` checks it and writes this page, [tree.json](tree.json) and the view. Built 2026-11-28 11:13 UTC; checks: [CHECKS.md](CHECKS.md).
+The source is [TREE.md](TREE.md); `python3 rules/build_tree.py` checks it and writes this page, [tree.json](tree.json) and the view. Built 2026-11-28 15:41 UTC; checks: [CHECKS.md](CHECKS.md).
 
 ```mermaid
 flowchart LR
   T(("The rules"))
-  T --> B1["1 For the reader (72)"]
-  B1 --> G1_1["1.1 Make sense (11)"]
+  T --> B1["1 For the reader (73)"]
+  B1 --> G1_1["1.1 Make sense (12)"]
   B1 --> G1_2["1.2 Say it once (4)"]
   B1 --> G1_3["1.3 Lists (3)"]
   B1 --> G1_4["1.4 Cautions and safety (4)"]
@@ -18,24 +18,24 @@ flowchart LR
   B1 --> G1_6["1.6 Voice (6)"]
   B1 --> G1_7["1.7 Headings and contents (5)"]
   B1 --> G1_8["1.8 How his fixes differ from my drafts (34)"]
-  T --> B2["2 His words and meaning (11)"]
+  T --> B2["2 His words and meaning (13)"]
   B2 --> G2_1["2.1 Whose words (3)"]
   B2 --> G2_2["2.2 Keep the meaning (6)"]
-  B2 --> G2_3["2.3 His changes and corrections (2)"]
-  T --> B3["3 Passing Pangram (25)"]
+  B2 --> G2_3["2.3 His changes and corrections (4)"]
+  T --> B3["3 Passing Pangram (26)"]
   B3 --> G3_1["3.1 Order of work (2)"]
   B3 --> G3_2["3.2 Windows and confidence (3)"]
   B3 --> G3_3["3.3 Strategy (7)"]
-  B3 --> G3_4["3.4 AI tells (8)"]
+  B3 --> G3_4["3.4 AI tells (9)"]
   B3 --> G3_5["3.5 Budget and routes (4)"]
   B3 --> G3_6["3.6 Hacks, last (1)"]
   T --> B4["4 Working with Joel (14)"]
   B4 --> G4_1["4.1 When to ask (5)"]
   B4 --> G4_2["4.2 Cards and pages (5)"]
   B4 --> G4_3["4.3 Links and reports (4)"]
-  T --> B5["5 How the lanes work (17)"]
+  T --> B5["5 How the lanes work (18)"]
   B5 --> G5_1["5.1 Lanes and the repository (7)"]
-  B5 --> G5_2["5.2 Lessons and this tree (7)"]
+  B5 --> G5_2["5.2 Lessons and this tree (8)"]
   B5 --> G5_3["5.3 Handoffs and records (1)"]
   B5 --> G5_4["5.4 Retired (2)"]
 ```
@@ -46,9 +46,10 @@ Rules that make an article easy and worthwhile to read; they come before anythin
 
 ### 1.1 Make sense
 
+- [Gauge the audience: it decides how much to explain](TREE.md#r-gauge-audience--gauge-the-audience-it-decides-how-much-to-explain)
 - [The reader knows early why they are reading this](TREE.md#r-payoff-first--the-reader-knows-early-why-they-are-reading-this)
 - [Each sentence, paragraph and idea shows how it follows](TREE.md#r-connect--each-sentence-paragraph-and-idea-shows-how-it-follows)
-- [Explain for someone who doesn't know the subject](TREE.md#r-explain-hidden-links--explain-for-someone-who-doesnt-know-the-subject)
+- [Explain for the reader the article is written for](TREE.md#r-explain-hidden-links--explain-for-the-reader-the-article-is-written-for)
 - [The word that says exactly what the thing does](TREE.md#r-accurate-word--the-word-that-says-exactly-what-the-thing-does)
 - ["It" where it is clear, the name where it isn't](TREE.md#r-clear-it--it-where-it-is-clear-the-name-where-it-isnt)
 - [Explain a term where the reader first needs it](TREE.md#r-gloss--explain-a-term-where-the-reader-first-needs-it)
@@ -56,7 +57,7 @@ Rules that make an article easy and worthwhile to read; they come before anythin
 - [Quotation marks where a "said" word wouldn't parse without them](TREE.md#r-quote-what-is-said--quotation-marks-where-a-said-word-wouldnt-parse-without-them)
 - [What he says in chat is fitted to the article](TREE.md#r-fit-his-chat-words--what-he-says-in-chat-is-fitted-to-the-article)
 - [Every article is checked for statements that can't both hold](TREE.md#r-contradictions-check--every-article-is-checked-for-statements-that-cant-both-hold)
-- [A close word-by-word read for sense before a post](TREE.md#r-close-read--a-close-word-by-word-read-for-sense-before-a-post) *(open question)*
+- [A close word-by-word read for sense before a post](TREE.md#r-close-read--a-close-word-by-word-read-for-sense-before-a-post)
 
 ### 1.2 Say it once
 
@@ -68,7 +69,7 @@ Rules that make an article easy and worthwhile to read; they come before anythin
 ### 1.3 Lists
 
 - [A list only where one is really needed](TREE.md#r-lists-only-when-needed--a-list-only-where-one-is-really-needed)
-- [Unpack a compressed list where its items need explaining](TREE.md#r-unpack-lists--unpack-a-compressed-list-where-its-items-need-explaining)
+- [Unpack a list where its audience needs each item explained](TREE.md#r-unpack-lists--unpack-a-list-where-its-audience-needs-each-item-explained)
 - [Don't fill a list to cover every hole](TREE.md#r-lists-not-overfull--dont-fill-a-list-to-cover-every-hole) *(open question)*
 
 ### 1.4 Cautions and safety
@@ -76,13 +77,13 @@ Rules that make an article easy and worthwhile to read; they come before anythin
 - [Few cautions, each said once, none that treats the reader as an idiot](TREE.md#r-few-cautions--few-cautions-each-said-once-none-that-treats-the-reader-as-an-idiot)
 - ["Safe" has to be needed and clear](TREE.md#r-safe-word--safe-has-to-be-needed-and-clear)
 - [A model's caution is checked against his words and its source](TREE.md#r-model-cautions-checked--a-models-caution-is-checked-against-his-words-and-its-source)
-- [His harm-reduction warnings stay, by meaning and facts](TREE.md#r-his-warnings-stay--his-harm-reduction-warnings-stay-by-meaning-and-facts) *(open question)*
+- [His harm-reduction warnings stay, by meaning and facts](TREE.md#r-his-warnings-stay--his-harm-reduction-warnings-stay-by-meaning-and-facts)
 
 ### 1.5 Evidence and sources
 
 - [In a science article, get the science right before the wording](TREE.md#r-science-first--in-a-science-article-get-the-science-right-before-the-wording)
 - [No benefit or risk wider or vaguer than the sources show](TREE.md#r-claims-match-sources--no-benefit-or-risk-wider-or-vaguer-than-the-sources-show)
-- [Cite a study only where the reader expects evidence, and ask at the start how much research the article carries](TREE.md#r-studies-where-expected--cite-a-study-only-where-the-reader-expects-evidence-and-ask-at-the-start-how-much-research-the-article-carries) *(open question)*
+- [Cite a study only where the reader expects evidence, and ask at the start how much research the article carries](TREE.md#r-studies-where-expected--cite-a-study-only-where-the-reader-expects-evidence-and-ask-at-the-start-how-much-research-the-article-carries)
 - [Once he says his experience stands, it is written as his](TREE.md#r-his-experience-stands--once-he-says-his-experience-stands-it-is-written-as-his)
 - [A missing citation isn't assumed cut on purpose](TREE.md#r-citations-not-assumed-cut--a-missing-citation-isnt-assumed-cut-on-purpose)
 
@@ -98,8 +99,8 @@ Rules that make an article easy and worthwhile to read; they come before anythin
 ### 1.7 Headings and contents
 
 - [A heading names what the reader is looking for](TREE.md#r-headings-answer-reader--a-heading-names-what-the-reader-is-looking-for)
-- [No two headings in a row say or ask the same thing](TREE.md#r-no-twin-headings--no-two-headings-in-a-row-say-or-ask-the-same-thing)
-- [Sort the contents with his reasons, and show him the whole order once](TREE.md#r-contents-order--sort-the-contents-with-his-reasons-and-show-him-the-whole-order-once) *(open question)*
+- [No two headings say the same thing, and twins are a sign to look at their sections](TREE.md#r-no-twin-headings--no-two-headings-say-the-same-thing-and-twins-are-a-sign-to-look-at-their-sections)
+- [Sort the contents with his reasons, and show him the whole order once](TREE.md#r-contents-order--sort-the-contents-with-his-reasons-and-show-him-the-whole-order-once)
 - [Text under a link heading gets a heading of its own in a contents proposal](TREE.md#r-text-under-link-heading--text-under-a-link-heading-gets-a-heading-of-its-own-in-a-contents-proposal)
 - [Links to sections are catalogued and fixed when a heading changes](TREE.md#r-anchor-links--links-to-sections-are-catalogued-and-fixed-when-a-heading-changes)
 
@@ -146,7 +147,7 @@ Rules that keep what Joel wrote, decided and meant.
 
 ### 2.1 Whose words
 
-- [A model's text is the editor's to fix, even after he humanized it](TREE.md#r-model-text-is-mine--a-models-text-is-the-editors-to-fix-even-after-he-humanized-it) *(open question)*
+- [A model's text is the editor's to fix, even after he humanized it](TREE.md#r-model-text-is-mine--a-models-text-is-the-editors-to-fix-even-after-he-humanized-it)
 - [What he wrote himself stays, with obvious slips fixed](TREE.md#r-his-own-text-stays--what-he-wrote-himself-stays-with-obvious-slips-fixed)
 - [A lasting list of what he said stays as it is](TREE.md#r-keep-as-is-list--a-lasting-list-of-what-he-said-stays-as-it-is)
 
@@ -157,11 +158,13 @@ Rules that keep what Joel wrote, decided and meant.
 - [A word that names a concept isn't swapped for a different concept](TREE.md#r-concept-word-stays--a-word-that-names-a-concept-isnt-swapped-for-a-different-concept)
 - [A content answer changes what he named](TREE.md#r-change-what-he-named--a-content-answer-changes-what-he-named)
 - [A smaller point may change if that helps the reader; the larger argument is his](TREE.md#r-smaller-points-may-change--a-smaller-point-may-change-if-that-helps-the-reader-the-larger-argument-is-his)
-- [A rewrite of his sentences is compared with his text once per pass](TREE.md#r-check-rewrite-once--a-rewrite-of-his-sentences-is-compared-with-his-text-once-per-pass) *(open question)*
+- [A rewrite of his sentences is compared with his text once per pass](TREE.md#r-check-rewrite-once--a-rewrite-of-his-sentences-is-compared-with-his-text-once-per-pass)
 
 ### 2.3 His changes and corrections
 
 - [When he shows a change, fix the process that missed it](TREE.md#r-learn-from-his-changes--when-he-shows-a-change-fix-the-process-that-missed-it)
+- [When he keeps the editor's words, he is teaching Pangram, not his voice](TREE.md#r-his-kept-words-teach-pangram--when-he-keeps-the-editors-words-he-is-teaching-pangram-not-his-voice)
+- [His edits of text that passed Pangram are kept and learned from](TREE.md#r-slop-that-passed--his-edits-of-text-that-passed-pangram-are-kept-and-learned-from)
 - [What he approved or agreed to is made at once](TREE.md#r-approved-goes-in--what-he-approved-or-agreed-to-is-made-at-once)
 
 ## 3 Passing Pangram
@@ -176,7 +179,7 @@ Rules for getting the editor's text to read Human, after it reads well.
 ### 3.2 Windows and confidence
 
 - [Every Pangram result is recorded with each window's confidence](TREE.md#r-record-confidence--every-pangram-result-is-recorded-with-each-windows-confidence)
-- [Every window of the editor's text is aimed at Human High](TREE.md#r-every-window-high--every-window-of-the-editors-text-is-aimed-at-human-high) *(open question)*
+- [Every window of the editor's text is aimed at Human High](TREE.md#r-every-window-high--every-window-of-the-editors-text-is-aimed-at-human-high)
 - [A paragraph that reads AI alone isn't hidden inside a section that passes](TREE.md#r-no-hiding-paragraphs--a-paragraph-that-reads-ai-alone-isnt-hidden-inside-a-section-that-passes)
 
 ### 3.3 Strategy
@@ -194,11 +197,12 @@ Rules for getting the editor's text to read Human, after it reads well.
 - [A count sends the editor to read; it fails nothing](TREE.md#r-counts-send-to-read--a-count-sends-the-editor-to-read-it-fails-nothing)
 - [A phrase is a tell for what it does](TREE.md#r-phrase-tells--a-phrase-is-a-tell-for-what-it-does)
 - [Overused AI words are read, not banned](TREE.md#r-overused-words--overused-ai-words-are-read-not-banned)
+- [Emphasis only where the context calls for it](TREE.md#r-emphasis-only-where-called-for--emphasis-only-where-the-context-calls-for-it)
 - ["One ordinary" and "one honest action" go wherever they appear](TREE.md#r-one-ordinary--one-ordinary-and-one-honest-action-go-wherever-they-appear)
 - ["A" where a person would say "a", not "one"](TREE.md#r-one-for-a--a-where-a-person-would-say-a-not-one)
-- [Rework "X does not Y" statements, keeping what they deny](TREE.md#r-x-does-not-y--rework-x-does-not-y-statements-keeping-what-they-deny) *(open question)*
-- [Kitchen details and added weekdays are AI signs](TREE.md#r-kitchen-and-weekdays--kitchen-details-and-added-weekdays-are-ai-signs) *(open question)*
-- [Two hyphens for every dash, straight quotes and apostrophes](TREE.md#r-dashes-and-quotes--two-hyphens-for-every-dash-straight-quotes-and-apostrophes) *(open question)*
+- [Rework "X does not Y" statements, keeping what they deny](TREE.md#r-x-does-not-y--rework-x-does-not-y-statements-keeping-what-they-deny)
+- [Kitchen details and added weekdays are AI signs](TREE.md#r-kitchen-and-weekdays--kitchen-details-and-added-weekdays-are-ai-signs)
+- [Two hyphens for every dash, straight quotes and apostrophes](TREE.md#r-dashes-and-quotes--two-hyphens-for-every-dash-straight-quotes-and-apostrophes)
 
 ### 3.5 Budget and routes
 
@@ -255,6 +259,7 @@ Rules for the parallel work sessions, their shared repository, and the rules the
 ### 5.2 Lessons and this tree
 
 - [Every rule lives once, in this tree](TREE.md#r-tree-is-home--every-rule-lives-once-in-this-tree)
+- [His replies on the tree are read and answered every turn](TREE.md#r-replies-read--his-replies-on-the-tree-are-read-and-answered-every-turn)
 - [A lesson is shared the turn it is made](TREE.md#r-lessons-to-main--a-lesson-is-shared-the-turn-it-is-made)
 - [Every new lesson is checked against his words](TREE.md#r-lesson-checked--every-new-lesson-is-checked-against-his-words)
 - [A lesson's method is the reason he gave; one fix's shape is only an example](TREE.md#r-lesson-reason-not-feature--a-lessons-method-is-the-reason-he-gave-one-fixs-shape-is-only-an-example)

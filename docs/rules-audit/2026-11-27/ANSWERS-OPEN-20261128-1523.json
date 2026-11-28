@@ -1,0 +1,109 @@
+{
+ "format": "joel-review-decisions-v1",
+ "review_id": "rule-tree-open-20261128",
+ "title": "The rule tree: 12 questions still open",
+ "source_name": "docs/rules-audit/2026-11-27/OPEN-QUESTIONS.md",
+ "source_sha256": "cc4330a5f4e01650eaf8041ab60c1d8feb0159fcd31467a952ffd4e720f106bf",
+ "exported_utc": "2026-11-28T15:23:37.138Z",
+ "counts": {
+  "approved": 12
+ },
+ "items": [
+  {
+   "id": "R-model-text-is-mine",
+   "group": "open",
+   "title": "A model's text is the editor's to fix, even after he humanized it",
+   "status": "approved",
+   "note": "right you only need to ask me if you're unsure if it still says what i was saying, OR if you think you might have just \"fixed\" some ai slop so it passes pangram, but it's an indicator that it lacks the author's voice. \n\n\ni also want you to keep track of whenever i edit a section because it doesn't get my points across, try to develop some understanding of which sections might be ai slop even if they pass pangram high conf. you surely already have many of my edits like this saved but probably you haven't been using them if they didn't directly help with pangram, you prob just tagged them as \"only author could do this\" but should have tagged as \"pangram passed ai slop\" or whatever else you can figure out more specifically about why i might have edited it. here's one section i'm fixing now, \"things get tricky fast\" in romance article, i changed it to:\n\"If you have trusted friends or family, their opinion on your new love might be really helpful, since they aren’t blinded by it the way you are. But accepting their opinions can be quite difficult, if they are critical. This happened to me with my first wife especially. Pretty much everyone was asking why I was with her, what I saw in her. And since she had two sides to her, I could easily point to the good that I saw. I didn’t want to think that she might end up going in the wrong direction. I wanted to help her be the best version of herself. \n\nThe longer you wait to ask the opinion of your confidants, the harder it will be. Had I shown folks her OKCupid profile before even responding to her message, they might have shown me all the red flags in it that I overlooked. After we already had sex, I felt committed, so that was possibly too late. \n\nI’ll expand on the topic of not closing down your outside world in Don’t Make Your Partner Your Whole World. \"",
+   "updated": "2026-11-28T15:19:24.248Z"
+  },
+  {
+   "id": "R-every-window-high",
+   "group": "open",
+   "title": "Every window of the editor's text is aimed at Human High",
+   "status": "approved",
+   "note": "unless it's just a heading or a word or phrase, but a whole sentence at least yeah that's more important to fix",
+   "updated": "2026-11-28T15:20:11.104Z"
+  },
+  {
+   "id": "R-check-rewrite-once",
+   "group": "open",
+   "title": "A rewrite of his sentences is compared with his text once per pass",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:20:40.351Z"
+  },
+  {
+   "id": "R-x-does-not-y",
+   "group": "open",
+   "title": "Rework \"X does not Y\" statements, keeping what they deny",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:21:50.279Z"
+  },
+  {
+   "id": "R-kitchen-and-weekdays",
+   "group": "open",
+   "title": "Kitchen details and added weekdays are AI signs",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:21:58.864Z"
+  },
+  {
+   "id": "R-dashes-and-quotes",
+   "group": "open",
+   "title": "Two hyphens for every dash, straight quotes and apostrophes",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:22:06.640Z"
+  },
+  {
+   "id": "R-his-warnings-stay",
+   "group": "open",
+   "title": "His harm-reduction warnings stay, by meaning and facts",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:22:16.680Z"
+  },
+  {
+   "id": "R-close-read",
+   "group": "open",
+   "title": "A close word-by-word read for sense before a post",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:22:26.264Z"
+  },
+  {
+   "id": "R-contents-order",
+   "group": "open",
+   "title": "Sort the contents with his reasons, and show him the whole order once",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:22:54.296Z"
+  },
+  {
+   "id": "R-studies-where-expected",
+   "group": "open",
+   "title": "Cite a study only where the reader expects evidence, and ask at the start how much research the article carries",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:23:09.912Z"
+  },
+  {
+   "id": "R-fixes-searchable",
+   "group": "open",
+   "title": "His fixes are easy to search for the ones that could help",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:23:19.257Z"
+  },
+  {
+   "id": "R-mimic-pangram",
+   "group": "open",
+   "title": "Work out how to mimic the way Pangram reads text",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T15:23:35.290Z"
+  }
+ ]
+}

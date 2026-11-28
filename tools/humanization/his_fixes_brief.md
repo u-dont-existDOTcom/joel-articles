@@ -13,6 +13,10 @@ needed read and before any Pangram check of a text of mine. Their answer goes in
 hold are changed before the check (rules audit 2026-11-28, card C17; rules R-read-against-his-fixes and R-flags-are-leads
 in `rules/TREE.md`); a reader is not rerun on every version, and no receipt is required.
 
+Text that already reads Human High in Pangram can still be what he fixes: his edits of such text, and what each
+version lacked, are in `docs/slop-that-passed/` (rule R-slop-that-passed). Read a passage for those faults too, whatever
+Pangram said of it.
+
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
@@ -23,7 +27,10 @@ that still reads the first way.
    its own clause with what happens or what to do. He fixed "respiratory depression, stimulant toxicity, serotonin
    toxicity, seizure, dangerous overheating, cardiovascular symptoms, ..." into "are they suffering from slow and shallow
    breathing (respiratory depression, from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and
-   agitation, signs of stimulant toxicity?"
+   agitation, signs of stimulant toxicity?" Whether a run needs unpacking depends on the audience: mark it where the
+   reader has to act on each item or may not know what an item means, not where they only need the names (Joel,
+   2026-11-28: "it depends on the audience. does the audience need to know how to act on each item? then you can't just
+   use a compressed list. do they know what the items mean?"; rules R-gauge-audience and R-unpack-lists).
    An aside set off by dashes inside a sentence that already carries its point is this way too: taking out "--described to
    me as essentially zero--" was the first of his four checked fixes of his second wife's paragraph (2026-11-24, lesson
    bad-trips-2026-11-24o).

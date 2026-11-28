@@ -3585,6 +3585,20 @@
    "rule": "O81",
    "level": "REVIEW",
    "example": "Nobody had the money for the thing we planned in spring, so the roof waited."
+  },
+  {
+   "id": "W137",
+   "tell": "\"straight into\" (Joel 2026-11-28: \"straight into is emphatic, don't overuse emphasis to sound more human unless the context calls for more emphasis\"): keep it only where the context calls for emphasis [REVIEW, rule R-emphasis-only-where-called-for]",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/rules-audit/2026-11-27/MESSAGE-20261128-1523.md",
+     "quote": "is a high freq ai tell"
+    }
+   ],
+   "rule": "O82",
+   "level": "REVIEW",
+   "example": "The leftover broth went straight into the freezer before we left for the lake."
   }
  ]
 }

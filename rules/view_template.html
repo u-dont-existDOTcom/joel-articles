@@ -69,6 +69,14 @@ a.rid{color:inherit;text-decoration:underline;text-decoration-color:var(--muted)
 .words{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:14px}
 .word{border:1px solid var(--line);border-radius:10px;padding:12px 14px}.word b{display:block;margin-bottom:4px}
 .empty{color:var(--muted)}
+.reply{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--soft);max-width:72ch}
+.reply textarea{display:block;width:100%;min-height:96px;margin:8px 0;font:inherit;font-size:16px;line-height:1.45;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);resize:vertical}
+.reply .chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.reply .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.reply .st{font-size:14px;color:var(--muted)}
+.rep{color:var(--focus);font-weight:700}
+.rlist{display:grid;gap:12px;max-width:80ch}.ritem{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.ritem .mk{font-size:13px;color:var(--muted)}.ritem p{margin:6px 0 0;white-space:pre-wrap}
+#rjson{width:100%;min-height:140px;font:13px/1.4 ui-monospace,monospace;margin-top:8px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 @media(max-width:760px){.cols{grid-template-columns:minmax(0,1fr)}nav{max-height:46vh}h1{font-size:28px}article{padding:16px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -84,6 +92,7 @@ a.rid{color:inherit;text-decoration:underline;text-decoration-color:var(--muted)
    <button role="tab" id="t-tree" aria-selected="true">Tree</button>
    <button role="tab" id="t-map" aria-selected="false">Map</button>
    <button role="tab" id="t-words" aria-selected="false">Words</button>
+   <button role="tab" id="t-replies" aria-selected="false">Your replies <span id="rc"></span></button>
   </div>
   <div class="tabs" aria-label="Group the tree">
    <button id="l-purpose" aria-pressed="true">By purpose</button>
@@ -95,6 +104,7 @@ a.rid{color:inherit;text-decoration:underline;text-decoration-color:var(--muted)
  <section id="v-tree"><div class="cols"><nav id="nav" aria-label="Rules"></nav><article id="card" aria-live="polite"></article></div></section>
  <section id="v-map" hidden><div class="legend" id="legend"></div><div class="fig" id="fig"><svg id="map" role="img" aria-label="Map of all rules and their links"></svg></div><div class="key" id="key"></div></section>
  <section id="v-words" hidden><div class="words" id="words"></div></section>
+ <section id="v-replies" hidden><p class="sub" id="rintro">Every rule has a reply box under it. What you write is saved for me to read at the start of my next turn; you can also copy all your replies here and paste them in the chat.</p><div class="rlist" id="rlist"></div><div class="bar" style="margin-top:14px"><button id="rcopy">Copy all my replies</button><span class="st" id="rcst"></span></div><textarea id="rjson" readonly aria-label="Your replies as text to paste in the chat"></textarea></section>
 </main>
 <div id="tip"></div>
 <script>
@@ -123,7 +133,8 @@ function explain(code) {
 }
 function navItem(r) {
   const tag = r.status === 'active' ? '' : ` <small>(${esc(r.status)})</small>`;
-  return `<button class="rl" data-id="${esc(r.id)}"${cur === r.id ? ' aria-current="true"' : ''}>${esc(r.title)}${tag}</button>`;
+  const rep = replies[r.id] ? ' <small class="rep">· replied</small>' : '';
+  return `<button class="rl" data-id="${esc(r.id)}"${cur === r.id ? ' aria-current="true"' : ''}>${esc(r.title)}${tag}${rep}</button>`;
 }
 function match(r) {
   if (!query) return true;
@@ -164,6 +175,82 @@ function why(val) {
   if (!val) return '';
   return `<div class="f"><h3>Why: your words</h3><blockquote>${esc(val)}</blockquote></div>`;
 }
+const MARKS = [['right', 'Looks right'], ['change', 'Change it'], ['question', 'A question']];
+const LS = 'rule-tree-replies-v1';
+const replies = {};
+let db = null, store = 'local', curMark = '', saving = false;
+try { const s = localStorage.getItem(LS); if (s) Object.assign(replies, JSON.parse(s)); } catch (e) {}
+function saveLocal() { try { localStorage.setItem(LS, JSON.stringify(replies)); } catch (e) {} }
+function replyBox(id) {
+  const x = replies[id] || {};
+  curMark = x.mark || '';
+  const when = x.updated ? `Saved ${esc(String(x.updated).slice(0, 16).replace('T', ' '))} UTC.` : (store === 'db' ? 'Your reply is saved for me to read next turn.' : '');
+  return `<div class="f reply"><h3>Your reply</h3><div class="chips" role="group" aria-label="Your verdict on this rule">` +
+    MARKS.map(([k, t]) => `<button class="chip mk" data-mk="${k}" aria-pressed="${curMark === k}">${t}</button>`).join('') +
+    `</div><textarea id="reply-text" aria-label="Your reply to this rule" placeholder="What's wrong with this rule, what it should say, or a question.">${esc(x.text || '')}</textarea>` +
+    `<div class="row"><button id="reply-save">Save reply</button><span class="st" id="reply-st">${when}</span></div></div>`;
+}
+function setSt(t) { const e = document.getElementById('reply-st'); if (e) e.textContent = t; }
+function exportJSON() {
+  return JSON.stringify({format: 'rule-tree-replies-v1', tree_built: D.built, tree_sha256: D.source_sha256,
+    exported_utc: new Date().toISOString(),
+    replies: Object.values(replies).sort((a, b) => String(a.rule).localeCompare(String(b.rule)))}, null, 1);
+}
+function drawReplies() {
+  const xs = Object.values(replies).sort((a, b) => String(b.updated || '').localeCompare(String(a.updated || '')));
+  const lab = Object.fromEntries(MARKS);
+  document.getElementById('rc').textContent = xs.length ? `(${xs.length})` : '';
+  document.getElementById('rlist').innerHTML = xs.length ? xs.map(x => `<div class="ritem"><button class="chip" data-id="${esc(x.rule)}">${esc(byId[x.rule] ? byId[x.rule].title : x.title || x.rule)}</button> <span class="mk">${esc(lab[x.mark] || '')}${x.updated ? ' · ' + esc(String(x.updated).slice(0, 16).replace('T', ' ')) + ' UTC' : ''}</span><p>${esc(x.text || '')}</p></div>`).join('') : '<p class="empty">No replies yet. Open a rule in the Tree tab and write under it.</p>';
+  document.getElementById('rjson').value = xs.length ? exportJSON() : '';
+  document.getElementById('rintro').textContent = store === 'db'
+    ? 'Every rule has a reply box under it. What you write is saved for me to read at the start of my next turn; you can also copy all your replies here and paste them in the chat.'
+    : 'Every rule has a reply box under it. This view can\'t save to where I read it right now, so your replies stay in this browser: copy them here and paste them in the chat.';
+}
+async function saveReply() {
+  if (!cur || saving) return;
+  const id = cur, r = byId[id];
+  const text = document.getElementById('reply-text').value.trim();
+  const empty = !text && !curMark;
+  const obj = {rule: id, title: r.title, mark: curMark, text, updated: new Date().toISOString(), tree_built: D.built};
+  if (empty) delete replies[id]; else replies[id] = obj;
+  saveLocal();
+  if (!db) { setSt('Saved in this browser only: copy your replies from the "Your replies" tab and paste them in the chat.'); drawNav(); drawReplies(); return; }
+  saving = true; setSt('Saving…');
+  try {
+    const ref = db.doc('replies/' + id);
+    if (empty) await ref.delete(); else await ref.set(obj);
+    setSt(empty ? 'Reply removed.' : 'Saved. I read it at the start of my next turn.');
+  } catch (e) {
+    setSt('Saved in this browser only (' + ((e && e.code) || 'not saved') + '): copy your replies from the "Your replies" tab and paste them in the chat.');
+  }
+  saving = false; drawNav(); drawReplies();
+}
+document.addEventListener('click', e => {
+  const m = e.target.closest('.mk[data-mk]');
+  if (m) { curMark = curMark === m.dataset.mk ? '' : m.dataset.mk; for (const b of document.querySelectorAll('.mk[data-mk]')) b.setAttribute('aria-pressed', String(b.dataset.mk === curMark)); return; }
+  if (e.target.closest('#reply-save')) saveReply();
+  if (e.target.closest('#rcopy')) {
+    const t = exportJSON(), st = document.getElementById('rcst');
+    const fall = () => { const a = document.getElementById('rjson'); a.value = t; a.focus(); a.select(); st.textContent = 'Selected below: copy it with your keyboard, then paste it in the chat.'; };
+    try { navigator.clipboard.writeText(t).then(() => { st.textContent = 'Copied. Paste it in the chat.'; }, fall); } catch (err) { fall(); }
+  }
+});
+(async () => {
+  try { db = (window.claude && window.claude.use) ? await window.claude.use('db') : null; } catch (e) { db = null; }
+  if (!db) { store = 'local'; drawReplies(); return; }
+  const timer = setTimeout(() => { if (store !== 'db') { store = 'local'; drawReplies(); } }, 10000);
+  try {
+    db.collection('replies').onSnapshot(snap => {
+      clearTimeout(timer);
+      store = 'db';
+      for (const ch of snap.docChanges()) {
+        if (ch.type === 'removed') delete replies[ch.doc.id];
+        else { const x = ch.doc.data(); if (x && typeof x === 'object') replies[ch.doc.id] = {...x, rule: ch.doc.id}; }
+      }
+      saveLocal(); drawNav(); drawReplies();
+    }, err => { clearTimeout(timer); store = 'local'; drawReplies(); });
+  } catch (e) { clearTimeout(timer); db = null; store = 'local'; drawReplies(); }
+})();
 function showCard(id, push) {
   const r = byId[id]; if (!r) return;
   cur = id;
@@ -179,6 +266,7 @@ function showCard(id, push) {
     field('The rule', f.Rule, 'rule') + why(f.Why) + field('Example', f.Example) +
     field('How it is checked', f['Checked by']) +
     (r.status !== 'active' && f.Status && f.Status.trim().toLowerCase() !== r.status ? field(r.status === 'open question' ? 'Open question' : 'Status', f.Status) : '') +
+    replyBox(id) +
     (links ? `<div class="f"><h3>Linked rules</h3><div class="chips">${links}</div></div>` : '') +
     (backs ? `<div class="f"><h3>Rules that point here</h3><div class="chips">${backs}</div></div>` : '') +
     (reps ? `<div class="f"><h3>What it replaces (hover a code for what it is)</h3><div>${reps}</div></div>` : '') +
@@ -241,14 +329,15 @@ document.getElementById('map').addEventListener('mousemove', e => {
 });
 document.getElementById('map').addEventListener('mouseleave', () => { tip.style.display = 'none'; });
 document.getElementById('map').addEventListener('click', e => { const t = e.target.closest('.nd'); if (t) { tab('tree'); showCard(t.dataset.id); } });
-document.addEventListener('click', e => { const b = e.target.closest('[data-id]'); if (b && !b.classList.contains('nd')) { if (b.tagName === 'A') e.preventDefault(); showCard(b.dataset.id); if (innerWidth < 760) document.getElementById('card').scrollIntoView({behavior: 'smooth'}); } });
+document.addEventListener('click', e => { const b = e.target.closest('[data-id]'); if (b && !b.classList.contains('nd')) { if (b.tagName === 'A') e.preventDefault(); if (!document.getElementById('v-replies').hidden) tab('tree'); showCard(b.dataset.id); if (innerWidth < 760) document.getElementById('card').scrollIntoView({behavior: 'smooth'}); } });
 function tab(name) {
-  for (const t of ['tree', 'map', 'words']) { document.getElementById('v-' + t).hidden = t !== name; document.getElementById('t-' + t).setAttribute('aria-selected', String(t === name)); }
-  if (name === 'map') drawMap(); if (name === 'words') drawWords();
+  for (const t of ['tree', 'map', 'words', 'replies']) { document.getElementById('v-' + t).hidden = t !== name; document.getElementById('t-' + t).setAttribute('aria-selected', String(t === name)); }
+  if (name === 'map') drawMap(); if (name === 'words') drawWords(); if (name === 'replies') drawReplies();
 }
 document.getElementById('t-tree').onclick = () => tab('tree');
 document.getElementById('t-map').onclick = () => tab('map');
 document.getElementById('t-words').onclick = () => tab('words');
+document.getElementById('t-replies').onclick = () => tab('replies');
 document.getElementById('l-purpose').onclick = () => { lens = 'purpose'; document.getElementById('l-purpose').setAttribute('aria-pressed', 'true'); document.getElementById('l-stage').setAttribute('aria-pressed', 'false'); drawNav(); };
 document.getElementById('l-stage').onclick = () => { lens = 'stage'; document.getElementById('l-stage').setAttribute('aria-pressed', 'true'); document.getElementById('l-purpose').setAttribute('aria-pressed', 'false'); drawNav(); };
 document.getElementById('q').addEventListener('input', e => { query = e.target.value.trim().toLowerCase(); drawNav(); if (!document.getElementById('v-map').hidden) drawMap(); if (!document.getElementById('v-words').hidden) drawWords(); });

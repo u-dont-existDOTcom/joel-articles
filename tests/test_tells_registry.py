@@ -111,10 +111,10 @@ class RegistryShape(unittest.TestCase):
         # has to reread to see what its verbs hang from, a word used in a sense readers don't bring, an exact figure for a
         # practice nobody could keep exactly) from his neuro de-armoring cards of 2026-11-27 22:59 UTC (neuro-2026-11-27s to v);
         # W135 (O80, "one" where a person writes "a") and W136 (O81, "for the thing") from his rules-audit answers of 2026-11-28
-        # (cards C11 and C14)
-        self.assertEqual(len(ids), 229)
+        # (cards C11 and C14); W137 (O82, "straight into") from his message of 2026-11-28 15:23 UTC
+        self.assertEqual(len(ids), 230)   # W137, O82 "straight into" (Joel, 2026-11-28 15:23 UTC)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 136)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 137)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

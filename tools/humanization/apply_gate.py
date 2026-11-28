@@ -22,6 +22,10 @@ follows as its own work. Apply scripts pass owner_approved={"card": ..., "words"
 --owner-words, --owner-where on the command line); all three are required, so a bare claim doesn't pass. Everything else
 is as above.
 
+His answer of 2026-11-28 15:23 UTC (the rule tree's open questions): a paragraph still short of High stays out, but a
+window reading Human Medium that is only a heading, a word or a phrase, not a whole sentence, doesn't hold it out
+(minor() below; rule R-every-window-high).
+
   python3 tools/humanization/apply_gate.py LEDGER --text "PARAGRAPH" [--text ...] [--file PARA.txt ...] [--section-ok REASON]
       [--owner-card CARD --owner-words "HIS WORDS" --owner-where "ANSWERS FILE, turn"]
 
@@ -66,6 +70,44 @@ def all_high(ws):
     return bool(ws) and all(l in ('Human', 'Human Written') and c == 'High' for l, c, _ in ws)
 
 
+SENTENCE = re.compile(r"(?:\b[\w'’-]+\b[^.!?\n]*?){3,}[.!?](?=\s|$)")
+
+
+def minor(w):
+    """True for a window that reads Human at Medium confidence and is only a heading, a word or a phrase, not a whole
+    sentence. Joel, 2026-11-28 15:23 UTC, answering whether a paragraph still Medium after its budget goes in: "unless
+    it's just a heading or a word or phrase, but a whole sentence at least yeah that's more important to fix". Without
+    the window's text, only a window of three words or fewer counts as a word or phrase."""
+    if not isinstance(w, dict):
+        parts = [x.strip() for x in str(w).split(',')]
+        w = {'label': parts[0] if parts else '', 'confidence': parts[1] if len(parts) > 1 else '',
+             'words': int(parts[2]) if len(parts) > 2 and parts[2].isdigit() else None}
+    if (w.get('label') or '') not in ('Human', 'Human Written') or (w.get('confidence') or '') != 'Medium':
+        return False
+    text = (w.get('text') or '').strip()
+    if text:
+        return len(text.split()) <= 12 and not SENTENCE.search(text)
+    n = w.get('words')
+    return isinstance(n, int) and n <= 3
+
+
+def high_but_minor(result):
+    """(ok, minors): ok when every window is Human High, or Human High but for windows that are only a heading, a word or
+    a phrase reading Human Medium (minor), with at least one High window; minors lists those windows."""
+    raw = (result or {}).get('windows') or []
+    ws = windows(result)
+    if all_high(ws):
+        return True, []
+    if not raw or len(raw) != len(ws):
+        return False, []
+    minors = [w for w in raw if minor(w)]
+    rest = [w for w in raw if not minor(w)]
+    if minors and rest and all((w.get('label') in ('Human', 'Human Written') and w.get('confidence') == 'High')
+                               for w in rest if isinstance(w, dict)) and all(isinstance(w, dict) for w in rest):
+        return True, minors
+    return False, []
+
+
 def owner_record(owner_approved):
     """The line recording a content change he approved, or None when OWNER_APPROVED is None. Raises ValueError when the
     card, his words or where he said them is missing."""
@@ -97,7 +139,15 @@ def check(recs, paragraph, section_ok=None, owner_approved=None):
         scope, ws = p.get('scope'), windows(p['result'])
         link = p['result'].get('link') or p['id']
         read = ', '.join('%s %s %s' % (l, c, n) for l, c, n in ws) or 'no windows recorded'
-        if all_high(ws) and scope in ALONE:
+        fine, minors = high_but_minor(p['result'])
+        if fine and minors and scope in ALONE:
+            ok = True
+            lines.append('counts: %s (%s, by itself): %s; its Medium window%s only a heading, a word or a phrase (%s), '
+                         'which he said needn\'t hold it out (Joel, 2026-11-28 15:23 UTC: "unless it\'s just a heading or '
+                         'a word or phrase, but a whole sentence at least yeah that\'s more important to fix")' % (
+                             link, scope, read, ' is' if len(minors) == 1 else 's are',
+                             '; '.join('"%s"' % (w.get('text') or '%s words' % w.get('words')) for w in minors)))
+        elif all_high(ws) and scope in ALONE:
             ok = True
             lines.append('counts: %s (%s, by itself): %s' % (link, scope, read))
         elif all_high(ws) and scope in IN_SECTION and (section_ok or '').strip():

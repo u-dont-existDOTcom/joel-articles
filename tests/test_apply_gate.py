@@ -36,6 +36,32 @@ class Gate(unittest.TestCase):
         ok, _ = G.check(recs(('paragraph', PARA, [('Human', 'High', 10), ('Human', 'Medium', 10)])), PARA)
         self.assertFalse(ok)
 
+    def test_a_medium_heading_word_or_phrase_doesnt_hold_it_out(self):
+        # Joel, 2026-11-28 15:23 UTC: "unless it's just a heading or a word or phrase, but a whole sentence at least yeah
+        # that's more important to fix"
+        def rec(win):
+            out = recs(('paragraph', PARA, [('Human', 'High', 20)]))
+            out[1]['windows'].append(win)
+            return out
+        ok, lines = G.check(rec({'label': 'Human', 'confidence': 'Medium', 'words': 4, 'text': 'Things get tricky fast'}), PARA)
+        self.assertTrue(ok, lines)
+        self.assertIn('only a heading, a word or a phrase', lines[0])
+        ok, _ = G.check(rec({'label': 'Human', 'confidence': 'Medium', 'words': 1, 'text': 'Why?'}), PARA)
+        self.assertTrue(ok)
+        ok, _ = G.check(rec({'label': 'Human', 'confidence': 'Medium', 'words': 2}), PARA)
+        self.assertTrue(ok)
+        # a whole sentence, or a window whose text isn't kept and is longer than a phrase, still holds it out
+        ok, _ = G.check(rec({'label': 'Human', 'confidence': 'Medium', 'words': 5, 'text': 'Call medics if they faint.'}), PARA)
+        self.assertFalse(ok)
+        ok, _ = G.check(rec({'label': 'Human', 'confidence': 'Medium', 'words': 9}), PARA)
+        self.assertFalse(ok)
+        # Low or AI is never minor
+        ok, _ = G.check(rec({'label': 'Human', 'confidence': 'Low', 'words': 2, 'text': 'For H.'}), PARA)
+        self.assertFalse(ok)
+        # and a paragraph whose only window is Medium has nothing High
+        ok, _ = G.check(recs(('paragraph', PARA, [('Human', 'Medium', 3)])), PARA)
+        self.assertFalse(ok)
+
     def test_ai_alone_fails_even_when_the_section_reads_high(self):
         r = recs(('paragraph', PARA, [('AI-Generated', 'High', 20)]),
                  ('section', 'Active Seizure\n\nTime it.\n\n' + PARA, [('Human', 'High', 30)]))
