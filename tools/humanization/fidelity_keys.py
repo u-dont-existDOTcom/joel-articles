@@ -11,7 +11,8 @@ judgment. This check is not:
   draft as often as in the master, and the draft has no number the master doesn't;
 - every compound or term the master names (5-HTP, D-Serine, NAC, DMSO, agmatine, ayahuasca, ...) is still named;
 - every warning sentence (do not, never, stop, avoid, cap at, without clinician review, ...) still has, in one paragraph,
-  its warning word, every term and every number it had (preservation_keys.py's paragraph match).
+  every term and every number it had (preservation_keys.py's paragraph match). Its warning word and its other words may
+  change as long as the facts stay (rules audit 2026-11-28, card C10, below).
 
   python3 tools/humanization/fidelity_keys.py extract MASTER.md KEYS.json
   python3 tools/humanization/fidelity_keys.py check KEYS.json DRAFT.md [--json]
@@ -33,10 +34,14 @@ never put back over his words. Until he answers, KEYS.json's "owner_open" holds 
 wrote the version, "question": the question that asks him}): the check doesn't count it lost, lists it as open with him,
 and still fails on anything else lost.
 
-When a warning's words may change. With "warning_words": {"rule": "meaning", "by": ...} in KEYS.json (Joel's answer 8a,
-2026-11-04 18:10 UTC: "8a not sure why you had to ask that, the whole point is rewording stuff here"), each warning keeps
-only its warning word, its compounds and terms, and its numbers; the other words it was held to (the sentence's rarest
-words) are free to change, and the comparative read beside his post checks the meaning.
+When a warning's words may change. Joel's answer 8a, 2026-11-04 18:10 UTC: "8a not sure why you had to ask that, the whole
+point is rewording stuff here"; and his CHARCOAL-WORDS answer that such a line "may be said in other words, as long as every
+fact stays". Rules audit 2026-11-28, card C10 (approved): that is now the rule for every line with a warning word, with or
+without "warning_words": {"rule": "meaning", "by": ...} in KEYS.json (still accepted). A warning keeps only its facts, which
+are held exactly: its compounds and terms and its numbers, units and doses. Its warning word and the other words it was
+held to (the sentence's rarest words) are free to change, and the comparative read beside his post checks the meaning. A
+warning word the new line lacks (no "stop", "do not", "risk" in the paragraph that holds the line's facts) is reported in
+"warnings_review" for a reader to judge, and never fails the check.
 
 What his approved cards change. When he approves a card that changes the protocol itself (a warning cut, a dose the
 studies support), KEYS.json's "owner_changes" records what that card took out and put in ({"by": his answers file and the
@@ -220,6 +225,10 @@ def not_cautions(keys):
     return free
 
 
+def normalize_para(p):
+    return pk.normalize(p)
+
+
 def check(keys, draft):
     free = not_cautions(keys)
     subs, units = owner_wording(keys)
@@ -262,7 +271,6 @@ def check(keys, draft):
     def glue(t):
         return re.sub(r'(\d)[ \t]+(?=(?:mg|mcg|µg|g|kg|ml|mL)\b)', r'\1', t)
     draft_paras = glue(dash('\n\n'.join(limit(his(plain(b))) for b in re.split(r'\n\s*\n', draft))))
-    meaning = (keys.get('warning_words') or {}).get('rule') == 'meaning'
     term_set = {pk.normalize(t) for t in keys['terms']}
 
     # a recorded change's "don't" is the unit's "do not" (above): before 2026-11-06 a card's "don't" never left its unit,
@@ -278,15 +286,28 @@ def check(keys, draft):
             taken[uid] |= {same(k) for k in ks}
     for u in units:
         u['keys'] = [[glue(dash(norm(x))) for x in k] for k in u['keys'] if same(k) not in taken[u['id']]]
-        if meaning:
-            # his answer 8a: a warning's words may change when its meaning stays. The check keeps what a reader acts on, the
-            # warning word ("do not", "stop", "avoid" ...), every compound or term and every number; the other words of the
-            # sentence are left to the comparative read beside his post (E284, E294). A warning that names no compound and no
-            # number ("Do not push through.") keeps its own words too, since they are what its warning word applies to
-            named = [k for k in u['keys'] if any(NUMBER.search(x) or TERM.search(x) or pk.normalize(x) in term_set for x in k)]
-            if named:
-                u['keys'] = [k for k in u['keys'] if k in named or any(CUES.search(x) for x in k)]
-    lost_warnings = pk.check({'units': units}, draft_paras)
+        # Rules audit 2026-11-28, card C10 (approved), his 8a: "the whole point is rewording stuff here". A warning line holds
+        # its facts exactly (compounds, terms, numbers); its warning word is reported for a reader, and its other words are free
+        named = [k for k in u['keys'] if any(NUMBER.search(x) or TERM.search(x) or pk.normalize(x) in term_set for x in k)]
+        u['cues'] = [k for k in u['keys'] if k not in named and any(CUES.search(x) for x in k)]
+        u['locate'] = [k for k in u['keys'] if k not in u['cues']]   # the line's own words, to find its paragraph
+        u['keys'] = named
+    held = [u for u in units if u['keys']]
+    lost_warnings = pk.check({'units': held}, draft_paras)
+    # the paragraph that holds most of a line's other words must still carry its warning word; when it doesn't (or the line
+    # is gone), a reader judges (card C10)
+    paras = [normalize_para(b) for b in draft_paras.split('\n\n') if b.strip()]
+    review = []
+    for u in units:
+        if not u['cues']:
+            continue
+        score = lambda p: sum(any(pk.normalize(a) in p for a in k) for k in u['locate'])
+        best = max(paras, key=score, default='')
+        cues = [k for k in u['cues'] if not any(pk.normalize(a) in best for a in k)]
+        if cues and (score(best) or not u['locate']):
+            review.append({'id': u['id'], 'what': u['what'], 'missing': cues})
+        elif cues:
+            review.append({'id': u['id'], 'what': u['what'], 'missing': cues + [['(the line itself was not found)']]})
     # what his approved cards changed (keys['owner_changes']): his, neither lost nor new
     changes, unexplained = [], []
     for c in keys.get('owner_changes', []):
@@ -336,7 +357,7 @@ def check(keys, draft):
         if hit:
             open_.append(o)
     return {'numbers_lost': lost_numbers, 'numbers_new': new_numbers, 'terms_lost': lost_terms,
-            'warnings_lost': lost_warnings, 'open_with_owner': open_, 'owner_changes': changes,
+            'warnings_lost': lost_warnings, 'warnings_review': review, 'open_with_owner': open_, 'owner_changes': changes,
             'not_cautions': sorted(free), 'citations_unexplained': unexplained,
             'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings or unexplained)}
 
@@ -365,6 +386,8 @@ def main(argv=None):
                 print('%s: %s' % (k, x))
         for u in r['warnings_lost']:
             print('warning lost: %s | missing %s' % (u['what'][:160], u['missing']))
+        for u in r['warnings_review']:
+            print('warning word not in the new line, for a reader to judge: %s | missing %s' % (u['what'][:160], u['missing']))
         for o in r['open_with_owner']:
             print('open with him: %s (%s)' % (o.get('term') or o.get('unit'), o['question']))
         for uid in r['not_cautions']:

@@ -1,5 +1,5 @@
 {
- "what": "Every tell named in AGENTS.md, SKILL.md, docs/HUMANIZATION-GATE.md, tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md and tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md, from the coverage audit of 2026-10-11 (tools/humanization/TELLS-COVERAGE-20261011.md). A mechanical tell names the rule in tells_lint.py that checks it and an example paragraph that triggers that rule; a judgment tell says why it needs a reader. Each quote is in its file once whitespace is collapsed and curly quotes are made straight. tests/test_tells_registry.py checks every quote and runs every example. A tell added to one of those files gets an entry here in the same change.",
+ "what": "Every tell named in AGENTS.md, SKILL.md, docs/HUMANIZATION-GATE.md, tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md and tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md, from the coverage audit of 2026-10-11 (tools/humanization/TELLS-COVERAGE-20261011.md). A mechanical tell names the rule in tells_lint.py that checks it and an example paragraph that triggers that rule; a judgment tell says why it needs a reader. Each quote is in its file once whitespace is collapsed and curly quotes are made straight. tests/test_tells_registry.py checks every quote and runs every example. A tell added to one of those files gets an entry here in the same change. The audit of 2026-11-28 (docs/rules-audit/2026-11-27/) added each mechanical tell's level, FAIL or REVIEW, and W135 and W136.",
  "fields": {
   "id": "W for a tell a pattern or a count can find, J for one that needs a reader (the audit's numbering)",
   "tell": "the tell, in the documents' words",
@@ -9,12 +9,13 @@
   "example": "mechanical: a short paragraph that should get that flag",
   "source_text": "W77 only: the source section the example is compared with (D9 needs --source)",
   "requires": "a package the rule needs; the test skips the example without it",
-  "reason": "judgment: why no pattern can decide it"
+  "reason": "judgment: why no pattern can decide it",
+  "level": "mechanical: FAIL (the linter fails a draft on it, because his own words ask for the removal) or REVIEW (it is reported for a reader to judge, never failed; the rules audit of 2026-11-28, cards C11, C22, C23 and C24); the test checks each example against it"
  },
  "tells": [
   {
    "id": "W07",
-   "tell": "\"Even\" (\"They're words I add to sound casual, and they don't help\")",
+   "tell": "\"Even\" (\"They're words I add to sound casual, and they don't help\") [REVIEW (rules audit 2026-11-28, card C23: no words of his and no result behind it)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -27,11 +28,12 @@
     }
    ],
    "rule": "O25",
+   "level": "REVIEW",
    "example": "We painted the barn red that spring, and we even fixed the leak over the hayloft. The cows did not seem to notice any of it."
   },
   {
    "id": "W08",
-   "tell": "\"actually\" (same finding)",
+   "tell": "\"actually\" (same finding) [REVIEW (rules audit 2026-11-28, card C23: no words of his and no result behind it)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -44,6 +46,7 @@
     }
    ],
    "rule": "O25",
+   "level": "REVIEW",
    "example": "The barn was actually warmer than the house during the first winter on the land. The cows gave off more heat than the old wood stove did."
   },
   {
@@ -65,6 +68,7 @@
     }
    ],
    "rule": "O37",
+   "level": "FAIL",
    "example": "The goat ate the treasurer's notes again lol, so the budget vote moved to the next meeting. The treasurer now keeps a second copy of every page in the farmhouse."
   },
   {
@@ -82,6 +86,7 @@
     }
    ],
    "rule": "O26",
+   "level": "FAIL",
    "example": "The sign-up sheet for the harvest crew is on the board by the kitchen door 👉 and it closes at the end of the month. Last year the crew ran short of hands during the apple picking."
   },
   {
@@ -103,6 +108,7 @@
     }
    ],
    "rule": "O26",
+   "level": "FAIL",
    "example": "The treasurer says the accounts add up this year 😉 and nobody has looked at them since spring. The audit is set for the first week of the harvest."
   },
   {
@@ -120,6 +126,7 @@
     }
    ],
    "rule": "O26",
+   "level": "FAIL",
    "example": "The new solar panels went up on the barn roof last week 🚀 and the lights stayed on all night. The council still wants a second battery before the winter storms."
   },
   {
@@ -137,6 +144,7 @@
     }
    ],
    "rule": "O27",
+   "level": "REVIEW",
    "example": "The council met in the barn after the harvest.  The treasurer read the numbers aloud to everyone who came that night."
   },
   {
@@ -154,6 +162,7 @@
     }
    ],
    "rule": "O27",
+   "level": "REVIEW",
    "example": "The council met in the barn after the harvest. The treasurer read the numbers aloud to everyone who came that night"
   },
   {
@@ -167,6 +176,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "I care about how the group splits the money when a member leaves the farm. The bylaws from the first year say nothing about it at all."
   },
   {
@@ -180,6 +190,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "I'd want to see the budget before anyone signs the lease on the new barn. The old lease had a clause about repairs that nobody read until the roof leaked."
   },
   {
@@ -193,6 +204,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "The well ran dry twice last summer. That tells me the group needs a second water source before the next drought comes."
   },
   {
@@ -210,6 +222,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "That’s where the council matters to me, since it decides who gets to farm the lower field. Everything else on the land follows from that one choice."
   },
   {
@@ -227,6 +240,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "This is one reason I want the council to post its minutes every month on the board. The treasurer has already offered to type them up after each meeting."
   },
   {
@@ -244,6 +258,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "The version I want is a council that meets in the open and posts its minutes on the board. The current one still meets in the treasurer's kitchen behind a closed door."
   },
   {
@@ -261,6 +276,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "What matters to me is a council that posts its minutes every month on the board. The current one keeps its notes in a drawer in the treasurer's kitchen."
   },
   {
@@ -278,6 +294,7 @@
     }
    ],
    "rule": "O23",
+   "level": "REVIEW",
    "example": "I had heard the mill closed in 1990. I checked it against the county records, and the real closing date was 1987, three years earlier."
   },
   {
@@ -291,6 +308,7 @@
     }
    ],
    "rule": "O24",
+   "level": "REVIEW",
    "example": "I see the need to write the guest rules down before the first big dispute comes up. Last winter two long-stay guests argued for a month over the laundry."
   },
   {
@@ -304,6 +322,7 @@
     }
    ],
    "rule": "O24",
+   "level": "REVIEW",
    "example": "It's also important to keep every receipt from the hardware store in one folder. The treasurer lost two of them last spring and had to pay out of pocket."
   },
   {
@@ -317,6 +336,7 @@
     }
    ],
    "rule": "O24",
+   "level": "REVIEW",
    "example": "One thing to notice about the old ledger is how often the same three names come up. Those three families paid for most of the repairs in the first decade."
   },
   {
@@ -330,6 +350,7 @@
     }
    ],
    "rule": "O2",
+   "level": "FAIL",
    "example": "The new pump works, sure. But it costs twice as much as the old one did to run each month."
   },
   {
@@ -343,6 +364,7 @@
     }
    ],
    "rule": "O33",
+   "level": "REVIEW",
    "example": "The puppy begged for a second dinner at the table. Nope. Aww, buddy. The vet wants him to lose two pounds before his checkup in the spring."
   },
   {
@@ -356,6 +378,7 @@
     }
    ],
    "rule": "O34",
+   "level": "REVIEW",
    "example": "The shed has a roof and three walls. I wouldn't call that a barn. The goats sleep in it every night when the wind picks up off the hill."
   },
   {
@@ -373,11 +396,12 @@
     }
    ],
    "rule": "O35",
+   "level": "REVIEW",
    "example": "The breathing exercise works with or without music in the background. Ten minutes in the morning is plenty for anyone starting out."
   },
   {
    "id": "W41",
-   "tell": "a \"but also\" pair",
+   "tell": "a \"but also\" pair [REVIEW (rules audit 2026-11-28, card C23: no words of his and no result behind it)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -386,6 +410,7 @@
     }
    ],
    "rule": "O36",
+   "level": "REVIEW",
    "example": "The garden feeds the whole house, but also teaches the younger members some patience. The tomatoes alone take most of the summer to come in."
   },
   {
@@ -407,6 +432,7 @@
     }
    ],
    "rule": "B11",
+   "level": "FAIL",
    "example": "It's not a hobby. It's a job that pays the rent on the farmhouse every month."
   },
   {
@@ -424,11 +450,12 @@
     }
    ],
    "rule": "O28",
+   "level": "REVIEW",
    "example": "It's one thing to talk about a universal consciousness. It's another to struggle to escape one man's opinions about everything on the farm."
   },
   {
    "id": "W62",
-   "tell": "\"question runs\"",
+   "tell": "\"question runs\" [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -437,11 +464,12 @@
     }
    ],
    "rule": "O29",
+   "level": "REVIEW",
    "example": "Who pays for the new roof? Who fixes the well when it runs dry? Who keeps the books after the treasurer moves back to the city?"
   },
   {
    "id": "W63",
-   "tell": "the parallel \"who is … who is … or who is\" list",
+   "tell": "the parallel \"who is … who is … or who is\" list [REVIEW since the rules audit of 2026-11-28, card C22: no count fails a draft by itself]",
    "kind": "mechanical",
    "sources": [
     {
@@ -450,6 +478,7 @@
     }
    ],
    "rule": "E125",
+   "level": "REVIEW",
    "example": "The facilitator on the retreat circuit may be someone who is a sexual predator, who is financially dependent on people coming back, or who is simply wrong. Participants usually find out only after the ceremony is over and everyone has gone home."
   },
   {
@@ -467,6 +496,7 @@
     }
    ],
    "rule": "O30",
+   "level": "REVIEW",
    "example": "The members sign the land trust as adults. They pay their share of the dues as adults. Later their children can join the trust as adults too, once they decide to stay on the land."
   },
   {
@@ -480,6 +510,7 @@
     }
    ],
    "rule": "O31",
+   "level": "REVIEW",
    "example": "When the toddler cries at night, don't rush in right away. When she calms down, don't lecture her about it at breakfast. On most nights she falls back asleep within a few minutes on her own."
   },
   {
@@ -493,6 +524,7 @@
     }
    ],
    "rule": "O32",
+   "level": "REVIEW",
    "example": "Keeping the promise is a kind of love, but it's not the whole thing. The rest happens in small moments that nobody else sees during the day."
   },
   {
@@ -510,6 +542,7 @@
     }
    ],
    "rule": "O12",
+   "level": "REVIEW",
    "example": "The council spent the first hour on the boring problem of who keeps the tool shed key. The rest of the night went to the new well and the cost of the pump."
   },
   {
@@ -531,6 +564,7 @@
     }
    ],
    "rule": "O42",
+   "level": "FAIL",
    "example": "Cooperation with the next valley shouldn't quietly turn into a merger of the two land trusts. Each group keeps its own council and its own books for now."
   },
   {
@@ -548,6 +582,7 @@
     }
    ],
    "rule": "O12",
+   "level": "REVIEW",
    "example": "The founders wanted the farm to feel like an ordinary village with a shared kitchen. By six the long table usually fills up before the soup is ready."
   },
   {
@@ -565,6 +600,7 @@
     }
    ],
    "rule": "O12",
+   "level": "REVIEW",
    "example": "The council keeps a regular slot for complaints at the end of each meeting in the barn. Members write their complaint on a card and drop it in the tin by the door."
   },
   {
@@ -582,6 +618,7 @@
     }
    ],
    "rule": "O12",
+   "level": "REVIEW",
    "example": "The workshop covers everyday repairs like a dripping tap or a stuck window latch. A retired plumber from the village runs it on the first weekend of the month."
   },
   {
@@ -595,6 +632,7 @@
     }
    ],
    "rule": "O12",
+   "level": "REVIEW",
    "example": "The council's work is mostly mundane paperwork about seed orders and gate repairs. The big fights come up maybe twice a year, usually over money."
   },
   {
@@ -608,6 +646,7 @@
     }
    ],
    "rule": "E1",
+   "level": "REVIEW",
    "example": "The kid next door feeds our chickens whenever the family goes away for a few days. Her mother pays her in eggs, which she sells at the market."
   },
   {
@@ -625,6 +664,7 @@
     }
    ],
    "rule": "O37",
+   "level": "REVIEW",
    "example": "IMO the council should post its minutes on the board by the kitchen door. The treasurer agreed to type them up after each meeting this year."
   },
   {
@@ -642,6 +682,7 @@
     }
    ],
    "rule": "O11",
+   "level": "FAIL",
    "example": "The kitchen feeds about thirty people at the long table on Tuesday. The rest of the week each house cooks for itself, mostly from the garden."
   },
   {
@@ -659,6 +700,7 @@
     }
    ],
    "rule": "O13",
+   "level": "REVIEW",
    "example": "The council meets at 7 pm in the barn to go over the water rota for the summer. The treasurer brings a lamp because the wiring out there never got finished."
   },
   {
@@ -676,6 +718,7 @@
     }
    ],
    "rule": "O13",
+   "level": "REVIEW",
    "example": "Setting aside five percent of the harvest is enough to cover the seed for next spring. The rest goes to the shared pantry and the market stall in town."
   },
   {
@@ -697,6 +740,7 @@
     }
    ],
    "rule": "O15",
+   "level": "REVIEW",
    "example": "The council worried that the land deal made the members look priveleged to the people in town. The treasurer suggested opening the orchard to the school every fall.",
    "requires": "pyspellchecker"
   },
@@ -715,12 +759,13 @@
     }
    ],
    "rule": "O15",
+   "level": "REVIEW",
    "example": "The healer told him he was the re-incarnation of a famous king, and he believed it for about a week. His brother laughed about it for much longer than that.",
    "requires": "pyspellchecker"
   },
   {
    "id": "W22",
-   "tell": "I want..., I don't want...; \"\"I want\" or \"I don't want\" opening a stance\"",
+   "tell": "I want..., I don't want...; \"\"I want\" or \"I don't want\" opening a stance\" [REVIEW (card C11)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -737,6 +782,7 @@
     }
    ],
    "rule": "O20",
+   "level": "REVIEW",
    "example": "I want a council that meets in the open and keeps minutes anyone can read. The current one meets in the treasurer's kitchen and writes nothing down."
   },
   {
@@ -754,6 +800,7 @@
     }
    ],
    "rule": "O22",
+   "level": "REVIEW",
    "example": "That's where the council matters to me, since it decides who gets to farm the lower field. Everything else on the land follows from that one choice."
   },
   {
@@ -771,6 +818,7 @@
     }
    ],
    "rule": "E138",
+   "level": "REVIEW",
    "example": "My first guess was that the pump had failed again. The real cause turned out to be a clogged filter near the bottom of the tank."
   },
   {
@@ -788,6 +836,7 @@
     }
    ],
    "rule": "O2",
+   "level": "FAIL",
    "example": "She bought the boots at the market in town. Fine, they're nice boots, and they kept her feet dry all through the wet season."
   },
   {
@@ -805,6 +854,7 @@
     }
    ],
    "rule": "O21",
+   "level": "REVIEW",
    "example": "We don't need one big federation with a nicer logo to share tools between the farms. A shared shed and a sign-out sheet already do that job."
   },
   {
@@ -822,6 +872,7 @@
     }
    ],
    "rule": "O8",
+   "level": "FAIL",
    "example": "My reasons are in those articles, not smuggled into one sentence here. Each one takes a few pages to lay out with the evidence behind it."
   },
   {
@@ -839,6 +890,7 @@
     }
    ],
    "rule": "E41",
+   "level": "REVIEW",
    "example": "The cellar stays cool all year round. You might notice the bread goes stale faster in the summer kitchen. The baker moved the racks down there in June for that reason."
   },
   {
@@ -856,6 +908,7 @@
     }
    ],
    "rule": "E41",
+   "level": "REVIEW",
    "example": "Some people answer every doubt with a long defense of their love. If you do, you might take the accusation as proof that the love was conditional all along."
   },
   {
@@ -873,6 +926,7 @@
     }
    ],
    "rule": "R1",
+   "level": "REVIEW",
    "example": "The neighbors argued about the fence line for a month. If they did it again, the council would step in and walk the line with a tape measure."
   },
   {
@@ -890,6 +944,7 @@
     }
    ],
    "rule": "O10",
+   "level": "FAIL",
    "example": "Key here is that most of the writing on communities hasn't caught up with psychedelics. The older books barely mention them, and the newer ones mostly repeat the same warnings."
   },
   {
@@ -907,6 +962,7 @@
     }
    ],
    "rule": "O1",
+   "level": "FAIL",
    "example": "The weather doesn't get to decide when we plant the beans this year. The seed order goes in at the end of the winter, whatever the sky is doing."
   },
   {
@@ -924,11 +980,12 @@
     }
    ],
    "rule": "H1",
+   "level": "FAIL",
    "example": "## The Medicine Part, Without Pretending It Isn't There\n\nWriting about communities has mostly not caught up with psychedelics yet. The older books barely mention them, and the newer ones repeat the same warnings."
   },
   {
    "id": "W50",
-   "tell": "\"a negation in a heading\"",
+   "tell": "\"a negation in a heading\" [REVIEW (card C11); an x-not-y heading (W49) still fails on his \"fully banned\"]",
    "kind": "mechanical",
    "sources": [
     {
@@ -937,6 +994,7 @@
     }
    ],
    "rule": "H1",
+   "level": "REVIEW",
    "example": "## Why the Council Doesn't Vote on Gardens\n\nEach house plans its own garden plot in the spring and tells the council what it needs in seed. The council only steps in when two houses want the same corner of the field."
   },
   {
@@ -950,11 +1008,12 @@
     }
    ],
    "rule": "O10",
+   "level": "REVIEW",
    "example": "## The Water Rota\n\nThis rota lists who carries water from the well on each day of the month. The list hangs on a nail by the kitchen door next to the calendar."
   },
   {
    "id": "W52",
-   "tell": "\"A \"not Y\" tail on a finished claim\"; Emulate's \"not the other way around\"",
+   "tell": "\"A \"not Y\" tail on a finished claim\"; Emulate's \"not the other way around\" [REVIEW since the rules audit of 2026-11-28, card C11: \"sometimes it is the most clear and natural way to phrase it\"]",
    "kind": "mechanical",
    "sources": [
     {
@@ -971,6 +1030,7 @@
     }
    ],
    "rule": "O9",
+   "level": "REVIEW",
    "example": "The guide gives new members practical steps for their first month on the land, not just theory. The steps came from the founders' own mistakes in the early years."
   },
   {
@@ -988,6 +1048,7 @@
     }
    ],
    "rule": "O18",
+   "level": "REVIEW",
    "example": "The receipt isn't proof, but it still counts for something at the bank. The clerk took a copy and filed it with the loan papers."
   },
   {
@@ -1009,6 +1070,7 @@
     }
    ],
    "rule": "O17",
+   "level": "REVIEW",
    "example": "A scared child may get mixed up telling the story and still need protection. The adults on the council have to listen to the whole account first."
   },
   {
@@ -1022,6 +1084,7 @@
     }
    ],
    "rule": "B2",
+   "level": "REVIEW",
    "example": "The fence isn't a wall, it's a promise to share the gate with the neighbors. They have used the gate every morning since the spring."
   },
   {
@@ -1039,6 +1102,7 @@
     }
    ],
    "rule": "B2",
+   "level": "REVIEW",
    "example": "The farm is not a hobby but a living for the whole family. The orchard alone pays for the school fees and the truck."
   },
   {
@@ -1056,11 +1120,12 @@
     }
    ],
    "rule": "O7",
+   "level": "REVIEW",
    "example": "The members were devoted enough to practice the rules and secure enough to disagree with them openly. The founders liked that more than they had expected to at the start."
   },
   {
    "id": "W60",
-   "tell": "an objection in \"an \"even if\" clause\"",
+   "tell": "an objection in \"an \"even if\" clause\" [REVIEW (rules audit 2026-11-28, card C23: no words of his and no result behind it)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1073,6 +1138,7 @@
     }
    ],
    "rule": "B1",
+   "level": "REVIEW",
    "example": "The old council did what it could with the money it had, even if it looks foolish to the members now. The roof it bought that year still keeps the rain out of the barn."
   },
   {
@@ -1090,11 +1156,12 @@
     }
    ],
    "rule": "O16",
+   "level": "REVIEW",
    "example": "Members will get sick and grow old on the land. Some will want to die at home among friends. These are all questions that a community should consider in advance."
   },
   {
    "id": "W64",
-   "tell": "\"lists of 3 in general are an ai pattern\"; \"triads\"",
+   "tell": "\"lists of 3 in general are an ai pattern\"; \"triads\" [REVIEW since the rules audit of 2026-11-28, card C22: no count fails a draft by itself]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1115,11 +1182,12 @@
     }
    ],
    "rule": "E125",
+   "level": "REVIEW",
    "example": "The council handles the budget, the water rota, and the guest rooms for visitors. It meets once a month in the barn after supper."
   },
   {
    "id": "W65",
-   "tell": "\"P! failed b ecause it has 2 lists of 3\"",
+   "tell": "\"P! failed b ecause it has 2 lists of 3\" [REVIEW since the rules audit of 2026-11-28, card C22: no count fails a draft by itself]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1132,6 +1200,7 @@
     }
    ],
    "rule": "E125",
+   "level": "REVIEW",
    "example": "The council handles the budget, the water rota, and the guest rooms. Members bring bread, cheese, or fruit to each meeting in the barn."
   },
   {
@@ -1149,6 +1218,7 @@
     }
    ],
    "rule": "O19",
+   "level": "REVIEW",
    "example": "The house rules for guests fit on one short card by the door.\n\n- Cups get washed by whoever used them before the kitchen closes.\n- The pasture gate stays shut so the goats don't wander onto the road."
   },
   {
@@ -1166,6 +1236,7 @@
     }
    ],
    "rule": "O14",
+   "level": "FAIL",
    "example": "Calling it a new name doesn't dissolve the panic and the comparison and the terror of abandonment and the urge to control. Members bring those old worries along when they move into the new house."
   },
   {
@@ -1179,6 +1250,7 @@
     }
    ],
    "rule": "B4",
+   "level": "REVIEW",
    "example": "In the end, after the vote, the treasurer, who had kept quiet all night, finally spoke. She asked for a second count of the paper ballots before anyone left."
   },
   {
@@ -1192,6 +1264,7 @@
     }
    ],
    "rule": "B2",
+   "level": "REVIEW",
    "example": "The council chose a library rather than a parking lot for the empty corner on Main Street. The building work starts once the harvest is in and the crew has time."
   },
   {
@@ -1205,11 +1278,12 @@
     }
    ],
    "rule": "B3",
+   "level": "REVIEW",
    "example": "The council spent three long evenings drafting a careful policy for guests who stay longer than a month. It failed. The guests themselves were never asked what they needed during the drafting."
   },
   {
    "id": "W71",
-   "tell": "\"short paragraph-final lines\"",
+   "tell": "\"short paragraph-final lines\" [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1218,11 +1292,12 @@
     }
    ],
    "rule": "B7",
+   "level": "REVIEW",
    "example": "The council spent three long evenings drafting a careful policy for long-stay guests. Then it went to a vote. Midnight came and went."
   },
   {
    "id": "W72",
-   "tell": "\"half or more of the paragraphs ending on a short line\"",
+   "tell": "\"half or more of the paragraphs ending on a short line\" [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1231,11 +1306,12 @@
     }
    ],
    "rule": "B7",
+   "level": "REVIEW",
    "example": "The council met in the barn after the harvest to sort out the guest policy. Midnight came and went.\n\nOur treasurer brought the numbers from the last three years of visitors. Grim reading.\n\nAfterward the cook made soup for everyone who stayed to finish the vote. Lentil, mostly."
   },
   {
    "id": "W73",
-   "tell": "\"three or more paragraphs with the same opener\"",
+   "tell": "\"three or more paragraphs with the same opener\" [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1248,11 +1324,12 @@
     }
    ],
    "rule": "B13",
+   "level": "REVIEW",
    "example": "The council met in the barn after the harvest to settle the guest policy for winter.\n\nThe treasurer brought the numbers from the last three years of visitors and read them aloud.\n\nThe cook made lentil soup for everyone who stayed past midnight to finish the long vote."
   },
   {
    "id": "W74",
-   "tell": "\"two or more paragraphs that are strings of instructions\"",
+   "tell": "\"two or more paragraphs that are strings of instructions\" [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1261,11 +1338,12 @@
     }
    ],
    "rule": "E23",
+   "level": "REVIEW",
    "example": "Pick one small promise for the coming week. Write it on a card by the bed. Keep the card where the light hits it first thing.\n\nTake the card down on the last evening of the week. Tell a friend whether the promise held and what got in the way."
   },
   {
    "id": "W75",
-   "tell": "\"coach phrases above 2 per 100 of my words\"",
+   "tell": "\"coach phrases above 2 per 100 of my words\" [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -1274,6 +1352,7 @@
     }
    ],
    "rule": "E41",
+   "level": "REVIEW",
    "example": "You might notice the bread goes stale faster in summer. You can store the loaves in the cold cellar near the well."
   },
   {
@@ -1287,6 +1366,7 @@
     }
    ],
    "rule": "E36",
+   "level": "REVIEW",
    "example": "Your garden needs water every day in July. Your neighbors will help if you ask them early in the season."
   },
   {
@@ -1300,6 +1380,7 @@
     }
    ],
    "rule": "D9",
+   "level": "REVIEW",
    "example": "The shared kitchen runs on a written budget, and the members review it every month at the meeting.\n\nA guest who stays longer than a month pays a share of the food costs like everyone else.\n\nA dispute about chores goes first to a rotating panel of members, before anyone raises it at the meeting.",
    "source_text": "Members should keep a written budget for the shared kitchen and review it every month.\n\nGuests who stay longer than a month should pay a share of the food costs.\n\nDisputes about chores should go first to a rotating panel of members."
   },
@@ -1322,6 +1403,7 @@
     }
    ],
    "rule": "O6",
+   "level": "REVIEW",
    "example": "The meeting agenda is the one place a member can push for something and win, so the anger goes there, trying to get some justice. The angry members fill the first hour with complaints about the rota."
   },
   {
@@ -1343,6 +1425,7 @@
     }
    ],
    "rule": "B11",
+   "level": "FAIL",
    "example": "That paragraph is load-bearing for the whole section about the land trust. Without it the later chapters on money make very little sense."
   },
   {
@@ -1356,6 +1439,7 @@
     }
    ],
    "rule": "O38",
+   "level": "FAIL",
    "example": "And when things are required as pre-reqs for people to get medicine, the circle holds a lot of power. Most of the time the circle is just three or four tired neighbors."
   },
   {
@@ -2165,6 +2249,7 @@
     }
    ],
    "rule": "O39",
+   "level": "FAIL",
    "example": "You have a need that far outstrips your free resource right now. (This doesn't mean you're bad or doomed, it's about timing.)\n\n(Any humane membership process should have ways of not flat-out rejecting people who fall into these categories.)"
   },
   {
@@ -2178,6 +2263,7 @@
     }
    ],
    "rule": "O40",
+   "level": "REVIEW",
    "example": "And on the other hand, look at whether the group has enough capacity to support them without becoming a full-time caretaker operation."
   },
   {
@@ -2194,7 +2280,7 @@
   },
   {
    "id": "W86",
-   "tell": "\"Also, a note on X:\" (an opener that announces the paragraph)",
+   "tell": "\"Also, a note on X:\" (an opener that announces the paragraph) [REVIEW (rules audit 2026-11-28, card C23: no words of his and no result behind it)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2207,11 +2293,12 @@
     }
    ],
    "rule": "B5",
-   "example": "Also, a note on chores: the rota on the kitchen wall is three weeks out of date. Nobody has cooked dinner on a Tuesday since the harvest started."
+   "level": "REVIEW",
+   "example": "Also, a note on chores: the rota on the kitchen wall is three weeks out of date. Nobody has cooked dinner since the harvest started."
   },
   {
    "id": "W87",
-   "tell": "\"There is a difficult X to consider.\" (an opener that announces the paragraph)",
+   "tell": "\"There is a difficult X to consider.\" (an opener that announces the paragraph) [REVIEW (rules audit 2026-11-28, card C23: no words of his and no result behind it)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2224,6 +2311,7 @@
     }
    ],
    "rule": "B5",
+   "level": "REVIEW",
    "example": "There is a difficult question to consider. Eight people still have to grow the food, fix the pump and keep the books, whoever joins them."
   },
   {
@@ -2293,11 +2381,12 @@
     }
    ],
    "rule": "O41",
+   "level": "FAIL",
    "example": "Do those three things before you spend money on the land. The well can wait until the spring rains are over."
   },
   {
    "id": "W89",
-   "tell": "exclamations out of the article's range: more sentences in a row ending with \"!\" than the article ever has (three of four, where it has at most two)",
+   "tell": "exclamations out of the article's range: more sentences in a row ending with \"!\" than the article ever has (three of four, where it has at most two) [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2306,6 +2395,7 @@
     }
    ],
    "rule": "S1",
+   "level": "REVIEW",
    "example": "We got the barn up in a week! Nobody fell off the roof! The goats moved in that night! Then it rained for a month."
   },
   {
@@ -2319,6 +2409,7 @@
     }
    ],
    "rule": "S2",
+   "level": "REVIEW",
    "example": "The barn is up! It took a week. The goats moved in. Then it rained! Nobody minded. We sang that night. The roof held! We were proud of it."
   },
   {
@@ -2332,6 +2423,7 @@
     }
    ],
    "rule": "R2",
+   "level": "FAIL",
    "example": "It's also the hardest part of the budget to plan for. The taxes come due in spring, and the hospital bills come whenever they come.",
    "source_text": "This is also the hardest part of the budget. Taxes come due in spring, and hospital bills come at any time of the year."
   },
@@ -2346,6 +2438,7 @@
     }
    ],
    "rule": "A2",
+   "level": "FAIL",
    "example": "Now the young people can work in the city as long as they come back to help with the harvest. I like that.",
    "source_text": "Now the young people can work in the city as long as they come back to help with the harvest every year."
   },
@@ -2360,6 +2453,7 @@
     }
    ],
    "rule": "E186",
+   "level": "FAIL",
    "example": "A walk can help, and so can a call to a friend, without touching what's underneath it. Most weeks that is enough to get by."
   },
   {
@@ -2401,6 +2495,7 @@
     }
    ],
    "rule": "O44",
+   "level": "FAIL",
    "example": "When the count ends, come back to the room. Choose one honest action for the rest of the day and leave the rest for later."
   },
   {
@@ -2442,6 +2537,7 @@
     }
    ],
    "rule": "O45",
+   "level": "FAIL",
    "example": "Write the letter and keep it. It doesn't stand in for grieving, though, and your boundaries still apply."
   },
   {
@@ -2462,7 +2558,7 @@
   },
   {
    "id": "W96",
-   "tell": "\"isn't proof of\" and \"doesn't prove\" (the community article's \"Presence of one of these alone isn't proof of abuse, but\")",
+   "tell": "\"isn't proof of\" and \"doesn't prove\" (the community article's \"Presence of one of these alone isn't proof of abuse, but\") [REVIEW since the rules audit of 2026-11-28, card C11: \"high freq AI pattern to be aware of\" is judged by a reader, never failed; \"doesn't prove\" and \"it's not proof\" too]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2475,6 +2571,7 @@
     }
    ],
    "rule": "O43",
+   "level": "REVIEW",
    "example": "Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to."
   },
   {
@@ -2575,7 +2672,7 @@
   },
   {
    "id": "W97",
-   "tell": "\"one\" where \"a\" or \"an\" would do, especially \"one small thing\" (the hypnosis guide's \"do one small thing based on it\", \"ask one clear question\")",
+   "tell": "\"one\" where \"a\" or \"an\" would do, especially \"one small thing\" (the hypnosis guide's \"do one small thing based on it\", \"ask one clear question\") [REVIEW since the rules audit of 2026-11-28, card C11: \"one\" plus a noun is reported for a reader; \"one ordinary\" (W116) and \"one honest action\" (W94) still fail]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2588,11 +2685,12 @@
     }
    ],
    "rule": "O46",
+   "level": "REVIEW",
    "example": "Integration/exit: reality test the signal and do one small thing based on it."
   },
   {
    "id": "W98",
-   "tell": "\"proof\" and \"prove\" said of a feeling or a signal (\"without interpreting it as proof\", \"it's not proof\")",
+   "tell": "\"proof\" and \"prove\" said of a feeling or a signal (\"without interpreting it as proof\", \"it's not proof\") [REVIEW since the rules audit of 2026-11-28, card C11]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2605,6 +2703,7 @@
     }
    ],
    "rule": "O43",
+   "level": "REVIEW",
    "example": "Autonomous signal: write whatever you get without interpreting it as proof."
   },
   {
@@ -2622,6 +2721,7 @@
     }
    ],
    "rule": "O47",
+   "level": "FAIL",
    "example": "At some point you can add this, so no answer can secretly mean deeper."
   },
   {
@@ -2639,6 +2739,7 @@
     }
    ],
    "rule": "O48",
+   "level": "REVIEW",
    "example": "Are fractionation, cues, later behavior, or memory effects disclosed before they are used? Were you plainly told that induction mechanics are being used? The exit is followed by a clear statement."
   },
   {
@@ -2668,6 +2769,7 @@
     }
    ],
    "rule": "O49",
+   "level": "FAIL",
    "example": "Bring it down to one next step by asking what the next small thing is."
   },
   {
@@ -2681,6 +2783,7 @@
     }
    ],
    "rule": "O50",
+   "level": "FAIL",
    "example": "Our boundary with them still matters, but one day we may forgive."
   },
   {
@@ -2694,6 +2797,7 @@
     }
    ],
    "rule": "O51",
+   "level": "FAIL",
    "example": "Then go and do the normal thing that came up."
   },
   {
@@ -2707,11 +2811,12 @@
     }
    ],
    "rule": "O52",
+   "level": "FAIL",
    "example": "What does love require next? A task, a boundary, a meal, some rest, a repair, a conversation?"
   },
   {
    "id": "W105",
-   "tell": "\"won't mind\" as a closer (\"A good therapist or helpline won't mind.\"), cut from his texts in his Pangram history",
+   "tell": "\"won't mind\" as a closer (\"A good therapist or helpline won't mind.\"), cut from his texts in his Pangram history [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2720,11 +2825,12 @@
     }
    ],
    "rule": "O53",
+   "level": "REVIEW",
    "example": "Ask them about it at the start. A good therapist or helpline won’t mind."
   },
   {
    "id": "W106",
-   "tell": "the signpost \"One more thing about…\"",
+   "tell": "the signpost \"One more thing about…\" [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2733,11 +2839,12 @@
     }
    ],
    "rule": "O54",
+   "level": "REVIEW",
    "example": "One more thing about telling whether it helped. Say you slept better that week."
   },
   {
    "id": "W107",
-   "tell": "\"And that's not good because…\", an explanation in its own sentence",
+   "tell": "\"And that's not good because…\", an explanation in its own sentence [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2746,11 +2853,12 @@
     }
    ],
    "rule": "O55",
+   "level": "REVIEW",
    "example": "You keep doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it."
   },
   {
    "id": "W108",
-   "tell": "\"a last resort\", a rule that sums up",
+   "tell": "\"a last resort\", a rule that sums up [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2759,11 +2867,12 @@
     }
    ],
    "rule": "O56",
+   "level": "REVIEW",
    "example": "A full break from your little one is a last resort, unless something’s actually unsafe."
   },
   {
    "id": "W109",
-   "tell": "the concession \"though it's often\"",
+   "tell": "the concession \"though it's often\" [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2772,11 +2881,12 @@
     }
    ],
    "rule": "O57",
+   "level": "REVIEW",
    "example": "Use a fake name if you like, though it’s often traceable anyway."
   },
   {
    "id": "W110",
-   "tell": "\"can feel a lot like\", a portable aside",
+   "tell": "\"can feel a lot like\", a portable aside [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2785,11 +2895,12 @@
     }
    ],
    "rule": "O58",
+   "level": "REVIEW",
    "example": "Sometimes those weeks were mostly reading about it and getting ready, which can feel a lot like doing it."
   },
   {
    "id": "W111",
-   "tell": "\"The same principle extends to…\" / \"The same limit appears…\", a signpost, cut from his texts in his second Pangram account's history",
+   "tell": "\"The same principle extends to…\" / \"The same limit appears…\", a signpost, cut from his texts in his second Pangram account's history [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2798,11 +2909,12 @@
     }
    ],
    "rule": "O59",
+   "level": "REVIEW",
    "example": "The same principle extends to physical trauma reactions after the danger has passed."
   },
   {
    "id": "W112",
-   "tell": "\"not a recipe\" as a closer (\"…not a recipe you have to follow.\"), cut from his texts in his second Pangram account's history",
+   "tell": "\"not a recipe\" as a closer (\"…not a recipe you have to follow.\"), cut from his texts in his second Pangram account's history [REVIEW since the rules audit of 2026-11-28, card C23: no words of his name this phrase and no result is behind it]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2811,6 +2923,7 @@
     }
    ],
    "rule": "O60",
+   "level": "REVIEW",
    "example": "Take what helps from his retreat, not a recipe you have to follow."
   },
   {
@@ -2828,6 +2941,7 @@
     }
    ],
    "rule": "O61",
+   "level": "FAIL",
    "example": "Trial: UMP 150–300 mg in the morning with food for 3–7 days."
   },
   {
@@ -2841,11 +2955,12 @@
     }
    ],
    "rule": "O46",
+   "level": "FAIL",
    "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
   },
   {
    "id": "W117",
-   "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
+   "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\") [REVIEW, worded \"change it by default (Joel: \\\"super ai\\\"), keep it only where it is the clearest way to say it\" (rules audit 2026-11-28, card C11)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -2854,6 +2969,7 @@
     }
    ],
    "rule": "X1",
+   "level": "REVIEW",
    "example": "The barn roof was patched in May. Urgency does not make a ladder safe, so we waited for the dry week."
   },
   {
@@ -2867,6 +2983,7 @@
     }
    ],
    "rule": "O64",
+   "level": "FAIL",
    "example": "That does not prove the diet worked. It does suggest that sleep matters."
   },
   {
@@ -2880,6 +2997,7 @@
     }
    ],
    "rule": "O62",
+   "level": "FAIL",
    "example": "It’s the same garden we planted last spring, just with more weeds in it."
   },
   {
@@ -2897,6 +3015,7 @@
     }
    ],
    "rule": "O63",
+   "level": "FAIL",
    "example": "We planted the garden late—the frost came early anyway."
   },
   {
@@ -2910,6 +3029,7 @@
     }
    ],
    "rule": "O65",
+   "level": "REVIEW",
    "example": "If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics or entactogens, you shouldn't be casually experimenting with it."
   },
   {
@@ -2923,6 +3043,7 @@
     }
    ],
    "rule": "O66",
+   "level": "REVIEW",
    "example": "He is sensitive to too much P5P, so the low dose matters."
   },
   {
@@ -2936,6 +3057,7 @@
     }
    ],
    "rule": "O67",
+   "level": "REVIEW",
    "example": "Start with 50 mg at night for two nights."
   },
   {
@@ -2949,6 +3071,7 @@
     }
    ],
    "rule": "O68",
+   "level": "REVIEW",
    "example": "In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo."
   },
   {
@@ -2962,6 +3085,7 @@
     }
    ],
    "rule": "O46",
+   "level": "REVIEW",
    "example": "Don't make huge decisions or diagnose yourself from one intense night. Sleep first, and talk it over with somebody steady."
   },
   {
@@ -2978,7 +3102,7 @@
   },
   {
    "id": "W124",
-   "tell": "a correction or contrast frame (\"x but not y\"; \"a Y rather than a Z\", \"does not mean\", \"isn't X, it's Y\", \"not X but Y\"); two in one paragraph of mine fail",
+   "tell": "a correction or contrast frame (\"x but not y\"; \"a Y rather than a Z\", \"does not mean\", \"isn't X, it's Y\", \"not X but Y\"); two in one paragraph of mine are a REVIEW too (rules audit 2026-11-28, card C22: no count fails a draft by itself)",
    "kind": "mechanical",
    "sources": [
     {
@@ -2987,11 +3111,12 @@
     }
    ],
    "rule": "O69",
+   "level": "REVIEW",
    "example": "A bad trip does not prove that you are broken. It is a sign of overload rather than a verdict on you."
   },
   {
    "id": "W125",
-   "tell": "\"different\" doing the comparing twice (\"this is different. that's different, this other thing is also different\")",
+   "tell": "\"different\" doing the comparing twice (\"this is different. that's different, this other thing is also different\") [REVIEW (rules audit 2026-11-28, card C22: no count fails a draft by itself; the old HARD lines are REVIEW flags)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -3000,6 +3125,7 @@
     }
    ],
    "rule": "O70",
+   "level": "REVIEW",
    "example": "Slow, shallow breathing is a different problem from a racing stimulant high, and both are different from serotonin toxicity."
   },
   {
@@ -3013,6 +3139,7 @@
     }
    ],
    "rule": "O71",
+   "level": "REVIEW",
    "example": "So check the body first. Are they breathing normally? Is their temperature safe? Are they awake enough to work with you? If all that checks out, calming and stabilizing the trip may be enough."
   },
   {
@@ -3026,6 +3153,7 @@
     }
    ],
    "rule": "O72",
+   "level": "FAIL",
    "example": "If it's safe, have them stand and walk a few steps to see if they keep their balance."
   },
   {
@@ -3039,6 +3167,7 @@
     }
    ],
    "rule": "O73",
+   "level": "REVIEW",
    "example": "While the DMSO is working, check for these stroke warning signs:\n- First, are they awake and breathing normally?\n- Is their speech slurred?"
   },
   {
@@ -3064,6 +3193,7 @@
     }
    ],
    "rule": "O74",
+   "level": "REVIEW",
    "example": "Call medics if any of these happen:\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray."
   },
   {
@@ -3077,6 +3207,7 @@
     }
    ],
    "rule": "O75",
+   "level": "REVIEW",
    "example": "When they gave DMSO to rats for three days before a heart attack, those rats lost about three quarters less heart muscle, though that study didn't try giving it after the attack had started."
   },
   {
@@ -3090,6 +3221,7 @@
     }
    ],
    "rule": "O76",
+   "level": "REVIEW",
    "example": "The heart research on DMSO has only been in animals and lab dishes so far. When they gave DMSO to rats for three days before a heart attack, those rats lost less heart muscle. Most heart attacks come from a clot, so it's a good sign that DMSO also slowed clotting."
   },
   {
@@ -3266,7 +3398,7 @@
   },
   {
    "id": "W132",
-   "tell": "\"honestly\" (\"honestly is also ok sometimes just it's overused\": a real synonym, \"genuinely\" or \"authentically\", or the word for what is meant, where it is one too many)",
+   "tell": "\"honestly\" (\"honestly is also ok sometimes just it's overused\": a real synonym, \"genuinely\" or \"authentically\", or the word for what is meant, where it is one too many) [REVIEW; \"the only one nearby\" dropped (rules audit 2026-11-28, card C11)]",
    "kind": "mechanical",
    "sources": [
     {
@@ -3283,6 +3415,7 @@
     }
    ],
    "rule": "O77",
+   "level": "REVIEW",
    "example": "If our lives change, can we sit down and honestly rethink what we agreed to? And if we split up, what do we still owe each other?"
   },
   {
@@ -3296,6 +3429,7 @@
     }
    ],
    "rule": "O78",
+   "level": "FAIL",
    "example": "I'd also jot down how much of each they took and when. And if they have a seizure while you wait, do the first aid above. And tell the medics whether their breathing got better or worse afterward."
   },
   {
@@ -3385,6 +3519,7 @@
     }
    ],
    "rule": "O79",
+   "level": "REVIEW",
    "example": "In practice, I'd do 30 seconds of slow breathing, twenty times a day."
   },
   {
@@ -3422,6 +3557,34 @@
     }
    ],
    "reason": "whether a figure is a practice the reader will only approximate or a dose, limit or finding that must stay exact is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its thirty-second way)"
+  },
+  {
+   "id": "W135",
+   "tell": "\"one\" where a person writes \"a\" (\"i often find AI using \\\"one\\\" where a human would use \\\"a\\\" so if it sounds better to use \\\"a\\\" than \\\"one\\\" do that\"; \"one time is too many\" stays) [REVIEW, rules audit 2026-11-28, card C11]",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/rules-audit/2026-11-27/ANSWERS-20261128-1024.json",
+     "quote": "i often find AI using"
+    }
+   ],
+   "rule": "O80",
+   "level": "REVIEW",
+   "example": "We painted one wall that spring and the roof held up fine through the whole winter."
+  },
+  {
+   "id": "W136",
+   "tell": "\"for the thing\" (\"and btw \\\"for the thing\\\" is an ai tell\"): say what the thing is [REVIEW, rules audit 2026-11-28, card C14]",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/rules-audit/2026-11-27/ANSWERS-20261128-1024.json",
+     "quote": "and btw"
+    }
+   ],
+   "rule": "O81",
+   "level": "REVIEW",
+   "example": "Nobody had the money for the thing we planned in spring, so the roof waited."
   }
  ]
 }

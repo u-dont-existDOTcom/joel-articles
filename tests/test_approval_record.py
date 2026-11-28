@@ -1,7 +1,9 @@
 """Gate bad-trips-2026-11-07a: ask Joel only where the meaning might change or there's a downside, and learn from what he
 approves, revises and rejects (Joel, 2026-11-07 12:08 UTC: "you're asking me to approve things that are clearly good / you
 should be learning what you actually need to ask my opinion on, like if meaning might have changed or there's a downside to
-consider ... make sure you're continuously learning from what i approve vs what i revise or reject")."""
+consider ... make sure you're continuously learning from what i approve vs what i revise or reject"). Since the rules audit of
+2026-11-28 (card C18, approved) a card says why in plain words, with no fixed prefix, and his record is information: no
+count of his approvals decides what is asked."""
 import json
 import pathlib
 import sys
@@ -74,12 +76,17 @@ class RecordTests(unittest.TestCase):
         got = A.latest(self.root)[('demo', 'demo-r2', 'Q1')]
         self.assertEqual((got['type'], got['title'], got['when']), ('safety', 'A warning said once', '2026-11-07T12:04Z'))
 
-    def test_a_type_he_approves_every_time_is_marked(self):
+    def test_the_record_is_information_with_no_approval_count(self):
+        # rules audit 2026-11-28, card C18 (approved): the rule that a type approved five times or more, none revised,
+        # isn't asked again is gone; the record shows the counts and says nothing about whether to ask
         rec = A.record(self.root)['demo']
-        self.assertTrue(A.always_approved(rec['plain']))
-        self.assertFalse(A.always_approved(rec['cut']))
-        self.assertIn('all 5 approved', A.type_line('plain', rec['plain']))
-        self.assertEqual(len(A.summary(rec, {'plain', 'cut'})), 2)
+        self.assertEqual(A.type_line('plain', rec['plain']), 'plain: 5 approved, 0 revised, 0 rejected')
+        self.assertEqual(A.type_line('cut', rec['cut']), 'cut: 1 approved, 1 revised, 0 rejected')
+        self.assertFalse(hasattr(A, 'always_approved'))
+        self.assertFalse(hasattr(A, 'ALWAYS_N'))
+        lines = A.summary(rec, {'plain', 'cut'})
+        self.assertEqual(len(lines), 2)
+        self.assertFalse(any('ask only' in x or 'all 5' in x for x in A.report(A.record(self.root), True)))
 
 
 class AskTests(unittest.TestCase):
@@ -96,11 +103,25 @@ class AskTests(unittest.TestCase):
     def test_a_card_says_why_it_goes_to_him(self):
         self.assertTrue(R.ask_problems(self.rv([self.card()])))
         self.assertTrue(R.ask_problems(self.rv([self.card(ask_because='downside: x')])))   # a reason, not a word
-        self.assertTrue(R.ask_problems(self.rv([self.card(ask_because='it reads better now')])))
+        self.assertTrue(R.ask_problems(self.rv([self.card(ask_because='   ')])))
+        self.assertTrue(R.ask_problems(self.rv([self.card(ask_because='a short one   ')])))   # 11 characters
         for why in ('meaning: "may help" becomes "helps", a stronger claim',
                     'downside: a reader who skips to this section loses the warning',
                     'his own: his line in the round-6 export, Sorrow P4'):
             self.assertEqual(R.ask_problems(self.rv([self.card(ask_because=why)])), [], why)
+
+    def test_a_plain_reason_needs_no_prefix(self):
+        # rules audit 2026-11-28, card C18 (approved): "each card says why in plain words, with no fixed prefixes and no
+        # count"; his "like if meaning might have changed or there's a downside to consider" gave examples
+        for why in ('it reads better now',
+                    'only he knows whether the sorrow he means is grief',
+                    'The claim gets stronger: "may help" would read "helps".'):
+            self.assertEqual(R.ask_problems(self.rv([self.card(ask_because=why)])), [], why)
+        self.assertEqual(R.ASK_MIN, 15)
+        self.assertTrue(R.plain_reason('x' * 15))
+        self.assertFalse(R.plain_reason('x' * 14))
+        self.assertFalse(R.plain_reason('a     b'))   # spaces run together count once
+        self.assertFalse(R.plain_reason(None))
 
     def test_questions_older_pages_and_fine_grained_pages_need_no_reason(self):
         self.assertEqual(R.ask_problems(self.rv([self.card(advice='ask'), self.card(advice='edit')])), [])
@@ -109,12 +130,14 @@ class AskTests(unittest.TestCase):
         fine = 'Joel, 2026-11-08 09:00 UTC: "show me every change this time"'
         self.assertEqual(R.ask_problems(self.rv([self.card()], fine_grained=fine)), [])
 
-    def test_the_problem_names_his_record(self):
+    def test_the_problem_shows_his_record_as_information(self):
+        # card C18: the record is shown, and no count of his approvals says whether to ask
         rec = {'plain': {'approved': 7, 'revise': 0, 'rejected': 0, 'pending': 0, 'pushback': [], 'notes': []}}
         p = R.ask_problems(self.rv([self.card()]), rec)
         self.assertEqual(len(p), 1)
-        self.assertIn('7 approved, 0 revised, 0 rejected', p[0])
-        self.assertIn('all 7 approved', p[0])
+        self.assertIn('as information: plain: 7 approved, 0 revised, 0 rejected.', p[0])
+        self.assertNotIn('all 7 approved', p[0])
+        self.assertNotIn('"meaning: what it might change', p[0])   # no prefix asked for
 
     def test_a_stretch_he_rewrites_says_what_a_fresh_reader_found(self):
         asked = {'id': 'T-1', 'type': 'teach', 'advice': 'edit', 'whose': 'he asked: Joel, 2026-11-07: "give me the top paragraphs"'}

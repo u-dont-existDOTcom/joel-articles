@@ -9,8 +9,13 @@ from what i approve vs what i revise or reject so you have a good understanding 
 This reads every answers file his marking pages exported (format joel-suggestion-review-answers-v1, anywhere under
 articles/) and takes each card's latest answer. It tallies them by article and type, and lists what he wrote: each card he
 revised or rejected, with his comment and his own version, and each comment he left on a card he approved ("didn't need to
-ask me for this" was one). A type he has approved every time, ALWAYS_N cards or more and none revised or rejected, is
-marked: a card of that type goes to him only when it differs in meaning or downside from the ones he approved.
+ask me for this" was one).
+
+The record is information, for learning what he approves, revises and rejects; no count decides whether a card goes to
+him. Rules audit 2026-11-28, card C18 (approved): the rule that a type he had approved five times or more, none revised or
+rejected, went to him only when a card differed in meaning or downside is gone. His "like if meaning might have changed or
+there's a downside to consider" gave examples, and a count stood in for the judgment he asked for; a card goes to him
+where his opinion is really needed, and says why in plain words (suggestion_review.py, "ask_because").
 
 Nothing is written to a shared file: the record is worked out from the answers files each time, so it is current, and no
 two lanes edit it. suggestion_review.py prints the article's record when it checks or builds a page, and names it in the
@@ -31,7 +36,10 @@ FORMAT = 'joel-suggestion-review-answers-v1'
 # (suggestion_review_template.html), so counting it as unanswered misread his record (romance, 2026-11-23: three
 # answered questions of the sixth page showed as "7 unanswered")
 DECIDED = ('approved', 'revise', 'rejected', 'answered')
-ALWAYS_N = 5
+# Rules audit 2026-11-28, card C18 (approved): no approval count. ALWAYS_N (5) and always_approved(), which marked a type he
+# had approved every time so that its cards went to him only when one differed in meaning or downside, are gone; Joel,
+# 2026-11-07 12:08 UTC: "you should be learning what you actually need to ask my opinion on, like if meaning might have
+# changed or there's a downside to consider". The record below is shown as information.
 
 
 def answers_files(root=ROOT, article=None):
@@ -117,20 +125,13 @@ def record(root=ROOT, article=None):
     return rec
 
 
-def always_approved(entry):
-    """He approved every card of this type: ALWAYS_N or more, none revised or rejected."""
-    return entry['approved'] >= ALWAYS_N and not entry['revise'] and not entry['rejected']
-
-
 def type_line(t, e):
-    answered = e['approved'] + e['revise'] + e['rejected']
+    """His record on one type of card, as information: the counts, and nothing about whether to ask (card C18)."""
     s = '%s: %d approved, %d revised, %d rejected' % (t, e['approved'], e['revise'], e['rejected'])
     if e.get('answered'):
         s += ', %d answered' % e['answered']
     if e['pending']:
         s += ', %d unanswered' % e['pending']
-    if always_approved(e):
-        s += ' (all %d approved: ask only when one differs in meaning or downside)' % answered
     return s
 
 

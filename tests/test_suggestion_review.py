@@ -367,37 +367,71 @@ class ReaderBriefTests(unittest.TestCase):
 
 
 class ReceiptTests(unittest.TestCase):
-    """Gate E365: from 2026-11-05 a card that adds or changes words carries a making-sense receipt that passes."""
+    """Gate E365 had a card that adds or changes words carry a making-sense receipt that passed, from 2026-11-05. Rules
+    audit 2026-11-28, card C02 (approved): the receipt is a short note of the making-sense read and no tool refuses a
+    change for lacking one, so a card needs none; what a receipt it gives shows is printed as a note."""
+    TEXT = 'Time the seizure. Keep them on their side.'
 
-    def test_a_card_with_new_words_needs_its_receipt(self):
-        import tempfile, sense_receipt
-        text = 'Time the seizure. Keep them on their side.'
-        rv = {'built': '2026-11-05'}
-        card = {'id': 'C1', 'advice': 'approve', 'edits': [{'block': 0, 'before': 'Time it.', 'after': text}]}
-        self.assertTrue(R.receipt_problems(rv, card))
-        self.assertEqual(R.receipt_problems(dict(rv, built='2026-11-04'), card), [])
-        self.assertEqual(R.receipt_problems(rv, dict(card, owner_text="his round-6 version")), [])
-        r = sense_receipt.make(text, 'Active Seizure', 'someone with a person having a seizure from MDMA, which is generalized')
-        for x in r['sentences']:
-            x['payoff'], x['follows'] = 'tells the helper what to do', 'the next step after the one before'
-            if 'link' in x:
-                x['link'] = 'none: each step is the next one the helper expects'
-        r['placement'] = 'first in the section, which it opens'
-        r['opens']['why_reading'] = 'the helper learns the first thing to do while the seizure is on'
-        r['same_point'] = 'none: read the Active Seizure section from its heading to the next for timing and the side'
-        r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
-        r['his_fixes'] = {'reader': 'a fresh reader given his_fixes_brief.md', 'marked': [], 'kept': {}}
-        r['fit'] = {'reader': 'a fresh reader given fit_read_brief.md', 'marked': [], 'kept': {}}
-        r['questions'] = {q: 'PASS: said plainly' for q in sense_receipt.QUESTIONS}
+    def write(self, receipt):
+        import tempfile
         with tempfile.NamedTemporaryFile('w', suffix='.json', dir=str(R.ROOT), delete=False) as f:
-            json.dump(r, f)
-        try:
-            rel = str(pathlib.Path(f.name).relative_to(R.ROOT))
-            self.assertEqual(R.receipt_problems(rv, dict(card, receipt=rel)), [])
-            other = dict(card, edits=[{'block': 0, 'before': 'x', 'after': 'Another text.'}], receipt=rel)
-            self.assertTrue(R.receipt_problems(rv, other))
-        finally:
-            pathlib.Path(f.name).unlink()
+            json.dump(receipt, f)
+        self.addCleanup(pathlib.Path(f.name).unlink)
+        return str(pathlib.Path(f.name).relative_to(R.ROOT))
+
+    def receipt(self, text=TEXT):
+        import sense_receipt
+        r = sense_receipt.make(text, 'Active Seizure', 'someone with a person having a seizure from MDMA, which is generalized')
+        r['questions'] = {q: 'PASS: said plainly' for q in sense_receipt.QUESTIONS}
+        return r
+
+    def card(self, **kw):
+        return dict({'id': 'C1', 'advice': 'approve', 'edits': [{'block': 0, 'before': 'Time it.', 'after': self.TEXT}]}, **kw)
+
+    def test_a_card_with_new_words_needs_no_receipt(self):
+        for built in ('2026-11-05', '2026-11-28', 'now'):
+            self.assertEqual(R.receipt_problems({'built': built}, self.card()), [], built)
+            self.assertEqual(R.receipt_notes({'built': built}, self.card()), [], built)
+
+    def test_a_given_receipt_that_fails_is_a_note_not_a_problem(self):
+        rv = {'built': '2026-11-28'}
+        good = self.write(self.receipt())
+        self.assertEqual(R.receipt_notes(rv, self.card(receipt=good)), [])
+        bad = self.receipt()
+        bad['questions']['Q7'] = 'FAIL: a focal-seizure trial for a generalized-seizure reader'
+        bad = self.write(bad)
+        notes = R.receipt_notes(rv, self.card(receipt=[good, bad]))
+        self.assertEqual(len(notes), 1, notes)
+        self.assertIn('Q7 fails', notes[0])
+        self.assertEqual(R.receipt_problems(rv, self.card(receipt=bad)), [])
+        # a receipt for another version of the paragraph, and one that isn't there, are notes too
+        other = self.card(edits=[{'block': 0, 'before': 'x', 'after': 'Another text.'}], receipt=good)
+        self.assertTrue(any('not for this card' in n for n in R.receipt_notes(rv, other)))
+        # a read of the section around the new paragraph holds it, so it is for the card (bad-trips rounds 12 to 21 gave
+        # one beside the paragraph's own)
+        section = self.write(self.receipt('First Aid\n\nGet the keys out of reach. ' + self.TEXT + '\n\nThen sit with them.'))
+        self.assertEqual(R.receipt_notes(rv, self.card(receipt=[good, section])), [])
+        self.assertTrue(any('not found' in n for n in R.receipt_notes(rv, self.card(receipt='no/such/receipt.json'))))
+        # his own words: no receipt is read
+        self.assertEqual(R.receipt_notes(rv, self.card(receipt=bad, owner_text='his round-6 version')), [])
+
+    def test_check_passes_the_card_and_notes_prints_what_its_receipt_shows(self):
+        bl = R.blocks(MD)
+        para = bl[3]
+        after = para['text'].replace(' As I said, it repeats.', '')
+        bad = self.receipt(after)
+        bad['questions']['Q2'] = 'FAIL: an instruction stated as a fact'
+        s = {'id': 'CV-9', 'type': 'caveat', 'title': 'A cut', 'advice': 'approve',
+             'spans': [{'block': 3, 'start': para['text'].index('As I said'), 'end': len(para['text'])}],
+             'edits': [{'block': 3, 'before': para['text'], 'after': after}], 'inserts': [], 'moves': [],
+             'what': 'Cuts it.', 'why': 'Said already.', 'stays': 'The rest.', 'deciding': 'Approve cuts it.'}
+        self.assertEqual(R.check(review([s]), bl), [])
+        self.assertEqual(R.notes(review([s]), bl), [])
+        s['receipt'] = self.write(bad)
+        self.assertEqual(R.check(review([s]), bl), [])
+        notes = R.notes(review([s]), bl)
+        self.assertEqual(len(notes), 1, notes)
+        self.assertTrue(notes[0].startswith('CV-9: receipt ') and 'Q2 fails' in notes[0], notes)
 
 
 

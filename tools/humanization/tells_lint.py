@@ -16,12 +16,22 @@ There is deliberately no check against phrases from failed drafts (Joel, 2026-09
 an old phrase is judged like any other, on whether it looks AI. Swapping phrases
 between rounds while the structure stays is what humanizer bots do.
 Exit code: 2 = FAIL, 1 = REVIEW, 0 = CLEAR.
+Rules audit 2026-11-28 (cards C11, C22, C23, C24, all approved; docs/rules-audit/2026-11-27/): a word or shape Joel called
+overused, "high frequency" or "be aware of" is a REVIEW for a reader to judge, never a FAIL; no count fails a draft by itself
+(two lists, two contrast frames, a run of short lines, so many coach phrases per 100 words, exclamations past the article's
+range are REVIEW now; the old "HARD" lines are REVIEW flags); a string tell with no words of his and no result behind it is
+a REVIEW (O53 to O60); glosses in brackets are never checked here (there is no bracket rule: E342's "never a bare (X)" and
+the "one per passage" count were never enforced by this file). Still FAIL, because his own words ask for removal: "one
+ordinary" (O46), "one honest action" (O44), "if it's safe" (O72), em dashes and curly quotes (O62, O63), and "quietly" unless
+it says how something sounds (O42). New REVIEW rules: O80 "one" where a person writes "a" (C11) and O81 "for the thing" (C14).
 A CLEAR only means no mechanical tells were found. The judgment checks
 (D2 disparity, A1 meaning and safety, referents) still have to be written by hand.
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
-E125 (2026-10-03): a list of three or more is a REVIEW, and two in one paragraph are a FAIL.
+E125 (2026-10-03): a list of three or more is a REVIEW (a FAIL from 2026-10-17 to 2026-11-28; two in one paragraph
+too; see the rules audit below).
 E126 (2026-10-03 01:06): the fix is to drop the item that matters least, or split the list when every item is needed.
-O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tail on a finished claim fails since E190 (2026-10-17; a REVIEW before).
+O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tail on a finished claim is a REVIEW again since
+the rules audit of 2026-11-28 (it failed from E190, 2026-10-17).
 H1 and O10 (2026-10-06): headings are text. An x-not-y heading ("The Medicine Part, Without Pretending It Isn't There")
 fails, and so does an opener that points at nothing ("Key here is that…"); a pointer word opening the first paragraph
 under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
@@ -310,6 +320,17 @@ COUNT_WORD = re.compile(
     r"nineteen)\s+(?!(?:of|or|and|to|more|less|times? (?:as|more|less))\b)"
     r"((?:" + _O79_NOT_PLURAL + r"[a-z]+ ){0,2}" + _O79_NOT_PLURAL +
     r"(?:[a-z]{2,}s|people|children|men|women|feet|teeth|minute|hour|day|week|month|year)\b)")
+# O80 (rules audit 2026-11-28, card C11): where "one" is not the count a person means. Before it: "the", "this", "that", "no",
+# "any", "every", "each", "which", "only", "just", "at least", "more than". After it: "of", "or", "another", "more", "by", "at a
+# time", "thing at a time", "time", "times", and the function words and verbs a pronoun "one" or a pair ("one by one",
+# "one on one") puts there.
+O80_BEFORE = re.compile(r"\b(?:the|this|that|no|any|every|each|which|only|just|at least|more than)\s+$", re.I)
+O80_NEXT_SKIP = {'of', 'or', 'and', 'but', 'another', 'more', 'less', 'by', 'at', 'on', 'in', 'to', 'for', 'with', 'from', 'as',
+                 'than', 'then', 'so', 'if', 'the', 'an', 'it', 'he', 'she', 'they', 'we', 'you', 'there', 'not', 'also', 'too',
+                 'still', 'who', 'whom', 'whose', 'which', 'that', 'where', 'when', 'what', 'can', 'could', 'will', 'would',
+                 'should', 'may', 'might', 'must', 'shall', 'is', 'was', 'are', 'were', 'has', 'have', 'had', 'does', 'did', 'doesn',
+                 'didn', 'don', 'isn', 'wasn', 'won', 'can', 'cannot', 'time', 'times', 'hundred', 'thousand', 'two', 'three',
+                 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'half', 'third', 'quarter'}
 O72 = ('O72 "safe" with nothing saying what it refers to or how to make sure (Joel 2026-11-12: "that ai tell \"if it\'s '
        'safe\" which ai says ALLL THE TIME ... make sure it needs to be there and there\'s no ambiguitiy about what it\'s '
        'referring to or how one would ensure that"): say how, the way he did ("If you can safely hold them as they try"), or '
@@ -1192,13 +1213,15 @@ def main():
                 # detected, as a REVIEW, and a REVIEW doesn't block, so it went to Pangram and to him. In the single-paragraph
                 # screens of 2026-10-14 to 10-17, 17% of the 221 with one list read Human, 29% of the 492 with none. Now a list
                 # in my sentence is a FAIL, unless it ends on a casual catch-all, his move; a list inside a quote stays a REVIEW.
-                level = 'REVIEW' if q or CATCH_ALL.search(n) else 'FAIL'
+                # Rules audit 2026-11-28, card C22 (approved): "Keep each tell as yours (a list of three ...) ... No count fails a draft by
+                # itself"; "for P3 it's a list of 3 that's why it's AI": the list goes to a reader, who cuts an item only where it overlaps or is vague.
+                level = 'REVIEW'
                 flag(level, 'E125 list of three' + (' inside a quote (someone else\'s words can keep theirs)' if q else '') +
                      ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it\'s really needed"). If the meaning doesn\'t need '
                      'all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just '
                      'has something to say."), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 '
                      '("Other jobs can go to friends or community, outsource to the tools or pros, whatever works."). Joel, 01:06: "when there\'s no actual need for 3 items you can remove one of them"'
-                     + ('' if level == 'REVIEW' else '. A FAIL in my sentences since 2026-10-17 (E186: "how is that not detected?")'), x)
+                     + '. A REVIEW (C22: "no count fails a draft by itself"); cut an item only where it overlaps another or is vague, and never something important to pass', x)
             mine_words += len(w)
             for r in TICS:
                 if re.search(r, n, re.I): flag('FAIL', 'B11 tic', s)
@@ -1240,18 +1263,21 @@ def main():
                      '"may in some situations is a double hedge, and the language is more formal"): one hedge, in plain words, as his "it\'d make '
                      'sense to get a professional to weigh in for some situations"', s)
             if re.search(r"\bit meant something\b", n, re.I):
-                flag('FAIL', 'O43 "it meant something" (Joel 2026-10-18: "high freq AI phrasing which is like a subtle hedging (ai doesn\'t know '
+                # Rules audit 2026-11-28, card C11 (approved): a phrase he called "high freq AI" is reported for a reader to judge, never failed.
+                flag('REVIEW', 'O43 "it meant something" (Joel 2026-10-18: "high freq AI phrasing which is like a subtle hedging (ai doesn\'t know '
                      'what it meant, but it meant... something)"): say what it meant, as his "I really appreciate that my parents took it seriously '
                      'without catastrophizing."', s)
             # Joel, 2026-10-24 19:52 UTC, cutting "Presence of one of these alone isn't proof of abuse, but" from the community
             # article (64.23): "i think this is another high freq AI pattern to be aware of: "isn't proof of/doesn't prove"". The
             # contracted "isn't proof of" had only reached REVIEW, and "doesn't prove" nothing (E259).
+            # Rules audit 2026-11-28, card C11 (approved): "i think this is another high freq AI pattern to be aware of" is a word to
+            # judge, not a failure: "isn't proof of", "doesn't prove" and "it's not proof" are REVIEW now (they failed before).
             if (re.search(r"\bnot proof (?:that|of)\b", n, re.I)
                     or re.search(r"\b(?:isn't|aren't|wasn't|weren't)\s+(?:\w+\s+)?proof (?:that|of)\b", n, re.I)):
-                flag('FAIL', 'O43 "not proof that" (Joel 2026-10-18: "This is limited X, not over-scoped Y.... and especially "not proof that" is '
+                flag('REVIEW', 'O43 "not proof that" (Joel 2026-10-18: "This is limited X, not over-scoped Y.... and especially "not proof that" is '
                      'another high freq ai tell"; 2026-10-24: "isn\'t proof of/doesn\'t prove"): say what the thing is', s)
             elif re.search(r"\b(?:doesn't|does not|don't|do not|didn't|did not)\s+(?:\w+\s+)?prove\b", n, re.I):
-                flag('FAIL', 'O43 "doesn\'t prove" (Joel 2026-10-24: "another high freq AI pattern to be aware of: "isn\'t proof of/doesn\'t '
+                flag('REVIEW', 'O43 "doesn\'t prove" (Joel 2026-10-24: "another high freq AI pattern to be aware of: "isn\'t proof of/doesn\'t '
                      'prove""): say what it does show, or cut it', s)
             elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
                 flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
@@ -1260,7 +1286,7 @@ def main():
             # or "prove" in my sentence is a REVIEW: say what it shows, or what to do with it.
             if re.search(r"\b(?:it's|that's|this is|it is|that is|this isn't|it isn't|that isn't)\s+(?:not\s+)?(?:\w+\s+)?proof\b(?!\s+(?:that|of))", n, re.I) \
                     and re.search(r"\bnot\b|n't\b", n[:n.lower().find('proof')], re.I):
-                flag('FAIL', 'O43 "it\'s not proof" (Joel 2026-10-30: ""proof".. "it\'s not proof" "that doesn\'t prove" ... high freq AI"): say what '
+                flag('REVIEW', 'O43 "it\'s not proof" (Joel 2026-10-30: ""proof".. "it\'s not proof" "that doesn\'t prove" ... high freq AI"): say what '
                      'it is, or what to do with it', s)
             elif re.search(r"\b(?:as|secret|any|no|real)\s+proof\b|\bproof\s+(?:that|of)\b|\bproves?\b|\bproving\b", n, re.I) \
                     and not re.search(r"\bnot proof (?:that|of)\b|\b(?:doesn't|does not|don't|do not|didn't|did not)\s+(?:\w+\s+)?prove\b", n, re.I):
@@ -1271,7 +1297,8 @@ def main():
             # thing""). "one small thing/step" fails; "one" before a describing word and a noun, where "a" or "an" would do, is a
             # REVIEW: it stays when the count is the point ("one metaphor, not six").
             if re.search(r"\bone (?:small|little|tiny|simple) (?:thing|step|action|act|move|change|task)s?\b", n, re.I):
-                flag('FAIL', 'O46 "one small thing" (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a" ... especially "one '
+                # Rules audit 2026-11-28, card C11 (approved): "one" plus a noun is "high freq" and goes to a reader; "one ordinary" below still fails.
+                flag('REVIEW', 'O46 "one small thing" (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a" ... especially "one '
                      'small thing""): "a small thing", or say the thing', s)
             # O46 also (Joel, 2026-11-03 18:59 UTC, on the bad trips guide's "Do one ordinary task you can clearly finish": "we gotta
             # remove "one ordinary" anywhere lol so ai"): "one ordinary" fails, with a word between them too ("one boring ordinary task").
@@ -1301,8 +1328,10 @@ def main():
                            r"anyone|it|this|that|there)\b)([A-Z\u201c\"][^.;:!?]{0,60}?)\s+(?:does not|doesn't|do not|don't|is not|isn't|"
                            r"are not|aren't|cannot|can't|will not|won't)\s+(?!have to\b|need to\b)[a-z]+", n)
             if mx and not re.match(r"\s*(?:don't|do not|never|please)\b", n, re.I):
+                # Rules audit 2026-11-28, card C11 (approved): changed by default, kept where it is the clearest way to say it.
                 flag('REVIEW', 'X1 "X does not Y" (Joel 2026-11-03: "let\'s make sure "X does not Y" is changed in general that\'s super ai, '
-                     'humans don\'t use that so much"): say what to do, or what is so', s)
+                     'humans don\'t use that so much"): change it by default (Joel: "super ai"), keep it only where it is the clearest way to say it; '
+                     'say what to do, or what is so', s)
             # O47 (Joel, 2026-10-30 14:35 UTC, on "so no answer can secretly mean "deeper"": ""secretly/silently" is an AI tell btw,
             # AI always using those words"). Like "quietly" (O42), they fail in my text, unless "silently" says how something is
             # said or read ("read it silently").
@@ -1346,7 +1375,8 @@ def main():
             # his original guide or his inner child guide; "can feel like" without "a lot" is, so O58 needs "a lot".
             for rid, rx, what, fix in HISTORY_CUTS:
                 if re.search(rx, n, re.I):
-                    flag('FAIL', '%s %s (Joel cut it in his Pangram history, and the text read Human Written): %s' % (rid, what, fix), s)
+                    # Rules audit 2026-11-28, card C23 (approved): "Drop or demote the entries with no words of yours and no result behind them": a REVIEW, not a failure.
+                    flag('REVIEW', '%s %s (cut from his texts in his Pangram history; none of his words names it, so a reader judges it): %s' % (rid, what, fix), s)
             # O61 (gate E335, his three examples of 2026-11-03): a dose as a label and its spec ("Trial: UMP 150–300 mg in the
             # morning with food for 3–7 days."), which read AI in his post and in my round 1 however it was worded; he said it
             # as an instruction with a verb ("Do a trial with 150-300mg Uridine, in the morning with food") and it passed.
@@ -1390,8 +1420,9 @@ def main():
             # that's working sometimes, but like authentically, genuinely, those are more real synonyms, and honestly is also ok
             # sometimes just it's overused"; lesson romance-2026-11-23g).
             if re.search(r"\bhonestly\b", n, re.I):
+                # Rules audit 2026-11-28, card C11 (approved): "the only one nearby" was not his; his own use is never changed unasked.
                 flag('REVIEW', 'O77 "honestly" (Joel 2026-11-23: "honestly is also ok sometimes just it\'s overused"): keep it '
-                     'where it is the exact word and the only one nearby; otherwise a real synonym ("genuinely", '
+                     'where it is the exact word; otherwise a real synonym ("genuinely", '
                      '"authentically") or the word for what the sentence means ("compassionately" fit one sentence of his, '
                      'not every one)', s)
             # O79 (lesson neuro-2026-11-06f; Joel, 2026-11-06: "I know AI hates using digits and always goes for the spell out
@@ -1407,6 +1438,24 @@ def main():
                      'as he writes it ("20 times a day"), once the order, the links and the two-way words are right '
                      '(lesson neuro-2026-11-06f: "a cheap fix")' % (m79.group(1), m79.group(2)), s)
                 break
+            # O80 (Rules audit 2026-11-28, card C11, his note: "what i meant is, i often find AI using "one" where a human would use
+            # "a" so if it sounds better to use "a" than "one" do that. "one time is too many" would still be "one time is too many"
+            # of course."). "one" before a singular noun in a sentence of mine, outside quotes: a REVIEW, "a" if it reads better.
+            # Not after "the", "this", "that", "no", "any", "every", "each", "which", "only", "just", "at least", "more than"; not
+            # before "of", "or", "another", "more", "by", "at a time", "thing at a time", "time" or "times".
+            unq80 = without_quotes(n)
+            for m80 in re.finditer(r"\bone\s+([a-z]+)\b", unq80, re.I):
+                w80 = m80.group(1).lower()
+                if O80_BEFORE.search(unq80[:m80.start()]) or w80 in O80_NEXT_SKIP or len(w80) < 3 \
+                        or (w80.endswith('s') and not w80.endswith(('ss', 'us', 'is'))) \
+                        or (w80 == 'thing' and re.match(r"thing at a time\b", unq80[m80.start() + 3:].strip(), re.I)):
+                    continue
+                flag('REVIEW', 'O80 "one" where a person writes "a" (Joel 2026-11-28, rules audit card C11: "i often find AI using "one" where a human would use "a" so if it sounds better to use "a" than "one" do that. "one time is too many" would still be "one time is too many" of course."): use "a" if it reads better; "one time is too many" stays', s)
+                break
+            # O81 (Rules audit 2026-11-28, card C14, his note: "and btw "for the thing" is an ai tell"): "for the thing" and "the thing
+            # for", outside quotes, in a sentence of mine: a REVIEW, say what the thing is.
+            if re.search(r"\bfor the thing\b|\bthe thing for\b", without_quotes(n), re.I):
+                flag('REVIEW', 'O81 "for the thing" (Joel 2026-11-28, rules audit card C14: "and btw "for the thing" is an ai tell"): say what the thing is', s)
             # O67 (E357; Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "removed spaces before "mg" and that helped a bit ...
             # don't think i've seen humans put spaces there")
             if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):
@@ -1504,7 +1553,8 @@ def main():
                 flag('FAIL', 'O10 an opener that points at nothing (Joel 2026-10-06: "\'Key here\' can\'t be how you open a section. that\'s referring to something. Key where? what?"): start with the claim itself, as his "Most of the writing on communities hasn\'t caught up with psychedelics."', s)
             m9 = NOT_TAIL.match(n.strip())
             if m9 and len(words(m9.group('head'))) >= 4:
-                flag('FAIL', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"; 2026-10-17, E190: "that pollished ai quip pattern where it\'s like "that\'s X, not Y""): say the claim plainly, or say both sides, as his "it gets called harm, even if it was also a learning experience"', s)
+                # Rules audit 2026-11-28, card C11 (approved): "there's also the Not X, but Y. pattern with AI, so we shouldn't overuse that either, but sometimes it is the most clear and natural way to phrase it": a "not Y" tail is read by a reader now, not failed.
+                flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"; 2026-10-17, E190: "that pollished ai quip pattern where it\'s like "that\'s X, not Y""): say the claim plainly, or say both sides, as his "it gets called harm, even if it was also a learning experience"; keep it where it is the clearest way to say it (C11)', s)
             if NOT_BUT_STILL.search(n):
                 flag('REVIEW', 'O18 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
             elif nxt is not None and NOT_SENT.search(n) and STILL_NEXT.match(nxt.strip()) and mine_s[i + 1]:
@@ -1583,8 +1633,9 @@ def main():
             if REDUNDANT_PREREQ.search(unquoted):
                 flag('FAIL', 'O38 a word that repeats its neighbor: a prerequisite is already required (Joel 2026-10-11 18:35: "you can\'t say "required as pre-reqs" that\'s redundant, just say "when things are pre-reqs""): drop the word that repeats', s)
         if len(plists) >= 2 and any(m for m, _ in plists):
-            flag('FAIL', 'E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); '
-                 'fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did', ' / '.join(x for _, x in plists))
+            # Rules audit 2026-11-28, card C22 (approved): two lists in a paragraph is a count; REVIEW.
+            flag('REVIEW', 'E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); '
+                 'read them: drop the item that overlaps another or is vague, or if every item is needed, split it into sentences the way he did', ' / '.join(x for _, x in plists))
         if ss and len(words(nss[-1])) <= 9 and mine_s[-1]:
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
@@ -1615,13 +1666,15 @@ def main():
                      'or what it follows from)', ' / '.join(ss[i78:i78 + 2]))
                 break
         if len(para69) >= 2:
-            flag('FAIL', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '
+            # Rules audit 2026-11-28, card C22 (approved): "No count fails a draft by itself": two frames are a REVIEW.
+            flag('REVIEW', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '
                  '2026-11-12: ""x but not y" and so forth"): keep at most the one that answers a worry the reader really has',
                  ' / '.join(para69))
         mine_text = ' '.join(x for x, m in zip(nss, mine_s) if m)
         n70 = len(re.findall(r"\bdifferent (?:from|than|to)\b|\bdiffers? from\b", mine_text, re.I))
         if n70 >= 2 or re.search(r"\bboth\b[^.?!]{0,40}\bdiffer", mine_text, re.I):
-            flag('FAIL', 'O70 "different" doing the comparing twice ("this is different. that\'s different, this other thing is also '
+            # Rules audit 2026-11-28, card C22 (approved): a count does not fail a draft by itself.
+            flag('REVIEW', 'O70 "different" doing the comparing twice ("this is different. that\'s different, this other thing is also '
                  'different"; Joel 2026-11-12): say what the difference means for the reader once, the way he did ("requires '
                  'different treatment from a racing stimulant high, as would serotonin toxicity")', p[:90] + '...')
         if passives >= 3:
@@ -1677,7 +1730,8 @@ def main():
             if ks in seen_s1:
                 continue
             seen_s1.add(ks)
-            flag('FAIL', 'S1 exclamations out of the article\'s range: %d of %d sentences in a row end with "!", where the article '
+            # Rules audit 2026-11-28, card C22 (approved): a count against the article's range goes to a reader; REVIEW.
+            flag('REVIEW', 'S1 exclamations out of the article\'s range: %d of %d sentences in a row end with "!", where the article '
                  'has at most %d (Joel 2026-10-17 13:11: "you have three sentences ending in exclamation marks in a row that\'s '
                  'pretty nuts, you should check the article style before you do something so far out of range"); end some '
                  'with a period, or make the pause a question, an aside or a plain short sentence'
@@ -1742,15 +1796,18 @@ def main():
                    you_per_100=round(you_density, 1), landing_rate=round(landing_rate, 2),
                    instruction_paragraphs=imper_heavy, para_len_cv=round(cv_p, 2), sent_len_cv=round(cv_s, 2),
                    repeated_openers=rep_openers)
+    # Rules audit 2026-11-28, card C22 (approved): "No count fails a draft by itself". These were the HARD lines, which failed a
+    # draft on a count (coach phrases per 100 words, a run of short paragraph endings, two instruction paragraphs, a repeated
+    # opener); they are REVIEW flags now, for a reader to look at, and `hard` stays empty.
     hard = []
-    if coach_density > 2.0: hard.append(f'E41 coach register: {coach_density:.1f} coach phrases per 100 of my words (limit 2.0)')
-    if landing_rate >= 0.5 and len(ps) >= 3: hard.append(f'B7/B13 landings: {para_final_short}/{len(ps)} paragraphs end on a short line')
-    if imper_heavy >= 2: hard.append(f'E23 listicle: {imper_heavy} paragraphs are strings of instructions')
+    if coach_density > 2.0: flag('REVIEW', f'E41 coach register: {coach_density:.1f} coach phrases per 100 of my words (above 2.0)', '')
+    if landing_rate >= 0.5 and len(ps) >= 3: flag('REVIEW', f'B7/B13 landings: {para_final_short}/{len(ps)} paragraphs end on a short line', '')
+    if imper_heavy >= 2: flag('REVIEW', f'E23 listicle: {imper_heavy} paragraphs are strings of instructions', '')
     # B13 counts the published openers too (docs/HUMANIZATION-GATE.md), but it fails only when one of my paragraphs
     # shares a repeated opener. 2026-10-18 (turn 71): When the Adult Voice Feels Fake as installed opens three
     # paragraphs with "I" (two of them Joel's), so every check of that h1 failed before Pangram whatever was added.
     mine_rep = {k: v for k, v in rep_openers.items() if any(o == k and pm for o, pm in zip(openers, para_mine))}
-    if mine_rep: hard.append(f'B13 repeated paragraph openers: {mine_rep}')
+    if mine_rep: flag('REVIEW', f'B13 repeated paragraph openers: {mine_rep}', '')
     elif rep_openers: flag('REVIEW', 'B13 repeated paragraph openers, all in installed or Joel\'s paragraphs (none of mine shares one): ' + ', '.join('%s (%d)' % kv for kv in rep_openers.items()), '')
     # Review note only since 2026-09-26: second-person density doesn't separate Pangram
     # results. The Guide paragraph passed at 13.4 per 100, and two failing P5 attempts

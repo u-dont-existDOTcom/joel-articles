@@ -33,16 +33,40 @@ class TocCheckTest(unittest.TestCase):
                            {'id': 'Y', 'level': 2, 'heading': 'Remedy Cautions'}])
         self.assertEqual(found, [('Y', 'parent', 'X', ['remedy'])])
 
-    def test_every_candidate_needs_a_fate(self):
-        lines, missing = T.check(SS, {'D': ['names no problem']}, {'repeat:C': 'changed: How to Recognize It'})
-        self.assertEqual(missing, ['hard:D'])
-        lines, missing = T.check(SS, {'D': ['names no problem']},
-                                 {'repeat:C': 'changed: How to Recognize It', 'hard:D': 'kept'})
-        self.assertEqual(missing, ['hard:D'])   # "kept" needs its reason
-        lines, missing = T.check(SS, {'D': ['names no problem']},
-                                 {'repeat:C': 'changed: How to Recognize It',
-                                  'hard:D': 'changed: What to Do Right Away'})
+    def test_a_word_match_nobody_marked_is_listed_and_needs_no_fate(self):
+        # rules audit 2026-11-28, card C25 (approved): candidates are for a reader to judge, never a failure by themselves
+        lines, missing = T.check(SS, {}, {})
         self.assertEqual(missing, [])
+        self.assertTrue(any(l.startswith('candidate:C') for l in lines), lines)
+        lines, missing = T.check(SS)
+        self.assertEqual(missing, [])
+
+    def test_a_pair_a_reader_marked_the_same_needs_a_fate(self):
+        lines, missing = T.check(SS, {}, {}, {'C': ['says the same as line 2']})
+        self.assertEqual(missing, ['repeat:C'])
+        lines, missing = T.check(SS, {}, {'repeat:C': 'kept'}, {'C': ['same']})
+        self.assertEqual(missing, ['repeat:C'])   # "kept" needs its reason
+        lines, missing = T.check(SS, {}, {'repeat:C': 'changed: How to Recognize It'}, {'C': ['same']})
+        self.assertEqual(missing, [])
+        # marked though no word is shared: still needs one
+        lines, missing = T.check(SS, {}, {}, {'E': ['asks what D asks']})
+        self.assertEqual(missing, ['repeat:E'])
+
+    def test_hard_headings_need_a_fate(self):
+        lines, missing = T.check(SS, {'D': ['names no problem']}, {})
+        self.assertEqual(missing, ['hard:D'])
+        lines, missing = T.check(SS, {'D': ['names no problem']}, {'hard:D': 'kept'})
+        self.assertEqual(missing, ['hard:D'])
+        lines, missing = T.check(SS, {'D': ['names no problem']}, {'hard:D': 'changed: What to Do Right Away'})
+        self.assertEqual(missing, [])
+
+    def test_same_lines_are_read_from_the_reads(self):
+        with tempfile.TemporaryDirectory() as d:
+            json.dump([{'n': i + 1, 'id': e['id']} for i, e in enumerate(SS)], open(os.path.join(d, 'LINES-X.json'), 'w'))
+            with open(os.path.join(d, 'READ-X-1.txt'), 'w') as f:
+                f.write('SAME: 3 | same question as line 2\nHARD: 4 | names no problem\n')
+            self.assertEqual(T.same(d, 'X'), {'C': ['same question as line 2']})
+            self.assertEqual(T.hard(d, 'X'), {'D': ['names no problem']})
 
     def test_hard_lines_are_read_from_the_reads(self):
         with tempfile.TemporaryDirectory() as d:

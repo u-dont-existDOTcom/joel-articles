@@ -41,3 +41,7 @@ https://claude.ai/artifact/VcUmGfK8DfxM1yp9KoTY96, built from [SPEC.json](SPEC.j
 His answers come back as the page's JSON. Each approved fix goes into every file its rule lives in (the card's "Where it
 lives"), in one pass, with a lesson file naming the answers; a revised one as he says; a rejected one stays and is
 marked as checked with him, so no later audit flags it again.
+
+## His answers (2026-11-28)
+
+His answers came on 2026-11-28 at 10:24 UTC ([the export](ANSWERS-20261128-1024.json)): 33 approved, 4 to revise, with notes, and with them a message asking for a rule tree with a human view ([word for word](MESSAGE-20261128-1025.md)). What happened to each card: [RESULTS.md](RESULTS.md) (`scripts/results.py`). Each fix is a rule of [the rule tree](../../../rules/README.md), which now holds every rule once. The questions his answers left open: [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md) (`scripts/open_questions.py`; his page is a view of it).

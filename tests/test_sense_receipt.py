@@ -1,6 +1,7 @@
 """tools/humanization/sense_receipt.py: the making-sense read's receipt (gate E365, enforcing E362; Joel, 2026-11-05 15:14 UTC: "READ what
 you wrote, it literally is a whole big waste of time to talk about this, there's NO PAYOFF ... fix the way you work
-because i'm not telling you the same stuff over and over")."""
+because i'm not telling you the same stuff over and over"). Since the rules audit of 2026-11-28 (cards C02, C03 and C17)
+it is a light note: check() reports only what is present and wrong."""
 import json
 import pathlib
 import sys
@@ -51,10 +52,41 @@ class Check(unittest.TestCase):
     def test_a_filled_receipt_passes(self):
         self.assertEqual(R.check(TEXT, filled()), [])
 
-    def test_a_sentence_without_its_payoff_fails(self):
+    def test_a_sentence_without_its_payoff_is_not_a_problem(self):
+        # rules audit 2026-11-28, card C02 (approved): the receipt is a light note; an empty field is not a problem
         r = filled()
         r['sentences'][1]['payoff'] = 'none'
-        self.assertTrue(any('payoff missing' in p for p in R.check(TEXT, r)))
+        r['sentences'][2]['payoff'] = ''
+        r['sentences'][2]['follows'] = ''
+        self.assertEqual(R.check(TEXT, r), [])
+
+    def test_a_blank_receipt_from_make_is_a_prompt_not_a_failure(self):
+        """Rules audit 2026-11-28, cards C02, C03 and C17: make still writes every field, empty, as a prompt, and check()
+        reports only what is present and wrong, so the receipt as make writes it has nothing wrong."""
+        r = R.make(TEXT, 'Active Seizure', '')
+        self.assertEqual(r['placement'], '')
+        self.assertEqual(r['same_point'], '')
+        self.assertEqual(r['opens']['why_reading'], '')
+        self.assertEqual(r['needed'], {'reader': '', 'unneeded': [], 'kept': {}})
+        self.assertEqual(r['his_fixes'], {'reader': '', 'marked': [], 'kept': {}})
+        self.assertEqual(r['fit'], {'reader': '', 'marked': [], 'kept': {}})
+        self.assertEqual(set(r['questions'].values()), {''})
+        self.assertEqual([x.get('payoff') for x in r['sentences']], ['', '', ''])
+        self.assertEqual([x.get('link') for x in r['sentences']], [None, '', ''])
+        self.assertEqual(R.check(TEXT, r), [])
+        import io, contextlib, os
+        with tempfile.TemporaryDirectory() as d:
+            tp, rp = os.path.join(d, 't.txt'), os.path.join(d, 'r.json')
+            pathlib.Path(tp).write_text(TEXT + '\n', encoding='utf-8')
+            pathlib.Path(rp).write_text(json.dumps(r), encoding='utf-8')
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                self.assertEqual(R.main(['check', tp, rp]), 0)
+            self.assertTrue(out.getvalue().startswith('PASS'))
+            r['questions']['Q7'] = 'FAIL: a focal-seizure trial for a generalized-seizure reader'
+            pathlib.Path(rp).write_text(json.dumps(r), encoding='utf-8')
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(R.main(['check', tp, rp]), 1)
 
     def test_a_checked_point_that_lost_its_reason_must_be_cut(self):
         r = filled()
@@ -67,18 +99,31 @@ class Check(unittest.TestCase):
     def test_a_receipt_for_another_text_fails(self):
         self.assertTrue(any('another text' in p for p in R.check(TEXT + ' More.', filled())))
 
-    def test_the_reader_is_the_case_not_the_topic(self):
+    def test_a_sentence_left_out_is_not_a_problem_but_one_not_in_the_text_is(self):
+        # card C02: what is missing is not a problem; a sentence the text doesn't have means the note is for another text
+        r = filled()
+        del r['sentences'][2]
+        self.assertEqual(R.check(TEXT, r), [])
+        r['sentences'].append({'s': 'A sentence from another draft.', 'payoff': 'x', 'follows': 'y'})
+        self.assertTrue(any(p.startswith('sentences:') and 'another draft' in p for p in R.check(TEXT, r)))
+
+    def test_a_short_or_empty_reader_is_the_reads_to_judge(self):
+        # the case, not the topic, is still what the field asks for; the code no longer counts its letters (card C02)
         r = filled()
         r['reader'] = 'seizure readers'
-        self.assertTrue(any(p.startswith('reader') for p in R.check(TEXT, r)))
+        self.assertEqual(R.check(TEXT, r), [])
+        r['reader'] = ''
+        self.assertEqual(R.check(TEXT, r), [])
 
-    def test_a_failed_or_blank_question_fails(self):
+    def test_a_failed_question_fails_and_a_blank_one_does_not(self):
         r = filled()
         r['questions']['Q7'] = 'FAIL: a focal-seizure trial for a generalized-seizure reader'
         r['questions']['Q6'] = ''
+        del r['questions']['Q5']
         probs = R.check(TEXT, r)
         self.assertTrue(any(p.startswith('Q7 fails') for p in probs))
-        self.assertTrue(any(p.startswith('Q6:') for p in probs))
+        self.assertFalse(any(p.startswith('Q6') or p.startswith('Q5') for p in probs), probs)
+        self.assertEqual(len(probs), 1, probs)
 
     def test_joels_own_sentences_need_no_payoff(self):
         his = 'As for topical CBD, it hasn\'t been well-studied.'
@@ -167,10 +212,16 @@ class Needed(unittest.TestCase):
         self.assertFalse(self.probs(self.receipt(needed={'unneeded': [u], 'kept': {
             u: 'they know the leak is what goes wrong, so they stop if their own balance worsens'}})))
 
-    def test_no_needed_read_fails(self):
+    def test_no_needed_read_is_not_a_problem(self):
+        # rules audit 2026-11-28, card C17 (revised as his note says): a fresh read is a help whose marks are each judged,
+        # not a gate, so a read not done is not a problem; its marks, when there are any, still are
         r = self.receipt()
         r['needed']['reader'] = ''
-        self.assertTrue(self.probs(r))
+        self.assertFalse(self.probs(r))
+        del r['needed']
+        self.assertFalse(self.probs(r))
+        u = 'A mutation behind one ataxia leaves them leaking.'
+        self.assertTrue(self.probs(self.receipt(needed={'reader': '', 'unneeded': [u]})))
 
     def test_still_needed_says_what_the_reader_does_not_why_the_claim_holds(self):
         c = {'point': 'the leak', 'found': 'Allen 2023', 'fate': 'changed'}
@@ -191,10 +242,19 @@ class HisFixes(unittest.TestCase):
     def test_a_filled_read_passes(self):
         self.assertEqual(self.probs(filled()), [])
 
-    def test_no_read_fails(self):
+    def test_no_read_is_not_a_problem(self):
+        # rules audit 2026-11-28, card C17: the read is a help whose marks are each judged, not a gate
         r = filled()
         r['his_fixes']['reader'] = ''
-        self.assertTrue(self.probs(r))
+        self.assertFalse(self.probs(r))
+        del r['his_fixes']
+        self.assertFalse(self.probs(r))
+
+    def test_the_read_is_against_any_of_his_fixes_in_the_repo(self):
+        # his note on card C17: "and not just against my own fixes in that article of course but any fixes in the repo
+        # that could be useful for that context"
+        for doc in (R.his_fixes_problems.__doc__, R.__doc__):
+            self.assertIn('any fixes in the repo that could be useful for that context', ' '.join(doc.split()))
 
     def test_a_marked_sentence_left_in_fails_until_changed_or_kept_with_a_reason(self):
         r = filled()
@@ -224,10 +284,13 @@ class Fit(unittest.TestCase):
     def test_a_filled_read_passes(self):
         self.assertEqual(self.probs(filled()), [])
 
-    def test_no_read_fails(self):
+    def test_no_read_is_not_a_problem(self):
+        # rules audit 2026-11-28, card C17: the read is a help whose marks are each judged, not a gate
         r = filled()
         r['fit']['reader'] = ''
-        self.assertTrue(self.probs(r))
+        self.assertFalse(self.probs(r))
+        del r['fit']
+        self.assertFalse(self.probs(r))
 
     def test_a_marked_line_left_in_fails_until_changed_or_kept_with_a_reason(self):
         r = filled()
@@ -258,28 +321,30 @@ class Paragraph(unittest.TestCase):
                                       'why_reading': ''})
         self.assertEqual(r['same_point'], '')
 
-    def test_the_paragraph_must_say_why_its_first_sentence_is_read(self):
+    def test_the_opening_is_not_refused(self):
+        # rules audit 2026-11-28, card C03 (approved): payoff first stays his test, and the reader's-case opening is one
+        # way he has met it, to consider, not to require: "the receipt's opens refusal goes"
         r = filled()
         r['opens']['why_reading'] = 'none'
-        self.assertTrue(any(p.startswith('opens:') for p in R.check(TEXT, r)))
-        r = filled()
-        r['opens']['first_sentence'] = 'Some other opening.'
-        self.assertTrue(any('first_sentence' in p for p in R.check(TEXT, r)))
+        self.assertEqual(R.check(TEXT, r), [])
+        r['opens'] = {}
+        self.assertEqual(R.check(TEXT, r), [])
 
-    def test_the_same_point_elsewhere_must_be_answered(self):
+    def test_the_same_point_and_placement_left_empty_are_not_problems(self):
+        # card C02: a field that is missing or empty is not a problem
         r = filled()
         r['same_point'] = ''
-        self.assertTrue(any(p.startswith('same_point:') for p in R.check(TEXT, r)))
-        r['same_point'] = 'none, there is nothing like it anywhere else here'
-        self.assertTrue(any(p.startswith('same_point:') for p in R.check(TEXT, r)))
-
-    def test_an_older_receipt_without_the_fields_is_checked_as_before(self):
-        r = filled()
-        del r['opens'], r['same_point']
-        r['made'] = '2026-11-05'
+        r['placement'] = ''
         self.assertEqual(R.check(TEXT, r), [])
-        r['made'] = '2026-11-07'
-        self.assertTrue(any(p.startswith('opens:') for p in R.check(TEXT, r)))
+        r['same_point'] = 'none, there is nothing like it anywhere else here'
+        self.assertEqual(R.check(TEXT, r), [])
+
+    def test_a_receipt_without_the_fields_passes_whenever_it_was_made(self):
+        r = filled()
+        del r['opens'], r['same_point'], r['placement']
+        for made in ('2026-11-05', '2026-11-07', '2026-11-28'):
+            r['made'] = made
+            self.assertEqual(R.check(TEXT, r), [], made)
 
 
 class Link(unittest.TestCase):
@@ -298,10 +363,11 @@ class Link(unittest.TestCase):
         self.assertNotIn('link', r['sentences'][0])
         self.assertEqual(r['sentences'][1]['link'], '')
 
-    def test_the_link_must_be_words_in_the_sentence(self):
+    def test_quoted_link_words_must_be_in_the_sentence(self):
         self.assertTrue(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt('One reason to think about'))))
-        self.assertTrue(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt(''))))
-        self.assertTrue(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt('none: no'))))
+        # card C02: an empty link, or "none" with or without its why, quotes nothing, so nothing in it is wrong
+        for empty in ('', 'none', 'none: no', 'None - a new step'):
+            self.assertFalse(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt(empty))), empty)
 
     def test_his_kind_of_link_passes(self):
         text = self.TEXT.replace('Standard therapy rewrites', 'One reason to think about, is that standard therapy rewrites')
@@ -312,8 +378,8 @@ class Link(unittest.TestCase):
 
 class LinkAtTheStart(unittest.TestCase):
     """Lesson bad-trips-2026-11-22a (Joel, 2026-11-22 17:21 UTC: "S2 doesn't follow from S1. you really don't see that?
-    what's connecting them? even "So" would connect"): from receipts made that day, the tie to the sentence before comes
-    within the first five words."""
+    what's connecting them? even "So" would connect"): the tie to the sentence before comes early. Rules audit 2026-11-28,
+    card C02 (approved): that is judged by reading the sentence, not by counting words, so the five-word test is gone."""
     S1 = "Serotonin syndrome comes from too much serotonin, so I'd stop anything suspected of adding more."
     LATE = S1 + (" No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the "
                  "antibiotic linezolid.")
@@ -326,9 +392,10 @@ class LinkAtTheStart(unittest.TestCase):
         r['made'] = made
         return r
 
-    def test_a_tie_after_five_words_fails_from_the_lesson_on(self):
-        p = R.check(self.LATE, self.receipt(self.LATE, 'of course, but also', '2026-11-22'))
-        self.assertTrue(any(x.startswith('link for') and 'come after' in x for x in p), p)
+    def test_a_tie_after_five_words_is_not_refused(self):
+        for made in ('2026-11-22', '2026-11-28'):
+            p = R.check(self.LATE, self.receipt(self.LATE, 'of course, but also', made))
+            self.assertEqual(p, [], made)
 
     def test_his_so_at_the_start_passes(self):
         self.assertEqual(R.check(self.HIS, self.receipt(self.HIS, 'So', '2026-11-22')), [])

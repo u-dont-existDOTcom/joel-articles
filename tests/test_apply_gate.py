@@ -65,6 +65,33 @@ class Gate(unittest.TestCase):
                 G.require(str(led), [PARA])
             self.assertIn('not Human High', str(e.exception))
 
+    def test_a_content_change_he_approved_goes_in_without_the_check(self):
+        # rules audit 2026-11-28, card C04 (approved)
+        owner = {'card': 'C04', 'words': 'yes, put it in', 'where': 'ANSWERS.json, turn 3'}
+        ok, lines = G.check([], PARA, owner_approved=owner)
+        self.assertTrue(ok)
+        self.assertIn('C04', lines[0])
+        self.assertIn('yes, put it in', lines[0])
+        self.assertIn('ANSWERS.json, turn 3', lines[0])
+        self.assertIn('humanizing follows', lines[0])
+        self.assertFalse(G.check([], PARA)[0])                    # without it, nothing changes
+
+    def test_an_owner_claim_needs_the_card_his_words_and_where(self):
+        for gone in ('card', 'words', 'where'):
+            owner = {'card': 'C04', 'words': 'yes', 'where': 'x'}
+            owner[gone] = ''
+            with self.assertRaises(ValueError):
+                G.check([], PARA, owner_approved=owner)
+
+    def test_require_lets_an_approved_text_through_and_records_it(self):
+        with tempfile.TemporaryDirectory() as d:
+            led = pathlib.Path(d) / 'ledger.jsonl'
+            led.write_text('')
+            owner = {'card': 'C04', 'words': 'yes', 'where': 'ANSWERS.json'}
+            self.assertTrue(G.require(str(led), [PARA], owner_approved=owner))
+            with self.assertRaises(SystemExit):
+                G.require(str(led), [PARA])
+
 
 if __name__ == '__main__':
     unittest.main()

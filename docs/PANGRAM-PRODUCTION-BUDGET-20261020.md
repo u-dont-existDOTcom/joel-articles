@@ -1,5 +1,7 @@
 # Production Pangram budget, prediction and owner-escalation rule
 
+**Since 2026-11-28 the rule tree holds (`rules/TREE.md`; Joel: "you should have some kind of rule tree"; rules audit of 2026-11-27).** Where this file disagrees with the tree, the tree holds. Since the audit, the tools no longer refuse what the tree makes a judgment: a missing making-sense receipt, a card's "ask_because" prefix (a plain reason does), an entry of my own reading on the keep-as-is list, a near miss changed by more than a word or two, the first-fix declaration, the tell panel after two AI reads, and the six-try budget; they print a note instead. The budget is rule R-budget: about ten tries a paragraph with a reason each, more when hot on the trail; the six and ten below are history.
+
 **ACTIVE — direct Joel correction, 2026-10-20; applies to every Joel-byline article and every production humanization worker, including ChatGPT, Claude, Emulate-assisted, GUI, API and Codex execution.**
 
 This is the normative `joel-articles` production testing policy. The Pangram lab inherits it for Joel article production and keeps the detector transport/cache/accounting implementation. It supersedes the 2026-09-26 "no limit on checks per turn" permission and tighter production ceilings take precedence over older six-call *section* safety caps and aggregate-call accounting exemptions. It does **not** impose production caps on independently authorized, budgeted detector-method research experiments. Explicit fresh owner authorization is required for extra production submissions.

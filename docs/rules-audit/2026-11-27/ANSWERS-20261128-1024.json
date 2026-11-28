@@ -1,0 +1,310 @@
+{
+ "format": "joel-review-decisions-v1",
+ "review_id": "rules-audit-20261127",
+ "title": "Rules audit, 27 Nov: the rules that look sus",
+ "source_name": "docs/rules-audit/2026-11-27/QUESTIONS.md",
+ "source_sha256": "c4a1fbca89218b26f661f7c702e620a551668152d979a67d4d6e66bcf10cca11",
+ "exported_utc": "2026-11-28T10:24:40.457Z",
+ "counts": {
+  "approved": 33,
+  "needs_revision": 4
+ },
+ "items": [
+  {
+   "id": "S1",
+   "group": "done",
+   "title": "The smooth lesson: the accurate word, not the same word",
+   "status": "approved",
+   "note": "it's not that we always want to name what it stands for, it depends on the context. sometimes you want \"it\" and sometimes it's unclear what exactly it stands for either bc it was too late after the rferent or there were other things between the referent and it that it could stand for",
+   "updated": "2026-11-28T00:05:12.287Z"
+  },
+  {
+   "id": "S2",
+   "group": "done",
+   "title": "Your answer's words: what is relevant, not every word",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T00:05:48.982Z"
+  },
+  {
+   "id": "S3",
+   "group": "done",
+   "title": "A check of every new lesson against your words (my addition)",
+   "status": "approved",
+   "note": "we should also be checking if lessons interact or contradict each other, and we should do periodic reviews to see which lessons are overall helping vs which aren't",
+   "updated": "2026-11-28T00:06:53.786Z"
+  },
+  {
+   "id": "C01",
+   "group": "feature",
+   "title": "Near-miss step limit: a word or two, 20% / 40% refusals",
+   "status": "approved",
+   "note": "yes keep in midn that usually it makes sense to focus on the most AI sentences first, altho also keeping in mind that fixing one sentence can make a different sentence/part look better to pangram sometimes. and occasionally as you see in how i do it, pangram gets worse, but i only change strategy if i feel unsure that my fix was realyl good for the reader. if i'm sure it wa sgood, i keep going on that same strategy and try to find other things that are tripping pangram up before  i re-assess if i should change strat",
+   "updated": "2026-11-28T00:23:54.301Z"
+  },
+  {
+   "id": "C03",
+   "group": "feature",
+   "title": "\"Payoff first\" fixed as a form on every sentence and paragraph",
+   "status": "approved",
+   "note": "yes and this also has to do usually with connections between sentences, paragraphs, ideas. one classic fail eexample you keep making for some reason is a sentence that begins, \"In one trial on..\" like out of nowhere, totally unexpected. whenever i read AI articles people publish it always takes like so long for me to understand anything becauuse of how disconnected it all is",
+   "updated": "2026-11-28T00:26:48.685Z"
+  },
+  {
+   "id": "C13",
+   "group": "feature",
+   "title": "His list fixes made a template for every list",
+   "status": "approved",
+   "note": "yes unpacking lists does often help, although i wouldn't necessarily unpack every list robotically, that could be bloating things obviously like say we have a list of contraindications, we can list 15 meds and pangram is fine with that, no need to unpack each one, but if the list contains things that aren't so obvious and could use explaining, then that's part of the clarifying rule, and in general AI tends to have too much in its lists, because it wants to cover every part of the advice and avoid holes in the argument. there should be some balance there. sometimes we can say two things with one word, or sometimes one part of the list is more tangential or it's already expalined elsewhere or...  we can do some more testing on this to see what looks right in different cases",
+   "updated": "2026-11-28T00:33:17.027Z"
+  },
+  {
+   "id": "C14",
+   "group": "feature",
+   "title": "\"Plain word\" misreads \"converted into\"; join and plain word made compulsory",
+   "status": "approved",
+   "note": "and btw \"for the thing\" is an ai tell",
+   "updated": "2026-11-28T00:34:25.180Z"
+  },
+  {
+   "id": "C21",
+   "group": "feature",
+   "title": "Shapes of one rewrite made recipes",
+   "status": "approved",
+   "note": "ok i notice you have been making some typos, \"fix of your(s) did\", that's weird for ai to make typos...",
+   "updated": "2026-11-28T00:36:02.307Z"
+  },
+  {
+   "id": "C28",
+   "group": "feature",
+   "title": "Details invented, or his content changed, to move Pangram",
+   "status": "approved",
+   "note": "\"your(s)\" again... \n\nDr. could be dropped especially if they were already introduced as such i suppose but this is a real hack and pangram hacks are ok if we need to use them, but i'd put this very much last as a rule, we want to have the rules that help the reader up front before the hacks",
+   "updated": "2026-11-28T00:38:40.066Z"
+  },
+  {
+   "id": "C10",
+   "group": "count",
+   "title": "Word-by-word accounting in place of a meaning check",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T00:39:14.602Z"
+  },
+  {
+   "id": "C11",
+   "group": "count",
+   "title": "Overused words and shapes hard-failed by the linter",
+   "status": "needs_revision",
+   "note": "\"one\" plus a noun... what i meant is, i often find AI using \"one\" where a human would use \"a\" \nso if it sounds better to use \"a\" than \"one\" do that. \"one time is too many\" would still be \"one time is too many\" of course. ",
+   "updated": "2026-11-28T00:41:06.349Z"
+  },
+  {
+   "id": "C22",
+   "group": "count",
+   "title": "Counts standing in for judgment: threes, questions in a row, short lines, contrasts, repeats",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T09:45:50.563Z"
+  },
+  {
+   "id": "C23",
+   "group": "count",
+   "title": "One-case phrases made string tells",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T09:48:42.972Z"
+  },
+  {
+   "id": "C25",
+   "group": "count",
+   "title": "Headings sharing a word: toc_check string match",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T09:49:07.356Z"
+  },
+  {
+   "id": "C04",
+   "group": "conflict",
+   "title": "Nothing below Human High: hard gate, Medium chased, approved changes held",
+   "status": "approved",
+   "note": "yes you start working on the parts that are most AI as i mentioned",
+   "updated": "2026-11-28T10:00:54.650Z"
+  },
+  {
+   "id": "C05",
+   "group": "conflict",
+   "title": "When a stuck paragraph goes to him: \"ask as soon as\" against \"keep fixing\"",
+   "status": "approved",
+   "note": "yes i want to make this a bit smarter i mean, don't even try if you have no idea what you're doing, but if you're hot on the trail and just need more budget then the budget should be flexible. sometimes i will spend more than 10 pangram calls myself because i'm trying to be granular enough to give you excellent minimal pair lessons, you can also use more pangram calls if that would help you learn",
+   "updated": "2026-11-28T10:03:16.943Z"
+  },
+  {
+   "id": "C07",
+   "group": "conflict",
+   "title": "Pangram budget: six against ten, paid single paragraphs against free Substack",
+   "status": "approved",
+   "note": "maybe merge this with previous? in general merge any rules that could be merged",
+   "updated": "2026-11-28T10:04:31.191Z"
+  },
+  {
+   "id": "C08",
+   "group": "conflict",
+   "title": "Safety, caution and reassurance lines: kept, cut, or sent to him?",
+   "status": "needs_revision",
+   "note": "yes i'd like to be a bit more strict on the safety thing, in general we want to minimize the placement of caution statements -- sometimes we can just put all the cautions in one section rather than repeat them everywhere. there's always something that could hurt a reader. if i say drink water, that could hurt if they drink it wrong or too much, so we should question whether this caution statement is making the reader into an idiot. like i saw this IG video recently of a woman explaining how to relax, and she must have been brainwashed by AI bc she said, \"breathe in now, if it feels safe\" -- i commented, \"you mean it might be safer not to breathe in?\" this kind of stuff is annoying as hell",
+   "updated": "2026-11-28T10:07:22.866Z"
+  },
+  {
+   "id": "C12",
+   "group": "conflict",
+   "title": "Whose words: his typed wording, kept lines, and the editor's own guesses",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:09:34.989Z"
+  },
+  {
+   "id": "C15",
+   "group": "conflict",
+   "title": "Human tell: defined narrower than he said, two definitions live",
+   "status": "needs_revision",
+   "note": "well, if the model wrote a human tell that comes from a legit list of human tells from human tells, then that would still bea  human tell. the model is also trying to copy the style of the author so it should be trying to create these human tells itself, the ones that it creates based on the author's writing (if there is author writing to look at hopefully), should then be categorized as \"human tell attempts\" which the author would then approve reject or modify before they can be categorized as human tells. this should be higher priority to develop to better match the author's voice and make the prose sound more human (it isn't required to pass pangram, but it's required to have better writing in any article where it's appropriate (i.e. maybe not an academic study))",
+   "updated": "2026-11-28T10:12:38.248Z"
+  },
+  {
+   "id": "C24",
+   "group": "conflict",
+   "title": "Glosses: never in brackets, always in the first sentence, or taken out",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:12:53.453Z"
+  },
+  {
+   "id": "C02",
+   "group": "steps",
+   "title": "Per-sentence receipts and link-word checks before every Pangram try",
+   "status": "approved",
+   "note": "something like this already exists maybe merge",
+   "updated": "2026-11-28T10:13:10.521Z"
+  },
+  {
+   "id": "C16",
+   "group": "steps",
+   "title": "Contents order: ask him first, move by move, tree tests",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:13:27.878Z"
+  },
+  {
+   "id": "C17",
+   "group": "steps",
+   "title": "Fresh-reader passes required before every check",
+   "status": "needs_revision",
+   "note": "and not just against my own fixes in that article of course but any fixes in the repo that could be useful for that context\nwe should also try to make some kind of graph for the fixes so that it's easy to find which fixes might be most helpful, although maybe graph is the wrong approach, i'm not sure how to make the fixes searchable exactly. i'm curious how we can mimic the way pangram analyzes text statistically. \nand quizzes are only offered if you think they would be more helpful than trying first thru pangram",
+   "updated": "2026-11-28T10:17:07.699Z"
+  },
+  {
+   "id": "C18",
+   "group": "steps",
+   "title": "What needs a card: tallies, prefixes and standing questions",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:17:28.530Z"
+  },
+  {
+   "id": "C20",
+   "group": "steps",
+   "title": "Tell panel forced after two AI reads",
+   "status": "approved",
+   "note": "this sounds like some other rule you can merge",
+   "updated": "2026-11-28T10:17:51.764Z"
+  },
+  {
+   "id": "C26",
+   "group": "steps",
+   "title": "Every-word read with planted errors before publication",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:18:16.395Z"
+  },
+  {
+   "id": "C27",
+   "group": "steps",
+   "title": "Blocking gates from August and September with no words of his",
+   "status": "approved",
+   "note": "some of this can be mergeed",
+   "updated": "2026-11-28T10:18:39.919Z"
+  },
+  {
+   "id": "C30",
+   "group": "steps",
+   "title": "Workflow rules stretched from one remark",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:18:54.940Z"
+  },
+  {
+   "id": "C06",
+   "group": "stretch",
+   "title": "Cuts and merges made without showing him",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:19:26.620Z"
+  },
+  {
+   "id": "C09",
+   "group": "stretch",
+   "title": "One content answer stretched to other text or to every article",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:19:38.269Z"
+  },
+  {
+   "id": "C19",
+   "group": "stretch",
+   "title": "Evidence and source rules stricter than he said",
+   "status": "approved",
+   "note": "one thing i notice is you tend to try to look up studies to give evidence, which can be good, but sometimes it can look weird if that's not what the reader would expect there. so try to make sure that is appropriate in context and if unclear you can ask the author. probably also good at the beginning of any article to ask how much research evidence shoudl go into the article. you can brainstorm this also",
+   "updated": "2026-11-28T10:22:13.697Z"
+  },
+  {
+   "id": "C29",
+   "group": "stretch",
+   "title": "Always-cut rules built from a few of his picks",
+   "status": "approved",
+   "note": "i also wanted to help you make more human jokes, we never did that lesson, we should do that (of course trying to copy author's voice)",
+   "updated": "2026-11-28T10:23:14.339Z"
+  },
+  {
+   "id": "C31",
+   "group": "stretch",
+   "title": "A test result that shows less than the rule says",
+   "status": "approved",
+   "note": "can merge with some other rules",
+   "updated": "2026-11-28T10:23:45.091Z"
+  },
+  {
+   "id": "OLD-GATE",
+   "group": "old",
+   "title": "The old gate (September to early November): mark it historical",
+   "status": "approved",
+   "note": "can merge with some other rules",
+   "updated": "2026-11-28T10:24:16.069Z"
+  },
+  {
+   "id": "EMULATE",
+   "group": "old",
+   "title": "Emulate: retired, but parts still read as active",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:24:26.016Z"
+  },
+  {
+   "id": "LEFTOVERS",
+   "group": "old",
+   "title": "Three leftovers that contradict newer text",
+   "status": "approved",
+   "note": "",
+   "updated": "2026-11-28T10:24:35.577Z"
+  }
+ ]
+}

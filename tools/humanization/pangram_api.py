@@ -8,7 +8,7 @@ same time, and the dashboard had started showing stale results (`docs/HUMANIZATI
 
 Usage (on the laptop, with Desktop Commander, from the lane folder /home/joel/ai-work/claude-dangerous-lane):
   python3 pangram_api.py probe
-  python3 pangram_api.py check TEXTS.json OUTDIR [--names a,b,c] [--expect 4.1] [--windows] [--public]
+  python3 pangram_api.py check TEXTS.json OUTDIR [--names a,b,c] [--expect 4.1] [--windows] [--public] [--article-words N]
 
 `probe` checks the key without creating a billable task. TEXTS.json maps names to texts, as plain text the way
 Pangram should see them. For each name, `check` does the following:
@@ -30,14 +30,18 @@ It prints only those summaries; with --windows each line also lists the result's
 start and end, and the window's text), which is what a reader needs to see what was flagged. The key is read from the
 file each run and is never printed, copied or logged.
 
-What may go through the API at all (Joel, 2026-10-23, E218): "you can check paras or sections with API, not more than like
-5-6 paras at a time in general (not half an  article)". Anything bigger, a half, a whole article, or many paragraphs
-at once, goes through a temporary Substack draft and its secret preview link, which costs no credits
-(docs/PANGRAM-PRODUCTION-BUDGET-20261020.md). On 2026-11-02 four halves of the hypnosis guide and the whole neuro
-de-armoring article went through the API anyway, about 69,000 words, and Joel asked: "how are you cehcking the whole
-guide? that should be done the free way to not waste my pangram credits. which you said requires my help. why did you
-forget this?" (gate E325). So `check` refuses, before any POST, a text with more than six paragraphs of eight words or
-more, or more than 1,200 words, unless --paid-ok gives his words allowing it; a refusal names the free route.
+What may go through the API (Joel, 2026-10-23, E218): "you can check paras or sections with API, not more than like
+5-6 paras at a time in general (not half an  article)". A half or a whole article goes through a temporary Substack draft
+and its secret preview link, which costs no credits (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md). On 2026-11-02 four halves
+of the hypnosis guide and the whole neuro de-armoring article went through the API anyway, about 69,000 words, and Joel
+asked: "how are you cehcking the whole guide? that should be done the free way to not waste my pangram credits. which you
+said requires my help. why did you forget this?" (gate E325).
+
+Rules audit 2026-11-28, card C07 (approved): "in general" was never a hard count, so more than about six paragraphs or 1,200
+words is now a warning (printed to stderr, the check still goes), and `check` refuses, before any POST, only a text that is
+half an article or more: with --article-words N (the article's length) a text of N/2 words or more, and when the tool can't
+know the article's length (no --article-words) a text of more than 3,000 words. A refusal names the free route; --paid-ok
+with his words still lets one through.
 
 The protocol is pangram-humanization-lab's (`src/pangram_lab/pangram4.py`, proven 2026-08-12): x-api-key, an
 explicit model, a version check, no automatic POST retry, the task id checkpointed before polling, and a cache
@@ -104,24 +108,53 @@ def poll(task_id, timeout=300):
 
 
 MAX_PARAGRAPHS, MAX_WORDS = 6, 1200
+# Rules audit 2026-11-28, card C07 (approved), his words (gate E218): "not more than like 5-6 paras at a time in general (not
+# half an article)". Six paragraphs or 1,200 words only warns; a refusal is for half an article or more
+UNKNOWN_LENGTH_REFUSAL_WORDS = 3000
 
 
-def too_big(text):
-    """Why TEXT may not go through the API (E218, E325), or None: more than six paragraphs of eight words or more (a
-    heading or a list number isn't one), or more than 1,200 words."""
-    paras = [p for p in text.split('\n\n') if len(p.split()) >= 8]
-    words = len(text.split())
-    if len(paras) > MAX_PARAGRAPHS or words > MAX_WORDS:
-        return ('%d paragraphs, %d words: more than the API takes (at most %d paragraphs and %d words; Joel, E218: "not '
-                'more than like 5-6 paras at a time in general (not half an  article)"). Check it free in a temporary '
-                'Substack draft and its secret preview link (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md; E325), or give '
-                '--paid-ok with his words allowing this one' % (len(paras), words, MAX_PARAGRAPHS, MAX_WORDS))
+def _counts(text):
+    paras = [p for p in text.split('\n\n') if len(p.split()) >= 8]   # a heading or a list number isn't one
+    return len(paras), len(text.split())
+
+
+def size_warning(text):
+    """A warning when TEXT is more than about six paragraphs of eight words or more, or 1,200 words, else None. It never
+    stops a check (card C07)."""
+    paras, words = _counts(text)
+    if paras > MAX_PARAGRAPHS or words > MAX_WORDS:
+        return ('%d paragraphs, %d words: more than the usual 5-6 paragraphs or about %d words at a time (Joel, E218: "not '
+                'more than like 5-6 paras at a time in general (not half an  article)"); it goes, but check whether a '
+                'smaller piece would teach more' % (paras, words, MAX_WORDS))
     return None
 
 
-def check(texts_path, outdir, names=None, expect=None, show_windows=False, public=False, paid_ok=None):
+def too_big(text, article_words=None):
+    """Why TEXT may not go through the API (E218, E325), or None: half an article or more. With ARTICLE_WORDS (the
+    article's length) that is N/2 words or more, provided it is also past the warning size; without it, more than 3,000
+    words (card C07)."""
+    paras, words = _counts(text)
+    if article_words:
+        half = words * 2 >= article_words and (paras > MAX_PARAGRAPHS or words > MAX_WORDS)
+        why = 'half of an article of %d words or more' % article_words
+    else:
+        half = words > UNKNOWN_LENGTH_REFUSAL_WORDS
+        why = "more than %d words, and the article's length isn't known (give --article-words)" % UNKNOWN_LENGTH_REFUSAL_WORDS
+    if half:
+        return ('%d paragraphs, %d words: %s (Joel, E218: "not more than like 5-6 paras at a time in general (not half an  '
+                'article)"). Check it free in a temporary Substack draft and its secret preview link '
+                '(docs/PANGRAM-PRODUCTION-BUDGET-20261020.md; E325), or give --paid-ok with his words allowing this one'
+                % (paras, words, why))
+    return None
+
+
+def check(texts_path, outdir, names=None, expect=None, show_windows=False, public=False, paid_ok=None, article_words=None):
     texts = json.loads(pathlib.Path(texts_path).read_text(encoding='utf-8'))
-    big = {n: too_big(texts[n]) for n in (names or list(texts))}
+    for n in (names or list(texts)):
+        w = size_warning(texts[n])
+        if w:
+            print('NOTE %s: %s' % (n, w), file=sys.stderr)   # a note, not a refusal (rules audit 2026-11-28, card C07)
+    big = {n: too_big(texts[n], article_words) for n in (names or list(texts))}
     big = {n: why for n, why in big.items() if why}
     if big and not (paid_ok or '').strip():
         sys.exit('REFUSED, nothing sent:\n' + '\n'.join('  %s: %s' % (n, why) for n, why in big.items()))
@@ -183,12 +216,15 @@ def main():
     c.add_argument('--expect', help='stop after a result of another version (it is saved first)')
     c.add_argument('--windows', action='store_true', help="add each result's windows to its printed line")
     c.add_argument('--public', action='store_true', help="ask for a public Pangram page of each new result (its link is printed)")
-    c.add_argument('--paid-ok', help="Joel's words allowing a text bigger than six paragraphs or 1,200 words through the API "
-                   "(E218, E325); without them such a text is refused before anything is sent")
+    c.add_argument('--paid-ok', help="Joel's words allowing a text of half an article or more through the API (E218, E325); "
+                   "without them such a text is refused before anything is sent. More than six paragraphs or 1,200 words "
+                   "only warns")
+    c.add_argument('--article-words', type=int, help="the article's length in words, so half an article can be told; "
+                   "without it a text over 3,000 words is refused and one over six paragraphs or 1,200 words warns")
     a = ap.parse_args()
     if a.cmd == 'probe':
         sys.exit(0 if probe() else 1)
-    check(a.texts, a.outdir, a.names.split(',') if a.names else None, a.expect, a.windows, a.public, a.paid_ok)
+    check(a.texts, a.outdir, a.names.split(',') if a.names else None, a.expect, a.windows, a.public, a.paid_ok, a.article_words)
 
 
 if __name__ == '__main__':

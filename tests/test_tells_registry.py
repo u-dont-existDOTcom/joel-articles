@@ -109,10 +109,12 @@ class RegistryShape(unittest.TestCase):
         # out of their natural order, lines the section doesn't need) from his Two Pillars fix, his seventh-page answer of
         # 2026-11-24 02:06 UTC (romance-2026-11-24a); W134 (O79, a count spelled out) and J91 to J93 (a clause a reader
         # has to reread to see what its verbs hang from, a word used in a sense readers don't bring, an exact figure for a
-        # practice nobody could keep exactly) from his neuro de-armoring cards of 2026-11-27 22:59 UTC (neuro-2026-11-27s to v)
-        self.assertEqual(len(ids), 227)
+        # practice nobody could keep exactly) from his neuro de-armoring cards of 2026-11-27 22:59 UTC (neuro-2026-11-27s to v);
+        # W135 (O80, "one" where a person writes "a") and W136 (O81, "for the thing") from his rules-audit answers of 2026-11-28
+        # (cards C11 and C14)
+        self.assertEqual(len(ids), 229)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 134)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 136)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))
@@ -155,6 +157,11 @@ class RegistryAgreesWithTheLinter(unittest.TestCase):
                     self.skipTest(f'{need} is not installed')
                 out = lint(t['example'], t.get('source_text'))
                 self.assertIn(t['rule'], rule_ids(out), out[-1500:])
+                # the entry's level (rules audit 2026-11-28): a FAIL tell fails its example, a REVIEW tell never does
+                if t['level'] == 'FAIL':
+                    self.assertIn('verdict: FAIL', out, out[-1500:])
+                elif not re.search('[\u2018\u2019\u201c\u201d\u2014]', t['example']):   # O62 and O63 fail a curly mark or a dash
+                    self.assertNotIn('verdict: FAIL', out, out[-1500:])
 
 
 class CurlyQuotesMatchLikeStraightOnes(unittest.TestCase):
@@ -273,6 +280,141 @@ class TwoParentheticalsInARow(unittest.TestCase):
             r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f), '--owner', str(o)], capture_output=True, text=True)
         self.assertIn('verdict:', r.stdout, r.stderr[-600:])
         self.assertNotIn('O39', rule_ids(r.stdout))
+
+
+class RulesAudit20261128(unittest.TestCase):
+    """Rules audit 2026-11-28 (cards C11, C14, C22, C23, C24, approved): a word or shape Joel called overused is a REVIEW for a
+    reader; no count fails a draft by itself; a string tell with no words of his is a REVIEW; glosses in brackets are never
+    failed; his own removals ("one ordinary", "one honest action", "if it's safe", em dashes, curly quotes, "quietly") still fail."""
+
+    def verdict(self, text):
+        return re.search(r'verdict: (\w+)', lint(text)).group(1)
+
+    def assert_review_not_fail(self, text, rule):
+        out = lint(text)
+        self.assertIn(rule, rule_ids(out), out[-800:])
+        self.assertIn('verdict: REVIEW', out, out[-800:])
+        self.assertNotIn('verdict: FAIL', out)
+
+    def test_proof_and_prove_are_a_review(self):
+        # C11: "i think this is another high freq AI pattern to be aware of: "isn't proof of/doesn't prove""
+        for s in ("Presence of one of these alone isn't proof of abuse, but if several are present, they are worth a closer look.",
+                  'A bad trip does not prove that you are broken, and the barn roof is still leaking after the storm.',
+                  'The feeling is not proof that the plan was wrong, and the garden needs watering in the morning.',
+                  'It\'s not proof of anything, and the soup is on the stove for whoever comes by tonight.'):
+            with self.subTest(s=s[:40]):
+                self.assert_review_not_fail(s, 'O43')
+
+    def test_not_y_tail_and_it_meant_something_are_a_review(self):
+        self.assert_review_not_fail('The guide gives new members practical steps for their first month on the land, not just theory. '
+                                    'The steps came from the founders\' own mistakes in the early years.', 'O9')
+        self.assert_review_not_fail('He called it a long week, and it meant something to the whole group when the roof held up.', 'O43')
+
+    def test_one_small_thing_is_a_review_but_one_ordinary_and_one_honest_action_still_fail(self):
+        self.assert_review_not_fail('Do one small thing before the council meets, and let the rest of the list wait until spring.', 'O46')
+        for s, rule in (('When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes.', 'O46'),
+                        ('Choose one honest action for the rest of the day and leave the rest for later in the week.', 'O44')):
+            with self.subTest(rule=rule):
+                out = lint(s)
+                self.assertIn(rule, rule_ids(out))
+                self.assertIn('verdict: FAIL', out)
+
+    def test_x_does_not_y_says_change_it_by_default(self):
+        out = lint('The barn roof was patched in May. Urgency does not make a ladder safe, so we waited for the dry week.')
+        self.assertIn('X1', rule_ids(out))
+        self.assertIn('change it by default (Joel: "super ai"), keep it only where it is the clearest way to say it', out)
+        self.assertIn('verdict: REVIEW', out)
+
+    def test_history_cut_string_tells_are_a_review(self):
+        # C23: W105 to W112 have no words of his naming a phrase and no result behind them
+        for rule, s in (('O53', 'Ask them about it at the start. A good therapist or helpline won\'t mind.'),
+                        ('O54', 'One more thing about telling whether it helped. Say you slept better that week.'),
+                        ('O60', 'Take what helps from his retreat, not a recipe you have to follow.')):
+            with self.subTest(rule=rule):
+                self.assert_review_not_fail(s, rule)
+
+    def test_no_count_fails_a_draft_by_itself(self):
+        # C22: two contrast frames in a paragraph, "different" twice, three exclamations in a row, a list of three, coach phrases
+        # per 100 words, a run of short paragraph endings, two instruction paragraphs
+        self.assert_review_not_fail('A bad trip does not mean you are broken. It is a sign of overload rather than a verdict on you.', 'O69')
+        self.assert_review_not_fail('Grief is different from guilt, and fear is different from both, so the garden takes its time.', 'O70')
+        self.assert_review_not_fail('The council met in the barn. Wow! What a night! The soup was great! Then everyone went home.', 'S1')
+        self.assert_review_not_fail('The council handles the budget, the water rota, and the guest rooms for visitors. It meets in the barn.', 'E125')
+        coach = ('You can try this. You can also try that. You might want to start small. It helps to breathe. '
+                 'You can keep going. You might notice a change. It helps to rest. You can stop anytime.')
+        out = lint(coach)
+        self.assertIn('E41 coach register', out)
+        self.assertNotIn('HARD:', out)
+        self.assertNotIn('verdict: FAIL', out)
+        shorts = '\n\n'.join(['The council met in the barn after the harvest to sort out the guest policy. Midnight came and went.',
+                              'Our treasurer brought the numbers from the last three years of visitors. Grim reading.',
+                              'Afterward the cook made soup for everyone who stayed to finish the vote. Lentil, mostly.'])
+        out = lint(shorts)
+        self.assertIn('B7/B13 landings', out)
+        self.assertNotIn('verdict: FAIL', out)
+
+    def test_nothing_in_the_linter_still_prints_a_hard_line(self):
+        out = lint('The council met in the barn. Midnight came and went.\n\nOur treasurer read the numbers. Grim reading.\n\nThe cook made soup. Lentil, mostly.')
+        self.assertNotIn('HARD:', out)
+
+    def test_a_gloss_in_brackets_is_never_a_failure(self):
+        # C24: no bracket rule, no bracket count
+        s = ('Dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to). '
+             'Serotonin (the mood chemical) and cortisol (the stress hormone) get their own paragraphs further down the page.')
+        self.assertEqual(self.verdict(s).strip(), 'CLEAR', lint(s)[-600:])
+
+    def test_what_still_fails_on_his_own_words(self):
+        for s, rule in (('If it\'s safe, have them stand and walk a few steps to see if they keep their balance.', 'O72'),
+                        ('Somebody else is quietly paying the tax bill for the whole group every single spring.', 'O42'),
+                        ('The council met in the barn \u2014 and the soup ran out before the vote.', 'O63'),
+                        ('The fence isn\u2019t a wall, the barn is a promise to share the gate.', 'O62')):
+            with self.subTest(rule=rule):
+                out = lint(s)
+                self.assertIn(rule, rule_ids(out))
+                self.assertIn('verdict: FAIL', out)
+
+    def test_one_where_a_person_writes_a_is_a_review(self):
+        # C11, his note: "i often find AI using "one" where a human would use "a" ... "one time is too many" would still be "one time is too many""
+        for s in ('We painted one wall that spring and the roof held up fine through the whole winter.',
+                  'Pick one intense night to talk it through with the group before the harvest begins.'):
+            with self.subTest(s=s[:30]):
+                self.assertIn('O80', rule_ids(lint(s)))
+        out = lint('We painted one wall that spring and the roof held up fine through the whole winter.')
+        self.assertIn('use "a" if it reads better', out)
+        self.assertIn('verdict: REVIEW', out)
+
+    def test_one_stays_where_the_count_is_the_point(self):
+        for s in ('One time is too many, and we all know it by now in this house.',
+                  'Do one thing at a time and keep the water running while you work in the garden.',
+                  'Take it one by one with the group over the winter months, as the council agreed.',
+                  'It was the one place we all agreed to meet again after the harvest was in.',
+                  'There was no one idea behind the roof, and every house had its own opinion about it.',
+                  'The council asked for one more week to fix the pump before the guests arrive.',
+                  'She asked for one of the loaves, or two if the baker could spare them that morning.',
+                  'Each of us took one or two jars, which was more than any one house could carry home.',
+                  'He waited one time, then a second time, and then he went home at last.',
+                  'She said "one wall at a time" and left, so the quote is hers and not mine to change.',
+                  'Pay at least one rent and more than one deposit, said the notice on the barn door.'):
+            with self.subTest(s=s[:40]):
+                self.assertNotIn('O80', rule_ids(lint(s)))
+
+    def test_for_the_thing_is_a_review(self):
+        # C14, his note: "and btw "for the thing" is an ai tell"
+        for s in ('Nobody had the money for the thing we planned in spring, so the roof waited.',
+                  'The council kept a jar on the shelf, the thing for the guests who arrive after dark.'):
+            with self.subTest(s=s[:40]):
+                out = lint(s)
+                self.assertIn('O81', rule_ids(out))
+                self.assertIn('say what the thing is', out)
+                self.assertNotIn('verdict: FAIL', out)
+        self.assertNotIn('O81', rule_ids(lint('The thing is that the roof leaks, and nobody wants to pay for it this year.')))
+        self.assertNotIn('O81', rule_ids(lint('She said "for the thing" twice and then stopped talking at the meeting in the barn.')))
+
+    def test_every_mechanical_entry_names_its_level(self):
+        for t in TELLS:
+            if t['kind'] == 'mechanical':
+                with self.subTest(id=t['id']):
+                    self.assertIn(t.get('level'), ('FAIL', 'REVIEW'))
 
 
 if __name__ == '__main__':
