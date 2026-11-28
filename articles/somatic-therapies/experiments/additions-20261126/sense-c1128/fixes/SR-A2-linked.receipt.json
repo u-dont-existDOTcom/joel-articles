@@ -1,0 +1,85 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-28",
+ "text_sha256": "30492efb57b24ed3a3226b7816e4eb99687c18b7e9b962088faf82a93d48625c",
+ "text": "This therapy is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide. Instead of EMDR's mechanical approach, the Imagery Rescripting therapist is there with you as you explain the scene, and they step in as the ideal adult, protecting and nurturing your inner child. Then you learn to do that yourself. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+ "section": "Imagery Rescripting",
+ "reader": "an adult reading the somatic guide's memory therapies, deciding whether Imagery Rescripting is for them and how it differs from EMDR",
+ "sentences": [
+  {
+   "s": "This therapy is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide.",
+   "payoff": "they connect the therapy to the way of re-doing memories they may know from his inner child guide",
+   "follows": "it opens the section on what the therapy is like"
+  },
+  {
+   "s": "Instead of EMDR's mechanical approach, the Imagery Rescripting therapist is there with you as you explain the scene, and they step in as the ideal adult, protecting and nurturing your inner child.",
+   "payoff": "they learn what the therapist does, and how it differs from EMDR in the section before",
+   "follows": "it says how the therapy just compared works",
+   "link": "Instead of EMDR's"
+  },
+  {
+   "s": "Then you learn to do that yourself.",
+   "payoff": "they know it ends with them doing it",
+   "follows": "it says what comes after the therapist's part",
+   "link": "Then"
+  },
+  {
+   "s": "Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+   "payoff": "they know the same care as for EMDR applies",
+   "follows": "it sets the therapy beside EMDR again, for its risk",
+   "link": "Because"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Imagery Rescripting: the therapist intervenes in the imagined scene first, the patient's adult self later",
+   "found": "Boterhoven de Haan et al. 2020, British Journal of Psychiatry 217(5):609-615 (https://pubmed.ncbi.nlm.nih.gov/32892758/)",
+   "still_needed": "yes: they know what the therapy would ask of them and that it ends with them doing it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the first paragraph of Imagery Rescripting, live since 27 November; only its second sentence changes (a comma for the full stop after \"approach\")",
+ "opens": {
+  "first_sentence": "This therapy is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide.",
+  "why_reading": "they connect the therapy to the way of re-doing memories they may know from his inner child guide"
+ },
+ "same_point": "none: read the section from its heading to the next for what the therapy is like and does; each is said once",
+ "needed": {
+  "reader": "fresh readers (Fable, 2026-11-28): articles/somatic-therapies/experiments/additions-20261126/sense-c1128/out/ (the word-for-sense read: one fresh Fable reader, three planted errors, all found) and articles/somatic-therapies/experiments/additions-20261126/sense-c1128/READ-SR.md (a fresh Fable reader of the two fixes); nothing a reader needs is lost",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh Fable reader given tools/humanization/his_fixes_brief.md: articles/somatic-therapies/experiments/additions-20261126/sense-c1128/READ-SR.md",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same reader, given tools/humanization/fit_read_brief.md: articles/somatic-therapies/experiments/additions-20261126/sense-c1128/READ-SR.md",
+  "marked": [],
+  "kept": {}
+ },
+ "his_answer": [],
+ "questions": {
+  "Q1": "PASS: each sentence opens on what it is about (the therapy, the choice)",
+  "Q2": "PASS: start with one therapy by your own pain; ask where a therapist trained; track how it goes; stop when it's too much and ground yourself",
+  "Q3": "PASS: which therapy (named: \"EAET\", \"PRT\"), which therapist (the Imagery Rescripting therapist)",
+  "Q4": "PASS: the short forms were given where each therapy is named in the section",
+  "Q5": "PASS: each sentence ties to the one before (\"Instead of\", \"Then\", \"Because\", \"So\", \"also\")",
+  "Q6": "PASS: as the section has it",
+  "Q7": "PASS: each is for the reader of the section",
+  "Q8": "PASS: no groups",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

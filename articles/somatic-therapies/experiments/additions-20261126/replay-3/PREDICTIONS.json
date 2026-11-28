@@ -1,0 +1,38 @@
+{
+ "about": "The blind rewrite of the two paragraphs he fixed on card A1-TEACH-2 (REWRITES.md, a fresh Fable writer given BRIEF.md alone), each checked by itself in the Pangram web app (his account, the desktop app's browser pane). Predictions written before the checks: call and my chance of a 100% Human result.",
+ "written_utc": "2026-11-28 (turn of 09:44 UTC), before the checks",
+ "items": [
+  {
+   "key": "replay3-A1-P4",
+   "sha256": "579f99ce4a16a2107a9ecef2ec966a2ec1e9d13664a15dc7cfa7613e8bd9f3f3",
+   "words": 77,
+   "call": "Human",
+   "chance": 0.5,
+   "why": "the vague act is gone (a specific one, \"tells you out loud how they feel\", against \"sitting there neutral\") and the question is said as asked; the first sentence is draft 29's, which sat in a High window",
+   "result": {
+    "headline": "Human Written",
+    "ai": 0,
+    "windows": "Human, High, 80",
+    "utc": "09:57:02",
+    "link": "https://www.pangram.com/history/fd2d0237-6cea-4aa9-81d2-8ffb79b325ed"
+   },
+   "prediction_right": true
+  },
+  {
+   "key": "replay3-A1-P5",
+   "sha256": "e18576067a1523ea31005761bfea55c03effaad39a2a2f13c555e4504fdda2b6",
+   "words": 84,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "the opener keeps a pointer inside an aside (\"which all three of these therapies have them do\") and lists the three names at the booking step; the referent is named but the opening still doesn't lead in",
+   "result": {
+    "headline": "Human Written",
+    "ai": 0,
+    "windows": "Human, High, 89",
+    "utc": "09:57:12",
+    "link": "https://www.pangram.com/history/674c7eff-728e-471e-aa5c-ceb9393fca43"
+   },
+   "prediction_right": false
+  }
+ ]
+}

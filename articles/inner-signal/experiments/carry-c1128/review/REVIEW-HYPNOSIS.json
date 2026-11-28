@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "hypnosis-carry-cards-20261128",
+ "title": "Self-Hypnosis Guide, 28 November: the somatic and inner child additions, carried",
+ "intro": [
+  "Your Self-Hypnosis guide as it is live (25 November), with what is ready of the paragraphs that carry what went into your somatic and inner child guides on 27 and 28 November, each where it would go. Long stretches with no card fold into a box that opens. Nothing here is in the post yet.",
+  "One card now: the pointer to Imagery Rescripting, Human High. The other two, the pain therapies and the therapies for explaining feelings away, wait for Pangram: the account's monthly credits ran out this morning, with the pain pointer reading AI and the other not yet checked."
+ ],
+ "git_file": "articles/inner-signal/experiments/carry-c1128/review/REVIEW-HYPNOSIS.html",
+ "article": {
+  "file": "articles/inner-signal/experiments/carry-c1128/review/ARTICLE-HYPNOSIS.md",
+  "sha256": "a90a78b5976aa4ce025e24524033f4e357047a894b7bcb0b5d09848f88995edb"
+ },
+ "whole": {
+  "file": "articles/inner-signal/experiments/carry-c1128/LIVE-HYPNOSIS-20261128.md",
+  "sha256": "fc649e46fef4a3b429002d34fbefc2ab81bf8c61609833da111817ba24fe0285"
+ },
+ "built": "2026-11-28T10:12:32Z",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/carry-c1128/review/CARDS-HYPNOSIS.md"
+ },
+ "types": {
+  "addition": {
+   "label": "New paragraph",
+   "about": "A paragraph the guide doesn't have yet, shown where it would go."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SH1",
+   "type": "addition",
+   "advice": "approve",
+   "approve_label": "add it",
+   "title": "Do These With a Clinician: a pointer to Imagery Rescripting",
+   "inserts": [
+    {
+     "before": 20,
+     "kind": "p",
+     "text": "One bigger container is a clinical therapy called [Imagery Rescripting](https://ibogaqueen.substack.com/i/201523223/imagery-rescripting), which I go into in my somatic guide. It works a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide, where you imagine a painful memory going differently. In Imagery Rescripting, though, the therapist is in the scene with you, stepping in as the ideal adult who protects and nurtures your inner child until, over the sessions, you learn to be that adult yourself.",
+     "seq": 0
+    }
+   ],
+   "card_after": 19,
+   "what": "A paragraph of its own at the end of the section, after \"high-risk trauma work needs a bigger container than that\": one such container, Imagery Rescripting, linked to its section in your somatic guide; how it is like the way you re-do trauma memories in your inner child guide (linked), and how it differs, the therapist in the scene as the ideal adult until you can be that adult yourself. It carries the somatic guide's \"Imagery Rescripting\" and the inner child guide's pointer to it (both live since 27 November).",
+   "why": "Four fresh readers read it against the ways you fix sentences, for need, fit and contradictions, and every mark was acted on before the check ([the reads](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/carry-c1128/reads/READ-4.md)). It read [Human Written, one High window over all 80 words](https://www.pangram.com/history/b9d9f322-ed55-4c92-9edd-e8cf68bbb526), its first check.",
+   "reading": "[Human Written, 0% AI, one High window](https://www.pangram.com/history/b9d9f322-ed55-4c92-9edd-e8cf68bbb526).",
+   "tested": "By itself: [Human High, 80 words](https://www.pangram.com/history/b9d9f322-ed55-4c92-9edd-e8cf68bbb526).",
+   "stays": "Every paragraph of the section, its warnings about regression and memory included.",
+   "deciding": "Whether this section points to Imagery Rescripting, worded this way.",
+   "advice_note": "I'd add it: it reads Human High, it carries a section you approved into the guide that is built on it, and it keeps this section's line that memory work like this is done with a clinician.",
+   "ask_because": "meaning: it adds a paragraph to the Self-Hypnosis guide; and a fresh reader saw a tension: your inner child guide has you re-do memories on your own, and this section sends trauma-focused regression to a clinician (the pointer keeps the clinician side and names your way only as what the therapy is like)",
+   "found_by": "Fresh Fable reads against your fixes, for need, fit and contradictions; the check in your Pangram account, 28 November",
+   "receipt": [
+    "articles/inner-signal/experiments/carry-c1128/receipts/v5/SH1-linked.receipt.json"
+   ],
+   "after_quote": "But high-risk trauma work needs a bigger container than that."
+  }
+ ]
+}
