@@ -461,3 +461,36 @@ Put to him as v0.10.0 (an interface change: the design repository's skill first)
   answers only; the cards a player writes stay on their device.
 - Players' own cards are theirs, not the guide's: they carry no "why this card" from the article, and the official deck
   stays his to approve.
+
+## His answer of 2026-11-27 23:44 UTC: "yes" (v0.10.0, for his OK)
+
+Built as he approved it: love-honestly
+[pull request 3](https://github.com/u-dont-existDOTcom/love-honestly/pull/3) (branch `claude/v0.10.0-my-cards`, open,
+not merged until his OK), public/index.html SHA-256 `18fc9d32...096725`, built from v0.9.3 (kept as
+`versions/v0.9.3/index.html`) by `versions/v0.10.0/build.py`.
+[What changed](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.10.0-my-cards/versions/v0.10.0/CHANGES.md).
+
+- Setup: "Your own cards" (what the phone has, "Deal my cards first", "Write, change or hide cards"); a screen "Make
+  the game yours" (cards you wrote, cards you changed, every card of the game by topic, a file to move them); on every
+  card "Change or hide this card", applied from the next game; "Your card" / "Your wording" by a card's topic.
+- A game keeps the part of the phone's changes it can deal ("deck"), saved with the game; a game without changes is
+  dealt and coded exactly as v0.9.3 (900 games compared). Two phones: the link carries the deck; the code typed alone is
+  refused and says to open the link.
+- Different from the 22:53 notes above: the follow-up is needed (the game asks it on its own step); the labels are
+  "Reword it" and "Never deal it (again)".
+- Checked: build.py --check; check.mjs --mutants (9 of 9 breakages caught); browser-check.mjs 198 PASS in Chrome under
+  the production content policy, with the new screens at six widths and 200% zoom. Not run: scripts/verify.sh (this
+  session has the docker command but no Docker daemon).
+- The private page of this account ([Love, Honestly v0.10.0 (candidate)](https://claude.ai/artifact/C39zmPyB5wikLLbxKs4eU9))
+  republished; there "Save them to a file" does nothing (the artifact viewer never grants downloads). The file went to
+  him in chat.
+
+## His message of 2026-11-27 23:51 UTC (mid-turn): "oh, can we also update the interactive romance guide artifact"
+
+Not found as a Claude page of this account: the artifact list searched for romance, guide, interactive, love, advice,
+ask and relationship has the review pages and the game only. Nothing in joel-articles, love-honestly or innerself, the
+laptop's handoff notes, or this project's chats names one. The only interactive guide tied to the article is its first
+line, "Interactive [GPT guide-based convo](https://chatgpt.com/share/6a90990a-7e6c-83ea-b830-921083cdea62) here.", a
+ChatGPT shared chat in his ChatGPT account; on 2026-11-24 he called it "the AI interactive guide" and asked whether to
+combine it with the game in a Claude artifact (he then kept the game a private app). This session could not open the
+chat: the fetch waited on an approval nobody answered. Asked him which guide he means and how to update it.

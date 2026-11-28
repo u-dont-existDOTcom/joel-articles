@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-27
+Updated: 2026-11-28
 
 ## Goal
 
@@ -356,14 +356,22 @@ with his OK and no email.
   `r51/UPDATE-PLAN.json` (219 changed paragraphs, the reel after 149, his opening's video, 366's link, the typography
   swap), title and social title "Updated Nov 27, 2026"; its 441 paragraphs equal the plan's. Lessons
   romance-2026-11-27d and e.
+- 2026-11-27 (22:53 and 23:44 UTC, `humanize/fix-20261107/r40/CARD-GAME.md`): his question whether players can edit,
+  add or delete cards; his "yes" to the proposal. The game's v0.10.0 is built for his OK (love-honestly pull request 3,
+  open): players write, change and delete cards, reword or hide the game's cards, move them in a file, and on two
+  phones the link carries them; a game without changes is dealt as v0.9.3. Mid-turn (23:51 UTC) he asked to update
+  "the interactive romance guide artifact": no Claude page of that name on this account; the article's only
+  interactive guide is its first line's ChatGPT shared chat, which this session could not open. Asked him which.
 
 ## Next step
 
-Nothing waits on me. He deletes the two temporary drafts (A 223926381 and B 223926513; B has the reel pasted at its
-end, from making its embed). The live post is now the fixed version: any later change to the article starts from a
-fresh copy of the live post (`live-check/`), not from `whole/LIVE-INDEX.txt`, `LIVE-POST-BLOCKS-20261123.jsonl` or
-`whole/REPLACEMENTS.json`, which describe the post before r51. The game is live at v0.9.3; a new version goes the
-same way (love-honestly pull request, his OK, innerself vendoring, his go, Coolify through the tunnel).
+Two things wait on him: his OK on the game's v0.10.0 (love-honestly pull request 3; then innerself vendoring, his go,
+Coolify through the tunnel), and which interactive guide he means (the ChatGPT chat at the top of the post, or a page
+on his other account) and how to update it. He deletes the two temporary drafts (A 223926381 and B 223926513; B has
+the reel pasted at its end, from making its embed). The live post is now the fixed version: any later change to the
+article starts from a fresh copy of the live post (`live-check/`), not from `whole/LIVE-INDEX.txt`,
+`LIVE-POST-BLOCKS-20261123.jsonl` or `whole/REPLACEMENTS.json`, which describe the post before r51. The game is live at
+v0.9.3.
 
 From now on, a turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`).
 
