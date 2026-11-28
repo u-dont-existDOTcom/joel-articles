@@ -362,16 +362,19 @@ with his OK and no email.
   phones the link carries them; a game without changes is dealt as v0.9.3. Mid-turn (23:51 UTC) he asked to update
   "the interactive romance guide artifact": no Claude page of that name on this account; the article's only
   interactive guide is its first line's ChatGPT shared chat, which this session could not open. Asked him which.
+- 2026-11-28 (09:10 UTC, `humanize/fix-20261107/r40/CARD-GAME.md`): "ok  deploy the game". v0.10.0 merged
+  (love-honestly 392dd318), vendored into innerself (67ce3593) and deployed (Coolify `oovkaurzuzibqcvx6kc1hnwu`,
+  09:14 UTC); `/love-honestly/` is the build byte for byte, a written card and a two-phone link played live; recorded
+  in innerself's DEPLOYMENT.md and the sites registry.
 
 ## Next step
 
-Two things wait on him: his OK on the game's v0.10.0 (love-honestly pull request 3; then innerself vendoring, his go,
-Coolify through the tunnel), and which interactive guide he means (the ChatGPT chat at the top of the post, or a page
-on his other account) and how to update it. He deletes the two temporary drafts (A 223926381 and B 223926513; B has
-the reel pasted at its end, from making its embed). The live post is now the fixed version: any later change to the
-article starts from a fresh copy of the live post (`live-check/`), not from `whole/LIVE-INDEX.txt`,
+One thing waits on him: which interactive guide he means (the ChatGPT chat at the top of the post, or a page on his
+other account) and how to update it. He deletes the two temporary drafts (A 223926381 and B 223926513; B has the reel
+pasted at its end, from making its embed). The live post is now the fixed version: any later change to the article
+starts from a fresh copy of the live post (`live-check/`), not from `whole/LIVE-INDEX.txt`,
 `LIVE-POST-BLOCKS-20261123.jsonl` or `whole/REPLACEMENTS.json`, which describe the post before r51. The game is live at
-v0.9.3.
+v0.10.0 (rollback point: innerself 4f084198, v0.9.3).
 
 From now on, a turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`).
 

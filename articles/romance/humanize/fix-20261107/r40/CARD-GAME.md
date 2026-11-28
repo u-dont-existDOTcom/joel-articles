@@ -494,3 +494,19 @@ line, "Interactive [GPT guide-based convo](https://chatgpt.com/share/6a90990a-7e
 ChatGPT shared chat in his ChatGPT account; on 2026-11-24 he called it "the AI interactive guide" and asked whether to
 combine it with the game in a Claude artifact (he then kept the game a private app). This session could not open the
 chat: the fetch waited on an approval nobody answered. Asked him which guide he means and how to update it.
+
+## His message of 2026-11-28 09:10 UTC: "ok  deploy the game" (v0.10.0 live)
+
+- love-honestly [pull request 3](https://github.com/u-dont-existDOTcom/love-honestly/pull/3) merged on his OK (main
+  `392dd318`, public/index.html `18fc9d32...096725`).
+- innerself [pull request 6](https://github.com/u-dont-existDOTcom/innerself/pull/6) (`67ce3593`): v0.10.0 vendored
+  beside v0.9.3 and v0.5.4 (rollback); the transform, build, verifier and route inventory point at it; npm test passes.
+- Deployed: Coolify deployment `oovkaurzuzibqcvx6kc1hnwu` of innerself `67ce3593`, finished 09:14 UTC in 36 s, from the
+  browser pane (still signed in) through the SSH tunnel, which is closed again.
+- Live: `https://innerself.love/love-honestly/` is the build byte for byte (SHA-256 `4e1041cb...101721`), with the
+  game's content policy; the homepage unchanged (`c6bc88b4...`); the post's link (romancegame.loveyhuasca.info) still
+  reaches the game. On the live page: a card written, dealt first in a game for one with "Your card"; a game on two
+  phones sent as a link and joined from it, the same cards on both; the test data removed from the browser pane after.
+- Recorded: innerself `DEPLOYMENT.md` (its pull request 7; rollback point `4f084198`, v0.9.3) and the sites registry
+  (its pull request 5).
+- Still open: the other account's private page of the game is v0.9.1; his answer on the interactive guide (above).
