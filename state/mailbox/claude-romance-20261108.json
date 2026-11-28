@@ -1147,6 +1147,46 @@
     }
    ],
    "recorded_utc": "2026-11-28T09:11Z"
+  },
+  {
+   "turn": "2026-11-28T09:50Z",
+   "lines_of_work": [
+    "the romance article's contents and section links",
+    "the card game"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 3fce032 at this turn's start: unchanged; suggested-fixes lanes as before, each item in its ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 09:20 UTC: only this lane's #579 (merged); love-honestly, innerself, sites nothing new; no comments; during the turn the somatic lane's #581 merged to main (merged in before the push)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note's last change was this lane's own write of the 09:10 turn"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 09:50 UTC: ok i fixed the chat link; you didn't fix the ToC and do anchor links for mentioned sections? do that"
+    }
+   ],
+   "items": [
+    {
+     "item": "his chat link",
+     "outcome": "he fixed it himself in the post; read from the live post this turn, not touched"
+    },
+    {
+     "item": "ToC and section links",
+     "outcome": "done this turn: the 10 section mentions linked in the post (#§slug, 09:58 UTC, no email, Updated Nov 28) and catalogued in SECTION-LINKS.json with the 8 left unlinked on purpose; the contents tested (his 32/36/38 whole, Fable 39/40, final proposal 43/43 of 44 right first) and his picks page out (https://claude.ai/artifact/Fd4WAALfy9nJurVLZSBRS4); next: his picks, then one edit; the contents lane's promise 9 updated to point here"
+    }
+   ],
+   "recorded_utc": "2026-11-28T09:51Z"
   }
  ]
 }

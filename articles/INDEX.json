@@ -9462,6 +9462,311 @@
           "path": "articles/romance/humanize/fix-20261107/r51/RESULTS-whole-r50.json",
           "sha256": "6594f184973b3ab6abf85f440a3a4db1aa06e3e1a746910351c2a33c27c8a83d",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/SECTION-LINKS.json",
+          "sha256": "93599922040f707d37461d207a2d11a1b29c4fb5fac287c095f0f8bfcdfac33f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/ARTICLE-NOW.md",
+          "sha256": "c339721494d7023a6907baec762dc0cdfcabbfa13e7870c40e82f830bb21c4fb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/ARTICLE-SECTIONS.md",
+          "sha256": "87f2bc3fdfeaa6d81576dc954746db9acfbe9bf44f3e2782e1bc64522a2cfb51",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/BRIEF.md",
+          "sha256": "f4a5edad147c9e46e6f6da7fe08517e5750aaa512822f4446a4fb69395b92b8e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/CONTENTS-NOW.json",
+          "sha256": "6501fc71814ab5cd5bd920cd0d12cc306b1aa101a2aa903da9a16e47c057ec5f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/EXPECTED-REVIEWED.json",
+          "sha256": "a796c24e615a4dedc541a7c2c5e7dce688cf857da7cabb3306874206fb48f6a0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/EXPECTED.json",
+          "sha256": "4af12a4313d97b55d0f872330dd46246eb0698cd92724ddd798113ac23484ab4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/FABLE-TASK.md",
+          "sha256": "c6b5efeedcbddb5fc4bbb1efb1130ebf1da2c112cd8f600e9ac39f2e38c9e901",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/FATES-PICK3.json",
+          "sha256": "bce533c5bc97e651d308b78ad8c30ed01a7d3058e9e4d197a696f7406704e6e7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/KEY-REVIEW-BRIEF.md",
+          "sha256": "37da9922897360dcef712d5ad78e7c61cdc68898e42bb63dbb0e979150bce902",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LINES-FABLE.json",
+          "sha256": "a28667dfe9e6ec28f7c85a348d6aa4cedd98e16edcf897aaf5202f85fd2dc2e5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LINES-NOW.json",
+          "sha256": "a28667dfe9e6ec28f7c85a348d6aa4cedd98e16edcf897aaf5202f85fd2dc2e5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LINES-PICK.json",
+          "sha256": "731adb557a77b4544e49b000175dbc32de3fe9c6b8faa58930718d6602966071",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LINES-PICK2.json",
+          "sha256": "731adb557a77b4544e49b000175dbc32de3fe9c6b8faa58930718d6602966071",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LINES-PICK3.json",
+          "sha256": "731adb557a77b4544e49b000175dbc32de3fe9c6b8faa58930718d6602966071",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LINK-PLAN.json",
+          "sha256": "43a3724cee2bd9272a90c5521d3cba45fe5b21a963dc288b6272d3fdbc641406",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LIVE-BODY-20261128-after.html",
+          "sha256": "c47df8af8bba44dbfd3f54a55c117729e479ab00408d3246679fd5df735d128d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LIVE-BODY-20261128.html",
+          "sha256": "fa3b431eaa379f9b63b289ca83a45304adc2e87622c54312f3b4b650041dcf91",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/LIVE-POST-META.json",
+          "sha256": "eb61ad6eee60dbe9d24e70ee50146bc269496429779f9efd7c74a9a439787daf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PAGE-OPTIONS.json",
+          "sha256": "0a3595c08560bfdea280ec22db2edba82a20f0bf274aa334e33b708572fa9d6a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PICK-LINK-CHANGES.json",
+          "sha256": "8d78665220acc3666efcfb4ce6b70e6f640b0f23b583ee2a5a102ebd329b35a3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PICKS-PAGE.html",
+          "sha256": "b5ea715da2d164ce5432ea010287156ded375d080a93cd96f58c009d82425d27",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PROPOSAL-FABLE-NOTES.md",
+          "sha256": "62bfb791d07d4e9991611df09e7fb080193dc44d8ad239d84b85354fa9e78f41",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PROPOSAL-FABLE.json",
+          "sha256": "a4997ae994a9b093f39e7639c0a4670507cc85682ae6d11a2c093995180c88f3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PROPOSAL-PICK.json",
+          "sha256": "798e067decd8b2f12cf02c9ea5cceb3bca46d5bb53d724c69e58f44496d529c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PROPOSAL-PICK2.json",
+          "sha256": "19bd8f98387ebd8869479f764272de25b300258e1cc35f7bc3f1fbe7953dd97a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/PROPOSAL-PICK3.json",
+          "sha256": "75e49aafd3148c585234bbe5a7417a80dac3634fe90821ba04d68f312e0c9919",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/RESULTS.md",
+          "sha256": "364f6ac65208ad67fcca48af70a34b2660886b519b11f96f8acc6b2baa0d2501",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/RULES-CHECK-LESSONS.md",
+          "sha256": "33c4d2c510b372514688bdf780cd3f987b8326f90d4aa1be44e73bca583b963b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/SCORES.json",
+          "sha256": "8b5bf75a7fdde1cc03ad0ef655983394aab2a64671f886055d76beafec4d3d1f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/SECTION-LINKS-NOW.json",
+          "sha256": "8b8b674796d279f0eb1f243894522a605d9cb5521d4f688dcb6dfcaebf4178fa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/SECTION-REFS-NOW.txt",
+          "sha256": "4f24ff396235c8f20319e75066005b952940a33de01e8076f1fc8a358eb44311",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/SECTIONS.json",
+          "sha256": "d70cbe7c811663fe4d5339b3053f99790724812764b027ecea9ffe36e4de8f4e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/SITUATIONS-BRIEF.md",
+          "sha256": "ca56592e2f514ada18c09d7c6292e250c79d69dc18f61534a63594e0d888e018",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/SITUATIONS.md",
+          "sha256": "133b9e3df46e4287aec49a7a8a5094bf796acd55cf7aa1abd9f3b332cb5834ea",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TEXT-NO-HEADINGS.md",
+          "sha256": "f252898953b8662de3f9a34fd1fecfb762e2d1d1cf6391992b745df98836a15e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TOC-FABLE-SIDEBAR.md",
+          "sha256": "f8f4f4042b217081a1c3301c254d61638067d1ffaee61f809272519ab79c7f22",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TOC-NOW-FULL.md",
+          "sha256": "eafeb5c056f9da3ffe5fb78edfbbdae215d4f21be79fbd2b3a3e117f70a33231",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TOC-NOW-SIDEBAR.md",
+          "sha256": "64f91e1729c362bd63274f12fc23ea353195a36de355531f3666aa0afd1466a6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TOC-PICK-SIDEBAR.md",
+          "sha256": "1c7a4b3d9c1441120694814a0401c2d82655eed61b8475519acbd7b6f338dd63",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TOC-PICK2-SIDEBAR.md",
+          "sha256": "e866742b316b5db49efbb6d3a91762022e8e7426090119b04ad71557c4e09632",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/TOC-PICK3-SIDEBAR.md",
+          "sha256": "8fed6dc4eb5b347a34f5119466dd8dd15bbf8fb31920a40e9f37904cb1af256e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/apply_links.js",
+          "sha256": "c49124d2e3c516835cfa7c61b96fbff510ee91c985f4d5ab1ed6cdf79aff6514",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/make_article_md.py",
+          "sha256": "a4937a1f720f74d555094f1939a23864f5c03f9c8ad9e01997dba632e7d2ad79",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/make_files.py",
+          "sha256": "915affbdf4ae80c9ad9d8b29bda6f427f4a8f3e408561de909bd1cdc2de54952",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/make_page.py",
+          "sha256": "ce0801675b627a3bcf699dc684817f6cf9da1a3eb15323f469ef071010650ad0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/make_pick.py",
+          "sha256": "3cf09ff370a6f379cb0e6b31c31f2ceb9fd9e0b5a86933bef8ec4a70c4b30a58",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/make_results.py",
+          "sha256": "6c0704c4d84dda283d3eb75098a07c4135a413933350b8d1646fde67bd0b40b7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/make_toc.py",
+          "sha256": "31281e27abab8bf6413b312ae769cf4c4bebf7b57ab13ab9070cc2f13f68aba0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-FABLE-1.md",
+          "sha256": "6b96f9b12f602bff414f58e21662e8f0726aa8c87f711b259428cfbfe7a01454",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-FABLE-2.md",
+          "sha256": "192f0c0d757afec018fc73ba0f16be7899a8949536ebffd50a3813d032964e99",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-NOW-FULL-1.md",
+          "sha256": "563b0f42647f2687c35e96e288027a8bbef6ee00f393808635da4b89f93442d6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-NOW-SIDEBAR-1.md",
+          "sha256": "2bd0c77b4763144861281e814ba1b94f28202c9cc806b46cbf42614abba2ab96",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-NOW-SIDEBAR-2.md",
+          "sha256": "f04d216c5a5be8f3caa02719271007762863b49379888fa2932fd20feadd62b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-PICK-1.md",
+          "sha256": "d2931914f6fe6ad401428c1fb7c5ccaff6af139ed387ab9fb2a8a271c03f949e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-PICK-2.md",
+          "sha256": "d242c392640674349794c9e3bfdc5b72de607fd7a940d7e89bf93a20af8252c0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-PICK2-1.md",
+          "sha256": "1cbe2ddaefe18a80057b639cfa2b9cdfc09cd21a25020fc95262094f6af2ff4e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-PICK2-2.md",
+          "sha256": "e6e5dd5ec93564aeef776656659b5217ae7bcb991b8e118da46b40009d0a4b52",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-PICK3-1.md",
+          "sha256": "6662e4c557b4af2911be2d69cd998d2cfae1314a0a53b2037fce996f64c238ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/reads/READ-PICK3-2.md",
+          "sha256": "d1d8e3b5615b5334a53cf2b005ff7688eadee79e7c59ac7c2f59a78fd09e7cd2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/experiments/toc-20261128/score_reads.py",
+          "sha256": "e363fc77d6a128b3b1626559c5086da5624b9ebcc0c4c24df884050838e1d136",
+          "role": "humanization_working_record"
         }
       ]
     },
