@@ -23,7 +23,8 @@ range are REVIEW now; the old "HARD" lines are REVIEW flags); a string tell with
 a REVIEW (O53 to O60); glosses in brackets are never checked here (there is no bracket rule: E342's "never a bare (X)" and
 the "one per passage" count were never enforced by this file). Still FAIL, because his own words ask for removal: "one
 ordinary" (O46), "one honest action" (O44), "if it's safe" (O72), em dashes and curly quotes (O62, O63), and "quietly" unless
-it says how something sounds (O42). New REVIEW rules: O80 "one" where a person writes "a" (C11) and O81 "for the thing" (C14).
+it says how something sounds (O42). New REVIEW rules: O80 "one" where a person writes "a" (C11) and O81 "for the thing" (C14); on 2026-11-28 15:23
+UTC, O82 "straight into" (his message: emphasis added to sound human).
 A CLEAR only means no mechanical tells were found. The judgment checks
 (D2 disparity, A1 meaning and safety, referents) still have to be written by hand.
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
@@ -1456,6 +1457,12 @@ def main():
             # for", outside quotes, in a sentence of mine: a REVIEW, say what the thing is.
             if re.search(r"\bfor the thing\b|\bthe thing for\b", without_quotes(n), re.I):
                 flag('REVIEW', 'O81 "for the thing" (Joel 2026-11-28, rules audit card C14: "and btw "for the thing" is an ai tell"): say what the thing is', s)
+            # O82 (rule R-emphasis-only-where-called-for; Joel, 2026-11-28 15:23 UTC: "btw"straight into" is a high freq ai tell,
+            # sounds often like you're trying to sound human but straight into is emphatic, don't overuse emphasis to sound more
+            # human unless the context calls for more emphasis"): "straight into", outside quotes, in a sentence of mine: a
+            # REVIEW, keep it only where the context calls for that emphasis.
+            if re.search(r"\bstraight into\b", without_quotes(n), re.I):
+                flag('REVIEW', 'O82 "straight into" (Joel 2026-11-28: "straight into is emphatic, don\'t overuse emphasis to sound more human unless the context calls for more emphasis. it\'s not synonymous with "converted into""): keep it only where the context calls for emphasis; otherwise the accurate word', s)
             # O67 (E357; Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "removed spaces before "mg" and that helped a bit ...
             # don't think i've seen humans put spaces there")
             if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):

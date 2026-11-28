@@ -134,5 +134,33 @@ def main():
     print(len(items), 'cards; sha', sha[:12])
 
 
+
+def results(answers_file):
+    """OPEN-RESULTS.md: his answer and note on each open question, and the rule as it now stands in the tree."""
+    ans = json.loads((AUDIT / answers_file).read_text(encoding='utf-8'))
+    tree = json.loads((REPO / 'rules' / 'tree.json').read_text(encoding='utf-8'))
+    rules = {r['id']: r for b in tree['branches'] for g in b['groups'] for r in g['rules']}
+    md = ['# The rule tree\'s open questions: his answers', '',
+          'His answers: [the export of %s](%s) (%s), on [the questions](OPEN-QUESTIONS.md). Approve kept what the editor '
+          'did until he answered; each rule below is as it now stands in [the rule tree](%s).' % (
+              ans['exported_utc'][:16].replace('T', ' ') + ' UTC', answers_file,
+              ', '.join('%d %s' % (v, k) for k, v in ans['counts'].items()), VIEW), '']
+    for it in ans['items']:
+        r = rules.get(it['id'])
+        md += ['## %s' % (r['title'] if r else it['title']), '', '- **His answer:** %s' % it['status']]
+        if it.get('note'):
+            md.append('- **His note:** "%s"' % ' '.join(it['note'].split()))
+        if r:
+            md.append('- **The rule now:** ' + r['fields'].get('Rule', ''))
+            md.append('- **In the tree:** [%s](%s#%s)' % (r['title'], VIEW, it['id']))
+        md.append('')
+    (AUDIT / 'OPEN-RESULTS.md').write_text('\n'.join(md).rstrip('\n') + '\n', encoding='utf-8')
+    print('OPEN-RESULTS.md:', len(ans['items']), 'answers')
+
+
 if __name__ == '__main__':
-    main()
+    import sys as _sys
+    if len(_sys.argv) > 2 and _sys.argv[1] == '--results':
+        results(_sys.argv[2])
+    else:
+        main()
