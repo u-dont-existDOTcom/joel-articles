@@ -366,11 +366,27 @@ with his OK and no email.
   (love-honestly 392dd318), vendored into innerself (67ce3593) and deployed (Coolify `oovkaurzuzibqcvx6kc1hnwu`,
   09:14 UTC); `/love-honestly/` is the build byte for byte, a written card and a two-phone link played live; recorded
   in innerself's DEPLOYMENT.md and the sites registry.
+- 2026-11-28 (09:50 UTC, `experiments/toc-20261128/`): "ok i fixed the chat link, oh, you didn't fix the ToC and do
+  anchor links for mentioned sections? do that". The interactive-guide question is settled (he fixed the link himself).
+  Section links: the 10 mentions of other sections now link to them (`#§slug`, a click scrolls; in the post at 09:58 UTC
+  with no email, title and social title "Updated Nov 28, 2026"); every heading, link and the 8 mentions left unlinked on
+  purpose, each with why, are in `SECTION-LINKS.json` beside this file. Contents: the procedure of
+  `docs/FIXING-AN-ARTICLE.md` section 3 (44 situations from the text without headings, a key review, fresh readers on
+  his contents, Fable's and three proposals); 31 of his 71 headings are cut off in the sidebar and 2 only just fit. The
+  final proposal: right first 43 and 43 of 44 (his 32, 36, and 38 whole; Fable's 39 and 40), none cut off, every
+  repeat and hard heading with a fate (`FATES-PICK3.json`). His picks page (headings and 7 structure questions):
+  https://claude.ai/artifact/Fd4WAALfy9nJurVLZSBRS4 (database declared; `RESULTS.md` is its record). A test copy of the
+  page sits in his artifacts (could not be opened signed in from here); his to delete.
 
 ## Next step
 
-One thing waits on him: which interactive guide he means (the ChatGPT chat at the top of the post, or a page on his
-other account) and how to update it. He deletes the two temporary drafts (A 223926381 and B 223926513; B has the reel
+His picks on the contents page (https://claude.ai/artifact/Fd4WAALfy9nJurVLZSBRS4). Then: each pick through
+`section_links.py rename SECTION-LINKS.json ... --write` (7 links follow the final proposal's renames, one with new
+words: the last sentence of "Different levels in different domains can be complementary"), his answers to the 7
+questions (levels, the casual-sex answer, "Exclusive or Poly?", where "The Missing Middle" sits, the crisis paragraph,
+his phrases), the sentence fixes a renamed heading needs, a Pangram check of any text that moves or changes (sections
+in the web app; a moved section in the whole post the free way), the post's "Updated" date, no email, then the sidebar
+read on the live post. He deletes the two temporary drafts (A 223926381 and B 223926513; B has the reel
 pasted at its end, from making its embed). The live post is now the fixed version: any later change to the article
 starts from a fresh copy of the live post (`live-check/`), not from `whole/LIVE-INDEX.txt`,
 `LIVE-POST-BLOCKS-20261123.jsonl` or `whole/REPLACEMENTS.json`, which describe the post before r51. The game is live at

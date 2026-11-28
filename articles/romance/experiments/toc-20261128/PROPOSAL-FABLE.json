@@ -1,0 +1,561 @@
+[
+ {
+  "id": "S001",
+  "level": 1,
+  "heading": "Ask an AI About This Guide",
+  "was": "Interactive guide-based convo here.",
+  "kind": "renamed",
+  "why": "if it stays a heading: says what the link is; I'd make it a plain link (note 1)"
+ },
+ {
+  "id": "S002",
+  "level": 1,
+  "heading": "Try My Couples Card Game",
+  "was": "Try my Couples card game app based on the guide! (good for singles also!)",
+  "kind": "renamed",
+  "why": "if it stays a heading: the call to action, short; I'd make it a plain link and leave the opening without a heading (note 1)"
+ },
+ {
+  "id": "S003",
+  "level": 1,
+  "heading": "What We Mean by \"Love\" ❤️",
+  "was": "What we mean by \"love\" ❤️",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S004",
+  "level": 1,
+  "heading": "Talk Before You Make Love",
+  "was": "Talk about making love before you do it",
+  "kind": "renamed",
+  "why": "his heading is cut; same advice, shorter"
+ },
+ {
+  "id": "S005",
+  "level": 2,
+  "heading": "Affection and the Simmer",
+  "was": "Affection and the simmer",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S006",
+  "level": 2,
+  "heading": "Is Casual Sex Honest?",
+  "was": "Can Casual Sex or a Situationship Actually Be Honest?",
+  "kind": "renamed",
+  "why": "his is cut; situationships have their own heading on the next line"
+ },
+ {
+  "id": "S007",
+  "level": 3,
+  "heading": "Situationships",
+  "was": "Situationships",
+  "kind": "kept"
+ },
+ {
+  "id": "S008",
+  "level": 3,
+  "heading": "Labels Only Describe",
+  "was": "Labels Are Descriptive, Not Prescriptive",
+  "kind": "renamed",
+  "why": "his is cut; keeps his 'descriptive' point in three words"
+ },
+ {
+  "id": "S009",
+  "level": 1,
+  "heading": "Ready for a Relationship?",
+  "was": "Should you be in a relationship at all?",
+  "kind": "renamed",
+  "why": "his is cut; the reader's question, short"
+ },
+ {
+  "id": "S010",
+  "level": 3,
+  "heading": "Not Ready, but Lucky",
+  "was": "I wasn't ready, but I was lucky",
+  "kind": "renamed",
+  "why": "his is cut; same words, shorter"
+ },
+ {
+  "id": "S011",
+  "level": 3,
+  "heading": "Spirituality as an Escape",
+  "was": "Spirituality to bypass intimacy",
+  "kind": "renamed",
+  "why": "his is cut; the line above says what is escaped"
+ },
+ {
+  "id": "S012",
+  "level": 3,
+  "heading": "Practical Partnerships",
+  "was": "Practical partnerships",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S013",
+  "level": 4,
+  "heading": "Loved, or Just Useful?",
+  "was": "It always goes deeper",
+  "kind": "renamed",
+  "why": "'It always goes deeper' only makes sense after reading; this is the worry the section answers"
+ },
+ {
+  "id": "S014",
+  "level": 4,
+  "heading": "Beyond Sex Appeal",
+  "was": "And deeper is the point",
+  "kind": "renamed",
+  "why": "'And deeper is the point' leans on the heading before; names what the bond outlasts"
+ },
+ {
+  "id": "S015",
+  "level": 2,
+  "heading": "How to Find a Partner",
+  "was": "How to find a partner",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S016",
+  "level": 3,
+  "heading": "Long Distance",
+  "was": "Long distance",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S017",
+  "level": 3,
+  "heading": "Dating App Horror Show",
+  "was": "Dating App Horror Show",
+  "kind": "kept"
+ },
+ {
+  "id": "S018",
+  "level": 3,
+  "heading": "Meet in Community",
+  "was": "Community makes the match",
+  "kind": "renamed",
+  "why": "his is cut in title case; the advice as an imperative"
+ },
+ {
+  "id": "S019",
+  "level": 3,
+  "heading": "Between Interest and Sex",
+  "was": "The Missing Middle",
+  "kind": "renamed",
+  "why": "'The Missing Middle' doesn't say middle of what in the sidebar"
+ },
+ {
+  "id": "S020",
+  "level": 1,
+  "heading": "Starting on the Right Foot",
+  "was": "Starting on the right foot",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S021",
+  "level": 2,
+  "heading": "The Window of Clarity",
+  "was": "The window of clarity, and how it closes",
+  "kind": "renamed",
+  "why": "his is cut; keeps his coinage, drops the tail"
+ },
+ {
+  "id": "S022",
+  "level": 3,
+  "heading": "Are You Compatible?",
+  "was": "Peeking thru the window",
+  "kind": "renamed",
+  "why": "repeated 'window' under its parent; this is what the section says to find out"
+ },
+ {
+  "id": "S023",
+  "level": 3,
+  "heading": "Talk About Your Flaws",
+  "was": "The conversation about flaws",
+  "kind": "renamed",
+  "why": "shorter, and speaks to the reader"
+ },
+ {
+  "id": "S024",
+  "level": 4,
+  "heading": "My Own List",
+  "was": "My flaws",
+  "kind": "renamed",
+  "why": "'flaws' is on the line above; his own phrase from the first sentence"
+ },
+ {
+  "id": "S025",
+  "level": 2,
+  "heading": "Keep an Outside View",
+  "was": "Things get tricky fast",
+  "kind": "renamed",
+  "why": "'Things get tricky fast' doesn't say what gets tricky; names what the couple loses"
+ },
+ {
+  "id": "S026",
+  "level": 2,
+  "heading": "Beware Idealization",
+  "was": "Beware idealization in either direction",
+  "kind": "renamed",
+  "why": "his is cut; keeps his two main words"
+ },
+ {
+  "id": "S027",
+  "level": 3,
+  "heading": "Anti-PTSD Is Risky Too",
+  "was": "Anti-PTSD Can Be Just As Dangerous As PTSD",
+  "kind": "renamed",
+  "why": "his is cut; keeps the coinage and the point"
+ },
+ {
+  "id": "S028",
+  "level": 3,
+  "heading": "See Their Best, Then Ask",
+  "was": "Seeing idealization right",
+  "kind": "renamed",
+  "why": "repeated 'idealization' under its parent; names the practice"
+ },
+ {
+  "id": "S029",
+  "level": 2,
+  "heading": "If You Can't Go Slow",
+  "was": "If slow isn't realistic for you",
+  "kind": "renamed",
+  "why": "his is cut; same condition, to 'you'"
+ },
+ {
+  "id": "S030",
+  "level": 3,
+  "heading": "Birth Control for Men",
+  "was": "Just in case",
+  "kind": "renamed",
+  "why": "'Just in case' doesn't say what the section holds"
+ },
+ {
+  "id": "S031",
+  "level": 3,
+  "heading": "Wait to Move In Together",
+  "was": "Holding up a leaky dam",
+  "kind": "renamed",
+  "why": "the dam only makes sense after reading; this is the section's main advice"
+ },
+ {
+  "id": "S032",
+  "level": 3,
+  "heading": "What If the Sex Is Bad?",
+  "was": "Slow & steady may win the race, but turtles have problems too!",
+  "kind": "renamed",
+  "why": "his is cut; the question a reader who waits brings"
+ },
+ {
+  "id": "S033",
+  "level": 4,
+  "heading": "Sexual Fit Can Grow",
+  "was": "Slow & steady isn't KO'd yet",
+  "kind": "renamed",
+  "why": "the point as a statement, answering the line above"
+ },
+ {
+  "id": "S034",
+  "level": 1,
+  "heading": "The Relationship as Crucible",
+  "was": "The Relationship As Crucible",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S035",
+  "level": 3,
+  "heading": "Living Alone Is Easy",
+  "was": "From flow to nitty gritty",
+  "kind": "renamed",
+  "why": "the section's point, from its first words"
+ },
+ {
+  "id": "S036",
+  "level": 3,
+  "heading": "Reverting to Babyhood",
+  "was": "Reverting to babyhood",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S037",
+  "level": 3,
+  "heading": "Keep a Life of Your Own",
+  "was": "Don't make your partner your whole world",
+  "kind": "renamed",
+  "why": "positive, and fits"
+ },
+ {
+  "id": "S038",
+  "level": 4,
+  "heading": "Get Your Own Support",
+  "was": "Disconnect to connect",
+  "kind": "renamed",
+  "why": "'Disconnect to connect' doesn't say what to do; peer counseling and calming yourself"
+ },
+ {
+  "id": "S039",
+  "level": 3,
+  "heading": "Growing Up Again",
+  "was": "Babies growing up again",
+  "kind": "renamed",
+  "why": "'Babies' in the sidebar points to the Children section"
+ },
+ {
+  "id": "S040",
+  "level": 3,
+  "heading": "When One Is the Adult",
+  "was": "Some babies grow up faster",
+  "kind": "renamed",
+  "why": "same reason; names the unequal roles the section warns of"
+ },
+ {
+  "id": "S041",
+  "level": 3,
+  "heading": "Take Turns Teaching",
+  "was": "Different levels in different domains can be complementary",
+  "kind": "renamed",
+  "why": "his is cut; the practice it ends on"
+ },
+ {
+  "id": "S042",
+  "level": 1,
+  "heading": "Primal Attraction & Polarity",
+  "was": "Primal attraction: channeling the Divine Masculine & Feminine",
+  "kind": "renamed",
+  "why": "his is cut; keeps 'Primal Attraction', which the opening text names"
+ },
+ {
+  "id": "S043",
+  "level": 2,
+  "heading": "Muses & Directors",
+  "was": "Muses & Directors",
+  "kind": "kept"
+ },
+ {
+  "id": "S044",
+  "level": 2,
+  "heading": "His Desire, Her Desire",
+  "was": "Desire is expressed differently for men & women",
+  "kind": "renamed",
+  "why": "his is cut; short parallel phrasing"
+ },
+ {
+  "id": "S045",
+  "level": 2,
+  "heading": "Invite Roles, Don't Demand",
+  "was": "Romance Shouldn't Be Adjudicated",
+  "kind": "renamed",
+  "why": "his is cut; the section's advice, from its party-or-draft ending"
+ },
+ {
+  "id": "S046",
+  "level": 2,
+  "heading": "Fantasy",
+  "was": "Fantasy",
+  "kind": "kept"
+ },
+ {
+  "id": "S047",
+  "level": 2,
+  "heading": "The Queen of Orgasms",
+  "was": "The Queen of Orgasms",
+  "kind": "kept"
+ },
+ {
+  "id": "S048",
+  "level": 2,
+  "heading": "Sex as a Spiritual Practice?",
+  "was": "Can making love be a spiritual practice?",
+  "kind": "renamed",
+  "why": "his is cut; same question"
+ },
+ {
+  "id": "S049",
+  "level": 1,
+  "heading": "Twin Flames?",
+  "was": "Twin Flames?",
+  "kind": "kept"
+ },
+ {
+  "id": "S050",
+  "level": 2,
+  "heading": "What My Two Taught Me",
+  "was": "What two Twin Flames taught me",
+  "kind": "renamed",
+  "why": "'Twin Flames' is on the line above"
+ },
+ {
+  "id": "S051",
+  "level": 2,
+  "heading": "An Energy, Not a Person",
+  "was": "De-ontologizing Twin Flames FTW 💗",
+  "kind": "renamed",
+  "why": "'Twin Flames' is two lines above and 'de-ontologizing' is hard to parse; this is what it means"
+ },
+ {
+  "id": "S052",
+  "level": 1,
+  "heading": "A Couple Needs Community",
+  "was": "Two Pillars Don't Hold The Roof Up",
+  "kind": "renamed",
+  "why": "his is cut; the point in the reader's words ('Two Pillars Can't Hold a Roof' keeps his image but is tight)"
+ },
+ {
+  "id": "S053",
+  "level": 1,
+  "heading": "What Are You Choosing?",
+  "was": "What are you actually choosing together?",
+  "kind": "renamed",
+  "why": "his is cut; same question"
+ },
+ {
+  "id": "S054",
+  "level": 2,
+  "heading": "Which Vows Are Honest?",
+  "was": "Which marriage vows are honest?",
+  "kind": "renamed",
+  "why": "his is cut; 'marriage' is understood"
+ },
+ {
+  "id": "S055",
+  "level": 3,
+  "heading": "Is Monogamy Natural?",
+  "was": "Attraction and exclusivity",
+  "kind": "renamed",
+  "why": "the question the section answers"
+ },
+ {
+  "id": "S056",
+  "level": 3,
+  "heading": "Jealousy on Trial",
+  "was": "Jealousy on trial",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S057",
+  "level": 1,
+  "heading": "Loving Consciously 🧭",
+  "was": "Doing it consciously 🧭",
+  "kind": "renamed",
+  "why": "'Doing it' reads as sex in the sidebar; pairs with 'Ending Consciously'"
+ },
+ {
+  "id": "S058",
+  "level": 2,
+  "heading": "Imagine the Hard Parts Too",
+  "was": "Imagination as a discernment tool",
+  "kind": "renamed",
+  "why": "his is cut; the practice as an imperative"
+ },
+ {
+  "id": "S059",
+  "level": 2,
+  "heading": "Psychedelic Timing",
+  "was": "Psychedelic Timing",
+  "kind": "kept"
+ },
+ {
+  "id": "S060",
+  "level": 3,
+  "heading": "When You're Both Stuck",
+  "was": "Returning to the heart to get unstuck",
+  "kind": "renamed",
+  "why": "his is cut; the situation where they help"
+ },
+ {
+  "id": "S061",
+  "level": 3,
+  "heading": "Measuring the Benefits",
+  "was": "Measuring the benefits",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S062",
+  "level": 2,
+  "heading": "\"This Sounds Artificial\"",
+  "was": "Why all of this sounds artificial",
+  "kind": "renamed",
+  "why": "his is cut; the reader's objection, in quote marks"
+ },
+ {
+  "id": "S063",
+  "level": 1,
+  "heading": "If You're Already Together",
+  "was": "If you're already in it",
+  "kind": "renamed",
+  "why": "'in it' doesn't say in what"
+ },
+ {
+  "id": "S064",
+  "level": 2,
+  "heading": "Get Outside Help Early",
+  "was": "Outside help can sometimes break the loop fast",
+  "kind": "renamed",
+  "why": "his is cut; the advice as an imperative"
+ },
+ {
+  "id": "S065",
+  "level": 2,
+  "heading": "What Will Honesty Do?",
+  "was": "What will honesty produce?",
+  "kind": "renamed",
+  "why": "his is tight in title case; same question"
+ },
+ {
+  "id": "S066",
+  "level": 1,
+  "heading": "Children",
+  "was": "Children",
+  "kind": "kept"
+ },
+ {
+  "id": "S067",
+  "level": 1,
+  "heading": "Ending Consciously",
+  "was": "Ending consciously",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S068",
+  "level": 3,
+  "heading": "When Memories Clash",
+  "was": "Gaslighting in the dark",
+  "kind": "renamed",
+  "why": "'Gaslighting' points to deliberate abuse; the section is about memories that can't be reconciled"
+ },
+ {
+  "id": "S069",
+  "level": 2,
+  "heading": "After Leaving",
+  "was": "After leaving",
+  "kind": "renamed",
+  "why": "title case only"
+ },
+ {
+  "id": "S070",
+  "level": 2,
+  "heading": "What Loss Taught Me",
+  "was": "What I gained from loss",
+  "kind": "renamed",
+  "why": "'gained' can read as money; shorter"
+ },
+ {
+  "id": "S071",
+  "level": 1,
+  "heading": "Tough Love",
+  "was": "Tough Love",
+  "kind": "kept"
+ }
+]

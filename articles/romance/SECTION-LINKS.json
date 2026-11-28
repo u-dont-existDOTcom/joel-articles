@@ -1,0 +1,459 @@
+{
+ "post": {
+  "base": "https://ibogaqueen.substack.com",
+  "id": "197034035",
+  "title": "Romance Advice I Wish My Parents Taught Me"
+ },
+ "source": "Built 2026-11-28 from the live post after the section links went in (09:58 UTC; experiments/toc-20261128/LINK-PLAN.json): headings and anchors as section_links.py makes them, each anchor read from the live page that day (all 71 agree); the links read from the post; the mentions left unlinked on purpose from the plan, with the reason",
+ "headings": [
+  {
+   "level": 1,
+   "text": "Interactive guide-based convo here.",
+   "anchor": "interactive-guide-based-convo-here"
+  },
+  {
+   "level": 1,
+   "text": "Try my Couples card game app based on the guide! (good for singles also!)",
+   "anchor": "try-my-couples-card-game-app-based-on-the-guide-good-for-singles-also"
+  },
+  {
+   "level": 1,
+   "text": "What we mean by \"love\" ❤️",
+   "anchor": "what-we-mean-by-love"
+  },
+  {
+   "level": 1,
+   "text": "Talk about making love before you do it",
+   "anchor": "talk-about-making-love-before-you-do-it"
+  },
+  {
+   "level": 2,
+   "text": "Affection and the simmer",
+   "anchor": "affection-and-the-simmer"
+  },
+  {
+   "level": 2,
+   "text": "Can Casual Sex or a Situationship Actually Be Honest?",
+   "anchor": "can-casual-sex-or-a-situationship-actually-be-honest"
+  },
+  {
+   "level": 3,
+   "text": "Situationships",
+   "anchor": "situationships"
+  },
+  {
+   "level": 3,
+   "text": "Labels Are Descriptive, Not Prescriptive",
+   "anchor": "labels-are-descriptive-not-prescriptive"
+  },
+  {
+   "level": 1,
+   "text": "Should you be in a relationship at all?",
+   "anchor": "should-you-be-in-a-relationship-at-all"
+  },
+  {
+   "level": 3,
+   "text": "I wasn't ready, but I was lucky",
+   "anchor": "i-wasnt-ready-but-i-was-lucky"
+  },
+  {
+   "level": 3,
+   "text": "Spirituality to bypass intimacy",
+   "anchor": "spirituality-to-bypass-intimacy"
+  },
+  {
+   "level": 3,
+   "text": "Practical partnerships",
+   "anchor": "practical-partnerships"
+  },
+  {
+   "level": 4,
+   "text": "It always goes deeper",
+   "anchor": "it-always-goes-deeper"
+  },
+  {
+   "level": 4,
+   "text": "And deeper is the point",
+   "anchor": "and-deeper-is-the-point"
+  },
+  {
+   "level": 2,
+   "text": "How to find a partner",
+   "anchor": "how-to-find-a-partner"
+  },
+  {
+   "level": 3,
+   "text": "Long distance",
+   "anchor": "long-distance"
+  },
+  {
+   "level": 3,
+   "text": "Dating App Horror Show",
+   "anchor": "dating-app-horror-show"
+  },
+  {
+   "level": 3,
+   "text": "Community makes the match",
+   "anchor": "community-makes-the-match"
+  },
+  {
+   "level": 3,
+   "text": "The Missing Middle",
+   "anchor": "the-missing-middle"
+  },
+  {
+   "level": 1,
+   "text": "Starting on the right foot",
+   "anchor": "starting-on-the-right-foot"
+  },
+  {
+   "level": 2,
+   "text": "The window of clarity, and how it closes",
+   "anchor": "the-window-of-clarity-and-how-it-closes"
+  },
+  {
+   "level": 3,
+   "text": "Peeking thru the window",
+   "anchor": "peeking-thru-the-window"
+  },
+  {
+   "level": 3,
+   "text": "The conversation about flaws",
+   "anchor": "the-conversation-about-flaws"
+  },
+  {
+   "level": 4,
+   "text": "My flaws",
+   "anchor": "my-flaws"
+  },
+  {
+   "level": 2,
+   "text": "Things get tricky fast",
+   "anchor": "things-get-tricky-fast"
+  },
+  {
+   "level": 2,
+   "text": "Beware idealization in either direction",
+   "anchor": "beware-idealization-in-either-direction"
+  },
+  {
+   "level": 3,
+   "text": "Anti-PTSD Can Be Just As Dangerous As PTSD",
+   "anchor": "anti-ptsd-can-be-just-as-dangerous-as-ptsd"
+  },
+  {
+   "level": 3,
+   "text": "Seeing idealization right",
+   "anchor": "seeing-idealization-right"
+  },
+  {
+   "level": 2,
+   "text": "If slow isn't realistic for you",
+   "anchor": "if-slow-isnt-realistic-for-you"
+  },
+  {
+   "level": 3,
+   "text": "Just in case",
+   "anchor": "just-in-case"
+  },
+  {
+   "level": 3,
+   "text": "Holding up a leaky dam",
+   "anchor": "holding-up-a-leaky-dam"
+  },
+  {
+   "level": 3,
+   "text": "Slow & steady may win the race, but turtles have problems too!",
+   "anchor": "slow-and-steady-may-win-the-race-but-turtles-have-problems-too"
+  },
+  {
+   "level": 4,
+   "text": "Slow & steady isn't KO'd yet",
+   "anchor": "slow-and-steady-isnt-kod-yet"
+  },
+  {
+   "level": 1,
+   "text": "The Relationship As Crucible",
+   "anchor": "the-relationship-as-crucible"
+  },
+  {
+   "level": 3,
+   "text": "From flow to nitty gritty",
+   "anchor": "from-flow-to-nitty-gritty"
+  },
+  {
+   "level": 3,
+   "text": "Reverting to babyhood",
+   "anchor": "reverting-to-babyhood"
+  },
+  {
+   "level": 3,
+   "text": "Don't make your partner your whole world",
+   "anchor": "dont-make-your-partner-your-whole-world"
+  },
+  {
+   "level": 4,
+   "text": "Disconnect to connect",
+   "anchor": "disconnect-to-connect"
+  },
+  {
+   "level": 3,
+   "text": "Babies growing up again",
+   "anchor": "babies-growing-up-again"
+  },
+  {
+   "level": 3,
+   "text": "Some babies grow up faster",
+   "anchor": "some-babies-grow-up-faster"
+  },
+  {
+   "level": 3,
+   "text": "Different levels in different domains can be complementary",
+   "anchor": "different-levels-in-different-domains-can-be-complementary"
+  },
+  {
+   "level": 1,
+   "text": "Primal attraction: channeling the Divine Masculine & Feminine",
+   "anchor": "primal-attraction-channeling-the-divine-masculine-and-feminine"
+  },
+  {
+   "level": 2,
+   "text": "Muses & Directors",
+   "anchor": "muses-and-directors"
+  },
+  {
+   "level": 2,
+   "text": "Desire is expressed differently for men & women",
+   "anchor": "desire-is-expressed-differently-for-men-and-women"
+  },
+  {
+   "level": 2,
+   "text": "Romance Shouldn't Be Adjudicated",
+   "anchor": "romance-shouldnt-be-adjudicated"
+  },
+  {
+   "level": 2,
+   "text": "Fantasy",
+   "anchor": "fantasy"
+  },
+  {
+   "level": 2,
+   "text": "The Queen of Orgasms",
+   "anchor": "the-queen-of-orgasms"
+  },
+  {
+   "level": 2,
+   "text": "Can making love be a spiritual practice?",
+   "anchor": "can-making-love-be-a-spiritual-practice"
+  },
+  {
+   "level": 1,
+   "text": "Twin Flames?",
+   "anchor": "twin-flames"
+  },
+  {
+   "level": 2,
+   "text": "What two Twin Flames taught me",
+   "anchor": "what-two-twin-flames-taught-me"
+  },
+  {
+   "level": 2,
+   "text": "De-ontologizing Twin Flames FTW 💗",
+   "anchor": "de-ontologizing-twin-flames-ftw"
+  },
+  {
+   "level": 1,
+   "text": "Two Pillars Don't Hold The Roof Up",
+   "anchor": "two-pillars-dont-hold-the-roof-up"
+  },
+  {
+   "level": 1,
+   "text": "What are you actually choosing together?",
+   "anchor": "what-are-you-actually-choosing-together"
+  },
+  {
+   "level": 2,
+   "text": "Which marriage vows are honest?",
+   "anchor": "which-marriage-vows-are-honest"
+  },
+  {
+   "level": 3,
+   "text": "Attraction and exclusivity",
+   "anchor": "attraction-and-exclusivity"
+  },
+  {
+   "level": 3,
+   "text": "Jealousy on trial",
+   "anchor": "jealousy-on-trial"
+  },
+  {
+   "level": 1,
+   "text": "Doing it consciously 🧭",
+   "anchor": "doing-it-consciously"
+  },
+  {
+   "level": 2,
+   "text": "Imagination as a discernment tool",
+   "anchor": "imagination-as-a-discernment-tool"
+  },
+  {
+   "level": 2,
+   "text": "Psychedelic Timing",
+   "anchor": "psychedelic-timing"
+  },
+  {
+   "level": 3,
+   "text": "Returning to the heart to get unstuck",
+   "anchor": "returning-to-the-heart-to-get-unstuck"
+  },
+  {
+   "level": 3,
+   "text": "Measuring the benefits",
+   "anchor": "measuring-the-benefits"
+  },
+  {
+   "level": 2,
+   "text": "Why all of this sounds artificial",
+   "anchor": "why-all-of-this-sounds-artificial"
+  },
+  {
+   "level": 1,
+   "text": "If you're already in it",
+   "anchor": "if-youre-already-in-it"
+  },
+  {
+   "level": 2,
+   "text": "Outside help can sometimes break the loop fast",
+   "anchor": "outside-help-can-sometimes-break-the-loop-fast"
+  },
+  {
+   "level": 2,
+   "text": "What will honesty produce?",
+   "anchor": "what-will-honesty-produce"
+  },
+  {
+   "level": 1,
+   "text": "Children",
+   "anchor": "children"
+  },
+  {
+   "level": 1,
+   "text": "Ending consciously",
+   "anchor": "ending-consciously"
+  },
+  {
+   "level": 3,
+   "text": "Gaslighting in the dark",
+   "anchor": "gaslighting-in-the-dark"
+  },
+  {
+   "level": 2,
+   "text": "After leaving",
+   "anchor": "after-leaving"
+  },
+  {
+   "level": 2,
+   "text": "What I gained from loss",
+   "anchor": "what-i-gained-from-loss"
+  },
+  {
+   "level": 1,
+   "text": "Tough Love",
+   "anchor": "tough-love"
+  }
+ ],
+ "links": [
+  {
+   "in": "Try my Couples card game app based on the guide! (good for singles also!)",
+   "text": "Primal Attraction section",
+   "href": "#§primal-attraction-channeling-the-divine-masculine-and-feminine"
+  },
+  {
+   "in": "Anti-PTSD Can Be Just As Dangerous As PTSD",
+   "text": "forest-and-mansion line",
+   "href": "#§it-always-goes-deeper"
+  },
+  {
+   "in": "Seeing idealization right",
+   "text": "Twin Flames section",
+   "href": "#§twin-flames"
+  },
+  {
+   "in": "Reverting to babyhood",
+   "text": "As mentioned with Bee",
+   "href": "#§anti-ptsd-can-be-just-as-dangerous-as-ptsd"
+  },
+  {
+   "in": "Different levels in different domains can be complementary",
+   "text": "masculine–feminine polarity",
+   "href": "#§primal-attraction-channeling-the-divine-masculine-and-feminine"
+  },
+  {
+   "in": "Different levels in different domains can be complementary",
+   "text": "Twin Flames",
+   "href": "#§twin-flames"
+  },
+  {
+   "in": "Different levels in different domains can be complementary",
+   "text": "Two Pillars Don't Hold The Roof Up",
+   "href": "#§two-pillars-dont-hold-the-roof-up"
+  },
+  {
+   "in": "Twin Flames?",
+   "text": "divine feminine and divine masculine energies",
+   "href": "#§primal-attraction-channeling-the-divine-masculine-and-feminine"
+  },
+  {
+   "in": "De-ontologizing Twin Flames FTW 💗",
+   "text": "Seeing idealization right",
+   "href": "#§seeing-idealization-right"
+  },
+  {
+   "in": "Jealousy on trial",
+   "text": "college friend with four girlfriends",
+   "href": "#§labels-are-descriptive-not-prescriptive"
+  }
+ ],
+ "unlinked_on_purpose": [
+  {
+   "in": "Labels Are Descriptive, Not Prescriptive",
+   "text": "after leaving",
+   "why": "Martin Winiecki wrote about it after leaving Tamera: the words are not about the section \"After leaving\""
+  },
+  {
+   "in": "The Missing Middle",
+   "text": "the missing middle",
+   "why": "said inside the section it names"
+  },
+  {
+   "in": "Beware idealization in either direction",
+   "text": "\"We're twin flames!\"",
+   "why": "a line people say, quoted, not a pointer to the section"
+  },
+  {
+   "in": "Twin Flames?",
+   "text": "Twin Flames (TFs)",
+   "why": "said inside the section it names"
+  },
+  {
+   "in": "What two Twin Flames taught me",
+   "text": "de-ontologizing Twin Flames",
+   "why": "the next section's idea, named one paragraph before it starts"
+  },
+  {
+   "in": "Primal attraction: channeling the Divine Masculine & Feminine",
+   "text": "this Red Pill \"man-o-sphere\" video above",
+   "why": "points to the video embedded above, not to a section"
+  },
+  {
+   "in": "Jealousy on trial",
+   "text": "the above video I found on IG",
+   "why": "points to the video embedded above (already linked to Instagram), not to a section"
+  },
+  {
+   "in": "Psychedelic Timing",
+   "text": "This section",
+   "why": "the section itself"
+  }
+ ]
+}
