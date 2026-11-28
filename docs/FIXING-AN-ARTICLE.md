@@ -4,6 +4,8 @@
 
 This page is for any worker Joel asks to fix an article: GPT, Codex or Claude. It gives the order the Inner Child lane works in, and the checks that caught what earlier passes missed. The detailed rules stay where they are (`docs/INDEX.md` lists them); this page says when each one comes in. Where it and a gate disagree, the gate wins, and the gap goes to Joel's questions page.
 
+**Since 2026-11-28 the rule tree holds (`rules/TREE.md`; Joel: "you should have some kind of rule tree"; rules audit of 2026-11-27).** Where this file disagrees with the tree, the tree holds. Since the audit, the tools no longer refuse what the tree makes a judgment: a missing making-sense receipt, a card's "ask_because" prefix (a plain reason does), an entry of my own reading on the keep-as-is list, a near miss changed by more than a word or two, the first-fix declaration, the tell panel after two AI reads, and the six-try budget; they print a note instead. This page stays the working order; each rule it states is in the tree.
+
 ## 1. Before changing anything
 
 1. **Save Joel's message first, word for word,** in the article's `experiments/tNN-answers/` folder, with any screenshot he sent. Everything later quotes it.

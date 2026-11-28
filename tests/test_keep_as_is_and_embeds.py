@@ -109,6 +109,80 @@ class KeepAsIs(unittest.TestCase):
         self.assertFalse(any(p.startswith('A2b') for p in probs))
         self.assertTrue(any(p.startswith('P11: puts back') for p in probs), probs)
 
+    def guess_ledger(self):
+        """K1 (the joke) recorded as my own reading; K2 and the cut X1 stay his answer."""
+        led = json.loads(json.dumps(LEDGER))
+        led['keep'][0]['basis'] = 'my reading, not asked'
+        (self.d / K.FILE).write_text(json.dumps(led, ensure_ascii=False), encoding='utf-8')
+        return K.load(self.d / 'a.md')
+
+    def test_guess_reads_the_basis(self):
+        for basis in ('my reading, not asked', 'My reading, not asked', 'my guess', 'not asked: my reading'):
+            self.assertTrue(K.guess({'basis': basis}), basis)
+        for basis in ('his answer', 'his approval of a card that kept it', 'his answer, read as (a): he picked neither',
+                      'his answer, not asked again', ''):
+            self.assertFalse(K.guess({'basis': basis}), basis)
+        # every entry in the repo's lists reads as before: only the "my reading, not asked" ones are guesses
+        for f in (ROOT / 'articles').rglob(K.FILE):
+            for e in json.loads(f.read_text(encoding='utf-8')).get('keep', []):
+                self.assertEqual(K.guess(e), e.get('basis') == 'my reading, not asked', (f, e.get('id')))
+
+    def test_a_card_on_words_that_are_my_reading_gets_a_note_not_a_refusal(self):
+        """Rules audit 2026-11-28, card C12 (approved): "Only what you said stays goes on the keep-as-is list and blocks a
+        card; the editor's guesses are notes." His own entries still refuse a card that changes them."""
+        led = self.guess_ledger()
+        bl = R.blocks(ARTICLE)
+        texts = [b['text'] for b in bl]
+        i = next(k for k, b in enumerate(bl) if 'Lao Tsu' in b['text'])
+        s = bl[i]['text'].index('Lao Tsu')
+        j = next(k for k, b in enumerate(bl) if 'boundary' in b['text'])
+        on_guess = {'id': 'A2', 'type': 'ask', 'title': 't', 'advice': 'ask', 'question': 'q?', 'why': 'w',
+                    'spans': [{'block': i, 'start': s, 'end': s + 7}]}
+        self.assertEqual(K.card_problems(on_guess, texts, led), [])
+        notes = K.card_notes(on_guess, texts, led)
+        self.assertEqual(len(notes), 1)
+        self.assertTrue(notes[0].startswith('A2: highlights "Lao Tsu"') and 'my reading, not asked' in notes[0], notes)
+        on_his = {'id': 'V1', 'type': 'ask', 'title': 't', 'advice': 'approve', 'what': 'w', 'why': 'w', 'stays': 's',
+                  'deciding': 'd', 'spans': [{'block': j, 'start': 0, 'end': 4}],
+                  'edits': [{'block': j, 'before': bl[j]['text'],
+                             'after': bl[j]['text'].replace('I might be asking', 'you might be asking')}]}
+        self.assertTrue(any(p.startswith('V1: changes') for p in K.card_problems(on_his, texts, led)))
+        self.assertEqual(K.card_notes(on_his, texts, led), [])
+        review = {'format': R.FORMAT, 'article': {'file': str(self.d / 'a.md')}, 'types': {'ask': {'label': 'Ask'}},
+                  'suggestions': [on_guess, on_his]}
+        probs = [p for p in R.check(review, bl) if 'Joel' in p or 'my reading' in p]
+        self.assertFalse(any(p.startswith('A2') for p in probs), probs)
+        self.assertTrue(any(p.startswith('V1: changes') for p in probs), probs)
+        self.assertEqual([n.split(':')[0] for n in R.notes(review, bl)], ['A2'])
+        # a card that says why it touches them after all has neither
+        self.assertEqual(K.card_notes(dict(on_guess, keep_ack='he asked to name Sun Tzu after all'), texts, led), [])
+
+    def test_try_and_check_note_my_readings_and_fail_his(self):
+        import contextlib
+        import io
+        self.guess_ledger()
+        a = str(self.d / 'a.md')
+        old = 'As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), know the terrain.'
+        (self.d / 'old.txt').write_text(old, encoding='utf-8')
+        (self.d / 'new.txt').write_text('As Sun Tzu said, know the terrain.', encoding='utf-8')
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(K.main(['try', a, str(self.d / 'old.txt'), str(self.d / 'new.txt')]), 0)
+        self.assertIn('NOTE GONE K1', out.getvalue())
+        self.assertTrue(out.getvalue().strip().splitlines()[-1].startswith('rewrite: 0 kept quote(s) gone'))
+        # the article loses the joke (my reading) and gets a cut of his back: only the cut fails
+        md = ARTICLE.replace('As Lao Tsu', 'As Sun Tzu')
+        (self.d / 'a.md').write_text(md, encoding='utf-8')
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(K.main(['check', a]), 0)
+        last = out.getvalue().strip().splitlines()[-1]
+        self.assertIn('NOTE GONE K1', out.getvalue())
+        self.assertTrue(' 0 gone' in last and '0 ledger problems' in last, last)   # what scripts read
+        (self.d / 'a.md').write_text(md + '\nIt’s four pairs, starting with pleasure and pain, and more.\n', encoding='utf-8')
+        with contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(K.main(['check', a]), 1)
+
     def test_a_highlight_next_to_kept_words_passes(self):
         bl = R.blocks(ARTICLE)
         j = next(k for k, b in enumerate(bl) if 'boundary' in b['text'])

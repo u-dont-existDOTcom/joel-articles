@@ -1,5 +1,7 @@
 # The making-sense read
 
+**Since 2026-11-28 the rule tree holds (`rules/TREE.md`; Joel: "you should have some kind of rule tree"; rules audit of 2026-11-27).** Where this file disagrees with the tree, the tree holds. Since the audit, the tools no longer refuse what the tree makes a judgment: a missing making-sense receipt, a card's "ask_because" prefix (a plain reason does), an entry of my own reading on the keep-as-is list, a near miss changed by more than a word or two, the first-fix declaration, the tell panel after two AI reads, and the six-try budget; they print a note instead. The making-sense read is now part of rule R-reads-well-first: a short note of the read is the record, and nothing refuses a change for lacking one.
+
 **ACTIVE (Joel, 2026-11-04 22:14 UTC, gate E360):** "do we need to devise some kind of making sense protocol rather than
 attacking this problem case by case perhaps?" This is it: one read, for every paragraph I draft or rewrite in any of his
 articles, before its first Pangram try and again after every change. It collects what his own fixes have taught, lesson

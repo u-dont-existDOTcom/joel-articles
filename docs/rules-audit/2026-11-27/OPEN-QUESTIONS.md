@@ -1,0 +1,111 @@
+# The rule tree: questions still open for you
+
+Made 2026-11-28 (turn 76), after your answers on the rules audit. Each rule of [the rule tree](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk) that your answers left open is here once: the rule as it stands, your words, what I do until you answer (Approve keeps it), and the other way (Reject takes it). Revise, with a note, for anything else.
+
+## A model's text is the editor's to fix, even after he humanized it
+
+- **Question:** When I fix wording you humanized yourself (in an article a model drafted), does the fix go in and get reported, or go on a card you can revise? Card C12 said a card; card C18 said a tested change goes in without one, and you approved both.
+- **The rule now:** In an article a model drafted, the words are the model's unless they were his before the humanizing began. In wording he humanized himself, what he decided stays; the editor fixes the rest of that wording itself, tested, and it goes in like any tested change, on a card only where the fix could change something he decided. It is never handed back to him as his words to fix.
+- **Your words:** Joel, 2026-11-06: "'my words' for an AI article, are not my words, unless those were human before we started humanizing ... otherwise it's AI words that i humanized" and "your job is to do the fixing, that's the whole point here"
+- **Until you answer (Approve):** It goes in, tested, and is reported with its before and after; a card only where the fix could change something you decided.
+- **The other way (Reject):** Each fix to wording you humanized goes on a card you can revise.
+- **In the tree:** [2 His words and meaning › 2.1 Whose words](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-model-text-is-mine)
+
+## Every window of the editor's text is aimed at Human High
+
+- **Question:** When a paragraph of mine still reads Medium after its whole budget of tries, does it go into the article marked as open work, or stay out until it reads High?
+- **The rule now:** A window that reads AI, or Human at Low or Medium confidence, is work to do and doesn't count as done; one such reading is enough, with no second check to confirm it. The editor keeps fixing while it is on track, and what still won't come is reported as open work with its link, never as passed. Some pieces aren't worth fixing, because Pangram has bugs: a short "Why?" often reads Medium, and such pieces are left. A split at "Dr." may be closed by dropping the title, especially where the person was already introduced with it; that is a hack, so it comes last.
+- **Your words:** Joel, 2026-11-23: "actually i don't like the medium windows ... i often find the medium windows indicate other issues also" Joel (old gate, no date recorded): "if a section reads ai or human low, we don't need to check it again to verify that, we need to fix it" Joel, 2026-11-06: "some things are not worth fixing, pangram has some bugs, like "Why?" often reads as medium, etc."
+- **Until you answer (Approve):** It stays out until it reads High, as your words of 2026-11-12 ask ("i guess you need to stop passing over anything that's not human high"), and is reported as open work with its link.
+- **The other way (Reject):** It goes in, marked as open work with its link, and stays on the list of what is left.
+- **In the tree:** [3 Passing Pangram › 3.2 Windows and confidence](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-every-window-high)
+
+## A rewrite of his sentences is compared with his text once per pass
+
+- **Question:** The old gates from August and September (the preservation ledger, the architecture ledger, the delivery gate, three fixed writing rounds, the reader-question audit offers): do you still want any of them?
+- **The rule now:** After a pass that rewrites his sentences (a humanizing pass, a reader's edit), a fresh reader reads the result beside his text once, sentence by sentence, at a size that fits the change, for every place it now reads worse: garbled, unclear, a point or a step lost, vaguer. Each such place is fixed or goes to him. The old per-edit ledgers, the fixed three writing rounds and the audit offers don't block work.
+- **Your words:** Joel, 2026-10-28: "the AI guide was making more sense by far" Joel, saved preference: "the point of this was that you would learn to do this better and quicker but it seems like it's getting slower"
+- **Until you answer (Approve):** None of them; one compare with your text per pass, sized to the change.
+- **The other way (Reject):** Keep some of them: say which in the note.
+- **In the tree:** [2 His words and meaning › 2.2 Keep the meaning](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-check-rewrite-once)
+
+## Rework "X does not Y" statements, keeping what they deny
+
+- **Question:** Your rule "let's make sure "X does not Y" is changed in general": does it mean every plain negative statement, or the abstract kind, like ""I saw it" does not create a duty to act"?
+- **The rule now:** A flat "X does not Y" statement is reworked by default, in any wording that keeps what it denies, and kept where it is the clearest way to say the thing. A denial of fact or of safety is not softened into a "might" for the detector.
+- **Your words:** Joel, saved preference: "let's make sure "X does not Y" is changed in general that's super ai, humans don't use that so much"
+- **Until you answer (Approve):** The abstract kind is reworked by default; a plain negative ("it does not dissolve in water") is judged case by case.
+- **The other way (Reject):** Every plain negative statement too.
+- **In the tree:** [3 Passing Pangram › 3.4 AI tells](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-x-does-not-y)
+
+## Kitchen details and added weekdays are AI signs
+
+- **Question:** An added day of the week reads as an AI sign to you. Should a weekday be cut everywhere, or only where I added it?
+- **The rule now:** A kitchen detail reads as AI, and adding a day of the week to it makes two signs. A date range is not a human tell.
+- **Your words:** Joel, saved preference: ""in the kitchen" is what AI always says. kitchen this, kitchen that... how is a date range a human tell?"
+- **Until you answer (Approve):** One I added goes; a real day in one of your own stories stays.
+- **The other way (Reject):** A weekday is cut everywhere, yours included (I would ask before changing your own story).
+- **In the tree:** [3 Passing Pangram › 3.4 AI tells](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-kitchen-and-weekdays)
+
+## Two hyphens for every dash, straight quotes and apostrophes
+
+- **Question:** Should your two hyphens "--" always have no spaces around them, as you typed "handling--we see"?
+- **The rule now:** In all his articles every dash becomes his two hyphens "--", and curly quote marks and apostrophes are straightened.
+- **Your words:** Joel, 2026-11-04: "no everything should be the 2 dashes not em-dash, em-dash is ai" Joel, saved preference: "yes the curly apostrophes are an AI tell i know that"
+- **Until you answer (Approve):** No spaces, as you type it.
+- **The other way (Reject):** Spaces are fine (say how in the note).
+- **In the tree:** [3 Passing Pangram › 3.4 AI tells](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-dashes-and-quotes)
+
+## His harm-reduction warnings stay, by meaning and facts
+
+- **Question:** May a warning give an amount, or say what to take instead?
+- **The rule now:** A warning Joel wrote against a dangerous combination stays in the article. Its words may change while the humanizing is done, as long as every fact stays: what, when, how much. Where it repeats another of his warnings, moving it to one place or cutting the repeat is proposed to him.
+- **Your words:** Joel, 2026-10-11: "it's not instructions FOR mixing, it's instructions AGAINST a dangerous combo. That's called harm reduction." Joel, 2026-11-04: "8a not sure why you had to ask that, the whole point is rewording stuff here"
+- **Until you answer (Approve):** Amounts you wrote stay; I add none.
+- **The other way (Reject):** A warning may give an amount or an alternative where its source supports it, on a card for you first.
+- **In the tree:** [1 For the reader › 1.4 Cautions and safety](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-his-warnings-stay)
+
+## A close word-by-word read for sense before a post
+
+- **Question:** Before an article goes into your post, every word is read for sense. Do you also want that read tested each time with planted errors (wrong words slipped in to see whether the read finds them)?
+- **The rule now:** Before an article goes into his post, every word is read for sense, to catch a real word standing where another belongs. An obvious wrong word is fixed and he is told; a word whose intended meaning is unclear goes to him.
+- **Your words:** Joel, 2026-11-03: "do we have more nonsense in here (from emulate i guess)? how are you not catching this?" and "make sure this closer reading is also part of the general joel-articles skill"
+- **Until you answer (Approve):** Yes: the close read on every article, and the planted-error test as it is now.
+- **The other way (Reject):** Only the close read; drop the planted-error test.
+- **In the tree:** [1 For the reader › 1.1 Make sense](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-close-read)
+
+## Sort the contents with his reasons, and show him the whole order once
+
+- **Question:** When an article's contents change, do you want fresh readers tested on it ("where would you look first?") every time, or only when you ask?
+- **The rule now:** To reorder an article, first read the contents alone, then the guide and his answers for what each part holds. Ask him, in one message before sorting, only what those leave open. Sort with his heuristics and put the whole proposed order to him once, with a reason for each move and a pick. A section that moves gets its own Pangram check.
+- **Your words:** Joel, 2026-11-20: "i want to save those instructions in joel-articles repo so that next time you can do most of the work for me ... if unsure why i picked something you can ask me" Joel, 2026-11-21: "send me any qeustions that you can't find answered in the article"
+- **Until you answer (Approve):** Only when you ask.
+- **The other way (Reject):** Every time the contents change.
+- **In the tree:** [1 For the reader › 1.7 Headings and contents](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-contents-order)
+
+## Cite a study only where the reader expects evidence, and ask at the start how much research the article carries
+
+- **Question:** You suggested asking, at the start of any article, how much research evidence should go into it, and said I could brainstorm it. My proposal: one plain question at the start, with three answers: none (your experience and reasoning carry it); a little, only where a reader would expect a source; or full citations for every claim of fact. The answer decides whether I look up studies at all, and where.
+- **The rule now:** Looking up a study to back a point can be good, but it looks odd where the reader wouldn't expect one. Add evidence where it fits the context, and ask Joel when that is unclear. When work on an article begins, ask him how much research evidence should go into it.
+- **Your words:** Joel, 2026-11-28: "one thing i notice is you tend to try to look up studies to give evidence, which can be good, but sometimes it can look weird if that's not what the reader would expect there. so try to make sure that is appropriate in context and if unclear you can ask the author. probably also good at the beginning of any article to ask how much research evidence shoudl go into the article. you can brainstorm this also"
+- **Until you answer (Approve):** Ask that one question, with those three answers, at the start of every article.
+- **The other way (Reject):** Something else: say what in the note.
+- **In the tree:** [1 For the reader › 1.5 Evidence and sources](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-studies-where-expected)
+
+## His fixes are easy to search for the ones that could help
+
+- **Question:** You asked how to make your fixes searchable, maybe as a graph. My proposal: an index of every before-and-after of yours, one line each, saying what the passage lacked (from the 32 ways your fixes differ from my drafts) and what you did; before I rewrite a passage, a reader picks from it the fixes closest to that passage by meaning, and I read those in full. A graph only if the index isn't enough.
+- **The rule now:** His before-and-afters should be easy to search, so the editor can pull the fixes most likely to help with the passage in front of it. How (a graph, or another way) is still to work out with him.
+- **Your words:** Joel, 2026-11-28: "we should also try to make some kind of graph for the fixes so that it's easy to find which fixes might be most helpful, although maybe graph is the wrong approach, i'm not sure how to make the fixes searchable exactly."
+- **Until you answer (Approve):** Build the index that way.
+- **The other way (Reject):** Something else: say what in the note.
+- **In the tree:** [1 For the reader › 1.8 How his fixes differ from my drafts](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-fixes-searchable)
+
+## Work out how to mimic the way Pangram reads text
+
+- **Question:** You were curious how we could mimic the way Pangram analyzes text statistically. My proposal: our record of Pangram checks holds hundreds of texts with how each read; train a small stand-in on it, test it on checks it hasn't seen, and if it predicts Pangram well, use it to choose what to fix before spending a check. Never in place of Pangram.
+- **The rule now:** Work out with Joel how the editor could mimic the way Pangram analyzes text statistically. He raised it in the same note as making his fixes searchable.
+- **Your words:** Joel, 2026-11-28: "i'm curious how we can mimic the way pangram analyzes text statistically."
+- **Until you answer (Approve):** Try that, and report how well it predicts.
+- **The other way (Reject):** Something else: say what in the note.
+- **In the tree:** [3 Passing Pangram › 3.3 Strategy](https://claude.ai/artifact/RPYerG1RZ1iNwECeaBTSZk#R-mimic-pangram)

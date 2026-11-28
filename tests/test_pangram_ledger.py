@@ -1,5 +1,7 @@
 """Tests for tools/humanization/pangram_ledger.py: the shared prediction ledger, its budget counter and the scorecards
 (2026-10-20, Joel at 17:38 UTC: every humanization lane on one scorecard and improvement loop, with its own scorecard)."""
+import contextlib
+import io
 import json
 import pathlib
 import sys
@@ -9,6 +11,16 @@ import unittest
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
 import pangram_ledger as L  # noqa: E402
+
+NOTE = 'NOTE (a note, not a refusal): '
+
+
+def run(argv):
+    """L.main(ARGV) and what it printed: (exit code, stdout, where the notes go, stderr, where refusals go)."""
+    out, err = io.StringIO(), io.StringIO()
+    with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+        code = L.main(argv)
+    return code, out.getvalue(), err.getvalue()
 
 
 class Ledger(unittest.TestCase):
@@ -28,20 +40,21 @@ class Ledger(unittest.TestCase):
         return str(p)
 
     def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None,
-                narrowed=None, panel=None, paid_ok=None):
+                narrowed=None, panel=None, paid_ok=None, trail=None):
         argv = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
                 '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else []) + \
             (['--narrowed', narrowed] if narrowed else []) + (['--panel', panel] if panel else []) + \
-            (['--paid-ok', paid_ok] if paid_ok else [])
+            (['--paid-ok', paid_ok] if paid_ok else []) + (['--trail', trail] if trail else [])
         for t in tells:
             argv += ['--tells', t]
         if diagnosis:
             argv += ['--diagnosis', diagnosis]
-        return L.main(argv)
+        code, self.out, self.err = run(argv)
+        return code
 
     def result(self, body, verdict):
-        return L.main(['result', self.ledger, '--sha', L.sha256(body), '--verdict', verdict,
-                       '--link', 'https://www.pangram.com/history/x%d' % self.n])
+        return run(['result', self.ledger, '--sha', L.sha256(body), '--verdict', verdict,
+                    '--link', 'https://www.pangram.com/history/x%d' % self.n])[0]
 
     def test_a_human_tell_says_what_a_model_would_write_instead(self):
         # Lesson neuro-2026-11-27g (Joel, 2026-11-27: "\"it's the same kind of thing\" isn't a human tell, ai can write
@@ -86,58 +99,80 @@ class Ledger(unittest.TestCase):
         p.write_text('# Tell panel\n', encoding='utf-8')
         return str(p)
 
-    def test_a_paragraph_lineage_stops_at_six_tries(self):
-        for i in range(6):
-            self.assertEqual(self.predict('v%d' % i, diagnosis='try %d fixes the list' % i,
-                                          panel=self.panel() if i >= 2 else None), 0)
+    def test_a_paragraph_lineage_has_ten_tries_and_more_only_on_a_trail(self):
+        """Rules audit 2026-11-28, cards C05 and C07 (approved, merged): up to ten tries per paragraph, each past the first
+        with a named reason; past ten a try goes on when it says why more checks help (his note on C05: "if you're hot on
+        the trail and just need more budget then the budget should be flexible"), and is refused without it."""
+        self.assertEqual([L.cap_for(s) for s in ('sentence', 'heading', 'paragraph', 'pair')], [10] * 4)
+        for i in range(10):
+            self.assertEqual(self.predict('v%d' % i, diagnosis='try %d fixes the list' % i), 0, self.err)
             self.result('v%d' % i, 'AI')
-            L.main(['explain', self.ledger, '--sha', L.sha256('v%d' % i), '--cause', 'list', '--note', 'the list read AI'])
-        self.assertEqual(self.predict('v6', diagnosis='a seventh idea'), 2)
+            run(['explain', self.ledger, '--sha', L.sha256('v%d' % i), '--cause', 'list', '--note', 'the list read AI'])
+        self.assertEqual(self.predict('v10', diagnosis='an eleventh idea'), 2)
+        self.assertIn('has used its 10 tries', self.err)
+        self.assertIn('--trail', self.err)
+        self.assertTrue(any('--trail' in b for b in L.blocks(L.read(self.ledger), 'P1', 'paragraph')))   # status says so
+        self.assertEqual(self.predict('v10', diagnosis='an eleventh idea', trail='still on it'), 2)   # under 20 characters
+        self.assertIn('the one given has 11', self.err)
+        trail = 'the minimal pair: "it" against "this med", one word apart'
+        self.assertEqual(self.predict('v10', trail=trail), 2)   # a try past the first still needs its diagnosis
+        self.assertEqual(self.predict('v10', diagnosis='"this med" for "it"', trail=trail), 0, self.err)
+        self.assertEqual(L.read(self.ledger)[-1]['trail'], trail)
+        self.assertIn('try 11 of 10 (past them on its trail', self.out.splitlines()[-1])
+        self.result('v10', 'AI')
+        self.assertEqual(self.predict('v11', diagnosis='the next word'), 2)   # each try past ten says its trail
+        self.assertEqual(self.predict('v11', diagnosis='the next word', trail=trail), 0, self.err)
 
     def compact(self, body, key, likelihood, windows):
         """Record a result in the web app reader's compact form, with its likelihood and windows."""
         res = self.dir / ('res-%s.json' % key)
         head = 'Human Written' if likelihood == 0 else 'AI Detected'
         res.write_text(json.dumps({key: [head, likelihood, 50, windows, '20:00:00', '/u-%s' % key, []]}), encoding='utf-8')
-        return L.main(['results', self.ledger, str(res)])
+        return run(['results', self.ledger, str(res)])[0]
 
-    def test_a_lineage_on_the_right_track_goes_to_ten_tries(self):
-        """Lesson bad-trips-2026-11-20g (Joel, 2026-11-20 18:20 UTC: "it seems like the point of the limit was to stop you
-        from doing blind tests, but if your'e on the right track you should keep going"): past six tries, a lineage whose
-        latest check is its best so far, with a Human window, may go on to ten; once a check reads worse, it stops."""
-        for i in range(6):
-            body = 'rt%d' % i
-            self.assertEqual(self.predict(body, lineage='RT', call='AI', key='rt%d' % i, diagnosis='try %d fixes a word' % i,
-                                          panel=self.panel() if i >= 2 else None), 0)
-            self.assertEqual(self.compact(body, 'rt%d' % i, 0.9 - 0.1 * i, 'Human, Low, 20; AI-Generated, Low, 30'), 0)
-        self.assertEqual(self.predict('rt6', lineage='RT', call='AI', key='rt6', diagnosis='the next marked word',
-                                      panel=self.panel()), 0)
-        self.assertEqual(self.compact('rt6', 'rt6', 0.8, 'Human, Low, 20; AI-Generated, High, 30'), 0)   # worse than rt5
-        self.assertEqual(self.predict('rt7', lineage='RT', call='AI', diagnosis='another word', panel=self.panel()), 2)
-
-    def test_a_lineage_off_the_right_track_stops_at_six(self):
-        """Its sixth check read worse than its fourth, so a seventh is a blind test (lesson bad-trips-2026-11-20g)."""
-        for i, lk in enumerate((0.9, 0.8, 0.6, 0.5, 0.7, 0.75)):
+    def test_a_worse_reading_does_not_stop_a_lineage_before_ten(self):
+        """Cards C05 and C07: the score comparison no longer decides the cap (his words, 2026-11-21: "pangram can be fickle
+        so when you're not fully fixed yet you might go back and forth on pangram results"). This lineage's sixth check
+        read worse than its fourth, so right_track says no; before the audit its seventh try was refused as a blind test
+        (lesson bad-trips-2026-11-20g)."""
+        for i, lk in enumerate((0.9, 0.8, 0.6, 0.5, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95)):
             body = 'ot%d' % i
-            self.assertEqual(self.predict(body, lineage='OT', call='AI', key=body, diagnosis='try %d' % i,
-                                          panel=self.panel() if i >= 2 else None), 0)
+            self.assertEqual(self.predict(body, lineage='OT', call='AI', key=body, diagnosis='try %d' % i), 0, self.err)
             self.assertEqual(self.compact(body, body, lk, 'Human, Low, 20; AI-Generated, Low, 30'), 0)
-        self.assertEqual(self.predict('ot6', lineage='OT', call='AI', diagnosis='a seventh idea', panel=self.panel()), 2)
+            if i == 5:
+                self.assertFalse(L.right_track(L.lineage_view(L.state(L.read(self.ledger)), 'OT')))
+        self.assertEqual(self.predict('ot10', lineage='OT', call='AI', diagnosis='an eleventh idea'), 2)
 
-    def test_a_paragraph_that_read_ai_twice_goes_to_the_tell_panel_first(self):
-        """E346 (2026-11-04): the neuro de-armoring lane's two uridine paragraphs took four tries each before the tell panel
-        ran; with it, one read Human at its fifth try, and the other at its sixth, in another family's rewrite."""
+    def test_a_trail_does_not_lift_a_sections_cap(self):
+        """The section rules stay (cards C05 and C07 keep --after-fix and narrowing): --trail is for a paragraph-sized
+        lineage."""
+        self.assertEqual(self.predict('s1', lineage='S', scope='section'), 0)
+        self.result('s1', 'Human')
+        self.assertEqual(self.predict('s2', lineage='S', scope='section', diagnosis='its heading changed'), 0)
+        self.result('s2', 'Human')
+        self.assertEqual(self.predict('s3', lineage='S', scope='section', diagnosis='its closer changed',
+                                      trail='the trail: its closer, one word at a time'), 2)
+        self.assertIn('--after-fix', self.err)
+
+    def test_a_third_try_after_two_ai_reads_needs_no_tell_panel(self):
+        """Rules audit 2026-11-28, card C20 (approved): after an AI read the next obvious fix goes, whatever the count (his
+        words, E361: "I do what i know works, and if it doesn't fix it, I just try to find the next obvious thing that
+        shoudl work"). --panel is optional now, and recorded when given; one naming no file gets a note."""
         for i in range(2):
             self.assertEqual(self.predict('w%d' % i, lineage='Q', call='AI', diagnosis='try %d' % i), 0)
             self.result('w%d' % i, 'AI' if i == 0 else 'Mixed')
-        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='a third wording'), 2)
-        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='a third wording',
-                                      panel=str(self.dir / 'NONE.md')), 2)
-        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='the agreed tells fixed', panel=self.panel()), 0)
-        # one AI read needs no panel
-        self.assertEqual(self.predict('x0', lineage='R', call='AI', diagnosis='first'), 0)
-        self.result('x0', 'AI')
-        self.assertEqual(self.predict('x1', lineage='R', call='AI', diagnosis='second'), 0)
+        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='the next obvious fix'), 0, self.err)
+        self.assertNotIn('panel', L.read(self.ledger)[-1])
+        self.assertNotIn(NOTE, self.out)
+        self.result('w2', 'AI')
+        self.assertEqual(self.predict('w3', lineage='Q', call='AI', diagnosis='the agreed tells fixed', panel=self.panel()),
+                         0, self.err)
+        self.assertEqual(L.read(self.ledger)[-1]['panel'], self.panel())
+        self.result('w3', 'AI')
+        none = str(self.dir / 'NONE.md')
+        self.assertEqual(self.predict('w4', lineage='Q', call='AI', diagnosis='another fix', panel=none), 0, self.err)
+        self.assertIn(NOTE + '--panel %s: no such file' % none, self.out)
+        self.assertEqual(L.read(self.ledger)[-1]['panel'], none)
 
     def test_a_section_gets_one_retest(self):
         self.assertEqual(self.predict('s1', lineage='S13', scope='section'), 0)
@@ -382,7 +417,7 @@ class Ledger(unittest.TestCase):
         self.result('v2', 'AI')
         self.assertEqual(self.predict('v3', diagnosis='d3'), 2)
         L.main(['explain', self.ledger, '--sha', L.sha256('v2'), '--cause', 'context', '--note', 'the window spans P3'])
-        self.assertEqual(self.predict('v3', diagnosis='d3', panel=self.panel()), 0)
+        self.assertEqual(self.predict('v3', diagnosis='d3'), 0)   # no tell panel needed since card C20
 
     def test_the_same_text_is_not_paid_for_twice(self):
         self.predict('same')
@@ -475,8 +510,9 @@ class Ledger(unittest.TestCase):
 
 class SenseGate(unittest.TestCase):
     """Gates E365 (enforcing E362) and E361 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff
-    over and over"): a text of mine reaches Pangram only with a making-sense receipt that passes, and a retry changes at
-    most 40% of the words of the try before it unless --big-change says why."""
+    over and over"), as the rules audit of 2026-11-28 left them: the making-sense read comes before every try of a text of
+    mine, and its receipt's problems, a missing receipt and a retry that changes more than 40% of the words of the try
+    before it are notes, not refusals (cards C01 and C02)."""
 
     def setUp(self):
         self.d = tempfile.TemporaryDirectory()
@@ -519,7 +555,14 @@ class SenseGate(unittest.TestCase):
         argv = ['predict', self.ledger, '--lineage', 'G', '--scope', 'paragraph', '--text', text, '--call', 'AI',
                 '--chance', '0.4', '--tells', 'a list'] + (['--receipt', receipt] if receipt else []) + list(extra) + \
             (list(self.HUMANIZED) if humanized and own else [])
-        return L.main(argv)
+        code, self.out, self.err = run(argv)
+        return code
+
+    def receipt_notes(self, text_path, receipt_path):
+        """What the receipt's check finds, as predict prints it (worded by sense_receipt.py, whatever it finds)."""
+        text = pathlib.Path(text_path).read_text(encoding='utf-8').rstrip('\n')
+        rec = json.loads(pathlib.Path(receipt_path).read_text(encoding='utf-8'))
+        return [NOTE + 'making-sense receipt: ' + p for p in self.S.check(text, rec)]
 
     def test_a_draft_not_written_to_read_human_is_not_checked(self):
         """Gate neuro-2026-11-07c: a science correction drafted for its content alone reads AI; it goes to Pangram
@@ -538,39 +581,75 @@ class SenseGate(unittest.TestCase):
                                       humanized=False), 0)
 
     def read_ai(self, t):
-        L.main(['result', self.ledger, '--sha', L.sha256(pathlib.Path(t).read_text(encoding='utf-8').rstrip('\n')), '--verdict', 'AI',
-                '--link', 'https://www.pangram.com/history/x%d' % self.n])
+        run(['result', self.ledger, '--sha', L.sha256(pathlib.Path(t).read_text(encoding='utf-8').rstrip('\n')), '--verdict', 'AI',
+             '--link', 'https://www.pangram.com/history/x%d' % self.n])
 
     def test_the_text_is_hashed_as_pangram_reads_it_without_the_final_newline(self):
         t, r = self.files('Time the seizure. Keep them on their side.')
         self.assertEqual(self.predict(t, r), 0)
         self.assertEqual(L.read(self.ledger)[-1]['sha256'], L.sha256('Time the seizure. Keep them on their side.'))
 
-    def test_a_text_of_mine_needs_its_receipt(self):
+    def test_a_text_of_mine_without_a_receipt_gets_a_note(self):
+        """Rules audit 2026-11-28, card C02 (approved): the making-sense read comes before every try, and no text is
+        refused for lacking its receipt (his note: "something like this already exists maybe merge")."""
         t, r = self.files('Time the seizure. Keep them on their side.')
-        self.assertEqual(self.predict(t), 2)
-        self.assertEqual(L.read(self.ledger), [])
-        self.assertEqual(self.predict(t, r), 0)
+        self.assertEqual(self.predict(t), 0, self.err)
+        self.assertIn(NOTE + 'the making-sense read comes before every try', self.out)
+        self.assertTrue(self.out.splitlines()[-1].startswith('G#1: try 1 of 10'))   # the prediction's line stays last
+        self.assertNotIn('receipt', L.read(self.ledger)[-1])
+        run(['void', self.ledger, '--sha', L.sha256('Time the seizure. Keep them on their side.'), '--reason', 'a test'])
+        self.assertEqual(self.predict(t, r), 0, self.err)
+        self.assertNotIn('the making-sense read comes before every try', self.out)
+        self.assertEqual(L.read(self.ledger)[-1]['receipt'], r)
 
-    def test_an_unfilled_receipt_is_refused(self):
+    def test_an_unfilled_receipt_is_a_note_not_a_refusal(self):
+        """Card C02: a receipt given and failing its check: its problems are printed as notes, not refusals."""
         t, r = self.files('Time the seizure. Keep them on their side.', fill=False)
-        self.assertEqual(self.predict(t, r), 2)
+        notes = self.receipt_notes(t, r)
+        self.assertEqual(self.predict(t, r), 0, self.err)
+        for n in notes:
+            self.assertIn(n, self.out)
+        # a question answered FAIL is still a problem of the receipt's (sense_receipt.py), and a note here
+        self.read_ai(t)
+        t2, r2 = self.files('Keep them on their side. Time the seizure.')
+        rec = json.loads(pathlib.Path(r2).read_text(encoding='utf-8'))
+        rec['questions']['Q5'] = 'FAIL: nothing ties the second step to the first'
+        pathlib.Path(r2).write_text(json.dumps(rec), encoding='utf-8')
+        notes = self.receipt_notes(t2, r2)
+        self.assertTrue(notes)
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the steps in the order a helper takes them')), 0, self.err)
+        for n in notes:
+            self.assertIn(n, self.out)
 
-    def test_a_point_that_lost_its_reason_is_cut(self):
+    def test_a_point_that_lost_its_reason_is_a_note(self):
         t, r = self.files('Time the seizure. Keep them on their side.')
         rec = json.loads(pathlib.Path(r).read_text())
         rec['checked'] = [{'point': '7-OH-CBD is more active', 'found': 'about as active as CBD in mice',
                            'still_needed': 'no: nothing is missed through the skin', 'fate': 'changed'}]
         pathlib.Path(r).write_text(json.dumps(rec))
-        self.assertEqual(self.predict(t, r), 2)
-        rec['checked'][0]['fate'] = 'cut'
-        pathlib.Path(r).write_text(json.dumps(rec))
-        self.assertEqual(self.predict(t, r), 0)
+        notes = self.receipt_notes(t, r)
+        self.assertEqual(self.predict(t, r), 0, self.err)
+        for n in notes:
+            self.assertIn(n, self.out)
 
-    def test_a_receipt_for_another_text_is_refused(self):
+    def test_a_receipt_for_another_text_is_a_note(self):
         t, r = self.files('Time the seizure. Keep them on their side.')
         t2, _ = self.files('Time it. Keep them on their side.')
-        self.assertEqual(self.predict(t2, r), 2)
+        notes = self.receipt_notes(t2, r)
+        self.assertTrue(notes)
+        self.assertEqual(self.predict(t2, r), 0, self.err)
+        for n in notes:
+            self.assertIn(n, self.out)
+        # a check by --sha takes its text from a receipt for that text, and only notes one for another text
+        code, out, err = run(['predict', self.ledger, '--lineage', 'S', '--scope', 'paragraph', '--sha', L.sha256('other'),
+                              '--call', 'AI', '--chance', '0.4', '--tells', 'a list', '--receipt', r] + list(self.HUMANIZED))
+        self.assertEqual(code, 0, err)
+        self.assertIn(NOTE + 'making-sense receipt: the receipt is for another text', out)
+
+    def test_a_receipt_that_cannot_be_read_is_a_note(self):
+        t, _ = self.files('Time the seizure. Keep them on their side.')
+        self.assertEqual(self.predict(t, str(self.dir / 'NO-RECEIPT.json')), 0, self.err)
+        self.assertIn(NOTE + '--receipt %s can\'t be read' % (self.dir / 'NO-RECEIPT.json'), self.out)
 
     def test_his_own_text_needs_no_receipt(self):
         t, _ = self.files('Anything that could let someone hurt themselves takes priority.')
@@ -585,8 +664,10 @@ class SenseGate(unittest.TestCase):
         recs = [json.loads(x) for x in open(self.ledger, encoding='utf-8')]
         self.assertEqual(recs[-1]['unchanged'], 'his round-8 version as he sent it on ROOM-YOURS')
 
-    def test_a_retry_takes_small_steps(self):
-        """His movement fix: two words and a move. My tries rewrote nearly every word (gate E361)."""
+    def test_a_big_retry_is_a_note_not_a_refusal(self):
+        """Rules audit 2026-11-28, card C01 (approved): "you do whatever you need to do get it to read well" (2026-11-04).
+        A retry that changes more than 40% of the words of the try before it without --big-change was refused (gate E361,
+        after his movement fix: two words and a move); it gets a note, and --big-change is recorded when given."""
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
         self.assertEqual(self.predict(t1, r1), 0)
         self.read_ai(t1)
@@ -594,15 +675,23 @@ class SenseGate(unittest.TestCase):
         self.assertLess(L.changed_share(pathlib.Path(t1).read_text(), pathlib.Path(t2).read_text()), 0.4)
         t3, r3 = self.files('Pacing is fine, so let them walk laps of the yard. Walk with them if they insist on going.')
         self.assertGreater(L.changed_share(pathlib.Path(t1).read_text(), pathlib.Path(t3).read_text()), 0.4)
-        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things')), 2)
-        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things', '--big-change',
-                                               'every small fix of the windows was tried')), 0)
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things')), 0, self.err)
+        self.assertIn(NOTE + 'this try changes', self.out)
+        self.assertIn('of the words of the try before it in the lineage (G#1)', self.out)
         self.read_ai(t3)
+        t4, r4 = self.files('Someone stays close if they head out the door, and moving about the room is fine.')
+        self.assertGreater(L.changed_share(pathlib.Path(t3).read_text(), pathlib.Path(t4).read_text()), 0.4)
+        why = 'every small fix of the windows was tried'
+        self.assertEqual(self.predict(t4, r4, ('--diagnosis', 'said in the order a helper meets it', '--big-change', why)),
+                         0, self.err)
+        self.assertNotIn('of the words of the try before it', self.out)
+        self.assertEqual(L.read(self.ledger)[-1]['big_change'], why)
 
-    def test_a_near_miss_is_fixed_word_by_word(self):
-        """Lesson bad-trips-2026-11-19b: after a try with a Human window, the next starts from it and changes a word or two
-        (his round-41 fixes: "it" made "this med", "too weak" made "insufficient"); --big-change doesn't lift it until two
-        small tries from it have been checked."""
+    def test_a_near_miss_is_where_the_next_try_starts(self):
+        """Rules audit 2026-11-28, card C01 (approved): after a try with a Human window, the next starts from it and fixes
+        what is unclear in it, however many words that takes. Lesson bad-trips-2026-11-19b refused a try that changed more
+        than 20% of its words, whatever --big-change said; it is a note now (his note on the card: "usually it makes sense
+        to focus on the most AI sentences first")."""
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
         self.assertEqual(self.predict(t1, r1), 0)
         pid = L.read(self.ledger)[-1]['id']
@@ -613,9 +702,13 @@ class SenseGate(unittest.TestCase):
                                                                 {'label': 'AI-Generated', 'confidence': 'Medium', 'words': 9}]}) + '\n')
         t3, r3 = self.files('Pacing is fine, so let them walk laps of the yard. Walk with them if they insist on going.')
         self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things', '--big-change',
-                                               'every small fix of the windows was tried')), 2)
+                                               'every small fix of the windows was tried')), 0, self.err)
+        self.assertIn(NOTE + 'the best try of this lineage, %s, read with a Human window: start from it' % pid, self.out)
+        self.assertIn('however many words that takes', self.out)
+        self.read_ai(t3)
         t2, r2 = self.files('Letting them move around is fine. If they want to leave, someone should go with them.')
-        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'what someone does said as what they should do')), 0)
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'what someone does said as what they should do')), 0, self.err)
+        self.assertNotIn('the best try of this lineage', self.out)   # a try from the near miss
 
     def test_the_near_miss_is_the_try_with_fewer_words_below_high_when_likelihoods_tie(self):
         """Turn 50 (2026-11-20): Pangram rounds a Human text's likelihood to 0, so niacin's side effects as the guide had them
@@ -660,15 +753,19 @@ class SenseGate(unittest.TestCase):
         self.assertEqual(L.shown_likelihood(2.63e-31), 0.0)
         self.assertEqual(L.shown_likelihood(None), 1.0)
 
-    def test_a_try_adds_no_word_the_linter_flags_as_overused(self):
-        """Lesson bad-trips-2026-11-20e: my try added "ordinary"; he took it out and the paragraph read Human High."""
+    def test_a_try_that_adds_an_overused_word_gets_a_note(self):
+        """Lesson bad-trips-2026-11-20e: my try added "ordinary"; he took it out and the paragraph read Human High.
+        Card C11 (2026-11-28): an overused word is read, not banned, so the try gets a note, not a refusal."""
         t1, r1 = self.files('Samsara offers no shortage of difficult experiences to process.')
         self.assertEqual(self.predict(t1, r1), 0)
         self.read_ai(t1)
         t2, r2 = self.files('Samsara, the cycle of ordinary existence, offers no shortage of difficult experiences to process.')
-        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the term explained')), 2)
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the term explained')), 0)
+        self.assertIn(NOTE + 'this try adds "ordinary", which AI overuses', self.out)
+        self.read_ai(t2)
         t3, r3 = self.files('Samsara, the cycle of existence, offers no shortage of difficult experiences to process.')
         self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'the term explained')), 0)
+        self.assertNotIn('which AI overuses', self.out)
 
     def test_a_small_retry_goes_through(self):
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
@@ -680,8 +777,9 @@ class SenseGate(unittest.TestCase):
 
 class FirstFix(SenseGate):
     """Gate E368 (Joel, 2026-11-05 18:43 UTC, on the fuels stretch he fixed by joining sentences, putting back "converted
-    into" and moving the payoffs up: "why did you not check the same issue i always fix?"): a text of mine that reworks a
-    sentence which read below High goes to Pangram only with --first-fix saying what his usual fix did there first."""
+    into" and moving the payoffs up: "why did you not check the same issue i always fix?"), as the rules audit of
+    2026-11-28 left it (card C14, approved): a text of mine that reworks a sentence which read below High gets a note with
+    what his fixes did first; no --first-fix declaration is required, and one given is recorded."""
 
     OLD = ('Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the '
            'citric acid cycle, which is how the mitochondria make their energy.')
@@ -695,47 +793,74 @@ class FirstFix(SenseGate):
         res.write_text(json.dumps({'old': {'headline': 'Mostly Human Written', 'fraction_ai': 0.2, 'words': 40,
                                            'windows': [{'label': label, 'confidence': conf, 'words': 30, 'text': text}],
                                            'link': 'https://www.pangram.com/history/old'}}), encoding='utf-8')
-        L.main(['predict', self.ledger, '--unchanged', 'his post as published', '--lineage', 'OLD', '--scope', 'paragraph', '--text',
-                self.files(text)[0], '--call', 'Human', '--chance', '0.6', '--human-tells', 'his voice', '--key', 'old'])
-        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        run(['predict', self.ledger, '--unchanged', 'his post as published', '--lineage', 'OLD', '--scope', 'paragraph', '--text',
+             self.files(text)[0], '--call', 'Human', '--chance', '0.6', '--human-tells', 'his voice', '--key', 'old'])
+        self.assertEqual(run(['results', self.ledger, str(res)])[0], 0)
 
-    def test_a_rework_of_a_window_below_high_says_what_his_fix_did_first(self):
+    REWORKS = NOTE + 'this text reworks sentences that read below High before'
+
+    def test_a_rework_of_a_window_below_high_gets_a_note_not_a_refusal(self):
         self.window('AI-Generated', 'Medium', self.OLD)
         t, r = self.files(self.NEW)
-        self.assertEqual(self.predict(t, r), 2)
-        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: moved up')), 2)   # join and plain unsaid
-        self.assertEqual(self.predict(t, r, ('--first-fix', self.FIX)), 0)
-        self.assertEqual(L.read(self.ledger)[-1]['first_fix'], self.FIX)
+        self.assertEqual(self.predict(t, r), 0, self.err)
+        self.assertIn(self.REWORKS, self.out)
+        self.assertIn('payoff lands and move it up', self.out)
+        self.assertNotIn('first_fix', L.read(self.ledger)[-1])
+        run(['void', self.ledger, '--sha', L.sha256(self.NEW), '--reason', 'a test: predicted again with --first-fix'])
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: moved up')), 0, self.err)   # join and plain unsaid
+        self.assertNotIn(self.REWORKS, self.out)
+        self.assertEqual(L.read(self.ledger)[-1]['first_fix'], 'payoff: moved up')
 
-    def test_a_payoff_that_moved_nothing_says_how_each_sentence_already_leads(self):
-        """Lesson bad-trips-2026-11-20c: "payoff: none moved" let my tries keep the means before the payoff; his Hunter fix
-        ("To diagnose serotonin syndrome, we can use ...") moved it, and Pangram read the stretch Human."""
+    def test_a_payoff_that_moved_nothing_is_recorded_not_refused(self):
+        """Lesson bad-trips-2026-11-20c refused "payoff: none moved" that didn't say how each sentence already leads; with
+        the declaration gone (card C14), whatever --first-fix says is recorded."""
         self.window('AI-Generated', 'Medium', self.OLD)
         t, r = self.files(self.NEW)
-        rest = '; join: the α-KG sentence joined to the one before; plain: "turned straight into" back to "converted into"'
-        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: none moved' + rest)), 2)
-        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: none moved, each changed sentence already leads with '
-                                                            'what the reader gets (the energy)' + rest)), 0)
+        said = ('payoff: none moved; join: the α-KG sentence joined to the one before; plain: "turned straight into" back '
+                'to "converted into"')
+        self.assertEqual(self.predict(t, r, ('--first-fix', said)), 0, self.err)
+        self.assertEqual(L.read(self.ledger)[-1]['first_fix'], said)
 
     def test_human_at_medium_is_below_high_too(self):
         self.window('Human', 'Medium', self.OLD)
         t, r = self.files(self.NEW)
-        self.assertEqual(self.predict(t, r), 2)
+        self.assertEqual(self.predict(t, r), 0, self.err)
+        self.assertIn(self.REWORKS, self.out)
 
     def test_a_window_read_human_high_or_text_left_alone_needs_nothing(self):
         self.window('Human', 'High', self.OLD)
         t, r = self.files(self.NEW)
         self.assertEqual(self.predict(t, r), 0)
+        self.assertNotIn(self.REWORKS, self.out)
 
     def test_unchanged_sentences_and_his_own_fix_need_nothing(self):
         self.window('AI-Generated', 'Low', self.OLD)
         t, r = self.files(self.OLD + ' Glutamine also provides nitrogen to help build new cells.')
         self.assertEqual(self.predict(t, r), 0)
+        self.assertNotIn(self.REWORKS, self.out)
         t2, _ = self.files(self.NEW)
-        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'H', '--scope', 'paragraph', '--text', t2,
-                                 '--call', 'Human', '--chance', '0.7', '--human-tells', 'his joins',
-                                 '--unchanged', 'his F9-1 version as he sent it']), 0)
+        code, out, err = run(['predict', self.ledger, '--lineage', 'H', '--scope', 'paragraph', '--text', t2,
+                              '--call', 'Human', '--chance', '0.7', '--human-tells', 'his joins',
+                              '--unchanged', 'his F9-1 version as he sent it'])
+        self.assertEqual(code, 0, err)
+        self.assertNotIn(NOTE, out)
 
+
+
+class Flags(unittest.TestCase):
+    """Rules audit 2026-11-28: every flag stays accepted (other lanes' scripts pass them), and one that no longer gates
+    anything says in its help that it is optional now."""
+
+    def test_the_flags_that_gate_nothing_say_they_are_optional(self):
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out), self.assertRaises(SystemExit):
+            L.main(['predict', '-h'])
+        helps = {}
+        for chunk in out.getvalue().split('\n  -')[1:]:
+            helps[chunk.split()[0].strip('-,')] = ' '.join(chunk.split())
+        for flag in ('receipt', 'big-change', 'first-fix', 'panel'):
+            self.assertIn('optional now', helps[flag], flag)
+        self.assertIn('trail', helps)
 
 
 class LanesCoverEveryLedger(unittest.TestCase):

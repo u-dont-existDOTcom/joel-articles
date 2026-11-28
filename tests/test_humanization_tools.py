@@ -99,7 +99,9 @@ class LinterAbstractAgents(unittest.TestCase):
         """O9 (Joel, same message): "it always wants to add a 'not Y' part"."""
         out = self.lint('If people are training there so they can help others build communities of their own, they are building a genuine alternative, not just escaping society.\n')
         self.assertIn('O9', out)
-        self.assertIn('verdict: FAIL', out)   # E190 (Joel, 2026-10-17 22:59: "that's X, not Y")
+        # Rules audit 2026-11-28, card C11 (approved): a "not Y" tail is a REVIEW, not a FAIL ("sometimes it is the most clear and natural way to phrase it")
+        self.assertIn('verdict: REVIEW', out)
+        self.assertNotIn('verdict: FAIL', out)
         out = self.lint('If your little one says "he hurt me," that\'s harm, and it gets called harm, not "a learning experience." The rest can wait.\n')
         self.assertIn('O9', out)
         self.assertNotIn('O9', self.lint('If your little one says "he hurt me," that\'s harm, and it gets called harm, even if it was also a learning experience. The rest can wait.\n'))
@@ -309,29 +311,36 @@ class LinterListsOfThree(unittest.TestCase):
         installed = "# Notes\n\n" + "\n\n".join(his) + "\n"
         mine_ok = "Somebody new to the river might notice different things, of course, like the old mill or the boats going by."
         rc, out = self.lint("\n\n".join(his + [mine_ok]) + "\n", installed)
-        self.assertNotIn('HARD: B13', out)
+        self.assertNotIn('B13 repeated paragraph openers: ', out)
         self.assertIn('B13 repeated paragraph openers, all in installed', out)
         mine_bad = "I would go back there tomorrow if I could, just to sit by the water for an hour and listen to it go by."
         rc, out = self.lint("\n\n".join(his[:2] + [mine_bad]) + "\n", "# Notes\n\n" + "\n\n".join(his[:2]) + "\n")
-        self.assertIn('HARD: B13', out)
+        # Rules audit 2026-11-28, card C22 (approved): "No count fails a draft by itself": a repeated opener of mine is a REVIEW flag now
+        self.assertIn('B13 repeated paragraph openers: ', out)
+        self.assertNotIn('HARD:', out)
+        self.assertEqual(rc, 1)
 
-    def test_two_lists_in_one_paragraph_fail(self):
+    def test_two_lists_in_one_paragraph_are_a_review(self):
+        # Rules audit 2026-11-28, card C22 (approved): two lists in one paragraph is a count, so a REVIEW, not a FAIL
         rc, out = self.lint(self.FAILED_P1)
         self.assertIn('E125 two lists', out)
-        self.assertEqual(rc, 2)
+        self.assertNotIn('verdict: FAIL', out)
+        self.assertEqual(rc, 1)
 
     def test_his_fix_leaves_one_list_to_review(self):
         rc, out = self.lint(self.JOEL_P1)
         self.assertIn('E125 list of three', out)
         self.assertNotIn('E125 two lists', out)
 
-    def test_one_list_in_my_sentence_fails(self):
-        # E186 (Joel, 2026-10-17 14:01: "we got that list of 3 going on again. how is that not detected?")
+    def test_one_list_in_my_sentence_is_a_review(self):
+        # E186 (Joel, 2026-10-17 14:01: "we got that list of 3 going on again. how is that not detected?") made it a FAIL; rules audit
+        # 2026-11-28, card C22 (approved: "No count fails a draft by itself") made it a REVIEW again
         rc, out = self.lint("Any part of you that can watch, or wants to keep your body safe, or would rather wait on a decision "
                             "you can't undo, is welcome. And if none of them shows up yet? Then the questions wait.\n")
         self.assertIn('E125 list of three', out)
-        self.assertIn('A FAIL in my sentences since 2026-10-17', out)
-        self.assertEqual(rc, 2)
+        self.assertNotIn('A FAIL in my sentences', out)
+        self.assertNotIn('verdict: FAIL', out)
+        self.assertEqual(rc, 1)
 
     def test_can_without_fails_and_other_without_ing_reviews(self):
         # E186 (Joel, 2026-10-17 14:01: "here we got that X can without Y ai tell")
@@ -1195,8 +1204,9 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
 
     def test_the_linter_decides_lint_when_given_the_article(self):
         # 2026-10-16 (E179): a draft the linter FAILs went into a batch as REVIEW, typed by hand.
-        fail = ('You can try this. You can also try that. You might want to start small. It helps to breathe. '
-                'You can keep going. You might notice a change. It helps to rest. You can stop anytime.')
+        # a text that fails on a word of his (O42, "quietly"): the old text failed on a coach-phrase count, which is a REVIEW since
+        # the rules audit of 2026-11-28 (card C22)
+        fail = 'Somebody else is quietly paying the tax bill for the whole group every single spring.'
         with tempfile.TemporaryDirectory() as d:
             d = pathlib.Path(d)
             (d / 'art.md').write_text('# A\n\nSome installed text here.\n', encoding='utf-8')

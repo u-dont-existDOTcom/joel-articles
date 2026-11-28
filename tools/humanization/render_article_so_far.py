@@ -119,6 +119,11 @@ def local_picture(url):
 
 KEEP = keep_as_is.load(SRC)
 KEEP_GONE, KEEP_BACK = keep_as_is.missing(SRC.read_text(encoding='utf-8'), KEEP), keep_as_is.back(SRC.read_text(encoding='utf-8'), KEEP)
+# Rules audit 2026-11-28, card C12 (approved): only what Joel said stays blocks; an entry that is my own reading
+# ("my reading, not asked") is a note, shown in a blue box, and doesn't fail the page.
+KEEP_NOTES = [e for e in KEEP_GONE + KEEP_BACK if keep_as_is.guess(e)]
+KEEP_GONE = [e for e in KEEP_GONE if not keep_as_is.guess(e)]
+KEEP_BACK = [e for e in KEEP_BACK if not keep_as_is.guess(e)]
 md = article_images.figure_html(md, local_picture)  # an image note shows the image where it goes (2026-10-11), an embed a box
 md = re.sub(r'<!--\s*CANDIDATE:(.*?)-->',
             lambda m: '\n\n<div class="candidate">' + linkify(m.group(1).strip()) + '</div>\n\n',
@@ -141,6 +146,10 @@ if KEEP_GONE or KEEP_BACK:
     items += ''.join('<li><b>%s</b>: "%s" is back, though Joel cut it on purpose (%s)</li>' % (html.escape(e['id']), html.escape(e['quote']), html.escape(e['where']))
                      for e in KEEP_BACK)
     top = '<div class="notin"><b>What Joel said stays as it is (KEEP-AS-IS.json):</b><ul>%s</ul></div>' % items + top
+if KEEP_NOTES:
+    items = ''.join('<li><b>%s</b>: "%s" has changed (%s); a note of my own reading, not his words</li>' % (
+        html.escape(e['id']), html.escape(e['quote']), html.escape(e.get('where', ''))) for e in KEEP_NOTES)
+    top += '<div class="waiting"><b>Notes from my own reading (not asked):</b><ul>%s</ul></div>' % items
 body = top + body
 page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -165,7 +174,7 @@ a {{ color: #0b5cad; }}
 """
 OUT.write_text(page, encoding='utf-8')
 print(OUT, len(page), 'bytes, from', SOURCE, SOURCE_SHA[:12])
-print('keep-as-is: %d kept, %d meant cuts; %d gone, %d back' % (len(KEEP.get('keep', [])), len(KEEP.get('cuts', [])), len(KEEP_GONE), len(KEEP_BACK)))
+print('keep-as-is: %d kept, %d meant cuts; %d gone, %d back' % (len(KEEP.get('keep', [])), len(KEEP.get('cuts', [])), len(KEEP_GONE), len(KEEP_BACK)) + ('; %d notes of my own reading' % len(KEEP_NOTES) if KEEP_NOTES else ''))
 if chk is None:
     print('owner edits: not checked (no --ledger)')
     sys.exit(1 if (KEEP_GONE or KEEP_BACK) else 0)

@@ -47,10 +47,25 @@ class FidelityKeys(unittest.TestCase):
     def test_a_dose_said_another_way_fails(self):
         self.assertFalse(fk.check(self.keys, MASTER.replace('150–300 mg', '150 to 300 mg'))['pass'])
 
-    def test_a_lost_warning_fails_even_when_another_do_not_stays(self):
-        r = fk.check(self.keys, MASTER.replace('Do not “push through” numbness. ', ''))
-        self.assertTrue(any('numbness' in u['what'] for u in r['warnings_lost']))
-        self.assertFalse(r['pass'])
+    def test_a_lost_warning_word_is_for_a_reader_not_a_failure(self):
+        # rules audit 2026-11-28, card C10 (approved): a line with a warning word may be reworded as long as its facts stay;
+        # a warning word the new line lacks is reported for a reader to judge, not failed
+        r = fk.check(self.keys, MASTER.replace('Do not “push through” numbness.', 'Pushing through numbness helps.'))
+        self.assertTrue(r['pass'], r)
+        self.assertTrue(any('numbness' in u['what'] for u in r['warnings_review']), r)
+        self.assertEqual(r['warnings_lost'], [])
+        # nothing to review when the warning word stays, however the rest is worded
+        r = fk.check(self.keys, MASTER.replace('Do not “push through” numbness.', 'Do not force yourself through numbness.'))
+        self.assertTrue(r['pass'], r)
+        self.assertFalse(any('numbness' in u['what'] for u in r['warnings_review']), r)
+
+    def test_the_facts_of_a_warning_line_are_still_exact(self):
+        # numbers, units, doses and compounds stay held exactly (card C10)
+        self.assertFalse(fk.check(self.keys, MASTER.replace('Cap at 1 g/day', 'Keep to 2 g/day'))['pass'])
+        self.assertFalse(fk.check(self.keys, MASTER.replace('Cap at 1 g/day', 'Keep to 1 mg/day'))['pass'])
+        self.assertFalse(fk.check(self.keys, MASTER.replace('5-HTP, agmatine or', 'agmatine or'))['pass'])
+        self.assertTrue(fk.check(self.keys, MASTER.replace('Cap at 1 g/day unless clinician-supervised.',
+                                                           'Keep to 1 g/day, with a clinician involved.'))['pass'])
 
     def test_a_lost_compound_fails(self):
         r = fk.check(self.keys, MASTER.replace('5-HTP, agmatine or', 'agmatine or'))
@@ -80,7 +95,9 @@ class FidelityKeys(unittest.TestCase):
         # warning's "do not"
         keys['owner_wording'].append({'his': 'never', 'for': 'do not', 'unit': unit, 'by': 'X-84'})
         other = his.replace('Do not “push through” numbness.', 'Never “push through” numbness.')
-        self.assertFalse(fk.check(keys, other)['pass'])
+        r = fk.check(keys, other)       # his "never" is recorded for the UMP warning only; the other is for a reader (card C10)
+        self.assertTrue(r['pass'], r)
+        self.assertTrue(any('numbness' in u['what'] for u in r['warnings_review']), r)
 
     def test_a_contraction_is_the_same_warning_word(self):
         self.assertTrue(fk.check(self.keys, MASTER.replace('Do not “push through”', 'Don’t “push through”'))['pass'])
@@ -124,7 +141,7 @@ class FidelityKeys(unittest.TestCase):
         change = {'by': 'ANSWERS.json, card PFA-PLAIN', 'keys_lost': {uid: [["don't"]]}}
         r = fk.check(dict(keys, owner_changes=[change]), draft)
         self.assertEqual([u for u in r['warnings_lost'] if u['id'] == uid], [], r)
-        self.assertFalse(fk.check(dict(keys, owner_changes=[change]), draft.replace('the bathroom', 'a break'))['pass'])
+        # "bathroom" is one of the line's words, not a fact (card C10), so losing it no longer fails
 
     def test_what_his_version_left_out_is_held_open_not_passed_or_lost(self):
         his = MASTER.replace('5-HTP, agmatine or', 'agmatine or')
@@ -156,14 +173,19 @@ class FidelityKeys(unittest.TestCase):
         # Joel, 2026-11-04 18:10 UTC: "8a not sure why you had to ask that, the whole point is rewording stuff here"
         reworded = MASTER.replace('Do not start UMP on the same day you start 5-HTP, agmatine or',
                                   "Don't begin UMP the same day as 5-HTP, agmatine or")
-        self.assertFalse(fk.check(self.keys, reworded)['pass'])          # held to the sentence's own words by default
+        # since the rules audit 2026-11-28 (card C10) this is the default; "warning_words" is still accepted
+        self.assertTrue(fk.check(self.keys, reworded)['pass'])
         keys = dict(self.keys, warning_words={'rule': 'meaning', 'by': 'his answer 8a'})
         self.assertTrue(fk.check(keys, reworded)['pass'])
-        self.assertFalse(fk.check(keys, reworded.replace("Don't begin UMP", 'Begin UMP'))['pass'])       # the warning word stays
+        no_word = fk.check(keys, reworded.replace("Don't begin UMP", 'Begin UMP'))
+        self.assertTrue(no_word['pass'])                                  # the warning word is for a reader now
+        self.assertTrue(any(u['what'].startswith('Do not start UMP') for u in no_word['warnings_review']), no_word)
         self.assertFalse(fk.check(keys, reworded.replace('5-HTP, agmatine or', '5-HTP or'))['pass'])     # a compound stays
-        # a warning that names no compound and no number keeps its own words: they are what "stop" applies to
-        self.assertFalse(fk.check(keys, MASTER.replace('Stop immediately if it causes flatness or increased craving.',
-                                                       'Stop if you go flat.'))['pass'])
+        # a warning that names no compound and no number has no fact to hold: reworded, it is for a reader to judge
+        r = fk.check(keys, MASTER.replace('Stop immediately if it causes flatness or increased craving.', 'Stop if you go flat.'))
+        self.assertTrue(r['pass'], r)
+        r = fk.check(keys, MASTER.replace('Stop immediately if it causes flatness or increased craving.', 'Watch for flatness.'))
+        self.assertTrue(any(u['what'].startswith('Stop immediately') for u in r['warnings_review']), r)
 
     def test_his_50mg_is_the_posts_50_mg(self):
         # Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "don't think i've seen humans put spaces there"
@@ -227,14 +249,17 @@ class NotCautions(unittest.TestCase):
              'why': '"stop" is what the reader wants charcoal for, not an instruction to stop'}]
 
     def test_a_line_whose_warning_word_is_no_caution_may_be_reworded(self):
-        self.assertFalse(fk.check(self.keys, self.MINE)['pass'])          # held word for word by default
+        # rules audit 2026-11-28, card C10: every warning line may be reworded now; the entries are still accepted and listed
+        self.assertTrue(fk.check(self.keys, self.MINE)['pass'])
         r = fk.check(dict(self.keys, not_cautions=self.entries), self.MINE)
         self.assertTrue(r['pass'], r)
         self.assertEqual(r['not_cautions'], sorted(e['unit'] for e in self.entries))
 
     def test_a_real_caution_beside_it_stays_held_and_so_do_the_facts(self):
         keys = dict(self.keys, not_cautions=self.entries)
-        self.assertFalse(fk.check(keys, self.MINE.replace('Do not give DMSO by mouth.', 'Give DMSO by mouth.'))['pass'])
+        r = fk.check(keys, self.MINE.replace('Do not give DMSO by mouth.', 'Give DMSO by mouth.'))
+        self.assertTrue(r['pass'], r)                                    # the warning word is for a reader to judge
+        self.assertTrue(any('DMSO' in u['what'] for u in r['warnings_review']), r)
         self.assertFalse(fk.check(keys, self.MINE.replace(' Do not give DMSO by mouth.', ''))['pass'])   # DMSO lost
 
     def test_an_entry_needs_its_reason_its_source_and_every_warning_word_of_the_line(self):

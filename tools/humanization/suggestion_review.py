@@ -25,6 +25,9 @@ are project-sources/review-form-controls.css, inlined (the 2026-10-23 white-on-w
   python3 tools/humanization/suggestion_review.py check REVIEW.json      # every span and before-text is in the article
   python3 tools/humanization/suggestion_review.py page REVIEW.json OUT.html [--artifact ART.html]
 
+Both print each PROBLEM (page writes nothing while there is one) and each NOTE, which is for the worker and never refuses:
+what a card's given receipt shows, and kept words that are only my reading (rules audit 2026-11-28, cards C02 and C12).
+
 REVIEW.json (the lane's build script writes it; see find_quote, block_text and cut_text for its helpers):
   {"format": "joel-suggestion-review-v1", "review_id", "title", "intro": [paragraphs], "git_file": the page's file,
    "article": {"file": repo-relative Markdown, "sha256"}, "built", "links": {"guide", "review"} (GitHub pages to name),
@@ -48,7 +51,9 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "approve_label" (optional: "cut it", "use this wording", ...),
       "decided" (optional): {"status": "approved"|"rejected"|"revise", "text", "comment", "by", "at"},
       "keep_ack" (optional): why a card may touch words on the article's keep-as-is list (KEEP-AS-IS.json: a joke, a
-                 word or a device Joel said stays, or a cut he meant), which check() otherwise refuses (keep_as_is.py),
+                 word or a device Joel said stays, or a cut he meant), which check() otherwise refuses (keep_as_is.py);
+                 an entry that is only my reading ("my reading, not asked") is a note on the card, never a refusal (rules
+                 audit 2026-11-28, card C12),
       "reads" (optional): [{"text": a paragraph as it would read, "kind" (optional: "p", or "h2".."h4" for a new heading,
                  shown with its Markdown #s so a paste keeps it a heading), "new": [its new words: a string found once,
                  or [the words just before, the new words], found once together], "note"}]   the
@@ -59,10 +64,12 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
                  with no Pangram link: Joel, 2026-11-02, "always give me the links"),
       "tested" (needed when there is a reading): what Pangram read on the suggestion itself, with its link; both show
                  on the card (1.5; before it, an approve card didn't show its reading at all),
-      "receipt" (needed, from reviews built 2026-11-05, on a card that adds or changes words): the repo-relative path of
-                 the new paragraph's making-sense receipt (tools/humanization/sense_receipt.py), or a list of them, one
-                 per new paragraph; check() refuses a card without one that passes (gate E365),
-      "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed; his
+      "receipt" (optional): the repo-relative path of the new paragraph's making-sense receipt
+                 (tools/humanization/sense_receipt.py), or a list of them, one per new paragraph. From reviews built
+                 2026-11-05 a card that added or changed words needed one that passed (gate E365); since the rules audit
+                 of 2026-11-28 (card C02) none is needed, and what a given receipt shows (it fails its check, isn't found,
+                 or isn't for the card's new text) is printed as a note, not a problem,
+      "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is read; his
                  version of a model's text goes in as he sent it, but stays the model's text, the worker's to fix later
                  (gate E373),
       "sense" (needed, from reviews built 2026-11-07, on a stretch to edit he asked to rewrite on a model's text): what a
@@ -71,11 +78,12 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "list_part" (optional, on a stretch to edit): why the card covers only some items of a list; without it, a stretch
                  to edit that covers one item of a list covers them all (gate bad-trips-2026-11-07k),
       "ask_because" (needed, from reviews built 2026-11-07, on an approve or leave card): why the change needs his
-                 decision at all: "meaning: what it might change in what the text says", "downside: what is lost or
-                 risked" or "his own: what he wrote himself and where"; shown on the card as "Why I'm asking". A tested
-                 fix that keeps the meaning and has no downside goes into the article without a card (gate
-                 bad-trips-2026-11-07a); check() refuses a card without one and names his record on the article for the
-                 card's type (approval_record.py)},
+                 decision at all, in plain words, 15 characters at least (ASK_MIN): what the meaning might change, the
+                 downside, the words he wrote himself, or the fact only he knows; no fixed prefix (rules audit
+                 2026-11-28, card C18; the "meaning:", "downside:" and "his own:" of earlier pages still read as plain
+                 words); shown on the card as "Why I'm asking". A tested fix that keeps the meaning and has no downside
+                 goes into the article without a card (gate bad-trips-2026-11-07a); check() refuses a card without one
+                 and shows his record on the article for the card's type, as information (approval_record.py)},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
       "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
      {"id", "type", "title", "advice": "edit", "why", "reading" (optional: what Pangram read there), "advice_note",
@@ -115,11 +123,15 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.14 (2026-11-27)'  # 1.14: a teaching card's box holds every paragraph it marks
+# 1.14: a teaching card's box holds every paragraph it marks; 1.15: the rules audit of 2026-11-28 (cards C02, C12, C18): no
+# receipt needed, a plain "ask_because", and a card on words that are only my reading is a note, not a refusal
+GENERATOR = 'suggestion_review.py 1.15 (2026-11-28)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
-RECEIPT_FROM = '2026-11-05'   # reviews built from this day: a card that adds or changes words needs its making-sense receipt
+# reviews built from this day: a card that adds or changes words needed its making-sense receipt (gate E365). Rules audit
+# 2026-11-28, card C02 (approved): none is needed now, and what a given receipt shows is printed as a note (receipt_notes)
+RECEIPT_FROM = '2026-11-05'
 # Gate E373 (Joel, 2026-11-06 17:30 UTC: "don't say 'those are your words so you need to fix it' -- your job is to do the
 # fixing"): from this day a stretch to edit says whose words it holds, and no card calls a model's text his words
 PROVENANCE_FROM = '2026-11-06'
@@ -157,7 +169,10 @@ CUT_START = re.compile(r'^\s*<!--\s*CUT\s*-->\s*$')
 CUT_END = re.compile(r'^\s*<!--\s*/CUT\s*-->\s*$')
 NOTE_RE = re.compile(r'<!--\s*(IMAGE|EMBED)\s+(\S+)\s*:\s*(.*?)\s*-->', re.S)
 YT_ID = re.compile(r'(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/)|youtu\.be/)([A-Za-z0-9_-]{11})')
-ASK_OK = re.compile(r'^\s*(meaning|downside|his own)\s*:\s*\S.{9,}', re.I | re.S)
+# Rules audit 2026-11-28, card C18 (approved): "ask_because" is a plain reason, at least ASK_MIN characters, not one of
+# three prefixes ("meaning:", "downside:", "his own:"); his "like if meaning might have changed or there's a downside to
+# consider" (2026-11-07 12:08 UTC) gave examples, and a prefix test stood in for the judgment he asked for
+ASK_MIN = 15
 FINE_OK = re.compile(r'^\s*\S.{14,}', re.S)
 YOURS_WORDS = re.compile(r"\byour (?:own )?(?:words|sentences?|lines?|phrasings?|wording)\b|\byours to (?:change|fix|edit|"
                          r"rewrite)\b|\bare yours\b", re.I)
@@ -423,41 +438,56 @@ def links_in(bl, i, start, end):
 
 # ---------------------------------------------------------------- checks
 
-def receipt_problems(review, s):
-    """Gate E365, enforcing E362 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff over and
-    over"): from RECEIPT_FROM on, a card that adds or changes words carries "receipt", a making-sense receipt
-    (sense_receipt.py) or a list of them, repo-relative; each passes, and each new text (an edit's block as it would
-    read, an insert's text) is the text of one of them. A card whose new words are Joel's own ("owner_text": "whose and
-    where") needs none."""
-    built = review.get('built') or ''
-    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < RECEIPT_FROM or s.get('owner_text') \
-            or s.get('advice') in ('ask', 'edit'):
+def receipt_notes(review, s):
+    """What the making-sense receipts a card gives show, as notes for the worker: [message], never a refusal.
+
+    Gate E365, enforcing E362 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff
+    over and over"), had a card that adds or changes words carry "receipt" (a sense_receipt.py receipt, or a list of them,
+    repo-relative) that passed, from RECEIPT_FROM on, and refused one without. Rules audit 2026-11-28, card C02 (approved;
+    Joel: "something like this already exists maybe merge"): the making-sense read still comes first, but the receipt is a
+    short note of it and no tool refuses a change for lacking one. So a card needs no receipt, and of a receipt it gives,
+    these are notes: it isn't found or can't be read, its check finds something wrong (sense_receipt.check), or its text
+    is none of the card's new texts (an edit's block as it would read, an insert's text). A card whose new words are Joel's
+    own ("owner_text": "whose and where") has none read."""
+    if s.get('owner_text') or s.get('advice') in ('ask', 'edit'):
         return []
-    new = [e['after'] for e in s.get('edits', []) if (e.get('after') or '').strip() and e.get('after') != e.get('before')]
-    new += [i['text'] for i in s.get('inserts', []) if (i.get('text') or '').strip()]
-    if not new:
-        return []
-    sid = s.get('id', '?')
     paths = s.get('receipt') or []
     paths = [paths] if isinstance(paths, str) else paths
     if not paths:
-        return ['%s: a card that adds or changes words needs its making-sense receipt ("receipt": a sense_receipt.py '
-                'receipt for the paragraph as it would read; gate E365), or "owner_text" when the words are Joel\'s' % sid]
+        return []
+    new = [e['after'] for e in s.get('edits', []) if (e.get('after') or '').strip() and e.get('after') != e.get('before')]
+    new += [i['text'] for i in s.get('inserts', []) if (i.get('text') or '').strip()]
+    sid = s.get('id', '?')
     import sense_receipt
-    probs, texts = [], []
+    notes = []
     for rp in paths:
         f = ROOT / rp
         if not f.exists():
-            probs.append('%s: receipt %s not found' % (sid, rp))
+            notes.append('%s: receipt %s not found' % (sid, rp))
             continue
-        r = json.loads(f.read_text(encoding='utf-8'))
-        texts.append(r.get('text', ''))
-        probs += ['%s: receipt %s: %s' % (sid, rp, x) for x in sense_receipt.check(r.get('text', ''), r)]
-    for t in new:
-        if not any(t.strip() == x.strip() for x in texts):
-            probs.append('%s: no receipt is for the new text "%s..." (the receipt\'s text must be the paragraph as it '
-                         'would read)' % (sid, t.strip()[:60]))
-    return probs
+        try:
+            r = json.loads(f.read_text(encoding='utf-8'))
+        except (ValueError, UnicodeDecodeError) as e:
+            notes.append('%s: receipt %s can\'t be read (%s)' % (sid, rp, e))
+            continue
+        if not isinstance(r, dict):
+            notes.append('%s: receipt %s is not a receipt' % (sid, rp))
+            continue
+        t = r.get('text', '')
+        notes += ['%s: receipt %s: %s' % (sid, rp, x) for x in sense_receipt.check(t, r)]
+        # a receipt is for the card when its text is one of the card's new texts or holds one (a read of the section
+        # around the new paragraph is a read of the passage); otherwise the read it records was of other words
+        flat = ' '.join(t.split())
+        if new and not any(' '.join(x.split()) in flat for x in new):
+            notes.append('%s: receipt %s is not for this card\'s new text: its text (beginning "%s") neither is nor holds '
+                         'any of the card\'s new paragraphs' % (sid, rp, flat[:60]))
+    return notes
+
+
+def receipt_problems(review, s):
+    """Nothing about a card's making-sense receipt is a problem any more (rules audit 2026-11-28, card C02): [] always. It
+    stays for scripts that call it; what a given receipt shows is in receipt_notes()."""
+    return []
 
 
 def provenance_problems(review):
@@ -512,17 +542,20 @@ def ask_problems(review, rec=None):
     """Gate bad-trips-2026-11-07a (Joel, 2026-11-07 12:08 UTC: "you're asking me to approve things that are clearly good /
     you should be learning what you actually need to ask my opinion on, like if meaning might have changed or there's a
     downside to consider, make that a repo rule unless the author asks for this kind of fine-grained approval approach").
-    On pages built from ASK_FROM, an approve or leave card says in "ask_because" why it needs his decision: "meaning: ...",
-    "downside: ..." or "his own: ...". A tested fix that keeps the meaning and has no downside goes into the article without
-    a card, named in the turn's report with its Pangram links (gut-2026-11-07b). A page whose "fine_grained" gives his words
-    and when he asked to approve each change needs no reasons. The problem names his record on the article for the card's
-    type, so the worker sees what he approves every time (approval_record.py)."""
+    On pages built from ASK_FROM, an approve or leave card says in "ask_because" why it needs his decision. A tested fix
+    that keeps the meaning and has no downside goes into the article without a card, named in the turn's report with its
+    Pangram links (gut-2026-11-07b). A page whose "fine_grained" gives his words and when he asked to approve each change
+    needs no reasons.
+
+    Rules audit 2026-11-28, card C18 (approved): the reason is said in plain words, at least ASK_MIN characters, with no
+    fixed prefix ("meaning: ...", "downside: ...", "his own: ..." were required before; they still read as plain words) and
+    no count. The problem shows his record on the article for the card's type as information (approval_record.py)."""
     built = review.get('built') or ''
     if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < ASK_FROM or FINE_OK.match(review.get('fine_grained') or ''):
         return []
     probs = []
     for s in review['suggestions']:
-        if s.get('advice') not in ('approve', 'leave') or ASK_OK.match(s.get('ask_because') or ''):
+        if s.get('advice') not in ('approve', 'leave') or plain_reason(s.get('ask_because')):
             continue
         if rec is None:
             rec = article_record(review)
@@ -530,13 +563,20 @@ def ask_problems(review, rec=None):
         seen = ''
         if e:
             import approval_record
-            seen = ' His record on this article: %s.' % approval_record.type_line(s.get('type'), e)
-        probs.append('%s: why does this go to him? Say "ask_because": "meaning: what it might change in what the text says", '
-                     '"downside: what is lost or risked" or "his own: what he wrote himself and where". A tested fix that '
-                     'keeps the meaning and has no downside goes into the article without a card, named in the turn\'s '
-                     'report with its Pangram links (gate bad-trips-2026-11-07a; Joel, 2026-11-07 12:08 UTC: "you\'re asking '
-                     'me to approve things that are clearly good").%s' % (s.get('id', '?'), seen))
+            seen = ' His record on this article, as information: %s.' % approval_record.type_line(s.get('type'), e)
+        probs.append('%s: why does this go to him? Say in "ask_because", in plain words (%d characters at least), why his '
+                     'opinion is really needed here: what the meaning might change, the downside, the words he wrote '
+                     'himself, or the fact only he knows. A tested fix that keeps the meaning and has no downside goes into '
+                     'the article without a card, named in the turn\'s report with its Pangram links (gate '
+                     'bad-trips-2026-11-07a; rules audit 2026-11-28, card C18; Joel, 2026-11-07 12:08 UTC: "you\'re asking '
+                     'me to approve things that are clearly good").%s' % (s.get('id', '?'), ASK_MIN, seen))
     return probs
+
+
+def plain_reason(s):
+    """S, a card's "ask_because", gives a reason in at least ASK_MIN characters, whitespace runs counted once (rules audit
+    2026-11-28, card C18: plain words, no fixed prefix)."""
+    return len(' '.join(str(s or '').split())) >= ASK_MIN
 
 
 def sense_problems(review):
@@ -659,7 +699,7 @@ def check(review, bl):
                 probs.append('%s: a suggestion for a stretch Pangram flagged needs its own Pangram check, with the link, '
                              'in "tested" (Joel, 2026-11-02: "you didn\'t check if your changes passed.. they didn\'t. '
                              'don\'t waste my time")' % sid)
-        probs += receipt_problems(review, s)
+        # rules audit 2026-11-28, card C02: a card needs no making-sense receipt; what a given one shows is in notes()
         if s.get('advice') not in ('approve', 'leave', 'ask', 'edit'):
             probs.append('%s: advice must be "approve", "leave", "ask" or "edit"' % sid)
         # Lesson neuro-2026-11-27f: a "leave" card is a reader's suggestion I'd leave, and the page hides it until he
@@ -724,7 +764,8 @@ def check(review, bl):
         if d and d.get('status') not in ('approved', 'rejected', 'revise'):
             probs.append('%s: decided status must be approved, rejected or revise' % sid)
     # what Joel said stays as it is, and the cuts he meant (the article's KEEP-AS-IS.json; lesson E340,
-    # Joel 2026-11-03 on a card that asked about his Lao Tsu joke: "that's the joke yeah you forgot")
+    # Joel 2026-11-03 on a card that asked about his Lao Tsu joke: "that's the joke yeah you forgot"); an entry that is only
+    # my reading is a note, in notes() (rules audit 2026-11-28, card C12)
     art = (review.get('article') or {}).get('file')
     if art:
         led = keep_as_is.load(ROOT / art)
@@ -738,6 +779,24 @@ def check(review, bl):
     probs += unit_problems(review)
     probs += percent_problems(review)
     return probs
+
+
+def notes(review, bl):
+    """Notes on REVIEW for the worker, never refusals: [message]. Rules audit 2026-11-28: what a card's given making-sense
+    receipt shows (card C02, approved: no card needs a receipt, and a given one that fails is a note; receipt_notes), and a
+    card that highlights or changes words the article's keep-as-is list holds only as my reading, "my reading, not asked"
+    (card C12, approved: "Only what you said stays goes on the keep-as-is list and blocks a card; the editor's guesses are
+    notes"; keep_as_is.card_notes)."""
+    out = []
+    for s in review['suggestions']:
+        out += receipt_notes(review, s)
+    art = (review.get('article') or {}).get('file')
+    if art:
+        led = keep_as_is.load(ROOT / art)
+        texts = [b['text'] for b in bl]
+        for s in review['suggestions']:
+            out += keep_as_is.card_notes(s, texts, led)
+    return out
 
 
 # ---------------------------------------------------------------- the page
@@ -1269,18 +1328,25 @@ def main(argv=None):
     probs = check(review, bl)
     for x in probs:
         print('PROBLEM', x)
+    # rules audit 2026-11-28, cards C02 and C12: what a given receipt shows, and kept words that are only my reading, are
+    # notes, printed and never refusing
+    found = notes(review, bl)
+    for x in found:
+        print('NOTE', x)
     rec = article_record(review)
     lines = []
     if rec:
         import approval_record
         lines = approval_record.summary(rec, {s.get('type') for s in review['suggestions']})
     if lines:
-        print('his record on this article for the types on this page (approval_record.py; ask only where meaning might '
-              'change or there is a downside):')
+        # rules audit 2026-11-28, card C18: the record is information; no count decides what goes to him
+        print('his record on this article for the types on this page, as information (approval_record.py; a card goes '
+              'to him where his opinion is really needed: the meaning might change, there is a downside, the words are '
+              'his own, or only he knows the fact):')
         for x in lines:
             print('  ' + x)
     if a.cmd == 'check':
-        print('%d suggestions, %d problems' % (len(review['suggestions']), len(probs)))
+        print('%d suggestions, %d problems, %d notes' % (len(review['suggestions']), len(probs), len(found)))
         return 1 if probs else 0
     if probs:
         print('not writing the page: fix the problems first')

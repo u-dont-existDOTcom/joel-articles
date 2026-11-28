@@ -2958,6 +2958,47 @@
     }
    ],
    "recorded_utc": "2026-11-27T22:51Z"
+  },
+  {
+   "turn": "2026-11-28T10:25Z",
+   "lines_of_work": [
+    "rules audit answers",
+    "rule tree (his message of 10:25 UTC)",
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ (UDA at 3fce032, unchanged), all six in docs/suggested-fixes-ledger.md; none new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 75's push: pull requests 577 to 581 merged (neuro de-armoring, romance twice, somatic twice), 582 open (romance: section links, contents test); no issues, issue comments or review comments; main's shared changes: his_fixes_brief ways 31 and 32 and a clause case in way 10 (lessons neuro-2026-11-27s to x), linter O79 (a count spelled out, REVIEW), lessons neuro 2026-11-27 22:59 and somatic 2026-11-28 09:44; none touch this turn's work except the brief and the linter, which this turn edits on top of them"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "HANDOFF-bad-trips.md, OWNER-QUESTIONS.md, PROMISES.md: last changed by this lane's turn 75; no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's rules-audit answers (export 2026-11-28 10:24 UTC): 33 approved, 4 to revise, with notes",
+     "outcome": "this turn: recorded (RESULTS.md); each fix in the rule tree, the tools changed"
+    },
+    {
+     "item": "Joel's message of 10:25 UTC: the rules overlap and aren't well organized; a rule tree, brainstormed, with a human view that makes sense, maybe with graphical links",
+     "outcome": "this turn: the brainstorm, then rule tree v1 with his approved fixes, and its human view"
+    }
+   ],
+   "recorded_utc": "2026-11-28T10:30Z"
   }
  ]
 }

@@ -8,7 +8,8 @@ predictions in batch tables read by its own scorecard (which the hypnosis lane j
 table; nothing counted tries. docs/PANGRAM-PRODUCTION-BUDGET-20261020.md asks every lane for an immutable prediction before
 each call (scope, Human or AI, the tells behind it, the try number), the result after, every miss recorded with its cause,
 a scorecard with rolling accuracy beside the always-AI and always-Human baselines and the boundary mix, and a tries count of
-at most six per paragraph lineage (ten while it is on the right track, lesson bad-trips-2026-11-20g), two per section and two per whole article. This tool does those things for any lane.
+at most ten per paragraph lineage (more only on a trail, --trail: rules audit 2026-11-28, cards C05 and C07), two per
+section and two per whole article. This tool does those things for any lane.
 
 Each lane keeps one append-only file, `pangram-ledger.jsonl` in its folder (tools/humanization/pangram_lanes.json says where),
 with one JSON object per line:
@@ -30,7 +31,8 @@ Nothing is edited in place; a correction is a new line.
   python3 tools/humanization/pangram_ledger.py build [--lanes tools/humanization/pangram_lanes.json] [--universal OUT.md]
 
 `predict` refuses (exit 2, with the rule) when: the call has no evidence (no tells and no human tells); the lineage has used
-its tries (six for a paragraph, pair, heading or sentence; two for a section, stretch or whole article); a submission of the
+its tries (ten for a paragraph, pair, heading or sentence, whatever its scores, past which a try goes on only with --trail
+saying why more checks help; two for a section, stretch or whole article); a submission of the
 lineage has no result yet (recover it from Pangram's History, or `void` it if it was never sent); an earlier try of the
 lineage failed and no diagnosis is given; the last two results of the lineage were misses and neither is explained (stop and
 ask Joel: "I can't find AI tells here, and here are the human tells I see, but it doesn't pass. Can you explain?",
@@ -41,6 +43,12 @@ same text (same SHA-256) was already submitted in the lineage (read the cached r
 reason to skip a check a rule requires, and the counter is the floor of the budget rule, not all of it: the rule's diagnosis
 and stop conditions still need a person's judgment.
 
+Since the rules audit of 2026-11-28 `predict` prints a note, not a refusal, for a text of mine without its making-sense
+receipt or with one whose check finds problems (card C02), a retry that changes more than 40% of the words of the try before
+it or more than 20% of the lineage's best try with a Human window (card C01), and a text that reworks sentences which read
+below High (card C14); a third try after two AI reads needs no tell panel (card C20). --receipt, --big-change, --first-fix
+and --panel are optional and recorded when given. Notes go to stdout before the prediction's line, which stays the last.
+
 `build` writes, for each lane, `SCORECARD.md` beside its ledger, with --universal one page over every lane, and with --rows
 one JSON row per scored call for a dashboard page. Each lane's older records (Pangram 4.0, before the ledger) are read through its "legacy" sources and shown apart
 from the ledger's rows, never pooled with them.
@@ -49,14 +57,16 @@ import argparse, datetime, hashlib, json, pathlib, re, sys
 
 REPO = pathlib.Path(__file__).resolve().parents[2]
 LANES = REPO / 'tools' / 'humanization' / 'pangram_lanes.json'
-CAPS = {'sentence': 6, 'heading': 6, 'paragraph': 6, 'pair': 6, 'section': 2, 'stretch': 2, 'article': 2}
-# Lesson bad-trips-2026-11-20g (Joel, 2026-11-20 18:20 UTC, on a seventh try I held back although the sixth had read Human
-# High and the seventh only put back what the sixth had dropped: "you used up your tries? so we shoudl raise the limit to 10
-# then? it seems like the point of the limit was to stop you from doing blind tests, but if your'e on the right track you
-# should keep going"): a paragraph-sized lineage on the right track may go to ten tries; one that isn't stops at six.
-RIGHT_TRACK_CAP = 10
-RIGHT_TRACK_SCOPES = ('sentence', 'heading', 'paragraph', 'pair')
-PANEL_SCOPES = ('paragraph', 'pair')   # E346: read AI twice, the tell panel before the next try
+CAPS = {'sentence': 10, 'heading': 10, 'paragraph': 10, 'pair': 10, 'section': 2, 'stretch': 2, 'article': 2}
+# Rules audit 2026-11-28, cards C05 and C07 (approved, merged): "Up to ten tries per paragraph (his number), each past the
+# first with a named reason and in the same direction; a worse reading alone doesn't stop it, a try with no reason does."
+# His note on C05: "don't even try if you have no idea what you're doing, but if you're hot on the trail and just need more
+# budget then the budget should be flexible ... you can also use more pangram calls if that would help you learn". So a
+# paragraph-sized lineage has ten tries whatever right_track says (it stopped at six when its latest check read worse:
+# lesson bad-trips-2026-11-20g, his "if your'e on the right track you should keep going"), and past ten a try goes on
+# with --trail saying, in TRAIL_MIN characters or more, why more checks help.
+TRAIL_SCOPES = ('sentence', 'heading', 'paragraph', 'pair')
+TRAIL_MIN = 20
 
 
 def cap_for(scope, detector=None):
@@ -201,9 +211,10 @@ def textless_after(recs, lineages):
             if any(not (isinstance(w, dict) and w.get('text')) for w in (p['result'].get('windows') or []))]
 
 
-def refusals(recs, rec, text=None):
+def refusals(recs, rec, text=None, notes=None):
     """Why the budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) forbids this submission; empty means it may go.
-    TEXT is the submission's text, when predict has it."""
+    TEXT is the submission's text, when predict has it. NOTES, a list, takes what is said as a note, not a refusal."""
+    notes = [] if notes is None else notes
     out = []
     # E354: an article check comes after every window the smaller checks showed is fixed, or named with why it stays
     if rec.get('scope') == 'article' and text is not None:
@@ -281,7 +292,7 @@ def refusals(recs, rec, text=None):
     if any(p['sha256'] == rec['sha256'] for p in line):
         out.append('this exact text (same SHA-256) was already submitted in lineage %s: read its result from the ledger or '
                    "Pangram's History instead of paying again" % rec['lineage'])
-    out += blocks(recs, rec['lineage'], scope, rec.get('detector'), after_fix=rec.get('after_fix'))
+    out += blocks(recs, rec['lineage'], scope, rec.get('detector'), after_fix=rec.get('after_fix'), trail=rec.get('trail'))
     if cap_for(scope, rec.get('detector')) is None and not (rec.get('decides') or '').strip():
         out.append('a Substack check past the usual two tries must say what its result decides (--decides; Joel, '
                    '2026-10-21, question 7 b: "run only when its result decides something")')
@@ -298,31 +309,28 @@ def refusals(recs, rec, text=None):
                    'by itself (Joel, 2026-11-04: "you\'d still need to narrow it down to para level if it doesn\'t work"); '
                    'then give --narrowed with the paragraph lineages checked since' % (scope, rec['lineage'],
                                                                                     done[-1]['result'].get('verdict')))
-    # E346 (the neuro de-armoring lane, 2026-11-04): a paragraph that has read AI twice goes to the tell panel before its next
-    # try. Its evidence paragraph and Scott's paragraph each took four tries of mine before the panel ran (E253 (Inner
-    # Child) asks for it only before a help request), so the writer of another family (E256) came at the sixth and last
-    # try: with the panel's tells fixed the evidence paragraph read Human at its fifth, and Codex's rewrite carried Scott's.
-    failed = [p for p in done if p['result'].get('verdict') != 'Human']
-    if scope in PANEL_SCOPES and len(failed) >= 2:
-        panel = (rec.get('panel') or '').strip()
-        f = pathlib.Path(panel) if panel else None
-        if not panel:
-            out.append('lineage %s has read AI or Mixed %d times: its next try goes through the tell panel first (fresh '
-                       'readers with tools/humanization/tell_panel.py; E253 (Inner Child), E346): fix the sentences they agree '
-                       'on, then give --panel with the PANEL.md it wrote' % (rec['lineage'], len(failed)))
-        elif not (f.is_file() or (REPO / panel).is_file()):
-            out.append('--panel %s: no such file (the PANEL.md that tell_panel.py summarize writes)' % panel)
+    # Rules audit 2026-11-28, card C20 (approved): the refusal of a third try after two AI reads without --panel (E346)
+    # goes; it counted reads. His words on the card (E361): "I do what i know works, and if it doesn't fix it, I just try
+    # to find the next obvious thing that shoudl work". --panel is optional now and recorded when given.
+    panel = (rec.get('panel') or '').strip()
+    if panel and not (pathlib.Path(panel).is_file() or (REPO / panel).is_file()):
+        notes.append('--panel %s: no such file (the PANEL.md that tell_panel.py summarize writes); recorded as given'
+                     % panel)
     return out
 
 
-def blocks(recs, lineage, scope, detector=None, after_fix=None):
+def blocks(recs, lineage, scope, detector=None, after_fix=None, trail=None):
     """What stops any further submission in the lineage, whatever the text: the cap, a submission with no result, two
     unexplained misses in a row. DETECTOR is the new prediction's (a Substack check of an article has no cap).
 
     AFTER_FIX (what the fix changed) lets a section past its two tries take one more check of the whole section after a
     fix: Joel's answer to question 28 of the hypnosis guide, 2026-11-02 19:11 UTC, "28a" ("Yes, my default: one more check
     of the whole section after each fix, each with my prediction written first"). The new text is the fix in place, so it
-    can't be a try already made (the SHA-256 check), and every other block still applies."""
+    can't be a try already made (the SHA-256 check), and every other block still applies.
+
+    TRAIL (rules audit 2026-11-28, cards C05 and C07) lets a sentence, heading, paragraph or pair lineage past its ten
+    tries take one more: why more checks help, the trail it is on or the minimal pair it is learning from, in TRAIL_MIN
+    characters or more. Its scores no longer decide the cap, and every other block still applies."""
     out = []
     line = lineage_view(state(recs), lineage)
     pending = [p for p in line if not p['result']]
@@ -330,17 +338,25 @@ def blocks(recs, lineage, scope, detector=None, after_fix=None):
         out.append('try %d of lineage %s (%s) has no result: recover it from the History, or void it if it was never sent'
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
     cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
-    if cap is not None and scope in RIGHT_TRACK_SCOPES and len(line) >= cap and right_track(line):
-        cap = max(cap, RIGHT_TRACK_CAP)   # lesson bad-trips-2026-11-20g: on the right track, up to ten
-    if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
-        out.append('lineage %s has used its %d tries for a %s%s: stop and ask Joel only for a decision that is his (a new '
-                   'owner decision is needed); a fix that is yours, or that the article\'s own goals already call for '
-                   '(a repeat cut, gate E378), goes on: for a section with a fix in it, give --after-fix (his answer 28a), '
-                   'or narrow it to its paragraphs (E343)'
-                   % (lineage, cap, scope, '' if scope not in RIGHT_TRACK_SCOPES or cap >= RIGHT_TRACK_CAP else
-                      ' and isn\'t on the right track (its latest check read worse than an earlier one, or with no Human '
-                      'window), so it stops at six (lesson bad-trips-2026-11-20g: up to ten only while the latest check '
-                      'is the best so far)'))
+    trail = (trail or '').strip()
+    # Cards C05 and C07 (approved): past ten, "if you're hot on the trail and just need more budget then the budget should
+    # be flexible"; with no trail, "don't even try if you have no idea what you're doing" (his note on C05)
+    on_trail = scope in TRAIL_SCOPES and len(trail) >= TRAIL_MIN
+    if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()) and not on_trail:
+        if scope in TRAIL_SCOPES:
+            out.append('lineage %s has used its %d tries for a %s: a further try goes on with --trail "why more checks help: '
+                       'the trail you\'re on, or the minimal pair you\'re learning from" (at least %d characters%s); with '
+                       'no trail, don\'t test blind: stop, and ask Joel only for a decision that is his (rules audit '
+                       '2026-11-28, cards C05 and C07; his note: "don\'t even try if you have no idea what you\'re doing, '
+                       'but if you\'re hot on the trail and just need more budget then the budget should be flexible")'
+                       % (lineage, cap, scope, TRAIL_MIN, '; the one given has %d' % len(trail) if trail else ''))
+        else:
+            out.append('lineage %s has used its %d tries for a %s: stop and ask Joel only for a decision that is his (a new '
+                       'owner decision is needed); a fix that is yours, or that the article\'s own goals already call for '
+                       '(a repeat cut, gate E378), goes on: for a section with a fix in it, give --after-fix (his answer '
+                       '28a), or narrow it to its paragraphs (E343)%s'
+                       % (lineage, cap, scope, '; --trail goes past the cap of a sentence, heading, paragraph or pair '
+                                               'lineage only' if trail else ''))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
         out.append('the last two predictions of lineage %s missed and neither is explained: stop and ask Joel ("I can\'t find '
@@ -649,8 +665,8 @@ def changed_share(old, new):
     return changed / total if total else 0.0
 
 
-BIG_CHANGE = 0.4
-NEAR_MISS = 0.2
+BIG_CHANGE = 0.4   # a retry that changes more of the try before it gets a note (card C01; it was refused, gate E361)
+NEAR_MISS = 0.2    # a try that changes more of the lineage's best near miss gets a note (card C01; it was refused)
 
 
 def below_high_words(windows):
@@ -675,7 +691,8 @@ def best_near_miss(line):
     read 100% AI. Between tries of the same likelihood, the one with fewer words in windows below Human High is the better:
     Pangram's likelihood for a Human text rounds to 0, so a later try that read Human High in every window tied an earlier
     one with a Medium window, and the near-miss rule measured a new try from the older, worse text (turn 50, 2026-11-20:
-    niacin's side effects, b07 Human High after a07's Medium window)."""
+    niacin's side effects, b07 Human High after a07's Medium window). Since the rules audit of 2026-11-28 (card C01) it
+    names the try sense_gate's note says to start from; nothing is refused for how far a try moves from it."""
     best = None
     for p in line:
         r = p.get('result') or {}
@@ -689,11 +706,11 @@ def best_near_miss(line):
 
 
 def right_track(line):
-    """Lesson bad-trips-2026-11-20g: a lineage is on the right track when its latest checked try is its best so far (the
-    lowest AI likelihood, then the fewest words below Human High, as best_near_miss ranks them) and has a Human window. Past
-    six tries such a lineage may go on to RIGHT_TRACK_CAP; one whose latest check read worse than an earlier one stops at
-    six, which is what the limit was for: blind tests (Joel, 2026-11-20). Each further try still needs its named
-    diagnosis, and the two-miss stop still holds."""
+    """Lesson bad-trips-2026-11-20g: whether the lineage's latest checked try is its best so far (the lowest AI likelihood,
+    then the fewest words below Human High, as best_near_miss ranks them) and has a Human window. It no longer decides the
+    cap (rules audit 2026-11-28, cards C05 and C07: "a worse reading alone doesn't stop it"; his words, 2026-11-21:
+    "pangram can be fickle so when you're not fully fixed yet you might go back and forth on pangram results"): a
+    paragraph-sized lineage has ten tries whatever this says, and more on a trail (blocks). Kept as information."""
     done = [p for p in line if p.get('result')]
     if not done:
         return False
@@ -707,66 +724,82 @@ def right_track(line):
     return all(rank(last) <= rank(p) for p in done[:-1])
 
 
-def sense_gate(a, text, sha, line):
-    """Refusals for a text of mine before it goes to Pangram (gates E365, enforcing E362, and E361): its making-sense receipt
-    (sense_receipt.py) must pass for this exact text, and a retry may change at most 40%% of the words of the try before it
-    in the lineage (moves are free) unless --big-change says why the small fixes are spent. Joel's own text (--his) and a
-    text checked as it stands (--unchanged) need neither."""
+def sense_gate(a, text, sha, line, notes=None):
+    """A text of mine before it goes to Pangram (gates E365, enforcing E362, and E361, as the rules audit of 2026-11-28
+    left them): returns the refusals and adds the notes to NOTES, a list, when it is given. The making-sense read comes
+    before every try; its receipt (--receipt, sense_receipt.py) is optional, and what a given receipt's check finds is a
+    note (card C02). A retry that changes more than 40% of the words of the try before it, or more than 20% of the words of
+    the lineage's best try with a Human window, gets a note (card C01). Refused still: a try that adds a word the linter
+    flags as overused by AI (O12). Joel's own text (--his) and a text checked as it stands (--unchanged) get none of
+    these."""
     if a.his or a.unchanged:
         return []
+    notes = [] if notes is None else notes
     why = []
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
     import sense_receipt
+    # Rules audit 2026-11-28, card C02 (approved; his note: "something like this already exists maybe merge"): the
+    # making-sense read stays before every Pangram try, and no text is refused for lacking its receipt or for what the
+    # receipt's check finds
     if not a.receipt:
-        why.append('a text of mine goes to Pangram only with its making-sense receipt (--receipt RECEIPT.json, made and '
-                   'checked with tools/humanization/sense_receipt.py), or --his "his own: what and where" for what Joel wrote '
-                   'himself, or --unchanged "what and where" for a text checked as it stands (gate E365; Joel, 2026-11-05: "fix the way you work because i\'m not telling you the same stuff over and '
-                   'over")')
+        notes.append('the making-sense read comes before every try: read this text in its section, sentence by sentence, '
+                     'for why the reader is reading it and how it follows from the one before, and fix what doesn\'t make '
+                     'sense first; --receipt (tools/humanization/sense_receipt.py) can record that read, optional now '
+                     '(gate E365; card C02)')
     else:
-        receipt = json.loads(pathlib.Path(a.receipt).read_text(encoding='utf-8'))
-        if text is None:
-            if receipt.get('text_sha256') != sha:
-                why.append('the receipt is for another text (gate E365)')
-            text = receipt.get('text', '')
-        probs = sense_receipt.check(text.rstrip('\n'), receipt)
-        why += ['making-sense receipt: ' + x for x in probs]
+        try:
+            receipt = json.loads(pathlib.Path(a.receipt).read_text(encoding='utf-8'))
+        except (OSError, ValueError) as e:
+            receipt = None
+            notes.append('--receipt %s can\'t be read (%s); recorded as given (card C02)' % (a.receipt, e))
+        if receipt is not None and text is None:
+            # a check by --sha takes its text from the receipt, when the receipt is for that text
+            if receipt.get('text_sha256') == sha:
+                text = receipt.get('text', '')
+            else:
+                notes.append('making-sense receipt: the receipt is for another text (gate E365)')
+        if receipt is not None and text is not None:
+            notes.extend('making-sense receipt: ' + x for x in sense_receipt.check(text.rstrip('\n'), receipt))
+    # Rules audit 2026-11-28, card C01 (approved): "you do whatever you need to do get it to read well" (2026-11-04). The
+    # refusal of a retry that changes more than 40% of the try before it without --big-change (gate E361) is a note now.
     prev = next((r for r in reversed(line) if r.get('text')), None)
     if prev and text is not None and not a.big_change:
         share = changed_share(prev['text'], text)
         if share > BIG_CHANGE:
-            why.append('this try changes %d%% of the words of the try before it in the lineage (%s): fix the next part '
-                       'that doesn\'t make sense and keep what helped, or say with --big-change why every small fix is '
-                       'spent (gate E361; Joel, 2026-11-05, on the movement paragraph he fixed with two words and a move: '
-                       '"the problem was simply that you had the ideas out of their natural order")'
-                       % (round(share * 100), prev.get('id', '?')))
+            notes.append('this try changes %d%% of the words of the try before it in the lineage (%s): good when fixing '
+                         'what is unclear takes that; if not, fix the next part that doesn\'t make sense and keep what '
+                         'helped (gate E361; Joel, 2026-11-05, on the movement paragraph he fixed with two words and a '
+                         'move: "the problem was simply that you had the ideas out of their natural order"); --big-change '
+                         'can say why, optional now (card C01)' % (round(share * 100), prev.get('id', '?')))
+    # Card C01, his note: "usually it makes sense to focus on the most AI sentences first ... if i'm sure it wa sgood, i
+    # keep going on that same strategy and try to find other things that are tripping pangram up before i re-assess if i
+    # should change strat". The refusal of a try that changes more than 20% of the words of the lineage's best try with a
+    # Human window (lesson bad-trips-2026-11-19b) goes; a note says where the next try starts.
     near = best_near_miss(line)
     if near and text is not None:
         share = changed_share(near['text'], text)
-        after = line[line.index(near) + 1:]
-        small = [p for p in after if p.get('text') and changed_share(near['text'], p['text']) <= NEAR_MISS]
-        if share > NEAR_MISS and len(small) < 2:
-            why.append('the best try of this lineage, %s, read with a Human window: the next try starts from it and changes '
-                       'only what a reader could take two ways (an "it" that could point at two things, a word like "too '
-                       'weak" that could describe the drug or the evidence), one or two words at a time, checked after each; '
-                       'this try changes %d%% of its words, and a rewrite waits until two tries of at most %d%% have been '
-                       'checked from it, whatever --big-change says (lesson bad-trips-2026-11-19b; Joel, 2026-11-19: "i made 2 '
-                       'changes, and i checked each one. each was necessary to get to fully high conf human. first i '
-                       'clarified what "it" was referring to, then i clarified what "too weak" meant")'
-                       % (near.get('id', '?'), round(share * 100), round(NEAR_MISS * 100)))
+        if share > NEAR_MISS:
+            notes.append('the best try of this lineage, %s, read with a Human window: start from it and fix what is unclear '
+                         'in it, however many words that takes, the most AI sentences first (fixing one can make another '
+                         'read better); while you\'re sure a fix was good for the reader, keep going that way and look for '
+                         'what else trips Pangram before changing strategy. This try changes %d%% of its words (card C01; '
+                         'lesson bad-trips-2026-11-19b)' % (near.get('id', '?'), round(share * 100)))
     # Lesson bad-trips-2026-11-20e: my try of his samsara paragraph added "the cycle of ordinary existence", a word the
     # linter flags (O12: overused by AI); he took it out and the paragraph read Human High ("removed the ai tell word
-    # "ordinary" (it's on your linter right?)"). A try of mine adds none of these words to the lineage's text.
+    # "ordinary" (it's on your linter right?)"). Rules audit 2026-11-28, card C11 (approved) and rule R-overused-words:
+    # an overused word is read, not banned ("honestly is also ok sometimes just it's overused"); a word list only finds
+    # candidates for a reader (R-rules-fit-capability). So a try that adds one gets a note, not a refusal.
     first = next((r for r in line if r.get('text')), None)
     if first and text is not None:
         added = sorted(set(w.lower() for w in O12.findall(text)) - set(w.lower() for w in O12.findall(first['text'])))
         if added:
-            why.append('this try adds %s, which the linter flags as overused by AI (O12; lesson bad-trips-2026-11-20e): say '
-                       'the plain thing it stands for, or keep the lineage\'s own word' % ', '.join('"%s"' % w for w in added))
+            notes.append('this try adds %s, which AI overuses (O12; lesson bad-trips-2026-11-20e): unless it is the word '
+                         'meant ("quietly" only for how something sounds), say the plain thing it stands for, or keep the '
+                         'lineage\'s own word (rule R-overused-words)' % ', '.join('"%s"' % w for w in added))
     return why
 
 
 O12 = re.compile(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", re.I)
-FIRST_FIX_PARTS = ('payoff', 'join', 'plain')
 
 
 def fixed_windows(recs, text, min_words=6):
@@ -804,35 +837,27 @@ def fixed_windows(recs, text, min_words=6):
     return out
 
 
-def first_fix_gate(a, recs, text):
-    """Gate E368: a text of mine that reworks a sentence which read below High goes to Pangram only with --first-fix saying
-    what Joel's usual fix did there first: where each payoff now lands (moved up, or why it already leads), which short
-    sentences were joined, and which odd paraphrase went back to its plain word. Joel's own text (--his) and a text checked
-    as it stands (--unchanged) need none."""
-    if a.his or a.unchanged or text is None:
+def first_fix_gate(a, recs, text, notes=None):
+    """Gate E368 as the rules audit of 2026-11-28 left it (card C14): refuses nothing, and returns []. A text of mine that
+    reworks a sentence which read below High gets a note in NOTES (a list, when given) naming those sentences, with what
+    his fixes did first: the payoff moved up, sentences joined where the stretch reads choppy, the accurate word for the
+    thing. --first-fix is optional, and recorded when given, in place of the note. Joel's own text (--his) and a text
+    checked as it stands (--unchanged) get none."""
+    # Rules audit 2026-11-28, card C14 (approved): no "payoff: ...; join: ...; plain: ..." declaration is required (nor
+    # lesson bad-trips-2026-11-20c's "none moved" check of it). His words on the card: "on the last span it was obviously
+    # the same issue as always, payoffs coming too late for the reader ... why did you not check the same issue i always
+    # fix?" (2026-11-05), and later "it's not about using the same word. it's about using a word that's accurate".
+    if a.his or a.unchanged or text is None or notes is None or (a.first_fix or '').strip():
         return []
     hits = fixed_windows(recs, text)
-    if not hits:
-        return []
-    said = (a.first_fix or '').lower()
-    missing = [k for k in FIRST_FIX_PARTS if not re.search(r'\b%s\w*\s*:\s*\S.{6,}' % k, said)]
-    # Lesson bad-trips-2026-11-20c: "payoff: none moved" let every try keep the means before the payoff (his Hunter
-    # fix, 2026-11-20: "can't believe you still don't understand what i'm talking about when i say payoff first"). A
-    # payoff part that moved nothing says how each changed sentence already leads with what the reader gets.
-    m = re.search(r'\bpayoff\w*\s*:\s*([^;]*)', said)
-    if m and re.match(r'\s*(none|no |nothing)', m.group(1)) and not re.search(r'already leads?|leads with', m.group(1)):
-        missing.append('payoff ("none" must say how each changed sentence already leads with what the reader gets '
-                       'from it, lesson bad-trips-2026-11-20c)')
-    if not missing:
-        return []
-    shown = '; '.join('"%s" (%s %s, %s)' % (old[:70], label, conf, pid) for pid, label, conf, old, new in hits[:3])
-    return ['this text reworks sentences that read below High before: %s%s. His usual fix comes first, before any '
-            'rewrite: say with --first-fix "payoff: where each changed sentence\'s point now lands (moved up so it '
-            'leads, or why it already does; a term defined where it is first used, not in a sentence after); join: '
-            'which short sentences became one, or why none should; plain: which odd paraphrase went back to the plain '
-            'word, or none" (missing: %s). Gate E368; Joel, 2026-11-05, on the fuels stretch he fixed by joining '
-            'sentences, putting back "converted into" and moving the payoffs up: "why did you not check the same issue '
-            'i always fix?"' % (shown, ' and %d more' % (len(hits) - 3) if len(hits) > 3 else '', ', '.join(missing))]
+    if hits:
+        shown = '; '.join('"%s" (%s %s, %s)' % (old[:70], label, conf, pid) for pid, label, conf, old, new in hits[:3])
+        notes.append('this text reworks sentences that read below High before: %s%s. First check where each changed '
+                     'sentence\'s payoff lands and move it up; join sentences only where the stretch reads choppy; use the '
+                     'accurate, natural word for the thing, never one picked to get past Pangram (gate E368; card C14); '
+                     '--first-fix can say what you did, optional now'
+                     % (shown, ' and %d more' % (len(hits) - 3) if len(hits) > 3 else ''))
+    return []
 
 
 HUMANIZED = re.compile(r'^\s*(?!(?:none|no|not|nothing|n/?a)\b)\S.{19,}', re.I | re.S)
@@ -865,14 +890,15 @@ def provenance_gate(a):
     before we started humanizing (i.e if i wrote that myself inside an ai article) otherwise it's AI words that i
     humanized"): --his is for what Joel wrote himself, "his own: what and where". His version of a model's text, and the
     published text of an article a model drafted, are checked as they stand with --unchanged; a change of mine to either
-    needs its receipt."""
+    is a text of mine, read for sense before its check (its receipt optional since the rules audit of 2026-11-28, card
+    C02)."""
     why = []
     if a.his and not HIS_OWN.match(a.his):
         why.append('--his is only for what Joel wrote himself, before any humanizing: say "his own: what and where". His '
                    'version of a model\'s text, and an article\'s published text where a model drafted it, are AI words he '
                    'humanized, not his words (gate E373; Joel, 2026-11-06 17:30 UTC: "\'my words\' for an AI article, are '
                    'not my words, unless those were human before we started humanizing"): check them as they stand with '
-                   '--unchanged "what and where", and a change of mine with its receipt')
+                   '--unchanged "what and where", and a change of mine as a text of mine, read for sense first')
     if a.his and a.unchanged:
         why.append('give --his or --unchanged, not both')
     if a.unchanged and len(a.unchanged.strip()) < 10:
@@ -894,8 +920,11 @@ def cmd_predict(a):
     if not sha:
         raise SystemExit('give --text FILE (preferred) or --sha')
     line = lineage_view(state(recs), a.lineage)
-    gate = provenance_gate(a) + humanized_gate(a, text) + sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
+    notes = []   # rules audit 2026-11-28: what used to refuse a try and still helps the worker, said as a note
+    gate = provenance_gate(a) + humanized_gate(a, text) + sense_gate(a, text, sha, line, notes) \
+        + first_fix_gate(a, recs, text, notes)
     if gate:
+        show_notes(notes)
         print('REFUSED: ' + '\n  '.join(gate), file=sys.stderr)
         return 2
     rec = {'type': 'prediction', 'id': '%s#%d' % (a.lineage, len(state(recs)) + 1), 'at': now(), 'lineage': a.lineage,
@@ -904,21 +933,28 @@ def cmd_predict(a):
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
            'windows_ok': a.windows_ok, 'try': len(line) + 1, 'his': a.his, 'unchanged': a.unchanged, 'receipt': a.receipt,
-           'big_change': a.big_change, 'first_fix': a.first_fix, 'humanized': a.humanized,
+           'big_change': a.big_change, 'first_fix': a.first_fix, 'humanized': a.humanized, 'trail': a.trail,
            'text': text.rstrip('\n') if text is not None and len(text) < 20000 else None}
     if a.scope == 'article' and text is None:
         raise SystemExit('an article check needs --text: its windows are compared with what the earlier checks showed (E354)')
-    why = refusals(recs, rec, text)
+    why = refusals(recs, rec, text, notes)
+    show_notes(notes)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
         return 2
     append(a.ledger, {k: v for k, v in rec.items() if v not in (None, [], '')})
     of = cap_text(a.scope, a.detector)
-    if a.scope in RIGHT_TRACK_SCOPES and of.isdigit() and rec['try'] > int(of):
-        of = '%d (on the right track, lesson bad-trips-2026-11-20g)' % RIGHT_TRACK_CAP
+    if a.scope in TRAIL_SCOPES and of.isdigit() and rec['try'] > int(of):
+        of += ' (past them on its trail: cards C05, C07)'
     print('%s: try %d of %s for %s (%s), predicted %s%s' % (rec['id'], rec['try'], of, a.lineage, a.scope, a.call,
                                                           '' if a.chance is None else ' at %.2f' % a.chance))
     return 0
+
+
+def show_notes(notes):
+    """Print each note, on stdout before the prediction's line, which stays the last line there (lane scripts read it)."""
+    for n in notes:
+        print('NOTE (a note, not a refusal): ' + n)
 
 
 def cmd_result(a):
@@ -1116,24 +1152,30 @@ def main(argv=None):
                                      "or the web app (E218, E325, toc-2026-11-23d)")
     p.add_argument('--narrowed', help='a section or stretch whose last try read AI or Mixed: the paragraph lineages checked '
                    'since, each by itself (Joel, 2026-11-04: narrow it down to para level first; E343)')
-    p.add_argument('--panel', help='a paragraph that has read AI or Mixed twice: the tell panel\'s PANEL.md on the text, '
-                   'whose agreed tells this try fixes (tell_panel.py; E346)')
+    p.add_argument('--panel', help='optional now (rules audit 2026-11-28, card C20), recorded when given: the tell panel\'s '
+                   'PANEL.md on the text, whose agreed tells this try fixes (tell_panel.py; E346)')
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
     p.add_argument('--windows-ok', help='an article check while windows an earlier check showed reading AI or Low are still '
                    'in it: why each stays (E354; Joel, 2026-11-04: fix the windows we can see before checking the article)')
-    p.add_argument('--receipt', help='the text\'s making-sense receipt (tools/humanization/sense_receipt.py), required for '
-                   'a text of mine (gate E365)')
+    p.add_argument('--receipt', help='optional now (rules audit 2026-11-28, card C02), recorded when given: the text\'s '
+                   'making-sense receipt (tools/humanization/sense_receipt.py); what its check finds is printed as notes. '
+                   'The making-sense read still comes before every try of a text of mine (gate E365)')
     p.add_argument('--his', help='what Joel wrote himself, before any humanizing: "his own: what and where" (no receipt '
                    'of mine needed). Not his version of a model\'s text, nor the published text of an article a model '
                    'drafted: those are AI words he humanized (gate E373); use --unchanged')
     p.add_argument('--unchanged', help='a text checked exactly as it stands, with no change of mine: the article as it has '
-                   'it now, or his version as he sent it on a card ("what and where"; no receipt, and a later change of '
-                   'mine to it needs one)')
-    p.add_argument('--big-change', help='a retry that changes more than 40%% of the words of the try before it: why every '
-                   'small fix is spent (gate E361)')
-    p.add_argument('--first-fix', help='a text of mine that reworks sentences which read below High before: "payoff: ...; '
-                   'join: ...; plain: ...", what his usual fix did there first (gate E368)')
+                   'it now, or his version as he sent it on a card ("what and where"; a later change of mine to it is a '
+                   'text of mine, read for sense before its check)')
+    p.add_argument('--big-change', help='optional now (rules audit 2026-11-28, card C01), recorded when given: why a retry '
+                   'changes more than 40%% of the words of the try before it; without it such a retry gets a note (gate '
+                   'E361)')
+    p.add_argument('--first-fix', help='optional now (rules audit 2026-11-28, card C14), recorded when given: what the fix '
+                   'of sentences which read below High before did first (where each payoff lands, any joins, the accurate '
+                   'word); without it such a text gets a note (gate E368)')
+    p.add_argument('--trail', help='past the ten tries of a sentence, heading, paragraph or pair lineage: why more checks '
+                   'help, the trail you\'re on or the minimal pair you\'re learning from (at least %d characters; rules '
+                   'audit 2026-11-28, cards C05 and C07)' % TRAIL_MIN)
     p.add_argument('--humanized', help='a text of mine: what the pass meant to make it read human did to it; a draft '
                    'written for its content alone is not checked (gate neuro-2026-11-07c)')
     p.set_defaults(fn=cmd_predict)

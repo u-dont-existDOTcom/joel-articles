@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """apply_gate.py - a paragraph of mine goes into an article only when a check of it by itself read Human High in every
-window (gate bad-trips-2026-11-12l).
+window (gate bad-trips-2026-11-12l), unless it is a content change he approved (card C04, below).
 
 Joel, 2026-11-12 22:34 UTC, after I put Active Seizure's rescue medicine paragraph into his guide because it read Human
 Written in its section, two of its windows Low and the same paragraph AI Detected, 79% by itself: "btw the rule says we
@@ -16,9 +16,17 @@ stretch check counts only with --section-ok REASON, the case he named: the parag
 section has, which is why it can't make sense to Pangram alone. Nothing below Human High passes, Medium included: a
 window short of High is mine to fix, not to pass on to him. His own versions don't go through this gate; they are his.
 
-  python3 tools/humanization/apply_gate.py LEDGER --text "PARAGRAPH" [--text ...] [--file PARA.txt ...] [--section-ok REASON]
+Rules audit 2026-11-28, card C04 (approved): a text that is a content change he approved (his own words, or a card he
+approved) goes in without the Human High check, recorded with what he approved and where; the paragraph's humanizing
+follows as its own work. Apply scripts pass owner_approved={"card": ..., "words": ..., "where": ...} (or --owner-card,
+--owner-words, --owner-where on the command line); all three are required, so a bare claim doesn't pass. Everything else
+is as above.
 
-As a module: ok, lines = check(recs, paragraph, section_ok=None); require(ledger, paragraphs, section_ok=None) exits with
+  python3 tools/humanization/apply_gate.py LEDGER --text "PARAGRAPH" [--text ...] [--file PARA.txt ...] [--section-ok REASON]
+      [--owner-card CARD --owner-words "HIS WORDS" --owner-where "ANSWERS FILE, turn"]
+
+As a module: ok, lines = check(recs, paragraph, section_ok=None, owner_approved=None); require(ledger, paragraphs,
+section_ok=None, owner_approved=None) exits with
 the reasons when any paragraph has no such check.
 """
 import argparse, pathlib, re, sys
@@ -58,12 +66,30 @@ def all_high(ws):
     return bool(ws) and all(l in ('Human', 'Human Written') and c == 'High' for l, c, _ in ws)
 
 
-def check(recs, paragraph, section_ok=None):
+def owner_record(owner_approved):
+    """The line recording a content change he approved, or None when OWNER_APPROVED is None. Raises ValueError when the
+    card, his words or where he said them is missing."""
+    if not owner_approved:
+        return None
+    got = {k: str(owner_approved.get(k) or '').strip() for k in ('card', 'words', 'where')}
+    gone = [k for k, v in got.items() if not v]
+    if gone:
+        raise ValueError('owner_approved needs the card, his words and where (missing: %s)' % ', '.join(gone))
+    return ('in without the Human High check: a content change he approved, card %(card)s, his words "%(words)s", at '
+            '%(where)s (rules audit 2026-11-28, card C04); the paragraph\'s humanizing follows as its own work' % got)
+
+
+def check(recs, paragraph, section_ok=None, owner_approved=None):
     """(ok, lines): ok when a check of PARAGRAPH by itself (or, with SECTION_OK, in its section) read Human High in every
-    window; lines say which checks were found and why each does or doesn't count."""
+    window, or when OWNER_APPROVED ({"card", "words", "where"}) says he approved it as a content change; lines say which
+    checks were found and why each does or doesn't count."""
     want = plain(paragraph)
     if not want:
         return False, ['an empty paragraph']
+    # Rules audit 2026-11-28, card C04 (approved): a content change he approved goes in at once, recorded
+    rec = owner_record(owner_approved)
+    if rec:
+        return True, [rec]
     lines, ok = [], False
     for p in PL.state(recs).values():
         if p['void'] or not p['result'] or want not in plain(p.get('text') or ''):
@@ -86,11 +112,13 @@ def check(recs, paragraph, section_ok=None):
     return ok, lines
 
 
-def require(ledger, paragraphs, section_ok=None):
+def require(ledger, paragraphs, section_ok=None, owner_approved=None):
     recs = PL.read(ledger)
     bad = []
     for para in paragraphs:
-        ok, lines = check(recs, para, section_ok)
+        ok, lines = check(recs, para, section_ok, owner_approved)
+        if ok and owner_approved:
+            print('apply_gate: %s: %s' % (plain(para)[:60], lines[0]))
         if not ok:
             bad.append('"%s": %s' % (plain(para)[:90] + ('...' if len(plain(para)) > 90 else ''), '; '.join(lines)))
     if bad:
@@ -106,14 +134,25 @@ def main():
     ap.add_argument('--text', action='append', default=[])
     ap.add_argument('--file', action='append', default=[])
     ap.add_argument('--section-ok', default=None)
+    ap.add_argument('--owner-card', default=None, help='the card he approved (with --owner-words and --owner-where): these '
+                    'texts are a content change of his, in without the Human High check (card C04)')
+    ap.add_argument('--owner-words', default=None, help='his words approving it')
+    ap.add_argument('--owner-where', default=None, help='where he said them: answers file and turn')
     a = ap.parse_args()
+    owner = {'card': a.owner_card, 'words': a.owner_words, 'where': a.owner_where} if (
+        a.owner_card or a.owner_words or a.owner_where) else None
+    if owner:
+        try:
+            owner_record(owner)
+        except ValueError as e:
+            raise SystemExit('apply_gate: %s' % e)
     paras = list(a.text) + [pathlib.Path(f).read_text(encoding='utf-8') for f in a.file]
     if not paras:
         raise SystemExit('give the paragraphs of mine that are to go in, with --text or --file')
     recs = PL.read(a.ledger)
     bad = 0
     for para in paras:
-        ok, lines = check(recs, para, a.section_ok)
+        ok, lines = check(recs, para, a.section_ok, owner)
         bad += not ok
         print(('PASS' if ok else 'FAIL'), plain(para)[:80])
         for line in lines:

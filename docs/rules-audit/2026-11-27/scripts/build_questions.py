@@ -194,6 +194,9 @@ def to_you(s):
         p = re.sub(r"\bHe's\b", "You're", p)
         p = re.sub(r'\bHe\b', 'You', p)
         p = re.sub(r'\bhe\b', 'you', p)
+        # "a fix of his", "a claim of his,", "words of his and": the pronoun stands alone, so "yours" (Joel, 2026-11-28,
+        # on the cards: "fix of your(s) did ... that's weird for ai to make typos"; this script made them)
+        p = re.sub(r'\b(of|is|are|was|were) his\b(?=\s*(?:[,.;:)]|$|(?:and|or|did|does|do|name|names|cover|covers|behind|is|are|was|were|that|which|in|on|at|to|for|with|but|so|no|not)\b))', r'\1 yours', p)
         p = re.sub(r'\bHis\b', 'Your', p)
         p = re.sub(r'\bhis\b', 'your', p)
         p = re.sub(r'\bhim\b', 'you', p)

@@ -9,8 +9,9 @@ against the texts they replaced (`articles/bad-trips/humanize/h46-20261112/his-f
 
 Give this brief to a fresh reader (a new agent that has seen nothing else) with the text, one sentence a line, before the
 needed read and before any Pangram check of a text of mine. Their answer goes in the receipt's `his_fixes` field
-(`tools/humanization/sense_receipt.py`): each sentence they mark is changed before the check, or the receipt says why it
-stays.
+(`tools/humanization/sense_receipt.py`) when there is one. Their marks are leads: each is judged, and the ones that
+hold are changed before the check (rules audit 2026-11-28, card C17; rules R-read-against-his-fixes and R-flags-are-leads
+in `rules/TREE.md`); a reader is not rerun on every version, and no receipt is required.
 
 ---
 

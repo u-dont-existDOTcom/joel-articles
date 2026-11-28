@@ -1,5 +1,7 @@
 # The clarity read: what passes Pangram but is hard to understand
 
+**Since 2026-11-28 the rule tree holds (`rules/TREE.md`; Joel: "you should have some kind of rule tree"; rules audit of 2026-11-27).** Where this file disagrees with the tree, the tree holds. Since the audit, the tools no longer refuse what the tree makes a judgment: a missing making-sense receipt, a card's "ask_because" prefix (a plain reason does), an entry of my own reading on the keep-as-is list, a near miss changed by more than a word or two, the first-fix declaration, the tell panel after two AI reads, and the six-try budget; they print a note instead. Its "My pick" cut lines and its numbered list are history (rules R-cut-repeats and R-marking-page).
+
 Two parts, run together: part 1, the passages a reader has to reread or won't get; part 2, the reader's edit, what a reader
 has to work through even where every sentence is clear.
 

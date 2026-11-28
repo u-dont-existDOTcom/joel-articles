@@ -19,12 +19,19 @@ The article's KEEP-AS-IS.json, next to its Markdown:
    "cuts": [{"id", "quote": words from the cut text, "what", "joel", "when", "where", "basis"}]}   cuts he meant: no
              suggestion puts them back.
 
+An entry whose basis is my own reading ("my reading, not asked": guess() tells) is a note, never a refusal: rules audit
+2026-11-28, card C12 (approved): "Only what you said stays goes on the keep-as-is list and blocks a card; the editor's
+guesses are notes." Entries from his own words (his answer, his approval of a card) refuse as below.
+
 Who checks it:
   - suggestion_review.py check (every marking page): a card that highlights or changes kept words, or puts a meant cut
-    back, is refused unless the card says why in "keep_ack" (he asked to change it after all);
+    back, is refused unless the card says why in "keep_ack" (he asked to change it after all); where the entry is only my
+    reading, the card gets a note instead (card_notes, printed by suggestion_review.py as NOTE);
   - render_article_so_far.py (every turn's article page): a kept quote that is gone from the article, or a meant cut
     that is back, goes in a red box at the top, and the render exits 1;
-  - any script that flags things: kept(article, words) before it flags.
+  - any script that flags things: kept(article, words) before it flags;
+  - check and try below: what breaks an entry of his fails (exit 1); what touches one that is only my reading is printed
+    as a NOTE and doesn't.
 
   python3 tools/humanization/keep_as_is.py check ARTICLE.md        # kept words all there, no meant cut back
   python3 tools/humanization/keep_as_is.py is-kept ARTICLE.md "words"   # exit 0 if the words are kept (or a meant cut)
@@ -45,6 +52,17 @@ FILE = 'KEEP-AS-IS.json'
 FORMAT = 'joel-keep-as-is-v1'
 KINDS = {'joke', 'voice', 'coinage', 'spelling', 'device', 'choice', 'placement', 'spacing'}
 STRAIGHT = str.maketrans({'‘': "'", '’': "'", '“': '"', '”': '"', '«': '"', '»': '"', '\xa0': ' '})
+# Rules audit 2026-11-28, card C12 (approved): "Only what you said stays goes on the keep-as-is list and blocks a card;
+# the editor's guesses are notes." The files mark a guess with the basis "my reading, not asked" (FIXING-AN-ARTICLE.md:
+# "Something you judge deliberate without asking goes in too, marked "my reading, not asked""), where his are "his
+# answer" and "his approval of a card that kept it": a basis that opens with "my" (my reading, my guess) or "not asked"
+# is mine.
+GUESS = re.compile(r'^\s*(?:my|not asked)\b', re.I)
+
+
+def guess(entry):
+    """True for an entry that is my own reading, not his words: a note, never a refusal (card C12)."""
+    return bool(GUESS.match(entry.get('basis') or ''))
 
 
 def norm(s):
@@ -143,12 +161,13 @@ def ranges(text, led):
     return out
 
 
-def card_problems(card, block_texts, led):
-    """A marking-page card that highlights words inside kept ones, changes kept words, or puts a meant cut back:
-    [message]. BLOCK_TEXTS[i] is block i's text. A card with "keep_ack" (why he wants it changed after all) passes."""
+def card_hits(card, block_texts, led):
+    """[(entry, what the card does to it)] for a marking-page card that highlights words inside kept ones, changes kept
+    words, or puts a meant cut back. BLOCK_TEXTS[i] is block i's text. A card with "keep_ack" (why he wants it changed
+    after all) has none."""
     if card.get('keep_ack') or not (led.get('keep') or led.get('cuts')):
         return []
-    sid, out = card.get('id', '?'), []
+    out = []
     for sp in card.get('spans', []):
         i = sp.get('block')
         if not (isinstance(i, int) and 0 <= i < len(block_texts)):
@@ -157,23 +176,47 @@ def card_problems(card, block_texts, led):
         for s0, e0, e in ranges(block_texts[i], led):
             over = min(b, e0) - max(a, s0)
             if over > 0 and over >= max(1, (b - a) / 2):   # the highlight is (mostly) inside the kept words
-                out.append('%s: highlights "%s", inside words Joel said stay as they are (%s, %s: %s)'
-                           % (sid, block_texts[i][a:b][:50], e['id'], e['where'], e['what']))
+                out.append((e, 'highlights "%s"' % block_texts[i][a:b][:50]))
     for e in card.get('edits', []):
         b, a = norm(e.get('before') or ''), norm(e.get('after') or '')
         for k in led.get('keep', []):
             q = norm(k['quote'])
             if q in b and q not in a:
-                out.append('%s: changes "%s", which Joel said stays as it is (%s, %s)' % (sid, k['quote'][:50], k['id'], k['where']))
+                out.append((k, 'changes "%s"' % k['quote'][:50]))
         for c in led.get('cuts', []):
             q = norm(c['quote'])
             if q in a and q not in b:
-                out.append('%s: puts back "%s", which Joel cut on purpose (%s, %s)' % (sid, c['quote'][:50], c['id'], c['where']))
+                out.append((c, 'puts back "%s"' % c['quote'][:50]))
     for ins in card.get('inserts', []):
         for c in led.get('cuts', []):
             if norm(c['quote']) in norm(ins.get('text') or ''):
-                out.append('%s: puts back "%s", which Joel cut on purpose (%s, %s)' % (sid, c['quote'][:50], c['id'], c['where']))
+                out.append((c, 'puts back "%s"' % c['quote'][:50]))
     return out
+
+
+def card_problems(card, block_texts, led):
+    """A marking-page card that highlights words inside ones Joel said stay, changes them, or puts back a cut he meant:
+    [message]. Entries that are only my reading are notes (card_notes; rules audit 2026-11-28, card C12)."""
+    sid, out = card.get('id', '?'), []
+    for e, did in card_hits(card, block_texts, led):
+        if guess(e):
+            continue
+        if did.startswith('highlights'):
+            out.append('%s: %s, inside words Joel said stay as they are (%s, %s: %s)' % (sid, did, e['id'], e['where'], e['what']))
+        elif did.startswith('changes'):
+            out.append('%s: %s, which Joel said stays as it is (%s, %s)' % (sid, did, e['id'], e['where']))
+        else:
+            out.append('%s: %s, which Joel cut on purpose (%s, %s)' % (sid, did, e['id'], e['where']))
+    return out
+
+
+def card_notes(card, block_texts, led):
+    """The same for entries that are only my reading ("my reading, not asked"): [message], a note on the card for the
+    worker, never a refusal (rules audit 2026-11-28, card C12, approved: "the editor's guesses are notes")."""
+    sid = card.get('id', '?')
+    return ['%s: %s, which the keep-as-is list holds only as my reading, not asked (%s, %s: %s); a note, not a refusal '
+            '(rules audit 2026-11-28, card C12)' % (sid, did, e['id'], e['where'], e['what'])
+            for e, did in card_hits(card, block_texts, led) if guess(e)]
 
 
 def main(argv=None):
@@ -190,16 +233,25 @@ def main(argv=None):
     t.add_argument('new')
     a = ap.parse_args(argv)
     led = load(a.article)
+    # Rules audit 2026-11-28, card C12 (approved): an entry that is only my reading is printed as a NOTE and never fails
+    # check or try; the last line counts only what fails (scripts read it: " 0 gone", "0 ledger problems")
+    mine = ' it is only my reading, not asked: a note, not a refusal (rules audit 2026-11-28, card C12)'
     if a.cmd == 'try':
         probs = try_problems(pathlib.Path(a.old).read_text(encoding='utf-8'), pathlib.Path(a.new).read_text(encoding='utf-8'), led)
         for kind, e in probs:
+            note = 'NOTE ' if guess(e) else ''
             if kind == 'GONE':
-                print('GONE %s: "%s" is in the text this replaces and not in the rewrite; it stays word for word (%s, %s)'
-                      % (e['id'], e['quote'], e['where'], e['what']))
+                print('%sGONE %s: "%s" is in the text this replaces and not in the rewrite;%s (%s, %s)'
+                      % (note, e['id'], e['quote'], mine if note else ' it stays word for word', e['where'], e['what']))
             else:
-                print('BACK %s: "%s" is in the rewrite, though Joel cut it on purpose (%s)' % (e['id'], e['quote'], e['where']))
-        print('rewrite: %d kept quote(s) gone, %d meant cut(s) back' % (sum(k == 'GONE' for k, _ in probs), sum(k == 'BACK' for k, _ in probs)))
-        return 1 if probs else 0
+                print('%sBACK %s: "%s" is in the rewrite, though %s (%s)'
+                      % (note, e['id'], e['quote'], 'the list holds it as a cut;' + mine if note else 'Joel cut it on purpose',
+                         e['where']))
+        his = [(k, e) for k, e in probs if not guess(e)]
+        if len(his) < len(probs):
+            print('notes on my own readings: %d' % (len(probs) - len(his)))
+        print('rewrite: %d kept quote(s) gone, %d meant cut(s) back' % (sum(k == 'GONE' for k, _ in his), sum(k == 'BACK' for k, _ in his)))
+        return 1 if his else 0
     if a.cmd == 'list':
         for part in ('keep', 'cuts'):
             for e in led.get(part, []):
@@ -208,7 +260,8 @@ def main(argv=None):
     if a.cmd == 'is-kept':
         hits = kept(a.words, led)
         for e in hits:
-            print('%s: "%s" (%s, %s)' % (e['id'], e['quote'], e['where'], e['what']))
+            print('%s: "%s" (%s, %s)%s' % (e['id'], e['quote'], e['where'], e['what'],
+                                           ' [my reading, not asked: a note, not a refusal, card C12]' if guess(e) else ''))
         print('kept' if hits else 'not on the list')
         return 0 if hits else 1
     md = pathlib.Path(a.article).read_text(encoding='utf-8')
@@ -217,12 +270,18 @@ def main(argv=None):
     for p in probs:
         print('LEDGER', p)
     for e in gone:
-        print('GONE %s: "%s" is no longer in the article (%s, %s)' % (e['id'], e['quote'], e['where'], e['what']))
+        print('%sGONE %s: "%s" is no longer in the article (%s, %s)%s'
+              % ('NOTE ' if guess(e) else '', e['id'], e['quote'], e['where'], e['what'], ';' + mine if guess(e) else ''))
     for e in again:
-        print('BACK %s: "%s" is in the article again, though Joel cut it on purpose (%s)' % (e['id'], e['quote'], e['where']))
+        print('%sBACK %s: "%s" is in the article again, though %s (%s)'
+              % ('NOTE ' if guess(e) else '', e['id'], e['quote'],
+                 'the list holds it as a cut;' + mine if guess(e) else 'Joel cut it on purpose', e['where']))
+    his_gone, his_back = [e for e in gone if not guess(e)], [e for e in again if not guess(e)]
+    if len(his_gone) + len(his_back) < len(gone) + len(again):
+        print('notes on my own readings: %d' % (len(gone) + len(again) - len(his_gone) - len(his_back)))
     print('%d kept, %d meant cuts: %d gone, %d back, %d ledger problems'
-          % (len(led.get('keep', [])), len(led.get('cuts', [])), len(gone), len(again), len(probs)))
-    return 1 if (probs or gone or again) else 0
+          % (len(led.get('keep', [])), len(led.get('cuts', [])), len(his_gone), len(his_back), len(probs)))
+    return 1 if (probs or his_gone or his_back) else 0
 
 
 if __name__ == '__main__':
