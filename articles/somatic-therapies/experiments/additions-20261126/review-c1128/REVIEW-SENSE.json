@@ -1,0 +1,94 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "somatic-sense-cards-20261128",
+ "title": "Somatic Guide, 28 November: two slips in the new sections",
+ "intro": [
+  "Your somatic guide as it is live this morning (Can't Stay With a Feeling? went in at 09:49 UTC), with two small fixes in the sections that went live yesterday, each where it applies. Long stretches with no card fold into a box that opens. Nothing here is in the post yet.",
+  "Two cards. Pangram can't check them until the account's credits refill, so each asks whether the fix goes in now or waits."
+ ],
+ "git_file": "articles/somatic-therapies/experiments/additions-20261126/review-c1128/REVIEW-SENSE.html",
+ "article": {
+  "file": "articles/somatic-therapies/experiments/additions-20261126/review-c1128/ARTICLE-SOMATIC.md",
+  "sha256": "63f8413fce84630110812bd7ff2013bbbfe8fe8516349ee0d66861a548829797"
+ },
+ "whole": {
+  "file": "articles/somatic-therapies/experiments/additions-20261126/apply-c1128/LIVE-SOMATIC-20261128.md",
+  "sha256": "608af9e6396149ee427c3bee3ad7ff34091ad9d0188124f0af6aab85043378c6"
+ },
+ "built": "2026-11-28T10:13:19Z",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/review-c1128/CARDS-SENSE.md"
+ },
+ "types": {
+  "sense": {
+   "label": "Reads wrong",
+   "about": "Words that a reader can misread or trip on, with the smallest fix."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SR-A2",
+   "type": "sense",
+   "advice": "approve",
+   "approve_label": "fix it now, unchecked",
+   "title": "Imagery Rescripting: a sentence fragment, joined with a comma",
+   "spans": [
+    {
+     "block": 31,
+     "start": 125,
+     "end": 138
+    }
+   ],
+   "edits": [
+    {
+     "block": 31,
+     "before": "This therapy is a lot like the way I re-do trauma memories in my inner child reparenting guide. Instead of EMDR's mechanical approach. The Imagery Rescripting therapist is there with you as you explain the scene, and they step in as the ideal adult, protecting and nurturing your inner child. Then you learn to do that yourself. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward.",
+     "after": "This therapy is a lot like the way I [re-do trauma memories](https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories) in my inner child reparenting guide. Instead of EMDR's mechanical approach, the Imagery Rescripting therapist is there with you as you explain the scene, and they step in as the ideal adult, protecting and nurturing your inner child. Then you learn to do that yourself. Because rescripting takes you back into the memory like EMDR does, the same care goes for it: stop when it's too much, and ground yourself afterward."
+    }
+   ],
+   "what": "\"Instead of EMDR's mechanical approach.\" stands as a sentence of its own. A comma joins it to the sentence it introduces: \"Instead of EMDR's mechanical approach, the Imagery Rescripting therapist is there with you as you explain the scene ...\". The live fragment could also belong to the sentence before it; both readings say the same thing, and the fix takes the forward one.",
+   "why": "The word-for-sense read before A1 went in found it (one fresh reader of the five new texts, three planted errors, all three found: [its findings](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/sense-c1128/out/FINDINGS-RAW.json)); a second fresh reader marked nothing in the fix ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/sense-c1128/READ-SR.md)). Pangram couldn't check it: the account's monthly credits ran out at 10:09 UTC this morning (\"You have used all your AI detection credits for this month. Your monthly credits will refill in 22 days.\").",
+   "stays": "Every other word of the paragraph and of the section.",
+   "deciding": "Whether the fix goes in now, before Pangram can check it, or waits for a check.",
+   "advice_note": "I'd fix it now: a comma for the full stop joins two halves of one thought, and nothing else in the paragraph changes. If you'd rather it waits for a check, Reject and it waits.",
+   "ask_because": "downside: it changes a live paragraph of the section that read Human High, without a Pangram check (the credits are out until they refill)",
+   "found_by": "The word-for-sense read of 28 November and a fresh reader of the fix",
+   "receipt": [
+    "articles/somatic-therapies/experiments/additions-20261126/sense-c1128/fixes/SR-A2-linked.receipt.json"
+   ]
+  },
+  {
+   "id": "SR-A3",
+   "type": "sense",
+   "advice": "approve",
+   "approve_label": "fix it now, unchecked",
+   "title": "Pain That Won't Quit?: \"the second\" and \"the first\" named",
+   "spans": [
+    {
+     "block": 51,
+     "start": 128,
+     "end": 168
+    }
+   ],
+   "edits": [
+    {
+     "block": 51,
+     "before": "I haven't found a trial comparing EAET with PRT. So if your pain seems tied to stress or to people in your life, I'd start with the second, and otherwise with the first. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, How I Judge Whether Any of This Is Helping.",
+     "after": "I haven't found a trial comparing EAET with PRT. So if your pain seems tied to stress or to people in your life, I'd start with EAET, and otherwise with PRT. I'd also ask a therapist where they trained in that therapy, and keep track of how it's going the way I describe in the last section, [How I Judge Whether Any of This Is Helping](#§how-i-judge-whether-any-of-this-is-helping)."
+    }
+   ],
+   "what": "\"I'd start with the second, and otherwise with the first\" comes right after \"I haven't found a trial comparing EAET with PRT\", so a reader can take \"the second\" as PRT, the opposite of what the section means (EAET is the one for pain tied to stress or the people in your life). The fix names them, with the short forms your version gives each where it is named: \"I'd start with EAET, and otherwise with PRT.\"",
+   "why": "The word-for-sense read before A1 went in found it (one fresh reader of the five new texts, three planted errors, all three found: [its findings](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/sense-c1128/out/FINDINGS-RAW.json)); a second fresh reader marked nothing in the fix ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/somatic-therapies/experiments/additions-20261126/sense-c1128/READ-SR.md)). Pangram couldn't check it: the account's monthly credits ran out at 10:09 UTC this morning (\"You have used all your AI detection credits for this month. Your monthly credits will refill in 22 days.\").",
+   "stays": "Every other word of the paragraph and of the section.",
+   "deciding": "Whether the fix goes in now, before Pangram can check it, or waits for a check.",
+   "advice_note": "I'd fix it now: as it reads, a reader can come away with the advice reversed. If you'd rather it waits for a check, Reject and it waits.",
+   "ask_because": "downside: it changes a live paragraph of the section that read Human High, without a Pangram check (the credits are out until they refill)",
+   "found_by": "The word-for-sense read of 28 November and a fresh reader of the fix",
+   "receipt": [
+    "articles/somatic-therapies/experiments/additions-20261126/sense-c1128/fixes/SR-A3-linked.receipt.json"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-28",
+ "text_sha256": "9a4ec332559f602faac0c901f83efe7b639b3d9015d055acb2cf963defce9a28",
+ "text": "If the symptom is pain that has lasted months, and doctors have found no injury or disease to explain it, I'd keep using self-hypnosis for it and also look for a therapist trained in one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy. They've helped people with long-lasting back, muscle and joint pain, by changing their relationship to the pain without pretending it's not there.",
+ "section": "What It's For, and Not For (Self-Hypnosis guide)",
+ "reader": "an adult whose pain has lasted months with no injury found, reading what self-hypnosis is not for, deciding what to try besides it",
+ "sentences": [
+  {
+   "s": "If the symptom is pain that has lasted months, and doctors have found no injury or disease to explain it, I'd keep using self-hypnosis for it and also look for a therapist trained in one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy.",
+   "payoff": "they learn what to do when the symptom is pain that has lasted months with no injury or disease found: keep using self-hypnosis for it and look for one of two talk therapies, and where to read about them",
+   "follows": "it picks up \"push symptoms down instead of getting medical attention\" from the list before it"
+  },
+  {
+   "s": "They've helped people with long-lasting back, muscle and joint pain, by changing their relationship to the pain without pretending it's not there.",
+   "payoff": "they learn what the two have done for people with pain like theirs, and how, without being told the pain isn't real",
+   "follows": "it says why the two therapies just named are worth looking for",
+   "link": "They've helped"
+  }
+ ],
+ "checked": [
+  {
+   "point": "PRT: reappraisal of pain sensations and of the beliefs that the pain means harm; a graded return to feared activities; mild to moderate chronic back pain; 66% vs 20% pain-free or nearly, gains largely held at one year",
+   "found": "Ashar et al. 2022, JAMA Psychiatry 79(1):13-23 (https://pmc.ncbi.nlm.nih.gov/articles/PMC8482298): \"guided reappraisal of pain sensations\", \"fear- and avoidance-inducing beliefs\"; NIH Research Matters, 2021-11-02",
+   "still_needed": "yes: they weigh it for their own pain",
+   "fate": "changed"
+  },
+  {
+   "point": "EAET: emotional expression and role-play of hard conversations; 126 veterans aged 60 to 95 with muscle and joint pain; 63% vs 17% with at least 30% less pain",
+   "found": "Yarns et al. 2024, JAMA Network Open (https://clinicaltrials.gov/study/NCT03918642)",
+   "still_needed": "yes: they weigh it for their own pain and age",
+   "fate": "kept"
+  },
+  {
+   "point": "both therapies tell patients the pain is real, made by the brain",
+   "found": "VA Eastern Colorado, \"All Pain is Real\" (https://www.va.gov/eastern-colorado-health-care/programs/understanding-chronic-pain-what-you-need-to-know/); Lumley and Schubiner 2019, EAET for chronic pain (https://pmc.ncbi.nlm.nih.gov/articles/PMC7309024): the brain generates or amplifies primary pain",
+   "still_needed": "yes: they hear the guide is not calling their pain imaginary",
+   "fate": "kept"
+  }
+ ],
+ "placement": "a paragraph of its own at the end of \"What It's For, and Not For\", after: or replace appropriate clinical care.",
+ "opens": {
+  "first_sentence": "If the symptom is pain that has lasted months, and doctors have found no injury or disease to explain it, I'd keep using self-hypnosis for it and also look for a therapist trained in one of the two talk therapies I go into in my somatic guide, Pain Reprocessing Therapy or Emotional Awareness and Expression Therapy.",
+  "why_reading": "they learn what to do when the symptom is pain that has lasted months with no injury or disease found: keep using self-hypnosis for it and look for one of two talk therapies, and where to read about them"
+ },
+ "same_point": "none: read the section from its heading to the next for what to do for long-lasting pain with no injury found; no other paragraph of the Self-Hypnosis guide names these therapies",
+ "needed": {
+  "reader": "fresh Fable readers (2026-11-28) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/inner-signal/experiments/carry-c1128/reads/READ-1.md to READ-5.md; each mark acted on",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same readers, given tools/humanization/his_fixes_brief.md: articles/inner-signal/experiments/carry-c1128/reads/READ-1.md to READ-5.md",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same readers, given tools/humanization/fit_read_brief.md and a contradictions check: articles/inner-signal/experiments/carry-c1128/reads/READ-1.md to READ-5.md",
+  "marked": [],
+  "kept": {}
+ },
+ "his_answer": [
+  {
+   "said": "They've helped people with long-lasting back, muscle and joint pain, by changing their relationship to the pain without pretending it's not there.",
+   "in": "They've helped people with long-lasting back, muscle and joint pain, by changing their relationship to the pain without pretending it's not there.",
+   "note": "his own sentence from his version of IC2 in the inner child guide (card IC2-TEACH, answers of 2026-11-27 22:26 UTC), carried as he wrote it"
+  }
+ ],
+ "questions": {
+  "Q1": "PASS: each opens on the reader's case (\"If you want to go back into a painful memory\", \"If you've had that medical attention\", \"Being too analytical can show up in therapy sessions too\") or on what the therapy does",
+  "Q2": "PASS: read about the therapy; try one of the two; look for someone trained in it; stop for the day if you feel unreal",
+  "Q3": "PASS: which memory (a painful one), which pain (lasted months, no injury or disease found), which slipping away (explaining a feeling, agreeing with the therapist)",
+  "Q4": "PASS: each therapy named and said by what it does; \"the ideal adult\" is the inner child guide's own term",
+  "Q5": "PASS: each sentence ties to the one before (\"It's a lot like\", \"They've helped\", \"If that keeps happening\", \"It's for that kind\")",
+  "Q6": "PASS: the reader's case, the therapy, how it works or what it is for",
+  "Q7": "PASS: each is for the reader of the section it closes",
+  "Q8": "PASS: no groups",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

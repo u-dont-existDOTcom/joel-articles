@@ -1,0 +1,79 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-28",
+ "text_sha256": "08faed0c44ad816d52763eb867f1b76df62003d11802f95d4394f20e9b6b7d77",
+ "text": "In therapy sessions, being too analytical can be a way of getting away from a feeling: you start explaining it as soon as it comes up, or you agree with the therapist just to get past it. If that keeps happening, look for someone trained in Intensive Short-Term Dynamic Psychotherapy, which I go into in my somatic guide's section [Can't Stay With a Feeling?](https://ibogaqueen.substack.com/i/201523223/cant-stay-with-a-feeling). If instead you start to feel unreal, stop for the day, as [Dissociating or Unreal?](#§dissociating-or-unreal) says.",
+ "section": "Too Analytical? (Self-Hypnosis guide)",
+ "reader": "an adult who keeps explaining feelings away, in the practice and in therapy sessions, deciding whether to look for a therapist trained for that",
+ "sentences": [
+  {
+   "s": "In therapy sessions, being too analytical can be a way of getting away from a feeling: you start explaining it as soon as it comes up, or you agree with the therapist just to get past it.",
+   "payoff": "they recognize the section's habit in therapy sessions, as getting away from a feeling, by its two signs",
+   "follows": "the section is about being too analytical in the practice; this carries it into therapy sessions"
+  },
+  {
+   "s": "If that keeps happening, look for someone trained in Intensive Short-Term Dynamic Psychotherapy, which I go into in my somatic guide's section [Can't Stay With a Feeling?](https://ibogaqueen.substack.com/i/201523223/cant-stay-with-a-feeling).",
+   "payoff": "they know what kind of therapist to look for, and where to read about it",
+   "follows": "it says what to do when the habit the sentence before named keeps happening",
+   "link": "If that keeps happening"
+  },
+  {
+   "s": "If instead you start to feel unreal, stop for the day, as [Dissociating or Unreal?](#§dissociating-or-unreal) says.",
+   "payoff": "they know feeling unreal is a different thing, and the sign to stop for the day",
+   "follows": "it sets the other way of slipping away apart from the one the paragraph is about",
+   "link": "If instead"
+  }
+ ],
+ "checked": [
+  {
+   "point": "ISTDP points out avoidance as it happens and turns the patient back toward the feeling; anxiety about the feeling drives the avoidance; the therapist watches it in tense muscles, sighing and foggy thinking; most patients have low anxiety tolerance and get a graded, slower format",
+   "found": "Abbass 2021, Tidsskrift for Norsk Psykologforening (https://psykologtidsskriftet.no/debatt/2021/09/intensive-short-term-dynamic-psychotherapy-methods-evidence-indications-and)",
+   "still_needed": "yes: they picture a session and know they won't be pushed past what they can take",
+   "fate": "changed"
+  }
+ ],
+ "placement": "a paragraph of its own at the end of \"Too Analytical?\", after: Whatever it is, just do it.",
+ "opens": {
+  "first_sentence": "In therapy sessions, being too analytical can be a way of getting away from a feeling: you start explaining it as soon as it comes up, or you agree with the therapist just to get past it.",
+  "why_reading": "they recognize the section's habit in therapy sessions, as getting away from a feeling, by its two signs"
+ },
+ "same_point": "none: read the section from its heading to the next for explaining feelings away in therapy sessions, and what to look for; no other paragraph of the Self-Hypnosis guide names these therapies",
+ "needed": {
+  "reader": "fresh Fable readers (2026-11-28) given tools/humanization/needed_read_brief.md, the live guide and the text one sentence a line: articles/inner-signal/experiments/carry-c1128/reads/READ-1.md to READ-3.md; each mark acted on",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same readers, given tools/humanization/his_fixes_brief.md: articles/inner-signal/experiments/carry-c1128/reads/READ-1.md to READ-3.md",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same readers, given tools/humanization/fit_read_brief.md and a contradictions check: articles/inner-signal/experiments/carry-c1128/reads/READ-1.md to READ-3.md",
+  "marked": [],
+  "kept": {}
+ },
+ "his_answer": [],
+ "questions": {
+  "Q1": "PASS: each opens on the reader's case (\"If you want to go back into a painful memory\", \"If you've had that medical attention\", \"Being too analytical can show up in therapy sessions too\") or on what the therapy does",
+  "Q2": "PASS: read about the therapy; try one of the two; look for someone trained in it; stop for the day if you feel unreal",
+  "Q3": "PASS: which memory (a painful one), which pain (lasted months, no injury or disease found), which slipping away (explaining a feeling, agreeing with the therapist)",
+  "Q4": "PASS: each therapy named and said by what it does; \"the ideal adult\" is the inner child guide's own term",
+  "Q5": "PASS: each sentence ties to the one before (\"It's a lot like\", \"They've helped\", \"If that keeps happening\", \"It's for that kind\")",
+  "Q6": "PASS: the reader's case, the therapy, how it works or what it is for",
+  "Q7": "PASS: each is for the reader of the section it closes",
+  "Q8": "PASS: no groups",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -2,7 +2,7 @@
 
 Joel, 2026-11-26 22:44 UTC: "i also want to make an addition to the somatic.u-dont-exist.com article with the recs from gpt below (humanized)". The suggestions were ChatGPT's reply from the research lane ([PR 545](https://github.com/u-dont-existDOTcom/joel-articles/pull/545), [SOMATIC-INTEGRATION-PROPOSAL-20261126.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/research/somatic-edt-eaet-20261126/articles/somatic-therapies/experiments/SOMATIC-INTEGRATION-PROPOSAL-20261126.md)): experiential therapies after Brainspotting, imagery rescripting after EMDR, and a pain branch after Layer 5. His words to that lane: add only what fills a gap, say where it fits and who needs which.
 
-**Where it stands:** live since 22:45 UTC on 27 November: "Imagery Rescripting" and "Pain That Won't Quit?" in the [somatic guide](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) ([its first](https://ibogaqueen.substack.com/i/201523223/imagery-rescripting), [its second](https://ibogaqueen.substack.com/i/201523223/pain-that-wont-quit)), and the two pointers to them in the [inner child guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) (in "Re-do Trauma Memories" and "Physical Pain?"), each Human High ([apply-c1127/README.md](apply-c1127/README.md)). "Can't Stay With a Feeling?" waits for his answer on its teaching card ([the page](https://claude.ai/artifact/SpmEmFcQj5wmaFFc4NKfTd), [the card in Git](review-c1127b/CARDS-A1.md)): it reads [Human Written, 0% AI](https://www.pangram.com/history/089bbeb6-7fe6-4961-b18f-7d54fd474d5b) with two Medium windows, over his "The ISTDP therapist catches you ..." and over my AEDP paragraph's end with his "All three keep steering you back ..."; my section checks are spent.
+**Where it stands:** all four new sections and both pointers are live: "Can't Stay With a Feeling?" went in at 09:49 UTC on 28 November, his version ([Human High, one window](https://www.pangram.com/history/f8c3bc68-d6eb-4694-ba54-2671741ab8c6); [apply-c1128/README.md](apply-c1128/README.md)), after "Imagery Rescripting" and "Pain That Won't Quit?" in the [somatic guide](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) and the two pointers in the [inner child guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) on 27 November. Two slips the word-for-sense read found in yesterday's sections wait on his card ([the page](https://claude.ai/artifact/VS1Q5s8Co35FT5eagVYEUB)), untested: Pangram's monthly credits ran out at 10:09 UTC. The carry into the Self-Hypnosis guide he asked for is under way: `articles/inner-signal/experiments/carry-c1128/RESULTS.md`.
 
 | | Section | Words | Pangram on the card's version |
 |---|---|---|---|
@@ -182,3 +182,38 @@ Each of his versions read Human High in his own check ([pangram/HIS-CHECKS-C1127
    `tools/humanization/substack_update.js`, no email), its date, the live posts fetched, the section list and the depends check.
 2. Built-on: the Self-Hypnosis guide draws on neither change (`articles/BUILT-ON.json`); if he wants pointers there, a
    new pass on that guide.
+
+## Checkpoint, turn of 2026-11-28 09:44 UTC (his answer on A1-TEACH-2; A1 live; the carry into the Self-Hypnosis guide)
+
+His answer ([answers/ANSWERS-C1127B-A1-20261128-0944.json](answers/ANSWERS-C1127B-A1-20261128-0944.json)): Revise, with his
+version of the whole section, read back from his history: [Human Written, one High window over all 328 words](https://www.pangram.com/history/f8c3bc68-d6eb-4694-ba54-2671741ab8c6)
+([pangram/HIS-CHECKS-C1127B.json](pangram/HIS-CHECKS-C1127B.json)). His message also: leave his "over age 60" ("i think
+you're nitpicking"; now on the guide's keep-as-is list, `articles/somatic-therapies/KEEP-AS-IS.json`), and "yes i want to
+carry changes into self hypnhosis guide also once we're done".
+
+- **A1 live**, his version with the three links back ([scripts/make_draft31.py](scripts/make_draft31.py)), at 09:49 UTC,
+  no email, the title's date moved to Nov 28; the live post fetched and word for word as planned; 37 sections; the depends
+  check clean ([apply-c1128/README.md](apply-c1128/README.md)).
+- **The word-for-sense read** before it went, on A1 and the four texts that went live yesterday ([sense-c1128/](sense-c1128/out/SCORE.json):
+  three planted errors, all found). Two slips in yesterday's text, both his versions of my drafts (so mine to fix, gate
+  E373): "Instead of EMDR's mechanical approach." as a sentence of its own, and "I'd start with the second, and otherwise
+  with the first" right after "comparing EAET with PRT" (a reader can take the advice reversed). Fixed and read fresh
+  ([sense-c1128/READ-SR.md](sense-c1128/READ-SR.md), none marked), but Pangram's credits ran out before their checks, so
+  whether they go in untested is on his card ([the page](https://claude.ai/artifact/VS1Q5s8Co35FT5eagVYEUB),
+  [review-c1128/CARDS-SENSE.md](review-c1128/CARDS-SENSE.md)).
+- **His fixes as lessons** somatic-2026-11-28a to d ([docs/lessons/2026-11-28-0944-somatic.md](../../../../docs/lessons/2026-11-28-0944-somatic.md)),
+  read before main with `tools/humanization/rules_check_brief.md` (four flags, all taken) and tested blind the same turn:
+  2 of 2 rewrites read Human High ([replay-3/RESULTS.md](replay-3/RESULTS.md)); where they fall short of his is in sense
+  (a new claim in one, an opener to work through in the other).
+- **The carry into the Self-Hypnosis guide:** three pointers, read fresh four times; the one to Imagery Rescripting read
+  Human High and is on his card; the pain pointer read AI and the third is unchecked, both waiting on Pangram
+  (`articles/inner-signal/experiments/carry-c1128/RESULTS.md`).
+- **Pangram:** the account's monthly AI-detection credits ran out at 10:09 UTC, 28 November ("Your monthly credits will
+  refill in 22 days"); every lane's web-app checks use them. Three predictions voided, never sent.
+
+### Next, in order
+
+1. Pangram credits: his call (top up, or wait for the refill).
+2. His answers on the two pages: the somatic fixes (now untested, or wait), and SH1 for the Self-Hypnosis guide.
+3. Then, with credits: the two fixes checked (if he says wait), SH2's next try and SH3's first check, their cards; the
+   Self-Hypnosis edit in one go (no email, the subtitle's date and version), the live checks.
