@@ -1,0 +1,42 @@
+[
+ {
+  "block": 9,
+  "text": "Instead of EMDR's mechanical approach. The Imagery Rescripting therapist is there with you",
+  "kind": "broken",
+  "what": "\"Instead of EMDR's mechanical approach.\" is a fragment cut off from the sentence it introduces; the full stop should be a comma.",
+  "fix": "Instead of EMDR's mechanical approach, the Imagery Rescripting therapist is there with you",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"Instead of EMDR's mechanical approach.\" is a fragment cut off from the sentence it introduces; the full stop should be a comma.",
+    "fix": "Instead of EMDR's mechanical approach, the Imagery Rescripting therapist is there with you",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "text": "# Pain That Won't Quit?",
+  "kind": "slip",
+  "what": "This section heading has one \"#\" while its sibling sections (\"## Can't Stay With a Feeling?\", \"## Imagery Rescripting\") have two, so it sits at the level of the read's labels instead of the article's sections.",
+  "fix": "## Pain That Won't Quit?",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "This section heading has one \"#\" while its sibling sections (\"## Can't Stay With a Feeling?\", \"## Imagery Rescripting\") have two, so it sits at the level of the read's labels instead of the article's sections.",
+    "fix": "## Pain That Won't Quit?",
+    "confidence": "likely"
+   }
+  ]
+ }
+]
