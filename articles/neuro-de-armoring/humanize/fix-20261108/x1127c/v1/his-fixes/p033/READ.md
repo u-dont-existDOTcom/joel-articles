@@ -1,0 +1,8 @@
+MARKED:
+- S2: 5 — opens on an authority ("many trauma therapies emphasize") with the reader outside it; his way would give the reader the act (so stay within what you can handle, the "window of tolerance" trauma therapies use).
+- S2: 3, 21 — "rather than overwhelming activation" is a contrast the sentence doesn't need, and its second half is an abstract label that doesn't match "staying within ..."; his way would say the thing itself (stay where you can still handle what comes up) and drop the "rather than".
+- S2: 28, 12 — "That's why" draws the conclusion before S3 gives the mechanism it rests on, and it stands between S1's claim and S3's reason for it; his way would put the reason (S3) right after S1 and the advice last, where the paragraph's purpose ends on what to do.
+- S3: 10 — "In that state" could point at "above this red line" (S1, meant), or at the "window of tolerance" / "overwhelming activation" just named in S2; his way would name it ("above the red line") or sit directly after S1.
+- S3: 1 — several ideas packed into one sentence: the IQ drop, the Nucleus Accumbens flooding, catecholamines transcribing DeltaFosB, DeltaFosB being the "armor", and a bracketed caveat on the research; his way would give each its own clause, and the IQ drop either its payoff for the reader or its own sentence, since the armor point doesn't need it.
+- S3: 9, 16 — the limit hangs in a bracket after the finding, and says the doubt twice ("may be" and "but the research isn't settled"; the "but" is a contrast with nothing to turn from, way 3); his way would say up front how settled this is, once, then the mechanism.
+- S1: none (the "instead of taking it off" answers what the reader expects processing to do).

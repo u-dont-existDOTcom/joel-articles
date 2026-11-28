@@ -1,0 +1,24 @@
+[
+ {
+  "key": "bl-sw19",
+  "name": "Blind rewrite of the one-sixteenth paragraph (replay)",
+  "lineage": "neuro-de-armoring/W-SW19-blind (replay x1127b)",
+  "scope": "paragraph",
+  "words": 85,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "e2dfd155a98c550285523e51db90b506639f985ce9cd8e3d7f6745acf12f79aa"
+ },
+ {
+  "key": "bl-sw23",
+  "name": "Blind rewrite of the Anti-Breakthrough and the practice line (replay)",
+  "lineage": "neuro-de-armoring/PAIR-SW22-23-blind (replay x1127b)",
+  "scope": "pair",
+  "words": 98,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "9eeb2b43e3e439eb66178e3e9422d3442f7f13e392764f30758df8d6e5be3737"
+ }
+]

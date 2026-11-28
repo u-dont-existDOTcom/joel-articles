@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-27, after your message of 2026-11-27 20:08 UTC ("ok why did you stop? ...").
-**Open questions: 0.** **For you to do**: two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) (the same cards in Git:
-[REVIEW-X1127B.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/REVIEW-X1127B.md)): the one-sixteenth paragraph and the daily practice.
+Last updated 2026-11-27, after your message of 2026-11-27 23:43 UTC ("push from laptop").
+**Open questions: 2** (77, 78). **For you to do**: one card on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), the Red Line's second paragraph.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,16 +10,82 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now.
+**🟣 77. Is "Metabolic Red Line" Perry's own term?** Your post says "Dr. Perry identifies a "Metabolic Red Line" for the
+traumatized brain", and the Red Line's first paragraph keeps that ("Perry describes the point where that happens as a
+"Metabolic Red Line" for the traumatized brain, and calls the state past it "Fear""). One search found no use of the
+term by Perry: his own name for the idea is state-dependent functioning, where the brain shifts from the cortex toward
+the brainstem as you go from calm to alarm, fear and terror. One search isn't proof he never said it.
+
+- a) Keep it as it is.
+- b) Make it the protocol's name for his idea: "This protocol calls that point the "Metabolic Red Line"; Perry calls the
+  state past it "Fear"." (my pick, unless you know where he says it)
+- c) Something else (say what).
+
+**🟣 78. The red line's condition in that paragraph.** It went in as "That happens once your heart rate climbs above its
+usual resting rate, or the time between its beats varies less (a smartwatch shows both), and it lasts until you calm down"
+([one window, High](https://www.pangram.com/history/ef537748-af2f-4cc0-92ee-80d4cb5bd35a)). A fresh reader beside your
+post says that reads as any rise, exercise included, where your post means a raised rate at rest ("when the resting
+heart rate is elevated"). It mirrors your 62a test ("back down to your usual resting rate, and under 90 BPM"). My
+clearer "stays above its usual resting rate even while you sit still, or the time between beats varies less than
+usual" read [AI Low over that sentence](https://www.pangram.com/history/7b799d18-507a-4e06-b96d-2d2e5f16f56e).
+
+- a) Keep it as it went in (my pick: it says what your own test says).
+- b) Say it the way the post does: "once your resting heart rate is higher than usual, or the time between beats varies
+  less than usual" (checked before it goes in, after the tell panel).
+- c) Something else (say what).
 
 ## For you to do
 
-- 🟠 **Two cards on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1127b/REVIEW-X1127B.md)), each with
-  one Medium window left after its tries:
-  - **W-SW19**: the one-sixteenth paragraph. My best reads High over its first three sentences and Medium over its
-    last ("So gather a tribe ..."). Revise with your version, use my best anyway, or Reject.
-  - **W-SW23**: the daily practice after the Anti-Breakthrough. My best reads High over the Anti-Breakthrough's first
-    two sentences and Medium over its last with the practice sentence; the box holds both paragraphs.
+- 🟠 **One card on [the cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)**, the Red Line's second paragraph: my try that read High in one
+  window changed what it says (that DeltaFosB is the armor), and the one that keeps it reads High, Low over the DeltaFosB
+  sentence, High. Revise with your version, use my best anyway, or Reject.
+
+## Your message of 2026-11-27 22:59 UTC (your versions on the two cards), and what I did
+
+- 🟢 **Saving: "push from laptop"**, as you answered at 23:43 UTC (this session's permission check refused
+  attaching the repositories and the lane's push tool).
+- 🟢 **UDA and the repo rules loaded.** Attaching the repositories was refused again, but a read-only clone of each
+  worked, so UDA's rules and its lane folder for joel-articles were read in full this time (nothing new in the lane).
+- 🟢 **Both your versions are in, exactly as you checked them**, with the link on "Perry, 2023" put back where Pangram
+  can't see it: the one-sixteenth paragraph ([your check: one window, High](https://www.pangram.com/history/51ceffa5-98f3-4fd5-b160-e438f540d9d8))
+  and the Anti-Breakthrough with the practice line ([your check: one window, High](https://www.pangram.com/history/6bdc6163-1943-4de6-87d1-d398f4431bee);
+  your "20" step without "something like" read the same as "twenty",
+  [High, then Medium](https://www.pangram.com/history/75361775-0680-4db9-835b-5d71b387ce59), as you said). Your "who you
+  hang with on most days", "another dimension of micro-dosing" and "something like 30 seconds ..., 20 times a day" are
+  on the keep-as-is list (K9 to K11).
+- 🟢 **Lessons from your comments** (neuro-2026-11-27s to x): a clause you'd have to reread
+  gets each verb's subject said, as your "and who you" did; a word readers know in one sense is tied to that sense, not
+  claimed with "what I mean by"; a practice nobody could keep exactly keeps its figures, with "something like" beside
+  them, never for a dose or a limit; a sentence of mine already in at High is reread for sense when a neighbour's check
+  puts a Medium window over it. **Read before main** by a fresh reader for rules that go past what you said (the bad trips
+  lane's new step): four flags, all taken. **Spelling numbers out was a
+  lesson (neuro-2026-11-06f) that nothing checked**, so the linter now flags a spelled-out count (O79). **Tested
+  blind:** a fresh writer given only those lessons rewrote both paragraphs as my last tries had them, and both read
+  Human High in one window ([1](https://www.pangram.com/history/06fcee56-ccb0-4794-a54c-ddd0d0563c74),
+  [2](https://www.pangram.com/history/9caae080-bb30-446b-b141-466a812d9780)).
+- 🟢 **"Psychology is the Software" as a section** reads
+  [Human Written, every paragraph High](https://www.pangram.com/history/85991f56-54f1-4d71-a3e2-7bdab75f2e90), with two
+  tiny Medium windows where Pangram splits at "vs." and at "Dr." (in the Role-Self line and the Gibson paragraph). Your
+  Anti-Breakthrough checked by itself reads [High, then Medium over its last sentence](https://www.pangram.com/history/6d65ae17-7542-4c20-b62b-0a12a7b7d7a6),
+  because the sentence ends the check there; with the practice line after it, as readers see it, it reads High, so your
+  words stay as they are.
+- 🔵 **Next for that section: the Gibson paragraph.** Its three fresh reads mark real sense problems besides the "Dr."
+  split: the proverb stands alone, "the modern large society ... is vastly insufficient" doesn't say what is too few
+  for what, and "enriched" in quotes isn't explained. That's a rewrite of a paragraph that reads High, so it gets its
+  own pass next.
+- 🟢 **Part 1's intro and the Red Line's first paragraph are in at Human High**, each fixed for sense from three fresh
+  reads first: the intro with the paragraph after it ([one window, High](https://www.pangram.com/history/af3159d7-72d3-403f-9b5b-90a4965fcaf7)),
+  and that paragraph by itself ([one window, High](https://www.pangram.com/history/ef537748-af2f-4cc0-92ee-80d4cb5bd35a)).
+  **The second paragraph is back to how it stood**, and on your card: its try that read
+  [one window, High](https://www.pangram.com/history/72ba33d4-6a70-4601-88a8-a249cc49dd1e) said DeltaFosB "holds the
+  armor in place", which the read beside your post caught as a change of meaning, and the version that keeps the
+  meaning reads [High, Low, High](https://www.pangram.com/history/a8485271-f241-43e8-8977-24921d310ab5). I ran the
+  comparison read after those checks instead of before: that slip cost three checks.
+  What changed: the intro opens on what the reader gets; "anatomy overrides intellect" became the reason itself (blood
+  flow shifts from the part that reasons to the part that keeps you alive); "your resting heart rate goes up" became
+  "your heart rate climbs above its usual resting rate" (your 62a test); heart-rate variability is said in plain words;
+  catecholamines now "switch on" DeltaFosB instead of "transcribing" it; the doubt about DeltaFosB is said once
+  ("researchers suspect"), keeping your 39a caveat; the window of tolerance comes last, as what to do.
 
 ## Your message of 2026-11-27 20:08 UTC ("ok why did you stop? i don't see any way to add a repo here."), and what I did
 

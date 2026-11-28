@@ -1,0 +1,30 @@
+{
+ "p030-032e": {
+  "lineage": "neuro-de-armoring/PAIR-030-032",
+  "scope": "pair",
+  "name": "Part 1's intro line with the Red Line's first paragraph: the post's condition in plain words",
+  "text": "To see what the tools in this protocol do, let's look first at what goes wrong in the brain under trauma, withdrawal or chronic stress, since that's what they're built to fix.\n\nIf you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your resting heart rate is higher than usual, or the time between beats varies less than usual (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+  "chance": 0.5,
+  "receipt": "/home/claude/repos/joel/articles/neuro-de-armoring/humanize/fix-20261108/x1127c/receipts/P030-P032-S1.receipt.json",
+  "diagnosis": "after the comparison read's fix read AI Low over the changed sentence (#345, \"stays above its usual resting rate even while you sit still\"), the post's own condition in plain words: \"your resting heart rate is higher than usual\" (the post: \"when the resting heart rate is elevated\")",
+  "decides": "whether the pair reads High with the clear condition",
+  "tells": "a list of three in the intro (trauma, withdrawal or chronic stress: the protocol's scope); a long condition before the point in the second sentence of the paragraph",
+  "human_tells": "none to name: the words are mine and the post's",
+  "first_fix": "payoff: the intro opens on what the reader gets (what each tool does), the paragraph on the reader's own failure and what happens while triggered; join: the label tied into the intro's sentence (\"since those Hardware Failures are what it's built to fix\"); plain: \"the part of your brain that reasons goes offline\" for \"anatomy overrides intellect\", \"above its usual resting rate\" for \"your resting heart rate goes up\"",
+  "humanized": "the intro opens on what the reader gets (\"To see what each tool in this protocol does\"), the reader inside it (\"let's look first\"), its label tied in as what the protocol fixes; and the paragraph after it: the reason the reader asks for comes straight after their own failure, in the same sentence (\"it's because blood flow in your brain shifts\"); when it happens and that it passes, tied on with \"That happens\"; the Cortex and the Brainstem each explained where first used, the two glosses built differently; Perry's names last, once the reader has the thing they name; plain words for the abstract ones (\"the part that keeps you alive\" for \"runs survival\")"
+ },
+ "p032e": {
+  "lineage": "neuro-de-armoring/P032",
+  "scope": "paragraph",
+  "name": "The Red Line's first paragraph by itself, try 6: the post's condition in plain words",
+  "text": "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your resting heart rate is higher than usual, or the time between beats varies less than usual (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+  "chance": 0.5,
+  "receipt": "/home/claude/repos/joel/articles/neuro-de-armoring/humanize/fix-20261108/x1127c/receipts/P032-S1.receipt.json",
+  "diagnosis": "after the comparison read's fix read AI Low over the changed sentence (#345, \"stays above its usual resting rate even while you sit still\"), the post's own condition in plain words: \"your resting heart rate is higher than usual\" (the post: \"when the resting heart rate is elevated\")",
+  "decides": "whether the clear condition reads High; the last of six tries",
+  "tells": "a long condition (\"Once your heart rate ... drops (...)\") before the point of the second sentence; the third sentence names a term with an attribution",
+  "human_tells": "none to name: the words are mine and the post's",
+  "first_fix": "payoff: the reader's own failure first, then what happens while triggered; join: the shift and its end in one sentence (\"until you calm down\"); plain: \"the part of your brain that reasons goes offline\" for \"anatomy overrides intellect\", \"above its usual resting rate\" for \"your resting heart rate goes up\", \"the part that keeps you alive\" for \"which runs survival\"",
+  "humanized": "the reason the reader asks for comes straight after their own failure, in the same sentence (\"it's because blood flow in your brain shifts\"); when it happens and that it passes, tied on with \"That happens\"; the Cortex and the Brainstem each explained where first used, the two glosses built differently; Perry's names last, once the reader has the thing they name; plain words for the abstract ones (\"the part that keeps you alive\" for \"runs survival\")"
+ }
+}

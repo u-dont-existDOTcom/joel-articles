@@ -1,0 +1,35 @@
+[
+ {
+  "key": "p030-032d",
+  "name": "Part 1's intro line with the Red Line's first paragraph, after the comparison read",
+  "lineage": "neuro-de-armoring/PAIR-030-032",
+  "scope": "pair",
+  "words": 130,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "4cc143ae27662a0707dadad6d40a7380497ba9a5f2e36014391ffc085ae606ed"
+ },
+ {
+  "key": "p032d",
+  "name": "The Red Line's first paragraph by itself, after the comparison read",
+  "lineage": "neuro-de-armoring/P032",
+  "scope": "paragraph",
+  "words": 98,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "see the ledger record",
+  "sha256": "30e98ad8e8fe2f6f297c66d9373060d998246d51fe8f7b71345146cef78697ec"
+ },
+ {
+  "key": "p033f",
+  "name": "The Red Line's second paragraph by itself, after the comparison read",
+  "lineage": "neuro-de-armoring/P033",
+  "scope": "paragraph",
+  "words": 86,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "7e2d154f6a68847d08d4f8773dcf21b74c4a2c7f87c2dd8a68780bda02e1b344"
+ }
+]

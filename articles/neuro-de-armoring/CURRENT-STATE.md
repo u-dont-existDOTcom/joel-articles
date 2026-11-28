@@ -22,6 +22,8 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
+`humanize/HUMANIZED-SO-FAR.md` is 8a930251 after his cards-page export of 2026-11-27 22:59 UTC and his "push from laptop" of 23:43 UTC: his versions on cards W-SW19 and W-SW23 in as he checked them; lessons neuro-2026-11-27s to x with their blind test (2 of 2 at Human High) and the rules check before main (four flags, all taken); main merged (a679d7a4); the Psychology section checked as a whole (Human Written, every paragraph High, two Medium splits at "vs." and "Dr."); Part 1's intro and the Red Line's first paragraph in at Human High; its second paragraph back to its text before the turn and on card W-P033; questions 77 and 78 (`humanize/fix-20261108/x1127b/`, `humanize/fix-20261108/x1127c/`, `humanize/HANDOFF-neuro-de-armoring.md`).
+
 `humanize/HUMANIZED-SO-FAR.md` is f8bfa190 after his message of 2026-11-27 20:08 UTC (the underpinnings paragraph and the "Underpinning" Principle in at Human High; the one-sixteenth paragraph and the daily practice reached one Medium window each and are cards W-SW19 and W-SW23), and since his message of 2026-11-27 19:17 UTC: his versions on cards W-LMA-73A (the herbs warning) and W-COG-SEC (the Cognitive Warning and the paragraph after it) in as he checked them, each Human High in one window; no question open and no card waiting; next, the rest of "Psychology is the Software; Biology is the Hardware." (`humanize/HANDOFF-neuro-de-armoring.md`).
 
 `humanize/HUMANIZED-SO-FAR.md` is e0a76c6a after his message of 2026-11-27 17:21 UTC: his 76 in with his reason, Human High by itself; the warnings section Human Written with one Medium window; the cards page fixed (its cards had been folded away); no question open (`humanize/HANDOFF-neuro-de-armoring.md`).
@@ -38,7 +40,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-No question waits on him and nothing is open on the cards page. Every turn starts by reading the mailbox, the cards page's stored answers (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, collection "decisions") and his message against the questions page (`humanize/OWNER-QUESTIONS.md`, https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky).
+Questions 77 and 78 and card W-P033 wait on him (the questions page, `humanize/OWNER-QUESTIONS.md`, https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky; the cards page, https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, collection "decisions"). Every turn starts by reading the mailbox, the cards page's stored answers and his message against the questions page. Saving to GitHub from a cloud session may be refused by its permission check (2026-11-27: add_repo and lane_push.py both refused); his answer then was "push from laptop".
 
 ## Evidence / artifacts
 

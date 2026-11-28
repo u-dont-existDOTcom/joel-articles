@@ -1,0 +1,58 @@
+{
+ "about": "What x1127c put into HUMANIZED-SO-FAR.md, each paragraph through the apply gate.",
+ "runs": [
+  {
+   "applied": [
+    {
+     "key": "p030",
+     "check": "PAIR-030-032#339, https://www.pangram.com/history/af3159d7-72d3-403f-9b5b-90a4965fcaf7 (Human Written, one window, High, 130 words, with the paragraph after it)",
+     "old": "Before applying the tools, you must understand what actually goes wrong in the brain during trauma, withdrawal or chronic stress, the \"Hardware Failures\" the tools are for.",
+     "new": "To see what the tools in this protocol do, let's look first at what goes wrong in the brain under trauma, withdrawal or chronic stress, since that's what they're built to fix."
+    },
+    {
+     "key": "p032",
+     "check": "P032#340, https://www.pangram.com/history/ef537748-af2f-4cc0-92ee-80d4cb5bd35a (Human Written, one window, High, 95 words)",
+     "old": "If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect. Dr. Perry describes a \"Metabolic Red Line\" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of \"Fear\"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.",
+     "new": "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your heart rate climbs above its usual resting rate, or the time between its beats varies less (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\"."
+    }
+   ],
+   "not_cautions": [
+    {
+     "unit": "W020",
+     "cues": [
+      "must"
+     ],
+     "by": "lesson bad-trips-2026-11-27f (his CHARCOAL-WORDS answer \"a\", 2026-11-27 15:34 UTC: \"from now on a line whose only warning word isn't a caution may be said in other words, as long as every fact stays\"), applied by fix-20261108/x1127c/apply_x1127c.py",
+     "why": "Part 1's intro line: \"must\" is in \"you must understand ... before applying the tools\", an instruction to read the science first, not a caution; trauma, withdrawal and chronic stress stay in the line"
+    }
+   ],
+   "before_sha256": "9383da8219a4f1d0a256c111a93c1161e1ee110e6c55273a83e6d5823dbc4f1c",
+   "after_sha256": "8a930251aaad3ff4edb74d3c3037a32f18018adf59e9366f24aa4e7e5446e929"
+  },
+  {
+   "applied": [
+    {
+     "key": "p033",
+     "check": "P033#343, https://www.pangram.com/history/72ba33d4-6a70-4601-88a8-a249cc49dd1e (Human Written, one window, High, 83 words; try 5, the DeltaFosB sentence joined to the one it continues)",
+     "old": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. That's why many trauma therapies emphasize staying within a manageable \"window of tolerance\" rather than overwhelming activation. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the \"armor\" itself (DeltaFosB may be the master switch, but the research isn't settled).",
+     "new": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain, where they switch on DeltaFosB, the protein researchers suspect holds the armor in place. Only work on your trauma while you're under that line (what trauma therapists call your \"window of tolerance\")."
+    }
+   ],
+   "not_cautions": [],
+   "before_sha256": "8a930251aaad3ff4edb74d3c3037a32f18018adf59e9366f24aa4e7e5446e929",
+   "after_sha256": "84fb0ad13b2ccf38aa9f69fccacbeacf895a69d114b9a7d020720735111c8c3e"
+  },
+  {
+   "reverted": [
+    {
+     "key": "p033",
+     "why": "the version that read Human High in one window (P033#343) changes the meaning: the comparison read beside his post (read-1127g, F1.3, severity 2) found the armor left undefined (\"the protein researchers suspect holds the armor in place\", where the post says the new DeltaFosB proteins are the armor); the version that keeps the meaning read High, Low 47, High (P033#346), and the lineage has used its six tries, so the paragraph goes back to how it stood at 9383da82 and to him as a teaching card",
+     "old": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain, where they switch on DeltaFosB, the protein researchers suspect holds the armor in place. Only work on your trauma while you're under that line (what trauma therapists call your \"window of tolerance\").",
+     "new": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. That's why many trauma therapies emphasize staying within a manageable \"window of tolerance\" rather than overwhelming activation. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the \"armor\" itself (DeltaFosB may be the master switch, but the research isn't settled)."
+    }
+   ],
+   "before_sha256": "84fb0ad13b2ccf38aa9f69fccacbeacf895a69d114b9a7d020720735111c8c3e",
+   "after_sha256": "8a930251aaad3ff4edb74d3c3037a32f18018adf59e9366f24aa4e7e5446e929"
+  }
+ ]
+}

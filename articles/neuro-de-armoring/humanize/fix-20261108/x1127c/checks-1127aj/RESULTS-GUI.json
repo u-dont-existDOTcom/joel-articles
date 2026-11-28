@@ -1,0 +1,56 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "p032c": {
+   "uuid": "ef537748-af2f-4cc0-92ee-80d4cb5bd35a",
+   "at": "2026-11-27T23:35:16Z",
+   "headline": "Human Written",
+   "ai": 5.166806854639329e-28,
+   "words": 95,
+   "windows": [
+    [
+     "Human",
+     "High",
+     95,
+     "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your heart rate climbs above its usual resting rate, or the time between its beats varies less (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\"."
+    ]
+   ]
+  },
+  "p030-032c": {
+   "uuid": "af3159d7-72d3-403f-9b5b-90a4965fcaf7",
+   "at": "2026-11-27T23:35:06Z",
+   "headline": "Human Written",
+   "ai": 3.795416812119818e-22,
+   "words": 130,
+   "windows": [
+    [
+     "Human",
+     "High",
+     130,
+     "To see what the tools in this protocol do, let's look first at what goes wrong in the brain under trauma, withdrawal or chronic stress, since that's what they're built to fix.\nIf you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your heart rate climbs above its usual resting rate, or the time between its beats varies less (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\"."
+    ]
+   ]
+  },
+  "p033c": {
+   "uuid": "7d009652-86c5-4ca7-a8d3-35ac5cbf28b3",
+   "at": "2026-11-27T23:35:25Z",
+   "headline": "Human Written",
+   "ai": 2.2448462914326228e-05,
+   "words": 85,
+   "windows": [
+    [
+     "Human",
+     "High",
+     50,
+     "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain."
+    ],
+    [
+     "Human",
+     "Low",
+     35,
+     "There they switch on DeltaFosB, the protein researchers suspect holds the armor in place. Only work on your trauma while you're under that line, which trauma therapists call staying in your \"window of tolerance\"."
+    ]
+   ]
+  }
+ }
+}

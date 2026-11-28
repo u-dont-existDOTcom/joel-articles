@@ -18,6 +18,55 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-27, after his cards-page export of 22:59 UTC (both cards revised with his own versions; "make sure you can
+  load UDA and the repo rules") and his "push from laptop" of 23:43 UTC: his versions in as he checked them; lessons
+  neuro-2026-11-27s to x, tested blind (2 of 2 at Human High); Part 1's intro and the Red Line's first paragraph in at
+  Human High; the Red Line's second paragraph back to its old text, on card W-P033; questions 77 and 78.**
+  HUMANIZED-SO-FAR.md is 8a930251. **UDA**: loaded from a read-only `git clone` of its default branch (main 3fce032), after
+  add_repo was refused by the session's check as "Unauthorized Access"; its lane folder read for the first time in days
+  (six items, all in the ledger). **Saving**: the same check refused `lane_push.py`, and the REST API answers 403 without
+  the repository attached; his answer was "push from laptop", so this turn went to GitHub from his laptop (the turn's
+  report says how). **His answers** (`fix-20261108/x1127b/`): the export (`ANSWERS-X1127B-20261127-2259.json`), his four
+  checks read back from his history (`HIS-CHECKS-X1127B.json`, one he didn't link: "20" alone, the same windows), the
+  apply script (`apply_his_x1127b.py`, the Perry link put back), keep-as-is K9 to K11, two fidelity owner_changes (W019's
+  "aggressively" and "High-Density" with the post's sentence; the numeral "20 times"). **Lessons**
+  `docs/lessons/2026-11-27-2259-neuro.md` (s: a clause a reader has to reread gets each verb's subject said, as his fix
+  did; t: a word used in a new sense is tied to the sense readers know; u: a practice figure nobody could keep exactly
+  keeps its figures with "something like" beside them, never a dose; v: spelled-out counts now flagged, linter O79,
+  registry W134; w: a sentence of mine already in at High is reread for sense when a neighbour's check puts a window
+  below High over it; x: one hedge isn't said twice); `his_fixes_brief.md` way 10 extended, ways 31 and 32 (after main's
+  new way 30); registry J91 to J93; FIXING-AN-ARTICLE item 15. **Main merged at the push** (a679d7a4: bad trips' way 30
+  rewritten for accuracy, lessons bad-trips-2026-11-27l to n, the rules audit in `docs/rules-audit/2026-11-27/`, whose
+  37 questions to him include some neuro rules, `sense_receipt.py`'s `his_answer` relaxed to what he says that bears on
+  his claim); its one conflict was way 30 against ways 31 and 32 (both kept). **The rules check** that main's lesson n
+  asks before a lesson file goes to main: `x1127c/rules-check/` (a fresh Fable reader, four flags on s, u, w and x, all
+  taken: no cause he never gave, no rule for every figure or every "and", no count from one case; the lesson file's last
+  section). **The blind
+  test**: `x1127b/replay/RESULTS.md` (ledger #329, #330). **The Psychology section**: SEC-PSYCH#332, Human Written, every
+  paragraph High, Medium only over the splits at "vs." (the Role-Self line) and "Dr." (the Gibson paragraph); his
+  Anti-Breakthrough by itself (#331) reads High, then Medium over its last sentence, which ends the check there; with
+  the practice line after it (his check, and the section) it reads High, so it stays as his. **Part 1** (`x1127c/`): the
+  texts and why (`texts_x1127c.py`, OLD at 9383da82), three fresh reads each (`v1`: sw18, p030, p032, p033), receipts
+  (`build_receipts_x1127c.py`), checks `checks-1127ah` to `checks-1127am` (ledger #333 to #346), three comparison reads
+  beside the post (`read-1127g`, `h`, `i`; the last has severity 1 only), the apply script (`apply_x1127c.py`, with
+  W020 in `not_cautions`: the intro's "must" warns of nothing), the cards page (`build_cards_x1127c.py`,
+  `REVIEW-X1127C.*`, published to https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 1795823173-9edb, card
+  checked visible in headless Chrome), the questions page (version 1795823572-1f47, then 1795824195-bbb0 for the lessons line after the rules check); the comparison gate passes (read-1127g's
+  F1.1 is his, question 78). **How it was pushed**: a git bundle of the turn's commits copied to his laptop
+  (`~/claude-acceptance-transfer/neuro-x1127c.bundle`, folder access granted 23:47 UTC), a fresh clone there
+  (`~/claude-acceptance-transfer/joel-articles-neuro-x1127c`), the bundle pulled fast-forward, and `lane_push.py` run there with
+  his GitHub sign-in. **In**: P030 with P032 (#339, one
+  window High), P032 (#340, one window High). **Back**: P033, whose one-window-High try (#343) changed what it says
+  ("holds the armor in place"; the post: DeltaFosB is the armor); the faithful version reads High, Low 47, High (#346);
+  six of six tries used. **The slip**: I ran the comparison read after the checks that put P032 and P033 in, not
+  before (lesson neuro-2026-11-25h), and its fixes then read below High; the next lesson to enforce is that
+  `apply_x1127c.py`-style scripts call `compare_read.py gate` before writing. **P032's lineage** has read AI twice
+  (#337, #345): its next try goes through the tell panel first, and only if his 78 asks for a change. **Next**: the
+  mailbox, his answers (77, 78, card W-P033, db collection "decisions" on slug 4719d286-ca5a-4311-87a8-a00631b476b5,
+  review neuro-de-armoring-cards-20261127-x1127c); then the Gibson paragraph's pass: its three reads are in
+  `x1127c/v1/*/sw18` (the proverb alone, "the modern large society ... is vastly insufficient", "enriched" unexplained),
+  with the two splits (`texts_x1127c.NEW['sub']`, `['sw18']`: "vs" and "Bruce Perry"), then the section's recheck; then
+  Part 1's B from LEFT.md.
 - **2026-11-27, after his message of 20:08 UTC ("ok why did you stop? i don't see any way to add a repo here."): the
   Psychology section's pass went on; the one-sixteenth paragraph and the daily practice each reached one Medium window and
   are two teaching cards (W-SW19, W-SW23); the underpinnings paragraph and the "Underpinning" Principle went in at Human

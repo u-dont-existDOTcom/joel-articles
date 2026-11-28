@@ -1,0 +1,45 @@
+{
+ "p030-032": {
+  "lineage": "neuro-de-armoring/PAIR-030-032",
+  "scope": "pair",
+  "name": "Part 1's intro line with the Metabolic Red Line's first paragraph, fixed for sense from their reads",
+  "text": "To see what each tool in this protocol does, let's look first at what goes wrong in the brain under trauma, withdrawal or chronic stress, since those \"Hardware Failures\" are what it's built to fix.\n\nIf you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your heart rate climbs above its usual resting rate, or its variability drops (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+  "chance": 0.55,
+  "receipt": "/home/claude/repos/joel/articles/neuro-de-armoring/humanize/fix-20261108/x1127c/receipts/P030-P032-S1.receipt.json",
+  "diagnosis": "the intro line opened on a rule (\"you must understand ... before applying the tools\") before why, with \"Hardware Failures\" hung on as a label; the Red Line paragraph had two abstract nouns acting (\"anatomy overrides intellect\"), Perry and his term before the reader, a packed sentence with glosses built alike, and no line past which; the stretch with them read Human (#134) and the paragraph alone Human Medium (#130)",
+  "decides": "whether the intro line, under 50 words, reads Human High with the paragraph it leads into, after the sense fixes",
+  "tells": "a list of three in the intro (trauma, withdrawal or chronic stress: the protocol's scope); a long condition before the point in the second sentence of the paragraph",
+  "human_tells": "none to name: the words are mine and the post's",
+  "first_fix": "payoff: the intro opens on what the reader gets (what each tool does), the paragraph on the reader's own failure and what happens while triggered; join: the label tied into the intro's sentence (\"since those Hardware Failures are what it's built to fix\"); plain: \"the part of your brain that reasons goes offline\" for \"anatomy overrides intellect\", \"above its usual resting rate\" for \"your resting heart rate goes up\"",
+  "humanized": "the intro opens on what the reader gets (\"To see what each tool in this protocol does\"), the reader inside it (\"let's look first\"), its label tied in as what the protocol fixes; and the paragraph after it: the reason the reader asks for comes straight after their own failure, in the same sentence (\"it's because blood flow in your brain shifts\"); when it happens and that it passes, tied on with \"That happens\"; the Cortex and the Brainstem each explained where first used, the two glosses built differently; Perry's names last, once the reader has the thing they name; plain words for the abstract ones (\"the part that keeps you alive\" for \"runs survival\")"
+ },
+ "p032": {
+  "lineage": "neuro-de-armoring/P032",
+  "scope": "paragraph",
+  "name": "The Metabolic Red Line's first paragraph by itself, fixed for sense from its reads",
+  "text": "If you've tried to talk yourself out of a trigger and couldn't, it's because blood flow in your brain shifts away from the Cortex, which handles logic and reasoning, toward the Brainstem, the part that keeps you alive. That happens once your heart rate climbs above its usual resting rate, or its variability drops (a smartwatch shows both), and it lasts until you calm down. Perry describes the point where that happens as a \"Metabolic Red Line\" for the traumatized brain, and calls the state past it \"Fear\".",
+  "chance": 0.5,
+  "receipt": "/home/claude/repos/joel/articles/neuro-de-armoring/humanize/fix-20261108/x1127c/receipts/P032-S1.receipt.json",
+  "diagnosis": "it read Human Medium by itself (#130, https://www.pangram.com/history/eeb2d730-ca9e-41ea-815e-6163350f8aee): two abstract nouns acting (\"anatomy overrides intellect\"), Perry and his term before what happens to the reader, a packed second sentence with two glosses built alike, \"resting heart rate goes up\" with no line past which, and \"(a state of \"Fear\")\" with nobody's name on it",
+  "decides": "whether the sense fixes take the paragraph from Human Medium to High by itself (64 words before, 88 now)",
+  "tells": "a long condition (\"Once your heart rate ... drops (...)\") before the point of the second sentence; the third sentence names a term with an attribution",
+  "human_tells": "none to name: the words are mine and the post's",
+  "first_fix": "payoff: the reader's own failure first, then what happens while triggered; join: the shift and its end in one sentence (\"until you calm down\"); plain: \"the part of your brain that reasons goes offline\" for \"anatomy overrides intellect\", \"above its usual resting rate\" for \"your resting heart rate goes up\", \"the part that keeps you alive\" for \"which runs survival\"",
+  "humanized": "the reason the reader asks for comes straight after their own failure, in the same sentence (\"it's because blood flow in your brain shifts\"); when it happens and that it passes, tied on with \"That happens\"; the Cortex and the Brainstem each explained where first used, the two glosses built differently; Perry's names last, once the reader has the thing they name; plain words for the abstract ones (\"the part that keeps you alive\" for \"runs survival\")",
+  "big_change": "the three fresh reads of the paragraph as it stood (x1127c/v1/*/p032) marked both sentences for sense: two abstract nouns acting that read as \"always\" (\"anatomy overrides intellect\"), a baseline measure used for the moment (\"resting heart rate goes up\") with no line past which, Perry and his term before the reader, and a shift that read as damage; those are fixes of what the paragraph says, made before any Pangram check (sense first, his rule of 2026-11-23), and #130 is three weeks and many lessons old"
+ },
+ "p033": {
+  "lineage": "neuro-de-armoring/P033",
+  "scope": "paragraph",
+  "name": "The Metabolic Red Line's second paragraph by itself, fixed for sense from its reads",
+  "text": "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain. There they set off the making of DeltaFosB, a protein that may be what holds the armor in place, though the research on that isn't settled. Only work on your trauma while you're under that line, which trauma therapists call staying in your \"window of tolerance\".",
+  "chance": 0.5,
+  "receipt": "/home/claude/repos/joel/articles/neuro-de-armoring/humanize/fix-20261108/x1127c/receipts/P033-S1.receipt.json",
+  "diagnosis": "never checked as it stands (his 39a moved the window of tolerance and the DeltaFosB caveat in after #134); the reads: the advice before the mechanism, \"In that state\" read as inside the window, \"many trauma therapies\" before the reader, \"rather than overwhelming activation\" a contrast nobody needs, catecholamines said to \"transcribe\" proteins, DeltaFosB both \"the armor itself\" and \"the master switch\"",
+  "decides": "whether the paragraph reads Human High by itself after the sense fixes, in the reader's order (the claim, why, what to do)",
+  "tells": "\"instead of taking it off\" (a contrast, though it answers what the reader expects processing to do); a long second sentence",
+  "human_tells": "none to name: the words are mine and the post's",
+  "first_fix": "payoff: the claim, then why (above the line), then what to do; join: the caveat into the clause it qualifies (\"though the research on that isn't settled\"); plain: \"set off the making of DeltaFosB\" for \"transcribe new DeltaFosB proteins\", \"stress chemicals called catecholamines\", \"only work on your trauma while you're under that line\" for \"staying within a manageable window of tolerance rather than overwhelming activation\"",
+  "humanized": "the claim, then why, then what to do, in the reader's order; the packed second sentence split where \"There they\" carries on; the Nucleus Accumbens explained where the article first uses it (\"a reward center deep in the brain\"); catecholamines as \"stress chemicals\"; the caveat joined to the clause it qualifies; the advice an order, not \"I'd ... your trauma\", which read as the writer working on the reader's trauma"
+ }
+}

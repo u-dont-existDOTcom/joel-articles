@@ -1,0 +1,35 @@
+[
+ {
+  "key": "p030-032b",
+  "name": "Part 1's intro line with the Red Line's first paragraph, try 2: the two pronouns named",
+  "lineage": "neuro-de-armoring/PAIR-030-032",
+  "scope": "pair",
+  "words": 123,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "642e0c5e16300b47538e15418c6863c95adfb8ecf00d0d9c9ea4fe2b1da02b0c"
+ },
+ {
+  "key": "p032b",
+  "name": "The Red Line's first paragraph by itself, try 3: \"the shift lasts\"",
+  "lineage": "neuro-de-armoring/P032",
+  "scope": "paragraph",
+  "words": 89,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "see the ledger record",
+  "sha256": "2a1a6e25f35b94389166ddb7b8fde40abaaeff062121c123a90556bb1547f8eb"
+ },
+ {
+  "key": "p033b",
+  "name": "The Red Line's second paragraph by itself, try 2: the doubt said once",
+  "lineage": "neuro-de-armoring/P033",
+  "scope": "paragraph",
+  "words": 85,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "see the ledger record",
+  "sha256": "2753baa49654c3c11d477af008f1080ec1b61ad3b1c31f6c2bcd74f6d21cad7c"
+ }
+]

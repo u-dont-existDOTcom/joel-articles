@@ -1,0 +1,35 @@
+[
+ {
+  "key": "p030-032",
+  "name": "Part 1's intro line with the Metabolic Red Line's first paragraph, fixed for sense from their reads",
+  "lineage": "neuro-de-armoring/PAIR-030-032",
+  "scope": "pair",
+  "words": 123,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "see the ledger record",
+  "sha256": "958e3c96c182088f00f917592677393c329bcc018374a4bc686756c0159eb099"
+ },
+ {
+  "key": "p032",
+  "name": "The Metabolic Red Line's first paragraph by itself, fixed for sense from its reads",
+  "lineage": "neuro-de-armoring/P032",
+  "scope": "paragraph",
+  "words": 88,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "deb74523e9af9f69602b6cea448ead2d66c6a84aa8b65c83f64daf1af4f7d45d"
+ },
+ {
+  "key": "p033",
+  "name": "The Metabolic Red Line's second paragraph by itself, fixed for sense from its reads",
+  "lineage": "neuro-de-armoring/P033",
+  "scope": "paragraph",
+  "words": 94,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "8f8e8135536a248ee9bbea405222a8f52e5099be8603e81d1df0b19016d5b5c4"
+ }
+]

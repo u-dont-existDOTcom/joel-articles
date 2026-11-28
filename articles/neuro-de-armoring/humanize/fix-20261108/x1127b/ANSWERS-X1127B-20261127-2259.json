@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261127-x1127b",
+ "title": "Neuro De-Armoring Cards, 27 November (3): the one-sixteenth paragraph and the daily practice, for you to teach me",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1127b/REVIEW-X1127B.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "f8bfa190764df3cad0f3e1e102daed6868be03dc193fb098ad8890cf87d7016b"
+ },
+ "built": "2026-11-27T20:50:28Z",
+ "generator": "suggestion_review.py 1.14 (2026-11-27)",
+ "exported_at": "2026-11-27T22:59:42.131Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "W-SW19",
+   "type": "teach",
+   "title": "The one-sixteenth paragraph: every window High but its last sentence",
+   "where": "Psychology is the Software; Biology is the Hardware., P5",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and who you hang with on most days, or you'll eventually put the armor back on just to get through the loneliness.",
+   "comment": "who you're close to and see most days was hard to parse. i fixed it:\nhttps://www.pangram.com/history/51ceffa5-98f3-4fd5-b160-e438f540d9d8?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "That works out to about one-sixteenth of the grown-ups per child that our brains evolved with ([Perry, 2023](https://issuu.com/familyjusticegroup/docs/20230629_journal_final/s/27001732)). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and see most days, or you'll eventually put the armor back on just to get through the loneliness.",
+   "before": "We are operating on about one-sixteenth of the relational density our biology requires (Perry, 2023). The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-27T22:49:49.393Z"
+    }
+   ],
+   "updated": "2026-11-27T22:52:33.886Z"
+  },
+  {
+   "id": "W-SW23",
+   "type": "teach",
+   "title": "The practice after the Anti-Breakthrough: High but for its last two sentences",
+   "where": "Psychology is the Software; Biology is the Hardware., P8",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is another dimension of micro-dosing.\n\nIn practice, I'd do something like 30 seconds of slow breathing, 20 times a day.",
+   "comment": "last line of 1st para was unclear with what it referred to (no context), and even with the article context it was unclear since i'm not usually talking about time when talking about microdosing (nor are ppl usually talking about it that way. fixed taht:\n\nhttps://www.pangram.com/history/dd157d47-19a1-40a5-95af-1d5d6a9440e3?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nfor the last line, you forgot not to spell out twenty i think that's also a repo rule, ai is always spelling numbers out\n\nbut that didn't help. what helped was \"something like\" since nobody could actually do exactly 30 seconds 20 times, that's unreasonable\n\nhttps://www.pangram.com/history/6bdc6163-1943-4de6-87d1-d398f4431bee?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nIn practice, I'd do 30 seconds of slow breathing, twenty times a day.",
+   "before": "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is what I mean by micro-dosing here.\n\nYour goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. We are not running a marathon; we are doing physical therapy for a broken nervous system. Frequency beats intensity.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-27T22:52:41.861Z"
+    }
+   ],
+   "updated": "2026-11-27T22:58:14.862Z"
+  }
+ ]
+}

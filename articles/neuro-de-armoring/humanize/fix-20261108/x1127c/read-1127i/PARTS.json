@@ -1,0 +1,22 @@
+{
+ "rewrite": "articles/neuro-de-armoring/humanize/fix-20261108/x1127c/read-1127i/REWRITE.md",
+ "original": "articles/neuro-de-armoring/humanize/fix-20261108/x1127c/read-1127i/ORIGINAL.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 216,
+   "original_words": 191,
+   "first": null,
+   "last": null,
+   "rewrite_blocks": [
+    0,
+    2
+   ],
+   "coverage": [
+    "fca4fe31fb48acc6",
+    "1747f4ead9d77a52",
+    "c59307207f17c4c0"
+   ]
+  }
+ ]
+}

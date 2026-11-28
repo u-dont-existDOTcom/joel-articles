@@ -298,6 +298,18 @@ O71 = ('O71 the action comes after the list or questions it serves (Joel 2026-11
 # Human). The bare condition fails; any other "safe" of mine is a flag to look at.
 SAFE_BARE = re.compile(r"\b(?:if|when|once|where|as long as) (?:it's|it is|it’s|that's|that is|that’s|it seems) safe\b|\b(?:if|when) safe\b", re.I)
 SAFE_ANY = re.compile(r"\bsafe(?:ly|ty|r|st)?\b", re.I)
+# O79: a count spelled out before what it counts (lesson neuro-2026-11-06f; lesson neuro-2026-11-27v). Lower case only, so
+# a number word opening a sentence is left alone; "one" is never a count here; what follows has to be a plural or a noun
+# people count ("times", "adults", "days", "people"), not "of", "or", "and" or "to" ("the two of them", "one or
+# two"), and a fraction ("two-thirds", "one-sixteenth") or a compound ("four-year-old") has a hyphen after the word.
+_O79_NOT_PLURAL = r"(?!(?:is|was|has|does|goes|this|thus|us|his|its|as|yes|less|unless|plus|always|perhaps|across|whereas)\b)"
+COUNT_WORD = re.compile(
+    r"(?<![\w-])(?<!one or )((?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)"
+    r"(?:-(?:one|two|three|four|five|six|seven|eight|nine))?"
+    r"|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|"
+    r"nineteen)\s+(?!(?:of|or|and|to|more|less|times? (?:as|more|less))\b)"
+    r"((?:" + _O79_NOT_PLURAL + r"[a-z]+ ){0,2}" + _O79_NOT_PLURAL +
+    r"(?:[a-z]{2,}s|people|children|men|women|feet|teeth|minute|hour|day|week|month|year)\b)")
 O72 = ('O72 "safe" with nothing saying what it refers to or how to make sure (Joel 2026-11-12: "that ai tell \"if it\'s '
        'safe\" which ai says ALLL THE TIME ... make sure it needs to be there and there\'s no ambiguitiy about what it\'s '
        'referring to or how one would ensure that"): say how, the way he did ("If you can safely hold them as they try"), or '
@@ -1382,6 +1394,19 @@ def main():
                      'where it is the exact word and the only one nearby; otherwise a real synonym ("genuinely", '
                      '"authentically") or the word for what the sentence means ("compassionately" fit one sentence of his, '
                      'not every one)', s)
+            # O79 (lesson neuro-2026-11-06f; Joel, 2026-11-06: "I know AI hates using digits and always goes for the spell out
+            # version, altho that's also a cheap fix, so we shouldn't rely on that unless other tells aren't there"; and
+            # 2026-11-27 22:59 UTC, card W-SW23: "you forgot not to spell out twenty i think that's also a repo rule, ai is
+            # always spelling numbers out"; lesson neuro-2026-11-27v). The 06f lesson had no check, so the post's "twenty times
+            # a day" stayed through six tries of the pair. A count spelled out in a sentence of mine, outside quotes, where he
+            # writes the digit ("20 times a day", his "4" for "four"). REVIEW: a cheap fix, which on 2026-11-27 left his pair's
+            # Medium window as it was ("but that didn't help"), so it comes after the order, the links and what a reader could
+            # take two ways, never instead of them.
+            for m79 in COUNT_WORD.finditer(without_quotes(n)):
+                flag('REVIEW', 'O79 "%s %s" spelled out (Joel 2026-11-27: "ai is always spelling numbers out"): the digit, '
+                     'as he writes it ("20 times a day"), once the order, the links and the two-way words are right '
+                     '(lesson neuro-2026-11-06f: "a cheap fix")' % (m79.group(1), m79.group(2)), s)
+                break
             # O67 (E357; Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "removed spaces before "mg" and that helped a bit ...
             # don't think i've seen humans put spaces there")
             if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):

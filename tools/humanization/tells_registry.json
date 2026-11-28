@@ -3369,6 +3369,59 @@
     }
    ],
    "reason": "how strong the relation between two clauses is, opposition or a part of a whole, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its third way)"
+  },
+  {
+   "id": "W134",
+   "tell": "a count spelled out in a sentence of mine (\"twenty times a day\", \"four adults\") where he writes the digit; a cheap fix, after the order and the links",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-06-2350-neuro.md",
+     "quote": "I know AI hates using digits and always goes for the spell out version"
+    },
+    {
+     "file": "docs/lessons/2026-11-27-2259-neuro.md",
+     "quote": "ai is always spelling numbers out"
+    }
+   ],
+   "rule": "O79",
+   "example": "In practice, I'd do 30 seconds of slow breathing, twenty times a day."
+  },
+  {
+   "id": "J91",
+   "tell": "a clause a reader has to reread to see what its verbs hang from (\"gather a tribe of people you're close to and see most days\": \"hard to parse\", cause not given), where he says each verb's subject (\"and who you hang with on most days\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-27-2259-neuro.md",
+     "quote": "who you're close to and see most days was hard to parse. i fixed it"
+    }
+   ],
+   "reason": "whether a reader has to reread a clause to see what its verbs hang from is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its tenth way)"
+  },
+  {
+   "id": "J92",
+   "tell": "a word readers know in one sense used for something else and claimed with \"what I mean by X here\", where he ties the new use to the sense readers know (\"another dimension of micro-dosing\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-27-2259-neuro.md",
+     "quote": "i'm not usually talking about time when talking about microdosing"
+    }
+   ],
+   "reason": "which sense a reader brings to a word, and whether the text says how its use connects to it, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its thirty-first way)"
+  },
+  {
+   "id": "J93",
+   "tell": "an exact figure for a practice nobody could keep exactly (\"30 seconds of slow breathing, 20 times a day\"), where he keeps the figures and puts \"something like\" beside them; never a dose, a limit, a timing a warning rests on, or a figure from a study",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-27-2259-neuro.md",
+     "quote": "nobody could actually do exactly 30 seconds 20 times, that's unreasonable"
+    }
+   ],
+   "reason": "whether a figure is a practice the reader will only approximate or a dose, limit or finding that must stay exact is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its thirty-second way)"
   }
  ]
 }

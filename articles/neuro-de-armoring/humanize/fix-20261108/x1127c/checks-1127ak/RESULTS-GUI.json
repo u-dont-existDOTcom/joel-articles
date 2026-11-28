@@ -1,0 +1,32 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "p033d": {
+   "uuid": "d9eb7768-b356-42f7-985c-ba0dc2911d16",
+   "at": "2026-11-27T23:36:10Z",
+   "headline": "Human Written",
+   "ai": 1.9917339955100033e-07,
+   "words": 83,
+   "windows": [
+    [
+     "Human",
+     "High",
+     50,
+     "So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. Above the line your functional IQ drops a lot, and stress chemicals called catecholamines flood the Nucleus Accumbens, a reward center deep in the brain."
+    ],
+    [
+     "Human",
+     "Low",
+     14,
+     "There they switch on DeltaFosB, the protein researchers suspect holds the armor in place."
+    ],
+    [
+     "Human",
+     "Medium",
+     19,
+     "Only work on your trauma while you're under that line (what trauma therapists call your \"window of tolerance\")."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "bl-sw23": {
+   "uuid": "9caae080-bb30-446b-b141-466a812d9780",
+   "at": "2026-11-27T23:15:40Z",
+   "headline": "Human Written",
+   "ai": 1.913883558825433e-18,
+   "words": 103,
+   "windows": [
+    [
+     "Human",
+     "High",
+     103,
+     "The Anti-Breakthrough (Micro-Dosing): A brain stuck in alarm can often take in healing work for only a few seconds at a time, Perry finds. So for now we have to give up on the hour-long breakthrough that therapy aims for, since an hour spent working on the trauma itself overwhelms an armored nervous system more than it heals it. Instead, this protocol works in doses of a few seconds, which is another kind of micro-dosing, with healing work instead of a drug.\nIn practice, I'd do something like 30 seconds of slow breathing, about 20 times a day."
+    ]
+   ]
+  },
+  "bl-sw19": {
+   "uuid": "06fcee56-ccb0-4794-a54c-ddd0d0563c74",
+   "at": "2026-11-27T23:15:30Z",
+   "headline": "Human Written",
+   "ai": 1.9063971628912605e-27,
+   "words": 92,
+   "windows": [
+    [
+     "Human",
+     "High",
+     92,
+     "That works out to about 1/16th of the grown-ups per child that our brains evolved with (Perry, 2023). So the emptiness you feel (the \"Void\") is real, since it's what that missing company feels like. Once you've de-armored, going back to a lonely life will tend to feel worse than it did with the armor on. So gather a tribe of people you're close to and who you see most days, or you'll eventually put the armor back on just to get through the loneliness."
+    ]
+   ]
+  }
+ }
+}
