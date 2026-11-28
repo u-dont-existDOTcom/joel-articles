@@ -30,11 +30,18 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   checks read back from his history (`HIS-CHECKS-X1127B.json`, one he didn't link: "20" alone, the same windows), the
   apply script (`apply_his_x1127b.py`, the Perry link put back), keep-as-is K9 to K11, two fidelity owner_changes (W019's
   "aggressively" and "High-Density" with the post's sentence; the numeral "20 times"). **Lessons**
-  `docs/lessons/2026-11-27-2259-neuro.md` (s: a second verb after "and" that can hang from the order gets its own "who
-  you"; t: a word used in a new sense is tied to the sense readers know; u: a practice nobody does exactly gets the rough
-  figure, never a dose; v: spelled-out counts now flagged, linter O79, registry W134; w: a sentence already in at High is
-  a suspect when a neighbour's check puts a Medium window over it; x: one rough-figure word for the line);
-  `his_fixes_brief.md` way 10 extended, ways 31 and 32; registry J91 to J93; FIXING-AN-ARTICLE item 15. **The blind
+  `docs/lessons/2026-11-27-2259-neuro.md` (s: a clause a reader has to reread gets each verb's subject said, as his fix
+  did; t: a word used in a new sense is tied to the sense readers know; u: a practice figure nobody could keep exactly
+  keeps its figures with "something like" beside them, never a dose; v: spelled-out counts now flagged, linter O79,
+  registry W134; w: a sentence of mine already in at High is reread for sense when a neighbour's check puts a window
+  below High over it; x: one hedge isn't said twice); `his_fixes_brief.md` way 10 extended, ways 31 and 32 (after main's
+  new way 30); registry J91 to J93; FIXING-AN-ARTICLE item 15. **Main merged at the push** (a679d7a4: bad trips' way 30
+  rewritten for accuracy, lessons bad-trips-2026-11-27l to n, the rules audit in `docs/rules-audit/2026-11-27/`, whose
+  37 questions to him include some neuro rules, `sense_receipt.py`'s `his_answer` relaxed to what he says that bears on
+  his claim); its one conflict was way 30 against ways 31 and 32 (both kept). **The rules check** that main's lesson n
+  asks before a lesson file goes to main: `x1127c/rules-check/` (a fresh Fable reader, four flags on s, u, w and x, all
+  taken: no cause he never gave, no rule for every figure or every "and", no count from one case; the lesson file's last
+  section). **The blind
   test**: `x1127b/replay/RESULTS.md` (ledger #329, #330). **The Psychology section**: SEC-PSYCH#332, Human Written, every
   paragraph High, Medium only over the splits at "vs." (the Role-Self line) and "Dr." (the Gibson paragraph); his
   Anti-Breakthrough by itself (#331) reads High, then Medium over its last sentence, which ends the check there; with
@@ -44,7 +51,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   beside the post (`read-1127g`, `h`, `i`; the last has severity 1 only), the apply script (`apply_x1127c.py`, with
   W020 in `not_cautions`: the intro's "must" warns of nothing), the cards page (`build_cards_x1127c.py`,
   `REVIEW-X1127C.*`, published to https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 1795823173-9edb, card
-  checked visible in headless Chrome), the questions page (version 1795823572-1f47); the comparison gate passes (read-1127g's
+  checked visible in headless Chrome), the questions page (version 1795823572-1f47, then 1795824195-bbb0 for the lessons line after the rules check); the comparison gate passes (read-1127g's
   F1.1 is his, question 78). **How it was pushed**: a git bundle of the turn's commits copied to his laptop
   (`~/claude-acceptance-transfer/neuro-x1127c.bundle`, folder access granted 23:47 UTC), a fresh clone there
   (`~/claude-acceptance-transfer/joel-articles-neuro-x1127c`), the bundle pulled fast-forward, and `lane_push.py` run there with

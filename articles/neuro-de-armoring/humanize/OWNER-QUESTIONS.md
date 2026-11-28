@@ -53,10 +53,12 @@ usual" read [AI Low over that sentence](https://www.pangram.com/history/7b799d18
   [High, then Medium](https://www.pangram.com/history/75361775-0680-4db9-835b-5d71b387ce59), as you said). Your "who you
   hang with on most days", "another dimension of micro-dosing" and "something like 30 seconds ..., 20 times a day" are
   on the keep-as-is list (K9 to K11).
-- 🟢 **Lessons from your comments** (neuro-2026-11-27s to x): a second verb after "and" that can hang from the order
-  before it gets its own "who you"; a word readers know in one sense is tied to that sense, not claimed with "what I
-  mean by"; a practice nobody does exactly gets the rough figure, never a dose or a limit; a sentence already in at
-  High is still mine to change when a neighbour's check puts a Medium window over it. **Spelling numbers out was a
+- 🟢 **Lessons from your comments** (neuro-2026-11-27s to x): a clause you'd have to reread
+  gets each verb's subject said, as your "and who you" did; a word readers know in one sense is tied to that sense, not
+  claimed with "what I mean by"; a practice nobody could keep exactly keeps its figures, with "something like" beside
+  them, never for a dose or a limit; a sentence of mine already in at High is reread for sense when a neighbour's check
+  puts a Medium window over it. **Read before main** by a fresh reader for rules that go past what you said (the bad trips
+  lane's new step): four flags, all taken. **Spelling numbers out was a
   lesson (neuro-2026-11-06f) that nothing checked**, so the linter now flags a spelled-out count (O79). **Tested
   blind:** a fresh writer given only those lessons rewrote both paragraphs as my last tries had them, and both read
   Human High in one window ([1](https://www.pangram.com/history/06fcee56-ccb0-4794-a54c-ddd0d0563c74),

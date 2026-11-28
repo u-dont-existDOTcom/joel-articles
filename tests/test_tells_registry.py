@@ -107,9 +107,9 @@ class RegistryShape(unittest.TestCase):
         # and J86 (the state an act needs, one brand for a medicine) from the same answer (bad-trips-2026-11-23c and e), and
         # J87 (what not to do before what to do) from his round-51 answer of 23:35 UTC (bad-trips-2026-11-23h); J88 (points
         # out of their natural order, lines the section doesn't need) from his Two Pillars fix, his seventh-page answer of
-        # 2026-11-24 02:06 UTC (romance-2026-11-24a); W134 (O79, a count spelled out) and J91 to J93 (a second verb that can
-        # hang from the order, a word used in a sense readers don't bring, an exact figure for a practice nobody does
-        # exactly) from his neuro de-armoring cards of 2026-11-27 22:59 UTC (neuro-2026-11-27s to v)
+        # 2026-11-24 02:06 UTC (romance-2026-11-24a); W134 (O79, a count spelled out) and J91 to J93 (a clause a reader
+        # has to reread to see what its verbs hang from, a word used in a sense readers don't bring, an exact figure for a
+        # practice nobody could keep exactly) from his neuro de-armoring cards of 2026-11-27 22:59 UTC (neuro-2026-11-27s to v)
         self.assertEqual(len(ids), 227)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 134)

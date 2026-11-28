@@ -3389,7 +3389,7 @@
   },
   {
    "id": "J91",
-   "tell": "a second verb after \"and\" that a reader can hang from the order before it (\"gather a tribe of people you're close to and see most days\"), where he says the relative words again (\"and who you hang with on most days\")",
+   "tell": "a clause a reader has to reread to see what its verbs hang from (\"gather a tribe of people you're close to and see most days\": \"hard to parse\", cause not given), where he says each verb's subject (\"and who you hang with on most days\")",
    "kind": "judgment",
    "sources": [
     {
@@ -3397,7 +3397,7 @@
      "quote": "who you're close to and see most days was hard to parse. i fixed it"
     }
    ],
-   "reason": "what a verb hangs from, and whether a quick reader could hang it elsewhere, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its tenth way)"
+   "reason": "whether a reader has to reread a clause to see what its verbs hang from is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its tenth way)"
   },
   {
    "id": "J92",
@@ -3413,7 +3413,7 @@
   },
   {
    "id": "J93",
-   "tell": "an exact figure for a practice nobody does exactly (\"30 seconds of slow breathing, 20 times a day\"), where he gives the rough figure (\"something like\"); never a dose, a limit, a timing a warning rests on, or a figure from a study",
+   "tell": "an exact figure for a practice nobody could keep exactly (\"30 seconds of slow breathing, 20 times a day\"), where he keeps the figures and puts \"something like\" beside them; never a dose, a limit, a timing a warning rests on, or a figure from a study",
    "kind": "judgment",
    "sources": [
     {
