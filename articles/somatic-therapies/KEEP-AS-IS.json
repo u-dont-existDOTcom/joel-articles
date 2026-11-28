@@ -1,0 +1,17 @@
+{
+ "format": "joel-keep-as-is-v1",
+ "article": "articles/somatic-therapies/experiments/additions-20261126/apply-c1128/LIVE-SOMATIC-20261128.md",
+ "keep": [
+  {
+   "id": "K1",
+   "kind": "choice",
+   "quote": "at least in veterans over age 60",
+   "what": "The trial behind it (Yarns et al. 2024) took veterans aged 60 to 95, so a pass can flag \"over age 60\" as leaving out 60-year-olds and offer \"60 and over\". He reads \"over age 60\" as past their 60th birthday, and the exact form reads more AI and is harder for a reader to parse; it stays.",
+   "joel": "60 and over sounds more ai lol, also harder to parse for readers, so i'd just leave it at that (over age 60 can also mean past their 60th birthday so i think you're nitpicking)",
+   "when": "2026-11-28 09:44 UTC",
+   "where": "his message on the report of the turn of 2026-11-27 22:26 UTC (\"Pain That Won't Quit?\", his section live since 22:45 UTC)",
+   "basis": "his answer"
+  }
+ ],
+ "cuts": []
+}

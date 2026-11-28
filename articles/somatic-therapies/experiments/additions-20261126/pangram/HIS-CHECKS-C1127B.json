@@ -1,0 +1,16 @@
+{
+ "about": "His own check of his answer on card A1-TEACH-2 (answers/ANSWERS-C1127B-A1-20261128-0944.json), read back from his Pangram history by the link in his comment (the browser pane, his account, 2026-11-28).",
+ "checks": [
+  {
+   "key": "a1-sec-his",
+   "covers": "the whole section, his version as he sent it (plain text, no links)",
+   "link": "https://www.pangram.com/history/f8c3bc68-d6eb-4694-ba54-2671741ab8c6",
+   "sha256": "2f545bb2abcdf361fbf21b9f2fe6d1f9805e800d1107eb39d758d743a6ed4fdc",
+   "headline": "Human Written",
+   "ai_likelihood": 0,
+   "words": 328,
+   "windows": [{"label": "Human", "confidence": "High", "words": 328}],
+   "his_notes": "AEDP was too vague (stays with you). / \"what that's like\" was too vague / \"all three\" vague referent, and not the best connecting intro"
+  }
+ ]
+}

@@ -71,6 +71,41 @@
     }
    ],
    "recorded_utc": "2026-11-27T22:28Z"
+  },
+  {
+   "turn": "2026-11-28T09:44Z",
+   "lines_of_work": [
+    "the somatic additions: his answer on A1-TEACH-2 (Revise, his version of the whole section, his check f8c3bc68) and his two notes (leave his 'over age 60'; carry the changes into the Self-Hypnosis guide once the additions are done)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ on main (universal-dev-architecture unchanged at 3fce032): the same 6 items, all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "issues and pull requests since 23:10 UTC yesterday: 574 (this lane's) merged; 575 to 579 (bad trips, neuro de-armoring with community, romance) merged, none addressed to this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "~/claude-acceptance-transfer/handoffs/somatic-therapies.md: unchanged since my write of 23:15 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "main's merge of pull requests 575 to 579, merged in at the turn's start",
+     "outcome": "read: ways 31 and 32 of tools/humanization/his_fixes_brief.md (a word readers know in one sense used in another; an exact figure for a practice nobody could keep); sense receipts' his_answer now about what he means, not every word (lesson bad-trips-2026-11-27m); lessons bad-trips-2026-11-27l to n (n: a lesson's method is the reason he gave, in his words, and a new lesson is read with tools/humanization/rules_check_brief.md before it goes to main) and neuro-2026-11-27s to x; the rules audit of 2026-11-27 on his questions page; n and the brief apply to this turn's lessons from his A1 fixes"
+    }
+   ],
+   "recorded_utc": "2026-11-28T09:45Z"
   }
  ]
 }
